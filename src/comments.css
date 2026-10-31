@@ -1,0 +1,26 @@
+.comment-tools{position:absolute;left:18px;top:108px;z-index:9;display:flex;gap:6px;flex-wrap:wrap;max-width:calc(100% - 85px)}
+.comment-tools button{border:1px solid #879e8b;background:#faf8efee;border-radius:5px;padding:10px 13px;font-size:12px;min-height:40px;box-shadow:0 2px 9px #183d3810}
+.comment-tools .comment-add[aria-pressed=true]{background:#183d38;color:#fff}
+.comment-tools p{flex-basis:100%;margin:0;padding:9px 12px;background:#fffbedf5;border:1px solid #d5c59e;border-radius:4px;font-size:12px;line-height:1.5;max-width:360px}
+.comment-placing #scene canvas{cursor:crosshair!important}
+.comment-placing #labels,.comment-placing #route-labels{pointer-events:none!important}
+.comment-placing #labels button,.comment-placing #route-labels button{pointer-events:none!important}
+.comment-markers{position:absolute;inset:0;pointer-events:none;z-index:7}
+.comment-pin{position:absolute;pointer-events:auto;transform:translate(-50%,-100%);width:32px;height:35px;border:2px solid #fff;border-radius:50% 50% 50% 3px;background:#a75d37;color:#fff;font-size:12px;font-weight:bold;box-shadow:0 2px 7px #183d3860}
+.comment-placing .comment-pin{pointer-events:none}
+.comment-dialog{position:fixed;inset:0;width:min(500px,calc(100vw - 30px));max-height:85dvh;margin:auto;padding:28px;border:1px solid #b7c6b5;border-radius:9px;background:#f7f6ef;color:#243d37;overflow:auto;box-shadow:0 18px 80px #112c3540}
+.comment-dialog::backdrop{background:#15372d65}
+.comment-dialog h2{font:26px Georgia,serif;margin:0 25px 20px 0}
+.comment-dialog .comment-close{position:absolute;top:12px;right:12px;border:0;background:transparent;font-size:27px;min-width:40px;min-height:40px}
+.comment-dialog label{display:block;font-size:13px;font-weight:bold;margin:18px 0 8px}
+.comment-dialog input,.comment-dialog textarea{width:100%;padding:12px;border:1px solid #a6b6a2;border-radius:4px;background:#fffef8;color:#243d37;font:16px/1.5 Arial,sans-serif}
+.comment-dialog textarea{resize:vertical;min-height:130px}
+.comment-dialog textarea:focus-visible{outline:3px solid #c57d40;outline-offset:3px}
+.comment-dialog button:not(.comment-close){padding:10px 14px;border:1px solid #9baf98;border-radius:4px;background:#fffdf5;min-height:42px;font-size:13px}
+.comment-dialog button.comment-primary{background:#183d38;color:white;border-color:#183d38}
+.comment-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}
+.comment-meta{font-size:12px;line-height:1.6;color:#66735f}
+.comment-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;line-height:1.7}
+.comment-error{font-size:13px;line-height:1.5;color:#933a26}
+.comment-entry{border-top:1px solid #d9ded1;padding:15px 0}
+@media(max-width:700px){.comment-tools{top:148px;left:12px;max-width:calc(100% - 70px)}.comment-tools button{font-size:11px;padding:8px}.comment-tools p{font-size:11px;padding:6px 8px}.comment-dialog{padding:22px}}

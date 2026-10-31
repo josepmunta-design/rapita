@@ -23,6 +23,7 @@ import {planToUTM} from './building-plan.mjs';
 import {townToUTM} from './housing-plan.mjs';
 import {porxosEvidenceHTML,type PorxosEvidence} from './porxos-evidence';
 import {makePicker} from './picking';
+import {makeComments} from './comments';
 import {makePlan1748,type PlanData} from './plan1748';
 import {makeDossierPanel,modelLookup,type Dossier,type DossierData} from './dossiers';
 import './style.css';
@@ -462,7 +463,10 @@ async function start() {
   openHousing=()=>{urbanFocus=null;mountainFocus=false;landmarkFocus=null;littoralFocus=null;selectedLittoral=null;laboratory=false;housingFocus=true;centerFocus=false;selectedCenter=null;el<HTMLInputElement>('housing-toggle').checked=true;activateTab('housing');updateVisibility();move(housingViewTarget().add(housingViewOffset()),housingViewTarget());setView('oblique');};
   // Selecció d'edificis: vora en passar-hi per sobre i expedient lateral en fer clic.
   const dossierData=await dossierPromise,lookup=modelLookup(dossierData),modelObjects=new Map<string,THREE.Object3D>();
-  const picker=makePicker({renderer,camera,scene,tooltip:el('pick-tooltip'),enabled:()=>!walking.active&&!dialog.open,onSelect:(target,info)=>{if(target&&info){picker.setSelection([target]);panel.open(lookup(info.modelId));}else{picker.setSelection([]);panel.close();}}});
+  const comments=makeComments({canvas:renderer.domElement,camera,scene,origin:meta.origin,year:()=>sceneYear,
+    enabled:()=>!walking.active&&!dialog.open,onStart:()=>{picker.hide();panel.close();},
+    focus:point=>move(point.clone().add(new THREE.Vector3(120,100,140)),point)});
+  const picker=makePicker({renderer,camera,scene,tooltip:el('pick-tooltip'),enabled:()=>!walking.active&&!dialog.open&&!comments.active,onSelect:(target,info)=>{if(target&&info){picker.setSelection([target]);panel.open(lookup(info.modelId));}else{picker.setSelection([]);panel.close();}}});
   const registerModel=(object:THREE.Object3D|undefined,id:string|undefined)=>{if(!object||!id)return;const found=lookup(id);if(!found.length)return;modelObjects.set(id,object);picker.register(object,{modelId:id,label:found[0].name});};
   for(const g of housing.children)registerModel(g,g.userData.structureId);
   earlyTown.root.traverse(o=>{if(o.userData.structureId)registerModel(o,o.userData.structureId);});
@@ -600,6 +604,7 @@ async function start() {
     life.update(dt);
     if(walking.active)walking.update(dt);else controls.update();renderer.render(scene,camera);
     if(!walking.active)picker.renderHighlights();
+    comments.update();
     const rect=host.getBoundingClientRect();
     for(const label of routeLabels){const p=label.position.clone().project(camera),x=(p.x*.5+.5)*rect.width,y=(-p.y*.5+.5)*rect.height;label.button.hidden=littoralFocus!=='canal'||!el<HTMLInputElement>('landscape-toggle').checked||!chronologyAt(chronologyData,sceneYear).showCanal||p.z>=1||x<15||x>rect.width-15||y<15||y>rect.height-55;label.button.style.left=`${Math.min(rect.width-130,x+15)}px`;label.button.style.top=`${y}px`;}
     const occupied:{x:number;y:number}[]=[];
