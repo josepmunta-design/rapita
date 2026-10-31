@@ -12,7 +12,7 @@ export function validateComment(body) {
 export default async function handler(req,res) {
   res.setHeader('Cache-Control','no-store');
   res.setHeader('X-Content-Type-Options','nosniff');
-  if(!['GET','POST'].includes(req.method)){res.setHeader('Allow','GET, POST');return res.status(405).json({error:'Mètode no permès.'});}
+  if(!['GET','POST','DELETE'].includes(req.method)){res.setHeader('Allow','GET, POST, DELETE');return res.status(405).json({error:'Mètode no permès.'});}
   const url=process.env.KV_REST_API_URL||process.env.UPSTASH_REDIS_REST_URL;
   const token=process.env.KV_REST_API_TOKEN||process.env.UPSTASH_REDIS_REST_TOKEN;
   if(!url||!token)return res.status(503).json({error:'Els comentaris compartits encara no estan disponibles. Torna-ho a provar més tard.'});
@@ -28,11 +28,21 @@ export default async function handler(req,res) {
     if(!req.headers['content-type']?.startsWith('application/json'))return res.status(415).json({error:'Format no vàlid.'});
     if(Number(req.headers['content-length']||0)>16000)return res.status(413).json({error:'El comentari és massa llarg.'});
     let body=req.body;if(typeof body==='string'){try{body=JSON.parse(body);}catch{return res.status(400).json({error:'Comentari no vàlid.'});}}
-    const input=validateComment(body);if(!input)return res.status(400).json({error:'Escriu un text de fins a 2.000 caràcters i selecciona un punt vàlid del mapa.'});
+    const deleting=req.method==='DELETE';
+    const input=deleting?null:validateComment(body);
+    if(deleting&&(!body||typeof body.id!=='string'||!/^[a-f0-9-]{36}$/i.test(body.id)))return res.status(400).json({error:'Tria un comentari vàlid per esborrar-lo.'});
+    if(!deleting&&!input)return res.status(400).json({error:'Escriu un text de fins a 2.000 caràcters i selecciona un punt vàlid del mapa.'});
     const ip=String(req.headers['x-forwarded-for']||req.headers['x-real-ip']||'unknown').split(',')[0].trim();
     const hash=createHash('sha256').update(`${token}:${ip}`).digest('hex').slice(0,24);
-    const allowed=await redis(['SET',`rapita:comment-rate:${hash}`,'1','EX',5,'NX']);
+    const allowed=await redis(['SET',`rapita:comment-rate:${req.method}:${hash}`,'1','EX',deleting?1:5,'NX']);
     if(!allowed){res.setHeader('Retry-After','5');return res.status(429).json({error:'Espera uns segons abans de desar un altre comentari.'});}
+    if(deleting){
+      const records=await redis(['ZRANGE',KEY,0,999,'REV']);
+      const record=(records||[]).find(value=>{try{const item=JSON.parse(value);return validateComment(item)&&item.id===body.id;}catch{return false;}});
+      if(!record)return res.status(404).json({error:'Aquest comentari ja no existeix. Actualitza la llista.'});
+      await redis(['ZREM',KEY,record]);
+      return res.status(200).json({deleted:true});
+    }
     const comment={...input,id:randomUUID(),createdAt:new Date().toISOString()};
     await redis(['ZADD',KEY,Date.now(),JSON.stringify(comment)]);
     return res.status(201).json({comment});

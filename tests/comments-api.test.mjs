@@ -20,6 +20,7 @@ test('shared comment API persists, retrieves, rate limits and fails honestly',as
     if(command[0]==='SET')result=allow?'OK':null;
     else if(command[0]==='ZADD'){records.push(command[3]);result=1;}
     else if(command[0]==='ZRANGE')result=records;
+    else if(command[0]==='ZREM'){records=records.filter(record=>record!==command[2]);result=1;}
     else throw new Error('Unexpected command');
     return {ok:true,json:async()=>({result})};
   };
@@ -30,7 +31,11 @@ test('shared comment API persists, retrieves, rate limits and fails honestly',as
     records.push('broken',JSON.stringify({...saved,easting:null}));res=response();await handler(request('GET'),res);assert.equal(res.body.comments.length,1);
     res=response();await handler(request('POST',{...point,text:''}),res);assert.equal(res.code,400);
     const foreign=request('POST',point);foreign.headers.origin='https://elsewhere.example';res=response();await handler(foreign,res);assert.equal(res.code,403);
-    res=response();await handler(request('DELETE'),res);assert.equal(res.code,405);
+    res=response();await handler(request('PATCH'),res);assert.equal(res.code,405);
+    res=response();await handler(request('DELETE',{id:'invalid'}),res);assert.equal(res.code,400);
+    res=response();await handler(request('DELETE',{id:saved.id}),res);assert.equal(res.code,200);assert.equal(res.body.deleted,true);
+    res=response();await handler(request('GET'),res);assert.equal(res.body.comments.length,0);
+    res=response();await handler(request('DELETE',{id:saved.id}),res);assert.equal(res.code,404);
     allow=false;res=response();await handler(request('POST',point),res);assert.equal(res.code,429);assert.equal(res.headers['Retry-After'],'5');
     globalThis.fetch=async()=>{throw new Error('Offline');};res=response();await handler(request('POST',point),res);assert.equal(res.code,503);assert.equal(res.body.comment,undefined);
   } finally {globalThis.fetch=oldFetch;if(oldURL===undefined)delete process.env.KV_REST_API_URL;else process.env.KV_REST_API_URL=oldURL;if(oldToken===undefined)delete process.env.KV_REST_API_TOKEN;else process.env.KV_REST_API_TOKEN=oldToken;}

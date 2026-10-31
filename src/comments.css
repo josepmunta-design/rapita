@@ -1,7 +1,7 @@
-.comment-tools{position:absolute;left:18px;top:108px;z-index:9;display:flex;gap:6px;flex-wrap:wrap;max-width:calc(100% - 85px)}
-.comment-tools button{border:1px solid #879e8b;background:#faf8efee;border-radius:5px;padding:10px 13px;font-size:12px;min-height:40px;box-shadow:0 2px 9px #183d3810}
-.comment-tools .comment-add[aria-pressed=true]{background:#183d38;color:#fff}
-.comment-tools p{flex-basis:100%;margin:0;padding:9px 12px;background:#fffbedf5;border:1px solid #d5c59e;border-radius:4px;font-size:12px;line-height:1.5;max-width:360px}
+.comment-tools{display:contents}
+.comment-tools .comment-add[aria-pressed=true]{background:#f5f2e3;color:#183d38}
+.comment-tools .comment-visibility[aria-pressed=false]{opacity:.75}
+.comment-status{position:absolute;top:108px;left:18px;z-index:9;margin:0;padding:9px 12px;background:#fffbedf5;border:1px solid #d5c59e;border-radius:4px;font-size:12px;line-height:1.5;max-width:min(360px,calc(100% - 80px))}
 .comment-placing #scene canvas{cursor:crosshair!important}
 .comment-placing #labels,.comment-placing #route-labels{pointer-events:none!important}
 .comment-placing #labels button,.comment-placing #route-labels button{pointer-events:none!important}
@@ -23,4 +23,5 @@
 .comment-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;line-height:1.7}
 .comment-error{font-size:13px;line-height:1.5;color:#933a26}
 .comment-entry{border-top:1px solid #d9ded1;padding:15px 0}
-@media(max-width:700px){.comment-tools{top:148px;left:12px;max-width:calc(100% - 70px)}.comment-tools button{font-size:11px;padding:8px}.comment-tools p{font-size:11px;padding:6px 8px}.comment-dialog{padding:22px}}
+.comment-dialog button.comment-delete{color:#933a26;border-color:#c8a090;margin-left:10px}
+@media(max-width:700px){.comment-status{top:148px;left:12px;font-size:11px;padding:6px 8px}.comment-dialog{padding:22px}}

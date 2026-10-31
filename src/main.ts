@@ -27,6 +27,7 @@ import {makeComments} from './comments';
 import {makePlan1748,type PlanData} from './plan1748';
 import {makeDossierPanel,modelLookup,type Dossier,type DossierData} from './dossiers';
 import './style.css';
+import './sidebar';
 
 type Place = { geometry: { coordinates: number[] }; properties: {
   id: string; name: string; shortName: string; category: string; description: string;

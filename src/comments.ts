@@ -18,14 +18,15 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
   focus:(point:THREE.Vector3)=>void;onStart:()=>void}) {
   const {canvas,camera,scene,origin}=opts,viewport=canvas.closest<HTMLElement>('.viewport')!;
   const toolbar=document.createElement('div');toolbar.className='comment-tools';
-  toolbar.innerHTML='<button type="button" class="comment-add" aria-pressed="false">＋ Afegir comentari</button><button type="button" class="comment-list">Comentaris</button><p role="status" aria-live="polite" hidden></p>';
-  viewport.append(toolbar);
-  const add=toolbar.querySelector<HTMLButtonElement>('.comment-add')!,list=toolbar.querySelector<HTMLButtonElement>('.comment-list')!,status=toolbar.querySelector('p')!;
+  toolbar.innerHTML='<button type="button" class="header-button comment-add" aria-pressed="false">＋ Afegir comentari</button><button type="button" class="header-button comment-list">Comentaris</button><button type="button" class="header-button comment-visibility" aria-pressed="true">Amaga comentaris</button>';
+  document.getElementById('header-comments')!.append(toolbar);
+  const add=toolbar.querySelector<HTMLButtonElement>('.comment-add')!,list=toolbar.querySelector<HTMLButtonElement>('.comment-list')!,visibility=toolbar.querySelector<HTMLButtonElement>('.comment-visibility')!;
+  const status=document.createElement('p');status.className='comment-status';status.setAttribute('role','status');status.setAttribute('aria-live','polite');status.hidden=true;viewport.append(status);
   const markers=document.createElement('div');markers.className='comment-markers';viewport.append(markers);
   const modal=document.createElement('dialog');modal.className='comment-dialog';modal.setAttribute('aria-labelledby','comment-title');
   document.body.append(modal);
   let armed=false,items:Comment[]=[],pins:{button:HTMLButtonElement;point:THREE.Vector3}[]=[],press:{x:number;y:number;id:number}|null=null;
-  let ready=false,busy=false,lastRefresh=0;
+  let ready=false,busy=false,lastRefresh=0,showMarkers=true;
   const date=new Intl.DateTimeFormat('ca-ES',{dateStyle:'medium',timeStyle:'short'});
   const world=(p:Point)=>new THREE.Vector3(p.easting-origin.easting,p.elevation-origin.elevation,origin.northing-p.northing);
   const message=(text:string)=>{status.textContent=text;status.hidden=!text;};
@@ -34,7 +35,20 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
   const open=()=>{if(!modal.open)modal.showModal();};
   const renderPins=()=>{markers.replaceChildren();pins=items.map((item,i)=>{const button=document.createElement('button');button.type='button';button.className='comment-pin';button.textContent=String(i+1);button.title=item.text;button.setAttribute('aria-label',`Comentari de ${item.author||'visitant'}: ${item.text.slice(0,100)}`);button.onclick=()=>showItem(item);markers.append(button);return{button,point:world(item)};});list.textContent=`Comentaris (${items.length})`;};
   const details=(item:Comment,parent:HTMLElement)=>{const p=document.createElement('p');p.className='comment-text';p.textContent=item.text;const info=document.createElement('p');info.className='comment-meta';info.textContent=`${item.author||'Visitant'} · ${date.format(new Date(item.createdAt))} · Escena de ${item.year}`;parent.append(p,info);};
-  const showItem=(item:Comment)=>{setArmed(false);heading('Comentari al mapa');details(item,modal);const focus=document.createElement('button');focus.type='button';focus.className='comment-primary';focus.textContent='Centra aquest punt';focus.onclick=()=>{modal.close();opts.focus(world(item));};modal.append(focus);open();};
+  const setMarkers=(show:boolean)=>{showMarkers=show;markers.hidden=!show||!opts.enabled();visibility.setAttribute('aria-pressed',String(show));visibility.textContent=show?'Amaga comentaris':'Mostra comentaris';};
+  const deleteButton=(item:Comment,parent:HTMLElement,closeAfter=false)=>{
+    const button=document.createElement('button');button.type='button';button.className='comment-delete';button.textContent='Esborrar';
+    const error=document.createElement('p');error.className='comment-error';error.setAttribute('role','alert');error.hidden=true;
+    button.onclick=async()=>{
+      if(busy||!window.confirm('Vols esborrar aquest comentari del mapa compartit?'))return;
+      busy=true;button.disabled=true;button.textContent='Esborrant…';error.hidden=true;
+      try {await commentResponse(await fetch('/api/comments',{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:item.id})}));items=items.filter(comment=>comment.id!==item.id);renderPins();if(closeAfter)modal.close();else parent.remove();message('Comentari esborrat del mapa compartit.');}
+      catch(cause){error.textContent=cause instanceof Error?cause.message:'No s’ha pogut esborrar el comentari.';error.hidden=false;}
+      finally{busy=false;button.disabled=false;button.textContent='Esborrar';}
+    };
+    parent.append(button,error);
+  };
+  const showItem=(item:Comment)=>{setArmed(false);heading('Comentari al mapa');details(item,modal);const focus=document.createElement('button');focus.type='button';focus.className='comment-primary';focus.textContent='Centra aquest punt';focus.onclick=()=>{modal.close();setMarkers(true);opts.focus(world(item));};modal.append(focus);deleteButton(item,modal,true);open();};
   async function refresh() {
     if(busy)return;
     try {const data=await commentResponse(await fetch('/api/comments',{cache:'no-store'}));
@@ -47,7 +61,7 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
     if(!ready){const error=document.createElement('p');error.textContent=status.textContent;modal.append(error);const retry=document.createElement('button');retry.textContent='Torna-ho a provar';retry.onclick=showList;modal.append(retry);return;}
     const note=document.createElement('p');note.className='comment-meta';note.textContent='Comentaris compartits amb totes les persones que obren el mapa.';modal.append(note);
     if(!items.length){const empty=document.createElement('p');empty.textContent='Encara no hi ha comentaris. Afegeix el primer en un punt del mapa.';modal.append(empty);}
-    for(const item of items){const article=document.createElement('article');article.className='comment-entry';details(item,article);const button=document.createElement('button');button.type='button';button.textContent='Veure al mapa ↗';button.onclick=()=>{modal.close();opts.focus(world(item));};article.append(button);modal.append(article);}
+    for(const item of items){const article=document.createElement('article');article.className='comment-entry';details(item,article);const button=document.createElement('button');button.type='button';button.textContent='Veure al mapa ↗';button.onclick=()=>{modal.close();setMarkers(true);opts.focus(world(item));};article.append(button);deleteButton(item,article);modal.append(article);}
   };
   function compose(point:Point) {
     heading('Afegir comentari');
@@ -59,13 +73,13 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
     textarea.focus();
     form.onsubmit=async event=>{event.preventDefault();if(busy)return;const text=textarea.value.trim();if(!text){textarea.setCustomValidity('Escriu un comentari.');textarea.reportValidity();return;}
       busy=true;submit.disabled=true;submit.textContent='Desant…';error.hidden=true;
-      try {const data=await commentResponse(await fetch('/api/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...point,text,author:form.querySelector<HTMLInputElement>('input')!.value.trim()})}));if(!data.comment||typeof data.comment.id!=='string')throw new Error('No s’ha confirmat el desat. Torna-ho a provar.');items=[data.comment,...items.filter(item=>item.id!==data.comment.id)];renderPins();modal.close();message('Comentari desat i compartit.');}
+      try {const data=await commentResponse(await fetch('/api/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...point,text,author:form.querySelector<HTMLInputElement>('input')!.value.trim()})}));if(!data.comment||typeof data.comment.id!=='string')throw new Error('No s’ha confirmat el desat. Torna-ho a provar.');items=[data.comment,...items.filter(item=>item.id!==data.comment.id)];setMarkers(true);renderPins();modal.close();message('Comentari desat i compartit.');}
       catch(cause){error.textContent=cause instanceof Error?cause.message:'No s’ha pogut desar. Torna-ho a provar.';error.hidden=false;}
       finally{busy=false;submit.disabled=false;submit.textContent='Desa el comentari';}
     };
     textarea.oninput=()=>textarea.setCustomValidity('');
   }
-  add.onclick=()=>{if(armed){setArmed(false);return;}opts.onStart();setArmed(true);};list.onclick=showList;
+  add.onclick=()=>{if(armed){setArmed(false);return;}opts.onStart();setArmed(true);};list.onclick=showList;visibility.onclick=()=>setMarkers(!showMarkers);
   modal.addEventListener('cancel',event=>{if(busy)event.preventDefault();});
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&armed)setArmed(false);});
   canvas.addEventListener('pointerdown',event=>{if(armed&&event.isPrimary&&event.button===0)press={x:event.clientX,y:event.clientY,id:event.pointerId};else press=null;},true);
@@ -84,7 +98,7 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
   window.addEventListener('focus',refreshIfVisible);document.addEventListener('visibilitychange',refreshIfVisible);setInterval(refreshIfVisible,60000);
   void refresh();
   return {get active(){return armed||modal.open;},update:()=>{
-    const enabled=opts.enabled();toolbar.hidden=!enabled;markers.hidden=!enabled;
+    const enabled=opts.enabled();toolbar.hidden=!enabled;markers.hidden=!enabled||!showMarkers;
     if(!enabled&&armed)setArmed(false);
     const rect=canvas.getBoundingClientRect();for(const pin of pins){const p=pin.point.clone().project(camera),x=(p.x*.5+.5)*rect.width,y=(-p.y*.5+.5)*rect.height;pin.button.hidden=p.z< -1||p.z>1||x<12||x>rect.width-12||y<20||y>rect.height-15;pin.button.style.left=`${x}px`;pin.button.style.top=`${y}px`;}
   }};

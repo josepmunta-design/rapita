@@ -11,16 +11,21 @@
     <header class="masthead">
       <a class="identity" href="./" aria-label="La Ràpita 1800, inici"><span class="brand-mark" aria-hidden="true">R<span>1800</span></span><span>LA RÀPITA<small>ATLES DE RECONSTRUCCIÓ</small></span></a>
       <div class="period">Un territori. Un projecte inacabat.<span>DEL DOCUMENT AL PAISATGE · CAP AL 1800</span></div>
-      <button id="dossier-index" class="header-button">Expedients <span aria-hidden="true">→</span></button>
-      <button id="method-open" class="header-button">Mètode i fonts <span aria-hidden="true">↗</span></button>
+      <nav class="header-actions" aria-label="Eines del mapa">
+        <button id="sidebar-toggle" class="header-button" aria-expanded="false" aria-controls="exploration-panel">☰ Explora</button>
+        <div id="header-comments"></div>
+        <button id="dossier-index" class="header-button">Expedients <span aria-hidden="true">→</span></button>
+        <button id="method-open" class="header-button">Mètode i fonts <span aria-hidden="true">↗</span></button>
+      </nav>
     </header>
     <section class="timebar" aria-label="Cronologia de la reconstrucció">
       <div class="time-year"><span class="eyebrow">ANY DE L’ESCENA</span><output id="year-value" for="year-slider">1800</output></div>
       <div class="time-range"><label class="sr-only" for="year-slider">Any de la reconstrucció, de 1778 a 1950</label><input id="year-slider" type="range" min="0" max="60" step="1" value="22" aria-describedby="time-note"><div class="time-stops" id="time-stops"></div></div>
       <div class="time-description"><strong id="time-stage"></strong><span id="time-note"></span><button id="time-evidence" class="inline-link">Com es llegeix la cronologia →</button></div>
     </section>
-    <main class="workspace">
-      <aside class="sidebar" aria-label="Exploració del territori">
+    <main class="workspace sidebar-closed">
+      <aside id="exploration-panel" class="sidebar" aria-label="Exploració del territori" hidden>
+        <button id="sidebar-close" type="button" class="sidebar-close">Tanca el panell <span aria-hidden="true">×</span></button>
         <div class="intro"><span class="eyebrow">QUADERN DE CAMP / 08</span><h1>Entre terra<br> <em>i aigua.</em></h1><p>El Roquer, una defensa inacabada i el canal que havia d’enllaçar amb l’Ebre.</p><span class="phase"><i></i> Document de 1794 · escenari cap al 1800</span></div>
         <div class="tabs" role="tablist" aria-label="Tauler d’exploració"><button id="places-tab" role="tab" aria-selected="true" aria-controls="places-panel">Llocs</button><button id="layers-tab" role="tab" aria-selected="false" aria-controls="layers-panel" tabindex="-1">Capes</button><button id="housing-tab" role="tab" aria-selected="false" aria-controls="housing-panel" tabindex="-1">Habitatges</button><button id="building-tab" role="tab" aria-selected="false" aria-controls="building-panel" tabindex="-1">Edificis</button><button id="urban-tab" role="tab" aria-selected="false" aria-controls="urban-panel" tabindex="-1">Trama</button><button id="littoral-tab" role="tab" aria-selected="false" aria-controls="littoral-panel" tabindex="-1">Litoral</button></div>
         <section id="places-panel" role="tabpanel" aria-labelledby="places-tab"><div class="section-label">REFERÈNCIES DE L’ASSENTAMENT</div><nav id="places" aria-label="Punts d’interès"></nav></section>
