@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "source": "elevacions-terreny-lidar-Catalunya-50cm-2021-2023tif1793275473132.tif",
+  "sourceSha256": "d0bb7c61e36b7c638c2a9b3ec52bdf21ce7331647f146084901f23c7ddb810cf",
+  "sourcePeriod": "2021–2023",
+  "verticalDatum": "Pendiente de contraste con ficha del producto ICGC; cotas nativas sin transformar.",
+  "width": 121,
+  "height": 121,
+  "step": 2,
+  "west": 295825.25,
+  "north": 4499014.75,
+  "extent": [
+    295825.25,
+    4498774.75,
+    296065.25,
+    4499014.75
+  ],
+  "origin": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "elevation": 0
+  },
+  "encoding": "float32-le",
+  "rowOrder": "north-to-south",
+  "noData": -9999,
+  "sampling": "Una muestra nativa cada 4 píxeles (2 m). Sin interpolación, relleno ni modificación histórica.",
+  "historicalCorrections": [],
+  "validCount": 14641,
+  "sampleCount": 14641,
+  "minimum": 17.110000610351562,
+  "maximum": 30.562999725341797,
+  "heights": "esglesia-terrain.f32",
+  "validity": "esglesia-terrain.valid.u8",
+  "id": "esglesia-detail",
+  "boundary": "Retícula anidada en el MDT de 10 m. La escena recorta el terreno grueso bajo este parche y triangula un borde común sin modificar alturas nativas."
+}

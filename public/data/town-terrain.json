@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "source": "elevacions-terreny-lidar-Catalunya-50cm-2021-2023tif1793275473132.tif",
+  "sourceSha256": "d0bb7c61e36b7c638c2a9b3ec52bdf21ce7331647f146084901f23c7ddb810cf",
+  "sourcePeriod": "2021–2023",
+  "verticalDatum": "Pendiente de contraste con ficha del producto ICGC; cotas nativas sin transformar.",
+  "width": 226,
+  "height": 251,
+  "step": 2,
+  "west": 296205.25,
+  "north": 4499584.75,
+  "extent": [
+    296205.25,
+    4499084.75,
+    296655.25,
+    4499584.75
+  ],
+  "origin": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "elevation": 0
+  },
+  "encoding": "float32-le",
+  "rowOrder": "north-to-south",
+  "noData": -9999,
+  "sampling": "Píxel nativo cada 4 píxeles (2 m), sin relleno de NoData.",
+  "historicalCorrections": [],
+  "validCount": 56726,
+  "sampleCount": 56726,
+  "minimum": 0.3930000066757202,
+  "maximum": 16.6299991607666,
+  "heights": "town-terrain.f32",
+  "validity": "town-terrain.valid.u8",
+  "id": "town-detail",
+  "boundary": "Parche integrado en malla general: contorno a 10 m, interior a 2 m, sin cambiar alturas."
+}

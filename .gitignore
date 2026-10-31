@@ -1,0 +1,29 @@
+node_modules/
+dist/
+tmp/
+.sites-runtime/
+*.log
+
+# Local hosting settings and credentials
+.vercel/
+.env
+.env.*
+!.env.example
+
+# Original research downloads (the viewer uses public/data)
+/*.zip
+/*.pdf
+/*.laz
+/*.png
+/*.jpg
+/*.xml
+/*.txt
+/edificio_rapita/
+/JOSEP_descripcions*/
+
+# Keep research notes; original media stays local
+/docs/**
+!/docs/**/
+!/docs/**/*.md
+!/docs/**/*.json
+!/docs/**/*.csv

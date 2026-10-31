@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#183d38" />
+    <meta name="description" content="Atles de treball per reconstruir la Ràpita cap al 1800. Relleu ICGC i referències documentals, amb les incerteses visibles." />
+    <title>La Ràpita 1800 · Atles de reconstrucció</title>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="identity" href="./" aria-label="La Ràpita 1800, inici"><span class="brand-mark" aria-hidden="true">R<span>1800</span></span><span>LA RÀPITA<small>ATLES DE RECONSTRUCCIÓ</small></span></a>
+      <div class="period">Un territori. Un projecte inacabat.<span>DEL DOCUMENT AL PAISATGE · CAP AL 1800</span></div>
+      <button id="dossier-index" class="header-button">Expedients <span aria-hidden="true">→</span></button>
+      <button id="method-open" class="header-button">Mètode i fonts <span aria-hidden="true">↗</span></button>
+    </header>
+    <section class="timebar" aria-label="Cronologia de la reconstrucció">
+      <div class="time-year"><span class="eyebrow">ANY DE L’ESCENA</span><output id="year-value" for="year-slider">1800</output></div>
+      <div class="time-range"><label class="sr-only" for="year-slider">Any de la reconstrucció, de 1778 a 1950</label><input id="year-slider" type="range" min="0" max="60" step="1" value="22" aria-describedby="time-note"><div class="time-stops" id="time-stops"></div></div>
+      <div class="time-description"><strong id="time-stage"></strong><span id="time-note"></span><button id="time-evidence" class="inline-link">Com es llegeix la cronologia →</button></div>
+    </section>
+    <main class="workspace">
+      <aside class="sidebar" aria-label="Exploració del territori">
+        <div class="intro"><span class="eyebrow">QUADERN DE CAMP / 08</span><h1>Entre terra<br> <em>i aigua.</em></h1><p>El Roquer, una defensa inacabada i el canal que havia d’enllaçar amb l’Ebre.</p><span class="phase"><i></i> Document de 1794 · escenari cap al 1800</span></div>
+        <div class="tabs" role="tablist" aria-label="Tauler d’exploració"><button id="places-tab" role="tab" aria-selected="true" aria-controls="places-panel">Llocs</button><button id="layers-tab" role="tab" aria-selected="false" aria-controls="layers-panel" tabindex="-1">Capes</button><button id="housing-tab" role="tab" aria-selected="false" aria-controls="housing-panel" tabindex="-1">Habitatges</button><button id="building-tab" role="tab" aria-selected="false" aria-controls="building-panel" tabindex="-1">Edificis</button><button id="urban-tab" role="tab" aria-selected="false" aria-controls="urban-panel" tabindex="-1">Trama</button><button id="littoral-tab" role="tab" aria-selected="false" aria-controls="littoral-panel" tabindex="-1">Litoral</button></div>
+        <section id="places-panel" role="tabpanel" aria-labelledby="places-tab"><div class="section-label">REFERÈNCIES DE L’ASSENTAMENT</div><nav id="places" aria-label="Punts d’interès"></nav></section>
+        <section id="layers-panel" role="tabpanel" aria-labelledby="layers-tab" hidden>
+          <div class="section-label">LECTURA DEL TERRITORI</div>
+          <label class="layer"><span>Habitatges d’estudi<small>Inventari de 1794 · geometria C</small></span><input id="housing-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Carrers i serveis<small>Pont, horts, ferreries i guardes · C</small></span><input id="urban-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Centre i plaça<small>Serveis, fonda i edificis en obres · C</small></span><input id="center-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Glorieta i Guardiola<small>Alçats d’estudi C · cronologia pròpia</small></span><input id="landmarks-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Roquer i serveis del litoral<small>Fases documentades · geometria C</small></span><input id="littoral-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Litoral i aigua d’estudi<small>Alternativa reversible al MDT actual</small></span><input id="landscape-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Garrofers de la plaça<small>60 arbres · distribució d’assaig C</small></span><input id="trees-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Persones<small>Vianants, oficis i pescadors · escena C</small></span><input id="people-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Detall de l’entorn<small>Vegetació baixa, pedres i utillatge · C</small></span><input id="environment-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Cavall i rucs<small>Carro i càrregues · escena C</small></span><input id="animals-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Moviment de l’ambient<small>Barques, persones i animals · pausa reversible</small></span><input id="motion-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Corbes de nivell<small id="contour-interval">Equidistància de 10 metres</small></span><input id="contours-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Referències documentals<small>Punts de referència actuals aproximats</small></span><input id="anchors-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Malla del terreny<small>Mostra les dades del MDT</small></span><input id="wire-toggle" type="checkbox"></label>
+          <label class="layer"><span>Eix interpretat<small>Glorieta–Coc · orientació preliminar</small></span><input id="axis-toggle" type="checkbox"></label>
+          <p class="layer-note">L’eix és preliminar. La costa i el canal són un escenari C; el MDT original es conserva. Les corbes mesurades es consulten en el mode MDT actual.</p>
+        </section>
+        <section id="urban-panel" role="tabpanel" aria-labelledby="urban-tab" hidden><div class="building-tools"><p class="building-summary">Carrers, accessos i serveis documentats. <strong>Planta relacional C</strong>; les parcel·les individuals continuen pendents de comprovació.</p><button id="urban-overview" class="text-button">Mostra la trama del poble ↗</button><p id="urban-selection" class="tool-note"></p><button id="urban-evidence" class="text-button">Fonts i registre de propietats →</button><button id="future-evidence" class="text-button">Documents per a les fases fins al 1950 →</button></div><nav id="urban-list" aria-label="Carrers i serveis"></nav></section>
+        <section id="littoral-panel" role="tabpanel" aria-labelledby="littoral-tab" hidden>
+          <div class="building-tools litoral-intro"><p class="building-summary"><strong>El Roquer i el camí de l’aigua.</strong> Fàbriques parcials i una costa d’estudi, dins del mateix mapa.</p>
+            <div class="littoral-shortcuts"><button id="roquer-overview">Roquer ↗</button><button id="canal-overview">Canal ↗</button><button id="amposta-view">Amposta ↗</button><button id="mouth-view">Desembocadura ↗</button></div>
+            <div class="model-modes" role="group" aria-label="Base del paisatge"><button id="landscape-study" aria-pressed="true">Litoral · C</button><button id="landscape-measured" aria-pressed="false">MDT actual</button></div>
+            <p class="tool-note" id="landscape-note">Costa interpretada; nivell d’aigua tècnic, sense validar la cota històrica.</p>
+          </div>
+          <nav id="littoral-list" aria-label="Edificis del Roquer i del litoral"></nav>
+          <div class="building-tools"><label class="cutaway-label"><input id="project-toggle" type="checkbox"> Envolupant del projecte T-6/8 · C</label><label class="cutaway-label"><input id="boats-toggle" type="checkbox" checked> Embarcacions d’estudi</label><p class="tool-note">Projecte per a 8 canons; inventari de 1794 amb 6 peces. No s’acaben les dependències que les fonts deixen obertes.</p><button id="littoral-evidence" class="text-button">Documents, estat d’obra i límits <span>→</span></button></div>
+          <div class="building-tools" id="plan1748-tools">
+            <button id="roquer-plan-view" class="text-button">Roquer en planta · ajust de 1748 <span>↗</span></button>
+            <label class="cutaway-label"><input id="project1748-toggle" type="checkbox"> Obres projectades el 1748 · H–O</label>
+            <p class="tool-note">Traça daurada: projecte de 1748. En activar-la, substitueix visualment la bateria parcial posterior. Els edificis existents A–G i la costa comparteixen l’ajust del plànol.</p>
+            <p class="tool-note">H Bateria · I Cisterna · K Pólvora · L Guàrdia · M Oficial · N Governador · O Torre a reedificar.</p>
+            <label class="cutaway-label"><input id="plan1748-toggle" type="checkbox"> Plànol de 1748 superposat · georeferenciat C</label>
+            <div id="plan1748-controls" hidden>
+              <label class="height-label" for="plan1748-opacity">Opacitat <output id="plan1748-opacity-value" for="plan1748-opacity">60 %</output></label>
+              <input id="plan1748-opacity" type="range" min="10" max="100" value="60" step="5">
+              <label class="height-label" for="plan1748-rotation">Rotació <output id="plan1748-rotation-value" for="plan1748-rotation"></output></label>
+              <input id="plan1748-rotation" type="range" min="140" max="220" value="161" step="0.5">
+              <label class="height-label" for="plan1748-scale">Escala <output id="plan1748-scale-value" for="plan1748-scale"></output></label>
+              <input id="plan1748-scale" type="range" min="0.06" max="0.2" value="0.101" step="0.001">
+              <label class="height-label" for="plan1748-de">Desplaçament est <output id="plan1748-de-value" for="plan1748-de"></output></label>
+              <input id="plan1748-de" type="range" min="-60" max="60" value="0" step="1">
+              <label class="height-label" for="plan1748-dn">Desplaçament nord <output id="plan1748-dn-value" for="plan1748-dn"></output></label>
+              <input id="plan1748-dn" type="range" min="-60" max="60" value="0" step="1">
+              <button id="plan1748-reset" class="text-button">Valors inicials <span>↺</span></button>
+              <p class="tool-note">Redibuix del plànol de Marín de 1748, ajustat al cantell de roca del MDT (la barra d’escala del redibuix no és fiable) i ancorat a la Torre, ±15 m. És un projecte: només els edificis en rosa existien el 1748.</p>
+            </div>
+          </div>
+        </section>
+        <section id="housing-panel" role="tabpanel" aria-labelledby="housing-tab" hidden>
+          <div class="section-label">LES CASES · DOCUMENT DE 1794</div>
+          <div class="building-tools">
+            <p class="building-summary" id="housing-summary">Una població encara en obres. <strong>81 cases i habitacions del patrimoni reial</strong>, representades en 58 cossos sobre el mateix mapa.</p>
+            <ul class="housing-inventory" id="housing-inventory">
+              <li><b>22</b><span>Cases grans acabades<small>Arrebossat, balcons i coberta de teula</small></span></li>
+              <li><b>7</b><span>Cobertes, sense acabar<small>Obra vista i obertures sense tancar</small></span></li>
+              <li><b>14</b><span>Sense coberta, amb porxos<small>Murs alçats i bigues del primer pis</small></span></li>
+              <li><b>14</b><span>Unitats petites del litoral<small>Entorn de la Fonda Vella · ubicació C</small></span></li>
+              <li><b>24</b><span>Habitacions de la Mançana<small>Un sol conjunt amb pati</small></span></li>
+            </ul>
+            <p class="hypothesis-note" id="housing-hypothesis">POSICIONS I ALÇATS C · ESTAT EL 1800 SENSE VERIFICAR</p>
+            <p class="tool-note" id="housing-context">El conjunt privat de 38 propietats encara no s’ha identificat individualment. El centre incorpora les Cases de Talavera com a estudi singular. La Fonda Nova substitueix dos cossos reservats, sense augmentar les 81 unitats reials.</p>
+            <button id="housing-evidence" class="text-button">Fonts i decisions <span>→</span></button>
+            <p class="tool-note">Fusteries, cornises, teules, terrats i patis de detall C. Les cases inacabades conserven els buits sense tancar. Els porxos són transitables.</p>
+            <p class="tool-note">Selecciona una arcada al mapa per llegir-ne la descripció amb les fonts, també durant el passeig.</p>
+            <button id="porxos-evidence" class="text-button">Porxos · fotografies i restitució <span>→</span></button><button id="porxos-overview" class="text-button">Mostra el conjunt dels porxos <span>↗</span></button><button id="housing-porches" class="text-button">Camina pels porxos <span>↗</span></button>
+          </div>
+        </section>
+        <section id="building-panel" role="tabpanel" aria-labelledby="building-tab" hidden>
+          <div id="center-tools">
+            <div class="section-label">PLAÇA I SERVEIS · 1794</div>
+            <div class="building-tools center-intro"><p class="building-summary" id="center-summary">Un centre habitat i encara en obres. <strong>Edificis d’estudi C</strong>, sempre presents al mapa general.</p><button id="center-overview" class="text-button">Mostra tot el centre <span>↗</span></button></div>
+            <div class="building-tools"><button id="center-porxos-evidence" class="text-button">Les arcades · descripció i fonts <span>→</span></button></div><nav id="center-list" aria-label="Edificis del centre"></nav><div class="section-label">EL VESSANT I LA GUAITA</div><nav id="landmark-list" aria-label="Glorieta i Guardiola"></nav><div class="building-tools"><button id="landmark-evidence" class="text-button">Fonts de la Glorieta i la Guardiola <span>→</span></button></div>
+            <div class="building-tools"><p class="hypothesis-note">MODELS D’ESTUDI C · CONSULTA LA CRONOLOGIA I LES MESURES</p><button id="center-evidence" class="text-button">Fonts i decisions del centre <span>→</span></button><button id="center-esglesia" class="text-button">Laboratori de l’Església Nova <span>↗</span></button></div>
+          </div>
+          <div id="esglesia-tools" hidden>
+          <div class="section-label">ESGLÉSIA NOVA · PRIMERA PEÇA</div>
+          <div class="building-tools">
+            <p class="building-summary">Planta quadrada i creu grega. <strong>23,7 m de costat</strong> publicats; traça actual aproximada en ortofoto ICGC.</p>
+            <div class="model-modes" role="group" aria-label="Representació de l’edifici"><button id="model-documental" aria-pressed="false">Traça actual</button><button id="model-study" aria-pressed="true">Volum · C</button></div>
+            <p class="hypothesis-note">HIPÒTESI VOLUMÈTRICA · SENSE VALIDAR EL 1800</p>
+            <label class="height-label" for="wall-height">Alçària de treball <output id="wall-height-value" for="wall-height">8,4 m</output></label>
+            <input id="wall-height" type="range" min="6" max="11" value="8.4" step="0.1" aria-describedby="height-note">
+            <p id="height-note" class="tool-note">Aquest control modifica una hipòtesi. L’alçària històrica mesurada continua sent desconeguda.</p>
+            <label class="cutaway-label"><input id="cutaway-toggle" type="checkbox"> Retira la façana per veure l’interior</label>
+            <label class="cutaway-label"><input id="interior-toggle" type="checkbox" checked> Distribució interior hipotètica</label>
+            <button id="model-reset" class="text-button">Restableix els paràmetres <span>↺</span></button>
+            <p class="tool-note" id="support-note"></p>
+            <button id="building-evidence" class="text-button">Fonts, mesures i límits <span>→</span></button>
+          </div>
+          </div>
+        </section>
+        <div class="sidebar-bottom"><span class="eyebrow">LABORATORI DE RECONSTRUCCIÓ</span><p>Una peça, cada decisió visible.</p><button id="lab-open" class="text-button">Explora l’Església Nova <span>↗</span></button></div>
+      </aside>
+      <section class="viewport" aria-label="Visor tridimensional del terreny">
+        <div id="scene" role="img" aria-label="Terreny tridimensional ICGC amb sis referències històriques. Fes servir els botons de llocs per explorar-lo amb el teclat."></div>
+        <div id="labels" aria-label="Marcadors sobre el terreny"></div><div id="route-labels" aria-label="Connexions del canal"></div>
+        <div id="walk-toolbar" class="walk-toolbar" hidden><strong>A peu · 1,65 m</strong><label class="sr-only" for="walk-spawn">Punt de sortida</label><select id="walk-spawn"></select><label class="walk-speed" for="walk-speed">Velocitat <input id="walk-speed" type="range" min="2" max="12" step="1" value="6"><output id="walk-speed-value" for="walk-speed">6 m/s</output></label><button id="walk-mouse">Captura ratolí</button><button id="life-pause" aria-pressed="false">Pausa ambient</button><button id="walk-exit">Surt · Esc</button><span id="walk-status" role="status">WASD o fletxes · arrossega per mirar</span><span id="walk-distance">0 m</span></div><div class="walk-crosshair" aria-hidden="true"></div><div id="walk-pad" class="walk-pad"><button data-key="w" aria-label="Camina endavant">↑</button><button data-key="a" aria-label="Camina a l’esquerra">←</button><button data-key="s" aria-label="Camina enrere">↓</button><button data-key="d" aria-label="Camina a la dreta">→</button></div>
+        <div class="map-caption"><span id="map-eyebrow" class="eyebrow">EL TERRITORI COM A DOCUMENT</span><h2 id="map-title">La Ràpita i el seu relleu</h2><span id="map-subtitle">MDT ICGC 2021–2023 / escala vertical real</span></div>
+        <div class="view-controls" role="group" aria-label="Vistes de càmera"><button id="view-oblique" aria-pressed="true" title="Vista obliqua">Perspectiva</button><button id="view-top" aria-pressed="false" title="Vista des de dalt">Planta</button><button id="montsia-view" title="Enquadra la serra del Montsià">Montsià</button><button id="view-walk" aria-pressed="false" title="Recorregut a peu, primera persona">Camina</button><button id="view-full" title="Mostra tota la cobertura">↔ <span>Extensió</span></button><button id="view-territory" hidden>Vista general ↗</button></div>
+        <div class="compass" aria-label="Orientació nord"><span>N</span><div id="north-arrow">↑</div></div>
+        <div class="zoom-controls" role="group" aria-label="Zoom"><button id="zoom-in" aria-label="Apropa">+</button><button id="zoom-out" aria-label="Allunya">−</button><button id="reset" aria-label="Restableix la vista" title="Restableix · R">⌂</button></div>
+        <article class="feature-card" id="feature-card" aria-live="polite"><div class="card-kicker"><span id="card-number">01 / 06</span><span id="card-category"></span><button id="card-collapse" aria-label="Replega la fitxa" aria-expanded="true">−</button></div><h3 id="card-title"></h3><div id="card-body"><p id="card-description"></p><div class="certainty-row"><span class="certainty" id="certainty"></span><span id="altitude"></span></div><button id="details-open" class="text-button">Consulta l’evidència i els pendents <span>→</span></button></div></article>
+        <div class="map-legend"><span><i class="land-swatch"></i><span id="ground-legend">Paisatge interpretat · C</span></span><span id="void-legend"><i class="void-swatch"></i>Sense dades / sense malla</span><span><i class="anchor-swatch"></i><span id="reference-legend">Referència aproximada</span></span></div>
+        <div class="notice"><span aria-hidden="true">ⓘ</span><span id="notice-text">Base de recerca. El relleu actual no equival al del 1800. Els marcadors són referències.</span></div>
+        <div id="pick-tooltip" class="pick-tooltip" hidden></div>
+        <aside id="dossier-panel" class="dossier-panel" tabindex="-1" hidden aria-label="Expedient documental de l’edifici"><div class="dossier-top"><span class="eyebrow">EXPEDIENT DOCUMENTAL</span><button class="dossier-focus" data-action="focus" hidden>Centra’l al mapa ↗</button><button class="dossier-close" aria-label="Tanca l’expedient">×</button></div><div class="dossier-tabs" role="tablist" aria-label="Expedients relacionats" hidden></div><div class="dossier-body"></div></aside>
+        <div id="loading" class="loading" role="status"><span class="loading-symbol">R</span><h2>Preparant el territori</h2><p>Carregant el relleu i les referències documentals…</p></div>
+      </section>
+    </main>
+    <footer class="statusbar"><span><i></i><span id="data-status">Carregant les dades locals</span></span><span id="render-status">EPSG:25831 · metres</span><span class="control-hint">Arrossega: gira · roda: apropa · botó dret o roda: desplaça</span></footer>
+    <dialog id="info-dialog"><div class="dialog-top"><span class="eyebrow">ARXIU DEL PROJECTE</span><button id="dialog-close" aria-label="Tanca">×</button></div><div id="dialog-content"></div></dialog>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

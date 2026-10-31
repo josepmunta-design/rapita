@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "scenario": 1800,
+  "evidenceDate": "1794-05-20",
+  "state1800Verified": false,
+  "crs": "EPSG:25831",
+  "source": {
+    "id": "H02",
+    "title": "Pilar Reverté Vidal, 1794. Estat de les obres reials de San Carlos, Recerca 20 (2024), pp. 191–234",
+    "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+    "primary": "ACA, RP, BGRP, Cajas 60, relació del 20 de maig de 1794"
+  },
+  "placementBasis": "Posicions d’assaig dins el marc local dels habitatges. Lectura de carrers actuals al mapa topogràfic ICGC; no és una georeferenciació de parcel·les de 1794. Alçàries i plantes individuals C.",
+  "sites": [
+    {
+      "id": "sant-elm",
+      "name": "Oratori de Sant Elm",
+      "kind": "church",
+      "across": -50,
+      "along": -76,
+      "front": "east",
+      "width": 17,
+      "depth": 25,
+      "wallHeight": 9.4,
+      "roofRise": 2.8,
+      "state1794": "temple acabat de construir, amb el petit campanar sense concloure",
+      "evidence": "H02, art. 6, pàg. 212–213 i 231: façana dòrica i interior jònic; probable emplaçament de l’església actual, amb dimensions més petites.",
+      "limits": "Nau, coberta i torre baixa d’assaig. No es copia l’església moderna; planta, alçat i estat el 1800 sense verificar.",
+      "documented": {
+        "facadeOrder": "Doric",
+        "interiorOrder": "Ionic",
+        "towerComplete1794": false,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296317.3353914813,
+        "northing": 4499309.147595977
+      },
+      "frontAzimuthDegrees": 109,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296326.3870443634,
+          4499297.041086154
+        ],
+        [
+          296331.92170298914,
+          4499313.114901939
+        ],
+        [
+          296308.28373859916,
+          4499321.254105801
+        ],
+        [
+          296302.74907997344,
+          4499305.180290015
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.739794941241149,
+        "maximum": 12.077459248825749,
+        "technicalBaseElevation": 12.157459248825749
+      }
+    },
+    {
+      "id": "placa-coberta",
+      "name": "Plaça coberta · Casa Laureano",
+      "kind": "covered-market",
+      "across": 37,
+      "along": -76,
+      "front": "west",
+      "width": 15,
+      "depth": 17,
+      "wallHeight": 6.7,
+      "roofRise": 0,
+      "state1794": "plaça coberta amb el cos superior molt avançat",
+      "evidence": "H02, art. 9, pàg. 214–215 i 231. Identificació probable amb Casa Laureano, simètrica a Sant Elm. H01, pàg. 226, descriu quatre suports i un arquitrau incomplet als vestigis.",
+      "limits": "S’assagen una planta baixa coberta i un alçat superior obert. No s’hi afegeixen una balustrada ni un frontó acabats sense datació. El cobert annex va patir danys i desmuntatges: no es representa íntegre.",
+      "documented": {
+        "facadeOrder": "Doric",
+        "identification": "probable",
+        "upperRoof1794": null,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296399.59550755844,
+        "northing": 4499280.82316654
+      },
+      "frontAzimuthDegrees": 289,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296394.0003608242,
+          4499290.68188517
+        ],
+        [
+          296389.1168385074,
+          4499276.499106536
+        ],
+        [
+          296405.19065429264,
+          4499270.96444791
+        ],
+        [
+          296410.07417660946,
+          4499285.147226544
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.724620956185981,
+        "maximum": 8.987170517016573,
+        "technicalBaseElevation": 9.067170517016573
+      }
+    },
+    {
+      "id": "fonda-nova",
+      "name": "Fonda Nova",
+      "kind": "inn",
+      "across": 48.5,
+      "along": 71.5,
+      "front": "west",
+      "width": 10,
+      "depth": 50,
+      "wallHeight": 7.6,
+      "roofRise": 1.7,
+      "replacesHousingIds": [
+        "royal-finished-21",
+        "royal-finished-22"
+      ],
+      "inventoryRelation": "Substitueix dos cossos d’assaig reservats; no afegeix unitats a l’inventari reial de 81.",
+      "state1794": "establiment habilitat, amb dos cossos i pati",
+      "evidence": "H02, pàg. 210–211: cases 5 i 6, cossos cap a la Rambla i el Rampar, pati i accés de carros des del Coc. H01, pàg. 167–168: galeria, carruatges, hort i corral projectats.",
+      "limits": "Els identificadors tècnics substituïts no equivalen als números històrics 5 i 6. Posició exacta, mesures i lloc del sopluig desconeguts. Pati allargat d’assaig.",
+      "documented": {
+        "bodies": 2,
+        "courtyard": true,
+        "historicalHouseNumbers": [
+          5,
+          6
+        ],
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296458.4902739603,
+        "northing": 4499416.543122664
+      },
+      "frontAzimuthDegrees": 289,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296436.48015034257,
+          4499429.4099194035
+        ],
+        [
+          296433.224468798,
+          4499419.954733647
+        ],
+        [
+          296480.500397578,
+          4499403.676325925
+        ],
+        [
+          296483.75607912254,
+          4499413.131511681
+        ]
+      ],
+      "terrain": {
+        "minimum": 5.759659286472165,
+        "maximum": 8.983989175059449,
+        "technicalBaseElevation": 9.063989175059449
+      }
+    },
+    {
+      "id": "duana-nova",
+      "name": "Duana nova del Coc",
+      "kind": "warehouse",
+      "across": 67,
+      "along": -29,
+      "front": "north",
+      "width": 26,
+      "depth": 20,
+      "wallHeight": 8.2,
+      "roofRise": 0,
+      "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
+      "evidence": "H02, art. 12, pàg. 216–217 i 231–232: magatzems, habitacions altes i façana encoixinada al costat de la rampa.",
+      "limits": "Planta de 26 × 20 m C; no s’aplica com a mesura de 1794 la superfície de l’anunci de venda de 1868. Obertures simplificades, sense restitució de rampes.",
+      "documented": {
+        "roof1794": false,
+        "upperPartitions1794": false,
+        "rusticatedFacade": true,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296443.26276808593,
+        "northing": 4499315.495494959
+      },
+      "frontAzimuthDegrees": 19,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296458.8101911133,
+          4499320.718294707
+        ],
+        [
+          296434.22670814773,
+          4499329.183066723
+        ],
+        [
+          296427.71534505853,
+          4499310.272695211
+        ],
+        [
+          296452.2988280241,
+          4499301.807923195
+        ]
+      ],
+      "terrain": {
+        "minimum": 6.214128258856138,
+        "maximum": 7.776305487194561,
+        "technicalBaseElevation": 7.856305487194561
+      }
+    },
+    {
+      "id": "casa-white",
+      "name": "Magatzems de Josep White",
+      "kind": "warehouse",
+      "across": 67,
+      "along": 29,
+      "front": "south",
+      "width": 26,
+      "depth": 20,
+      "wallHeight": 8.2,
+      "roofRise": 0,
+      "state1794": "obra avançada a càrrec d’un comerciant; edifici simètric",
+      "inventoryRelation": "Immoble privat singular; possible relació amb el conjunt mixt de 38. No se suma com a habitatge addicional.",
+      "evidence": "H02, art. 13 i pàg. 216–217: edifici davant de la duana nova; adquirit per White el 1792 per mantenir la simetria.",
+      "limits": "S’assaja el mateix estat sense coberta que al model simètric; la font no detalla separadament cada avenç de l’obra privada. Persistència el 1800 desconeguda.",
+      "documented": {
+        "symmetryRequired": true,
+        "roof1794": null,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296462.1457210444,
+        "northing": 4499370.335572344
+      },
+      "frontAzimuthDegrees": 199,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296446.598298017,
+          4499365.112772596
+        ],
+        [
+          296471.1817809826,
+          4499356.64800058
+        ],
+        [
+          296477.6931440718,
+          4499375.558372092
+        ],
+        [
+          296453.1096611062,
+          4499384.023144108
+        ]
+      ],
+      "terrain": {
+        "minimum": 6.007642892228328,
+        "maximum": 7.362441222654379,
+        "technicalBaseElevation": 7.442441222654379
+      }
+    },
+    {
+      "id": "font-oest",
+      "name": "Font i torre del rellotge",
+      "kind": "fountain",
+      "across": -24,
+      "along": -114,
+      "front": "east",
+      "width": 4.8,
+      "depth": 3,
+      "wallHeight": 6.5,
+      "roofRise": 0,
+      "clock": true,
+      "state1794": "font pública amb torre; rellotge instal·lat en una de les dues",
+      "evidence": "H02, art. 11, pàg. 216 i 231: dues fonts amb piles de carreus i torres, i un rellotge públic. H01, pàg. 226–227: arc i frontó triangular.",
+      "limits": "L’assignació del rellotge a aquesta torre és C; posició precisa, alçària i forma de les torres sense mesurar. L’esfera és un símbol d’assaig.",
+      "documented": {
+        "pairedFountains": 2,
+        "installedClocks": 1,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296329.5472845775,
+        "northing": 4499264.7531180885
+      },
+      "frontAzimuthDegrees": 109,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296330.1841988702,
+          4499261.995521275
+        ],
+        [
+          296331.74692601163,
+          4499266.534010438
+        ],
+        [
+          296328.9103702848,
+          4499267.510714902
+        ],
+        [
+          296327.3476431434,
+          4499262.972225739
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.46975858497632,
+        "maximum": 10.57593464286632,
+        "technicalBaseElevation": 10.65593464286632
+      }
+    },
+    {
+      "id": "font-est",
+      "name": "Font oriental",
+      "kind": "fountain",
+      "across": 24,
+      "along": -114,
+      "front": "west",
+      "width": 4.8,
+      "depth": 3,
+      "wallHeight": 6.5,
+      "roofRise": 0,
+      "clock": false,
+      "state1794": "segona font i torre simètrica, sense un segon rellotge acreditat",
+      "evidence": "H02, art. 11, pàg. 216 i 231. Parella de la font occidental; H01, pàg. 226–227.",
+      "limits": "Simetria d’assaig; no s’atribueix a aquesta torre un segon rellotge instal·lat.",
+      "documented": {
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296374.93217620626,
+        "northing": 4499249.125846675
+      },
+      "frontAzimuthDegrees": 289,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296374.29526191356,
+          4499251.883443488
+        ],
+        [
+          296372.73253477213,
+          4499247.344954325
+        ],
+        [
+          296375.56909049896,
+          4499246.3682498615
+        ],
+        [
+          296377.1318176404,
+          4499250.906739024
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.774109445337805,
+        "maximum": 9.897525601645485,
+        "technicalBaseElevation": 9.977525601645485
+      }
+    },
+    {
+      "id": "manzana-nova",
+      "name": "Mançana nova iniciada",
+      "kind": "unfinished-block",
+      "across": -57,
+      "along": 45,
+      "front": "east",
+      "width": 40,
+      "depth": 30,
+      "wallHeight": 3.6,
+      "roofRise": 0,
+      "state1794": "murs a la cota de rebre les bigues del primer pis",
+      "evidence": "H02, art. 8, pàg. 214 i 231: magatzems baixos i futures habitacions altes. Possible àmbit de l’ajuntament actual, amb identificació insegura.",
+      "limits": "Recinte i divisions C, sense coberta ni pisos alts acabats. No augmenta el nombre d’habitatges habitables de l’inventari.",
+      "documented": {
+        "roof1794": false,
+        "upperHabitationsFinished1794": false,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296350.1105081414,
+        "northing": 4499425.834320706
+      },
+      "frontAzimuthDegrees": 109,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296357.78192368627,
+          4499402.040426877
+        ],
+        [
+          296370.80464986456,
+          4499439.861169902
+        ],
+        [
+          296342.4390925965,
+          4499449.628214535
+        ],
+        [
+          296329.41636641824,
+          4499411.807471511
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.454937959222974,
+        "maximum": 10.63886801999169,
+        "technicalBaseElevation": 10.71886801999169
+      }
+    },
+    {
+      "id": "cases-talavera",
+      "name": "Cases de Ramon Talavera",
+      "kind": "private-courtyard",
+      "across": 58,
+      "along": 110,
+      "front": "west",
+      "width": 26,
+      "depth": 48,
+      "wallHeight": 7.2,
+      "roofRise": 1.8,
+      "inventoryRelation": "Dues cases privades documentades; possible correspondència dins de les 38 propietats mixtes, sense identificació individual completa. No s’afegeixen al total de 119.",
+      "state1794": "dues cases amb recinte i pati",
+      "evidence": "H02, pàg. 210–211: entre la fonda i el barranc de les Monges, amb accés des de la plaça. Concessió de 1782 amb límits de finca; H01, pàg. 251–253, per a les tècniques residencials.",
+      "limits": "El recinte rectangular de 26 × 48 m simplifica un solar irregular. No és la digitalització dels quatre límits documentals ni prova de la posició de cada casa.",
+      "documented": {
+        "houses": 2,
+        "courtyard": true,
+        "footprint": null,
+        "height": null
+      },
+      "anchor": {
+        "easting": 296480.0070743751,
+        "northing": 4499449.852690358
+      },
+      "frontAzimuthDegrees": 289,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "state1800": null,
+      "historicalBaseElevation": null,
+      "footprintUTM": [
+        [
+          296461.5470145687,
+          4499469.9580675475
+        ],
+        [
+          296453.0822425528,
+          4499445.374584582
+        ],
+        [
+          296498.4671341815,
+          4499429.747313168
+        ],
+        [
+          296506.93190619745,
+          4499454.330796134
+        ]
+      ],
+      "terrain": {
+        "minimum": 4.312377261255737,
+        "maximum": 6.1276005904804265,
+        "technicalBaseElevation": 6.207600590480427
+      }
+    }
+  ],
+  "publicSpace": {
+    "surface": "Terra d’assaig sobre el MDT intacte; sense paviment modern ni explanació històrica atribuïda.",
+    "plaza": {
+      "halfWidth": 22,
+      "north": 84,
+      "south": -118,
+      "exedraRadius": 22,
+      "passage": {
+        "halfWidth": 4,
+        "south": -156
+      }
+    },
+    "crossAxis": {
+      "west": -96,
+      "east": 96,
+      "halfWidth": 14
+    },
+    "trees": {
+      "count": 60,
+      "across": [
+        -12,
+        12
+      ],
+      "south": -108,
+      "north": 78,
+      "species": "Ceratonia siliqua",
+      "layoutConfidence": "C",
+      "source": "H02, carta del 6/05/1792, pàg. 218–219: seixanta arbres a la població. Distribució en dues fileres i mides d’assaig, sense prova de supervivència individual el 1800."
+    }
+  },
+  "townFrame": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "alongAzimuthDegrees": 19,
+    "confidence": "C",
+    "basis": "Alineacions actuals llegides en ortofoto i mapa topogràfic ICGC, contrastades qualitativament amb plànols de la tesi. No és una georeferenciació de parcel·les de 1794."
+  },
+  "sourceSha256": "d0bb7c61e36b7c638c2a9b3ec52bdf21ce7331647f146084901f23c7ddb810cf"
+}

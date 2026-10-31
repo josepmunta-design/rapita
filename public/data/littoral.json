@@ -1,0 +1,2026 @@
+{
+  "version": 1,
+  "geometryConfidence": "C",
+  "historicalWaterElevation": null,
+  "historicalShoreline": null,
+  "studyWaterElevation": 0.45,
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Borràs Matamoros, La nova i reial població… (2013), pp. 107–120",
+      "file": "tesi doctoral.pdf",
+      "use": "Obres de 1779–1781: torre reparada, bateria suspesa, allotjaments, cisterna, contraescarpa i forn. La figura de p. 118 documenta el projecte de 1778, no l'obra completada."
+    },
+    {
+      "id": "H02",
+      "title": "Reverté, 1794. Estat de les obres reials de San Carlos (2024), art. 16–29",
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "use": "Bateria a mig fer; sis canons de ferro de 18 lliures, tres amb curenyes gairebé inútils i tres sense. Dàrsenes, molls, rampes, canal i obres parcials a Amposta."
+    },
+    {
+      "id": "P01",
+      "title": "Plànol i perfil de bateria per a vuit canons · T-6/8 · segle XVIII, data de catàleg indeterminada",
+      "file": "t-6-8.jpg",
+      "url": "https://bibliotecavirtual.defensa.gob.es/BVMDefensa/es/consulta/registro.do?control=BMDB20200579861",
+      "credit": "Fuente: Archivo General Militar de Madrid / Biblioteca Virtual de Defensa · CC BY 4.0",
+      "use": "Contorn i organització del projecte. No prova quines crugies es van executar. Traça manual aproximada; no georeferenciada."
+    },
+    {
+      "id": "P02",
+      "title": "Plano del puerto de los Alfaques · 1813 · IGN 009734",
+      "file": "T0009734.jpg",
+      "url": "https://contenido.ign.es/web/catalogo-cartoteca/resources/html/009734.html",
+      "use": "Comparació posterior de la costa i el fondejador; no s'atribueix la línia de 1813 al 1800."
+    },
+    {
+      "id": "H03",
+      "title": "Villares, Navas i Junyent, Apuntes históricos de los puertos del delta del Ebro (1997), pp. 119–120",
+      "file": "1997_septiembre_3368_10.pdf",
+      "use": "Lectura visual: traçat exacte del primer canal desconegut; el mapa de canalització és de mitjan XIX. El gran moll de 1782 és un projecte no executat."
+    },
+    {
+      "id": "H09",
+      "title": "La rábita en el islam. Estudios interdisciplinares, ed. Franco Sánchez i Epalza",
+      "file": "La_rabita_en_el_islam_Estudios_interdisciplinares.pdf",
+      "use": "Història del monestir i del Roquer. No aporta una planta excavada ni l'estat exacte del conjunt el 1800."
+    },
+    {
+      "id": "G03",
+      "title": "ICGC · WCS del Model d'Elevacions del Terreny",
+      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-i-WCS-Elevacions/WCS-del-Model-dElevacions-del-Terreny",
+      "use": "Context contemporani cap a Amposta a pas de 50 m; font diferent del LiDAR local. No és una mesura del canal antic."
+    },
+    {
+      "id": "H10",
+      "title": "Ajuntament d'Amposta · Urbanització passeig del Canal Marítim, apartat 2.1",
+      "url": "https://www.amposta.cat/documents/54/08_002%20_U_PE_U%20URB_PG_CANALMAR%C3%8DTIM_CIRCUIT_SALUDABLE.pdf",
+      "use": "Canal començat el 1780, problemes de calat el 1783 i sedimentació. No copiar les rescloses de la reforma del XIX."
+    },
+    {
+      "id": "H11",
+      "title": "Museu Marítim de Barcelona · Argo 7 · vela llatina",
+      "url": "https://www.mmb.cat/wp-content/uploads/2023/05/ARGO7-PROT-VERSIO-WEB.pdf",
+      "use": "Tipologia mediterrània de vela llatina. Les embarcacions són estudis genèrics C, sense identificar naus ni quantificar la flota de 1800."
+    },
+    {
+      "id": "G04",
+      "title": "ICGC · mapa topogràfic actual · WMS mapa-base",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wms",
+      "use": "Referència espacial manual del corredor actual cap a Amposta. Evita un pas fictici pel vessant; no prova que el traçat de 1800 coincidís amb l’actual. Petició i imatge arxivades."
+    }
+  ],
+  "excluded": [
+    "1679586.xml: còpia de 1870 d'un eixample de 1867; no s'utilitza per a les plantes de 1800.",
+    "Moll monumental del projecte de 1782, bateries del Fangar i l'Encanyissada no executades, rescloses i fàbrica de paper del segle XIX, port i passeig moderns."
+  ],
+  "battery": {
+    "anchor": [
+      296425.03047827433,
+      4499177.96184199
+    ],
+    "frontAzimuthDegrees": 109,
+    "planWidth": 36.9,
+    "planDepth": 35.2,
+    "digitization": {
+      "sourceImageSize": [
+        5748,
+        4058
+      ],
+      "workingImageSize": [
+        1888,
+        1333
+      ],
+      "scaleBarPixels": [
+        180,
+        1226,
+        766,
+        1226
+      ],
+      "scaleBarVaras": 40,
+      "assumedVaraMeters": 0.835905,
+      "precision": "Lectura manual de l'escala i contorn, aproximadament ±2 m abans de georeferenciar. Posició i gir són C."
+    },
+    "projectedGuns": 8,
+    "inventoryGuns": 6,
+    "mountedGuns": 3,
+    "unmountedGuns": 3,
+    "state": "Bateria inacabada; distribució de fàbriques i alçàries d'assaig C. La muralla s'acabà el 1780, però el conjunt quedà suspès el 1781 i a mig fer el 1794.",
+    "outlineStudy": [
+      [
+        -18.45,
+        -9.824767801857584
+      ],
+      [
+        -18.45,
+        10.167492260061922
+      ],
+      [
+        -18.36115820710203,
+        11.371236815486952
+      ],
+      [
+        -18.0954884234396,
+        12.563388652809529
+      ],
+      [
+        -17.65554919425925,
+        13.732466698139747
+      ],
+      [
+        -17.04557737483324,
+        14.867212090818018
+      ],
+      [
+        -16.27144732722715,
+        15.956696612397916
+      ],
+      [
+        -15.340614346981962,
+        16.990427931363797
+      ],
+      [
+        -14.262042864542497,
+        17.958450650019014
+      ],
+      [
+        -13.0461201128918,
+        18.851442180407854
+      ],
+      [
+        -11.704556092819256,
+        19.66080252593386
+      ],
+      [
+        -10.250270799211656,
+        20.37873710402824
+      ],
+      [
+        -8.697269794439658,
+        20.99833181224098
+      ],
+      [
+        -7.060509327135906,
+        21.51361961482708
+      ],
+      [
+        -5.355752295344827,
+        21.919638008562664
+      ],
+      [
+        -3.599416441197565,
+        22.21247681436382
+      ],
+      [
+        -1.8084162390803937,
+        22.389315834448723
+      ],
+      [
+        1.1297366722134334e-15,
+        22.4484520123839
+      ],
+      [
+        1.8084162390803962,
+        22.38931583444872
+      ],
+      [
+        3.5994164411975675,
+        22.21247681436382
+      ],
+      [
+        5.355752295344829,
+        21.919638008562664
+      ],
+      [
+        7.060509327135907,
+        21.51361961482708
+      ],
+      [
+        8.69726979443966,
+        20.99833181224098
+      ],
+      [
+        10.250270799211657,
+        20.37873710402824
+      ],
+      [
+        11.704556092819258,
+        19.66080252593386
+      ],
+      [
+        13.046120112891803,
+        18.851442180407854
+      ],
+      [
+        14.262042864542499,
+        17.95845065001901
+      ],
+      [
+        15.340614346981962,
+        16.990427931363797
+      ],
+      [
+        16.27144732722715,
+        15.956696612397913
+      ],
+      [
+        17.04557737483324,
+        14.867212090818017
+      ],
+      [
+        17.655549194259255,
+        13.732466698139746
+      ],
+      [
+        18.0954884234396,
+        12.563388652809527
+      ],
+      [
+        18.36115820710203,
+        11.37123681548695
+      ],
+      [
+        18.45,
+        10.16749226006192
+      ],
+      [
+        18.45,
+        -9.824767801857584
+      ],
+      [
+        6.968730650154798,
+        -5.997678018575851
+      ],
+      [
+        0,
+        -12.737925696594427
+      ],
+      [
+        -6.968730650154798,
+        -5.997678018575851
+      ]
+    ]
+  },
+  "shorelineStudy": [
+    [
+      298800,
+      4501500
+    ],
+    [
+      298200,
+      4501000
+    ],
+    [
+      297600,
+      4500500
+    ],
+    [
+      297200,
+      4500100
+    ],
+    [
+      296820,
+      4499700
+    ],
+    [
+      296610,
+      4499400
+    ],
+    [
+      296550,
+      4499300
+    ],
+    [
+      296398.71480476455,
+      4499256.028574007
+    ],
+    [
+      296400.2175645854,
+      4499252.947459773
+    ],
+    [
+      296401.4009498942,
+      4499249.869495315
+    ],
+    [
+      296402.19919592387,
+      4499246.603685878
+    ],
+    [
+      296402.1379655683,
+      4499243.633817893
+    ],
+    [
+      296400.6113921871,
+      4499241.061688287
+    ],
+    [
+      296398.2879574132,
+      4499238.657120374
+    ],
+    [
+      296395.2631586227,
+      4499236.387231769
+    ],
+    [
+      296392.7487290965,
+      4499234.048428623
+    ],
+    [
+      296391.50864784373,
+      4499231.377651866
+    ],
+    [
+      296391.27985579544,
+      4499227.610922488
+    ],
+    [
+      296391.08079635614,
+      4499223.6203159755
+    ],
+    [
+      296391.2308440378,
+      4499219.402682553
+    ],
+    [
+      296391.6313516895,
+      4499214.67153009
+    ],
+    [
+      296392.2949184101,
+      4499210.704356638
+    ],
+    [
+      296393.2873089667,
+      4499207.692156945
+    ],
+    [
+      296395.1815076161,
+      4499205.437636714
+    ],
+    [
+      296398.4487016896,
+      4499203.137634999
+    ],
+    [
+      296402.3249121782,
+      4499201.055210871
+    ],
+    [
+      296406.2042724415,
+      4499199.292161256
+    ],
+    [
+      296409.95840271976,
+      4499197.785871159
+    ],
+    [
+      296413.5544206293,
+      4499196.440843207
+    ],
+    [
+      296416.8702459598,
+      4499195.8332114285
+    ],
+    [
+      296419.9356113201,
+      4499195.739098689
+    ],
+    [
+      296423.2014207567,
+      4499196.537344718
+    ],
+    [
+      296426.5361447352,
+      4499197.845960013
+    ],
+    [
+      296430.0915960748,
+      4499198.864933403
+    ],
+    [
+      296431.8308321302,
+      4499197.091049827
+    ],
+    [
+      296433.2741267332,
+      4499194.457689865
+    ],
+    [
+      296435.0102130139,
+      4499192.364431777
+    ],
+    [
+      296437.2237861753,
+      4499190.106761769
+    ],
+    [
+      296439.7270012398,
+      4499188.069819124
+    ],
+    [
+      296442.8095001104,
+      4499186.474331201
+    ],
+    [
+      296445.7636192213,
+      4499184.816228285
+    ],
+    [
+      296448.51729425584,
+      4499182.265766601
+    ],
+    [
+      296451.04394237994,
+      4499179.366197796
+    ],
+    [
+      296453.4719433532,
+      4499176.180136861
+    ],
+    [
+      296455.4193076711,
+      4499172.839113333
+    ],
+    [
+      296456.9815327098,
+      4499169.310244828
+    ],
+    [
+      296458.54375774856,
+      4499165.781376323
+    ],
+    [
+      296459.8194906589,
+      4499162.351154969
+    ],
+    [
+      296460.64746929746,
+      4499158.861468396
+    ],
+    [
+      296460.93849583744,
+      4499155.983948014
+    ],
+    [
+      296460.498425752,
+      4499153.464984076
+    ],
+    [
+      296458.7308417246,
+      4499152.364497045
+    ],
+    [
+      296456.31052493764,
+      4499153.091059258
+    ],
+    [
+      296453.5145181955,
+      4499154.58790003
+    ],
+    [
+      296450.9752709727,
+      4499156.209970788
+    ],
+    [
+      296462,
+      4499146
+    ],
+    [
+      296458,
+      4499142
+    ],
+    [
+      296450,
+      4499137
+    ],
+    [
+      296450,
+      4499128
+    ],
+    [
+      296410,
+      4499100
+    ],
+    [
+      296300,
+      4499000
+    ],
+    [
+      296190,
+      4498800
+    ],
+    [
+      296040,
+      4498500
+    ],
+    [
+      295700,
+      4497800
+    ]
+  ],
+  "canal": {
+    "name": "Canal de Carles III · cap a Amposta",
+    "geometryConfidence": "C",
+    "documentedLengthVaras": 12300,
+    "documentedWidthVaras": [
+      8,
+      12
+    ],
+    "studyWidth": 8.4,
+    "routeStudy": [
+      [
+        296600,
+        4499420
+      ],
+      [
+        296820,
+        4499800
+      ],
+      [
+        296967,
+        4500000
+      ],
+      [
+        297056,
+        4500500
+      ],
+      [
+        297133,
+        4501000
+      ],
+      [
+        297150,
+        4501500
+      ],
+      [
+        297100,
+        4502000
+      ],
+      [
+        296883,
+        4502500
+      ],
+      [
+        296700,
+        4503000
+      ],
+      [
+        296583,
+        4503500
+      ],
+      [
+        296433,
+        4504000
+      ],
+      [
+        296343,
+        4505000
+      ],
+      [
+        296340,
+        4506000
+      ],
+      [
+        296333,
+        4507000
+      ],
+      [
+        296250,
+        4508000
+      ],
+      [
+        296033,
+        4509000
+      ],
+      [
+        295940,
+        4509400
+      ]
+    ],
+    "branchStudy": [
+      [
+        296692,
+        4499580
+      ],
+      [
+        296574,
+        4499500
+      ],
+      [
+        296572,
+        4499424
+      ]
+    ],
+    "limits": "Connexió territorial d'assaig entre la Ràpita i l'Ebre a Amposta, no digitalització d'un traçat de 1800. Cotes d'aigua tècniques de 0,45 a 1,35 m; no model hidràulic ni rescloses operatives.",
+    "spatialReference": {
+      "source": "G04",
+      "request": "docs/sources/canal-topographic-request.txt",
+      "image": "docs/sources/canal-topographic-current.jpg",
+      "bbox": [
+        294500,
+        4499000,
+        298500,
+        4510500
+      ],
+      "imageSize": [
+        1200,
+        3450
+      ],
+      "use": "Corredor de referència actual llegit manualment al costat de la TV-3408 i del canal existent. No georeferenciació històrica. Enllaç amb el nucli antic i ramal són C. Controls aproximats, error de treball de desenes de metres."
+    },
+    "harbourConnection": "Dàrsena oberta a mar en l’escenari C; ramal prolongat dins la superfície d’aigua per evitar un tall geomètric. Amplada històrica de la boca desconeguda.",
+    "studyLengthMeters": 10258.307274316918
+  },
+  "basins": [
+    {
+      "id": "small",
+      "center": [
+        296580,
+        4499410
+      ],
+      "width": 34,
+      "length": 36
+    },
+    {
+      "id": "large",
+      "center": [
+        296521,
+        4499233
+      ],
+      "width": 42,
+      "length": 85
+    }
+  ],
+  "sites": [
+    {
+      "id": "battery",
+      "name": "Bateria del Roquer",
+      "anchor": [
+        296425.03047827433,
+        4499177.96184199
+      ],
+      "kind": "battery",
+      "radius": 40,
+      "state": "Muralla i dependències parcials; sis peces de l'inventari de 1794",
+      "evidence": "H01, pp. 113–115; H02 art. 16–17; projecte T-6/8. Les dues primeres plantes completes del plànol no es presenten com a obra executada.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Centre i eix de la bateria posterior ajustats al sector H; es conserva la planta T-6/8 de vuit canons, diferent del projecte de 1748.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "footprintUTM": [
+        [
+          296409.734245367,
+          4499163.715655792
+        ],
+        [
+          296428.63729862374,
+          4499157.20681258
+        ],
+        [
+          296429.8043855197,
+          4499156.898913251
+        ],
+        [
+          296431.018080848,
+          4499156.761982294
+        ],
+        [
+          296432.26669605915,
+          4499156.797338425
+        ],
+        [
+          296433.538206306,
+          4499157.004641148
+        ],
+        [
+          296434.8203662499,
+          4499157.381894023
+        ],
+        [
+          296436.10082798963,
+          4499157.925463899
+        ],
+        [
+          296437.3672599787,
+          4499158.6301159
+        ],
+        [
+          296438.60746578476,
+          4499159.489063845
+        ],
+        [
+          296439.80950154795,
+          4499160.494035592
+        ],
+        [
+          296440.9617910066,
+          4499161.635352716
+        ],
+        [
+          296442.0532369836,
+          4499162.902023708
+        ],
+        [
+          296443.0733282574,
+          4499164.281849834
+        ],
+        [
+          296444.01224079134,
+          4499165.7615426155
+        ],
+        [
+          296444.8609323445,
+          4499167.326851801
+        ],
+        [
+          296445.6112295533,
+          4499168.962702609
+        ],
+        [
+          296446.2559066455,
+          4499170.653340898
+        ],
+        [
+          296446.7887550282,
+          4499172.382484901
+        ],
+        [
+          296447.2046430803,
+          4499174.133482014
+        ],
+        [
+          296447.49956557236,
+          4499175.889469179
+        ],
+        [
+          296447.6706822397,
+          4499177.633535278
+        ],
+        [
+          296447.71634513524,
+          4499179.348884003
+        ],
+        [
+          296447.63611450023,
+          4499181.018995607
+        ],
+        [
+          296447.4307629997,
+          4499182.627786001
+        ],
+        [
+          296447.1022682807,
+          4499184.159761657
+        ],
+        [
+          296446.6537939271,
+          4499185.600168809
+        ],
+        [
+          296446.089658992,
+          4499186.935135552
+        ],
+        [
+          296445.4152964032,
+          4499188.151805422
+        ],
+        [
+          296444.63720064115,
+          4499189.238461227
+        ],
+        [
+          296443.7628651933,
+          4499190.184637877
+        ],
+        [
+          296442.80071038805,
+          4499190.981223172
+        ],
+        [
+          296441.7600023021,
+          4499191.6205455605
+        ],
+        [
+          296440.65076352324,
+          4499192.09644802
+        ],
+        [
+          296421.7477102665,
+          4499198.605291232
+        ],
+        [
+          296421.62835907395,
+          4499186.503559232
+        ],
+        [
+          296412.9865329136,
+          4499182.108904951
+        ],
+        [
+          296417.09076552064,
+          4499173.325430676
+        ]
+      ],
+      "technicalBaseElevation": 7.4233176324415435,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "tower",
+      "name": "Torre de la Ràpita",
+      "anchor": [
+        296388.9867085829,
+        4499194.271625824
+      ],
+      "kind": "tower",
+      "width": 7.474000000213545,
+      "depth": 8.787000000654782,
+      "height": 13.2,
+      "radius": 16,
+      "state": "Torre traçada al redibuix de 1748: part A existent i porció O projectada; reparació posterior representada des de 1780. Alçària i obertures C.",
+      "evidence": "Plànol de 1748, A: Torre de la Ràpita. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "existingWidth": 3.7370000001067725,
+      "alongAzimuthDegrees": 19,
+      "planLetter": "A",
+      "planPixels": [
+        [
+          843,
+          402
+        ],
+        [
+          917,
+          402
+        ],
+        [
+          917,
+          489
+        ],
+        [
+          843,
+          489
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "footprintUTM": [
+        [
+          296391.08972781326,
+          4499188.900841769
+        ],
+        [
+          296384.02292197925,
+          4499191.334138156
+        ],
+        [
+          296386.8836893525,
+          4499199.64240988
+        ],
+        [
+          296393.9504951865,
+          4499197.209113493
+        ]
+      ],
+      "technicalBaseElevation": 8.741500319008678,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "quarters",
+      "name": "Dependències de la guarnició",
+      "anchor": [
+        296398.6556884499,
+        4499182.022885049
+      ],
+      "kind": "quarters",
+      "width": 7,
+      "depth": 7,
+      "height": 5.4,
+      "radius": 22,
+      "state": "Allotjament de tropa i oficials; volum d'assaig",
+      "evidence": "H02 art. 16 i H01. Els usos són documentats; la separació en aquest cos i les obertures són C. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
+      "alongAzimuthDegrees": 19,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "footprintUTM": [
+        [
+          296396.48586197593,
+          4499186.471688604
+        ],
+        [
+          296394.20688489475,
+          4499179.853058575
+        ],
+        [
+          296400.8255149239,
+          4499177.574081494
+        ],
+        [
+          296403.1044920051,
+          4499184.192711523
+        ]
+      ],
+      "technicalBaseElevation": 8.290308599833692,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "cistern",
+      "name": "Cisterna i fossat",
+      "anchor": [
+        296417.8650252895,
+        4499180.108646249
+      ],
+      "kind": "cistern",
+      "width": 4.5,
+      "depth": 5,
+      "height": 1.1,
+      "radius": 18,
+      "state": "Excavació i obra parcial; restitució C",
+      "evidence": "H01, pp. 113–114: cisterna excavada i contraescarpa acabada el 1780. Posició individual d'assaig. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
+      "alongAzimuthDegrees": 19,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "footprintUTM": [
+        [
+          296416.5515288805,
+          4499183.204971036
+        ],
+        [
+          296414.9236881082,
+          4499178.477378158
+        ],
+        [
+          296419.17852169846,
+          4499177.012321463
+        ],
+        [
+          296420.8063624707,
+          4499181.739914341
+        ]
+      ],
+      "technicalBaseElevation": 6.929406143825961,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "kiln",
+      "name": "Forn de maons",
+      "anchor": [
+        296355,
+        4499154
+      ],
+      "kind": "kiln",
+      "width": 5,
+      "depth": 5,
+      "height": 2.8,
+      "radius": 17,
+      "state": "Forn d'obra documentat el 1780; continuïtat el 1800 desconeguda",
+      "evidence": "H01, p. 114. Forn de tipus genèric C, sense atribuir-li una fàbrica conservada concreta.",
+      "footprintUTM": [
+        [
+          296352.5,
+          4499156.5
+        ],
+        [
+          296352.5,
+          4499151.5
+        ],
+        [
+          296357.5,
+          4499151.5
+        ],
+        [
+          296357.5,
+          4499156.5
+        ]
+      ],
+      "technicalBaseElevation": 9.82547083199024,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "old-inn",
+      "name": "Fonda Vella",
+      "anchor": [
+        296540,
+        4499368
+      ],
+      "kind": "inn",
+      "width": 12,
+      "depth": 20,
+      "height": 5.5,
+      "radius": 26,
+      "state": "Servei del front litoral; planta i coberta C",
+      "evidence": "H02, anàlisi de les dependències i cases petites properes. No duplica la Fonda Nova ni les 14 unitats residencials.",
+      "footprintUTM": [
+        [
+          296534,
+          4499378
+        ],
+        [
+          296534,
+          4499358
+        ],
+        [
+          296546,
+          4499358
+        ],
+        [
+          296546,
+          4499378
+        ]
+      ],
+      "technicalBaseElevation": 2.9842594060301764,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "old-customs",
+      "name": "Duana antiga",
+      "anchor": [
+        296510,
+        4499394
+      ],
+      "kind": "customs",
+      "width": 11,
+      "depth": 8,
+      "height": 4.4,
+      "radius": 23,
+      "state": "Cos de servei d'assaig, diferent de la Duana Nova del Coc",
+      "evidence": "H02: serveis anteriors i front litoral. Posició individual, volum i permanència el 1800 per validar.",
+      "footprintUTM": [
+        [
+          296504.5,
+          4499398
+        ],
+        [
+          296504.5,
+          4499390
+        ],
+        [
+          296515.5,
+          4499390
+        ],
+        [
+          296515.5,
+          4499398
+        ]
+      ],
+      "technicalBaseElevation": 4.501354447603216,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "health",
+      "name": "Caseta de Sanitat i molls",
+      "anchor": [
+        296552,
+        4499184
+      ],
+      "kind": "health",
+      "width": 5,
+      "depth": 4,
+      "height": 3.1,
+      "radius": 50,
+      "state": "Caseta al moll; espigons parcials i escullera",
+      "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar.",
+      "footprintUTM": [
+        [
+          296549.5,
+          4499186
+        ],
+        [
+          296549.5,
+          4499182
+        ],
+        [
+          296554.5,
+          4499182
+        ],
+        [
+          296554.5,
+          4499186
+        ]
+      ],
+      "technicalBaseElevation": 1.3,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    },
+    {
+      "id": "well",
+      "name": "Pou de les Figueretes",
+      "anchor": [
+        296407.97500624356,
+        4499200.712022799
+      ],
+      "kind": "well",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "radius": 16,
+      "state": "Pou de la baixada arbrada del Roquer (G del plànol de 1748); brocal genèric C",
+      "evidence": "Plànol de 1748, G: Pou de les Figueretes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "planLetter": "G",
+      "planPixels": [
+        [
+          723,
+          567
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "footprintUTM": [
+        [
+          296407.97500624356,
+          4499200.712022799
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "technicalBaseElevation": -0.7496569519491711,
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "state1800": null
+    }
+  ],
+  "boats": [
+    {
+      "id": "llagut-1",
+      "kind": "llagut",
+      "anchor": [
+        296555,
+        4499250
+      ],
+      "length": 6.4,
+      "beam": 1.9,
+      "heading": 30,
+      "sail": false
+    },
+    {
+      "id": "llagut-2",
+      "kind": "llagut",
+      "anchor": [
+        296582,
+        4499225
+      ],
+      "length": 7.2,
+      "beam": 2.1,
+      "heading": -35,
+      "sail": true
+    },
+    {
+      "id": "bot-1",
+      "kind": "bot",
+      "anchor": [
+        296565,
+        4499315
+      ],
+      "length": 4.1,
+      "beam": 1.45,
+      "heading": 65,
+      "sail": false
+    },
+    {
+      "id": "llagut-3",
+      "kind": "llagut",
+      "anchor": [
+        296625,
+        4499120
+      ],
+      "length": 6.8,
+      "beam": 2,
+      "heading": -60,
+      "sail": true
+    },
+    {
+      "id": "cabotatge",
+      "kind": "cabotatge",
+      "anchor": [
+        296740,
+        4499230
+      ],
+      "length": 13,
+      "beam": 3.8,
+      "heading": 20,
+      "sail": true
+    }
+  ],
+  "shorelineNote": "Traça del peu del cantell del Roquer al redibuix de 1748, amb entrants i sortints; mateixa transformació que els edificis. Enllaços amb la costa general C. No equival a una línia de marees mesurada.",
+  "roquerCoast": [
+    [
+      296398.71480476455,
+      4499256.028574007
+    ],
+    [
+      296400.2175645854,
+      4499252.947459773
+    ],
+    [
+      296401.4009498942,
+      4499249.869495315
+    ],
+    [
+      296402.19919592387,
+      4499246.603685878
+    ],
+    [
+      296402.1379655683,
+      4499243.633817893
+    ],
+    [
+      296400.6113921871,
+      4499241.061688287
+    ],
+    [
+      296398.2879574132,
+      4499238.657120374
+    ],
+    [
+      296395.2631586227,
+      4499236.387231769
+    ],
+    [
+      296392.7487290965,
+      4499234.048428623
+    ],
+    [
+      296391.50864784373,
+      4499231.377651866
+    ],
+    [
+      296391.27985579544,
+      4499227.610922488
+    ],
+    [
+      296391.08079635614,
+      4499223.6203159755
+    ],
+    [
+      296391.2308440378,
+      4499219.402682553
+    ],
+    [
+      296391.6313516895,
+      4499214.67153009
+    ],
+    [
+      296392.2949184101,
+      4499210.704356638
+    ],
+    [
+      296393.2873089667,
+      4499207.692156945
+    ],
+    [
+      296395.1815076161,
+      4499205.437636714
+    ],
+    [
+      296398.4487016896,
+      4499203.137634999
+    ],
+    [
+      296402.3249121782,
+      4499201.055210871
+    ],
+    [
+      296406.2042724415,
+      4499199.292161256
+    ],
+    [
+      296409.95840271976,
+      4499197.785871159
+    ],
+    [
+      296413.5544206293,
+      4499196.440843207
+    ],
+    [
+      296416.8702459598,
+      4499195.8332114285
+    ],
+    [
+      296419.9356113201,
+      4499195.739098689
+    ],
+    [
+      296423.2014207567,
+      4499196.537344718
+    ],
+    [
+      296426.5361447352,
+      4499197.845960013
+    ],
+    [
+      296430.0915960748,
+      4499198.864933403
+    ],
+    [
+      296431.8308321302,
+      4499197.091049827
+    ],
+    [
+      296433.2741267332,
+      4499194.457689865
+    ],
+    [
+      296435.0102130139,
+      4499192.364431777
+    ],
+    [
+      296437.2237861753,
+      4499190.106761769
+    ],
+    [
+      296439.7270012398,
+      4499188.069819124
+    ],
+    [
+      296442.8095001104,
+      4499186.474331201
+    ],
+    [
+      296445.7636192213,
+      4499184.816228285
+    ],
+    [
+      296448.51729425584,
+      4499182.265766601
+    ],
+    [
+      296451.04394237994,
+      4499179.366197796
+    ],
+    [
+      296453.4719433532,
+      4499176.180136861
+    ],
+    [
+      296455.4193076711,
+      4499172.839113333
+    ],
+    [
+      296456.9815327098,
+      4499169.310244828
+    ],
+    [
+      296458.54375774856,
+      4499165.781376323
+    ],
+    [
+      296459.8194906589,
+      4499162.351154969
+    ],
+    [
+      296460.64746929746,
+      4499158.861468396
+    ],
+    [
+      296460.93849583744,
+      4499155.983948014
+    ],
+    [
+      296460.498425752,
+      4499153.464984076
+    ],
+    [
+      296458.7308417246,
+      4499152.364497045
+    ],
+    [
+      296456.31052493764,
+      4499153.091059258
+    ],
+    [
+      296453.5145181955,
+      4499154.58790003
+    ],
+    [
+      296450.9752709727,
+      4499156.209970788
+    ]
+  ],
+  "plan1748Project": [
+    {
+      "id": "project-1748-battery",
+      "letter": "H",
+      "pixels": [
+        [
+          848,
+          517
+        ],
+        [
+          596,
+          517
+        ],
+        [
+          574,
+          535
+        ],
+        [
+          450,
+          535
+        ],
+        [
+          409,
+          525
+        ],
+        [
+          371,
+          503
+        ],
+        [
+          341,
+          474
+        ],
+        [
+          321,
+          440
+        ],
+        [
+          311,
+          405
+        ],
+        [
+          315,
+          372
+        ],
+        [
+          330,
+          338
+        ],
+        [
+          356,
+          307
+        ],
+        [
+          387,
+          282
+        ],
+        [
+          424,
+          268
+        ],
+        [
+          459,
+          262
+        ],
+        [
+          675,
+          262
+        ],
+        [
+          675,
+          248
+        ],
+        [
+          451,
+          248
+        ],
+        [
+          410,
+          255
+        ],
+        [
+          367,
+          275
+        ],
+        [
+          333,
+          302
+        ],
+        [
+          307,
+          339
+        ],
+        [
+          291,
+          381
+        ],
+        [
+          287,
+          423
+        ],
+        [
+          296,
+          467
+        ],
+        [
+          312,
+          501
+        ],
+        [
+          334,
+          523
+        ],
+        [
+          326,
+          532
+        ],
+        [
+          354,
+          515
+        ],
+        [
+          387,
+          532
+        ],
+        [
+          428,
+          543
+        ],
+        [
+          575,
+          543
+        ],
+        [
+          600,
+          530
+        ],
+        [
+          848,
+          530
+        ]
+      ],
+      "height": 2.8,
+      "name": "Bateria projectada per a 14 canons",
+      "anchor": [
+        296430.71318395296,
+        4499177.019916551
+      ],
+      "footprintUTM": [
+        [
+          296394.3937150466,
+          4499200.047451942
+        ],
+        [
+          296418.45905383275,
+          4499191.761091275
+        ],
+        [
+          296421.1518790125,
+          4499192.756631606
+        ],
+        [
+          296432.99355365336,
+          4499188.679216039
+        ],
+        [
+          296436.5801222389,
+          4499186.376064551
+        ],
+        [
+          296439.4856100929,
+          4499183.0255916985
+        ],
+        [
+          296441.3969422525,
+          4499179.269696283
+        ],
+        [
+          296442.1888887328,
+          4499175.365137822
+        ],
+        [
+          296441.9929790682,
+          4499171.693905822
+        ],
+        [
+          296440.52587090485,
+          4499168.6740219435
+        ],
+        [
+          296437.97540922044,
+          4499165.920346909
+        ],
+        [
+          296434.4731235493,
+          4499163.8148702225
+        ],
+        [
+          296430.69064529904,
+          4499162.446789711
+        ],
+        [
+          296426.69688901166,
+          4499162.326474638
+        ],
+        [
+          296423.1571865453,
+          4499162.904373807
+        ],
+        [
+          296402.5297533,
+          4499170.006968665
+        ],
+        [
+          296402.0693999296,
+          4499168.670005399
+        ],
+        [
+          296423.46081218397,
+          4499161.304351472
+        ],
+        [
+          296427.60638129077,
+          4499160.624655378
+        ],
+        [
+          296432.3704161366,
+          4499161.120660406
+        ],
+        [
+          296436.50515128236,
+          4499162.58108852
+        ],
+        [
+          296440.2047312551,
+          4499165.259549463
+        ],
+        [
+          296443.1137493845,
+          4499168.744321123
+        ],
+        [
+          296444.87679900025,
+          4499172.623681386
+        ],
+        [
+          296445.4641474934,
+          4499177.121507389
+        ],
+        [
+          296445.05419051764,
+          4499180.8945363145
+        ],
+        [
+          296443.6766606819,
+          4499183.718891028
+        ],
+        [
+          296444.73658114334,
+          4499184.3153083455
+        ],
+        [
+          296441.50365409034,
+          4499183.612559691
+        ],
+        [
+          296438.91124119906,
+          4499186.321133745
+        ],
+        [
+          296435.35755499714,
+          4499188.71978261
+        ],
+        [
+          296421.31944070524,
+          4499193.553493
+        ],
+        [
+          296418.50453531503,
+          4499193.134086699
+        ],
+        [
+          296394.8211860334,
+          4499201.288917832
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-cistern",
+      "letter": "I",
+      "pixels": [
+        [
+          539,
+          371
+        ],
+        [
+          584,
+          371
+        ],
+        [
+          607,
+          412
+        ],
+        [
+          562,
+          460
+        ],
+        [
+          540,
+          458
+        ],
+        [
+          527,
+          403
+        ]
+      ],
+      "height": 0.7,
+      "name": "Cisterna projectada",
+      "anchor": [
+        296418.4766665168,
+        4499180.592369262
+      ],
+      "footprintUTM": [
+        [
+          296419.10157626687,
+          4499175.944178495
+        ],
+        [
+          296414.8041943408,
+          4499177.423885756
+        ],
+        [
+          296413.95593241724,
+          4499182.095573001
+        ],
+        [
+          296419.83166875615,
+          4499185.199739792
+        ],
+        [
+          296421.866846264,
+          4499184.2853326015
+        ],
+        [
+          296421.2997810557,
+          4499178.605505927
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-powder",
+      "letter": "K",
+      "pixels": [
+        [
+          610,
+          329
+        ],
+        [
+          706,
+          329
+        ],
+        [
+          706,
+          407
+        ],
+        [
+          610,
+          407
+        ]
+      ],
+      "height": 4,
+      "name": "Magatzem de pólvora projectat",
+      "anchor": [
+        296407.6387413559,
+        4499179.570690014
+      ],
+      "footprintUTM": [
+        [
+          296410.94020245003,
+          4499174.267937932
+        ],
+        [
+          296401.772454341,
+          4499177.424646758
+        ],
+        [
+          296404.3372802618,
+          4499184.873442097
+        ],
+        [
+          296413.5050283708,
+          4499181.716733271
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-guard",
+      "letter": "L",
+      "pixels": [
+        [
+          708,
+          328
+        ],
+        [
+          745,
+          328
+        ],
+        [
+          745,
+          405
+        ],
+        [
+          708,
+          405
+        ]
+      ],
+      "height": 3,
+      "name": "Cos de guàrdia projectat",
+      "anchor": [
+        296401.0478475152,
+        4499181.679887227
+      ],
+      "footprintUTM": [
+        [
+          296401.5485772051,
+          4499177.394914149
+        ],
+        [
+          296398.0151742881,
+          4499178.611562342
+        ],
+        [
+          296400.54711782536,
+          4499185.964860304
+        ],
+        [
+          296404.08052074234,
+          4499184.748212111
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-officer",
+      "letter": "M",
+      "pixels": [
+        [
+          746,
+          371
+        ],
+        [
+          777,
+          371
+        ],
+        [
+          777,
+          406
+        ],
+        [
+          746,
+          406
+        ]
+      ],
+      "height": 3,
+      "name": "Quarto de l’oficial projectat",
+      "anchor": [
+        296398.42885178974,
+        4499184.931712927
+      ],
+      "footprintUTM": [
+        [
+          296399.3336194068,
+          4499182.7508319
+        ],
+        [
+          296396.3732007466,
+          4499183.770185791
+        ],
+        [
+          296397.5240841726,
+          4499187.112593955
+        ],
+        [
+          296400.4845028328,
+          4499186.093240065
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-governor",
+      "letter": "N",
+      "pixels": [
+        [
+          778,
+          328
+        ],
+        [
+          846,
+          328
+        ],
+        [
+          846,
+          406
+        ],
+        [
+          778,
+          406
+        ]
+      ],
+      "height": 3,
+      "name": "Allotjament del governador projectat",
+      "anchor": [
+        296392.8992630475,
+        4499184.539079713
+      ],
+      "footprintUTM": [
+        [
+          296394.86376087565,
+          4499179.696681001
+        ],
+        [
+          296388.3699392984,
+          4499181.932683086
+        ],
+        [
+          296390.9347652193,
+          4499189.381478424
+        ],
+        [
+          296397.4285867965,
+          4499187.145476339
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    },
+    {
+      "id": "project-1748-tower",
+      "letter": "O",
+      "pixels": [
+        [
+          843,
+          404
+        ],
+        [
+          879,
+          404
+        ],
+        [
+          879,
+          483
+        ],
+        [
+          843,
+          483
+        ]
+      ],
+      "height": 10.7,
+      "name": "Porció de torre que es proposa reedificar",
+      "anchor": [
+        296390.73539396224,
+        4499193.455865784
+      ],
+      "footprintUTM": [
+        [
+          296391.15549258044,
+          4499189.0918365205
+        ],
+        [
+          296387.7175870396,
+          4499190.27560233
+        ],
+        [
+          296390.315295344,
+          4499197.819895046
+        ],
+        [
+          296393.75320088485,
+          4499196.636129236
+        ]
+      ],
+      "geometryConfidence": "C",
+      "projectOnly": true
+    }
+  ]
+}

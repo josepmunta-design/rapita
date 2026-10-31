@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rapita_1800_base_geografica",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.587222,
+          40.621389
+        ]
+      },
+      "properties": {
+        "id": "glorieta",
+        "name": "La Glorieta",
+        "typ": "monumento_incompleto",
+        "evidence": "Localización edificio superviviente; Wikimedia Commons / registro BCIN",
+        "url": "https://commons.wikimedia.org/wiki/Category:La_Glorieta_(La_R%C3%A0pita,_Montsi%C3%A0)",
+        "confidence": "Alta (punto actual); no prueba exacta de fase 1794",
+        "utm_x": 295915.7,
+        "utm_y": 4499527.6,
+        "shortName": "La Glorieta",
+        "category": "Pavelló inacabat",
+        "description": "Pavelló inacabat amb rotonda, tres arcs de maó i annex rectangular, sense cúpula. Model C cap al 1800; la visita de Jaubert que es cita és de 1816, i la Glorieta no apareix expressament a l’inventari de 1794.",
+        "pending": "Georeferenciar i mesurar planta, arcs, annex i alçats; fixar-ne la cronologia. Radi i alçària de treball són hipòtesis C, no mesures històriques.",
+        "certainty": {
+          "existence1800": "B",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "C"
+        },
+        "sourceRefs": [
+          "H01, pp. 229–231 (PDF 233–235)",
+          "H01, p. 222: visita de Jaubert el 1816",
+          "H02: absència de menció expressa a l’inventari de 1794"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 36.23105251918502,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.59287,
+          40.62004
+        ]
+      },
+      "properties": {
+        "id": "plaza",
+        "name": "Plaça de Carles III",
+        "typ": "espacio_urbano",
+        "evidence": "Centro actual; Mapcarta OpenStreetMap, Figuerola 2021",
+        "url": "https://mapcarta.com/es/33028898",
+        "confidence": "Alta (eje histórico); centro aproximado",
+        "utm_x": 296389.4,
+        "utm_y": 4499364.7,
+        "shortName": "Plaça de Carles III",
+        "category": "Plaça saló",
+        "description": "Espai longitudinal amb exedra meridional i un eix transversal. El punt marca una referència actual: no delimita el contorn històric de la plaça.",
+        "pending": "Digitalitzar la planta, les arcades conservades i les seves fases. El plànol de Gorria és del segle XIX i el de la pàgina 229 és una reconstrucció ideal.",
+        "certainty": {
+          "existence1800": "A",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "C"
+        },
+        "sourceRefs": [
+          "H01, pp. 225–229 (PDF 229–233)",
+          "H02, segons el dossier de la segona revisió"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 9.319041340573119,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.59349,
+          40.61986
+        ]
+      },
+      "properties": {
+        "id": "coc",
+        "name": "Plaça del Coc",
+        "typ": "espacio_urbano",
+        "evidence": "Centro actual; Mapcarta OpenStreetMap; parte de antigua Plaza Mayor",
+        "url": "https://mapcarta.com/W601366404",
+        "confidence": "Alta (posición actual)",
+        "utm_x": 296441.3,
+        "utm_y": 4499343.3,
+        "shortName": "Plaça del Coc",
+        "category": "Connexió amb el front marítim",
+        "description": "Referència de l’espai transversal relacionat amb la plaça i les baixades cap al port. Les rampes i les obres portuàries requereixen una restitució documental.",
+        "pending": "Precisar les rampes, els murs i els volums incomplets. No traslladar el port modern al 1800.",
+        "certainty": {
+          "existence1800": "B",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "C"
+        },
+        "sourceRefs": [
+          "H01, pp. 228–233",
+          "H02, segons el dossier de la segona revisió"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 7.417083705838776,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.58771,
+          40.61577
+        ]
+      },
+      "properties": {
+        "id": "esglesia_nova",
+        "name": "Església Nova",
+        "typ": "monumento_incompleto",
+        "evidence": "Localización del edificio superviviente; Mapcarta OSM y Ayuntamiento",
+        "url": "https://mapcarta.com/W1090079375",
+        "confidence": "Alta (sitio y edificación); uso discutido",
+        "utm_x": 295939.8,
+        "utm_y": 4498902.6,
+        "shortName": "Església Nova",
+        "category": "Edifici inacabat",
+        "description": "Separada del nucli fundacional, a Codonyol. El dossier posterior recull la descripció d’una capella el 1794, mentre que les fitxes patrimonials mantenen obert el debat sobre la seva funció original.",
+        "pending": "Contrastar el costat publicat de 23,7 m i la traça actual aproximada en ortofoto ICGC 2024 amb un aixecament. Mesurar murs i obertures; validar el model d’estudi C abans d’atribuir-lo al 1800.",
+        "certainty": {
+          "existence1800": "A",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "B"
+        },
+        "sourceRefs": [
+          "H01, pp. 234–240",
+          "H02, segons el dossier de la segona revisió",
+          "H06, fitxa municipal",
+          "H07, Gran Enciclopèdia Catalana: costat publicat",
+          "G02, ortofoto ICGC 2024: posició i orientació aproximades"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 25.28489879474488,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.59335,
+          40.6184
+        ]
+      },
+      "properties": {
+        "id": "mercat",
+        "name": "Roquer i bateria",
+        "typ": "asociacion_sitio_historico",
+        "evidence": "Mercat actual geolocalizado; Reverté 2024 sitúa torre/batería en su solar y roquer",
+        "url": "https://mapcarta.com/es/W739585412",
+        "confidence": "Media para torre exacta: solar general, no centro original",
+        "utm_x": 296425,
+        "utm_y": 4499181.5,
+        "shortName": "Roquer i bateria",
+        "category": "Fortificació i dependències · estudi C",
+        "description": "El mercat actual referencia l’àmbit del Roquer. El model d’estudi separa el projecte T-6/8 de la bateria parcial i els sis canons de l’inventari de 1794; planta, gir i alçats individuals són C.",
+        "pending": "Georeferenciar el plànol militar, mesurar les fàbriques i resoldre el fossat, les reutilitzacions i els danys de 1795. Els models actuals són hipòtesis C, sense planta mesurada ni alçària històrica validada.",
+        "certainty": {
+          "existence1800": "A",
+          "position": "C",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "D"
+        },
+        "sourceRefs": [
+          "H01, pp. 107–120, especialment 113–115",
+          "H02, relació de 1794, art. 16–18",
+          "P01, projecte T-6/8, Archivo General Militar de Madrid / BVD",
+          "H09, La rábita en el islam, lectura focal del Roquer"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 6.0541288504004385,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.58586,
+          40.62358
+        ]
+      },
+      "properties": {
+        "id": "guardiola",
+        "name": "La Guardiola",
+        "typ": "torre",
+        "evidence": "Mapcarta OpenStreetMap (ojo: fábrica actual modificada en XIX)",
+        "url": "https://mapcarta.com/es/W718088550",
+        "confidence": "Alta sitio actual; torre hoy no idéntica a 1800",
+        "utm_x": 295807.1,
+        "utm_y": 4499774,
+        "shortName": "La Guardiola",
+        "category": "Torre de guaita · alçat d’estudi C",
+        "description": "Torre preexistent de planta quadrada i base atalussada. La documentació de 1780 esmenta la Guardiola; l’alçat d’estudi omet el coronament i els elements del mirador modern.",
+        "pending": "Mesurar i datar les fàbriques anteriors al segle XIX. El coronament històric és desconegut; les dimensions del model són C. Els 113 m publicats són la cota del turó, no l’alçària de la torre.",
+        "certainty": {
+          "existence1800": "B",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "D"
+        },
+        "sourceRefs": [
+          "H01, pp. 161–162 (PDF 165–166)",
+          "H12, Turisme La Ràpita: planta quadrada i base atalussada; antecedents de 1483 i 1575"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 106.05197942447917,
+        "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
+      }
+    }
+  ]
+}

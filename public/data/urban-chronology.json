@@ -1,0 +1,375 @@
+{
+  "id": "rental-cohort-1788",
+  "label": "Dotze cases de lloguer · testimoni de 1788–1789",
+  "count": 12,
+  "documentedCompletedCount": null,
+  "studyFinishedCount1789": 8,
+  "identityWith1794": null,
+  "source": {
+    "id": "H01",
+    "title": "Borràs Matamoros, tesi, pp. 251–252 (PDF 255–256)",
+    "evidence": "Cinc informes mensuals, desembre 1788–abril 1789. Dotze cases numerades, tres plantes i superfícies de 50–60 m², al costat de la fonda dels Lanti, probablement a l'àmbit de la Fonda Vella. A l'abril de 1789 la majoria estaven concloses."
+  },
+  "placement": {
+    "easting": 296515,
+    "northing": 4499335,
+    "rows": 2,
+    "columns": 6,
+    "spacingEasting": 5.5,
+    "spacingNorthing": 15
+  },
+  "typology": {
+    "width": 5.3,
+    "depth": 10.4,
+    "wallHeight": 8.1,
+    "roofRise": 1.5,
+    "wallThickness": 0.4
+  },
+  "limits": "Emplaçament, repartiment en dues fileres i alçats C. Les vuit cases d'assaig amb acabat i les quatre sense acabat són una assignació C per visualitzar 'la majoria', no una xifra documental. La fase de 1788 amb murs sense coberta és una simplificació C, no l'estat individual dels dotze números. El testimoni de 1794 substitueix aquesta escena: no significa enderroc ni construcció de nou.",
+  "additionalEvidence": [
+    {
+      "entity": "old-customs",
+      "firstWitness": 1780,
+      "reference": "H01, pp. 159–162",
+      "evidence": "Duana, casa de l'administrador, dues cases de guardes, ferreria i dependències de les obres descrites a finals de 1780. Només s'anticipa el cos ja modelat de la duana; no s'inventa una distribució dels altres immobles."
+    },
+    {
+      "entity": "old-inn",
+      "firstWitness": 1782,
+      "reference": "H01, pp. 168, 268 i 322",
+      "evidence": "Lanti: establiment de la fonda en una casa arrendada i registre del 20 de maig de 1782. Identificar aquest ús amb el volum de la Fonda Vella és una correspondència C."
+    },
+    {
+      "entity": "cases-talavera",
+      "firstWitness": 1782,
+      "reference": "H01, p. 322 (PDF 326)",
+      "evidence": "Registre de dues cases el 14 de març de 1782. No és la data de construcció. Es mostra el volum C de les dues cases; els acabats d'aquell any són desconeguts."
+    }
+  ],
+  "structures": [
+    {
+      "id": "rental-cohort-1788-01",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296515,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.7439349818040175,
+        "maximum": 4.898198850771443,
+        "technicalBaseElevation": 4.978198850771443
+      }
+    },
+    {
+      "id": "rental-cohort-1788-02",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296520.5,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.317481258222081,
+        "maximum": 4.0696375543172225,
+        "technicalBaseElevation": 4.149637554317223
+      }
+    },
+    {
+      "id": "rental-cohort-1788-03",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296526,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.203390043380212,
+        "maximum": 3.1114962804521116,
+        "technicalBaseElevation": 3.1914962804521116
+      }
+    },
+    {
+      "id": "rental-cohort-1788-04",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296531.5,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.05784372180394,
+        "maximum": 2.590589977538755,
+        "technicalBaseElevation": 2.670589977538755
+      }
+    },
+    {
+      "id": "rental-cohort-1788-05",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296537,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.0046099859458755,
+        "maximum": 2.3291162717532803,
+        "technicalBaseElevation": 2.4091162717532804
+      }
+    },
+    {
+      "id": "rental-cohort-1788-06",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296542.5,
+        "northing": 4499335
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.0060399872039083,
+        "maximum": 2.1207250154052977,
+        "technicalBaseElevation": 2.2007250154052977
+      }
+    },
+    {
+      "id": "rental-cohort-1788-07",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296515,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 4.111714937667725,
+        "maximum": 4.91410871924178,
+        "technicalBaseElevation": 4.99410871924178
+      }
+    },
+    {
+      "id": "rental-cohort-1788-08",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296520.5,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "finished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 3.724225102039269,
+        "maximum": 4.4108073973546915,
+        "technicalBaseElevation": 4.490807397354692
+      }
+    },
+    {
+      "id": "rental-cohort-1788-09",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296526,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "roofed-unfinished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.916772496085858,
+        "maximum": 4.0531137302392315,
+        "technicalBaseElevation": 4.133113730239232
+      }
+    },
+    {
+      "id": "rental-cohort-1788-10",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296531.5,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "roofed-unfinished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 2.4472350096554507,
+        "maximum": 3.532834951882693,
+        "technicalBaseElevation": 3.612834951882693
+      }
+    },
+    {
+      "id": "rental-cohort-1788-11",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296537,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "roofed-unfinished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 1.9905149650514187,
+        "maximum": 2.856115073863672,
+        "technicalBaseElevation": 2.936115073863672
+      }
+    },
+    {
+      "id": "rental-cohort-1788-12",
+      "group": "rental-cohort",
+      "kind": "large",
+      "anchor": {
+        "easting": 296542.5,
+        "northing": 4499350
+      },
+      "across": 0,
+      "along": 0,
+      "width": 5.3,
+      "depth": 10.4,
+      "wallHeight": 8.1,
+      "roofRise": 1.5,
+      "wallThickness": 0.4,
+      "frontAzimuthDegrees": 180,
+      "state1794": "identity-unknown",
+      "renderState": "roofed-unfinished",
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "identityWith1794": null,
+      "terrain": {
+        "minimum": 1.9205275286726204,
+        "maximum": 2.486077485687446,
+        "technicalBaseElevation": 2.566077485687446
+      }
+    }
+  ]
+}

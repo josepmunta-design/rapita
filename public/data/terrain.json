@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "source": "elevacions-terreny-lidar-Catalunya-50cm-2021-2023tif1793275473132.tif",
+  "sourceSha256": "d0bb7c61e36b7c638c2a9b3ec52bdf21ce7331647f146084901f23c7ddb810cf",
+  "sourcePeriod": "2021–2023",
+  "verticalDatum": "Pendiente de contraste con ficha del producto ICGC; cotas nativas sin transformar.",
+  "width": 360,
+  "height": 320,
+  "step": 10,
+  "west": 294755.25,
+  "north": 4500994.75,
+  "extent": [
+    294750,
+    4497800,
+    298350,
+    4501000
+  ],
+  "origin": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "elevation": 0
+  },
+  "encoding": "float32-le",
+  "rowOrder": "north-to-south",
+  "noData": -9999,
+  "sampling": "Un píxel nativo cada 20 (10 m). Sin promedio, interpolación ni relleno NoData.",
+  "historicalCorrections": [],
+  "validCount": 81200,
+  "sampleCount": 115200,
+  "minimum": -0.6959999799728394,
+  "maximum": 132.97300720214844,
+  "heights": "terrain.f32",
+  "validity": "terrain.valid.u8"
+}

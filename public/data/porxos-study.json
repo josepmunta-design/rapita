@@ -1,0 +1,166 @@
+{
+  "title": "Porxos de les cases rodones · revisió documental",
+  "version": "0.12.0",
+  "reviewed": "2026-10-31",
+  "historicalDimensions": null,
+  "surveyedIndividualBayCount": null,
+  "historicalColour": null,
+  "state1800Verified": false,
+  "primaryState": "Relació del 20 de maig de 1794, art. 3: catorze cases amb els pòrtics conclosos, primeres bigues i murs preparats per continuar. No es completa la teulada domèstica.",
+  "morphology": "La fitxa IPAC 6415 descriu pilastres rectangulars i arcs de carpanell. Les fotografies permeten estudiar impostes, fàbrica radial dels arcs, galeria i elements de fusta, amb reformes successives.",
+  "correction": "Es retira la façana alta contínua sobre els arcs del model anterior. El front porticat es tracta com una estructura exempta i el cos domèstic inacabat queda al darrere. No es copien els pisos moderns, anuncis, persianes comercials, paviments contemporanis ni instal·lacions.",
+  "limits": "Les fotografies posteriors no acrediten per si soles l’estat del 1800. Nombre d’obertures per finca, escala mètrica, cotes, plantes individuals, colors i posicions encara C. Es conserva l’assignació d’assaig d’un arc principal per cos, sense convertir-la en un recompte històric.",
+  "descriptions": [
+    {
+      "title": "Traçat i pas sota els porxos",
+      "text": "El front porticat segueix el tram semicircular de la plaça i continua als extrems rectes. El semicercle no es tanca: un pas de carrer separa els cinc cossos de cada costat, com mostren les vistes de la plaça (N030) i la lectura de H02 (p.210, nota 60), que reparteix els deu arcs en cinc per banda. L'amplada d'aquest pas és C. La galeria permet passar entre els suports, davant del cos domèstic. El model deixa lliure aquest recorregut: les col·lisions segueixen els pilars i les parets, no un rectangle que tapi tot el pas. L’amplada i la correspondència de cada tram amb una casa concreta són hipòtesis C.",
+      "sourceRefs": [
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "title": "Arcs de carpanell",
+      "text": "La fitxa patrimonial identifica arcs de carpanell, més rebaixats que un arc de mig punt. Al model s’assagen amb tres centres i unions tangents, amb intradós, extradós i gruix visibles. Les peces radials de maó i les juntes es modelen individualment, prenent la fotografia de 1916 com a referència visual. El radi, la mida de les peces i la llum exacta no estan mesurats històricament.",
+      "sourceRefs": [
+        "P01",
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "title": "Pilastres, impostes i coronament",
+      "text": "Els suports són de secció rectangular. La reconstrucció diferencia sòcol, filades, juntes, imposta al naixement de l’arc i cornisa superior. Les fotografies conservades orienten la lectura d’aquests elements; els perfils, dimensions, materials i acabats concrets del 1800 encara són una restitució C. No es traslladen al 1800 els desperfectes visibles el 1916.",
+      "sourceRefs": [
+        "P01",
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "title": "Galeria i estructura de fusta",
+      "text": "Els testimonis fotogràfics posteriors permeten estudiar els arcs transversals i els elements de fusta de la galeria. El model incorpora aquestes peces i deixa visible l’estructura de treball, amb separació i seccions hipotètiques. El document de 1794 esmenta les bigues del primer pis: no demostra que tots els elements visibles a les fotografies modernes siguin originals.",
+      "sourceRefs": [
+        "H02",
+        "P05",
+        "P07"
+      ]
+    },
+    {
+      "title": "Cases inacabades cap al 1800",
+      "text": "La relació de 1794 compta catorze cases amb els pòrtics conclosos, bigues del primer pis i murs preparats per continuar. L’escena parteix d’aquest estat, amb el cos domèstic al darrere i sense completar una teulada acabada. No s’ha acreditat que totes les cases conservessin exactament el mateix estat el 1800. La informació constructiva de les cases de 1788–1789 serveix de comparació, sense atribuir-la automàticament a cadascun d’aquests cossos.",
+      "sourceRefs": [
+        "H02",
+        "H01"
+      ]
+    },
+    {
+      "title": "Què s’exclou de les fotografies posteriors",
+      "text": "L’IPAC assenyala que la majoria dels edificis actuals sobre els porxos s’aixecaren al segle XX. Per això no es reprodueix una façana alta contínua sobre les arcades de l’escena del 1800. Tampoc s’hi copien anuncis, persianes comercials, instal·lacions elèctriques, terrasses de bar ni paviments moderns. Les postals sense data es mantenen sense data i no decideixen les fases del selector d’any.",
+      "sourceRefs": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "H02",
+      "title": "Relació de 1794, transcrita per Pilar Reverté Vidal (2024)",
+      "year": 1794,
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "use": "Estat d’obra i inventari. Pàgines 208–210 i 230, art. 3."
+    },
+    {
+      "id": "H01",
+      "title": "Noèlia Borràs Matamoros, tesi doctoral",
+      "year": 2014,
+      "local": "tesi doctoral.pdf",
+      "use": "P. 226: fotografia antiga i columnata; pp. 251–253: sistemes constructius de les cases de 1788–1789. No s’assimilen automàticament a cada casa porticada."
+    },
+    {
+      "id": "P01",
+      "title": "Josep Salvany i Blanch · Vista dels porxos de la plaça Carles III",
+      "year": 1916,
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_dels_porxos_de_la_pla%C3%A7a_Carles_III.jpeg",
+      "archive": "Biblioteca de Catalunya · Fons Fotogràfic Salvany · MDC bcsalvany/3410",
+      "rights": "Domini públic, segons la fitxa de Wikimedia Commons",
+      "publicImage": "reference/porxos-salvany-1916.jpg",
+      "publicStereo": "reference/porxos-salvany-1916-estereo.jpg",
+      "use": "Arcs exempts, disposició dels elements, fàbrica radial i edificació al darrere. No es traslladen al 1800 els danys observats el 1916."
+    },
+    {
+      "id": "P02",
+      "title": "Inventari del Patrimoni Arquitectònic de Catalunya · fitxa 6415",
+      "year": null,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "use": "Descripció patrimonial de pilastres rectangulars i arcs de carpanell; nota sobre pisos aixecats al segle XX."
+    },
+    {
+      "id": "P03",
+      "title": "J. Contijoch · vista general de la plaça",
+      "year": 1996,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageId": 48670,
+      "use": "Context posterior; s’exclouen elements contemporanis. Imatge de treball, sense incorporar-la com a textura."
+    },
+    {
+      "id": "P04",
+      "title": "Pere Rams i Josep M. Pérez · vista de la plaça",
+      "year": 2008,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageId": 25831,
+      "use": "Comparació d’elements conservats; no data la fàbrica històrica."
+    },
+    {
+      "id": "P05",
+      "title": "Museu del Montsià · exterior i interior dels porxos",
+      "year": 2009,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageIds": [
+        25833,
+        25832
+      ],
+      "use": "Geometria visible de pilastres, impostes i arcs transversals. Es discriminen les reformes i els acabats recents."
+    },
+    {
+      "id": "P06",
+      "title": "Albert Esteves · fotografies de la plaça",
+      "year": 2023,
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18368",
+      "rights": "Imatges reservades; només referència local de recerca, no publicades amb l’app",
+      "use": "Contrast visual dels elements conservats; no s’importen terrasses comercials, instal·lacions ni els paviments moderns."
+    },
+    {
+      "id": "P07",
+      "title": "Postals antigues reproduïdes a Pobles de Catalunya",
+      "year": null,
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18368",
+      "use": "Comparació qualitativa. Autor i data no confirmats: no s’utilitzen per datar fases ni com a imatges distribuïdes."
+    }
+  ],
+  "workingGeometry": {
+    "confidence": "C",
+    "galleryDepth": 3,
+    "springHeight": 2.45,
+    "maximumRise": 1.4,
+    "riseHalfSpanFactor": 0.48,
+    "voussoirBand": 0.28,
+    "sharedHalfPierWidth": 0.39,
+    "arcadeThickness": 0.64,
+    "rearBodyHeight": 5.8,
+    "brickPitch": 0.155,
+    "joistSpacing": 0.48,
+    "frontFloorsAdded": false,
+    "historicalDimensions": null
+  },
+  "imageSha256": {
+    "porxos-salvany-1916.jpg": "ca96b70b79f12b21fa9ac9f653c9c67fc7b2ab9bc4723e8441891dc1285afcf5",
+    "porxos-salvany-1916-estereo.jpg": "961714632cc6eb3d203b8a8edba7bb87c8741f7add07f95954de60f580db59ce"
+  }
+}

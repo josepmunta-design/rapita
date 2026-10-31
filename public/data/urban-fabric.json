@@ -1,0 +1,2721 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "title": "Carrers, accessos i serveis de la població",
+  "geometryConfidence": "C",
+  "surveyedParcelPlan": null,
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Borràs Matamoros, tesi, pp. 159–162, 232–233 i 251–253",
+      "file": "tesi doctoral.pdf",
+      "use": "Serveis de 1780, dotze cases de 1788–1789 i separació del plànol posterior de 1852."
+    },
+    {
+      "id": "H02",
+      "title": "Relació del 20/05/1794, ACA RP BGRP Cajas 60, transcrita per Reverté (2024)",
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "use": "Art. 5, 7, 10, 14, 22–26; límits de Talavera de 1782. Traçats i dimensions representats C."
+    },
+    {
+      "id": "G03",
+      "title": "ICGC · mapa topogràfic actual arxivat",
+      "file": "docs/sources/nucleo-topografico.jpg",
+      "use": "Referència de situació i eixos actuals, sense traslladar el parcel·lari contemporani al 1800."
+    }
+  ],
+  "routes": [
+    {
+      "id": "carrer-major",
+      "name": "Carrer principal i Alamedes",
+      "kind": "street",
+      "fromYear": 1794,
+      "width": 10,
+      "townPoints": [
+        [
+          0,
+          -116
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          0,
+          165
+        ]
+      ],
+      "evidence": "H02, art. 11, 25–26. Eix principal, passeig i entrada nord; amplada i traça C.",
+      "points": [
+        [
+          296351.588594083,
+          4499255.04844523
+        ],
+        [
+          296415.3999523566,
+          4499440.370086048
+        ],
+        [
+          296443.07324548543,
+          4499520.739164974
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "rambla",
+      "name": "Carrer de la Rambla",
+      "kind": "street",
+      "fromYear": 1782,
+      "width": 5.5,
+      "townPoints": [
+        [
+          -82,
+          -142
+        ],
+        [
+          -82,
+          0
+        ],
+        [
+          -82,
+          78
+        ],
+        [
+          -111,
+          78
+        ],
+        [
+          -111,
+          144
+        ],
+        [
+          0,
+          144
+        ]
+      ],
+      "evidence": "Concessió de Talavera de 1782, H02 pp. 210–211. S'assaja una connexió de l'àmbit occidental; no és la digitalització del límit de la finca.",
+      "points": [
+        [
+          296265.59129886795,
+          4499257.16155093
+        ],
+        [
+          296311.82197680086,
+          4499391.425188665
+        ],
+        [
+          296337.2162928485,
+          4499465.175637562
+        ],
+        [
+          296309.79625415616,
+          4499474.617114041
+        ],
+        [
+          296331.2837523503,
+          4499537.021340031
+        ],
+        [
+          296436.23631424183,
+          4499500.883274887
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "rampar",
+      "name": "Carrer del Rampar",
+      "kind": "street",
+      "fromYear": 1782,
+      "width": 5.5,
+      "townPoints": [
+        [
+          88,
+          151
+        ],
+        [
+          88,
+          45
+        ],
+        [
+          91,
+          0
+        ],
+        [
+          110,
+          -2
+        ]
+      ],
+      "evidence": "H02, límits de Talavera de 1782 i accessos al Cóc. Correspondència individual amb els carrers actuals pendent.",
+      "points": [
+        [
+          296521.7209259758,
+          4499478.851907323
+        ],
+        [
+          296487.2107016033,
+          4499378.62693831
+        ],
+        [
+          296475.39669037954,
+          4499335.101897945
+        ],
+        [
+          296492.710407007,
+          4499327.025065859
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "pedrera",
+      "name": "Camí de la pedrera al Cóc",
+      "kind": "track",
+      "fromYear": 1794,
+      "width": 5,
+      "townPoints": [
+        [
+          -220,
+          4
+        ],
+        [
+          -155,
+          0
+        ],
+        [
+          -90,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ],
+        [
+          111,
+          -4
+        ]
+      ],
+      "evidence": "H02 p. 223: camí obert per transportar pedra de la Guardiola, amb referència actual a la Constància. Traça dins del nucli C; no es reconstrueix tota la pedrera.",
+      "points": [
+        [
+          296182.642685986,
+          4499440.135668283
+        ],
+        [
+          296242.7991207821,
+          4499415.19166394
+        ],
+        [
+          296304.2578281961,
+          4499394.029733901
+        ],
+        [
+          296389.3545,
+          4499364.7286
+        ],
+        [
+          296474.4511718039,
+          4499335.427466099
+        ],
+        [
+          296493.0047892737,
+          4499324.808460553
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "rampa-nord",
+      "name": "Baixada del Cóc a la dàrsena petita",
+      "kind": "ramp",
+      "fromYear": 1794,
+      "width": 5,
+      "utmPoints": [
+        [
+          296479,
+          4499343
+        ],
+        [
+          296500,
+          4499348
+        ],
+        [
+          296530,
+          4499380
+        ],
+        [
+          296562,
+          4499423
+        ]
+      ],
+      "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric.",
+      "points": [
+        [
+          296479,
+          4499343
+        ],
+        [
+          296500,
+          4499348
+        ],
+        [
+          296530,
+          4499380
+        ],
+        [
+          296562,
+          4499423
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "rampa-sud",
+      "name": "Baixada del Cóc al port",
+      "kind": "ramp",
+      "fromYear": 1794,
+      "width": 5,
+      "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C.",
+      "townPoints": [
+        [
+          98.58,
+          -1.73
+        ],
+        [
+          100,
+          -53
+        ],
+        [
+          189.66,
+          -66.61
+        ]
+      ],
+      "points": [
+        [
+          296482.0004882754,
+          4499330.998344198
+        ],
+        [
+          296466.6512453737,
+          4499282.059300048
+        ],
+        [
+          296546.9954582798,
+          4499240.000351504
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    },
+    {
+      "id": "rampa-roquer",
+      "name": "Baixada del Pou de les Figueretes",
+      "kind": "ramp",
+      "fromYear": 1794,
+      "width": 4,
+      "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C.",
+      "townPoints": [
+        [
+          10.5,
+          -104
+        ],
+        [
+          42,
+          -104
+        ],
+        [
+          60,
+          -145
+        ],
+        [
+          110,
+          -145
+        ],
+        [
+          161.5,
+          -129.2
+        ],
+        [
+          203.5,
+          -122.1
+        ]
+      ],
+      "points": [
+        [
+          296365.42335698026,
+          4499262.976202516
+        ],
+        [
+          296395.20719211164,
+          4499252.720805651
+        ],
+        [
+          296398.8782321397,
+          4499208.09431727
+        ],
+        [
+          296446.15416091966,
+          4499191.815909548
+        ],
+        [
+          296499.99234440346,
+          4499189.988343087
+        ],
+        [
+          296542.0156584752,
+          4499183.027662487
+        ]
+      ],
+      "historicalWidth": null,
+      "positionConfidence": "C"
+    }
+  ],
+  "ravine": {
+    "id": "barranc-monges",
+    "name": "Barranc de les Monges",
+    "fromYear": 1794,
+    "width": 8,
+    "depth": 2.2,
+    "townPoints": [
+      [
+        -220,
+        146
+      ],
+      [
+        -130,
+        144
+      ],
+      [
+        -55,
+        145
+      ],
+      [
+        0,
+        145
+      ],
+      [
+        85,
+        146
+      ],
+      [
+        142,
+        153
+      ]
+    ],
+    "evidence": "H02, límits de Talavera, Mançana i art. 25. Barranc avui soterrat; l'amplada i la fondària són una hipòtesi reversible, sense aigua simulada.",
+    "points": [
+      [
+        296228.8733639189,
+        4499574.399306019
+      ],
+      [
+        296313.3188994139,
+        4499543.207134966
+      ],
+      [
+        296384.55836073833,
+        4499519.735041957
+      ],
+      [
+        296436.5618823963,
+        4499501.828793462
+      ],
+      [
+        296517.25652947667,
+        4499475.101018909
+      ],
+      [
+        296573.4300653671,
+        4499463.162264134
+      ]
+    ],
+    "historicalDepth": null
+  },
+  "sites": [
+    {
+      "id": "pont-monges",
+      "name": "Pont de l'entrada de Barcelona",
+      "kind": "bridge",
+      "fromYear": 1794,
+      "townAnchor": [
+        0,
+        145
+      ],
+      "width": 8,
+      "depth": 14,
+      "height": 2.8,
+      "evidence": "H02 art. 25: pont amb baranes, guardarrodes i dos braços amb seients. Mides, nombre i forma dels arcs C.",
+      "anchor": [
+        296436.5618823963,
+        4499501.828793462
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 6.5751043311151385,
+      "footprintUTM": [
+        [
+          296430.50083101273,
+          4499496.512436051
+        ],
+        [
+          296438.0649796175,
+          4499493.907890815
+        ],
+        [
+          296442.62293377984,
+          4499507.145150874
+        ],
+        [
+          296435.0587851751,
+          4499509.749696109
+        ]
+      ]
+    },
+    {
+      "id": "hort-nord",
+      "name": "Hort del Rei · tram nord",
+      "kind": "garden",
+      "fromYear": 1794,
+      "townAnchor": [
+        -151,
+        45
+      ],
+      "width": 60,
+      "depth": 43,
+      "evidence": "H02 art. 10: dos horts a l'entrada de València separats pel camí. Recintes i conreus d'assaig C.",
+      "anchor": [
+        296261.23176203505,
+        4499456.437727225
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 11.342568730987125,
+      "footprintUTM": [
+        [
+          296225.86648944626,
+          4499445.876122483
+        ],
+        [
+          296282.5976039822,
+          4499426.342033216
+        ],
+        [
+          296296.59703462385,
+          4499466.999331967
+        ],
+        [
+          296239.8659200879,
+          4499486.533421234
+        ]
+      ]
+    },
+    {
+      "id": "hort-sud",
+      "name": "Hort del Rei · tram sud i sínia",
+      "kind": "noria-garden",
+      "fromYear": 1794,
+      "townAnchor": [
+        -151,
+        -48
+      ],
+      "width": 60,
+      "depth": 53,
+      "evidence": "H02 art. 10: sínia i dos terrenys habilitats en horta. Posició individual, dimensions i mecanisme detallat C.",
+      "anchor": [
+        296230.9539236706,
+        4499368.504499693
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 14.364575033647082,
+      "footprintUTM": [
+        [
+          296193.9608103095,
+          4499353.215302073
+        ],
+        [
+          296250.69192484545,
+          4499333.681212806
+        ],
+        [
+          296267.94703703164,
+          4499383.793697313
+        ],
+        [
+          296211.2159224957,
+          4499403.327786581
+        ]
+      ]
+    },
+    {
+      "id": "jardi-botanic",
+      "name": "Jardí botànic",
+      "kind": "botanical",
+      "fromYear": 1794,
+      "townAnchor": [
+        -145,
+        101
+      ],
+      "width": 48,
+      "depth": 38,
+      "evidence": "H02 art. 14: jardí d'un particular tancat amb reixes. No es coneix l'inventari d'espècies; parterres i tanca C.",
+      "anchor": [
+        296285.13669013826,
+        4499507.433358531
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.875841128245215,
+      "footprintUTM": [
+        [
+          296256.2584493892,
+          4499497.282141302
+        ],
+        [
+          296301.64334101795,
+          4499481.654869888
+        ],
+        [
+          296314.0149308873,
+          4499517.584575761
+        ],
+        [
+          296268.63003925857,
+          4499533.211847175
+        ]
+      ]
+    },
+    {
+      "id": "ferreria-vella",
+      "name": "Ferreria de les primeres obres",
+      "kind": "forge",
+      "fromYear": 1780,
+      "toYear": 1793,
+      "utmAnchor": [
+        296331,
+        4499210
+      ],
+      "width": 8,
+      "depth": 6,
+      "height": 3.4,
+      "evidence": "H01 pp. 159–162, testimoni de 1780. Emplaçament prop del convent C. La substitució visual el 1794 no data un trasllat real.",
+      "anchor": [
+        296331,
+        4499210
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 11.010168662071226,
+      "footprintUTM": [
+        [
+          296326.24122123426,
+          4499208.465716891
+        ],
+        [
+          296333.805369839,
+          4499205.861171655
+        ],
+        [
+          296335.75877876574,
+          4499211.534283109
+        ],
+        [
+          296328.194630161,
+          4499214.138828345
+        ]
+      ]
+    },
+    {
+      "id": "ferreria-nova",
+      "name": "Ferreria de la Fonda Vella",
+      "kind": "forge",
+      "fromYear": 1794,
+      "utmAnchor": [
+        296557,
+        4499328
+      ],
+      "width": 9,
+      "depth": 6,
+      "height": 3.6,
+      "evidence": "H02 pp. 211–212: ferreria nova a l'àmbit de Fonda Vella. Planta i posició C; data exacta de trasllat desconeguda.",
+      "anchor": [
+        296557,
+        4499328
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.9217549968510843,
+      "footprintUTM": [
+        [
+          296551.76846194646,
+          4499326.628500968
+        ],
+        [
+          296560.2781291268,
+          4499323.698387578
+        ],
+        [
+          296562.23153805354,
+          4499329.371499032
+        ],
+        [
+          296553.7218708732,
+          4499332.301612422
+        ]
+      ]
+    },
+    {
+      "id": "guardes-rendes-1",
+      "name": "Casa dels guardes de rendes · 1",
+      "kind": "guardhouse",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296327,
+        4499182
+      ],
+      "width": 6,
+      "depth": 5,
+      "height": 3.2,
+      "evidence": "H01 pp. 161–162: dues cases de guardes. Geometria i lloc individual C; relació amb el conjunt mixt de 1794 desconeguda.",
+      "anchor": [
+        296327,
+        4499182
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 11.08981976568698,
+      "footprintUTM": [
+        [
+          296323.34952388704,
+          4499180.612908024
+        ],
+        [
+          296329.0226353407,
+          4499178.659499098
+        ],
+        [
+          296330.65047611296,
+          4499183.387091976
+        ],
+        [
+          296324.9773646593,
+          4499185.340500902
+        ]
+      ]
+    },
+    {
+      "id": "guardes-rendes-2",
+      "name": "Casa dels guardes de rendes · 2",
+      "kind": "guardhouse",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296337,
+        4499174
+      ],
+      "width": 6,
+      "depth": 5,
+      "height": 3.2,
+      "evidence": "H01 pp. 161–162. Es conserva com a hipòtesi de continuïtat fins al 1800, no com una nova unitat de l'inventari.",
+      "anchor": [
+        296337,
+        4499174
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 10.524447754025456,
+      "footprintUTM": [
+        [
+          296333.34952388704,
+          4499172.612908024
+        ],
+        [
+          296339.0226353407,
+          4499170.659499098
+        ],
+        [
+          296340.65047611296,
+          4499175.387091976
+        ],
+        [
+          296334.9773646593,
+          4499177.340500902
+        ]
+      ]
+    },
+    {
+      "id": "casa-administrador",
+      "name": "Casa de l’administrador de rendes",
+      "kind": "service-house",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296525,
+        4499407
+      ],
+      "width": 8,
+      "depth": 6,
+      "height": 4,
+      "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
+      "anchor": [
+        296525,
+        4499407
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 3.080113666355606,
+      "footprintUTM": [
+        [
+          296520.24122123426,
+          4499405.465716891
+        ],
+        [
+          296527.805369839,
+          4499402.861171655
+        ],
+        [
+          296529.75877876574,
+          4499408.534283109
+        ],
+        [
+          296522.194630161,
+          4499411.138828345
+        ]
+      ]
+    },
+    {
+      "id": "pati-mancana",
+      "name": "Pati de materials i fusteria de la Mançana",
+      "kind": "workyard",
+      "fromYear": 1794,
+      "townAnchor": [
+        -60,
+        105
+      ],
+      "width": 42,
+      "depth": 15,
+      "evidence": "H02 art. 7: eines, fustes, maons i teules al pati tancat. Són usos del conjunt existent, sense afegir cases ni habitacions.",
+      "anchor": [
+        296366.80804168206,
+        4499483.542139705
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 7.891351267312442,
+      "footprintUTM": [
+        [
+          296344.51039043604,
+          4499483.287681632
+        ],
+        [
+          296384.22217061126,
+          4499469.613819145
+        ],
+        [
+          296389.1056929281,
+          4499483.796597779
+        ],
+        [
+          296349.39391275286,
+          4499497.470460266
+        ]
+      ]
+    },
+    {
+      "id": "sanitat-antiga",
+      "name": "Casa dels guardes de sanitat antiga",
+      "kind": "service-house",
+      "fromYear": 1780,
+      "toYear": 1793,
+      "utmAnchor": [
+        296350,
+        4499188
+      ],
+      "width": 6,
+      "depth": 5,
+      "height": 3.4,
+      "evidence": "N029 punt 3 i N112 il·l. 2 i 4: guardes de sanitat a la casa vella de les monges, a tocar del recinte conventual. Posició i volum C. La identitat amb l’oficina del moll de 1794 o el trasllat continuen pendents: la visibilitat fins a 1793 és una convenció d’escena, no una data d’enderroc.",
+      "anchor": [
+        296350,
+        4499188
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.806428912281987,
+      "footprintUTM": [
+        [
+          296346.34952388704,
+          4499186.612908024
+        ],
+        [
+          296352.0226353407,
+          4499184.659499098
+        ],
+        [
+          296353.65047611296,
+          4499189.387091976
+        ],
+        [
+          296347.9773646593,
+          4499191.340500902
+        ]
+      ]
+    },
+    {
+      "id": "cases-assentistes-1",
+      "name": "Cases dels assentistes de la bateria · cos 1",
+      "kind": "service-house",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296336.2,
+        4499198.3
+      ],
+      "width": 7,
+      "depth": 6,
+      "height": 4,
+      "evidence": "N025 i N029: dues cases construïdes pels assentistes del castell dins del recinte conventual. Planta, alçat i repartiment C; la relació amb la ferreria i la caseta comprades el 1780 no està conciliada.",
+      "anchor": [
+        296336.2,
+        4499198.3
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 10.590029696026399,
+      "footprintUTM": [
+        [
+          296331.9139805221,
+          4499196.602932814
+        ],
+        [
+          296338.5326105512,
+          4499194.323955732
+        ],
+        [
+          296340.48601947795,
+          4499199.997067186
+        ],
+        [
+          296333.8673894488,
+          4499202.276044267
+        ]
+      ]
+    },
+    {
+      "id": "cases-assentistes-2",
+      "name": "Cases dels assentistes de la bateria · cos 2",
+      "kind": "service-house",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296343.8,
+        4499195.7
+      ],
+      "width": 7,
+      "depth": 6,
+      "height": 4,
+      "evidence": "N025 i N029: segona de les dues cases dels assentistes. El 1794 hi ha casutxes embargades als assentistes dins dels 38 registres privats mixtos; no se sumen a l’inventari residencial.",
+      "anchor": [
+        296343.8,
+        4499195.7
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 10.27271007876728,
+      "footprintUTM": [
+        [
+          296339.51398052205,
+          4499194.002932814
+        ],
+        [
+          296346.1326105512,
+          4499191.723955733
+        ],
+        [
+          296348.0860194779,
+          4499197.397067186
+        ],
+        [
+          296341.4673894488,
+          4499199.676044268
+        ]
+      ]
+    },
+    {
+      "id": "tinglado",
+      "name": "Tinglado i tallers coberts",
+      "kind": "shed",
+      "fromYear": 1786,
+      "utmAnchor": [
+        296360.6,
+        4499211.3
+      ],
+      "width": 22,
+      "depth": 10,
+      "height": 4.2,
+      "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona.",
+      "anchor": [
+        296360.6,
+        4499211.3
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.69930665936503,
+      "footprintUTM": [
+        [
+          296348.5714548961,
+          4499210.153656821
+        ],
+        [
+          296369.3728635593,
+          4499202.991157423
+        ],
+        [
+          296372.6285451038,
+          4499212.446343179
+        ],
+        [
+          296351.82713644067,
+          4499219.608842577
+        ]
+      ]
+    },
+    {
+      "id": "molinet",
+      "name": "Molí fariner del Molinet",
+      "kind": "mill",
+      "fromYear": 1794,
+      "utmAnchor": [
+        296592,
+        4499448
+      ],
+      "width": 10,
+      "depth": 8,
+      "height": 3.6,
+      "evidence": "N112 art. 30 p.234: molí de dues moles amb conducte i rastellador; el 1794 manca tancar i cobrir l’edifici. Es mostra sense coberta. Situat al final del canal, vora la platja del port; planta i mecanisme C (plànol PARES1679817 no recuperat). L’ordre d’acabament de 1794 no prova la posada en servei.",
+      "anchor": [
+        296592,
+        4499448
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.864924370050428,
+      "footprintUTM": [
+        [
+          296585.9701345042,
+          4499445.84576647
+        ],
+        [
+          296595.42532026017,
+          4499442.590084925
+        ],
+        [
+          296598.0298654958,
+          4499450.15423353
+        ],
+        [
+          296588.57467973983,
+          4499453.409915075
+        ]
+      ]
+    },
+    {
+      "id": "forn-moli-guix",
+      "name": "Forn i molí de guix",
+      "kind": "service-house",
+      "chimney": true,
+      "fromYear": 1782,
+      "utmAnchor": [
+        296547,
+        4499389
+      ],
+      "width": 8,
+      "depth": 6,
+      "height": 3.6,
+      "evidence": "N112 p.211 i 224: forn i molí de guix esmentats com a límit nord de la Fonda Vella en la concessió de 1782. Forma i solar propis desconeguts: volum de servei C.",
+      "anchor": [
+        296547,
+        4499389
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 2.115070616006851,
+      "footprintUTM": [
+        [
+          296542.24122123426,
+          4499387.465716891
+        ],
+        [
+          296549.805369839,
+          4499384.861171655
+        ],
+        [
+          296551.75877876574,
+          4499390.534283109
+        ],
+        [
+          296544.194630161,
+          4499393.138828345
+        ]
+      ]
+    },
+    {
+      "id": "barraques-obrers",
+      "name": "Barraques i tendes de les obres",
+      "kind": "barracks",
+      "fromYear": 1780,
+      "utmAnchor": [
+        296604,
+        4499488
+      ],
+      "width": 30,
+      "depth": 12,
+      "height": 2.6,
+      "evidence": "N029 (13/11/1780): dotze barraques a la valenciana a les vores del canal; la previsió de 50 no acredita cap altra obra executada. Emplaçaments individuals desconeguts; es mostren dotze peces en dues fileres com a conjunt d’assaig C. Permanència després de 1780 sense verificar.",
+      "anchor": [
+        296604,
+        4499488
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.7461625225842003,
+      "footprintUTM": [
+        [
+          296587.86381243926,
+          4499487.210410863
+        ],
+        [
+          296616.2293697073,
+          4499477.4433662295
+        ],
+        [
+          296620.13618756074,
+          4499488.789589137
+        ],
+        [
+          296591.7706302927,
+          4499498.5566337705
+        ]
+      ]
+    },
+    {
+      "id": "casotes-companyia",
+      "name": "Les Casotes · magatzem del canal",
+      "kind": "warehouse",
+      "fromYear": 1857,
+      "utmAnchor": [
+        296850.8,
+        4499547.2
+      ],
+      "alongAzimuthDegrees": 12,
+      "width": 42,
+      "depth": 13.3,
+      "height": 8.5,
+      "positionSource": {
+        "text": "Contorn en planta de l’edifici a OpenStreetMap (Museu de la Mar de l’Ebre, Camí del Canal Marítim): 42,0 × 13,3 m. Alçària, façana i coberta C.",
+        "url": "https://www.openstreetmap.org/search?query=Museu%20de%20la%20Mar%20de%20l%27Ebre%20la%20R%C3%A0pita",
+        "precisionMeters": 5
+      },
+      "evidence": "Antic magatzem de mercaderies del canal de navegació d’Amposta a la Ràpita (1857, Jules Carvallo). Probablement el gran edifici d’arcades de façana de N107; la identificació no està demostrada. No és una obra de Carles III.",
+      "reclaimed": true,
+      "anchor": [
+        296850.8,
+        4499547.2
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.4618156729335827,
+      "footprintUTM": [
+        [
+          296828.87628764065,
+          4499545.061463962
+        ],
+        [
+          296869.95848687144,
+          4499536.329172947
+        ],
+        [
+          296872.7237123593,
+          4499549.338536038
+        ],
+        [
+          296831.64151312853,
+          4499558.070827053
+        ]
+      ]
+    },
+    {
+      "id": "far-sant-carles",
+      "name": "Far de Sant Carles",
+      "kind": "lighthouse",
+      "fromYear": 1862,
+      "utmAnchor": [
+        295687.2,
+        4497963
+      ],
+      "width": 12,
+      "depth": 7,
+      "height": 5,
+      "positionSource": {
+        "text": "Coordenades de la platja del Far (40°36′26,1″ N, 0°35′6,1″ E), Diputació de Tarragona: punta de la Senieta. Són les de la platja, no les de l’edifici: precisió d’unes desenes o centenars de metres. Volum C.",
+        "url": "https://terresdelebre.travel/en/node/840",
+        "precisionMeters": 150
+      },
+      "evidence": "Obra i llanterna de 1862; servei des de 1864 (mes en conflicte). Les fases tècniques de 1920, 1929 i 1938 no canvien la geometria.",
+      "anchor": [
+        295687.2,
+        4497963
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 0.7826360218215059,
+      "footprintUTM": [
+        [
+          295680.3874000058,
+          4497961.644093912
+        ],
+        [
+          295691.733622913,
+          4497957.737276059
+        ],
+        [
+          295694.0125999942,
+          4497964.355906088
+        ],
+        [
+          295682.666377087,
+          4497968.262723941
+        ]
+      ]
+    },
+    {
+      "id": "mataredona",
+      "name": "Mas de Mataredona",
+      "kind": "farmstead",
+      "fromYear": 1913,
+      "utmAnchor": [
+        291958.9,
+        4501822.1
+      ],
+      "width": 34,
+      "depth": 22,
+      "height": 6.4,
+      "positionSource": {
+        "text": "Ruïna del Mas de Mata-redona a OpenStreetMap (40,64105° N, 0,53973° E), serra del Montsià, sobre el MDT de 50 m. El conjunt mira cap avall de la vall (est, 82°). Plantes i volums C llegits a la fotografia N100.",
+        "url": "https://www.openstreetmap.org/search?query=Mata-redona%20la%20R%C3%A0pita",
+        "precisionMeters": 30
+      },
+      "evidence": "Full topogràfic de 1913 (N111): «Masia de Matarredona» amb la Fuente de Burga a prop, a la serra del Montsià. La foto N100 (sense data original) mostra un grup de volums de pedra sobre bancals. No es data la masia al 1800 per l'existència del topònim; es mostra a partir del testimoni de 1913.",
+      "alongAzimuthDegrees": -98,
+      "flag": true,
+      "anchor": [
+        291958.9,
+        4501822.1
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 540.6520192388533,
+      "footprintUTM": [
+        [
+          291972.1588914725,
+          4501806.796346942
+        ],
+        [
+          291967.4270060399,
+          4501840.465461278
+        ],
+        [
+          291945.64110852755,
+          4501837.403653057
+        ],
+        [
+          291950.37299396016,
+          4501803.734538721
+        ]
+      ]
+    },
+    {
+      "id": "font-burga",
+      "name": "Font de Burga",
+      "kind": "spring",
+      "fromYear": 1913,
+      "utmAnchor": [
+        292593,
+        4501946
+      ],
+      "alongAzimuthDegrees": -98,
+      "width": 3.4,
+      "depth": 2.4,
+      "height": 1.8,
+      "positionSource": {
+        "text": "Posició llegida al full topogràfic de 1913 (N111, 1:25.000) respecte de la masia: uns 640 m a l'est i 120 m al nord. L'escala del full s'ha calibrat amb la Guardiola i el far de Sant Carles (≈ 8,1 m per píxel de la reproducció): precisió d'unes desenes de metres. Cota del MDT de 50 m: 412 m, coherent amb el barranc que hi baixa cap a l'est.",
+        "url": null,
+        "precisionMeters": 60
+      },
+      "evidence": "Símbol de font (en blau) amb el rètol «Fuente de Burga» al costat de la Masía de Matarredona, al full de 1913. Forma i dimensions de la pica C; no hi ha cap font que en descrigui l'aspecte.",
+      "flag": true,
+      "anchor": [
+        292593,
+        4501946
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 411.7266682167052,
+      "footprintUTM": [
+        [
+          292594.4249159541,
+          4501944.483552004
+        ],
+        [
+          292593.9517274109,
+          4501947.850463438
+        ],
+        [
+          292591.5750840459,
+          4501947.516447996
+        ],
+        [
+          292592.0482725891,
+          4501944.149536562
+        ]
+      ]
+    },
+    {
+      "id": "hostal-1748",
+      "name": "Hostal del recinte del convent",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296385.8758960818,
+        4499200.283175075
+      ],
+      "alongAzimuthDegrees": 0,
+      "width": 2.5721296063275076,
+      "depth": 3.2626596614718437,
+      "height": 5.2,
+      "evidence": "Plànol de 1748, B: Hostal del recinte del convent. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "B",
+      "planPixels": [
+        [
+          921,
+          477
+        ],
+        [
+          943,
+          495
+        ],
+        [
+          936,
+          506
+        ],
+        [
+          914,
+          489
+        ]
+      ],
+      "polygonUTM": [
+        [
+          296386.1071112447,
+          4499198.6279709
+        ],
+        [
+          296384.59805187455,
+          4499201.07033611
+        ],
+        [
+          296385.6282397271,
+          4499201.890630562
+        ],
+        [
+          296387.1701814809,
+          4499199.543762729
+        ]
+      ],
+      "anchor": [
+        296385.8758960818,
+        4499200.283175075
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 8.70367709609697,
+      "footprintUTM": [
+        [
+          296386.1071112447,
+          4499198.6279709
+        ],
+        [
+          296384.59805187455,
+          4499201.07033611
+        ],
+        [
+          296385.6282397271,
+          4499201.890630562
+        ],
+        [
+          296387.1701814809,
+          4499199.543762729
+        ]
+      ]
+    },
+    {
+      "id": "capella-1748",
+      "name": "Capella de les monges Santjoanistes",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296375.7488379496,
+        4499230.047844276
+      ],
+      "alongAzimuthDegrees": 0,
+      "width": 3.641499391756952,
+      "depth": 4.7906176801770926,
+      "height": 5.5,
+      "evidence": "Plànol de 1748, C: Capella de les monges Santjoanistes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "C",
+      "planPixels": [
+        [
+          1095,
+          721
+        ],
+        [
+          1128,
+          710
+        ],
+        [
+          1144,
+          754
+        ],
+        [
+          1110,
+          766
+        ]
+      ],
+      "polygonUTM": [
+        [
+          296377.51386939554,
+          4499227.6508654235
+        ],
+        [
+          296374.0007497635,
+          4499227.685512945
+        ],
+        [
+          296373.9196166238,
+          4499232.413515632
+        ],
+        [
+          296377.56111601554,
+          4499232.441483104
+        ]
+      ],
+      "anchor": [
+        296375.7488379496,
+        4499230.047844276
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.438320281832082,
+      "footprintUTM": [
+        [
+          296377.51386939554,
+          4499227.6508654235
+        ],
+        [
+          296374.0007497635,
+          4499227.685512945
+        ],
+        [
+          296373.9196166238,
+          4499232.413515632
+        ],
+        [
+          296377.56111601554,
+          4499232.441483104
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-caballeria-1748",
+      "name": "Quarter de cavalleria del recinte",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296384.99771919835,
+        4499222.163132763
+      ],
+      "alongAzimuthDegrees": 0,
+      "width": 8.370886716293171,
+      "depth": 2.98914713319391,
+      "height": 3.8,
+      "evidence": "Plànol de 1748, D: Quarter de cavalleria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "partitions": 2,
+      "planLetter": "D",
+      "planPixels": [
+        [
+          963,
+          693
+        ],
+        [
+          1042,
+          668
+        ],
+        [
+          1051,
+          694
+        ],
+        [
+          973,
+          720
+        ]
+      ],
+      "polygonUTM": [
+        [
+          296389.1988163046,
+          4499220.636464257
+        ],
+        [
+          296380.832464,
+          4499220.846738158
+        ],
+        [
+          296380.8279295883,
+          4499223.62561139
+        ],
+        [
+          296389.1316669005,
+          4499223.543717247
+        ]
+      ],
+      "anchor": [
+        296384.99771919835,
+        4499222.163132763
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.506984127917471,
+      "footprintUTM": [
+        [
+          296389.1988163046,
+          4499220.636464257
+        ],
+        [
+          296380.832464,
+          4499220.846738158
+        ],
+        [
+          296380.8279295883,
+          4499223.62561139
+        ],
+        [
+          296389.1316669005,
+          4499223.543717247
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-infanteria-1748",
+      "name": "Quarter d'infanteria del recinte",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296386.4556634133,
+        4499229.111795604
+      ],
+      "alongAzimuthDegrees": 0,
+      "width": 4.535623298375867,
+      "depth": 3.5900988606736064,
+      "height": 3.8,
+      "evidence": "Plànol de 1748, E: Quarter d'infanteria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "partitions": 2,
+      "planLetter": "E",
+      "planPixels": [
+        [
+          989,
+          754
+        ],
+        [
+          1032,
+          741
+        ],
+        [
+          1043,
+          773
+        ],
+        [
+          1000,
+          786
+        ]
+      ],
+      "polygonUTM": [
+        [
+          296388.72170992475,
+          4499227.316746174
+        ],
+        [
+          296384.1878517641,
+          4499227.489222779
+        ],
+        [
+          296384.18961690186,
+          4499230.906845035
+        ],
+        [
+          296388.72347506246,
+          4499230.73436843
+        ]
+      ],
+      "anchor": [
+        296386.4556634133,
+        4499229.111795604
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.655983561344318,
+      "footprintUTM": [
+        [
+          296388.72170992475,
+          4499227.316746174
+        ],
+        [
+          296384.1878517641,
+          4499227.489222779
+        ],
+        [
+          296384.18961690186,
+          4499230.906845035
+        ],
+        [
+          296388.72347506246,
+          4499230.73436843
+        ]
+      ]
+    },
+    {
+      "id": "corral-1748-1",
+      "name": "Corral del recinte",
+      "kind": "enclosure",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296388.0509531866,
+        4499208.694031168
+      ],
+      "polygonUTM": [
+        [
+          296386.91972151067,
+          4499200.057281767
+        ],
+        [
+          296377.7397548038,
+          4499208.452362545
+        ],
+        [
+          296385.08083416836,
+          4499211.158790959
+        ],
+        [
+          296385.61993190536,
+          4499220.480117026
+        ],
+        [
+          296388.87944179267,
+          4499220.639614031
+        ],
+        [
+          296391.2458319096,
+          4499207.967815113
+        ],
+        [
+          296395.51171608904,
+          4499203.294362731
+        ],
+        [
+          296393.4103933133,
+          4499197.50190517
+        ]
+      ],
+      "width": 17.771961285208818,
+      "depth": 23.137708860449493,
+      "height": 2.3,
+      "evidence": "Plànol de 1748, F: Corral del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "F",
+      "planPixels": [
+        [
+          918,
+          493
+        ],
+        [
+          1031,
+          542
+        ],
+        [
+          971,
+          591
+        ],
+        [
+          996,
+          680
+        ],
+        [
+          966,
+          692
+        ],
+        [
+          903,
+          581
+        ],
+        [
+          848,
+          551
+        ],
+        [
+          849,
+          490
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "anchor": [
+        296388.0509531866,
+        4499208.694031168
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 8.81468584340232,
+      "footprintUTM": [
+        [
+          296386.91972151067,
+          4499200.057281767
+        ],
+        [
+          296377.7397548038,
+          4499208.452362545
+        ],
+        [
+          296385.08083416836,
+          4499211.158790959
+        ],
+        [
+          296385.61993190536,
+          4499220.480117026
+        ],
+        [
+          296388.87944179267,
+          4499220.639614031
+        ],
+        [
+          296391.2458319096,
+          4499207.967815113
+        ],
+        [
+          296395.51171608904,
+          4499203.294362731
+        ],
+        [
+          296393.4103933133,
+          4499197.50190517
+        ]
+      ]
+    },
+    {
+      "id": "corral-1748-2",
+      "name": "Corral petit del recinte",
+      "kind": "enclosure",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296381.17363326746,
+        4499218.735296634
+      ],
+      "polygonUTM": [
+        [
+          296385.01821917586,
+          4499211.287170719
+        ],
+        [
+          296376.6847492547,
+          4499211.592941997
+        ],
+        [
+          296377.28507734736,
+          4499223.884136046
+        ],
+        [
+          296381.469828387,
+          4499223.938686352
+        ],
+        [
+          296381.2802182717,
+          4499220.906203375
+        ],
+        [
+          296385.30370716803,
+          4499220.802641313
+        ]
+      ],
+      "width": 8.618957913306076,
+      "depth": 12.651515632867813,
+      "height": 2.3,
+      "evidence": "Plànol de 1748, F: Corral petit del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "F",
+      "planPixels": [
+        [
+          972,
+          592
+        ],
+        [
+          1051,
+          568
+        ],
+        [
+          1085,
+          685
+        ],
+        [
+          1046,
+          699
+        ],
+        [
+          1038,
+          670
+        ],
+        [
+          1000,
+          682
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "anchor": [
+        296381.17363326746,
+        4499218.735296634
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.288187492255148,
+      "footprintUTM": [
+        [
+          296385.01821917586,
+          4499211.287170719
+        ],
+        [
+          296376.6847492547,
+          4499211.592941997
+        ],
+        [
+          296377.28507734736,
+          4499223.884136046
+        ],
+        [
+          296381.469828387,
+          4499223.938686352
+        ],
+        [
+          296381.2802182717,
+          4499220.906203375
+        ],
+        [
+          296385.30370716803,
+          4499220.802641313
+        ]
+      ]
+    },
+    {
+      "id": "mur-roquer-1748",
+      "name": "Mur del recinte sobre el cantell",
+      "kind": "wallline",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296391.85707500804,
+        4499210.570265708
+      ],
+      "lineUTM": [
+        [
+          296395.4459513218,
+          4499203.103367979
+        ],
+        [
+          296391.2458319096,
+          4499207.967815113
+        ],
+        [
+          296388.87944179267,
+          4499220.639614031
+        ]
+      ],
+      "width": 6.566509529133327,
+      "depth": 17.536246052011847,
+      "height": 2.6,
+      "evidence": "Plànol de 1748, F: Mur del recinte sobre el cantell. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "F",
+      "planPixels": [
+        [
+          848,
+          549
+        ],
+        [
+          903,
+          581
+        ],
+        [
+          966,
+          692
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "anchor": [
+        296391.85707500804,
+        4499210.570265708
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 8.737923196560075,
+      "footprintUTM": [
+        [
+          296388.5738202435,
+          4499201.802142682
+        ],
+        [
+          296395.1403297726,
+          4499201.802142682
+        ],
+        [
+          296395.1403297726,
+          4499219.338388734
+        ],
+        [
+          296388.5738202435,
+          4499219.338388734
+        ]
+      ]
+    },
+    {
+      "id": "mur-nord-1748",
+      "name": "Mur diagonal del recinte",
+      "kind": "wallline",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296383.09813742776,
+        4499199.258128856
+      ],
+      "lineUTM": [
+        [
+          296388.935239369,
+          4499184.194887504
+        ],
+        [
+          296387.07883801556,
+          4499190.28190188
+        ],
+        [
+          296386.8868391271,
+          4499199.961784391
+        ],
+        [
+          296377.7397548038,
+          4499208.452362545
+        ],
+        [
+          296374.85001582315,
+          4499213.399707956
+        ]
+      ],
+      "width": 14.085223545844201,
+      "depth": 29.20482045225799,
+      "height": 2.6,
+      "evidence": "Plànol de 1748, F: Mur diagonal del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "planLetter": "F",
+      "planPixels": [
+        [
+          848,
+          351
+        ],
+        [
+          885,
+          402
+        ],
+        [
+          918,
+          492
+        ],
+        [
+          1031,
+          542
+        ],
+        [
+          1074,
+          579
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "anchor": [
+        296383.09813742776,
+        4499199.258128856
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 8.797446609022035,
+      "footprintUTM": [
+        [
+          296376.0555256548,
+          4499184.65571863
+        ],
+        [
+          296390.1407492007,
+          4499184.65571863
+        ],
+        [
+          296390.1407492007,
+          4499213.860539082
+        ],
+        [
+          296376.0555256548,
+          4499213.860539082
+        ]
+      ]
+    },
+    {
+      "id": "muralla-meseta-1748",
+      "name": "Muralla de la meseta amb tres baluards",
+      "kind": "wallline",
+      "fromYear": 1778,
+      "utmAnchor": [
+        296431.11004454753,
+        4499163.085723354
+      ],
+      "lineUTM": [
+        [
+          296454.6892151818,
+          4499163.5835520355
+        ],
+        [
+          296453.81990897184,
+          4499156.405499952
+        ],
+        [
+          296440.66470412473,
+          4499160.080642728
+        ],
+        [
+          296440.0399388363,
+          4499158.2661925815
+        ],
+        [
+          296437.84349918517,
+          4499159.022487405
+        ],
+        [
+          296438.4024997064,
+          4499160.6459428
+        ],
+        [
+          296430.34783772746,
+          4499163.312565645
+        ],
+        [
+          296429.85460197343,
+          4499161.880105003
+        ],
+        [
+          296427.6581623223,
+          4499162.636399826
+        ],
+        [
+          296428.1513980763,
+          4499164.068860468
+        ],
+        [
+          296420.2877308496,
+          4499166.669718548
+        ],
+        [
+          296419.8273774792,
+          4499165.332755282
+        ],
+        [
+          296417.4399430758,
+          4499166.154814871
+        ],
+        [
+          296417.96606121346,
+          4499167.68277289
+        ],
+        [
+          296409.65778948966,
+          4499170.543540264
+        ]
+      ],
+      "width": 45.031425692141056,
+      "depth": 14.13804031163454,
+      "height": 3,
+      "evidence": "Plànol de 1748, A–G: Muralla de la meseta amb tres baluards. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "towersUTM": [
+        [
+          296440.1,
+          4499159.5
+        ],
+        [
+          296428.9,
+          4499162.7
+        ],
+        [
+          296417.6,
+          4499165.7
+        ]
+      ],
+      "planLetter": "A–G",
+      "planPixels": [
+        [
+          166,
+          370
+        ],
+        [
+          151,
+          300
+        ],
+        [
+          286,
+          292
+        ],
+        [
+          286,
+          273
+        ],
+        [
+          309,
+          273
+        ],
+        [
+          309,
+          290
+        ],
+        [
+          393,
+          289
+        ],
+        [
+          393,
+          274
+        ],
+        [
+          416,
+          274
+        ],
+        [
+          416,
+          289
+        ],
+        [
+          498,
+          288
+        ],
+        [
+          498,
+          274
+        ],
+        [
+          523,
+          274
+        ],
+        [
+          523,
+          290
+        ],
+        [
+          610,
+          290
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "anchor": [
+        296431.11004454753,
+        4499163.085723354
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 7.799722635387439,
+      "footprintUTM": [
+        [
+          296408.59433170146,
+          4499156.016703198
+        ],
+        [
+          296453.6257573936,
+          4499156.016703198
+        ],
+        [
+          296453.6257573936,
+          4499170.154743509
+        ],
+        [
+          296408.59433170146,
+          4499170.154743509
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-caballeria-1748-2",
+      "name": "Quarter de cavalleria · cambra central",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "height": 3.8,
+      "planLetter": "D",
+      "planPixels": [
+        [
+          1046,
+          703
+        ],
+        [
+          1088,
+          689
+        ],
+        [
+          1097,
+          715
+        ],
+        [
+          1055,
+          730
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "utmAnchor": [
+        296379.3716897274,
+        4499225.756035239
+      ],
+      "alongAzimuthDegrees": 0,
+      "polygonUTM": [
+        [
+          296381.6013579214,
+          4499224.320675856
+        ],
+        [
+          296377.13011475326,
+          4499224.364772702
+        ],
+        [
+          296377.12558034173,
+          4499227.143645934
+        ],
+        [
+          296381.6297058934,
+          4499227.195046465
+        ]
+      ],
+      "width": 4.504125551669858,
+      "depth": 2.8743706084787846,
+      "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "anchor": [
+        296379.3716897274,
+        4499225.756035239
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.482475551008196,
+      "footprintUTM": [
+        [
+          296381.6013579214,
+          4499224.320675856
+        ],
+        [
+          296377.13011475326,
+          4499224.364772702
+        ],
+        [
+          296377.12558034173,
+          4499227.143645934
+        ],
+        [
+          296381.6297058934,
+          4499227.195046465
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-caballeria-1748-3",
+      "name": "Quarter de cavalleria · cambra occidental",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "height": 3.8,
+      "planLetter": "D",
+      "planPixels": [
+        [
+          979,
+          723
+        ],
+        [
+          1021,
+          710
+        ],
+        [
+          1030,
+          738
+        ],
+        [
+          988,
+          751
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "utmAnchor": [
+        296386.46876458003,
+        4499225.58223478
+      ],
+      "alongAzimuthDegrees": 0,
+      "polygonUTM": [
+        [
+          296388.65732979454,
+          4499224.027503678
+        ],
+        [
+          296384.21896901,
+          4499224.167097899
+        ],
+        [
+          296384.2801993656,
+          4499227.136965883
+        ],
+        [
+          296388.71856015007,
+          4499226.9973716615
+        ]
+      ],
+      "width": 4.499591140076518,
+      "depth": 3.1094622053205967,
+      "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra occidental. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "anchor": [
+        296386.46876458003,
+        4499225.58223478
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.57574289119969,
+      "footprintUTM": [
+        [
+          296388.65732979454,
+          4499224.027503678
+        ],
+        [
+          296384.21896901,
+          4499224.167097899
+        ],
+        [
+          296384.2801993656,
+          4499227.136965883
+        ],
+        [
+          296388.71856015007,
+          4499226.9973716615
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-infanteria-1748-2",
+      "name": "Quarter d’infanteria · cambra central",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "height": 3.8,
+      "planLetter": "E",
+      "planPixels": [
+        [
+          1038,
+          735
+        ],
+        [
+          1082,
+          721
+        ],
+        [
+          1093,
+          754
+        ],
+        [
+          1049,
+          768
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "utmAnchor": [
+        296381.10377800616,
+        4499228.925023447
+      ],
+      "alongAzimuthDegrees": 0,
+      "polygonUTM": [
+        [
+          296383.4175732057,
+          4499227.113532824
+        ],
+        [
+          296378.7553352853,
+          4499227.223394436
+        ],
+        [
+          296378.78998280666,
+          4499230.736514068
+        ],
+        [
+          296383.452220727,
+          4499230.626652457
+        ]
+      ],
+      "width": 4.696885441662744,
+      "depth": 3.6229812437668443,
+      "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "anchor": [
+        296381.10377800616,
+        4499228.925023447
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.60754541269215,
+      "footprintUTM": [
+        [
+          296383.4175732057,
+          4499227.113532824
+        ],
+        [
+          296378.7553352853,
+          4499227.223394436
+        ],
+        [
+          296378.78998280666,
+          4499230.736514068
+        ],
+        [
+          296383.452220727,
+          4499230.626652457
+        ]
+      ]
+    },
+    {
+      "id": "cuartel-infanteria-1748-3",
+      "name": "Quarter d’infanteria · cambra meridional",
+      "kind": "stonehouse",
+      "fromYear": 1778,
+      "height": 3.8,
+      "planLetter": "E",
+      "planPixels": [
+        [
+          1026,
+          783
+        ],
+        [
+          1097,
+          760
+        ],
+        [
+          1103,
+          781
+        ],
+        [
+          1033,
+          805
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "utmAnchor": [
+        296382.41671101924,
+        4499232.505387608
+      ],
+      "alongAzimuthDegrees": 0,
+      "polygonUTM": [
+        [
+          296386.14189613215,
+          4499231.302818275
+        ],
+        [
+          296378.60528760374,
+          4499231.44102786
+        ],
+        [
+          296378.7228334025,
+          4499233.643767061
+        ],
+        [
+          296386.1968269384,
+          4499233.633937236
+        ]
+      ],
+      "width": 7.591539334680419,
+      "depth": 2.3409487856552005,
+      "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra meridional. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "anchor": [
+        296382.41671101924,
+        4499232.505387608
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.73159454888169,
+      "footprintUTM": [
+        [
+          296386.14189613215,
+          4499231.302818275
+        ],
+        [
+          296378.60528760374,
+          4499231.44102786
+        ],
+        [
+          296378.7228334025,
+          4499233.643767061
+        ],
+        [
+          296386.1968269384,
+          4499233.633937236
+        ]
+      ]
+    },
+    {
+      "id": "corral-1748-3",
+      "name": "Corral oriental del recinte",
+      "kind": "enclosure",
+      "fromYear": 1778,
+      "height": 2.3,
+      "planLetter": "F",
+      "planPixels": [
+        [
+          1048,
+          591
+        ],
+        [
+          1092,
+          575
+        ],
+        [
+          1135,
+          676
+        ],
+        [
+          1087,
+          691
+        ]
+      ],
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "utmAnchor": [
+        296375.0581784273,
+        4499219.122999941
+      ],
+      "alongAzimuthDegrees": 0,
+      "polygonUTM": [
+        [
+          296377.7275362059,
+          4499213.690734496
+        ],
+        [
+          296372.9995335184,
+          4499213.609601357
+        ],
+        [
+          296372.21426708816,
+          4499224.66877884
+        ],
+        [
+          296377.29137689667,
+          4499224.52288507
+        ]
+      ],
+      "width": 5.513269117742311,
+      "depth": 11.059177483431995,
+      "evidence": "Plànol de 1748, F: Corral oriental del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+      "anchor": [
+        296375.0581784273,
+        4499219.122999941
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 9.255433390590422,
+      "footprintUTM": [
+        [
+          296377.7275362059,
+          4499213.690734496
+        ],
+        [
+          296372.9995335184,
+          4499213.609601357
+        ],
+        [
+          296372.21426708816,
+          4499224.66877884
+        ],
+        [
+          296377.29137689667,
+          4499224.52288507
+        ]
+      ]
+    }
+  ],
+  "privateLedger": {
+    "documentedMixedUnits": 38,
+    "documentedResidentialCount": null,
+    "unidentifiedResidentialCount": null,
+    "reconciledIndividualRegister": false,
+    "entries": [
+      {
+        "id": "capella-masoveria",
+        "name": "Capella i masoveria de les monges",
+        "modelIds": [
+          "monastery"
+        ],
+        "individualCount": null,
+        "status": "ús documentat; recinte compartit, sense nous habitatges"
+      },
+      {
+        "id": "fusteria-antiga",
+        "name": "Fusteria antiga",
+        "modelIds": [],
+        "individualCount": null,
+        "status": "art. 5; lloc i identitat pendents; diferent del taller del pati de la Mançana"
+      },
+      {
+        "id": "duana-antiga",
+        "name": "Duana antiga",
+        "modelIds": [
+          "old-customs"
+        ],
+        "individualCount": null,
+        "status": "cos ja representat; no es duplica"
+      },
+      {
+        "id": "sanitat-assentistes",
+        "name": "Sanitat i casetes dels assentistes",
+        "modelIds": [
+          "health"
+        ],
+        "individualCount": null,
+        "status": "art. 5; correspondència parcel·lària incompleta"
+      },
+      {
+        "id": "talavera",
+        "name": "Dues cases de Talavera",
+        "modelIds": [
+          "cases-talavera"
+        ],
+        "individualCount": 2,
+        "status": "testimoni de 1782; correspondència amb les 38 sense numeració conciliada"
+      },
+      {
+        "id": "altres-particulars",
+        "name": "Altres propietaris, pagesos i pescadors",
+        "modelIds": [],
+        "individualCount": null,
+        "status": "no es generen cases per completar una resta aritmètica"
+      }
+    ]
+  },
+  "limits": [
+    "Planta relacional C; no és un parcel·lari georeferenciat del 1800.",
+    "Els traçats es comproven contra les petjades dels models per evitar passos a través de cases.",
+    "La visibilitat parteix del primer testimoni revisat; no equival a data de construcció.",
+    "Les 81 unitats reials i el conjunt mixt de 38 es conserven; guardes, tallers i usos no es sumen com a cases noves.",
+    "El MDT original no es modifica: el barranc és un tall de visualització reversible."
+  ],
+  "frame": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "alongAzimuthDegrees": 19,
+    "confidence": "C",
+    "basis": "Alineacions actuals llegides en ortofoto i mapa topogràfic ICGC, contrastades qualitativament amb plànols de la tesi. No és una georeferenciació de parcel·les de 1794."
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "range": [
+    1778,
+    1950
+  ],
+  "defaultYear": 1800,
+  "mode": "documented-snapshots",
+  "milestones": [
+    {
+      "year": 1778,
+      "label": "Projecte de defensa",
+      "description": "La bateria és encara un projecte. Es mostra la torre antiga amb volum C; la forma anterior a la reparació no està mesurada.",
+      "sources": [
+        "H01, pp. 107–118"
+      ],
+      "state": "project",
+      "minorTick": false
+    },
+    {
+      "year": 1779,
+      "label": "Comencen les obres",
+      "description": "Obres iniciades el maig de 1779. Fonaments i murs baixos d'assaig: l'avanç concret de cada mes no es coneix.",
+      "sources": [
+        "H01, pp. 111–113"
+      ],
+      "state": "construction",
+      "minorTick": true
+    },
+    {
+      "year": 1780,
+      "label": "Torre reparada i muralla",
+      "description": "La Companyia Pintat acaba la torre i la muralla, excava la cisterna, finalitza la contraescarpa i construeix un forn. Les dependències no es restitueixen com un fort complet.",
+      "sources": [
+        "H01, pp. 113–114"
+      ],
+      "state": "partial",
+      "minorTick": true
+    },
+    {
+      "year": 1781,
+      "label": "Obres suspeses",
+      "description": "La bateria queda suspesa. Es conserva la fase parcial; no es completen els dos pisos ni les vuit peces del projecte.",
+      "sources": [
+        "H01, p. 115"
+      ],
+      "state": "suspended",
+      "minorTick": true
+    },
+    {
+      "year": 1782,
+      "label": "Fonda i cases particulars",
+      "description": "Registres de les dues cases de Talavera i de la fonda dels Lanti. L’emplaçament i l’aspecte individual són C; no són dates exactes de construcció.",
+      "sources": [
+        "H01 pp. 168, 268 i 322"
+      ],
+      "state": "services",
+      "minorTick": false
+    },
+    {
+      "year": 1788,
+      "label": "Dotze cases en obres",
+      "description": "Cinc informes mensuals documenten dotze cases de lloguer. La fase d’obra oberta és una simplificació C, sense correspondència parcel·lària amb 1794.",
+      "sources": [
+        "H01 pp. 251–252"
+      ],
+      "state": "rental-construction",
+      "minorTick": true
+    },
+    {
+      "year": 1789,
+      "label": "La majoria de les dotze, acabades",
+      "description": "A l’abril de 1789 la majoria estaven concloses. Vuit amb acabat i quatre sense són una assignació visual C; el nombre acabat exacte és desconegut.",
+      "sources": [
+        "H01 p. 252"
+      ],
+      "state": "rental-majority",
+      "minorTick": false
+    },
+    {
+      "year": 1792,
+      "label": "Plantació de les Alamedes",
+      "description": "La carta de maig de 1792 documenta 60 arbres a la població. La disposició representada és C; no és un recompte de supervivents el 1800.",
+      "sources": [
+        "H02 pp. 218–219"
+      ],
+      "state": "planting",
+      "minorTick": true
+    },
+    {
+      "year": 1794,
+      "label": "Inventari de l'obra executada",
+      "description": "Bateria a mig fer amb sis canons: tres en curenyes gairebé inútils i tres sense. El centre i el canal es mostren a partir d'aquest testimoni; això no és una data de construcció individual.",
+      "sources": [
+        "H02, relació del 20 de maig de 1794, art. 1–29"
+      ],
+      "state": "inventory",
+      "minorTick": false
+    },
+    {
+      "year": 1795,
+      "label": "Temporal · abast desconegut",
+      "description": "Les fonts descriuen danys al front portuari el 1795. Es mantenen les formes parcials de 1794 perquè no es coneix l'abast peça a peça. La continuïtat fins al 1800 és una hipòtesi C.",
+      "sources": [
+        "H02, anàlisi de l'abandonament i el temporal de 1795"
+      ],
+      "state": "continuity",
+      "minorTick": true
+    },
+    {
+      "year": 1857,
+      "label": "Les Casotes · magatzem del canal",
+      "description": "Edifici neoclàssic de Jules Carvallo, antic magatzem de mercaderies del canal de navegació d’Amposta a la Ràpita. Contorn en planta d’OpenStreetMap; alçària i façana C. La identificació amb el gran edifici d’arcades de N107 és probable, no demostrada. Oficines, cases de guarda i resclosa de la Companyia no tenen posició.",
+      "sources": [
+        "Museu de la Mar de l’Ebre (surtdecasa.cat)",
+        "OpenStreetMap · contorn de l’edifici",
+        "companyia-canal"
+      ],
+      "state": "later-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1862,
+      "label": "Far de Sant Carles · obra i llanterna",
+      "description": "Obra i llanterna del far de la punta de la Senieta. Posició aproximada a partir de les coordenades de la platja del Far (Diputació de Tarragona), unes desenes o centenars de metres; volum C. L’entrada en servei és de 1864.",
+      "sources": [
+        "Autoritat Portuària de Tarragona",
+        "Diputació de Tarragona · Platja del Far",
+        "far-sant-carles"
+      ],
+      "state": "later-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1864,
+      "label": "Far de Sant Carles en servei",
+      "description": "Any d’inici de servei documentat al catàleg previ; el mes continua en conflicte. No canvia la geometria.",
+      "sources": [
+        "history-catalog.json · lighthouse"
+      ],
+      "state": "later-witness",
+      "minorTick": true
+    },
+    {
+      "year": 1913,
+      "label": "Full topogràfic de 1912–1913 · Mas de Mata-redona",
+      "description": "El full situa Mataredona a la serra del Montsià. Es mostra la masia com a testimoni de 1913, no com a obra de 1800 ni com a ruïna datada. Posició: ruïna del mas a OpenStreetMap; volum C.",
+      "sources": [
+        "Planimetria 1912–1913 (N111)",
+        "OpenStreetMap · Mata-redona",
+        "mataredona"
+      ],
+      "state": "later-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1950,
+      "label": "Fi de l’horitzó d’estudi",
+      "description": "Darrer any de l’atles. Només hi apareixen els edificis datats; la resta de l’escena es manté com el 1800 i no és una reconstrucció de 1801–1950.",
+      "sources": [
+        "history-catalog.json"
+      ],
+      "state": "later-witness",
+      "minorTick": false
+    }
+  ],
+  "rules": [
+    "El selector mostra l'última fita documentada anterior o igual a l'any triat; no interpola construccions.",
+    "Les alçàries i els fragments escollits dins de cada fase continuen sent C.",
+    "Visibilitat documental del centre a partir de 1794 no equival a construcció el 1794.",
+    "La costa és un únic escenari interpretat, sense evolució anual validada.",
+    "No s'afegeix destrucció entre 1795 i 1800 sense evidència espacial.",
+    "Les dotze cases de 1788–1789 són un testimoni alternatiu; no s’afegeixen a les 81 unitats de 1794 ni s’afirma una identitat individual entre els dos inventaris.",
+    "La Glorieta només s’assaja el 1800: no se n’ha acreditat una fase individual anterior; la referència de Jaubert és de 1816. La Guardiola es mostra com a preexistència amb alçat C sense elements moderns.",
+    "Després de 1800 l’escena manté l’estat de 1800 com a escenari de continuïtat C i només hi afegeix els edificis amb testimoni i posició localitzable. No és una reconstrucció dels canvis del poble entre 1801 i 1950.",
+    "Les persones, els animals i les barques de l’ambient s’acaben el 1800: no hi ha cap font que n’autoritzi una versió posterior."
+  ],
+  "entities": {
+    "battery": [
+      {
+        "fromYear": 1778,
+        "variant": "project",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1779,
+        "variant": "construction",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1780,
+        "variant": "partial",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1781,
+        "variant": "suspended",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "inventory",
+        "visible": true,
+        "sourceRefs": [
+          "H02 art. 17"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "tower": [
+      {
+        "fromYear": 1778,
+        "variant": "unrepaired",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "C"
+      },
+      {
+        "fromYear": 1780,
+        "variant": "repaired",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "works": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1780,
+        "variant": "built",
+        "visible": true,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "guns": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "six-pieces",
+        "visible": true,
+        "sourceRefs": [
+          "H02 art. 17"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "town": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "D"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "inventory",
+        "visible": true,
+        "sourceRefs": [
+          "H02 art. 1–15"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "canal": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "D"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "inventory",
+        "visible": true,
+        "sourceRefs": [
+          "H02 art. 18–29"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "services": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "D"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "inventory",
+        "visible": true,
+        "sourceRefs": [
+          "H02"
+        ],
+        "dateMeaning": "testimoni documental; geometria C",
+        "certainty": "B"
+      }
+    ],
+    "rental-cohort": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [],
+        "certainty": "D",
+        "dateMeaning": "Sense testimoni representat; no equival a absència física"
+      },
+      {
+        "fromYear": 1788,
+        "variant": "construction",
+        "visible": true,
+        "sourceRefs": [
+          "H01 pp. 251–252"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Cinc informes mensuals de desembre 1788–abril 1789"
+      },
+      {
+        "fromYear": 1789,
+        "variant": "majority-complete",
+        "visible": true,
+        "sourceRefs": [
+          "H01 p. 252"
+        ],
+        "certainty": "C",
+        "dateMeaning": "La majoria concloses el mes d’abril; repartiment individual d’assaig"
+      },
+      {
+        "fromYear": 1794,
+        "variant": "replaced-by-inventory",
+        "visible": false,
+        "sourceRefs": [
+          "H02"
+        ],
+        "certainty": "D",
+        "dateMeaning": "Canvi de testimoni, no enderroc; identitat individual desconeguda"
+      }
+    ],
+    "old-customs": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [],
+        "certainty": "D",
+        "dateMeaning": "Sense testimoni representat; no equival a absència física"
+      },
+      {
+        "fromYear": 1780,
+        "variant": "witnessed",
+        "visible": true,
+        "sourceRefs": [
+          "H01 pp. 159–162"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Primer testimoni revisat; no data exacta de construcció"
+      }
+    ],
+    "old-inn": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [],
+        "certainty": "D",
+        "dateMeaning": "Sense testimoni representat; no equival a absència física"
+      },
+      {
+        "fromYear": 1782,
+        "variant": "witnessed",
+        "visible": true,
+        "sourceRefs": [
+          "H01 pp. 168, 268, 322"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Primer testimoni revisat; no data exacta de construcció"
+      }
+    ],
+    "cases-talavera": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [],
+        "certainty": "D",
+        "dateMeaning": "Sense testimoni representat; no equival a absència física"
+      },
+      {
+        "fromYear": 1782,
+        "variant": "witnessed",
+        "visible": true,
+        "sourceRefs": [
+          "H01 p. 322"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Primer testimoni revisat; no data exacta de construcció"
+      }
+    ],
+    "glorieta": [
+      {
+        "fromYear": 1778,
+        "variant": "unknown",
+        "visible": false,
+        "sourceRefs": [
+          "H01 pp. 229–231"
+        ],
+        "certainty": "D",
+        "dateMeaning": "Sense fase anual acreditada; no significa absència física"
+      },
+      {
+        "fromYear": 1800,
+        "variant": "unfinished-study",
+        "visible": true,
+        "sourceRefs": [
+          "H01 pp. 229–231; visita de Jaubert de 1816"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Hipòtesi retrospectiva cap a 1800; no és data de construcció ni menció a l’inventari de 1794"
+      }
+    ],
+    "guardiola": [
+      {
+        "fromYear": 1778,
+        "variant": "watchtower-study",
+        "visible": true,
+        "sourceRefs": [
+          "H01 pp. 161–162; Turisme La Ràpita, antecedents de 1483/1575"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Preexistència documentada; alçat del període sense mesurar ni coronament restituït"
+      }
+    ],
+    "alamedes": [
+      {
+        "fromYear": 1778,
+        "visible": false,
+        "variant": "unknown",
+        "certainty": "D"
+      },
+      {
+        "fromYear": 1792,
+        "visible": true,
+        "variant": "planting-witness",
+        "certainty": "C",
+        "sourceRefs": [
+          "H02 pp. 218–219, carta 6/05/1792"
+        ],
+        "dateMeaning": "Testimoni de plantació de 60 arbres; distribució i supervivència individual desconegudes"
+      }
+    ]
+  },
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "priority": "Completar carrers, cases i edificis del 1800 abans d’ampliar els models del XIX/XX",
+  "futureCatalogue": "history-catalog.json"
+}

@@ -1,0 +1,3059 @@
+{
+  "version": 1,
+  "scenario": 1800,
+  "evidenceDate": "1794-05-20",
+  "state1800Verified": false,
+  "title": "Cases i habitacions de la població",
+  "crs": "EPSG:25831",
+  "townFrame": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "alongAzimuthDegrees": 19,
+    "confidence": "C",
+    "basis": "Alineacions actuals llegides en ortofoto i mapa topogràfic ICGC, contrastades qualitativament amb plànols de la tesi. No és una georeferenciació de parcel·les de 1794."
+  },
+  "inventory": [
+    {
+      "id": "royal-finished",
+      "count": 22,
+      "unit": "cases grans",
+      "state1794": "finished",
+      "source": "H02, annex, art. 1; pàg. 230–231",
+      "render": true
+    },
+    {
+      "id": "royal-covered",
+      "count": 7,
+      "unit": "cases grans",
+      "state1794": "roofed-unfinished",
+      "source": "H02, annex, art. 2; p. 230",
+      "render": true
+    },
+    {
+      "id": "royal-portico",
+      "count": 14,
+      "unit": "cases grans",
+      "state1794": "unroofed-with-first-floor-beams-and-complete-portico",
+      "source": "H02, annex, art. 3; pàg. 209–210 i 230",
+      "render": true
+    },
+    {
+      "id": "royal-small-coast",
+      "count": 14,
+      "unit": "cases o habitacions petites",
+      "state1794": "finished",
+      "source": "H02, annex, art. 4; pàg. 211 i 230–231",
+      "render": true
+    },
+    {
+      "id": "manzana-units",
+      "count": 24,
+      "unit": "habitacions d’una estructura compartida; inclou el forn",
+      "state1794": "finished",
+      "source": "H02, arts. 4 i 7; pàg. 213 i 230–231",
+      "render": "one-shared-building"
+    },
+    {
+      "id": "private-mixed",
+      "count": 38,
+      "unit": "cases i habitacions antigues i modernes, amb usos no residencials inclosos",
+      "state1794": "mixed-not-disaggregated",
+      "source": "H02, annex, art. 5; p. 231",
+      "render": false,
+      "reason": "El conjunt inclou fusteria, capella, masoveria, duana i altres immobles. No permet convertir les 38 entrades en 38 cases independents ni establir-ne el nombre residencial exacte."
+    }
+  ],
+  "layout": {
+    "finishedRows": [
+      {
+        "across": -28.5,
+        "startAlong": 28,
+        "spacing": 5,
+        "count": 11,
+        "front": "east"
+      },
+      {
+        "across": 28.5,
+        "startAlong": 24,
+        "spacing": 5,
+        "count": 11,
+        "front": "west"
+      }
+    ],
+    "coveredRow": {
+      "across": -28.5,
+      "startAlong": -10,
+      "spacing": -5,
+      "count": 7,
+      "front": "east"
+    },
+    "exedra": {
+      "across": -2,
+      "along": -118,
+      "innerRadius": 23,
+      "depth": 10,
+      "count": 10,
+      "confidence": "C",
+      "source": "H02 propone relacionar diez casas rodones con la cabecera semicircular; colocación y radio de ensayo, no planta histórica validada.",
+      "gap": 8,
+      "gapSource": "N030, N031 i N102 mostren que la cabecera semicircular no es tanca: s'hi obre un pas de carrer al mig. H02 (p.210, nota 60) reparteix els deu arcs en cinc a cada costat. L'amplada del pas és C.",
+      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C."
+    },
+    "porticoRow": {
+      "across": -28.5,
+      "startAlong": -107,
+      "spacing": 6,
+      "count": 4,
+      "front": "east",
+      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
+    },
+    "smallRows": [
+      {
+        "across": 113,
+        "startAlong": -31,
+        "spacing": 4.8,
+        "count": 5,
+        "front": "east"
+      },
+      {
+        "across": 128,
+        "startAlong": -28,
+        "spacing": 4.8,
+        "count": 5,
+        "front": "west"
+      },
+      {
+        "across": 143,
+        "startAlong": -23,
+        "spacing": 4.8,
+        "count": 4,
+        "front": "east"
+      }
+    ],
+    "manzana": {
+      "across": -60,
+      "along": 105,
+      "acrossLength": 80,
+      "alongLength": 40,
+      "wingDepth": 7,
+      "countedUnits": 24,
+      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
+    },
+    "smallCoastAdjustment": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals."
+  },
+  "typologies": {
+    "large": {
+      "frontWidth": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "floors": "baja + piso + guardilla",
+      "confidence": "C",
+      "basis": "H02: frente aproximado 5 m, dos balcones en piso y guardilla. H01 pp. 251–253: adosadas, 50–60 m² en el grupo estudiado, revoco, teja a dos aguas y patios. Profundidades y alturas de ensayo, sin levantamiento."
+    },
+    "small": {
+      "frontWidth": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "floors": "baja de ensayo",
+      "confidence": "C",
+      "basis": "Localización costera aproximada en H02; dimensiones y alzado de estas catorce unidades no conocidos."
+    },
+    "manzana": {
+      "wallHeight": 5.8,
+      "roofRise": 1.5,
+      "wallThickness": 0.5,
+      "floors": "baja + piso",
+      "confidence": "C",
+      "basis": "H02 describe dos niveles, mampostería revocada, cubierta a dos aguas y patio. Alturas y división interna sin medir."
+    }
+  },
+  "confidence": {
+    "inventory1794": "A-document-transcription",
+    "groupLocation": "B-or-C-by-source",
+    "individualLocation": "C",
+    "individualFootprint": "C",
+    "height": "C",
+    "state1800": "B-extrapolation-from-1794"
+  },
+  "rules": [
+    "Els identificadors dels models són tècnics; no se’ls atribueix numeració històrica individual.",
+    "L’assignació d’estats a posicions concretes és una hipòtesi que conserva els totals documentats.",
+    "Les 14 cases sense coberta no es redueixen a fonaments: el text descriu murs i bigues del primer pis, amb porxos complets.",
+    "Les set cases cobertes no reben arrebossat ni portes o finestres acabades; les reixes descrites es representen de manera simplificada.",
+    "Les 24 habitacions de la Mançana es compten dins d’un únic edifici compartit, sense duplicar 24 cases exteriors.",
+    "Les cases de la Fonda Nova poden estar incloses en la numeració de les grans. Les dues unitats d’assaig reservades són substituïdes pel model de la fonda, sense duplicar-les.",
+    "No es representa com a acabat el 1800 un estat que només es coneix el 1794.",
+    "No s’afegeixen cases privades per una resta arbitrària del conjunt mixt de 38 propietats."
+  ],
+  "sources": [
+    {
+      "id": "H02",
+      "title": "Pilar Reverté Vidal, 1794. Estat de les obres reials de San Carlos, Recerca 20 (2024), pp. 191–234",
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "sectionsRead": "Anàlisi de les pàg. 208–215 i conclusions; transcripció, art. 1–9, pàg. 230–231",
+      "primaryDocument": "ACA, RP, BGRP, Cajas 60, relació del 20 de maig de 1794"
+    },
+    {
+      "id": "H01",
+      "title": "Noèlia Borràs Matamoros, tesi doctoral (2013), pàg. 251–253 (PDF 255–257)",
+      "local": "tesi doctoral.pdf",
+      "basis": "Informes de construcció de dotze cases, desembre de 1788–abril de 1789. Se superposen a la sèrie històrica; no se sumen com dotze habitatges addicionals."
+    },
+    {
+      "id": "G03",
+      "title": "ICGC, Ortofoto Territorial 2024 i Mapa Base Topogràfic",
+      "local": "docs/sources/nucleo-ortofoto-2024.jpg; docs/sources/nucleo-topografico.jpg",
+      "use": "Lectura d’alineacions actuals i noms de carrers. No es trasllada el parcel·lari contemporani al 1800."
+    }
+  ],
+  "structures": [
+    {
+      "id": "royal-finished-01",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296371.52312892023,
+        "northing": 4499400.481812519
+      },
+      "across": -28.5,
+      "along": 28,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296375.6259051272,
+          4499396.425061677
+        ],
+        [
+          296377.2537458995,
+          4499401.152654555
+        ],
+        [
+          296367.42035271326,
+          4499404.538563361
+        ],
+        [
+          296365.792511941,
+          4499399.810970483
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.179667539932986,
+        "maximum": 9.720128110292269,
+        "technicalBaseElevation": 9.800128110292269,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-02",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296373.15096969256,
+        "northing": 4499405.209405397
+      },
+      "across": -28.5,
+      "along": 33,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296377.5374014722,
+          4499401.054984109
+        ],
+        [
+          296379.1652422445,
+          4499405.782576987
+        ],
+        [
+          296368.7645379129,
+          4499409.363826686
+        ],
+        [
+          296367.13669714064,
+          4499404.636233808
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.022497488528561,
+        "maximum": 9.606988458112834,
+        "technicalBaseElevation": 9.686988458112834,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-03",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296374.77881046484,
+        "northing": 4499409.936998275
+      },
+      "across": -28.5,
+      "along": 38,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296379.4488978172,
+          4499405.68490654
+        ],
+        [
+          296381.07673858944,
+          4499410.4124994185
+        ],
+        [
+          296370.1087231125,
+          4499414.18909001
+        ],
+        [
+          296368.4808823402,
+          4499409.461497132
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.867881772893819,
+        "maximum": 9.36173940815318,
+        "technicalBaseElevation": 9.44173940815318,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-04",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296376.4066512371,
+        "northing": 4499414.664591153
+      },
+      "across": -28.5,
+      "along": 43,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296380.5094274441,
+          4499410.607840311
+        ],
+        [
+          296382.13726821635,
+          4499415.335433189
+        ],
+        [
+          296372.30387503013,
+          4499418.7213419955
+        ],
+        [
+          296370.67603425786,
+          4499413.9937491175
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.700599165422668,
+        "maximum": 9.155734826079518,
+        "technicalBaseElevation": 9.235734826079518,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-05",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296378.0344920094,
+        "northing": 4499419.392184031
+      },
+      "across": -28.5,
+      "along": 48,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296382.42092378903,
+          4499415.237762743
+        ],
+        [
+          296384.0487645613,
+          4499419.965355621
+        ],
+        [
+          296373.6480602297,
+          4499423.54660532
+        ],
+        [
+          296372.02021945745,
+          4499418.819012442
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.525764007751102,
+        "maximum": 8.9947943189331,
+        "technicalBaseElevation": 9.0747943189331,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-06",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296379.6623327817,
+        "northing": 4499424.119776908
+      },
+      "across": -28.5,
+      "along": 53,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296384.33242013404,
+          4499419.867685174
+        ],
+        [
+          296385.9602609063,
+          4499424.595278052
+        ],
+        [
+          296374.99224542937,
+          4499428.371868643
+        ],
+        [
+          296373.3644046571,
+          4499423.644275765
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.364229370253032,
+        "maximum": 8.907924330681467,
+        "technicalBaseElevation": 8.987924330681468,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-07",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296381.290173554,
+        "northing": 4499428.847369786
+      },
+      "across": -28.5,
+      "along": 58,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296385.39294976095,
+          4499424.790618944
+        ],
+        [
+          296387.0207905332,
+          4499429.518211822
+        ],
+        [
+          296377.187397347,
+          4499432.904120629
+        ],
+        [
+          296375.55955657474,
+          4499428.176527751
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.235832102180403,
+        "maximum": 8.700946985861295,
+        "technicalBaseElevation": 8.780946985861295,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-08",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296382.91801432625,
+        "northing": 4499433.574962664
+      },
+      "across": -28.5,
+      "along": 63,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296387.3044461059,
+          4499429.420541376
+        ],
+        [
+          296388.9322868782,
+          4499434.148134254
+        ],
+        [
+          296378.5315825466,
+          4499437.729383953
+        ],
+        [
+          296376.9037417743,
+          4499433.001791075
+        ]
+      ],
+      "terrain": {
+        "minimum": 8.08616182634465,
+        "maximum": 8.742444608500872,
+        "technicalBaseElevation": 8.822444608500872,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-09",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296384.5458550985,
+        "northing": 4499438.302555542
+      },
+      "across": -28.5,
+      "along": 68,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296389.21594245086,
+          4499434.050463808
+        ],
+        [
+          296390.8437832231,
+          4499438.778056686
+        ],
+        [
+          296379.8757677462,
+          4499442.554647277
+        ],
+        [
+          296378.2479269739,
+          4499437.827054399
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.909590650083022,
+        "maximum": 8.732566269689288,
+        "technicalBaseElevation": 8.812566269689288,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-10",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296386.17369587085,
+        "northing": 4499443.0301484205
+      },
+      "across": -28.5,
+      "along": 73,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296390.2764720778,
+          4499438.973397578
+        ],
+        [
+          296391.9043128501,
+          4499443.700990456
+        ],
+        [
+          296382.0709196639,
+          4499447.086899263
+        ],
+        [
+          296380.4430788916,
+          4499442.359306385
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.698759288337847,
+        "maximum": 8.3610788988456,
+        "technicalBaseElevation": 8.4410788988456,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-11",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296387.8015366431,
+        "northing": 4499447.7577412985
+      },
+      "across": -28.5,
+      "along": 78,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296392.1879684228,
+          4499443.60332001
+        ],
+        [
+          296393.81580919505,
+          4499448.330912888
+        ],
+        [
+          296383.41510486347,
+          4499451.912162587
+        ],
+        [
+          296381.7872640912,
+          4499447.184569709
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.533788493800187,
+        "maximum": 8.001985279473775,
+        "technicalBaseElevation": 8.081985279473775,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-12",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296424.11541511153,
+        "northing": 4499378.142353413
+      },
+      "across": 28.5,
+      "along": 24,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296419.4453277592,
+          4499382.394445147
+        ],
+        [
+          296417.8174869869,
+          4499377.666852269
+        ],
+        [
+          296428.78550246387,
+          4499373.890261678
+        ],
+        [
+          296430.41334323614,
+          4499378.617854556
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.4755730453755795,
+        "maximum": 8.257848912128251,
+        "technicalBaseElevation": 8.337848912128251,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-13",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296425.7432558838,
+        "northing": 4499382.869946291
+      },
+      "across": 28.5,
+      "along": 29,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296421.64047967683,
+          4499386.926697133
+        ],
+        [
+          296420.01263890456,
+          4499382.199104255
+        ],
+        [
+          296429.8460320908,
+          4499378.813195448
+        ],
+        [
+          296431.47387286305,
+          4499383.540788326
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.317847458244151,
+        "maximum": 8.235094134704651,
+        "technicalBaseElevation": 8.315094134704651,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-14",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296427.37109665613,
+        "northing": 4499387.597539169
+      },
+      "across": 28.5,
+      "along": 34,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296422.9846648765,
+          4499391.751960457
+        ],
+        [
+          296421.3568241042,
+          4499387.024367579
+        ],
+        [
+          296431.7575284358,
+          4499383.44311788
+        ],
+        [
+          296433.38536920806,
+          4499388.170710758
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.178434982398074,
+        "maximum": 8.212026388587331,
+        "technicalBaseElevation": 8.292026388587331,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-15",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296428.9989374284,
+        "northing": 4499392.325132047
+      },
+      "across": 28.5,
+      "along": 39,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296424.32885007607,
+          4499396.5772237815
+        ],
+        [
+          296422.7010093038,
+          4499391.849630903
+        ],
+        [
+          296433.66902478074,
+          4499388.073040312
+        ],
+        [
+          296435.296865553,
+          4499392.80063319
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.016852271065089,
+        "maximum": 8.018901650417979,
+        "technicalBaseElevation": 8.098901650417979,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-16",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296430.6267782007,
+        "northing": 4499397.052724925
+      },
+      "across": 28.5,
+      "along": 44,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296426.5240019937,
+          4499401.109475767
+        ],
+        [
+          296424.89616122143,
+          4499396.381882889
+        ],
+        [
+          296434.72955440765,
+          4499392.9959740825
+        ],
+        [
+          296436.3573951799,
+          4499397.723566961
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.1109905976517185,
+        "maximum": 7.916238455574131,
+        "technicalBaseElevation": 7.996238455574131,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-17",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296432.25461897295,
+        "northing": 4499401.780317803
+      },
+      "across": 28.5,
+      "along": 49,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296427.8681871933,
+          4499405.934739091
+        ],
+        [
+          296426.240346421,
+          4499401.207146213
+        ],
+        [
+          296436.6410507526,
+          4499397.625896514
+        ],
+        [
+          296438.2688915249,
+          4499402.353489392
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.58186390932876,
+        "maximum": 7.961977682660163,
+        "technicalBaseElevation": 8.041977682660162,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-18",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296433.8824597453,
+        "northing": 4499406.50791068
+      },
+      "across": 28.5,
+      "along": 54,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296429.21237239294,
+          4499410.760002415
+        ],
+        [
+          296427.58453162067,
+          4499406.032409537
+        ],
+        [
+          296438.5525470976,
+          4499402.255818945
+        ],
+        [
+          296440.1803878699,
+          4499406.983411823
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.567131133804529,
+        "maximum": 7.9118771491948,
+        "technicalBaseElevation": 7.9918771491948,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-19",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296435.51030051755,
+        "northing": 4499411.235503558
+      },
+      "across": 28.5,
+      "along": 59,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296431.4075243106,
+          4499415.2922544
+        ],
+        [
+          296429.7796835383,
+          4499410.564661522
+        ],
+        [
+          296439.6130767245,
+          4499407.178752716
+        ],
+        [
+          296441.2409174968,
+          4499411.906345594
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.488921479214948,
+        "maximum": 8.019140639019854,
+        "technicalBaseElevation": 8.099140639019854,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-20",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296437.1381412898,
+        "northing": 4499415.963096436
+      },
+      "across": 28.5,
+      "along": 64,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296432.75170951016,
+          4499420.117517725
+        ],
+        [
+          296431.1238687379,
+          4499415.389924847
+        ],
+        [
+          296441.5245730695,
+          4499411.808675148
+        ],
+        [
+          296443.15241384174,
+          4499416.536268026
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.384608245348526,
+        "maximum": 8.165080579678056,
+        "technicalBaseElevation": 8.245080579678056,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-21",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296438.7659820621,
+        "northing": 4499420.690689314
+      },
+      "across": 28.5,
+      "along": 69,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "reservation": "possible-inn-bodies-do-not-duplicate",
+      "footprintUTM": [
+        [
+          296434.09589470975,
+          4499424.942781049
+        ],
+        [
+          296432.4680539375,
+          4499420.215188171
+        ],
+        [
+          296443.4360694144,
+          4499416.4385975795
+        ],
+        [
+          296445.0639101867,
+          4499421.1661904575
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.2821475802083375,
+        "maximum": 8.031388856639776,
+        "technicalBaseElevation": 8.111388856639776,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-finished-22",
+      "group": "royal-finished",
+      "kind": "large",
+      "anchor": {
+        "easting": 296440.3938228344,
+        "northing": 4499425.418282192
+      },
+      "across": 28.5,
+      "along": 74,
+      "frontAzimuthDegrees": -71,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "reservation": "possible-inn-bodies-do-not-duplicate",
+      "footprintUTM": [
+        [
+          296436.29104662745,
+          4499429.475033035
+        ],
+        [
+          296434.6632058552,
+          4499424.7474401565
+        ],
+        [
+          296444.4965990414,
+          4499421.36153135
+        ],
+        [
+          296446.12443981366,
+          4499426.089124228
+        ]
+      ],
+      "terrain": {
+        "minimum": 7.134667362868029,
+        "maximum": 7.578036111007983,
+        "technicalBaseElevation": 7.658036111007983,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-01",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296359.15153905086,
+        "northing": 4499364.552106646
+      },
+      "across": -28.5,
+      "along": -10,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296363.25431525783,
+          4499360.4953558035
+        ],
+        [
+          296364.8821560301,
+          4499365.222948682
+        ],
+        [
+          296355.0487628439,
+          4499368.608857488
+        ],
+        [
+          296353.4209220716,
+          4499363.88126461
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.903045884804627,
+        "maximum": 10.479132517041885,
+        "technicalBaseElevation": 10.559132517041885,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-02",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296357.5236982786,
+        "northing": 4499359.824513768
+      },
+      "across": -28.5,
+      "along": -15,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296361.91013005824,
+          4499355.670092479
+        ],
+        [
+          296363.5379708305,
+          4499360.397685357
+        ],
+        [
+          296353.13726649893,
+          4499363.978935056
+        ],
+        [
+          296351.50942572666,
+          4499359.251342178
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.898066865027095,
+        "maximum": 10.487908783098744,
+        "technicalBaseElevation": 10.567908783098744,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-03",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296355.8958575063,
+        "northing": 4499355.09692089
+      },
+      "across": -28.5,
+      "along": -20,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296360.56594485865,
+          4499350.844829155
+        ],
+        [
+          296362.1937856309,
+          4499355.572422033
+        ],
+        [
+          296351.225770154,
+          4499359.3490126245
+        ],
+        [
+          296349.5979293817,
+          4499354.621419746
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.863553262893673,
+        "maximum": 10.462011236844248,
+        "technicalBaseElevation": 10.542011236844248,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-04",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296354.26801673404,
+        "northing": 4499350.369328012
+      },
+      "across": -28.5,
+      "along": -25,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296358.370792941,
+          4499346.312577169
+        ],
+        [
+          296359.9986337133,
+          4499351.040170047
+        ],
+        [
+          296350.1652405271,
+          4499354.426078854
+        ],
+        [
+          296348.5373997548,
+          4499349.698485976
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.926029830513535,
+        "maximum": 10.554826668152549,
+        "technicalBaseElevation": 10.634826668152549,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-05",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296352.6401759617,
+        "northing": 4499345.641735134
+      },
+      "across": -28.5,
+      "along": -30,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.95,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296357.02660774137,
+          4499341.487313845
+        ],
+        [
+          296358.65444851364,
+          4499346.214906723
+        ],
+        [
+          296348.25374418206,
+          4499349.796156422
+        ],
+        [
+          296346.6259034098,
+          4499345.068563544
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.937299375833868,
+        "maximum": 10.56912760534518,
+        "technicalBaseElevation": 10.64912760534518,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-06",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296351.01233518944,
+        "northing": 4499340.914142256
+      },
+      "across": -28.5,
+      "along": -35,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11.6,
+      "wallHeight": 7.7,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296355.6824225418,
+          4499336.662050521
+        ],
+        [
+          296357.31026331405,
+          4499341.389643399
+        ],
+        [
+          296346.3422478371,
+          4499345.16623399
+        ],
+        [
+          296344.71440706484,
+          4499340.438641112
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.932781678144982,
+        "maximum": 10.521959939837876,
+        "technicalBaseElevation": 10.601959939837876,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-covered-07",
+      "group": "royal-covered",
+      "kind": "large",
+      "anchor": {
+        "easting": 296349.3844944172,
+        "northing": 4499336.186549378
+      },
+      "across": -28.5,
+      "along": -40,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 10.4,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "roofed-unfinished",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296353.48727062414,
+          4499332.129798535
+        ],
+        [
+          296355.1151113964,
+          4499336.857391413
+        ],
+        [
+          296345.2817182102,
+          4499340.24330022
+        ],
+        [
+          296343.65387743793,
+          4499335.515707342
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.9523561083548,
+        "maximum": 10.516398301324422,
+        "technicalBaseElevation": 10.596398301324422,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-01",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296373.95421279623,
+        "northing": 4499241.017848979
+      },
+      "across": 25.715023275646487,
+      "along": -121.98465617467473,
+      "frontAzimuthDegrees": 297.1814888640988,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296370.7933478617,
+          4499246.320476836
+        ],
+        [
+          296367.8029651088,
+          4499240.497194383
+        ],
+        [
+          296375.95798445045,
+          4499234.709650903
+        ],
+        [
+          296380.24853361765,
+          4499243.06479529
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.45042573223472,
+        "maximum": 9.948140051901383,
+        "technicalBaseElevation": 10.028140051901383,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-02",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296369.3419386232,
+        "northing": 4499234.518859345
+      },
+      "across": 23.46989643058259,
+      "along": -129.63118118745453,
+      "frontAzimuthDegrees": 313.5444665922965,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296367.80296510877,
+          4499240.497194384
+        ],
+        [
+          296363.29316015926,
+          4499235.752232124
+        ],
+        [
+          296369.4873947403,
+          4499227.901661575
+        ],
+        [
+          296375.95798445045,
+          4499234.709650904
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.472694055587372,
+        "maximum": 10.05542687275743,
+        "technicalBaseElevation": 10.13542687275743,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-03",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296363.0855737401,
+        "northing": 4499229.58248033
+      },
+      "across": 19.161515023234212,
+      "along": -136.3354924101163,
+      "frontAzimuthDegrees": 329.9074443204941,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296363.2931601592,
+          4499235.752232123
+        ],
+        [
+          296357.6292613787,
+          4499232.469967946
+        ],
+        [
+          296361.36093127256,
+          4499223.192326016
+        ],
+        [
+          296369.4873947403,
+          4499227.901661574
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.745987858953612,
+        "maximum": 10.173531962869932,
+        "technicalBaseElevation": 10.253531962869932,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-04",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296355.69193109864,
+        "northing": 4499226.6085960325
+      },
+      "across": 13.138890586451552,
+      "along": -141.5544898440074,
+      "frontAzimuthDegrees": 346.2704220486918,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296357.6292613787,
+          4499232.469967946
+        ],
+        [
+          296351.2700874763,
+          4499230.916290114
+        ],
+        [
+          296352.23689915164,
+          4499220.9631360825
+        ],
+        [
+          296361.36093127256,
+          4499223.192326015
+        ]
+      ],
+      "terrain": {
+        "minimum": 9.874138305523022,
+        "maximum": 10.281871849108335,
+        "technicalBaseElevation": 10.361871849108335,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-05",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296347.7599517644,
+        "northing": 4499225.838113611
+      },
+      "across": 5.889901325000171,
+      "along": -144.8653951596056,
+      "frontAzimuthDegrees": 2.633399776889405,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296351.27008747624,
+          4499230.916290114
+        ],
+        [
+          296344.7307797129,
+          4499231.217058303
+        ],
+        [
+          296342.8544140999,
+          4499221.3946730485
+        ],
+        [
+          296352.23689915164,
+          4499220.963136083
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.082758894871482,
+        "maximum": 10.53578218360125,
+        "technicalBaseElevation": 10.615782183601251,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-06",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296332.83985523955,
+        "northing": 4499230.975514838
+      },
+      "across": -9.889901325000167,
+      "along": -144.8653951596056,
+      "frontAzimuthDegrees": 35.366600223110595,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296338.5384844156,
+          4499233.349236564
+        ],
+        [
+          296333.20026819035,
+          4499237.138227862
+        ],
+        [
+          296326.310636698,
+          4499229.890264155
+        ],
+        [
+          296333.96981649945,
+          4499224.4538853355
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.499772734736974,
+        "maximum": 10.920382616647975,
+        "technicalBaseElevation": 11.000382616647975,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-07",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296327.06372657174,
+        "northing": 4499236.466077371
+      },
+      "across": -17.13889058645155,
+      "along": -141.55448984400743,
+      "frontAzimuthDegrees": 51.729577951308215,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296333.2002681904,
+          4499237.138227861
+        ],
+        [
+          296329.1457103573,
+          4499242.277641088
+        ],
+        [
+          296320.4932276331,
+          4499237.26420487
+        ],
+        [
+          296326.310636698,
+          4499229.890264154
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.52081747638752,
+        "maximum": 11.05939933677704,
+        "technicalBaseElevation": 11.13939933677704,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-08",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296323.0683626555,
+        "northing": 4499243.361511113
+      },
+      "across": -23.16151502323421,
+      "along": -136.3354924101163,
+      "frontAzimuthDegrees": 68.09255567950584,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296329.1457103573,
+          4499242.277641088
+        ],
+        [
+          296326.7032608168,
+          4499248.351144835
+        ],
+        [
+          296316.98884350987,
+          4499245.97836242
+        ],
+        [
+          296320.4932276331,
+          4499237.26420487
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.779362772810504,
+        "maximum": 11.318837634866899,
+        "technicalBaseElevation": 11.398837634866899,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-09",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296321.1774182358,
+        "northing": 4499251.103233694
+      },
+      "across": -27.469896430582587,
+      "along": -129.63118118745453,
+      "frontAzimuthDegrees": 84.45553340770351,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296326.70326081687,
+          4499248.351144834
+        ],
+        [
+          296326.070776485,
+          4499254.866739289
+        ],
+        [
+          296316.0813659903,
+          4499255.326824029
+        ],
+        [
+          296316.98884350987,
+          4499245.97836242
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.670840067762526,
+        "maximum": 11.473922311217349,
+        "technicalBaseElevation": 11.553922311217349,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-10",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296321.54407413566,
+        "northing": 4499259.064106937
+      },
+      "across": -29.715023275646487,
+      "along": -121.98465617467474,
+      "frontAzimuthDegrees": 100.81851113590119,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "frontWidth": 6.546220858394196,
+      "backWidth": 9.392403840304716,
+      "frontZ": 5.234088023576099,
+      "backZ": -4.664134574869074,
+      "arcSector": true,
+      "layoutBasis": "hypothetical-10-cases-rodones",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296326.070776485,
+          4499254.86673929
+        ],
+        [
+          296327.2994933841,
+          4499261.2966119405
+        ],
+        [
+          296317.8443076281,
+          4499264.552293485
+        ],
+        [
+          296316.0813659902,
+          4499255.32682403
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.561269503766086,
+        "maximum": 11.473922311223578,
+        "technicalBaseElevation": 11.553922311223578,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-11",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296327.57142806856,
+        "northing": 4499272.836804813
+      },
+      "across": -28.5,
+      "along": -107,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296331.9578598482,
+          4499268.682383524
+        ],
+        [
+          296333.5857006205,
+          4499273.409976402
+        ],
+        [
+          296323.1849962889,
+          4499276.991226101
+        ],
+        [
+          296321.55715551664,
+          4499272.263633223
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.452895620454608,
+        "maximum": 11.29494742850468,
+        "technicalBaseElevation": 11.37494742850468,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-12",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296329.5248369953,
+        "northing": 4499278.509916266
+      },
+      "across": -28.5,
+      "along": -101,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296333.91126877494,
+          4499274.355494978
+        ],
+        [
+          296335.5391095472,
+          4499279.083087856
+        ],
+        [
+          296325.13840521564,
+          4499282.664337555
+        ],
+        [
+          296323.51056444336,
+          4499277.936744677
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.419884776285349,
+        "maximum": 11.013038340078385,
+        "technicalBaseElevation": 11.093038340078385,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-13",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296331.478245922,
+        "northing": 4499284.18302772
+      },
+      "across": -28.5,
+      "along": -95,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296335.86467770167,
+          4499280.028606432
+        ],
+        [
+          296337.49251847394,
+          4499284.75619931
+        ],
+        [
+          296327.09181414236,
+          4499288.337449009
+        ],
+        [
+          296325.4639733701,
+          4499283.609856131
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.36401785907286,
+        "maximum": 11.00461893865341,
+        "technicalBaseElevation": 11.08461893865341,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-portico-14",
+      "group": "royal-portico",
+      "kind": "large",
+      "anchor": {
+        "easting": 296333.4316548488,
+        "northing": 4499289.856139174
+      },
+      "across": -28.5,
+      "along": -89,
+      "frontAzimuthDegrees": 109,
+      "width": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "unroofed-with-portico",
+      "layoutBasis": "group-location-inference",
+      "terrace": true,
+      "footprintUTM": [
+        [
+          296337.81808662845,
+          4499285.701717885
+        ],
+        [
+          296339.4459274007,
+          4499290.429310763
+        ],
+        [
+          296329.04522306914,
+          4499294.010560462
+        ],
+        [
+          296327.4173822969,
+          4499289.282967584
+        ]
+      ],
+      "terrain": {
+        "minimum": 10.290046926831067,
+        "maximum": 10.886806561059675,
+        "technicalBaseElevation": 10.966806561059675,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-01",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296486.10548625456,
+        "northing": 4499298.628322703
+      },
+      "across": 113,
+      "along": -31,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296488.6985513293,
+          4499295.408693296
+        ],
+        [
+          296490.13105120894,
+          4499299.568975029
+        ],
+        [
+          296483.5124211798,
+          4499301.84795211
+        ],
+        [
+          296482.0799213002,
+          4499297.687670377
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.718078376738706,
+        "maximum": 3.294455685822849,
+        "technicalBaseElevation": 3.374455685822849,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-02",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296487.668213396,
+        "northing": 4499303.166811866
+      },
+      "across": 113,
+      "along": -26.2,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296490.26127847075,
+          4499299.947182459
+        ],
+        [
+          296491.69377835037,
+          4499304.1074641915
+        ],
+        [
+          296485.0751483212,
+          4499306.386441273
+        ],
+        [
+          296483.6426484416,
+          4499302.22615954
+        ]
+      ],
+      "terrain": {
+        "minimum": 3.170491729924138,
+        "maximum": 3.8331054563447813,
+        "technicalBaseElevation": 3.9131054563447814,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-03",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296489.23094053735,
+        "northing": 4499307.705301029
+      },
+      "across": 113,
+      "along": -21.4,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296491.8240056121,
+          4499304.485671622
+        ],
+        [
+          296493.25650549174,
+          4499308.645953354
+        ],
+        [
+          296486.6378754626,
+          4499310.924930436
+        ],
+        [
+          296485.20537558297,
+          4499306.764648703
+        ]
+      ],
+      "terrain": {
+        "minimum": 3.5479663170510953,
+        "maximum": 4.307524480045574,
+        "technicalBaseElevation": 4.387524480045574,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-04",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296490.7936676788,
+        "northing": 4499312.243790192
+      },
+      "across": 113,
+      "along": -16.6,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296493.38673275354,
+          4499309.024160785
+        ],
+        [
+          296494.81923263316,
+          4499313.184442517
+        ],
+        [
+          296488.200602604,
+          4499315.4634195985
+        ],
+        [
+          296486.7681027244,
+          4499311.303137866
+        ]
+      ],
+      "terrain": {
+        "minimum": 3.906030340815155,
+        "maximum": 4.541103004277002,
+        "technicalBaseElevation": 4.6211030042770025,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-05",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296492.35639482015,
+        "northing": 4499316.7822793545
+      },
+      "across": 113,
+      "along": -11.8,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296494.9494598949,
+          4499313.562649948
+        ],
+        [
+          296496.38195977453,
+          4499317.72293168
+        ],
+        [
+          296489.7633297454,
+          4499320.001908761
+        ],
+        [
+          296488.33082986576,
+          4499315.841627029
+        ]
+      ],
+      "terrain": {
+        "minimum": 4.034677002688038,
+        "maximum": 4.540048917085218,
+        "technicalBaseElevation": 4.620048917085218,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-06",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296501.26496935193,
+        "northing": 4499296.581356113
+      },
+      "across": 128,
+      "along": -28,
+      "frontAzimuthDegrees": -71,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296498.6719042772,
+          4499299.80098552
+        ],
+        [
+          296497.23940439755,
+          4499295.640703787
+        ],
+        [
+          296503.8580344267,
+          4499293.361726706
+        ],
+        [
+          296505.2905343063,
+          4499297.522008439
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.542601085166893,
+        "maximum": 3.041813213810003,
+        "technicalBaseElevation": 3.121813213810003,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-07",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296502.8276964933,
+        "northing": 4499301.119845276
+      },
+      "across": 128,
+      "along": -23.2,
+      "frontAzimuthDegrees": -71,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296500.23463141854,
+          4499304.339474683
+        ],
+        [
+          296498.8021315389,
+          4499300.17919295
+        ],
+        [
+          296505.42076156806,
+          4499297.900215869
+        ],
+        [
+          296506.8532614477,
+          4499302.0604976015
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.8829874268337674,
+        "maximum": 3.4314380292473343,
+        "technicalBaseElevation": 3.5114380292473344,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-08",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296504.3904236347,
+        "northing": 4499305.658334439
+      },
+      "across": 128,
+      "along": -18.4,
+      "frontAzimuthDegrees": -71,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296501.7973585599,
+          4499308.877963846
+        ],
+        [
+          296500.3648586803,
+          4499304.717682113
+        ],
+        [
+          296506.98348870943,
+          4499302.438705032
+        ],
+        [
+          296508.41598858905,
+          4499306.598986764
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.982793458616622,
+        "maximum": 3.641988142762515,
+        "technicalBaseElevation": 3.721988142762515,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-09",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296505.9531507761,
+        "northing": 4499310.196823602
+      },
+      "across": 128,
+      "along": -13.600000000000001,
+      "frontAzimuthDegrees": -71,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296503.36008570134,
+          4499313.416453009
+        ],
+        [
+          296501.9275858217,
+          4499309.256171276
+        ],
+        [
+          296508.54621585086,
+          4499306.977194195
+        ],
+        [
+          296509.9787157305,
+          4499311.137475927
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.9845937607920376,
+        "maximum": 3.6277536133737365,
+        "technicalBaseElevation": 3.7077536133737365,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-10",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296507.51587791747,
+        "northing": 4499314.7353127645
+      },
+      "across": 128,
+      "along": -8.8,
+      "frontAzimuthDegrees": -71,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296504.9228128427,
+          4499317.954942171
+        ],
+        [
+          296503.4903129631,
+          4499313.794660439
+        ],
+        [
+          296510.1089429922,
+          4499311.515683358
+        ],
+        [
+          296511.54144287185,
+          4499315.67596509
+        ]
+      ],
+      "terrain": {
+        "minimum": 3.0893480434892737,
+        "maximum": 3.5742750003898776,
+        "technicalBaseElevation": 3.6542750003898776,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-11",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296517.0755887582,
+        "northing": 4499296.425426674
+      },
+      "across": 143,
+      "along": -23,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296519.668653833,
+          4499293.205797267
+        ],
+        [
+          296521.1011537126,
+          4499297.366079
+        ],
+        [
+          296514.48252368346,
+          4499299.645056081
+        ],
+        [
+          296513.05002380384,
+          4499295.484774348
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.334870265553824,
+        "maximum": 2.6159397940499787,
+        "technicalBaseElevation": 2.6959397940499787,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-12",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296518.6383158996,
+        "northing": 4499300.963915837
+      },
+      "across": 143,
+      "along": -18.2,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296521.23138097435,
+          4499297.74428643
+        ],
+        [
+          296522.663880854,
+          4499301.904568163
+        ],
+        [
+          296516.0452508248,
+          4499304.183545244
+        ],
+        [
+          296514.6127509452,
+          4499300.023263511
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.280370271251689,
+        "maximum": 2.6980717483394945,
+        "technicalBaseElevation": 2.7780717483394946,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-13",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296520.201043041,
+        "northing": 4499305.502405
+      },
+      "across": 143,
+      "along": -13.4,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296522.7941081158,
+          4499302.282775593
+        ],
+        [
+          296524.2266079954,
+          4499306.443057326
+        ],
+        [
+          296517.60797796625,
+          4499308.722034407
+        ],
+        [
+          296516.17547808663,
+          4499304.561752674
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.1872912497950816,
+        "maximum": 2.6094428562242413,
+        "technicalBaseElevation": 2.6894428562242414,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "royal-small-coast-14",
+      "group": "royal-small-coast",
+      "kind": "small",
+      "anchor": {
+        "easting": 296521.7637701824,
+        "northing": 4499310.040894163
+      },
+      "across": 143,
+      "along": -8.600000000000001,
+      "frontAzimuthDegrees": 109,
+      "width": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "originalHouseNumber": null,
+      "state1800": null,
+      "individualPositionConfidence": "C",
+      "geometryConfidence": "C",
+      "state1794": "finished",
+      "layoutBasis": "group-location-inference",
+      "terrace": false,
+      "footprintUTM": [
+        [
+          296524.35683525715,
+          4499306.821264756
+        ],
+        [
+          296525.78933513677,
+          4499310.981546489
+        ],
+        [
+          296519.1707051076,
+          4499313.26052357
+        ],
+        [
+          296517.738205228,
+          4499309.100241837
+        ]
+      ],
+      "terrain": {
+        "minimum": 2.1728212220113012,
+        "maximum": 2.6075403133174326,
+        "technicalBaseElevation": 2.6875403133174327,
+        "historicalElevation": null
+      }
+    },
+    {
+      "id": "manzana-shared",
+      "group": "manzana-units",
+      "kind": "shared-courtyard",
+      "anchor": {
+        "easting": 296366.80804168206,
+        "northing": 4499483.542139705
+      },
+      "across": -60,
+      "along": 105,
+      "width": 80,
+      "depth": 40,
+      "wingDepth": 7,
+      "countedUnits": 24,
+      "wallHeight": 5.8,
+      "roofRise": 1.5,
+      "wallThickness": 0.5,
+      "frontAzimuthDegrees": 19,
+      "state1794": "finished-mixed-shared-building",
+      "state1800": null,
+      "geometryConfidence": "C",
+      "individualPositionConfidence": "C",
+      "originalHouseNumber": null,
+      "footprintUTM": [
+        [
+          296411.1401477952,
+          4499489.429785039
+        ],
+        [
+          296335.4986617472,
+          4499515.475237396
+        ],
+        [
+          296322.4759355689,
+          4499477.654494371
+        ],
+        [
+          296398.1174216169,
+          4499451.609042015
+        ]
+      ],
+      "terrain": {
+        "minimum": 6.588020652482214,
+        "maximum": 9.304427478570226,
+        "technicalBaseElevation": 9.384427478570226,
+        "historicalElevation": null
+      }
+    }
+  ],
+  "summary": {
+    "renderedStructures": 58,
+    "royalInventoryUnits": 81,
+    "largeHouses": 43,
+    "smallCoastalUnits": 14,
+    "sharedManzanaUnits": 24,
+    "privateMixedUnplaced": 38
+  }
+}

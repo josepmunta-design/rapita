@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "width": 72,
+  "height": 206,
+  "step": 50,
+  "west": 294755.25,
+  "north": 4511244.75,
+  "origin": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "elevation": 0
+  },
+  "validCount": 14832,
+  "sampleCount": 14832,
+  "minimum": -0.1340000033378601,
+  "maximum": 261.2300109863281,
+  "heights": "region.f32",
+  "validity": "region.valid.u8",
+  "source": "ICGC WCS icc:met · cobertura contemporània multiresolució",
+  "sourceSha256": "0768b705d2c12603ee659fba5e0b02efe71b48eeb64e556a0e5b3775104c450e",
+  "verticalDatum": "Cotes natives WCS; equivalència vertical amb el LiDAR local pendent de contrastar.",
+  "sampling": "Pas de 50 m; no és un aixecament del canal. Unió tècnica al límit de la malla local sense canviar els fitxers originals."
+}

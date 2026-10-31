@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "activeReconstructionRange": [
+    1778,
+    1800
+  ],
+  "status": "research-catalogue-not-completed-reconstruction",
+  "priority": "Complete streets, houses and services around 1800 first; retain later evidence as separate phases.",
+  "ortho": {
+    "id": "G05",
+    "title": "ICGC · ortofoto històrica 1945–1946",
+    "period": [
+      1945,
+      1946
+    ],
+    "exactLocalFlightDate": null,
+    "bbox": [
+      295500,
+      4497300,
+      297100,
+      4500300
+    ],
+    "crs": "EPSG:25831",
+    "imageSize": [
+      1280,
+      2400
+    ],
+    "image": "reference/rapita-1945-1946.jpg",
+    "sha256": "ae432973003dbd02962e1a70eb3087d722b913bbf7511a191c6b8e0bacd9b519",
+    "request": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:25831&BBOX=295500,4497300,297100,4500300&WIDTH=1280&HEIGHT=2400&LAYERS=ortofoto_blanc_i_negre_1945-1946&STYLES=&FORMAT=image/jpeg",
+    "credit": "ICGC · CC BY 4.0",
+    "limits": "El GetFeatureInfo retorna un interval 25/02/1945–03/08/1946; no acredita l’any exacte d’aquest fotograma. No és una foto de 1950 ni del 1800. Georeferenciació del WMS, sense digitalització de les cases encara."
+  },
+  "records": [
+    {
+      "id": "plan-1852",
+      "years": [
+        1852
+      ],
+      "name": "Reforma urbanística · ACA MPD 223",
+      "source": "H01 pp. 232–233 (PDF 236–237)",
+      "kind": "project-and-existing-traces",
+      "confidence": "B-date-from-thesis",
+      "render": false,
+      "reason": "Distingir fosc existent, rosat projectat i groc a enderrocar. Reproducció només 384 × 554 píxels, sense controls independents suficients per a un ajust fiable. No s’ha georeferenciat ni convertit en ciutat executada."
+    },
+    {
+      "id": "canal-complex",
+      "years": [
+        1852,
+        1857,
+        1859,
+        1867
+      ],
+      "name": "Complex de la Reial Companyia de Canalització de l’Ebre",
+      "url": "https://museumarebre.com/museu/",
+      "kind": "construction-and-use",
+      "confidence": "B",
+      "render": false,
+      "reason": "Obres 1852–1859; oficines, magatzem, dues cases de guarda, resclosa i pont giratori. La menció de 1857 no acredita tot el complex acabat aquell any. Concessió de reg de 1867 diferenciada de la navegació."
+    },
+    {
+      "id": "lighthouse",
+      "years": [
+        1861,
+        1862,
+        1864,
+        1874,
+        1920,
+        1929,
+        1936,
+        1938
+      ],
+      "name": "Far de Sant Carles · punta de la Senieta",
+      "url": "https://www.porttarragona.cat/ca/notes-de-premsa-rss/item/1758-far-sant-carles-de-la-rapita",
+      "kind": "built-and-light-technology",
+      "confidence": "B",
+      "render": false,
+      "reason": "Obra i llanterna de 1862; servei el 1864. La mateixa font discrepa entre setembre i novembre: no es fixa el mes. Tanca renovada segons descripció de 1875; ocultacions i acetilè el 1920; electricitat el 1929. La web municipal documenta apagada durant la guerra i represa a finals de 1938.",
+      "additionalUrl": "https://turismelarapita.cat/interes/far-de-la-rapita/"
+    },
+    {
+      "id": "ensanche-1867",
+      "years": [
+        1867,
+        1870
+      ],
+      "name": "Còpia de l’eixample · José Maes",
+      "source": "1679586.xml · ACA RP BGRP Cajas 70 carp.1 n.8",
+      "kind": "project",
+      "confidence": "A-catalogue",
+      "render": false,
+      "reason": "197 parcel·les projectades; l’XML diu escala del pla original de 1867. És un document diferent de l’ACA MPD 223 de la tesi. No prova que es construïssin 197 edificis."
+    },
+    {
+      "id": "val-zafan",
+      "years": [
+        1880,
+        1942,
+        1945
+      ],
+      "name": "Ferrocarril de la Val de Zafán",
+      "url": "https://www.bot.altanet.org/la-vall-de-zafan-i-el-sarmentero",
+      "kind": "project-unbuilt-local-section",
+      "confidence": "B",
+      "render": false,
+      "reason": "Autorització de 1880 i arribada a Tortosa el 1942. No posar rails ni trens funcionant a la Ràpita: el tram fins al port no es completà.",
+      "additionalUrl": "https://www.alcaniz.es/attachments/article/1845/6.%20La%20reconstrucci%C3%B3n%20de%20Alca%C3%B1iz%20tras%20la%20Guerra%20Civil.pdf"
+    },
+    {
+      "id": "parish-rebuilding",
+      "years": [
+        1936,
+        1939,
+        1941,
+        1945
+      ],
+      "name": "Santíssima Trinitat · destrucció i reconstrucció",
+      "url": "https://turismelarapita.cat/interes/esglesia-de-la-santissima-trinitat/",
+      "kind": "replacement-building",
+      "confidence": "B-with-date-conflict",
+      "render": false,
+      "reason": "Temple antic devastat durant la guerra i enderrocat després; el dia de l’enderroc no està fixat. La fitxa turística diu acabament el 1941; el catàleg patrimonial secundari diferencia inici de 1941 i benedicció de 1945. Cal contrastar l’expedient d’obra abans de fixar la variant acabada.",
+      "additionalUrl": "https://www.poblesdecatalunya.cat/element.php?e=18366"
+    },
+    {
+      "id": "municipal-archive",
+      "years": [
+        1909,
+        1938
+      ],
+      "name": "Límits del fons municipal conservat",
+      "url": "https://larapita.cat/serveis/arxiu-municipal/fons-documentals/",
+      "kind": "source-availability",
+      "confidence": "A",
+      "render": false,
+      "reason": "Fons majoritàriament des de 1938; pèrdua de documentació anterior durant la guerra, amb alguns documents aïllats des de 1909. No implica que tots els edificis fossin destruïts."
+    },
+    {
+      "id": "market-1950",
+      "years": [
+        1950
+      ],
+      "name": "Possible mercat provisional de postguerra",
+      "url": "https://ulladarapita.blogspot.com/2014/04/blog-post.html",
+      "kind": "unverified-lead",
+      "confidence": "D-pending-primary-source",
+      "render": false,
+      "reason": "Una font escolar indica un mercat provisional el 1950. No s’assigna planta, lloc ni data de construcció sense contrastar-la. El mercat actual de 1971 queda fora del període."
+    }
+  ]
+}

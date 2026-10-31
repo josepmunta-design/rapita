@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "crs": "EPSG:25831",
+  "width": 169,
+  "height": 287,
+  "west": 289905.25,
+  "north": 4511244.75,
+  "step": 50,
+  "origin": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "elevation": 0
+  },
+  "validCount": 33717,
+  "sampleCount": 48503,
+  "minimum": -0.24699999392032623,
+  "maximum": 759.31201171875,
+  "heights": "context.f32",
+  "validity": "context.valid.u8",
+  "sourceIds": "context.sources.u8",
+  "source": "ICGC · dos retalls MDT LiDAR 50 cm 2021–2023 + context WCS arxivat",
+  "sourceSha256": "4b5e3b59c024b8a5a1af0ef0aa30624c555063a9a9029441d99cb4231171ed72",
+  "verticalDatum": "LiDAR: fitxa EGM08D595; coincidència exacta en el solapament dels dos TIFF. Equivalència amb el WCS pendent.",
+  "sampling": "Una mostra nativa cada 100 píxels (50 m), sense mitjana, interpolació ni farciment NoData. Costura visual perimetral amb la malla local de 10 m.",
+  "sources": [
+    {
+      "id": 1,
+      "file": "elevacions-terreny-lidar-Catalunya-50cm-2021-2023tif1793275473132.tif",
+      "sha256": "d0bb7c61e36b7c638c2a9b3ec52bdf21ce7331647f146084901f23c7ddb810cf"
+    },
+    {
+      "id": 2,
+      "archive": "FME_46302427_1793390462662_232.zip",
+      "file": "elevacions-terreny-lidar-Catalunya-50cm-2021-2023tif1793390462559.tif",
+      "sha256": "4b5e3b59c024b8a5a1af0ef0aa30624c555063a9a9029441d99cb4231171ed72",
+      "bounds": [
+        289869,
+        4496933,
+        296089,
+        4504909
+      ],
+      "nativeSize": [
+        12440,
+        15952
+      ],
+      "nativeStep": 0.5,
+      "period": "2021–2023",
+      "noData": -9999
+    },
+    {
+      "id": 3,
+      "file": "docs/sources/canal-region.asc",
+      "sha256": "0768b705d2c12603ee659fba5e0b02efe71b48eeb64e556a0e5b3775104c450e"
+    }
+  ],
+  "overlapCheck": {
+    "comparedNativeSamples": 6386,
+    "maximumAbsoluteDifference": 0,
+    "transformationApplied": false
+  },
+  "historicalCorrections": []
+}

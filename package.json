@@ -1,0 +1,36 @@
+{
+  "name": "rapita-1800",
+  "private": true,
+  "version": "0.12.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "data:prepare": "node scripts/prepare-terrain.mjs && node scripts/prepare-esglesia.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-landmarks.mjs && node scripts/prepare-montsia.mjs && node scripts/prepare-urban.mjs && node scripts/prepare-porxos.mjs && node scripts/build-dossiers.mjs && python scripts/prepare-dossier-images.py",
+    "data:detail": "node scripts/prepare-esglesia.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "data:housing": "node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs",
+    "data:center": "node scripts/prepare-center.mjs",
+    "data:littoral": "node scripts/prepare-littoral.mjs",
+    "data:roquer": "node scripts/align-roquer.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-urban.mjs && node scripts/sync-roquer-docs.mjs && python scripts/prepare-building-dossiers.py && node scripts/build-dossiers.mjs",
+    "data:landmarks": "node scripts/prepare-landmarks.mjs",
+    "data:montsia": "node scripts/prepare-montsia.mjs",
+    "data:urban": "node scripts/prepare-urban.mjs",
+    "data:porxos": "node scripts/prepare-porxos.mjs",
+    "data:dossiers": "node scripts/build-dossiers.mjs && python scripts/prepare-dossier-images.py"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "geotiff": "3.0.5",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "yauzl": "3.4.0"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

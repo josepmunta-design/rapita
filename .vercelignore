@@ -1,0 +1,16 @@
+node_modules/
+dist/
+tmp/
+docs/
+.git/
+.sites-runtime/
+.env*
+*.zip
+*.pdf
+*.laz
+/*.png
+/*.jpg
+/*.xml
+/*.txt
+edificio_rapita/
+JOSEP_descripcions*/

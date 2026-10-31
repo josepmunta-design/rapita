@@ -1,0 +1,178 @@
+{
+  "id": "ESG-001",
+  "name": "Església Nova",
+  "scenario": 1800,
+  "status": "study-model-unvalidated",
+  "crs": "EPSG:25831",
+  "anchor": {
+    "easting": 295939.875,
+    "northing": 4498901.55,
+    "accuracyMeters": 1.5
+  },
+  "orientation": {
+    "frontAzimuthDegrees": 122.2,
+    "accuracyDegrees": 3,
+    "confidence": "B",
+    "source": "G02: lectura manual de las alineaciones en ortofoto ICGC 2024; fachada orientada hacia el SE. Sin ajuste topográfico."
+  },
+  "footprintObservation": {
+    "kind": "contemporary-outline-manual-digitization",
+    "confidence": "B",
+    "cornersUTM": [
+      [
+        295936.4,
+        4498917.6
+      ],
+      [
+        295955.9,
+        4498905.4
+      ],
+      [
+        295943.4,
+        4498885.5
+      ],
+      [
+        295923.8,
+        4498897.7
+      ]
+    ],
+    "imagePixels": [
+      [
+        464,
+        424
+      ],
+      [
+        659,
+        546
+      ],
+      [
+        534,
+        745
+      ],
+      [
+        338,
+        623
+      ]
+    ],
+    "pixelConvention": "Coordenadas continuas sobre bordes de la imagen de 1100×1100; 0,1 m/píxel. Selección manual aproximada de límites de fábrica; cubierta moderna puede ocultarlos.",
+    "bbox": [
+      295890,
+      4498850,
+      296000,
+      4498960
+    ],
+    "image": "docs/sources/esglesia-nova-ortofoto-2024.jpg",
+    "source": "G02",
+    "historicalFootprintValidated": false,
+    "sideLengthsMeters": [
+      23.001956438134137,
+      23.500212765309737,
+      23.08679276135847,
+      23.55355599434277
+    ]
+  },
+  "documented": {
+    "planType": "greek-cross-in-square",
+    "publishedSideMeters": 23.7,
+    "sideSource": "H07: Gran Enciclopèdia Catalana, entrada la Ràpita. Medida publicada, no levantamiento propio.",
+    "facadeColumns": 4,
+    "columnOrder": "Ionic",
+    "centralRoofBuilt": false,
+    "wallHeightMeters": null,
+    "wallThicknessMeters": null,
+    "centralDiameterMeters": null,
+    "openingsMeasured": null,
+    "interiorMeasured": null,
+    "historicalBaseElevation": null
+  },
+  "preview": {
+    "sideMeters": 23.7,
+    "wallHeightMeters": 8.4,
+    "wallThicknessMeters": 0.85,
+    "centralRadiusMeters": 5,
+    "crossArmWidthMeters": 4.8,
+    "corridorWidthMeters": 2.4,
+    "partitionHeightMeters": 6.5,
+    "doorWidthMeters": 2.4,
+    "doorHeightMeters": 4,
+    "windowWidthMeters": 1.35,
+    "windowHeightMeters": 1.9,
+    "columnRadiusMeters": 0.42,
+    "columnHeightRatio": 0.91,
+    "columnOffsetsMeters": [
+      -6.6,
+      -3.6,
+      3.6,
+      6.6
+    ],
+    "confidence": "C",
+    "reason": "Valores de trabajo para inspeccionar una hipótesis espacial. Alturas, espesores, huecos, proporciones y distribución no están medidos ni validados en 1800. No se guardan en los campos documentados."
+  },
+  "placement": {
+    "method": "max-footprint-mdt-plus-clearance",
+    "clearanceMeters": 0.15,
+    "historicalEarthworks": false,
+    "note": "Apoyo técnico provisional a una cota plana por encima de la muestra más alta del MDT bajo la planta. La pieza de apoyo es una hipótesis visual; no modifica el MDT ni acredita una plataforma de 1800."
+  },
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Noèlia Borràs Matamoros, tesi doctoral (2013), pàg. 234–240; PDF 238–244",
+      "local": "tesi doctoral.pdf",
+      "use": "Configuració general, columnes i coberta sense executar; fotografia anterior a la coberta moderna. No es dedueixen cotes exactes de la perspectiva."
+    },
+    {
+      "id": "H06",
+      "title": "Ajuntament de La Ràpita: Església Nova",
+      "url": "https://cultura.larapita.cat/espais/esglesia-nova/",
+      "accessed": "2026-10-30",
+      "use": "Creu grega, doble alçària, passadissos, columnes jòniques i cúpula sense construir."
+    },
+    {
+      "id": "H07",
+      "title": "Gran Enciclopèdia Catalana: la Ràpita",
+      "url": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/la-rapita-3",
+      "accessed": "2026-10-30",
+      "use": "Costat publicat de 23,7 m, pendent de contrastar amb un aixecament."
+    },
+    {
+      "id": "G02",
+      "title": "ICGC: Ortofoto Territorial, capa ortofoto_color_2024",
+      "url": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+      "accessed": "2026-10-30",
+      "use": "Posició i orientació aproximades de la fàbrica actual; no és una prova de l’estat del 1800.",
+      "requestFile": "docs/sources/ortofoto-request.txt",
+      "attribution": "Institut Cartogràfic i Geològic de Catalunya (ICGC)"
+    }
+  ],
+  "terrain": {
+    "meta": "esglesia-terrain.json",
+    "minimumUnderFootprint": 24.4480735289631,
+    "maximumUnderFootprint": 25.642152207796745,
+    "provisionalBaseElevation": 25.792152207796743,
+    "centerElevation": 25.316000151636196,
+    "historicalElevation": null
+  },
+  "previewFootprintUTM": [
+    [
+      295923.5330271099,
+      4498897.8371948525
+    ],
+    [
+      295936.16219485283,
+      4498917.89197289
+    ],
+    [
+      295956.2169728901,
+      4498905.262805147
+    ],
+    [
+      295943.58780514717,
+      4498885.2080271095
+    ],
+    [
+      295923.5330271099,
+      4498897.8371948525
+    ]
+  ]
+}
