@@ -4,6 +4,15 @@ import './comments.css';
 type Comment = {id:string;text:string;author:string;createdAt:string;year:number;easting:number;northing:number;elevation:number};
 type Point = Pick<Comment,'easting'|'northing'|'elevation'|'year'>;
 
+async function commentResponse(response:Response) {
+  let data:any;
+  try {data=await response.json();}
+  catch {throw new Error('No s’ha pogut connectar amb els comentaris. Torna-ho a provar.');}
+  if(!response.ok)throw new Error(typeof data?.error==='string'?data.error:'No s’ha pogut connectar amb els comentaris. Torna-ho a provar.');
+  if(!data||typeof data!=='object')throw new Error('El servei de comentaris no està disponible. Torna-ho a provar.');
+  return data;
+}
+
 export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;scene:THREE.Scene;
   origin:{easting:number;northing:number;elevation:number};year:()=>number;enabled:()=>boolean;
   focus:(point:THREE.Vector3)=>void;onStart:()=>void}) {
@@ -28,7 +37,7 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
   const showItem=(item:Comment)=>{setArmed(false);heading('Comentari al mapa');details(item,modal);const focus=document.createElement('button');focus.type='button';focus.className='comment-primary';focus.textContent='Centra aquest punt';focus.onclick=()=>{modal.close();opts.focus(world(item));};modal.append(focus);open();};
   async function refresh() {
     if(busy)return;
-    try {const response=await fetch('/api/comments',{cache:'no-store'});const data=await response.json();if(!response.ok)throw new Error(data.error||'No s’han pogut carregar els comentaris.');
+    try {const data=await commentResponse(await fetch('/api/comments',{cache:'no-store'}));
       if(!Array.isArray(data.comments))throw new Error('Resposta de comentaris no vàlida.');
       items=data.comments;ready=true;renderPins();if(!armed)message('');
     } catch(error) {ready=false;if(!armed)message(error instanceof Error?error.message:'No s’han pogut carregar els comentaris.');}
@@ -50,7 +59,7 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
     textarea.focus();
     form.onsubmit=async event=>{event.preventDefault();if(busy)return;const text=textarea.value.trim();if(!text){textarea.setCustomValidity('Escriu un comentari.');textarea.reportValidity();return;}
       busy=true;submit.disabled=true;submit.textContent='Desant…';error.hidden=true;
-      try {const response=await fetch('/api/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...point,text,author:form.querySelector<HTMLInputElement>('input')!.value.trim()})});const data=await response.json();if(!response.ok)throw new Error(data.error||'No s’ha pogut desar el comentari.');items=[data.comment,...items.filter(item=>item.id!==data.comment.id)];renderPins();modal.close();message('Comentari desat i compartit.');}
+      try {const data=await commentResponse(await fetch('/api/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...point,text,author:form.querySelector<HTMLInputElement>('input')!.value.trim()})}));if(!data.comment||typeof data.comment.id!=='string')throw new Error('No s’ha confirmat el desat. Torna-ho a provar.');items=[data.comment,...items.filter(item=>item.id!==data.comment.id)];renderPins();modal.close();message('Comentari desat i compartit.');}
       catch(cause){error.textContent=cause instanceof Error?cause.message:'No s’ha pogut desar. Torna-ho a provar.';error.hidden=false;}
       finally{busy=false;submit.disabled=false;submit.textContent='Desa el comentari';}
     };
