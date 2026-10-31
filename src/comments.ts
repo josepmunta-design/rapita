@@ -63,7 +63,7 @@ export function makeComments(opts:{canvas:HTMLCanvasElement;camera:THREE.Camera;
   canvas.addEventListener('pointermove',event=>{if(press&&Math.hypot(event.clientX-press.x,event.clientY-press.y)>6)press=null;},true);
   canvas.addEventListener('pointercancel',()=>{press=null;},true);
   canvas.addEventListener('pointerup',event=>{
-    if(!armed)return;event.stopImmediatePropagation();const start=press;press=null;
+    if(!armed)return;const start=press;press=null;
     if(!start||start.id!==event.pointerId||event.button!==0||!opts.enabled())return;
     const rect=canvas.getBoundingClientRect(),ray=new THREE.Raycaster();ray.setFromCamera(new THREE.Vector2((event.clientX-rect.left)/rect.width*2-1,-(event.clientY-rect.top)/rect.height*2+1),camera);
     const meshes:THREE.Object3D[]=[];scene.traverseVisible(object=>{if(object instanceof THREE.Mesh)meshes.push(object);});
