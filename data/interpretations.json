@@ -1,0 +1,122 @@
+{
+  "glorieta": {
+    "shortName": "La Glorieta",
+    "category": "Pavelló inacabat",
+    "description": "Pavelló inacabat amb rotonda, tres arcs de maó i annex rectangular, sense cúpula. Model C cap al 1800; la visita de Jaubert que es cita és de 1816, i la Glorieta no apareix expressament a l’inventari de 1794.",
+    "pending": "Georeferenciar i mesurar planta, arcs, annex i alçats; fixar-ne la cronologia. Radi i alçària de treball són hipòtesis C, no mesures històriques.",
+    "certainty": {
+      "existence1800": "B",
+      "position": "B",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "C"
+    },
+    "sourceRefs": [
+      "H01, pp. 229–231 (PDF 233–235)",
+      "H01, p. 222: visita de Jaubert el 1816",
+      "H02: absència de menció expressa a l’inventari de 1794"
+    ],
+    "geometry1800": null,
+    "name": "La Glorieta"
+  },
+  "plaza": {
+    "shortName": "Plaça de Carles III",
+    "category": "Plaça saló",
+    "description": "Espai longitudinal amb exedra meridional i un eix transversal. El punt marca una referència actual: no delimita el contorn històric de la plaça.",
+    "pending": "Digitalitzar la planta, les arcades conservades i les seves fases. El plànol de Gorria és del segle XIX i el de la pàgina 229 és una reconstrucció ideal.",
+    "certainty": {
+      "existence1800": "A",
+      "position": "B",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "C"
+    },
+    "sourceRefs": [
+      "H01, pp. 225–229 (PDF 229–233)",
+      "H02, segons el dossier de la segona revisió"
+    ],
+    "geometry1800": null,
+    "name": "Plaça de Carles III"
+  },
+  "coc": {
+    "shortName": "Plaça del Coc",
+    "category": "Connexió amb el front marítim",
+    "description": "Referència de l’espai transversal relacionat amb la plaça i les baixades cap al port. Les rampes i les obres portuàries requereixen una restitució documental.",
+    "pending": "Precisar les rampes, els murs i els volums incomplets. No traslladar el port modern al 1800.",
+    "certainty": {
+      "existence1800": "B",
+      "position": "B",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "C"
+    },
+    "sourceRefs": [
+      "H01, pp. 228–233",
+      "H02, segons el dossier de la segona revisió"
+    ],
+    "geometry1800": null,
+    "name": "Plaça del Coc"
+  },
+  "esglesia_nova": {
+    "shortName": "Església Nova",
+    "category": "Edifici inacabat",
+    "description": "Separada del nucli fundacional, a Codonyol. El dossier posterior recull la descripció d’una capella el 1794, mentre que les fitxes patrimonials mantenen obert el debat sobre la seva funció original.",
+    "pending": "Contrastar el costat publicat de 23,7 m i la traça actual aproximada en ortofoto ICGC 2024 amb un aixecament. Mesurar murs i obertures; validar el model d’estudi C abans d’atribuir-lo al 1800.",
+    "certainty": {
+      "existence1800": "A",
+      "position": "B",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "B"
+    },
+    "sourceRefs": [
+      "H01, pp. 234–240",
+      "H02, segons el dossier de la segona revisió",
+      "H06, fitxa municipal",
+      "H07, Gran Enciclopèdia Catalana: costat publicat",
+      "G02, ortofoto ICGC 2024: posició i orientació aproximades"
+    ],
+    "geometry1800": null,
+    "name": "Església Nova"
+  },
+  "mercat": {
+    "shortName": "Roquer i bateria",
+    "category": "Fortificació i dependències · estudi C",
+    "description": "El mercat actual referencia l’àmbit del Roquer. El model d’estudi separa el projecte T-6/8 de la bateria parcial i els sis canons de l’inventari de 1794; planta, gir i alçats individuals són C.",
+    "pending": "Georeferenciar el plànol militar, mesurar les fàbriques i resoldre el fossat, les reutilitzacions i els danys de 1795. Els models actuals són hipòtesis C, sense planta mesurada ni alçària històrica validada.",
+    "certainty": {
+      "existence1800": "A",
+      "position": "C",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "D"
+    },
+    "sourceRefs": [
+      "H01, pp. 107–120, especialment 113–115",
+      "H02, relació de 1794, art. 16–18",
+      "P01, projecte T-6/8, Archivo General Militar de Madrid / BVD",
+      "H09, La rábita en el islam, lectura focal del Roquer"
+    ],
+    "geometry1800": null,
+    "name": "Roquer i bateria"
+  },
+  "guardiola": {
+    "shortName": "La Guardiola",
+    "category": "Torre de guaita · alçat d’estudi C",
+    "description": "Torre preexistent de planta quadrada i base atalussada. La documentació de 1780 esmenta la Guardiola; l’alçat d’estudi omet el coronament i els elements del mirador modern.",
+    "pending": "Mesurar i datar les fàbriques anteriors al segle XIX. El coronament històric és desconegut; les dimensions del model són C. Els 113 m publicats són la cota del turó, no l’alçària de la torre.",
+    "certainty": {
+      "existence1800": "B",
+      "position": "B",
+      "footprint": "D",
+      "height": "D",
+      "appearance1800": "D"
+    },
+    "sourceRefs": [
+      "H01, pp. 161–162 (PDF 165–166)",
+      "H12, Turisme La Ràpita: planta quadrada i base atalussada; antecedents de 1483 i 1575"
+    ],
+    "geometry1800": null,
+    "name": "La Guardiola"
+  }
+}

@@ -6,6 +6,7 @@ import {landscapeSample,routeStations,canalWaterLevel,shoreEasting,coastalWaterO
 import {entityAt} from './chronology.mjs';
 import {tileTexture} from './housing.ts';
 import {makeBoats} from './boats.ts';
+import {makeResearchLandscape} from './research-landscape.ts';
 import type {Terrain} from './terrain';
 export type LittoralSite={id:string;name:string;anchor:number[];kind:string;radius:number;state:string;evidence:string;technicalBaseElevation:number;[key:string]:any};
 export type Littoral={sites:LittoralSite[];[key:string]:any};
@@ -158,7 +159,10 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
   }
   root.add(rocks);
   const boats=makeBoats(data,meta);root.add(boats);
+  const research=data.researchLandscape?makeResearchLandscape(data.researchLandscape,meta,(e,n)=>{const raw=sampleHeight(meta,h,v,e,n);return raw===null?null:landscapeSample(e,n,raw,data).height;}):null;
+  if(research)roquer.add(research.root);
   const setYear=(year:number)=>{
+    research?.setYear(year);
     const battery=entityAt(chronology,'battery',year),tower=entityAt(chronology,'tower',year),works=entityAt(chronology,'works',year),services=entityAt(chronology,'services',year);
     siteGroups.get('battery')!.visible=battery.visible;lowBattery!.visible=battery.variant==='construction';finishedBattery!.visible=battery.visible&&!lowBattery!.visible;
     oldTower!.visible=tower.variant==='unrepaired';repairedTower!.visible=!oldTower!.visible;guns.visible=entityAt(chronology,'guns',year).visible;
@@ -166,5 +170,5 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     for(const id of['old-inn','old-customs'])siteGroups.get(id)!.visible=entityAt(chronology,id,year).visible;siteGroups.get('health')!.visible=services.visible;
     port.visible=services.visible;canal.visible=entityAt(chronology,'canal',year).visible;openHarbour.visible=canal.visible;earlierCoast.visible=!canal.visible;boats.visible=services.visible;
   };
-  setYear(1800);return {root,roquer,port,canal,water,boats,project,planProject,guns,siteGroups,setYear,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
+  setYear(1800);return {root,roquer,port,canal,water,boats,research,project,planProject,guns,siteGroups,setYear,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
 }

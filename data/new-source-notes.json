@@ -1,0 +1,793 @@
+{
+  "N001": {
+    "title": "Plànol urbà publicat per Emili Morera",
+    "witnessDate": null,
+    "kind": "plànol imprès",
+    "reviewMethod": "inspecció visual",
+    "reading": "P.761; títol Plan y carrers de Sant Carles de la Ràpita, revisat per l’Ajuntament, facilitat per Romà Massot i Pamies. El nom de fitxer proposa 1908, però la pàgina no mostra data editorial. 67 referències de carrers/llocs. Costa i nucli útils per a comparació posterior, no parcel·lari de 1800."
+  },
+  "N002": {
+    "title": "Término de la Rápita atribuït a Manuel Antonio Santiesteban",
+    "witnessDate": null,
+    "kind": "mapa territorial",
+    "reviewMethod": "inspecció visual",
+    "reading": "Dues reproduccions del mateix tipus de mapa: N002 fotografia d’una làmina i N113 còpia en blanc i negre, amb firma Santiesteban i numeració. Representació pictòrica de Montsià, llogaret, horts, llacunes, canal i salines. Falta llegenda completa i data independent; no és planta mètrica dels edificis."
+  },
+  "N113": {
+    "title": "Término de la Rápita atribuït a Manuel Antonio Santiesteban",
+    "witnessDate": null,
+    "kind": "mapa territorial",
+    "reviewMethod": "inspecció visual",
+    "reading": "Dues reproduccions del mateix tipus de mapa: N002 fotografia d’una làmina i N113 còpia en blanc i negre, amb firma Santiesteban i numeració. Representació pictòrica de Montsià, llogaret, horts, llacunes, canal i salines. Falta llegenda completa i data independent; no és planta mètrica dels edificis."
+  },
+  "N003": {
+    "title": "Plànol de reforma de la Ràpita",
+    "witnessDate": "1852-01-30",
+    "kind": "projecte urbà",
+    "reviewMethod": "inspecció visual",
+    "reading": "Data de signatura 30/1/1852 i conformitat 31/1/1852 llegides a la part inferior. Fosc: edificis existents; rosa: nova delineació; groc: edificis a demolir quan convingui. Església, magatzems, duana, quarter, mercat, administració i canal amb parts projectades. No és ciutat acabada de 1800. La correspondència ambACA MPD223 ve de la tesi anterior, no del nom 31757111."
+  },
+  "N004": {
+    "title": "Jaubert de Passa p 65",
+    "witnessDate": 1844,
+    "kind": "text imprès",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Canal i molls interromputs, grans edificis i pavelló al peu de la muntanya. Valoració crítica amb resum retrospectiu; no fixa la data de construcció de cada peça."
+  },
+  "N005": {
+    "title": "Jaubert de Passa p 66",
+    "witnessDate": 1844,
+    "kind": "text imprès",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Final de la crítica i inici del capítolXI sobre canal d’Urgell. Només el primer paràgraf continua San Carlos."
+  },
+  "N006": {
+    "title": "Jaubert de Passa p 64",
+    "witnessDate": 1844,
+    "kind": "text imprès",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Primer canal, desviament atribuït a Guzmán cap a San Carlos, dipòsit, enclusa, desguàs i espoló; darreres obres encara pendents. Cap relat no autoritza a dibuixar acabades totes les parts."
+  },
+  "N007": {
+    "title": "Jaubert de Passa p 58",
+    "witnessDate": 1844,
+    "kind": "text imprès",
+    "reviewMethod": "lectura visual completa",
+    "reading": "CapítolIX de reg del’Ebre i Tortosa, paisatge; no és descripció d’un edifici individual rapitenc."
+  },
+  "N008": {
+    "title": "Jaubert de Passa p 59",
+    "witnessDate": 1844,
+    "kind": "text imprès",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Paisatge entre Ràpita, Amposta i Tortosa, vegetació i sínies. Context agrícola regional."
+  },
+  "N009": {
+    "title": "Pàgina 64 sobre reg valencià",
+    "witnessDate": null,
+    "kind": "exclusió",
+    "reviewMethod": "text complet i contrast visual",
+    "reading": "Llista de tahulles i parades de reg a Catral. No és la pàgina 64 sobre San Carlos deN006. S’exclou com a font d’arquitectura rapitenca."
+  },
+  "N010": {
+    "title": "Carta de Ventura a Ramon M de Pons",
+    "witnessDate": "1835-03-30",
+    "kind": "carta",
+    "reviewMethod": "lectura visual de les dues cares",
+    "reading": "Data manuscrita 30/3/1835, resposta enviada 2/4 segons nota final. Signa Ventura; cognom no fixat. Poble descrit amb plaça quadrilonga i extrem oval, edificis arruïnats, església abandonada i barracons litorals de pescadors; l’autor s’allotja a la fonda. Opinions despectives sobre veïns no són un cens ni prova d’absència de població."
+  },
+  "N011": {
+    "title": "Carta de Ventura a Ramon M de Pons",
+    "witnessDate": "1835-03-30",
+    "kind": "carta",
+    "reviewMethod": "lectura visual de les dues cares",
+    "reading": "Data manuscrita 30/3/1835, resposta enviada 2/4 segons nota final. Signa Ventura; cognom no fixat. Poble descrit amb plaça quadrilonga i extrem oval, edificis arruïnats, església abandonada i barracons litorals de pescadors; l’autor s’allotja a la fonda. Opinions despectives sobre veïns no són un cens ni prova d’absència de població."
+  },
+  "N012": {
+    "title": "Recull de Jaubert de Passa",
+    "witnessDate": 1844,
+    "kind": "recull",
+    "reviewMethod": "text XML i imatges incrustades",
+    "reading": "DOCX amb 13 imatges: pp 58–66 i fragments; bibliografia i enllaç a Bivaldi. Imatges extretes i llegides; duplicats de les pàginesPDF. Data editorial 1844 confirmada alcatàleg, data de visita no llegida en aquests retalls."
+  },
+  "N013": {
+    "title": "Laborde Description de la Catalogne làminesLXV iLXVI",
+    "witnessDate": null,
+    "kind": "text imprès",
+    "reviewMethod": "extracció completa i inspecció visual",
+    "reading": "Mateix text del viatge amb gravats de Coll de Balaguer i Amposta. N013 iN019 tenen extracció textual igual, còpies binàries diferents. La bomba de foc i ampliació del canal són propostes."
+  },
+  "N019": {
+    "title": "Laborde Description de la Catalogne làminesLXV iLXVI",
+    "witnessDate": null,
+    "kind": "text imprès",
+    "reviewMethod": "extracció completa i inspecció visual",
+    "reading": "Mateix text del viatge amb gravats de Coll de Balaguer i Amposta. N013 iN019 tenen extracció textual igual, còpies binàries diferents. La bomba de foc i ampliació del canal són propostes."
+  },
+  "N014": {
+    "title": "Mapa itinerari Barcelona a Tortosa",
+    "witnessDate": 1826,
+    "kind": "mapa itinerari",
+    "reviewMethod": "inspecció visual",
+    "reading": "Itinerari regional i distàncies, no plànol de Ràpita ni alçat de cap edifici.1826 indicat alnom/recull, pendent portada concreta."
+  },
+  "N015": {
+    "title": "Mapa itinerari Barcelona a Tortosa",
+    "witnessDate": 1826,
+    "kind": "mapa itinerari",
+    "reviewMethod": "inspecció visual",
+    "reading": "Itinerari regional i distàncies, no plànol de Ràpita ni alçat de cap edifici.1826 indicat alnom/recull, pendent portada concreta."
+  },
+  "N016": {
+    "title": "Reculls de descripcions de Laborde",
+    "witnessDate": null,
+    "kind": "recull",
+    "reviewMethod": "text complet i revisió d’imatges",
+    "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura."
+  },
+  "N021": {
+    "title": "Reculls de descripcions de Laborde",
+    "witnessDate": null,
+    "kind": "recull",
+    "reviewMethod": "text complet i revisió d’imatges",
+    "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura."
+  },
+  "N017": {
+    "title": "Laborde gravats del Coll de Balaguer i Amposta",
+    "witnessDate": null,
+    "kind": "gravats",
+    "reviewMethod": "inspecció visual completa",
+    "reading": "Les dues imatges porten topònims: no són vistes de Ràpita. No construir la torre delgravat com a Torre de la Ràpita."
+  },
+  "N018": {
+    "title": "Text de Laborde sobre les làmines",
+    "witnessDate": null,
+    "kind": "text imprès",
+    "reviewMethod": "text complet i inspecció visual",
+    "reading": "Descripció del Coll i d’Amposta; atribucions antigues de cronologia romana són opinions d’època, no validació arqueològica."
+  },
+  "N020": {
+    "title": "Laborde itinerari pp 27–29",
+    "witnessDate": 1816,
+    "kind": "recull",
+    "reviewMethod": "lectura completa",
+    "reading": "Recull amb portada textual de 1816 i fragment de ruta p 27. Eltext diu carrer per 10 carruatges i cases uniformes i baixes; no és amplada en metres."
+  },
+  "N022": {
+    "title": "Ponz Viage de España volumXIII",
+    "witnessDate": null,
+    "kind": "recull",
+    "reviewMethod": "text XML i5 imatges",
+    "reading": "5 imatges aODT media/ recuperades: p 156 tracta monges a Tortosa; p 159 població i canal, p 160 entorn i p 162 vista llunyana. Primera edició 1785 i segona 1788: manca portada del’exemplar concret. Elpassatge que situa SanCarlos a Amposta no s’ha de llegir com coordenada exacta."
+  },
+  "N023": {
+    "title": "Explicación del mapa del canal",
+    "witnessDate": null,
+    "kind": "manuscrit",
+    "reviewMethod": "inspecció visual",
+    "reading": "Llegenda: sèquia d’una vara; ullals de la Carrova i altres, salines, rotura marina i desaigüe delprat a Laguna Grande. La relació exacta amb elfull datat 21/5/1780 és probable pelconjunt, no data autògrafa visible en aquesta cara."
+  },
+  "N024": {
+    "title": "Nivelación del canal",
+    "witnessDate": "1780-05-21",
+    "kind": "manuscrit",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Amposta 21/5/1780. Lectura:6 peus i mig de desnivell cap alriu i 12 cap a mar. Enclusa intermèdia a més de les dels extrems proposada, no acabada. Sense convertir elpeu a una unitat moderna no contrastada."
+  },
+  "N025": {
+    "title": "Carta de Canals alcomte de Floridablanca",
+    "witnessDate": "1780-08-06",
+    "kind": "carta",
+    "reviewMethod": "lectura visual de les dues cares",
+    "reading": "Casa vella, magatzem, duana, castell restaurat amb obra suspesa, ferreria, caseta, tendes, barraques i coves. Portes, panys i frontisses per allotjar-se alcastell. Proposta decompra i millora dela ferreria/casa; serveis religiosos demanats."
+  },
+  "N026": {
+    "title": "Carta de Canals alcomte de Floridablanca",
+    "witnessDate": "1780-08-06",
+    "kind": "carta",
+    "reviewMethod": "lectura visual de les dues cares",
+    "reading": "Casa vella, magatzem, duana, castell restaurat amb obra suspesa, ferreria, caseta, tendes, barraques i coves. Portes, panys i frontisses per allotjar-se alcastell. Proposta decompra i millora dela ferreria/casa; serveis religiosos demanats."
+  },
+  "N027": {
+    "title": "Resposta de Floridablanca a Canals",
+    "witnessDate": "1780-12-06",
+    "kind": "carta",
+    "reviewMethod": "lectura visual completa",
+    "reading": "Madrid 6/12/1780; resposta a carta 13/11. Aprovació de dos plànols, canal/territori i nova població. Els plànols no apareixen en aquestes fotografies de text; no tractar la llegenda com a planta recuperada."
+  },
+  "N028": {
+    "title": "Explicación del plano vista y esclusa",
+    "witnessDate": "1780-11-13",
+    "kind": "llegenda",
+    "reviewMethod": "lectura visual completa",
+    "reading": "19 punts amb territori, Amposta, salines, ullals, moll i fort projectats, torres, pont i basses. Referència de 27 peus alport, no profunditat uniforme del canal."
+  },
+  "N029": {
+    "title": "Explicación del plano y proyecto de población",
+    "witnessDate": "1780-11-13",
+    "kind": "llegenda",
+    "reviewMethod": "lectura visual completa",
+    "reading": "7 entrades: fort començat, torre reparada, recinte de casa vella de monges i 2 cases reials, duana/administrador/guardes, ferreria, caseta, Guardiola. Nota final: 12 barraques a la valenciana construïdes a les vores del canal i ampliació prevista fins a 50 en total. Famílies residents a barraques i cases; els operaris transeünts s’exclouen dels veïns. La previsió no prova execució de les 50, ni se suma al recompte de 1794."
+  },
+  "N030": {
+    "title": "Vista del semicercle i plaça",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Façanes amb pisos superiors i espai enjardinat d’una fase posterior. Autor/data original no confirmats; no fotografia del 1800."
+  },
+  "N031": {
+    "title": "Postal de la galeria porticada",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Arcs, bigues de fusta, escala del pas i persones. Acolorit no prova colors originals. Mateix tema que recreacióN074 però no prova que siguin imatges independents."
+  },
+  "N032": {
+    "title": "Font i porxos en estat de ruïna",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Coincideix visualment amb detall de Salvany arxivat prèviament. La data es recolza enN081 i expedient 0.12, no en elnom numèric."
+  },
+  "N033": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N034": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N035": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N036": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N037": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N038": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N039": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N040": {
+    "title": "Cóc i baixada de Sant Francesc",
+    "witnessDate": 1890,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peu diuFoto año 1890; atribució editorial pendent decontrast amb original."
+  },
+  "N041": {
+    "title": "Dues vistes del Cóc i Sant Francesc",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peus diferencien una foto 1890 i una altra anterior a 1918; no assignar una sola data a tot elfitxer."
+  },
+  "N042": {
+    "title": "Sant Francesc vist cap al Cóc",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Continua la imatge amb peu anterior a 1918 deN041; identificar elnegatiu abans de data exacta."
+  },
+  "N043": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N044": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N045": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N046": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N047": {
+    "title": "Mercat diari a la plaça",
+    "witnessDate": 1914,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peu 1914, dues taules de carnisseria i quatre pilanets; activitat temporal."
+  },
+  "N048": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N049": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N050": {
+    "title": "Font de Salvany reproduïda en llibre",
+    "witnessDate": 1916,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peu atribueix 1916 i Biblioteca de Catalunya; eltext equipara a l’estat després dela suspensió però aquesta és una interpretació retrospectiva, no prova que no canviés."
+  },
+  "N051": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N052": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N053": {
+    "title": "Constància i sequers",
+    "witnessDate": 1943,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peu situa 1943, horts i antic recorregut dela pedrera; ús posterior al XVIII."
+  },
+  "N054": {
+    "title": "Pati delaMançana",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Capelleta i estaques per lligar cavalls segons peu. Datació original no visible."
+  },
+  "N055": {
+    "title": "Vista aèria delaMançana",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Pati i crugies. No assignar 1958 perquè altres imatges aèries tinguin aquesta data."
+  },
+  "N056": {
+    "title": "Reproducció fotogràfica de llibre sense portada",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats."
+  },
+  "N057": {
+    "title": "Cafès i botigues de Sant Francesc",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "NomsBarCataluña, CaféPuerto-Rico/Cafèd’Àngel, Camilo i Llanes alpeu; ubicació exacta i dates acontrast."
+  },
+  "N058": {
+    "title": "Mercat a PlaçaVella",
+    "witnessDate": null,
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Campanar i carrerRosari al fons segons peu."
+  },
+  "N059": {
+    "title": "Enterrament de Joan Balada",
+    "witnessDate": "1936-09",
+    "kind": "fotografia reproduïda",
+    "reviewMethod": "contacte visual i lectura delpeu",
+    "reading": "Peu identifica alcalde i setembre 1936; no data edificis del fons."
+  },
+  "N060": {
+    "title": "Església Nova consolidada",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Fotografia moderna, ús per contrast amb ruïna anterior; no copiar estructures de consolidació al 1800."
+  },
+  "N061": {
+    "title": "Vista aèria del poble i port",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Origen de xarxa social segons fitxer; costa i molls d’una fase posterior, datació sense confirmar."
+  },
+  "N062": {
+    "title": "Edifici del canal ANC1-211-N-35277",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Vista d’un gran edifici de façana amb arcades, referència arxivística alnom; autor/data i correspondència exacta amb elcomplex a confirmar."
+  },
+  "N063": {
+    "title": "Vista aèria ANC1-564-N-4739",
+    "witnessDate": 1958,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "L’articleN112 p 209 atribueix 1958 a Trabajos Aéreos y Fotogramétricos. Fora del’hortizó 1950, útil per comparació."
+  },
+  "N064": {
+    "title": "Vistes aèries ANC1-564-N-6553",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre."
+  },
+  "N065": {
+    "title": "Vistes aèries ANC1-564-N-6553",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre."
+  },
+  "N066": {
+    "title": "Vistes aèries ANC1-564-N-6553",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre."
+  },
+  "N067": {
+    "title": "Vistes aèries ANC1-564-N-6553",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre."
+  },
+  "N068": {
+    "title": "Vistes aèries ANC1-564-N-6553",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre."
+  },
+  "N069": {
+    "title": "Monges en una arcada ANC1-57-N-576 a 578",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva."
+  },
+  "N070": {
+    "title": "Monges en una arcada ANC1-57-N-576 a 578",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva."
+  },
+  "N071": {
+    "title": "Monges en una arcada ANC1-57-N-576 a 578",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva."
+  },
+  "N072": {
+    "title": "Arribant alport atribuït a Salvany",
+    "witnessDate": 1921,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Data 1921 alnom de fitxer; conserva numeració de placa, pendent fitxa de Biblioteca de Catalunya."
+  },
+  "N073": {
+    "title": "Casetes del canal",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Fotografia acolorida/moderna de casetes; s’ha deconciliar amb edificis del XIX, no activar el 1800."
+  },
+  "N074": {
+    "title": "Recreació generada dels porxos",
+    "witnessDate": "2025-08-11",
+    "kind": "imatge generada",
+    "reviewMethod": "inspecció visual i nom de fitxer",
+    "reading": "NomChatGPT Image i aspecte il·lustratiu; exclosa com a evidència històrica o mètrica."
+  },
+  "N075": {
+    "title": "Església Nova en ruïna",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts."
+  },
+  "N077": {
+    "title": "Església Nova en ruïna",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts."
+  },
+  "N078": {
+    "title": "Església Nova en ruïna",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts."
+  },
+  "N079": {
+    "title": "Església Nova en ruïna",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts."
+  },
+  "N076": {
+    "title": "Temple parroquial i façanes veïnes",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents."
+  },
+  "N088": {
+    "title": "Temple parroquial i façanes veïnes",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents."
+  },
+  "N097": {
+    "title": "Temple parroquial i façanes veïnes",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents."
+  },
+  "N080": {
+    "title": "Església Nova vista lateral atribuïda a Salvany",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Parella estereoscòpica; data i autor alnom, pendent coteig delregistre original."
+  },
+  "N081": {
+    "title": "Font pública atribuïda a Salvany",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peuN050. Referència de forma, no estat immòbil des de 1794."
+  },
+  "N082": {
+    "title": "Font pública atribuïda a Salvany",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peuN050. Referència de forma, no estat immòbil des de 1794."
+  },
+  "N083": {
+    "title": "Façana de Sant Elm en fotografia reproduïda",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Frontó, dues campanes, façanes adjacents i acte religiós. Peu n’explica elcor; no porta data original segura."
+  },
+  "N084": {
+    "title": "Canal en fotografia recent",
+    "witnessDate": "2021-03-17",
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Data delnom de captura, no obra del canal. Vegetació i perfil actual només comparatius."
+  },
+  "N085": {
+    "title": "Intervenció en elfar",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Dues torres i grua, fotografia moderna sense data; no utilitzar-la com a estat del 1864."
+  },
+  "N086": {
+    "title": "Carrer amb front de cases",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Imatge acolorida de carrer sense identificació i data concloents; reserva de comparació."
+  },
+  "N087": {
+    "title": "Mercat de PlaçaVella acolorit",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Versió deltema deN058; color no documentat."
+  },
+  "N089": {
+    "title": "Interior d’un mercat posterior",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Sala de venda, instal·lacions i persones, sense localització/any verificats. No modelar com a interior del 1800."
+  },
+  "N090": {
+    "title": "Vista des delaGuardiola",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Fotografia amb paisatge urbà i port posteriors; datació original pendent."
+  },
+  "N091": {
+    "title": "Acte a la plaça acolorit",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Vianants i decorat temporal; sense data verificada, color no original comprovat."
+  },
+  "N092": {
+    "title": "Platja i edificis prop del canal",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Vista litoral posterior sense data confirmada; no converteix aquesta costa en la de 1800."
+  },
+  "N093": {
+    "title": "Front portuari acolorit",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Barques, cases i molls d’una fase posterior; colors no validats."
+  },
+  "N094": {
+    "title": "Façana amb rètol de Gaspar Esquerra",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Comerç fotografiat en fase posterior; parcel·la, autor i data a confirmar."
+  },
+  "N095": {
+    "title": "Camí costaner i embarcacions",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Possible costa abans d’ampliacions portuàries; identificació i data no verificades."
+  },
+  "N096": {
+    "title": "Port i recinte industrial",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Embarcacions, esplanades i molls; fases portuàries tardanes, datació pendent."
+  },
+  "N098": {
+    "title": "Fotografia familiar",
+    "witnessDate": null,
+    "kind": "fora de l’abast",
+    "reviewMethod": "inspecció visual",
+    "reading": "Sense edifici identificable que aporti evidència almapa; no es reprodueix als expedients temàtics."
+  },
+  "N099": {
+    "title": "Glorieta atribuïda a Salvany",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior."
+  },
+  "N106": {
+    "title": "Glorieta atribuïda a Salvany",
+    "witnessDate": 1916,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior."
+  },
+  "N100": {
+    "title": "Mas de Mataredona",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Nom aportaAC P J350-120; mas i bancals visibles, autoria/data i signatura formal de l’arxiu a confirmar."
+  },
+  "N101": {
+    "title": "Plaça del Cóc",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Coincideix amb vista del peu 1890 reproduïda aN040; no és una segona data independent."
+  },
+  "N102": {
+    "title": "Porxos i estructura descoberta",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800."
+  },
+  "N103": {
+    "title": "Porxos i estructura descoberta",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800."
+  },
+  "N104": {
+    "title": "Pou delesFigueretes en fotografia",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Nom atribueix publicació a Vicent Moya/Facebook; no és autoria original confirmada. Relació amb pendent i cases, data pendent."
+  },
+  "N105": {
+    "title": "Postal dels sequers Carsí de Roisin",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Tema i editor alrètol; posterior al XVIII, any original per verificar. No identificar-la sense prova amb els sequers de Constància 1943."
+  },
+  "N107": {
+    "title": "Edifici delaCompanyia del canal",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Fotografia en color atribuïda per nom a Vicent Moya; arquitectura delcomplex posterior, no obres de CarlesIII."
+  },
+  "N108": {
+    "title": "Full topogràfic delterme",
+    "witnessDate": "1912-12-30",
+    "kind": "plànol topogràfic",
+    "reviewMethod": "full complet i detall de dates",
+    "reading": "Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800."
+  },
+  "N109": {
+    "title": "Mapa deldelta amb fortificacions",
+    "witnessDate": 1585,
+    "kind": "mapa territorial",
+    "reviewMethod": "inspecció visual",
+    "reading": "AGS MPD07,063; data 1585 segons catàleg del Ministeri de Cultura. Pictòric, sense escala mètrica parcel·lària; no representa urbanisme neoclàssic de 1780."
+  },
+  "N110": {
+    "title": "Paredó de Roca Foradada i dic de Bournonville",
+    "witnessDate": "1743-05-06",
+    "kind": "exclusió",
+    "reviewMethod": "llegenda i perfils complets",
+    "reading": "Diu explícitament canal delriuTer i Gerona 6/5/1743; perfils signatsMiguel Marín i JoséFabré. Exclòs com a font delparedó de Ràpita. Pot servir només com comparació de tècnica hidràulica general."
+  },
+  "N111": {
+    "title": "Planimetria delterme amb afegits",
+    "witnessDate": "1913-01-05",
+    "kind": "plànol amb capes",
+    "reviewMethod": "full complet i detalls de notes",
+    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913."
+  },
+  "N112": {
+    "title": "Pilar Reverté Vidal Recerca 20",
+    "witnessDate": 2024,
+    "kind": "article",
+    "reviewMethod": "text complet44p i revisió de figures",
+    "reading": "Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre baseICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos."
+  }
+}

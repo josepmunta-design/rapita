@@ -1,0 +1,171 @@
+{
+  "note": "Correspondència entre els expedients de docs/EDIFICIS i els models del visor. Sobreescriu modelIds d'index.json (generat) quan el model real no coincideix amb l'expedient.",
+  "overrides": {
+    "sanitat-antiga": [
+      "sanitat-antiga"
+    ],
+    "sanitat-moll": [
+      "health"
+    ],
+    "cases-assentistes": [
+      "cases-assentistes-1",
+      "cases-assentistes-2"
+    ],
+    "fusteria-antiga": [
+      "cases-assentistes-1",
+      "cases-assentistes-2"
+    ],
+    "tinglado": [
+      "tinglado"
+    ],
+    "molinet": [
+      "molinet"
+    ],
+    "forn-moli-guix": [
+      "forn-moli-guix"
+    ],
+    "barraques-obrers": [
+      "barraques-obrers"
+    ],
+    "pont-barranc": [
+      "pont-monges",
+      "barranc-monges"
+    ],
+    "companyia-canal": [
+      "casotes-companyia"
+    ],
+    "far-sant-carles": [
+      "far-sant-carles"
+    ],
+    "mataredona": [
+      "mataredona"
+    ],
+    "font-burga": [
+      "font-burga"
+    ],
+    "capella-convent": [
+      "capella-1748"
+    ],
+    "convent-masoveria": [
+      "hostal-1748",
+      "corral-1748-1",
+      "corral-1748-2",
+      "corral-1748-3",
+      "mur-roquer-1748",
+      "mur-nord-1748"
+    ],
+    "cavallerisses-roquer": [
+      "quarters",
+      "cuartel-caballeria-1748",
+      "cuartel-caballeria-1748-2",
+      "cuartel-caballeria-1748-3",
+      "cuartel-infanteria-1748",
+      "cuartel-infanteria-1748-2",
+      "cuartel-infanteria-1748-3"
+    ],
+    "pou-figueretes": [
+      "well"
+    ],
+    "torre-rapita": [
+      "tower",
+      "project-1748-tower"
+    ],
+    "bateria-roquer": [
+      "battery",
+      "muralla-meseta-1748",
+      "project-1748-battery",
+      "project-1748-powder",
+      "project-1748-guard",
+      "project-1748-officer",
+      "project-1748-governor"
+    ],
+    "cisterna-fossat-roquer": [
+      "cistern",
+      "project-1748-cistern"
+    ],
+    "cova-roquer": [
+      "pilar-cave",
+      "pilar-garden"
+    ],
+    "rampa-figueretes": [
+      "rampa-roquer",
+      "pilar-trail"
+    ]
+  },
+  "prefixes": {
+    "rental-cohort-1788-": "cases-lloguer-1788"
+  },
+  "withoutModel": {
+    "casa-bous": "Masia sense afrontacions localitzades (procés 1796,7F); no es col·loca a l'atzar.",
+    "rajolar": "Coordenades no fixades: «partida de la Rabosa, en terres de les Santjoanistes».",
+    "pedrera-guardiola": "Pedrera i caseta sense data ni posició; només el camí és documentat.",
+    "torre-codonyol": "«Al sud del nucli», sense control cartogràfic: l'expedient no n'autoritza una posició individual.",
+    "torre-sant-joan": "«A la plana litoral del delta»; cap relació amb un punt del nucli que permeti col·locar-la.",
+    "locals-comercials": "Fotografies de 1914–1935 sense identificació d'immobles ni solars: no hi ha una posició que permeti dibuixar-los.",
+    "canal-antic": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
+    "darsena-gran": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
+    "darsena-petita": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
+    "amposta-capcalera": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
+    "paredo-poblacio": "Mur de sosteniment sense traça documentada.",
+    "propietats-privades": "38 registres mixtos sense identificació individual: no es dibuixen.",
+    "cases-lloguer-1788": "Es representen amb els dotze cossos del testimoni de 1788–1789."
+  },
+  "activeSceneRange": [
+    1778,
+    1950
+  ],
+  "modelNotes": {
+    "companyia-canal": "Només es representa el magatzem de Les Casotes (1857). Les oficines, les cases de guarda, la resclosa i el pont giratori continuen sense posició; el selector manté l'escena de 1800 fins a la seva data. La costa interpretada de 1800 (C) cobreix aquest solar, que al MDT actual és terra guanyada al mar: el model apareix amb un terraplè tècnic (plataforma i camí fins a la costa de 1800) que no representa l'extensió real del reompliment; la correcció històrica de la costa és pendent.",
+    "far-sant-carles": "Posició aproximada: les coordenades són les de la platja del Far, no les de l'edifici. Alçada i planta C; les fases tècniques de 1920, 1929 i 1938 no canvien el model.",
+    "mataredona": "Conjunt del Mas de Mataredona a partir de la fotografia N100 (sense data original: mas amb volums de pedra, parets sense coberta i bancals) i del full topogràfic de 1913 (N111), que hi marca la «Masia de Matarredona» i, més a l'est, la casilla de Don Juan Manuel Bosch i el Mas d'en Balaguer, que no es representen. La Font de Burga té el seu propi expedient. Es mostra a partir del testimoni de 1913: no es retroprojecta al 1800 ni es data la ruïna. Plantes i volums C; el conjunt mira cap avall de la vall.",
+    "sant-elm": "Campanar a l'extrem dret de la façana vista de front, llegit a N076, N083 i N058 (vistes sense data original; N083 [1935]). Fins al testimoni de 1935 es mostra inacabat, com diu l'inventari de 1794 («falta un tram»); des de 1935 apareix amb cos de campanes de maó, dos arcs i rellotge. La data d'acabament és desconeguda i les proporcions són C.",
+    "esglesia-nova": "El portal amb arc i muntants, el sòcol i les cornises de les finestres vénen de N075, N077 i N080 (ruïna posterior): es mostren com a detall C de la façana, no com a estat mesurat de 1794.",
+    "duana-nova": "Fins a 1889 es mostra l'estat de l'inventari de 1794: murs a tota alçària de carreus encoixinats, portes d'arc amb dovelles i finestres amb emmarcament de pedra, sense coberta, revoltons ni envans, amb el remat de pedres aïllades (planta d'estudi C de 26 × 20 m). Des de 1890 es mostra l'edifici de les fotografies N040 i N101 (peu: 1890): quatre nivells, façana de carreus amb portal d'arc, balcons de ferro, persianes, cornisa i terrat amb pretil. La geometria és una reconstrucció aproximada a partir d'una sola perspectiva (uns 8,8 × 5,75 m i 13,65 m d'alçària, estimats): és més estreta que la planta d'estudi de 1794 i es gira perquè el portal miri cap a la serra del Montsià (oest-nord-oest, uns 290°). No prova que l'edifici existís així el 1800 ni la data dels pisos afegits després de la venda de 1868/1869.",
+    "casa-white": "Mateixa llengua de façana (carreus encoixinats, portes d'arc, emmarcaments) per l'obligació de simetria de 1792. Es manté sempre l'estat inacabat: l'edifici de la dreta a N040 i N101 encara mostra el mur sense coberta el 1890, però cap font en data els afegits. Alçàries C.",
+    "cases-porxos": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-01": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-02": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-03": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-04": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-05": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-06": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-07": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-08": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-09": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-10": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-11": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-12": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-13": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "unitat-royal-portico-14": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "font-oest": "Forma de la font i la torre a partir de la fotografia de 1916 (N081, N032): cos central amb basament, dues pilastres, nínxol amb arc, frontó triangular, pila amb cassoleta i cos superior amb resalts i franges de carreus. Geometria aproximada aportada per l'usuari (uns 4,2 × 0,72 m i 6,7 m d'alçària, estimats). Fins a 1915 es mostra sense el buit de la part alta ni les restes sortints, que són degradacions fotografiades el 1916 i no es retroprojecten sobre el 1794. L'alçària i la forma de la torre no estan mesurades; l'esfera del rellotge és un símbol d'assaig i l'assignació a aquesta torre continua sent C.",
+    "font-est": "Parella simètrica de la font occidental, amb la mateixa forma (fotografia de 1916, N081 i N032); només la font occidental porta l'esfera del rellotge, perquè només un rellotge consta instal·lat. aportada per l'usuari (uns 4,2 × 0,72 m i 6,7 m d'alçària, estimats). Les degradacions de 1916 només es mostren des d'aquest any.",
+    "font-burga": "Pica de pedra amb mur de fons d'assaig: cap font en descriu l'aspecte. Es mostra a partir del testimoni de 1913 i no es retroprojecta al 1800.",
+    "torre-rapita": "Planta A i porció O traçades al redibuix de 1748 amb la mateixa transformació que la costa i el recinte. A és la part existent; O es consulta com a projecte daurat. El visor manté la reparació de 1780 com a fase posterior. Alçàries, obertures i persistència C.",
+    "bateria-roquer": "El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. La bateria parcial posterior conserva la planta T-6/8 de vuit canons i sis peces el 1794; centre i orientació reajustats al sector H, sense identificar els dos projectes. La muralla existent segueix la traça rosa amb tres ressalts.",
+    "capella-convent": "La capella C segueix la planta del redibuix de 1748 sense desplaçament individual. El semicercle de porxos d’assaig s’ha mogut 1 m cap a ponent per evitar el creuament. Alçària i coberta C; el testimoni de 1782 descriu humitats i usos de corral.",
+    "convent-masoveria": "Hostal B i tres corrals F, amb els murs del recinte, traçats com a peces diferenciades al redibuix. Els quarters D i E i la capella C tenen expedients vinculats. No es reconstrueix un claustre complet ni s’identifica l’hostal B amb la Fonda Vella dels Lantí, que és una altra hipòtesi documental.",
+    "cavallerisses-roquer": "Tres peces D de cavalleria i tres peces E d’infanteria segueixen les plantes individuals traçades al redibuix de 1748. S’eliminen els rectangles agregats anteriors. Les dependències de 1781 continuen com a cos d’assaig diferenciat, sense identificar-les documentalment amb D o E.",
+    "pou-figueretes": "Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb la mateixa escala i rotació que el recinte. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.",
+    "cisterna-fossat-roquer": "I és la cisterna projectada el 1748 i apareix en daurat. La cisterna posterior excavada el 1780 es representa de manera parcial al mateix sector funcional com a ajust d’assaig, sense afirmar identitat ni execució del dibuix de 1748.",
+    "cases-petites": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals.",
+    "cova-roquer": "PR01 · Boca rocosa, hort i sínia d’assaig C; sense cavitat excavada identificada, mesures ni coordenades històriques. La capa no altera el MDT."
+  },
+  "positions": {
+    "companyia-canal": {
+      "text": "Contorn de Les Casotes a OpenStreetMap (Museu de la Mar de l'Ebre): 42,0 × 13,3 m, azimut 102°. L'any 1857 i l'arquitecte (Jules Carvallo) provenen de la fitxa del museu.",
+      "url": "https://surtdecasa.cat/ebre/llocs-interes/la-rapita/museu-de-la-mar-de-lebre"
+    },
+    "far-sant-carles": {
+      "text": "Platja del Far, punta de la Senieta: 40°36′26,1″ N · 0°35′6,1″ E (ETRS89). Precisió d'unes desenes o centenars de metres.",
+      "url": "https://terresdelebre.travel/en/node/840"
+    },
+    "mataredona": {
+      "text": "Ruïna del mas a OpenStreetMap (40,64105° N · 0,53973° E), ±30 m, sobre el MDT de 50 m del Montsià.",
+      "url": "https://www.openstreetmap.org/search?query=Mata-redona%20la%20R%C3%A0pita"
+    },
+    "font-burga": {
+      "text": "Llegida al full topogràfic de 1913 uns 640 m a l'est i 120 m al nord del mas (±60 m); cota del MDT de 50 m de 412 m, al barranc que baixa cap a l'est.",
+      "url": null
+    }
+  }
+}

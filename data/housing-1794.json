@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "scenario": 1800,
+  "evidenceDate": "1794-05-20",
+  "state1800Verified": false,
+  "title": "Cases i habitacions de la població",
+  "crs": "EPSG:25831",
+  "townFrame": {
+    "easting": 296389.3545,
+    "northing": 4499364.7286,
+    "alongAzimuthDegrees": 19,
+    "confidence": "C",
+    "basis": "Alineacions actuals llegides en ortofoto i mapa topogràfic ICGC, contrastades qualitativament amb plànols de la tesi. No és una georeferenciació de parcel·les de 1794."
+  },
+  "inventory": [
+    {
+      "id": "royal-finished",
+      "count": 22,
+      "unit": "cases grans",
+      "state1794": "finished",
+      "source": "H02, annex, art. 1; pàg. 230–231",
+      "render": true
+    },
+    {
+      "id": "royal-covered",
+      "count": 7,
+      "unit": "cases grans",
+      "state1794": "roofed-unfinished",
+      "source": "H02, annex, art. 2; p. 230",
+      "render": true
+    },
+    {
+      "id": "royal-portico",
+      "count": 14,
+      "unit": "cases grans",
+      "state1794": "unroofed-with-first-floor-beams-and-complete-portico",
+      "source": "H02, annex, art. 3; pàg. 209–210 i 230",
+      "render": true
+    },
+    {
+      "id": "royal-small-coast",
+      "count": 14,
+      "unit": "cases o habitacions petites",
+      "state1794": "finished",
+      "source": "H02, annex, art. 4; pàg. 211 i 230–231",
+      "render": true
+    },
+    {
+      "id": "manzana-units",
+      "count": 24,
+      "unit": "habitacions d’una estructura compartida; inclou el forn",
+      "state1794": "finished",
+      "source": "H02, arts. 4 i 7; pàg. 213 i 230–231",
+      "render": "one-shared-building"
+    },
+    {
+      "id": "private-mixed",
+      "count": 38,
+      "unit": "cases i habitacions antigues i modernes, amb usos no residencials inclosos",
+      "state1794": "mixed-not-disaggregated",
+      "source": "H02, annex, art. 5; p. 231",
+      "render": false,
+      "reason": "El conjunt inclou fusteria, capella, masoveria, duana i altres immobles. No permet convertir les 38 entrades en 38 cases independents ni establir-ne el nombre residencial exacte."
+    }
+  ],
+  "layout": {
+    "finishedRows": [
+      {
+        "across": -28.5,
+        "startAlong": 28,
+        "spacing": 5,
+        "count": 11,
+        "front": "east"
+      },
+      {
+        "across": 28.5,
+        "startAlong": 24,
+        "spacing": 5,
+        "count": 11,
+        "front": "west"
+      }
+    ],
+    "coveredRow": {
+      "across": -28.5,
+      "startAlong": -10,
+      "spacing": -5,
+      "count": 7,
+      "front": "east"
+    },
+    "exedra": {
+      "across": -2,
+      "along": -118,
+      "innerRadius": 23,
+      "depth": 10,
+      "count": 10,
+      "confidence": "C",
+      "source": "H02 propone relacionar diez casas rodones con la cabecera semicircular; colocación y radio de ensayo, no planta histórica validada.",
+      "gap": 8,
+      "gapSource": "N030, N031 i N102 mostren que la cabecera semicircular no es tanca: s'hi obre un pas de carrer al mig. H02 (p.210, nota 60) reparteix els deu arcs en cinc a cada costat. L'amplada del pas és C.",
+      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C."
+    },
+    "porticoRow": {
+      "across": -28.5,
+      "startAlong": -107,
+      "spacing": 6,
+      "count": 4,
+      "front": "east",
+      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
+    },
+    "smallRows": [
+      {
+        "across": 113,
+        "startAlong": -31,
+        "spacing": 4.8,
+        "count": 5,
+        "front": "east"
+      },
+      {
+        "across": 128,
+        "startAlong": -28,
+        "spacing": 4.8,
+        "count": 5,
+        "front": "west"
+      },
+      {
+        "across": 143,
+        "startAlong": -23,
+        "spacing": 4.8,
+        "count": 4,
+        "front": "east"
+      }
+    ],
+    "manzana": {
+      "across": -60,
+      "along": 105,
+      "acrossLength": 80,
+      "alongLength": 40,
+      "wingDepth": 7,
+      "countedUnits": 24,
+      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
+    },
+    "smallCoastAdjustment": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals."
+  },
+  "typologies": {
+    "large": {
+      "frontWidth": 5,
+      "depth": 11,
+      "wallHeight": 7.8,
+      "roofRise": 1.8,
+      "wallThickness": 0.42,
+      "floors": "baja + piso + guardilla",
+      "confidence": "C",
+      "basis": "H02: frente aproximado 5 m, dos balcones en piso y guardilla. H01 pp. 251–253: adosadas, 50–60 m² en el grupo estudiado, revoco, teja a dos aguas y patios. Profundidades y alturas de ensayo, sin levantamiento."
+    },
+    "small": {
+      "frontWidth": 4.4,
+      "depth": 7,
+      "wallHeight": 3.2,
+      "roofRise": 1.2,
+      "wallThickness": 0.35,
+      "floors": "baja de ensayo",
+      "confidence": "C",
+      "basis": "Localización costera aproximada en H02; dimensiones y alzado de estas catorce unidades no conocidos."
+    },
+    "manzana": {
+      "wallHeight": 5.8,
+      "roofRise": 1.5,
+      "wallThickness": 0.5,
+      "floors": "baja + piso",
+      "confidence": "C",
+      "basis": "H02 describe dos niveles, mampostería revocada, cubierta a dos aguas y patio. Alturas y división interna sin medir."
+    }
+  },
+  "confidence": {
+    "inventory1794": "A-document-transcription",
+    "groupLocation": "B-or-C-by-source",
+    "individualLocation": "C",
+    "individualFootprint": "C",
+    "height": "C",
+    "state1800": "B-extrapolation-from-1794"
+  },
+  "rules": [
+    "Els identificadors dels models són tècnics; no se’ls atribueix numeració històrica individual.",
+    "L’assignació d’estats a posicions concretes és una hipòtesi que conserva els totals documentats.",
+    "Les 14 cases sense coberta no es redueixen a fonaments: el text descriu murs i bigues del primer pis, amb porxos complets.",
+    "Les set cases cobertes no reben arrebossat ni portes o finestres acabades; les reixes descrites es representen de manera simplificada.",
+    "Les 24 habitacions de la Mançana es compten dins d’un únic edifici compartit, sense duplicar 24 cases exteriors.",
+    "Les cases de la Fonda Nova poden estar incloses en la numeració de les grans. Les dues unitats d’assaig reservades són substituïdes pel model de la fonda, sense duplicar-les.",
+    "No es representa com a acabat el 1800 un estat que només es coneix el 1794.",
+    "No s’afegeixen cases privades per una resta arbitrària del conjunt mixt de 38 propietats."
+  ],
+  "sources": [
+    {
+      "id": "H02",
+      "title": "Pilar Reverté Vidal, 1794. Estat de les obres reials de San Carlos, Recerca 20 (2024), pp. 191–234",
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "sectionsRead": "Anàlisi de les pàg. 208–215 i conclusions; transcripció, art. 1–9, pàg. 230–231",
+      "primaryDocument": "ACA, RP, BGRP, Cajas 60, relació del 20 de maig de 1794"
+    },
+    {
+      "id": "H01",
+      "title": "Noèlia Borràs Matamoros, tesi doctoral (2013), pàg. 251–253 (PDF 255–257)",
+      "local": "tesi doctoral.pdf",
+      "basis": "Informes de construcció de dotze cases, desembre de 1788–abril de 1789. Se superposen a la sèrie històrica; no se sumen com dotze habitatges addicionals."
+    },
+    {
+      "id": "G03",
+      "title": "ICGC, Ortofoto Territorial 2024 i Mapa Base Topogràfic",
+      "local": "docs/sources/nucleo-ortofoto-2024.jpg; docs/sources/nucleo-topografico.jpg",
+      "use": "Lectura d’alineacions actuals i noms de carrers. No es trasllada el parcel·lari contemporani al 1800."
+    }
+  ]
+}

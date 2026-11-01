@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "scenario": 1800,
+  "evidenceDate": "1794-05-20",
+  "state1800Verified": false,
+  "crs": "EPSG:25831",
+  "source": {
+    "id": "H02",
+    "title": "Pilar Reverté Vidal, 1794. Estat de les obres reials de San Carlos, Recerca 20 (2024), pp. 191–234",
+    "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+    "primary": "ACA, RP, BGRP, Cajas 60, relació del 20 de maig de 1794"
+  },
+  "placementBasis": "Posicions d’assaig dins el marc local dels habitatges. Lectura de carrers actuals al mapa topogràfic ICGC; no és una georeferenciació de parcel·les de 1794. Alçàries i plantes individuals C.",
+  "sites": [
+    {
+      "id": "sant-elm",
+      "name": "Oratori de Sant Elm",
+      "kind": "church",
+      "across": -50,
+      "along": -76,
+      "front": "east",
+      "width": 17,
+      "depth": 25,
+      "wallHeight": 9.4,
+      "roofRise": 2.8,
+      "state1794": "temple acabat de construir, amb el petit campanar sense concloure",
+      "evidence": "H02, art. 6, pàg. 212–213 i 231: façana dòrica i interior jònic; probable emplaçament de l’església actual, amb dimensions més petites.",
+      "limits": "Nau, coberta i torre baixa d’assaig. No es copia l’església moderna; planta, alçat i estat el 1800 sense verificar.",
+      "documented": {
+        "facadeOrder": "Doric",
+        "interiorOrder": "Ionic",
+        "towerComplete1794": false,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "placa-coberta",
+      "name": "Plaça coberta · Casa Laureano",
+      "kind": "covered-market",
+      "across": 37,
+      "along": -76,
+      "front": "west",
+      "width": 15,
+      "depth": 17,
+      "wallHeight": 6.7,
+      "roofRise": 0,
+      "state1794": "plaça coberta amb el cos superior molt avançat",
+      "evidence": "H02, art. 9, pàg. 214–215 i 231. Identificació probable amb Casa Laureano, simètrica a Sant Elm. H01, pàg. 226, descriu quatre suports i un arquitrau incomplet als vestigis.",
+      "limits": "S’assagen una planta baixa coberta i un alçat superior obert. No s’hi afegeixen una balustrada ni un frontó acabats sense datació. El cobert annex va patir danys i desmuntatges: no es representa íntegre.",
+      "documented": {
+        "facadeOrder": "Doric",
+        "identification": "probable",
+        "upperRoof1794": null,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "fonda-nova",
+      "name": "Fonda Nova",
+      "kind": "inn",
+      "across": 48.5,
+      "along": 71.5,
+      "front": "west",
+      "width": 10,
+      "depth": 50,
+      "wallHeight": 7.6,
+      "roofRise": 1.7,
+      "replacesHousingIds": [
+        "royal-finished-21",
+        "royal-finished-22"
+      ],
+      "inventoryRelation": "Substitueix dos cossos d’assaig reservats; no afegeix unitats a l’inventari reial de 81.",
+      "state1794": "establiment habilitat, amb dos cossos i pati",
+      "evidence": "H02, pàg. 210–211: cases 5 i 6, cossos cap a la Rambla i el Rampar, pati i accés de carros des del Coc. H01, pàg. 167–168: galeria, carruatges, hort i corral projectats.",
+      "limits": "Els identificadors tècnics substituïts no equivalen als números històrics 5 i 6. Posició exacta, mesures i lloc del sopluig desconeguts. Pati allargat d’assaig.",
+      "documented": {
+        "bodies": 2,
+        "courtyard": true,
+        "historicalHouseNumbers": [
+          5,
+          6
+        ],
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "duana-nova",
+      "name": "Duana nova del Coc",
+      "kind": "warehouse",
+      "across": 67,
+      "along": -29,
+      "front": "north",
+      "width": 26,
+      "depth": 20,
+      "wallHeight": 8.2,
+      "roofRise": 0,
+      "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
+      "evidence": "H02, art. 12, pàg. 216–217 i 231–232: magatzems, habitacions altes i façana encoixinada al costat de la rampa.",
+      "limits": "Planta de 26 × 20 m C; no s’aplica com a mesura de 1794 la superfície de l’anunci de venda de 1868. Obertures simplificades, sense restitució de rampes.",
+      "documented": {
+        "roof1794": false,
+        "upperPartitions1794": false,
+        "rusticatedFacade": true,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "casa-white",
+      "name": "Magatzems de Josep White",
+      "kind": "warehouse",
+      "across": 67,
+      "along": 29,
+      "front": "south",
+      "width": 26,
+      "depth": 20,
+      "wallHeight": 8.2,
+      "roofRise": 0,
+      "state1794": "obra avançada a càrrec d’un comerciant; edifici simètric",
+      "inventoryRelation": "Immoble privat singular; possible relació amb el conjunt mixt de 38. No se suma com a habitatge addicional.",
+      "evidence": "H02, art. 13 i pàg. 216–217: edifici davant de la duana nova; adquirit per White el 1792 per mantenir la simetria.",
+      "limits": "S’assaja el mateix estat sense coberta que al model simètric; la font no detalla separadament cada avenç de l’obra privada. Persistència el 1800 desconeguda.",
+      "documented": {
+        "symmetryRequired": true,
+        "roof1794": null,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "font-oest",
+      "name": "Font i torre del rellotge",
+      "kind": "fountain",
+      "across": -24,
+      "along": -114,
+      "front": "east",
+      "width": 4.8,
+      "depth": 3,
+      "wallHeight": 6.5,
+      "roofRise": 0,
+      "clock": true,
+      "state1794": "font pública amb torre; rellotge instal·lat en una de les dues",
+      "evidence": "H02, art. 11, pàg. 216 i 231: dues fonts amb piles de carreus i torres, i un rellotge públic. H01, pàg. 226–227: arc i frontó triangular.",
+      "limits": "L’assignació del rellotge a aquesta torre és C; posició precisa, alçària i forma de les torres sense mesurar. L’esfera és un símbol d’assaig.",
+      "documented": {
+        "pairedFountains": 2,
+        "installedClocks": 1,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "font-est",
+      "name": "Font oriental",
+      "kind": "fountain",
+      "across": 24,
+      "along": -114,
+      "front": "west",
+      "width": 4.8,
+      "depth": 3,
+      "wallHeight": 6.5,
+      "roofRise": 0,
+      "clock": false,
+      "state1794": "segona font i torre simètrica, sense un segon rellotge acreditat",
+      "evidence": "H02, art. 11, pàg. 216 i 231. Parella de la font occidental; H01, pàg. 226–227.",
+      "limits": "Simetria d’assaig; no s’atribueix a aquesta torre un segon rellotge instal·lat.",
+      "documented": {
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "manzana-nova",
+      "name": "Mançana nova iniciada",
+      "kind": "unfinished-block",
+      "across": -57,
+      "along": 45,
+      "front": "east",
+      "width": 40,
+      "depth": 30,
+      "wallHeight": 3.6,
+      "roofRise": 0,
+      "state1794": "murs a la cota de rebre les bigues del primer pis",
+      "evidence": "H02, art. 8, pàg. 214 i 231: magatzems baixos i futures habitacions altes. Possible àmbit de l’ajuntament actual, amb identificació insegura.",
+      "limits": "Recinte i divisions C, sense coberta ni pisos alts acabats. No augmenta el nombre d’habitatges habitables de l’inventari.",
+      "documented": {
+        "roof1794": false,
+        "upperHabitationsFinished1794": false,
+        "footprint": null,
+        "height": null
+      }
+    },
+    {
+      "id": "cases-talavera",
+      "name": "Cases de Ramon Talavera",
+      "kind": "private-courtyard",
+      "across": 58,
+      "along": 110,
+      "front": "west",
+      "width": 26,
+      "depth": 48,
+      "wallHeight": 7.2,
+      "roofRise": 1.8,
+      "inventoryRelation": "Dues cases privades documentades; possible correspondència dins de les 38 propietats mixtes, sense identificació individual completa. No s’afegeixen al total de 119.",
+      "state1794": "dues cases amb recinte i pati",
+      "evidence": "H02, pàg. 210–211: entre la fonda i el barranc de les Monges, amb accés des de la plaça. Concessió de 1782 amb límits de finca; H01, pàg. 251–253, per a les tècniques residencials.",
+      "limits": "El recinte rectangular de 26 × 48 m simplifica un solar irregular. No és la digitalització dels quatre límits documentals ni prova de la posició de cada casa.",
+      "documented": {
+        "houses": 2,
+        "courtyard": true,
+        "footprint": null,
+        "height": null
+      }
+    }
+  ],
+  "publicSpace": {
+    "surface": "Terra d’assaig sobre el MDT intacte; sense paviment modern ni explanació històrica atribuïda.",
+    "plaza": {
+      "halfWidth": 22,
+      "north": 84,
+      "south": -118,
+      "exedraRadius": 22,
+      "passage": {
+        "halfWidth": 4,
+        "south": -156
+      }
+    },
+    "crossAxis": {
+      "west": -96,
+      "east": 96,
+      "halfWidth": 14
+    },
+    "trees": {
+      "count": 60,
+      "across": [
+        -12,
+        12
+      ],
+      "south": -108,
+      "north": 78,
+      "species": "Ceratonia siliqua",
+      "layoutConfidence": "C",
+      "source": "H02, carta del 6/05/1792, pàg. 218–219: seixanta arbres a la població. Distribució en dues fileres i mides d’assaig, sense prova de supervivència individual el 1800."
+    }
+  }
+}

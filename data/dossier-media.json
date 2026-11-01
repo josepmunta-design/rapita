@@ -1,0 +1,99 @@
+{
+  "note": "Fitxers de recerca que el visor mostra a les fitxes laterals. Les il·lustracions de l'article N112 (Reverté, 2024) s'extreuen de les pàgines PDF indicades.",
+  "pageOffset": 190,
+  "illustrations": {
+    "1": {
+      "pdfPage": 7,
+      "kind": "plan",
+      "year": 1748,
+      "title": "Plano del Puesto y Torre de la Rapita · redibuix interpretatiu del plànol de 1748",
+      "note": "Projecte de Miguel Marín (agost de 1748, AGMM PL T-6/5). En rosa, els edificis existents (A torre, B hostal, C capella, D i E quarters, F corrals, G pou); en groc, l'obra projectada (H bateria per a 14 canons, I cisterna, K–N dependències, O reedificació de la torre). És un projecte: no es va executar tal com es dibuixa.",
+      "local": "docs/sources/plan-1748-redibuix.png"
+    },
+    "2": {
+      "pdfPage": 14,
+      "kind": "plan",
+      "year": 1782,
+      "title": "Edificis existents a la Ràpita el 1780, sobre el plànol del port dels Alfacs",
+      "note": "Plànol de Manuel Salomón (MN-E-28-7, 23/10/1782) amb una proposta de port."
+    },
+    "3": {
+      "pdfPage": 17,
+      "kind": "plan",
+      "year": 2024,
+      "title": "Croquis d'ubicació de les zones del terme",
+      "note": "Croquis elaborat per a l'article de 2024 sobre base ICGC de 2023: no és un plànol de 1794."
+    },
+    "4": {
+      "pdfPage": 18,
+      "kind": "plan",
+      "year": 2024,
+      "title": "Croquis d'ubicació de les obres de San Carlos fins a 1794",
+      "note": "Croquis de 2024 sobre base ICGC de 2023: interpretació de l'autora, no plànol original."
+    },
+    "5": {
+      "pdfPage": 19,
+      "kind": "photo",
+      "year": 1958,
+      "title": "Vista panoràmica de Sant Carles de la Ràpita",
+      "note": "Fotografia de 1958, fora de l'escena documental de 1778–1800."
+    },
+    "6": {
+      "pdfPage": 22,
+      "kind": "photo",
+      "year": 1935,
+      "title": "Església de la Ràpita i botiga de Juan Ginata",
+      "note": "Data entre claudàtors [1935] a l'article; autor no identificat."
+    },
+    "7": {
+      "pdfPage": 24,
+      "kind": "photo",
+      "year": null,
+      "title": "La plaça de Carles III a principis del segle XX",
+      "note": "Autor no identificat; data exacta no fixada."
+    },
+    "8": {
+      "pdfPage": 26,
+      "kind": "photo",
+      "year": null,
+      "title": "Font pública a la Plaça Major",
+      "note": "Vista posterior; no prova l'estat de 1794."
+    },
+    "9": {
+      "pdfPage": 28,
+      "kind": "photo",
+      "year": null,
+      "title": "Jardí al costat de la «mançana»",
+      "note": "Il·lustració 9 de l'article; data no fixada."
+    },
+    "10": {
+      "pdfPage": 29,
+      "kind": "photo",
+      "year": null,
+      "title": "Façana principal de l'Església Nova",
+      "note": "Autor no identificat; primera meitat del segle XX segons l'article."
+    },
+    "11": {
+      "pdfPage": 30,
+      "kind": "plan",
+      "year": 1782,
+      "title": "Plano del puerto de los Alfaques amb el projecte d'un moll",
+      "note": "Plànol de Salomón de 1782: el gran moll projectat no es va executar."
+    }
+  },
+  "skipTypes": [
+    "exclusió",
+    "fora de l'abast",
+    "imatge generada",
+    "recull"
+  ],
+  "maxArticlePages": 8,
+  "hideDuplicates": [
+    "N078",
+    "N079",
+    "N082",
+    "N088",
+    "N097",
+    "N103"
+  ]
+}
