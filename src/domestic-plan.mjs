@@ -1,3 +1,4 @@
+import {manzanaPlan} from './village-plan.mjs';
 import {planToUTM} from './building-plan.mjs';
 import {PORXO_STUDY as study} from './porxo-plan.mjs';
 export const rect=(x,z,w,d)=>[[x-w/2,z+d/2],[x+w/2,z+d/2],[x+w/2,z-d/2],[x-w/2,z-d/2]];
@@ -21,6 +22,7 @@ export function yardPlan(s){
 }
 export const siteUTM=(s,poly)=>poly.map(([x,z])=>planToUTM(x,z,s.anchor,s.frontAzimuthDegrees));
 export function housingNavigation(s){
+ if(s.kind==='shared-courtyard'){const p=manzanaPlan(s);return{solids:p.solids.map(p=>siteUTM(s,p)),floors:p.floors.map(p=>siteUTM(s,p))};}
  const e=envelope(s),portico=s.group==='royal-portico'?porticoPlan(s):null,yard=yardPlan(s);
  const solids=portico?[portico.body,...portico.piers.map(p=>rect(p.x,p.z,p.baseWidth,p.depth))]:[e.corners];
  if(yard)solids.push(...yard.walls.map(p=>rect(p.x,p.z,p.w,p.d)));

@@ -6,6 +6,7 @@ import {toWorld,sampleHeight} from './geo.mjs';
 import {landscapeSample,routeStations,canalWaterLevel,shoreEasting,coastalWaterOutline} from './littoral-plan.mjs';
 import {entityAt} from './chronology.mjs';
 import {tileTexture} from './housing.ts';
+import {makeServiceHouse} from './service-house.ts';
 import {makeBoats} from './boats.ts';
 import {makeResearchLandscape} from './research-landscape.ts';
 import type {Terrain} from './terrain';
@@ -113,8 +114,7 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     }else if(s.kind==='well'){
       const shape=new THREE.Shape(),hole=new THREE.Path();shape.absarc(0,0,1,0,Math.PI*2,false);hole.absarc(0,0,.6,0,Math.PI*2,true);shape.holes.push(hole);const g=new THREE.ExtrudeGeometry(shape,{depth:1,bevelEnabled:false});g.rotateX(-Math.PI/2);b.emit(g,mat.stone);
     }else{
-      const holes=[...openings];if(s.kind!=='health')for(const x of[-w*.28,w*.28])holes.push({x,width:.9,height:1.1,bottom:H>5?3.5:1.4});
-      b.shell(w,d,H,holes);b.roof(w,d,H);if(s.kind==='inn')for(const x of[-w*.3,w*.3])b.box(x,1.4,d/2+1.4,.16,2.8,.16,mat.wood);
+      group.add(makeServiceHouse({...s,width:w,depth:d,height:H}));group.userData.detailConfidence='C';
     }
     // Perimeter footings descend into the current study ground, without a floating building.
     if(s.kind!=='battery'){

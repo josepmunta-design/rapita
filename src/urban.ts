@@ -5,17 +5,20 @@ import {routeStations} from './littoral-plan.mjs';
 import {urbanVisible,urbanGround} from './urban-plan.mjs';
 import {toWorld} from './geo.mjs';
 import {inPolygon} from './harbour-plan.mjs';
+import {surfaceMaterial} from './vernacular.ts';
+import {makeServiceHouse} from './service-house.ts';
+import {tracedRoof,VILLAGE_EVIDENCE} from './village-plan.mjs';
 import type {Terrain} from './terrain';
 import {makeRetainingWall} from './retaining-wall.ts';
 import {makeFaro} from './faro.ts';
 import {makeCasotes,casotesGuardFootprints} from './casotes.ts';
 export type UrbanData=any;
 
-export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)=>number|null,shore?:(n:number)=>number){
+export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)=>number|null,shore?:(n:number)=>number,sharedCourtyardElevation?:number){
  const lighthouses:ReturnType<typeof makeFaro>[]= [];
  const casotes:ReturnType<typeof makeCasotes>[]= [],casotesCollision:number[][][]= [];
  const root=new THREE.Group(),groups=new Map<string,THREE.Group>();root.name='Carrers i serveis · planta relacional C';
- const mat={road:new THREE.MeshStandardMaterial({color:'#baa47b',roughness:1,side:THREE.DoubleSide}),bed:new THREE.MeshStandardMaterial({color:'#8c816b',roughness:1,side:THREE.DoubleSide}),soil:new THREE.MeshStandardMaterial({color:'#897551',roughness:1,side:THREE.DoubleSide}),stone:new THREE.MeshStandardMaterial({color:'#b8ac8e',roughness:1}),wood:new THREE.MeshStandardMaterial({color:'#69503b',roughness:1}),lime:new THREE.MeshStandardMaterial({color:'#c8bda4',roughness:1}),tile:new THREE.MeshStandardMaterial({color:'#ad714b',roughness:1}),leaf:new THREE.MeshStandardMaterial({color:'#697750',roughness:1}),dark:new THREE.MeshStandardMaterial({color:'#393d32',roughness:1})};
+ const mat={road:new THREE.MeshStandardMaterial({color:'#baa47b',roughness:1,side:THREE.DoubleSide}),bed:new THREE.MeshStandardMaterial({color:'#8c816b',roughness:1,side:THREE.DoubleSide}),soil:new THREE.MeshStandardMaterial({color:'#897551',roughness:1,side:THREE.DoubleSide}),stone:surfaceMaterial('stone','#f2e9d6','masonry',.025),wood:surfaceMaterial('wood','#e7d0ae','wood',.014),lime:surfaceMaterial('lime','#fff8e8','lime',.012),tile:surfaceMaterial('tile','#fff2dd','tile',.025),leaf:new THREE.MeshStandardMaterial({color:'#697750',roughness:1}),dark:new THREE.MeshStandardMaterial({color:'#393d32',roughness:1})};
  Object.entries(mat).forEach(([name,m])=>m.name=name);
  const level=(e:number,n:number,cut:boolean)=>{const h=sample(e,n);if(h===null)return null;return cut?urbanGround(e,n,h,data):h;};
  const strip=(points:number[][],width:number,cut:boolean,material:THREE.Material)=>{
@@ -30,8 +33,8 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
   const group=new THREE.Group();group.name=s.name;group.userData.feature=s;group.position.fromArray(toWorld(s.anchor[0],s.anchor[1],s.technicalBaseElevation,meta.origin));const alongDegrees:number=s.alongAzimuthDegrees??data.frame.alongAzimuthDegrees;group.rotation.y=-alongDegrees*Math.PI/180;root.add(group);groups.set(s.id,group);
   if(s.kind==='retaining-wall'){group.position.set(0,0,0);group.rotation.set(0,0,0);group.add(makeRetainingWall(s,meta.origin,(e,n)=>level(e,n,true)));continue;}
   const batches=new Map<THREE.Material,THREE.BufferGeometry[]>(),angle=alongDegrees*Math.PI/180;
-  const ground=(x:number,z:number)=>{if(s.reclaimed)return 0;const e=s.anchor[0]+x*Math.cos(angle)-z*Math.sin(angle),n=s.anchor[1]-x*Math.sin(angle)-z*Math.cos(angle);return(sample(e,n)??s.technicalBaseElevation)-s.technicalBaseElevation;};
-  const emit=(source:THREE.BufferGeometry,m:THREE.Material,x=0,y=0,z=0,rotation=0)=>{const g=source.index?source.toNonIndexed():source;if(g!==source)source.dispose();g.rotateY(rotation);g.translate(x,y,z);g.deleteAttribute('uv');if(!g.getAttribute('normal'))g.computeVertexNormals();const parts=batches.get(m)??[];parts.push(g);batches.set(m,parts);};
+  const ground=(x:number,z:number)=>{if(s.kind==='workyard'&&sharedCourtyardElevation!==undefined)return sharedCourtyardElevation-s.technicalBaseElevation;if(s.reclaimed)return 0;const e=s.anchor[0]+x*Math.cos(angle)-z*Math.sin(angle),n=s.anchor[1]-x*Math.sin(angle)-z*Math.cos(angle);return(sample(e,n)??s.technicalBaseElevation)-s.technicalBaseElevation;};
+  const emit=(source:THREE.BufferGeometry,m:THREE.Material,x=0,y=0,z=0,rotation=0)=>{const g=source.index?source.toNonIndexed():source;if(g!==source)source.dispose();g.rotateY(rotation);g.translate(x,y,z);if(!g.getAttribute('normal'))g.computeVertexNormals();const p=g.getAttribute('position'),n=g.getAttribute('normal'),uv=[];for(let i=0;i<p.count;i++)uv.push((Math.abs(n.getZ(i))>.5?p.getX(i):p.getZ(i))/2,Math.abs(n.getY(i))>.6?p.getX(i)/2:p.getY(i)/2);g.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));const parts=batches.get(m)??[];parts.push(g);batches.set(m,parts);};
   const box=(x:number,y:number,z:number,w:number,h:number,d:number,m:THREE.Material=mat.stone)=>emit(new THREE.BoxGeometry(w,h,d),m,x,y,z);
   const patch=(x:number,z:number,w:number,d:number,m:THREE.Material)=>{const p:number[]=[],nx=Math.ceil(w/2),nz=Math.ceil(d/2);for(let row=0;row<nz;row++)for(let col=0;col<nx;col++){const corners=[[x-w/2+col*w/nx,z-d/2+row*d/nz],[x-w/2+(col+1)*w/nx,z-d/2+row*d/nz],[x-w/2+col*w/nx,z-d/2+(row+1)*d/nz],[x-w/2+(col+1)*w/nx,z-d/2+(row+1)*d/nz]];for(const i of[0,2,1,1,2,3]){const[a,b]=corners[i];p.push(a,ground(a,b)+.1,b);}}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(p,3));g.computeVertexNormals();emit(g,m);};
   const fence=(w:number,d:number)=>{for(const side of[-1,1])for(let x=-w/2;x<w/2;x+=3){const cx=Math.min(x+1.5,w/2),z=side*d/2,y=ground(cx,z);box(cx,y+.5,z,.11,1,.11,mat.wood);box(cx,y+.65,z,Math.min(3,w/2-x),.09,.09,mat.wood);}for(const side of[-1,1])for(let z=-d/2;z<d/2;z+=3){if(side===1&&Math.abs(z)<3)continue;const cz=z+1.5,x=side*w/2,y=ground(x,cz);box(x,y+.5,cz,.11,1,.11,mat.wood);box(x,y+.65,cz,.09,.09,Math.min(3,d/2-z),mat.wood);}};
@@ -54,29 +57,36 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
    for(const sign of[-1,1]){const x=sign*(w/2+1.1),z=d/2+1.4,y=ground(x,z);box(x,y+.5,z,2.7,.28,.65);for(const dx of[-1,1])box(x+dx,y+.23,z,.3,.46,.55);}
   }else if(s.kind==='forge'||s.kind==='guardhouse'||s.kind==='service-house'){
    const w=s.width,d=s.depth,H=s.height,base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.06;
-   box(0,base-.1,0,w+.2,.2,d+.2);const holes=[{x:0,width:s.kind==='forge'?2.3:1.1,height:2.3,bottom:0}],T=.4;
-   const wall=(length:number,openings:any[],x:number,z:number,r:number)=>{const q=wallSurfaceMesh(length,H,T,openings,.1),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.lime,x,base,z,r);};
-   wall(w,holes,0,d/2-T/2,0);wall(w,[],0,-d/2+T/2,Math.PI);for(const sign of[-1,1])wall(d-2*T,[],sign*(w/2-T/2),0,Math.PI/2);
-   const p=[[-w/2,H,-d/2],[-w/2,H,d/2],[-w/2,H+1,0],[w/2,H,-d/2],[w/2,H,d/2],[w/2,H+1,0]],g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([0,2,5,0,5,3,1,4,5,1,5,2].flatMap(i=>p[i]),3));g.computeVertexNormals();emit(g,mat.tile,0,base,0);for(const x of[-w/2,w/2]){const end=new THREE.BufferGeometry(),vertices=[[x,H,-d/2],[x,H,d/2],[x,H+1,0]];end.setAttribute('position',new THREE.Float32BufferAttribute((x<0?[0,1,2]:[0,2,1]).flatMap(i=>vertices[i]),3));end.computeVertexNormals();emit(end,mat.lime,0,base,0);}
-   if(s.chimney)box(-w/3,base+H+.5,-d/4,.8,2.4,.8,mat.stone);
-   if(s.kind==='forge'){box(-w/3,base+H+.2,-d/4,.7,1.7,.7);box(0,base+.5,0,1,.5,.65,mat.dark);for(let i=0;i<4;i++)box(w/2+.8,ground(w/2+.8,i*.4)+.25,i*.4,.6,.5,.3,mat.wood);}
+   const building=makeServiceHouse(s);building.position.y=base;group.add(building);group.userData.detailConfidence='C';
   }else if(s.kind==='shed'){
-   // Tinglado: tres naus amb 12 pilastres (cos A) i dues naus amb 9 pilastres (cos B); coberta parcial de materials reutilitzats.
+   // N112 pp. 215, 226: five arches, twelve + nine piers. Their arrangement remains C.
    const H=s.height,aw=s.width*.55,bw=s.width-aw,base=Math.max(...[-s.width/2,s.width/2].flatMap(x=>[-s.depth/2,s.depth/2].map(z=>ground(x,z))))+.06;
-   box(0,base-.1,0,s.width+.2,.2,s.depth+.2,mat.soil);
-   const post=(x:number,z:number)=>box(x,base+H/2,z,.55,H,.55,mat.stone);
-   for(let c=0;c<4;c++)for(let r=0;r<3;r++)post(-s.width/2+.6+c*(aw-1.2)/3,-s.depth/2+.6+r*(s.depth-1.2)/2);
-   for(let c=0;c<3;c++)for(let r=0;r<3;r++)post(-s.width/2+aw+.6+c*(bw-1.2)/2,-s.depth/2+.6+r*(s.depth-1.2)/2);
-   for(const z of[-s.depth/2+.6,0,s.depth/2-.6])box(0,base+H+.12,z,s.width,.24,.3,mat.wood);
-   for(let c=0;c<4;c++){const x=-s.width/2+.6+c*(aw-1.2)/3;box(x,base+H+.45,0,.3,.3,s.depth,mat.wood);}
-   for(let r=0;r<2;r++)for(let c=0;c<5;c++){const x=-s.width/2+c*aw/5+aw/10,z=-s.depth/2+s.depth*(.2+r*.6);if(c<4||r===0)box(x,base+H+.55,z,aw/5-.2,.08,s.depth*.28,mat.wood);}
-   box(-s.width/2+aw+bw/2,base+H+.65,0,bw-.4,.1,s.depth-.4,mat.tile);
-   box(-s.width/2+aw,base+H/2,-s.depth/2+.2,.4,H,.4,mat.stone);
+   group.userData.evidence=VILLAGE_EVIDENCE.tinglado;group.userData.frontArches=5;group.userData.pierCounts=[12,9];group.userData.detailConfidence='C';
+   box(0,base-.1,0,s.width,.2,s.depth,mat.soil);
+   const post=(x:number,z:number)=>{box(x,base+H/2,z,.5,H,.5,mat.stone);box(x,base+.12,z,.65,.24,.65,mat.stone);box(x,base+H-.12,z,.65,.24,.65,mat.stone);};
+   const xs=Array.from({length:6},(_,i)=>-s.width/2+.4+i*(aw-.8)/5),front=s.depth/2-.4,back=-front;
+   for(const x of xs)for(const z of[front,back])post(x,z);
+   for(let c=0;c<3;c++)for(let r=0;r<3;r++)post(-s.width/2+aw+.5+c*(bw-1)/2,-s.depth/2+.5+r*(s.depth-1)/2);
+   const spring=H*.58;
+   for(let i=0;i<5;i++){
+    const x=(xs[i]+xs[i+1])/2,span=xs[i+1]-xs[i]-.5,rx=span/2,rise=Math.min(rx,H-spring-.22),shape=new THREE.Shape();
+    shape.moveTo(-rx,H);shape.lineTo(rx,H);shape.lineTo(rx,spring);
+    for(let k=0;k<=20;k++){const a=k*Math.PI/20;shape.lineTo(rx*Math.cos(a),spring+rise*Math.sin(a));}shape.lineTo(-rx,H);shape.closePath();
+    emit(new THREE.ExtrudeGeometry(shape,{depth:.5,bevelEnabled:false}).translate(0,0,-.25),mat.lime,x,base,front);
+   }
+   // Timber members and incomplete reused covering: no completed monumental hall.
+   for(const x of xs)box(x,base+H+.08,0,.18,.2,s.depth,mat.wood);
+   for(let r=0;r<4;r++)box(-s.width/2+aw/2,base+H+.2,-s.depth/2+r*s.depth/3,aw,.18,.22,mat.wood);
+   for(let r=0;r<2;r++)for(let c=0;c<5;c++)if(c<3||r===0){const x=-s.width/2+(c+.5)*aw/5,z=-s.depth/2+s.depth*(.2+r*.6);box(x,base+H+.36,z,aw/5-.13,.08,s.depth*.28,mat.wood);}
+   box(-s.width/2+aw+bw/2,base+H+.4,0,bw-.4,.1,s.depth-.4,mat.tile);
+   box(-s.width/2+aw+bw/2,base+H/2,-s.depth/2+.2,bw,H,.4,mat.lime);
   }else if(s.kind==='mill'){
    // Molinet de 1794: parets alçades sense coberta, dues moles i el conducte de l'aigua.
    const w=s.width,d=s.depth,H=s.height,T=.5,base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.06;
    box(0,base-.1,0,w+.2,.2,d+.2);
-   box(0,base+H/2,d/2-T/2,w,H,T,mat.lime);box(0,base+H/2,-d/2+T/2,w,H,T,mat.lime);
+   group.userData.evidence=VILLAGE_EVIDENCE.mill;group.userData.millstones=2;group.userData.roof=false;
+   const q=wallSurfaceMesh(w,H,T,[{x:0,width:1.5,height:2.3,bottom:0}],.1),entry=new THREE.BufferGeometry();entry.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));entry.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));entry.setIndex(q.indices);emit(entry,mat.lime,0,base,d/2-T/2);
+   box(0,base+H/2,-d/2+T/2,w,H,T,mat.lime);
    for(const sign of[-1,1])box(sign*(w/2-T/2),base+H/2,0,T,H,d-2*T,mat.lime);
    for(const x of[-w/4,w/4]){emit(new THREE.CylinderGeometry(1.15,1.15,.3,18),mat.stone,x,base+.4,0);box(x,base+.05,0,.5,.3,.5,mat.dark);}
    const channel=new THREE.BoxGeometry(2.1,.35,Math.max(8,d+6));emit(channel,mat.wood,w/2+2.5,base+1.6,0);
@@ -171,15 +181,20 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
    box(0,y0+.25,.35,s.width-1.2,.5,1.7,mat.stone);box(0,y0+.52,.35,s.width-1.5,.06,1.4,mat.dark);
    box(0,y0+1.55,-.7,.6,.3,.4,mat.stone);
   }else if(s.kind==='stonehouse'&&s.polygonUTM){
-   // Every traced body keeps the same footprint for its walls, roof and navigation.
+   // Exact existing traced footprint; roof elevation and facade details remain C.
    const a=alongDegrees*Math.PI/180,pts:number[][]=s.polygonUTM.map(([e,n]:number[])=>{const de=e-s.anchor[0],dn=n-s.anchor[1];return[de*Math.cos(a)-dn*Math.sin(a),-de*Math.sin(a)-dn*Math.cos(a)];});
    const base=Math.max(...pts.map(([x,z])=>ground(x,z)))+.08,H=s.height;
+   group.userData.detailConfidence='C';group.userData.evidence=VILLAGE_EVIDENCE.oldPrecinct;
    for(let i=0;i<pts.length;i++){
-    const[x,z]=pts[i],[nx,nz]=pts[(i+1)%pts.length],length=Math.hypot(nx-x,nz-z),cx=(x+nx)/2,cz=(z+nz)/2,bottom=Math.min(ground(x,z),ground(nx,nz))-.2;
-    const holes=i===0&&length>1.5?[{x:0,width:Math.min(1.2,length*.4),height:Math.min(2.2,H-.2),bottom:base-bottom}]:[];
-    const q=wallSurfaceMesh(length,base+H-bottom,.3,holes,.05),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.stone,cx,bottom,cz,Math.atan2(-(nz-z),nx-x));
+    const[x,z]=pts[i],[nx,nz]=pts[(i+1)%pts.length],length=Math.hypot(nx-x,nz-z),cx=(x+nx)/2,cz=(z+nz)/2,bottom=Math.min(ground(x,z),ground(nx,nz))-.2,r=Math.atan2(-(nz-z),nx-x);
+    const holes:any[]=i===0&&length>1.5?[{x:0,width:Math.min(1.2,length*.4),height:Math.min(2.2,H-.2),bottom:base-bottom}]:[];
+    if(length>3.2&&i===2)for(let k=0;k<Math.max(1,Math.floor(length/3.3));k++){const count=Math.max(1,Math.floor(length/3.3));holes.push({x:-length/2+(k+.5)*length/count,width:.65,height:.9,bottom:base-bottom+Math.min(2.6,H-1.2)});}
+    const q=wallSurfaceMesh(length,base+H-bottom,.3,holes,.05),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.stone,cx,bottom,cz,r);
+    for(const h of holes){const xx=cx+h.x*Math.cos(r),zz=cz-h.x*Math.sin(r);emit(new THREE.BoxGeometry(h.width+.18,.13,.36),mat.lime,xx,bottom+h.bottom+h.height+.065,zz,r);if(h.bottom<base-bottom+.1)emit(new THREE.BoxGeometry(h.width-.04,h.height-.04,.07),mat.wood,xx,bottom+h.bottom+h.height/2,zz,r);}
    }
-   const shape=new THREE.Shape(pts.map(([x,z])=>new THREE.Vector2(x,-z))),roof=new THREE.ShapeGeometry(shape);roof.rotateX(-Math.PI/2);emit(roof,mat.tile,0,base+H,0);
+   const roof=tracedRoof(pts,base+H);
+   const face=(poly:number[][],m:THREE.Material,up=false)=>{const p:number[]=[];for(let i=1;i<poly.length-1;i++){let tri=[poly[0],poly[i],poly[i+1]];if(up&&(tri[1][2]-tri[0][2])*(tri[2][0]-tri[0][0])-(tri[1][0]-tri[0][0])*(tri[2][2]-tri[0][2])<0)tri=[tri[0],tri[2],tri[1]];p.push(...tri.flat());}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(p,3));g.computeVertexNormals();emit(g,m);};
+   roof.slopes.forEach((p:number[][])=>face(p,mat.tile,true));roof.gables.forEach((p:number[][])=>{face(p,mat.stone);face([...p].reverse(),mat.stone);});
   }else if(s.kind==='stonehouse'){
    // Edifici existent el 1748 al plànol de Marín (hostal, capella, quarters): cos de pedra amb coberta a dues aigües. Alçada, obertures i coberta C.
    const w=s.width,d=s.depth,H=s.height,Tm=.6,rise=Math.min(2.2,w*.22),base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.05;

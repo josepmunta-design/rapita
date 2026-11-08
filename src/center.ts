@@ -232,7 +232,7 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
   }
   const additions=new THREE.Group();additions.name='Mançana · pou d’assaig';
   const manzana=housing.structures.find(s=>s.id==='manzana-shared')!;
-  const wellH=sampleHeight(meta,heights,valid,manzana.anchor.easting,manzana.anchor.northing)!;
+  const wellH=manzana.terrain.technicalBaseElevation;
   additions.position.fromArray(toWorld(manzana.anchor.easting,manzana.anchor.northing,wellH,meta.origin));
   const curb=new THREE.Mesh(new THREE.LatheGeometry([[.7,0],[.95,0],[.85,.85],[.7,.85],[.7,0]].map(p=>new THREE.Vector2(...p)),20),materials.stone);additions.add(curb);
   const rim=new THREE.Mesh(new THREE.TorusGeometry(.85,.11,6,20),materials.stone);rim.rotation.x=Math.PI/2;rim.position.y=.85;additions.add(rim);root.add(additions);

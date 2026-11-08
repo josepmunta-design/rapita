@@ -1,3 +1,4 @@
+import {manzanaPlan,VILLAGE_EVIDENCE} from './village-plan.mjs';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {wallSurfaceMesh,planToUTM} from './building-plan.mjs';
@@ -88,17 +89,43 @@ export function makeHousing(data:Housing,meta:Terrain,heights:Float32Array,valid
       box(h.x,h.bottom+.86,z+.62,h.width+.3,.03,.035,palette.iron);
     };
     if(s.kind==='shared-courtyard'){
-      const w=s.width,d=s.depth,t=s.wingDepth!;
-      const wing=(x:number,z:number,L:number,D:number,rotation:number,units:number)=>{
+      const w=s.width,d=s.depth,t=s.wingDepth!,plan=manzanaPlan(s);
+      house.userData.evidence=VILLAGE_EVIDENCE.manzana;house.userData.countedUnits=24;
+      house.userData.floorElevation=s.terrain.technicalBaseElevation;
+      // Level study courtyard and access steps are technical supports over the modern MDT.
+      // They do not document a historical pavement or staircase.
+      box(0,-.06,0,w-2*t,.12,d-2*t,palette.soil);
+      const run=6,approach=localGround(0,d/2+run),steps=Math.max(1,Math.ceil(Math.max(0,-approach)/.2)),walkSurfaces:any[]=[];
+      for(let k=0;k<steps;k++){
+        const z=d/2+run-(k+.5)*run/steps,y=approach+(k+1)/steps*(-approach),bottom=Math.min(localGround(-plan.passage/2,z),localGround(plan.passage/2,z))-.06;
+        box(0,(y+bottom)/2,z,plan.passage,Math.max(.06,y-bottom),run/steps,palette.technical);
+        const poly=[[-plan.passage/2,z+run/steps/2],[plan.passage/2,z+run/steps/2],[plan.passage/2,z-run/steps/2],[-plan.passage/2,z-run/steps/2]];
+        walkSurfaces.push({polygon:poly.map(([x,z])=>planToUTM(x,z,s.anchor,s.frontAzimuthDegrees)),elevation:s.terrain.technicalBaseElevation+y});
+      }
+      house.userData.walkSurfaces=walkSurfaces;
+      const wing=(x:number,z:number,L:number,D:number,rotation:number,units:number,frontWing=false,ovenWing=false)=>{
         const holes:Hole[]=[];for(let i=0;i<units;i++){const a=-L/2+(i+.5)*L/units;holes.push({x:a,width:1,height:1.9,bottom:0},{x:a,width:.9,height:1.15,bottom:3.5});}
-        // The four wings share one technical identifier; they do not become 24 detached houses.
+        const entry={x:0,width:plan.passage,height:2.65,bottom:0},oven={x:0,width:1.5,height:1.25,bottom:.35};
         const local=new THREE.Matrix4().makeRotationY(rotation),transform=(a:number,b:number)=>new THREE.Vector3(a,0,b).applyMatrix4(local).add(new THREE.Vector3(x,0,z));
         const pts=[[-L/2,D/2],[L/2,D/2],[L/2,-D/2],[-L/2,-D/2]].map(p=>{const q=transform(p[0],p[1]);return[q.x,q.z];});foundation(pts);
         const H=s.wallHeight,T=s.wallThickness;
-        for(let e=0;e<4;e++)segment(pts[e],pts[(e+1)%4],H,T,e===0?holes:[],e===1||e===3);
+        // Doors on the courtyard side serve the same 24 shared units, not 24 extra houses.
+        for(let e=0;e<4;e++)segment(pts[e],pts[(e+1)%4],H,T,e===0?[...holes,...(frontWing?[entry]:[])]:e===2?[...holes,...(frontWing?[entry]:ovenWing?[oven]:[])]:[],e===1||e===3);
+        const detail=(u:number,y:number,v:number,W:number,h:number,Dd:number,m:THREE.Material)=>add(new THREE.BoxGeometry(W,h,Dd),m,matrix(x+u*Math.cos(rotation)+v*Math.sin(rotation),y,z-u*Math.sin(rotation)+v*Math.cos(rotation),rotation));
+        for(const sign of[-1,1])for(const h of holes){
+          detail(h.x,h.bottom+h.height+.08,sign*(D/2-.06),h.width+.2,.16,.18,palette.stone);
+          if(h.bottom>0){detail(h.x,h.bottom+h.height/2,sign*(D/2-.1),h.width-.05,h.height-.04,.06,palette.wood);detail(h.x,h.bottom-.06,sign*(D/2),h.width+.18,.12,.22,palette.stone);}
+          else for(let k=0;k<5;k++)detail(h.x-h.width/2+(k+.5)*h.width/5,h.height/2,sign*(D/2-.1),h.width/5-.01,h.height-.04,.07,palette.wood);
+        }
+        if(frontWing)for(const sign of[-1,1])detail(0,2.77,sign*(D/2-.06),plan.passage+.3,.24,.22,palette.stone);
+        if(ovenWing){
+          // Art. 7 locates the bakery opposite the front. Shape, flue and exact bay are C.
+          detail(0,.9,-D/2+.35,2.6,1.8,1,palette.stone);detail(0,.94,-D/2-.015,1.35,1.12,.05,palette.iron);
+          detail(0,H+.8,-D/4,.65,2,.65,palette.stone);detail(0,H+1.82,-D/4,.82,.16,.82,palette.stone);
+        }
         roof(x,z,L,D,H,s.roofRise,rotation);
       };
-      wing(0,d/2-t/2,w,t,0,8);wing(0,-d/2+t/2,w,t,Math.PI,8);
+      wing(0,d/2-t/2,w,t,0,8,true);wing(0,-d/2+t/2,w,t,Math.PI,8,false,true);
       wing(-w/2+t/2,0,d-2*t,t,Math.PI/2,4);wing(w/2-t/2,0,d-2*t,t,-Math.PI/2,4);
     }else{
       const fw=s.frontWidth??s.width,bw=s.backWidth??s.width,fz=s.frontZ??s.depth/2,bz=s.backZ??-s.depth/2,T=s.wallThickness,H=s.group==='royal-portico'?PORXO_STUDY.rearBodyHeight:s.wallHeight;

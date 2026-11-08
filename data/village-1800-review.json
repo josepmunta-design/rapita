@@ -1,0 +1,101 @@
+{
+  "version": "0.14.0",
+  "reviewDate": "2026-11-08",
+  "scope": "Edificis quotidians, serveis i recinte antic de la vila cap al1800",
+  "improvedVariants": 24,
+  "improvedVisibleIn1800": 22,
+  "addedIndependentResidentialBuildings": 0,
+  "inventory": {
+    "royalUnits": 81,
+    "royalStudyBodies": 58,
+    "privateMixedUnits": 38,
+    "totalMixedRecords": 119,
+    "independentBuildingCount": null
+  },
+  "changes": [
+    {
+      "ids": [
+        "ferreria-vella",
+        "ferreria-nova",
+        "guardes-rendes-1",
+        "guardes-rendes-2",
+        "casa-administrador",
+        "sanitat-antiga",
+        "cases-assentistes-1",
+        "cases-assentistes-2",
+        "forn-moli-guix"
+      ],
+      "change": "Façanes amb obertures reals, llindes, fusteries, reixes, ràfecs i coberta de teula; ferreria amb fogar, campana i enclusa.",
+      "evidence": "H01 pp.159–162; N112 pp.211–212,224 i art.5 p.231; evidència individual conservada a urban-fabric.json",
+      "confidence": "Ús documental; alçats i detall C."
+    },
+    {
+      "ids": [
+        "hostal-1748",
+        "capella-1748",
+        "cuartel-caballeria-1748",
+        "cuartel-infanteria-1748",
+        "cuartel-caballeria-1748-2",
+        "cuartel-caballeria-1748-3",
+        "cuartel-infanteria-1748-2",
+        "cuartel-infanteria-1748-3"
+      ],
+      "change": "Cobertes inclinades adaptades als quatre vèrtexs de cada cos, portes i finestres. Cap canvi a la traça A–G.",
+      "evidence": "N112 il·l.1 p.197; projecte de Miguel Marín, agost 1748, AGMM PL T-6/5; redibuix interpretatiu aportat",
+      "confidence": "Traça i georeferenciació d’assaig conservades; cobertes i obertures C."
+    },
+    {
+      "ids": [
+        "quarters",
+        "old-inn",
+        "old-customs",
+        "health"
+      ],
+      "change": "Fonda Vella, duana, Sanitat i allotjament de servei amb façanes i cobertes desenvolupades, sense annexos nous.",
+      "evidence": "N112 art.5,16,18 i anàlisi pp.211–212; H01; correspondència cadastral no resolta",
+      "confidence": "Usos documentats; planta, emplaçament individual, alçat i permanència C."
+    },
+    {
+      "ids": [
+        "manzana-shared"
+      ],
+      "change": "Portal passant, façanes del pati, forn al tram oposat al front i pati accessible. Es manté el pou existent i les 24 habitacions compartides.",
+      "evidence": "Relació del 20/5/1794, art.7, transcrita a N112 p.231",
+      "confidence": "Usos i relacions documentats; portal, ubicació de cada cambra, forma del forn i detalls C."
+    },
+    {
+      "ids": [
+        "tinglado"
+      ],
+      "change": "Cinc arcs d’obertura, dotze pilars al primer cos i nou al segon; estructura de fusta i cobertura parcial.",
+      "evidence": "N112 pp.215,226; ACA RP BGRP Cajas33, informe novembre1785–juliol1786",
+      "confidence": "Quantitats documentades; distribució, perfils i volum C. Desmuntatge sense data coneguda."
+    },
+    {
+      "ids": [
+        "molinet"
+      ],
+      "change": "Accés obert al recinte de les dues moles; conserva l’estat sense coberta.",
+      "evidence": "Relació del20/5/1794, art.30, N112 p.234",
+      "confidence": "Dues moles i obra pendent documentades; forma i situació del portal C. No es data la posada en servei."
+    }
+  ],
+  "unchanged": [
+    "Emplaçaments i plantes documentals d’assaig",
+    "MDT i màscares de terreny",
+    "Cronologia i estats d’obra",
+    "Inventari residencial"
+  ],
+  "notPlaced": [
+    "38 registres privats sense conciliació individual: no equivalen a38 cases addicionals",
+    "Casa dels bous a l’Horta Vella: emplaçament individual desconegut",
+    "Rajolar de la Rabosa: planta i solar desconeguts"
+  ],
+  "primaryWitness": {
+    "date": "1794-05-20",
+    "archive": "ACA RP BGRP Cajas60",
+    "transcription": "Pilar Reverté Vidal, Recerca20(2024), pp.230–234",
+    "local": "docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
+  },
+  "technicalAccess": "Pati anivellat i graons grisos sobre el MDT actual, amb pou i materials a la mateixa cota. Suports reversibles; paviment, terraplè i escala històrics desconeguts."
+}
