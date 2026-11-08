@@ -1,10 +1,12 @@
 # Molí fariner del Molinet
 
-Revisió: **31/10/2026** · molí. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **08/11/2026** · molí. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
 ## Col·locació
+
+Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa.
 
 Al final del canal vell, immediat a la platja del port, zona anomenada Molinet; no al centre de plaça ni al tram modern de resclosa.
 
@@ -16,9 +18,7 @@ Certesa: B relacional / C mètrica.
 
 ### Posicions actuals del visor · EPSG:25831
 
-| Model | Lletra | E (m) | N (m) | Estat |
-|---|---|---:|---:|---|
-| molinet | — | 296592.000 | 4499448.000 | Model d’assaig |
+Sense model emplaçat al visor. La posició anterior rebutjada es conserva a [registre de revisió](posicio-rebutjada-20261108.json).
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

@@ -1,11 +1,11 @@
 {
   "name": "rapita-1800",
   "private": true,
-  "version": "0.14.0",
+  "version": "0.14.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "node scripts/check-coastal-buildings.mjs --report && tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "data:prepare": "python scripts/prepare-pilar.py && node scripts/prepare-terrain.mjs && node scripts/prepare-esglesia.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-landmarks.mjs && node scripts/prepare-montsia.mjs && node scripts/prepare-urban.mjs && node scripts/prepare-faro.mjs && node scripts/prepare-casotes.mjs && node scripts/prepare-porxos.mjs && node scripts/build-dossiers.mjs && python scripts/prepare-dossier-images.py && node scripts/prepare-reference-overlay.mjs && node scripts/build-research.mjs",
     "data:detail": "node scripts/prepare-esglesia.mjs",
@@ -24,7 +24,8 @@
     "data:overlay": "node scripts/prepare-reference-overlay.mjs",
     "data:faro": "node scripts/prepare-urban.mjs && node scripts/prepare-faro.mjs && node scripts/build-dossiers.mjs",
     "data:casotes": "node scripts/prepare-urban.mjs && node scripts/prepare-casotes.mjs && node scripts/build-dossiers.mjs",
-    "data:research": "node scripts/build-research.mjs"
+    "data:research": "node scripts/build-research.mjs",
+    "data:coast-audit": "node scripts/check-coastal-buildings.mjs --report"
   },
   "dependencies": {
     "three": "0.187.0"

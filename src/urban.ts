@@ -1,3 +1,4 @@
+import {workerHutsPlan} from './coastal-buildings.mjs';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {wallSurfaceMesh} from './building-plan.mjs';
@@ -93,8 +94,8 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
    for(const z of[-d/2-2,d/2+2])box(w/2+2.5,base+.8,z,.3,1.6,.3,mat.wood);
   }else if(s.kind==='barracks'){
    // Dotze barraques a la valenciana en dues fileres, d'assaig C.
-   for(let i=0;i<12;i++){
-    const col=i%6,row=Math.floor(i/6),x=-s.width/2+2.6+col*(s.width-5.2)/5,z=-s.depth/2+2.2+row*(s.depth-4.4),y=ground(x,z);
+   for(const hut of workerHutsPlan(s)){
+    const {x,z}=hut,y=ground(x,z);
     const w=3.4,d=4.2,eave=1.15,ridge=s.height,g=new THREE.BufferGeometry();
     const v=[[-w/2,eave,-d/2],[w/2,eave,-d/2],[0,ridge,-d/2],[-w/2,eave,d/2],[w/2,eave,d/2],[0,ridge,d/2]];
     g.setAttribute('position',new THREE.Float32BufferAttribute([0,3,2,2,3,5,1,2,4,2,5,4,0,2,1,3,4,5].flatMap(k=>v[k]),3));g.computeVertexNormals();

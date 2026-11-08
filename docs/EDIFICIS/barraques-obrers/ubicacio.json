@@ -16,31 +16,34 @@
     {
       "modelId": "barraques-obrers",
       "anchor": [
-        296604,
-        4499488
+        296591.5846072885,
+        4499496.690211284
       ],
       "footprintUTM": [
         [
-          296587.86381243926,
-          4499487.210410863
+          296587.89854288724,
+          4499480.960846095
         ],
         [
-          296616.2293697073,
-          4499477.4433662295
+          296605.1016643986,
+          4499505.538327868
         ],
         [
-          296620.13618756074,
-          4499488.789589137
+          296595.2706716897,
+          4499512.419576473
         ],
         [
-          296591.7706302927,
-          4499498.5566337705
+          296578.0675501783,
+          4499487.8420947
         ]
       ],
-      "alongAzimuthDegrees": null,
+      "alongAzimuthDegrees": -55.00972549113828,
       "planLetter": null,
       "projectOnly": false,
-      "positionSource": null,
+      "positionSource": {
+        "text": "N029, 13/11/1780: dotze barraques a les vores del canal. Dues fileres paral·leles a la riba occidental del canal d’assaig; separació, costat i lloc individual C. El conjunt no travessa el llit ni altera el traçat de l’aigua.",
+        "precisionMeters": 30
+      },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
     }

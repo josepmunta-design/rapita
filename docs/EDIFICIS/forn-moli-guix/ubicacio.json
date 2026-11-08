@@ -16,31 +16,34 @@
     {
       "modelId": "forn-moli-guix",
       "anchor": [
-        296547,
-        4499389
+        296496.5276864458,
+        4499268.913076241
       ],
       "footprintUTM": [
         [
-          296542.24122123426,
-          4499387.465716891
+          296491.76890768006,
+          4499267.378793132
         ],
         [
-          296549.805369839,
-          4499384.861171655
+          296499.3330562848,
+          4499264.774247896
         ],
         [
-          296551.75877876574,
-          4499390.534283109
+          296501.28646521154,
+          4499270.44735935
         ],
         [
-          296544.194630161,
-          4499393.138828345
+          296493.7223166068,
+          4499273.051904585
         ]
       ],
-      "alongAzimuthDegrees": null,
+      "alongAzimuthDegrees": 19,
       "planLetter": null,
       "projectOnly": false,
-      "positionSource": null,
+      "positionSource": {
+        "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
+        "precisionMeters": 15
+      },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
     }

@@ -1,8 +1,8 @@
 {
   "entityId": "forn-moli-guix",
-  "captureDate": "2026-10-31",
+  "captureDate": "2026-11-08",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
-  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "warning": "Paràmetres del prototip 0.14.1. Posicions d’assaig C; no són mesures històriques.",
   "snapshots": [
     {
       "file": "public/data/urban-fabric.json",
@@ -13,37 +13,53 @@
         "chimney": true,
         "fromYear": 1782,
         "utmAnchor": [
-          296547,
-          4499389
+          296496.5276864458,
+          4499268.913076241
         ],
         "width": 8,
         "depth": 6,
         "height": 3.6,
-        "evidence": "N112 p.211 i 224: forn i molí de guix esmentats com a límit nord de la Fonda Vella en la concessió de 1782. Forma i solar propis desconeguts: volum de servei C.",
+        "evidence": "N112 p.211 i 224: forn i molí de guix al límit nord de Fonda Vella en la concessió de 1782. Solar individual desconegut. Volum C recol·locat en relació amb la fonda, sense modificar la costa.",
+        "alongAzimuthDegrees": 19,
+        "relationalPlacement": {
+          "relativeTo": "old-inn",
+          "side": "north",
+          "offsetLocalMeters": [
+            0,
+            -16
+          ],
+          "gapMeters": 3,
+          "geometryConfidence": "C",
+          "source": "N112 p.211 · concessió de 1782; p.224"
+        },
+        "positionSource": {
+          "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
+          "precisionMeters": 15
+        },
         "anchor": [
-          296547,
-          4499389
+          296496.5276864458,
+          4499268.913076241
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 2.115070616006851,
+        "technicalBaseElevation": 2.2410146446546655,
         "footprintUTM": [
           [
-            296542.24122123426,
-            4499387.465716891
+            296491.76890768006,
+            4499267.378793132
           ],
           [
-            296549.805369839,
-            4499384.861171655
+            296499.3330562848,
+            4499264.774247896
           ],
           [
-            296551.75877876574,
-            4499390.534283109
+            296501.28646521154,
+            4499270.44735935
           ],
           [
-            296544.194630161,
-            4499393.138828345
+            296493.7223166068,
+            4499273.051904585
           ]
         ]
       }

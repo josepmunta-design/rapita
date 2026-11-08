@@ -1,3 +1,4 @@
+import {alignGypsumToInn,alignWorkerCampToBank,alignHealthToQuay} from '../src/coastal-buildings.mjs';
 import {readFile,writeFile} from 'node:fs/promises';
 import {referenceTown,referenceUTM} from '../src/reference-layout.mjs';
 const root=new URL('../',import.meta.url),json=async p=>JSON.parse(await readFile(new URL(p,root),'utf8')),save=async(p,d)=>writeFile(new URL(p,root),JSON.stringify(d,null,2)+'\n');
@@ -33,6 +34,7 @@ const trace=ref.shore.map(utm);lit.coast1748Trace??=lit.roquerCoast;lit.roquerCo
 const big=ref.largeBasin.map(utm),bb=bounds(big),mouth=utm([376,400]);lit.basins=[{id:'small',center:mouth,width:10,length:12,polygonUTM:[utm([366,387]),utm([390,393]),utm([382,413]),utm([360,406])],name:'Boca del braç del canal · no una segona dàrsena independent'},{id:'large',center:[bb.cx,bb.cy],width:bb.w,length:bb.d,polygonUTM:big,name:'Dàrsena gran · port de 1800'}];
 lit.portWorks={source:ref.source,breakwaters:ref.breakwaters.map(poly=>poly.map(utm)),width:4.2,top:1.3,dockProps:[[325,534],[339,539],[353,544],[367,548]].map(utm)};
 const health=lit.sites.find(s=>s.id==='health');health.anchor=utm([309,529]);health.alongAzimuthDegrees=frame.alongAzimuthDegrees;delete health.footprintUTM;
+alignGypsumToInn(urban,lit);alignWorkerCampToBank(urban,lit);alignHealthToQuay(lit);
 for(const[id,key]of[['rampa-nord','rampNorth'],['rampa-sud','rampSouth'],['rampa-roquer','rampLong']]){const r=urban.routes.find(r=>r.id===id);delete r.townPoints;r.utmPoints=ref[key].map(utm);r.evidence=r.evidence.split(' Ajust relacional N112')[0]+' Ajust relacional N112 il·l.4 (01/11/2026).';}
 const ramp=urban.routes.find(s=>s.id==='rampar');ramp.townPoints=[[121,145],[121,45],[125,0],[140,-15]];delete ramp.utmPoints;
 urban.routes.find(s=>s.id==='rambla').townPoints=[[-132,-142],[-132,144],[0,144]];

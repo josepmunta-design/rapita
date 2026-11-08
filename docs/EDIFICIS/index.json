@@ -408,9 +408,7 @@
       "parentDossier": null,
       "path": "molinet/README.md",
       "phasePath": "molinet/fases.json",
-      "modelIds": [
-        "molinet"
-      ]
+      "modelIds": []
     },
     {
       "id": "rajolar",

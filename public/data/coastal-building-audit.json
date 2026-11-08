@@ -1,0 +1,899 @@
+{
+  "year": 1800,
+  "buildings": 89,
+  "footprints": 104,
+  "samples": 17587,
+  "unsupportedBuildings": [],
+  "entries": [
+    {
+      "id": "ferreria-nova",
+      "name": "Ferreria de la Fonda Vella",
+      "footprints": 1,
+      "samples": 85,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 27.3874407572246,
+      "firstUnsupported": null
+    },
+    {
+      "id": "guardes-rendes-1",
+      "name": "Casa dels guardes de rendes · 1",
+      "footprints": 1,
+      "samples": 56,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 112.67458567117875,
+      "firstUnsupported": null
+    },
+    {
+      "id": "guardes-rendes-2",
+      "name": "Casa dels guardes de rendes · 2",
+      "footprints": 1,
+      "samples": 56,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 100.02833714396192,
+      "firstUnsupported": null
+    },
+    {
+      "id": "casa-administrador",
+      "name": "Casa de l’administrador de rendes",
+      "footprints": 1,
+      "samples": 78,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 3.1679995356364365,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cases-assentistes-1",
+      "name": "Cases dels assentistes de la bateria · cos 1",
+      "footprints": 1,
+      "samples": 71,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 118.34101731703481,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cases-assentistes-2",
+      "name": "Cases dels assentistes de la bateria · cos 2",
+      "footprints": 1,
+      "samples": 71,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 111.76908110149309,
+      "firstUnsupported": null
+    },
+    {
+      "id": "tinglado",
+      "name": "Tinglado i tallers coberts",
+      "footprints": 1,
+      "samples": 286,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 109.92485056137524,
+      "firstUnsupported": null
+    },
+    {
+      "id": "forn-moli-guix",
+      "name": "Forn i molí de guix",
+      "footprints": 1,
+      "samples": 78,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 26.995341801385177,
+      "firstUnsupported": null
+    },
+    {
+      "id": "barraques-obrers",
+      "name": "Barraques i tendes de les obres",
+      "footprints": 12,
+      "samples": 384,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 116.95182382885832,
+      "firstUnsupported": null
+    },
+    {
+      "id": "hostal-1748",
+      "name": "Hostal del recinte del convent",
+      "footprints": 1,
+      "samples": 14,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 98.13289950485257,
+      "firstUnsupported": null
+    },
+    {
+      "id": "capella-1748",
+      "name": "Capella de les monges Santjoanistes",
+      "footprints": 1,
+      "samples": 38,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 120.0257472907046,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-caballeria-1748",
+      "name": "Quarter de cavalleria del recinte",
+      "footprints": 1,
+      "samples": 48,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 106.48267685940405,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-infanteria-1748",
+      "name": "Quarter d'infanteria del recinte",
+      "footprints": 1,
+      "samples": 35,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 109.69245606360481,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-caballeria-1748-2",
+      "name": "Quarter de cavalleria · cambra central",
+      "footprints": 1,
+      "samples": 29,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 114.92406803350562,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-caballeria-1748-3",
+      "name": "Quarter de cavalleria · cambra occidental",
+      "footprints": 1,
+      "samples": 28,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 108.38425883185803,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-infanteria-1748-2",
+      "name": "Quarter d’infanteria · cambra central",
+      "footprints": 1,
+      "samples": 38,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 114.43256679556909,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cuartel-infanteria-1748-3",
+      "name": "Quarter d’infanteria · cambra meridional",
+      "footprints": 1,
+      "samples": 38,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 113.69531493824073,
+      "firstUnsupported": null
+    },
+    {
+      "id": "battery",
+      "name": "Bateria del Roquer",
+      "footprints": 1,
+      "samples": 1198,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 33.37901767041891,
+      "firstUnsupported": null
+    },
+    {
+      "id": "tower",
+      "name": "Torre de la Ràpita",
+      "footprints": 1,
+      "samples": 100,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 87.20648947389812,
+      "firstUnsupported": null
+    },
+    {
+      "id": "quarters",
+      "name": "Dependències de la guarnició",
+      "footprints": 1,
+      "samples": 80,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 72.61368576875188,
+      "firstUnsupported": null
+    },
+    {
+      "id": "kiln",
+      "name": "Forn de maons",
+      "footprints": 1,
+      "samples": 45,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 73.42223546468185,
+      "firstUnsupported": null
+    },
+    {
+      "id": "old-inn",
+      "name": "Fonda Vella",
+      "footprints": 1,
+      "samples": 306,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 20.83077730576171,
+      "firstUnsupported": null
+    },
+    {
+      "id": "old-customs",
+      "name": "Duana antiga",
+      "footprints": 1,
+      "samples": 129,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 34.29884971607687,
+      "firstUnsupported": null
+    },
+    {
+      "id": "health",
+      "name": "Caseta de Sanitat i molls",
+      "footprints": 1,
+      "samples": 40,
+      "unsupported": 0,
+      "quaySamples": 40,
+      "minimumShoreDistance": -17.04035939880045,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-01",
+      "name": "royal-finished-01",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 138.25422256999266,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-02",
+      "name": "royal-finished-02",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 136.95415791503143,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-03",
+      "name": "royal-finished-03",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 135.65409326018562,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-04",
+      "name": "royal-finished-04",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 135.23561629687953,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-05",
+      "name": "royal-finished-05",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 133.935551641976,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-06",
+      "name": "royal-finished-06",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 132.63548698695703,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-07",
+      "name": "royal-finished-07",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 132.21701002365091,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-08",
+      "name": "royal-finished-08",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 130.91694536880513,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-09",
+      "name": "royal-finished-09",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 129.61688071378182,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-10",
+      "name": "royal-finished-10",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 129.1984037505955,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-11",
+      "name": "royal-finished-11",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 127.89833909557218,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-12",
+      "name": "royal-finished-12",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 82.63757197243822,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-13",
+      "name": "royal-finished-13",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 82.21909500913212,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-14",
+      "name": "royal-finished-14",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 80.9190303542286,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-15",
+      "name": "royal-finished-15",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 79.61896569932509,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-16",
+      "name": "royal-finished-16",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 79.20048873607671,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-17",
+      "name": "royal-finished-17",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 77.90042408117317,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-18",
+      "name": "royal-finished-18",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 76.60035942609649,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-19",
+      "name": "royal-finished-19",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 76.1818824628481,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-finished-20",
+      "name": "royal-finished-20",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 74.88181780794459,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-01",
+      "name": "royal-covered-01",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 145.99034482271725,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-02",
+      "name": "royal-covered-02",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 146.95805926225648,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-03",
+      "name": "royal-covered-03",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 148.08896509463187,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-04",
+      "name": "royal-covered-04",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 150.22911018000278,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-05",
+      "name": "royal-covered-05",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 151.66501226770518,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-06",
+      "name": "royal-covered-06",
+      "footprints": 1,
+      "samples": 92,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 153.25125234995835,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-covered-07",
+      "name": "royal-covered-07",
+      "footprints": 1,
+      "samples": 86,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 155.80240790668208,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-01",
+      "name": "royal-portico-01",
+      "footprints": 1,
+      "samples": 116,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 123.94318835249636,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-02",
+      "name": "royal-portico-02",
+      "footprints": 1,
+      "samples": 116,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 124.37404170774371,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-03",
+      "name": "royal-portico-03",
+      "footprints": 1,
+      "samples": 115,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 127.43070073638707,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-04",
+      "name": "royal-portico-04",
+      "footprints": 1,
+      "samples": 117,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 131.50652639724078,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-05",
+      "name": "royal-portico-05",
+      "footprints": 1,
+      "samples": 117,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 133.8814016374267,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-06",
+      "name": "royal-portico-06",
+      "footprints": 1,
+      "samples": 115,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 145.84018094552417,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-07",
+      "name": "royal-portico-07",
+      "footprints": 1,
+      "samples": 117,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 154.5166342242829,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-08",
+      "name": "royal-portico-08",
+      "footprints": 1,
+      "samples": 120,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 163.64187669115054,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-09",
+      "name": "royal-portico-09",
+      "footprints": 1,
+      "samples": 117,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 170.13644210523063,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-10",
+      "name": "royal-portico-10",
+      "footprints": 1,
+      "samples": 118,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 176.1471586432569,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-11",
+      "name": "royal-portico-11",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 178.51224592797698,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-12",
+      "name": "royal-portico-12",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 179.09276804536006,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-13",
+      "name": "royal-portico-13",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 179.6925944102154,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-portico-14",
+      "name": "royal-portico-14",
+      "footprints": 1,
+      "samples": 91,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 179.74614822484634,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-01",
+      "name": "royal-small-coast-01",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 37.11530731269982,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-02",
+      "name": "royal-small-coast-02",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 39.20994941665118,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-03",
+      "name": "royal-small-coast-03",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 40.20743918645101,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-04",
+      "name": "royal-small-coast-04",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 37.719163222528834,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-05",
+      "name": "royal-small-coast-05",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 50.944396274507426,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-06",
+      "name": "royal-small-coast-06",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 50.395419528479366,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-07",
+      "name": "royal-small-coast-07",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 49.84644278239864,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-08",
+      "name": "royal-small-coast-08",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 49.297466036054644,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-09",
+      "name": "royal-small-coast-09",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 51.18168268186377,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-10",
+      "name": "royal-small-coast-10",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 54.01394913963466,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-11",
+      "name": "royal-small-coast-11",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 56.846215597098144,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-12",
+      "name": "royal-small-coast-12",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 59.67848205461854,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-13",
+      "name": "royal-small-coast-13",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 62.510748512195896,
+      "firstUnsupported": null
+    },
+    {
+      "id": "royal-small-coast-14",
+      "name": "royal-small-coast-14",
+      "footprints": 1,
+      "samples": 55,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 65.34301496971632,
+      "firstUnsupported": null
+    },
+    {
+      "id": "manzana-shared",
+      "name": "manzana-shared",
+      "footprints": 1,
+      "samples": 3444,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 122.2871425366756,
+      "firstUnsupported": null
+    },
+    {
+      "id": "sant-elm",
+      "name": "Oratori de Sant Elm",
+      "footprints": 1,
+      "samples": 511,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 182.39158247196616,
+      "firstUnsupported": null
+    },
+    {
+      "id": "placa-coberta",
+      "name": "Plaça coberta · Casa Laureano",
+      "footprints": 1,
+      "samples": 323,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 111.75763797449835,
+      "firstUnsupported": null
+    },
+    {
+      "id": "fonda-nova",
+      "name": "Fonda Nova de la plaça",
+      "footprints": 3,
+      "samples": 1794,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 25.27005448279641,
+      "firstUnsupported": null
+    },
+    {
+      "id": "duana-nova",
+      "name": "Duana nova del Coc",
+      "footprints": 1,
+      "samples": 616,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 42.6228095713441,
+      "firstUnsupported": null
+    },
+    {
+      "id": "casa-white",
+      "name": "Magatzems de Josep White",
+      "footprints": 1,
+      "samples": 616,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 8.896763300810795,
+      "firstUnsupported": null
+    },
+    {
+      "id": "cases-talavera",
+      "name": "Dues cases de Ramon Talavera",
+      "footprints": 3,
+      "samples": 1982,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 14.303104824606311,
+      "firstUnsupported": null
+    },
+    {
+      "id": "glorieta",
+      "name": "La Glorieta · la Capelleta",
+      "footprints": 1,
+      "samples": 130,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 1010.9778965809382,
+      "firstUnsupported": null
+    },
+    {
+      "id": "guardiola",
+      "name": "Torre de la Guardiola",
+      "footprints": 1,
+      "samples": 59,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 1131.9389679597807,
+      "firstUnsupported": null
+    },
+    {
+      "id": "torre-moro",
+      "name": "Torre del Moro I / Torre de Magin",
+      "footprints": 1,
+      "samples": 64,
+      "unsupported": 0,
+      "quaySamples": 0,
+      "minimumShoreDistance": 1500.5875217363937,
+      "firstUnsupported": null
+    }
+  ]
+}

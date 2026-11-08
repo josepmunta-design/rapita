@@ -1,0 +1,105 @@
+{
+  "reviewDate": "2026-11-08",
+  "status": "rejected-not-current",
+  "reason": "Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa.",
+  "previousModel": {
+    "entityId": "molinet",
+    "captureDate": "2026-10-31",
+    "confidence": "C excepte observacions expressament identificades a les dades originals",
+    "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+    "snapshots": [
+      {
+        "file": "public/data/urban-fabric.json",
+        "data": {
+          "id": "molinet",
+          "name": "Molí fariner del Molinet",
+          "kind": "mill",
+          "fromYear": 1794,
+          "utmAnchor": [
+            296592,
+            4499448
+          ],
+          "width": 10,
+          "depth": 8,
+          "height": 3.6,
+          "evidence": "N112 art. 30 p.234: molí de dues moles amb conducte i rastellador; el 1794 manca tancar i cobrir l’edifici. Es mostra sense coberta. Situat al final del canal, vora la platja del port; planta i mecanisme C (plànol PARES1679817 no recuperat). L’ordre d’acabament de 1794 no prova la posada en servei.",
+          "anchor": [
+            296592,
+            4499448
+          ],
+          "historicalFootprint": null,
+          "historicalHeight": null,
+          "inventoryIncrement": 0,
+          "technicalBaseElevation": 1.864924370050428,
+          "footprintUTM": [
+            [
+              296585.9701345042,
+              4499445.84576647
+            ],
+            [
+              296595.42532026017,
+              4499442.590084925
+            ],
+            [
+              296598.0298654958,
+              4499450.15423353
+            ],
+            [
+              296588.57467973983,
+              4499453.409915075
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "previousPosition": {
+    "entityId": "molinet",
+    "historicalEvidence": {
+      "description": "Al final del canal vell, immediat a la platja del port, zona anomenada Molinet; no al centre de plaça ni al tram modern de resclosa.",
+      "historicalCoordinates": null,
+      "georeferencedHistoricalFootprint": null,
+      "confidence": "B relacional / C mètrica",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.3 art.30"
+        }
+      ]
+    },
+    "studyPositions": [
+      {
+        "modelId": "molinet",
+        "anchor": [
+          296592,
+          4499448
+        ],
+        "footprintUTM": [
+          [
+            296585.9701345042,
+            4499445.84576647
+          ],
+          [
+            296595.42532026017,
+            4499442.590084925
+          ],
+          [
+            296598.0298654958,
+            4499450.15423353
+          ],
+          [
+            296588.57467973983,
+            4499453.409915075
+          ]
+        ],
+        "alongAzimuthDegrees": null,
+        "planLetter": null,
+        "projectOnly": false,
+        "positionSource": null,
+        "source": "public/data/urban-fabric.json",
+        "confidence": "C posició del prototip, no punt històric mesurat"
+      }
+    ],
+    "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "version": "0.14.0",
+  "version": "0.14.1",
   "reviewDate": "2026-11-08",
   "scope": "Edificis quotidians, serveis i recinte antic de la vila cap al1800",
   "improvedVariants": 24,
-  "improvedVisibleIn1800": 22,
+  "improvedVisibleIn1800": 21,
   "addedIndependentResidentialBuildings": 0,
   "inventory": {
     "royalUnits": 81,
@@ -75,7 +75,7 @@
       "ids": [
         "molinet"
       ],
-      "change": "Accés obert al recinte de les dues moles; conserva l’estat sense coberta.",
+      "change": "Model d’estudi de les dues moles conservat sense emplaçament al mapa; posició incorrecta al braç nou rebutjada en la revisió litoral.",
       "evidence": "Relació del20/5/1794, art.30, N112 p.234",
       "confidence": "Dues moles i obra pendent documentades; forma i situació del portal C. No es data la posada en servei."
     }
@@ -97,5 +97,6 @@
     "transcription": "Pilar Reverté Vidal, Recerca20(2024), pp.230–234",
     "local": "docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
   },
-  "technicalAccess": "Pati anivellat i graons grisos sobre el MDT actual, amb pou i materials a la mateixa cota. Suports reversibles; paviment, terraplè i escala històrics desconeguts."
+  "technicalAccess": "Pati anivellat i graons grisos sobre el MDT actual, amb pou i materials a la mateixa cota. Suports reversibles; paviment, terraplè i escala històrics desconeguts.",
+  "placementCorrection": "Vegeu coastal-placement-review.json: el Molinet conserva l’expedient sense emplaçament al mapa."
 }

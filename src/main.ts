@@ -411,7 +411,7 @@ async function start() {
     if(urbanFocus==='casotes-companyia')el('urban-selection').textContent=casotesDescription(sceneYear,urban.casotesComparison,urban.casotesGuards);
 
 
-    el('urban-list').querySelectorAll<HTMLButtonElement>('button').forEach(b=>{const f=[...fabricData.routes,...fabricData.sites,fabricData.ravine].find((f:any)=>f.id===b.dataset.urban);b.disabled=sceneYear<f.fromYear||sceneYear>(f.toYear??Infinity);b.setAttribute('aria-pressed',String(urbanFocus===f.id));});
+    el('urban-list').querySelectorAll<HTMLButtonElement>('button[data-urban]').forEach(b=>{const f=[...fabricData.routes,...fabricData.sites,fabricData.ravine].find((f:any)=>f.id===b.dataset.urban);b.disabled=sceneYear<f.fromYear||sceneYear>(f.toYear??Infinity);b.setAttribute('aria-pressed',String(urbanFocus===f.id));});
     landmarks.setYear(sceneYear);landmarks.root.visible=el<HTMLInputElement>('landmarks-toggle').checked;
     littoral.setYear(sceneYear);earlyTown.setYear(sceneYear);earlyTown.root.visible&&=el<HTMLInputElement>('housing-toggle').checked;
     littoral.routeAnnotation.visible=littoralFocus==='canal'&&interpreted&&ch.showCanal;
@@ -682,6 +682,7 @@ async function start() {
   el('mouth-view').onclick=()=>openLittoral('roquer',{id:'canal-mouth',name:'Desembocadura del canal',kind:'water-connection',anchor:[296610,4499420],radius:45,technicalBaseElevation:.45,state:'Canal, dàrsena i mar units · geometria d’assaig C',evidence:'H02, art. 18–20. La connexió oberta es representa com a hipòtesi C, sense atribuir-li amplada històrica mesurada.'});
   openUrban=(id='$overview')=>{urbanFocus=id;mountainFocus=false;landmarkFocus=null;littoralFocus=null;selectedLittoral=null;laboratory=false;housingFocus=false;centerFocus=false;selectedCenter=null;el<HTMLInputElement>('urban-toggle').checked=true;el<HTMLInputElement>('landscape-toggle').checked=true;activateTab('urban');const f=urbanFeature();el('urban-selection').textContent=f?f.evidence:'Testimonis de 1780, 1782 i 1794. Plantes i traçats C; inventaris sense duplicacions.';updateVisibility();move(urbanTarget().add(urbanOffset()),urbanTarget());setView('oblique');};
   for(const f of[...fabricData.routes,...fabricData.sites,fabricData.ravine]){const b=document.createElement('button');b.className='place-button';b.dataset.urban=f.id;b.innerHTML=`<span class="place-number">↗</span><span class="place-text"><strong>${escape(f.name)}</strong><small>Testimoni ${f.fromYear} · geometria C</small></span>`;b.onclick=()=>openUrban(f.id);el('urban-list').append(b);}
+  for(const f of fabricData.unplacedSites??[]){const b=document.createElement('button');b.className='text-button';b.dataset.unplaced=f.id;b.textContent=f.name+' · ubicació pendent →';b.onclick=()=>panel.open([dossierData.items[f.id]]);el('urban-list').append(b);}
   el('faro-actual').onclick=()=>{urban.setCasotesComparison(false);urban.setCasotesGuards(false);urban.setLighthouseComparison(true);placaPhotoComparison=false;updateVisibility();};
   const exitFaroComparison=()=>{urban.setLighthouseComparison(false);updateVisibility();};
   el('faro-historical').onclick=exitFaroComparison;el('faro-comparison-exit').onclick=exitFaroComparison;

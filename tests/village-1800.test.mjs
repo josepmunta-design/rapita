@@ -24,14 +24,14 @@ test('Mançana entrance crosses both facades physically and in navigation; court
  assert.ok(Math.hypot(...actual.position.map((x,i)=>x-inside[i]))<.03,'modern MDT height difference is crossed with visible technical steps');
  assert.equal(group.userData.countedUnits,24);assert.equal(group.userData.evidence,VILLAGE_EVIDENCE.manzana);assert.equal(data.summary.royalInventoryUnits,81);
 });
-test('five Tinglado arches remain real openings below the spandrels; the mill stays unroofed',()=>{
+test('five Tinglado arches remain real openings below the spandrels',()=>{
  const scene=makeUrban(urban,meta,()=>0),s=urban.sites.find(s=>s.id==='tinglado'),group=scene.groups.get(s.id),aw=s.width*.55;
  group.position.set(0,0,0);group.rotation.set(0,0,0);group.updateMatrixWorld(true);
  for(let i=0;i<5;i++){const x=-s.width/2+.4+(i+.5)*(aw-.8)/5,z=s.depth/2-.4;
   const ray=y=>new THREE.Raycaster(new THREE.Vector3(x,y-s.technicalBaseElevation+.06,z+1),new THREE.Vector3(0,0,-1),.01,1.5).intersectObject(group,true);
   assert.equal(ray(1.6).length,0,'arch '+i+' must be open');assert.ok(ray(s.height-.1).length>0,'arch '+i+' needs a spandrel');
  }
- assert.deepEqual(group.userData.pierCounts,[12,9]);assert.equal(scene.groups.get('molinet').userData.roof,false);assert.equal(scene.groups.get('molinet').userData.millstones,2);
+ assert.deepEqual(group.userData.pierCounts,[12,9]);assert.equal(scene.groups.has('molinet'),false);assert.equal(urban.unplacedSites.find(s=>s.id==='molinet').placementStatus,'unlocated');
 });
 test('pitched roofs retain every traced corner and ridge projection inside each existing quadrilateral',()=>{
  for(const s of urban.sites.filter(s=>s.kind==='stonehouse'&&s.polygonUTM)){

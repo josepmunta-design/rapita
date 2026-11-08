@@ -508,33 +508,35 @@
       "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona."
     },
     {
-      "id": "molinet",
-      "name": "Molí fariner del Molinet",
-      "kind": "mill",
-      "fromYear": 1794,
-      "utmAnchor": [
-        296592,
-        4499448
-      ],
-      "width": 10,
-      "depth": 8,
-      "height": 3.6,
-      "evidence": "N112 art. 30 p.234: molí de dues moles amb conducte i rastellador; el 1794 manca tancar i cobrir l’edifici. Es mostra sense coberta. Situat al final del canal, vora la platja del port; planta i mecanisme C (plànol PARES1679817 no recuperat). L’ordre d’acabament de 1794 no prova la posada en servei."
-    },
-    {
       "id": "forn-moli-guix",
       "name": "Forn i molí de guix",
       "kind": "service-house",
       "chimney": true,
       "fromYear": 1782,
       "utmAnchor": [
-        296547,
-        4499389
+        296496.5276864458,
+        4499268.913076241
       ],
       "width": 8,
       "depth": 6,
       "height": 3.6,
-      "evidence": "N112 p.211 i 224: forn i molí de guix esmentats com a límit nord de la Fonda Vella en la concessió de 1782. Forma i solar propis desconeguts: volum de servei C."
+      "evidence": "N112 p.211 i 224: forn i molí de guix al límit nord de Fonda Vella en la concessió de 1782. Solar individual desconegut. Volum C recol·locat en relació amb la fonda, sense modificar la costa.",
+      "alongAzimuthDegrees": 19,
+      "relationalPlacement": {
+        "relativeTo": "old-inn",
+        "side": "north",
+        "offsetLocalMeters": [
+          0,
+          -16
+        ],
+        "gapMeters": 3,
+        "geometryConfidence": "C",
+        "source": "N112 p.211 · concessió de 1782; p.224"
+      },
+      "positionSource": {
+        "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
+        "precisionMeters": 15
+      }
     },
     {
       "id": "barraques-obrers",
@@ -542,13 +544,29 @@
       "kind": "barracks",
       "fromYear": 1780,
       "utmAnchor": [
-        296604,
-        4499488
+        296591.5846072885,
+        4499496.690211284
       ],
       "width": 30,
       "depth": 12,
       "height": 2.6,
-      "evidence": "N029 (13/11/1780): dotze barraques a la valenciana a les vores del canal; la previsió de 50 no acredita cap altra obra executada. Emplaçaments individuals desconeguts; es mostren dotze peces en dues fileres com a conjunt d’assaig C. Permanència després de 1780 sense verificar."
+      "evidence": "N029 (13/11/1780): dotze barraques a la valenciana a les vores del canal; la previsió de 50 no acredita cap altra obra executada. Emplaçaments individuals desconeguts; es mostren dotze peces en dues fileres com a conjunt d’assaig C. Permanència després de 1780 sense verificar.",
+      "alongAzimuthDegrees": -55.00972549113828,
+      "relationalPlacement": {
+        "relativeTo": "canal.routeStudy",
+        "referencePoint": [
+          296604,
+          4499488
+        ],
+        "bank": "west",
+        "bankGapMeters": 3,
+        "geometryConfidence": "C",
+        "source": "N029 · 13/11/1780"
+      },
+      "positionSource": {
+        "text": "N029, 13/11/1780: dotze barraques a les vores del canal. Dues fileres paral·leles a la riba occidental del canal d’assaig; separació, costat i lloc individual C. El conjunt no travessa el llit ni altera el traçat de l’aigua.",
+        "precisionMeters": 30
+      }
     },
     {
       "id": "casotes-companyia",
@@ -1884,5 +1902,20 @@
     "La visibilitat parteix del primer testimoni revisat; no equival a data de construcció.",
     "Les 81 unitats reials i el conjunt mixt de 38 es conserven; guardes, tallers i usos no es sumen com a cases noves.",
     "El MDT original no es modifica: el barranc és un tall de visualització reversible."
+  ],
+  "unplacedSites": [
+    {
+      "id": "molinet",
+      "name": "Molí fariner del Molinet",
+      "kind": "mill",
+      "fromYear": 1794,
+      "width": 10,
+      "depth": 8,
+      "height": 3.6,
+      "evidence": "N112 il·l.3, zona D; p.223 i art.30 p.234: molí de dues moles al final del canal vell, a la platja del Molinet. El 1794 manca el cos d’edifici per circuir-lo i cobrir-lo. Solar individual no georeferenciat; model d’estudi conservat sense emplaçament al mapa.",
+      "placementStatus": "unlocated",
+      "historicalCoordinates": null,
+      "reason": "N112 il·l.3, zona D, i p.223; art.30 p.234: el molí és a l’extrem del canal vell, a la platja del Molinet. La posició anterior al costat del braç nou era invàlida. No s’assigna un nou solar sense georeferenciar el testimoni."
+    }
   ]
 }

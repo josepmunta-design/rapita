@@ -45,7 +45,7 @@ test('buildings located after 1800 appear in their witness year and stay; 1800 b
   assert.equal(site.inventoryIncrement,0);assert.equal(site.historicalFootprint,null);assert.equal(urbanVisible(site,year-1),false);assert.equal(urbanVisible(site,year),true);assert.equal(urbanVisible(site,1950),true);
   scene.setYear(year-1);assert.equal(scene.groups.get(id).visible,false);scene.setYear(year);assert.equal(scene.groups.get(id).visible,true);
  }
- scene.setYear(1950);for(const id of['pont-monges','ferreria-nova','casa-administrador','molinet'])assert.equal(scene.groups.get(id).visible,true,id);
+ scene.setYear(1950);for(const id of['pont-monges','ferreria-nova','casa-administrador'])assert.equal(scene.groups.get(id).visible,true,id);
  assert.equal(scene.groups.get('ferreria-vella').visible,false);
  const casotes=data.sites.find(s=>s.id==='casotes-companyia');assert.ok(Math.abs(casotes.footprintUTM[0][0]-casotes.footprintUTM[1][0])+Math.abs(casotes.footprintUTM[0][1]-casotes.footprintUTM[1][1])>30);
 });

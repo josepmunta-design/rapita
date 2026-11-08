@@ -1,0 +1,393 @@
+{
+  "reviewDate": "2026-11-08",
+  "source": "N112 il·l.3,4; pp.211,223,232,234; N029 13/11/1780",
+  "before": {
+    "urban": [
+      {
+        "id": "molinet",
+        "name": "Molí fariner del Molinet",
+        "kind": "mill",
+        "fromYear": 1794,
+        "utmAnchor": [
+          296592,
+          4499448
+        ],
+        "width": 10,
+        "depth": 8,
+        "height": 3.6,
+        "evidence": "N112 art. 30 p.234: molí de dues moles amb conducte i rastellador; el 1794 manca tancar i cobrir l’edifici. Es mostra sense coberta. Situat al final del canal, vora la platja del port; planta i mecanisme C (plànol PARES1679817 no recuperat). L’ordre d’acabament de 1794 no prova la posada en servei."
+      },
+      {
+        "id": "forn-moli-guix",
+        "name": "Forn i molí de guix",
+        "kind": "service-house",
+        "chimney": true,
+        "fromYear": 1782,
+        "utmAnchor": [
+          296547,
+          4499389
+        ],
+        "width": 8,
+        "depth": 6,
+        "height": 3.6,
+        "evidence": "N112 p.211 i 224: forn i molí de guix esmentats com a límit nord de la Fonda Vella en la concessió de 1782. Forma i solar propis desconeguts: volum de servei C."
+      },
+      {
+        "id": "barraques-obrers",
+        "name": "Barraques i tendes de les obres",
+        "kind": "barracks",
+        "fromYear": 1780,
+        "utmAnchor": [
+          296604,
+          4499488
+        ],
+        "width": 30,
+        "depth": 12,
+        "height": 2.6,
+        "evidence": "N029 (13/11/1780): dotze barraques a la valenciana a les vores del canal; la previsió de 50 no acredita cap altra obra executada. Emplaçaments individuals desconeguts; es mostren dotze peces en dues fileres com a conjunt d’assaig C. Permanència després de 1780 sense verificar."
+      }
+    ],
+    "health": {
+      "id": "health",
+      "name": "Caseta de Sanitat i molls",
+      "anchor": [
+        296477.96398365987,
+        4499129.298889349
+      ],
+      "kind": "health",
+      "width": 5,
+      "depth": 4,
+      "height": 3.1,
+      "radius": 50,
+      "state": "Caseta al moll; espigons parcials i escullera",
+      "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar.",
+      "alongAzimuthDegrees": 19
+    }
+  },
+  "waterGeometry": {
+    "shorelineStudy": [
+      [
+        298800,
+        4501500
+      ],
+      [
+        298200,
+        4501000
+      ],
+      [
+        297600,
+        4500500
+      ],
+      [
+        297200,
+        4500100
+      ],
+      [
+        296967,
+        4500000
+      ],
+      [
+        296943,
+        4499780
+      ],
+      [
+        296955,
+        4499660
+      ],
+      [
+        296938,
+        4499570
+      ],
+      [
+        296928,
+        4499510
+      ],
+      [
+        296524.1413102,
+        4499458.783165929
+      ],
+      [
+        296510.22701025824,
+        4499351.509665674
+      ],
+      [
+        296524.5339451555,
+        4499284.169719031
+      ],
+      [
+        296544.7505476365,
+        4499259.733168863
+      ],
+      [
+        296514.2498871348,
+        4499237.042022814
+      ],
+      [
+        296498.17188203236,
+        4499202.917425353
+      ],
+      [
+        296482.9687550172,
+        4499169.63768784
+      ],
+      [
+        296468.6855332981,
+        4499139.782417327
+      ],
+      [
+        296447.7034682708,
+        4499120.365647587
+      ],
+      [
+        296410,
+        4499100
+      ],
+      [
+        296300,
+        4499000
+      ],
+      [
+        296190,
+        4498800
+      ],
+      [
+        296040,
+        4498500
+      ],
+      [
+        295700,
+        4497800
+      ]
+    ],
+    "basins": [
+      {
+        "id": "small",
+        "center": [
+          296537.511377825,
+          4499239.216384991
+        ],
+        "width": 10,
+        "length": 12,
+        "polygonUTM": [
+          [
+            296529.10780555056,
+            4499250.544772917
+          ],
+          [
+            296549.65460756136,
+            4499245.025341142
+          ],
+          [
+            296542.475474028,
+            4499227.948033341
+          ],
+          [
+            296523.6634191224,
+            4499234.297315996
+          ]
+        ],
+        "name": "Boca del braç del canal · no una segona dàrsena independent"
+      },
+      {
+        "id": "large",
+        "center": [
+          296546.11442005757,
+          4499177.782953451
+        ],
+        "width": 160.22711459943093,
+        "length": 163.90043082274497,
+        "polygonUTM": [
+          [
+            296544.7505476365,
+            4499259.733168863
+          ],
+          [
+            296626.2279773573,
+            4499246.269141006
+          ],
+          [
+            296605.58046391397,
+            4499196.7419465715
+          ],
+          [
+            296590.0471373691,
+            4499144.545090666
+          ],
+          [
+            296571.9942400488,
+            4499095.83273804
+          ],
+          [
+            296466.00086275785,
+            4499133.808361412
+          ],
+          [
+            296483.84363310464,
+            4499170.482547788
+          ],
+          [
+            296501.8214850772,
+            4499214.895555324
+          ]
+        ],
+        "name": "Dàrsena gran · port de 1800"
+      }
+    ],
+    "canal": {
+      "name": "Canal de Carles III · cap a Amposta",
+      "geometryConfidence": "C",
+      "documentedLengthVaras": 12300,
+      "documentedWidthVaras": [
+        8,
+        12
+      ],
+      "studyWidth": 8.4,
+      "routeStudy": [
+        [
+          296551.43438187515,
+          4499248.434799074
+        ],
+        [
+          296530.0727380552,
+          4499256.548846973
+        ],
+        [
+          296560.3095402662,
+          4499362.677305889
+        ],
+        [
+          296592.37114399957,
+          4499474.794829793
+        ],
+        [
+          296820,
+          4499800
+        ],
+        [
+          296967,
+          4500000
+        ],
+        [
+          297056,
+          4500500
+        ],
+        [
+          297133,
+          4501000
+        ],
+        [
+          297150,
+          4501500
+        ],
+        [
+          297100,
+          4502000
+        ],
+        [
+          296883,
+          4502500
+        ],
+        [
+          296700,
+          4503000
+        ],
+        [
+          296583,
+          4503500
+        ],
+        [
+          296433,
+          4504000
+        ],
+        [
+          296343,
+          4505000
+        ],
+        [
+          296340,
+          4506000
+        ],
+        [
+          296333,
+          4507000
+        ],
+        [
+          296250,
+          4508000
+        ],
+        [
+          296033,
+          4509000
+        ],
+        [
+          295940,
+          4509400
+        ]
+      ],
+      "branchStudy": [
+        [
+          296530.0727380552,
+          4499256.548846973
+        ],
+        [
+          296551.43438187515,
+          4499248.434799074
+        ],
+        [
+          296538.16111986927,
+          4499227.163209671
+        ]
+      ],
+      "limits": "Connexió territorial d'assaig entre la Ràpita i l'Ebre a Amposta, no digitalització d'un traçat de 1800. Cotes d'aigua tècniques de 0,45 a 1,35 m; no model hidràulic ni rescloses operatives.",
+      "spatialReference": {
+        "source": "G04",
+        "request": "docs/sources/canal-topographic-request.txt",
+        "image": "docs/sources/canal-topographic-current.jpg",
+        "bbox": [
+          294500,
+          4499000,
+          298500,
+          4510500
+        ],
+        "imageSize": [
+          1200,
+          3450
+        ],
+        "use": "Corredor de referència actual llegit manualment al costat de la TV-3408 i del canal existent. No georeferenciació històrica. Enllaç amb el nucli antic i ramal són C. Controls aproximats, error de treball de desenes de metres."
+      },
+      "harbourConnection": "El braç terminal 19 ressegueix el costat oriental de la població i desemboca al costat nord de la dàrsena gran. Línia d’assaig traçada sobre N112 il·l.4.",
+      "terminalReference": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+    },
+    "breakwaters": [
+      [
+        [
+          296544.7505476365,
+          4499259.733168863
+        ],
+        [
+          296626.2279773573,
+          4499246.269141006
+        ],
+        [
+          296605.58046391397,
+          4499196.7419465715
+        ]
+      ],
+      [
+        [
+          296466.00086275785,
+          4499133.808361412
+        ],
+        [
+          296571.9942400488,
+          4499095.83273804
+        ],
+        [
+          296590.0471373691,
+          4499144.545090666
+        ]
+      ]
+    ]
+  },
+  "reason": "Ancoratges d’assaig anteriors incompatibles amb el registre actual del croquis. No són testimonis per modificar la costa."
+}

@@ -1019,8 +1019,8 @@
       "id": "health",
       "name": "Caseta de Sanitat i molls",
       "anchor": [
-        296477.96398365987,
-        4499129.298889349
+        296478.03488330677,
+        4499129.496776635
       ],
       "kind": "health",
       "width": 5,
@@ -1029,23 +1029,27 @@
       "radius": 50,
       "state": "Caseta al moll; espigons parcials i escullera",
       "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar.",
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": 19.711737875335555,
+      "positionSource": {
+        "text": "N112 art.18 p.232: oficina de sanitat al cap de la dàrsena. Posició del croquis C conservada, ajustada a l’eix del moll perquè la planta de 5 × 4 m recolzi íntegrament sobre l’amplada tècnica de 4,2 m. Ni posició ni mides històriques mesurades.",
+        "precisionMeters": 15
+      },
       "footprintUTM": [
         [
-          296476.25132352975,
-          4499132.003846887
+          296476.3559558919,
+          4499132.22279988
         ],
         [
-          296474.94905091194,
-          4499128.221772584
+          296475.0068033907,
+          4499128.457194015
         ],
         [
-          296479.67664379,
-          4499126.593931812
+          296479.71381072165,
+          4499126.770753389
         ],
         [
-          296480.9789164078,
-          4499130.376006114
+          296481.06296322285,
+          4499130.536359254
         ]
       ],
       "technicalBaseElevation": 1.3,

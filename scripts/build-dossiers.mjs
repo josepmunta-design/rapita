@@ -53,7 +53,7 @@ const items={};
 for(const it of index.items){
   const md=await text(it.path),sec=sections(md),fonts=JSON.parse(await text(it.id+'/fonts.json')),fases=JSON.parse(await text(it.phasePath));
   const kind=(sec.head.match(/Revisió: \*\*[^*]+\*\* · ([^.]+)\./)??[])[1]??'';
-  const place=paragraphs(sec['Col·locació']).filter(p=>!/^\*\*Coordenades/.test(p));
+  const place=paragraphs(sec['Col·locació']).filter(p=>!/^\*\*Coordenades|^###|^\||^Plantes i orientacions/.test(p)&&clean(p)!==links.modelNotes?.[it.id]);
   const certainty=place.find(p=>/^Certesa:/.test(p));
   const refs=(sec['Col·locació'].match(/^\[N\d+\].*$/m)??[''])[0];
   const unknown=((sec['Aplicació al model i treball pendent']??'').split(/### Dades encara desconegudes/)[1]??'').split(/###/)[0];

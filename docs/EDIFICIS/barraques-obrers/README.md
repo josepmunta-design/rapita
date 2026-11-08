@@ -1,10 +1,12 @@
 # Barraques i tendes de les obres
 
-Revisió: **31/10/2026** · allotjament. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **08/11/2026** · allotjament. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
 ## Col·locació
+
+Revisió litoral · 08/11/2026: la distribució anterior tallava el llit del canal. Les dotze barraques de N029 (13/11/1780) s’assagen en dues fileres paral·leles a la riba occidental, amb 3 m de separació del marge. Costat, separació i emplaçaments individuals C; nombre de dotze conservat. El canal no es modifica.
 
 Vora canal i peu delturó, amb coves habilitades. Emplaçaments individuals desconeguts.
 
@@ -18,7 +20,7 @@ Certesa: D posició individual / B relació territorial quan està documentada.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| barraques-obrers | — | 296604.000 | 4499488.000 | Model d’assaig |
+| barraques-obrers | — | 296591.585 | 4499496.690 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

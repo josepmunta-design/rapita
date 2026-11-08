@@ -18,9 +18,7 @@
     "tinglado": [
       "tinglado"
     ],
-    "molinet": [
-      "molinet"
-    ],
+    "molinet": [],
     "forn-moli-guix": [
       "forn-moli-guix"
     ],
@@ -110,7 +108,8 @@
     "darsena-petita": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
     "amposta-capcalera": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
     "propietats-privades": "38 registres mixtos sense identificació individual: no es dibuixen.",
-    "cases-lloguer-1788": "Es representen amb els dotze cossos del testimoni de 1788–1789."
+    "cases-lloguer-1788": "Es representen amb els dotze cossos del testimoni de 1788–1789.",
+    "molinet": "Solar del canal vell encara no georeferenciat. Posició anterior del braç nou rebutjada; l’expedient es conserva."
   },
   "activeSceneRange": [
     1778,
@@ -161,7 +160,11 @@
     "hort-rei-sud": "Recinte amb sínia al sud del camí de la Pedrera i a ponent dels habitatges, seguint N112 il·l.4.",
     "canal-amposta": "Braç terminal 19 redibuixat amb dues vores, fins a la boca septentrional de la dàrsena gran. Corredor llarg cap a Amposta preservat; traçat local d’assaig C.",
     "darsena-gran": "Port de l’escenari de 1800, amb dos braços oblics i boca lateral oberta. Làmina d’aigua, fons, molls i recorregut a peu comparteixen la planta de N112 il·l.4.",
-    "paredo-poblacio": "Els dos trams del mur de sosteniment núm.24 segueixen el croquis N112 il·l.4: al costat oriental de Talavera/Fonda i al marge dels Horts de les Monges. Maçoneria amb base lleugerament atalussada i coronament seguint el terreny interior; passos de rampa rebaixats. No és una muralla defensiva. Secció i cotes d’assaig C."
+    "paredo-poblacio": "Els dos trams del mur de sosteniment núm.24 segueixen el croquis N112 il·l.4: al costat oriental de Talavera/Fonda i al marge dels Horts de les Monges. Maçoneria amb base lleugerament atalussada i coronament seguint el terreny interior; passos de rampa rebaixats. No és una muralla defensiva. Secció i cotes d’assaig C.",
+    "forn-moli-guix": "Revisió litoral · 08/11/2026: la posició anterior no seguia la Fonda Vella del croquis i quedava dins de l’aigua. Es recol·loca al nord de la fonda, com indiquen les afrontacions de 1782 (N112 p.211). La separació de 3 m i les coordenades són d’assaig C, no una parcel·la ni distància documentades. La costa no es modifica.",
+    "barraques-obrers": "Revisió litoral · 08/11/2026: la distribució anterior tallava el llit del canal. Les dotze barraques de N029 (13/11/1780) s’assagen en dues fileres paral·leles a la riba occidental, amb 3 m de separació del marge. Costat, separació i emplaçaments individuals C; nombre de dotze conservat. El canal no es modifica.",
+    "sanitat-moll": "Revisió litoral · 08/11/2026: N112 art.18 p.232 situa l’oficina de Sanitat al cap de la dàrsena. Es conserva el sector d’assaig i s’ajusta 0,21 m a l’eix del moll, amb el mateix angle que el dic. Tota la planta recolza al moll de 4,2 m; no s’amplia la terra ni el moll. Posició i dimensions C.",
+    "molinet": "Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa."
   },
   "positions": {
     "companyia-canal": {

@@ -1,8 +1,8 @@
 {
   "entityId": "barraques-obrers",
-  "captureDate": "2026-10-31",
+  "captureDate": "2026-11-08",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
-  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "warning": "Paràmetres del prototip 0.14.1. Posicions d’assaig C; no són mesures històriques.",
   "snapshots": [
     {
       "file": "public/data/urban-fabric.json",
@@ -12,37 +12,53 @@
         "kind": "barracks",
         "fromYear": 1780,
         "utmAnchor": [
-          296604,
-          4499488
+          296591.5846072885,
+          4499496.690211284
         ],
         "width": 30,
         "depth": 12,
         "height": 2.6,
         "evidence": "N029 (13/11/1780): dotze barraques a la valenciana a les vores del canal; la previsió de 50 no acredita cap altra obra executada. Emplaçaments individuals desconeguts; es mostren dotze peces en dues fileres com a conjunt d’assaig C. Permanència després de 1780 sense verificar.",
+        "alongAzimuthDegrees": -55.00972549113828,
+        "relationalPlacement": {
+          "relativeTo": "canal.routeStudy",
+          "referencePoint": [
+            296604,
+            4499488
+          ],
+          "bank": "west",
+          "bankGapMeters": 3,
+          "geometryConfidence": "C",
+          "source": "N029 · 13/11/1780"
+        },
+        "positionSource": {
+          "text": "N029, 13/11/1780: dotze barraques a les vores del canal. Dues fileres paral·leles a la riba occidental del canal d’assaig; separació, costat i lloc individual C. El conjunt no travessa el llit ni altera el traçat de l’aigua.",
+          "precisionMeters": 30
+        },
         "anchor": [
-          296604,
-          4499488
+          296591.5846072885,
+          4499496.690211284
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 1.7461625225842003,
+        "technicalBaseElevation": 1.7331925516971038,
         "footprintUTM": [
           [
-            296587.86381243926,
-            4499487.210410863
+            296587.89854288724,
+            4499480.960846095
           ],
           [
-            296616.2293697073,
-            4499477.4433662295
+            296605.1016643986,
+            4499505.538327868
           ],
           [
-            296620.13618756074,
-            4499488.789589137
+            296595.2706716897,
+            4499512.419576473
           ],
           [
-            296591.7706302927,
-            4499498.5566337705
+            296578.0675501783,
+            4499487.8420947
           ]
         ]
       }

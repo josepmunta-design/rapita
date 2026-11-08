@@ -1,0 +1,48 @@
+{
+  "version": "0.14.1",
+  "date": "2026-11-08",
+  "diagnosis": "Posicions d’assaig incompatibles amb el registre actual de costa i canal; no s’ha trobat evidència per ampliar la terra o moure l’aigua.",
+  "unchangedWaterGeometry": [
+    "shorelineStudy",
+    "basins",
+    "canal.routeStudy",
+    "canal.branchStudy",
+    "portWorks.breakwaters",
+    "portWorks.width",
+    "studyWaterElevation"
+  ],
+  "cases": [
+    {
+      "id": "forn-moli-guix",
+      "action": "Recol·locat al nord de Fonda Vella en relació amb el seu emplaçament del croquis.",
+      "source": "N112 p.211: afrontacions de 1782; p.224.",
+      "limits": "Relació nord documentada; separació de 3 m i punt individual C."
+    },
+    {
+      "id": "barraques-obrers",
+      "action": "Dotze peces en dues fileres paral·leles a la riba occidental; abans algunes tallaven el llit.",
+      "source": "N029, 13/11/1780: dotze barraques a les vores del canal.",
+      "limits": "Emplaçament, costat i separacions C; nombre de dotze conservat."
+    },
+    {
+      "id": "health",
+      "action": "Centrada i alineada amb el moll existent; tota la planta queda recolzada.",
+      "source": "N112 art.18 p.232: oficina al cap de la dàrsena.",
+      "limits": "Ajust de 0,21 m i gir d’assaig; planta i moll C. No es crea un illot."
+    },
+    {
+      "id": "molinet",
+      "action": "Posició del braç nou retirada; es conserva l’expedient sense solar assignat.",
+      "source": "N112 il·l.3, zona D, i p.223; art.30 p.234: extrem del canal vell a la platja del Molinet.",
+      "limits": "No s’ha georeferenciat el solar; no es trasllada arbitràriament a la riba del canal nou."
+    }
+  ],
+  "verification": {
+    "year": 1800,
+    "buildingGroups": 89,
+    "footprints": 104,
+    "samples": 17587,
+    "unsupported": 0,
+    "method": "Perímetres i interiors mostrejats a 1 m; comprovació de mar, dàrsenes, canal i suport físic dels molls. Cada barraca es comprova individualment."
+  }
+}
