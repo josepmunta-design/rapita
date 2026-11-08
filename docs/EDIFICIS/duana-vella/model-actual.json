@@ -1,0 +1,54 @@
+{
+  "entityId": "duana-vella",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "old-customs",
+        "name": "Duana antiga",
+        "anchor": [
+          296473.8414795753,
+          4499245.596413687
+        ],
+        "kind": "customs",
+        "width": 11,
+        "depth": 8,
+        "height": 4.4,
+        "radius": 23,
+        "state": "Cos de servei d'assaig, diferent de la Duana Nova del Coc",
+        "evidence": "H02: serveis anteriors i front litoral. Posició individual, volum i permanència el 1800 per validar.",
+        "alongAzimuthDegrees": 19,
+        "positionSource": {
+          "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
+          "precisionMeters": 15
+        },
+        "footprintUTM": [
+          [
+            296469.94340002735,
+            4499251.169112839
+          ],
+          [
+            296467.3388547917,
+            4499243.604964234
+          ],
+          [
+            296477.7395591233,
+            4499240.023714535
+          ],
+          [
+            296480.3441043589,
+            4499247.58786314
+          ]
+        ],
+        "technicalBaseElevation": 2.7668864794133046,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    }
+  ]
+}

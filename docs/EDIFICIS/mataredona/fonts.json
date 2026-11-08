@@ -1,0 +1,53 @@
+[
+  {
+    "id": "N100",
+    "file": "FOTOS I POSTALS/Mas de Mataredona_ACPJ350-120.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Mas de Mataredona_ACPJ350-120.jpg",
+    "bytes": 91661,
+    "sha256": "7cc6ee795f4857a8c29e5957c8ac66c41b81c3855fc65490bd405675d79baaea",
+    "review": "inventariat",
+    "width": 1242,
+    "height": 837,
+    "exif": {},
+    "title": "Mas de Mataredona",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Nom aportaAC P J350-120; mas i bancals visibles, autoria/data i signatura formal de l’arxiu a confirmar.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N100.jpg"
+  },
+  {
+    "id": "N108",
+    "file": "IGN_planimetria Rapita_1912.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\IGN_planimetria Rapita_1912.jpg",
+    "bytes": 4367373,
+    "sha256": "5b4c957774ede6fb8c20251a4a681db49e9ca7212d8e7b282e55427b7a6e84fa",
+    "review": "inventariat",
+    "width": 6496,
+    "height": 4725,
+    "exif": {},
+    "title": "Full topogràfic delterme",
+    "witnessDate": "1912-12-30",
+    "kind": "plànol topogràfic",
+    "reviewMethod": "full complet i detall de dates",
+    "reading": "Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N108.jpg"
+  },
+  {
+    "id": "N111",
+    "file": "planimetria ràpita detallat_1913.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
+    "bytes": 4410878,
+    "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
+    "review": "inventariat",
+    "width": 6259,
+    "height": 4394,
+    "exif": {},
+    "title": "Planimetria delterme amb afegits",
+    "witnessDate": "1913-01-05",
+    "kind": "plànol amb capes",
+    "reviewMethod": "full complet i detalls de notes",
+    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
+  }
+]

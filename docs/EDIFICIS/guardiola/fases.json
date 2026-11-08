@@ -1,0 +1,52 @@
+{
+  "entityId": "guardiola",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "guardiola-fase-01",
+      "witnessDate": "1780-11-13",
+      "witnessYear": 1780,
+      "label": "Torre existent",
+      "state": "Sense data de construcció nova.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N028",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N029",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "guardiola-fase-02",
+      "witnessDate": "1913",
+      "witnessYear": 1913,
+      "label": "Referent topogràfic",
+      "state": "La Guardiola continua al full; no traslladar totes les anotacions tardanes a 1913.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N111",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

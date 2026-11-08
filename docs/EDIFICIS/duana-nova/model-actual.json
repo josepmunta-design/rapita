@@ -1,0 +1,66 @@
+{
+  "entityId": "duana-nova",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "duana-nova",
+        "name": "Duana nova del Coc",
+        "kind": "warehouse",
+        "across": 95.17330790556377,
+        "along": -48.574647770755206,
+        "front": "north",
+        "width": 26,
+        "depth": 20,
+        "wallHeight": 8.2,
+        "roofRise": 0,
+        "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
+        "evidence": "H02, art. 12, pàg. 216–217 i 231–232: magatzems, habitacions altes i façana encoixinada al costat de la rampa.",
+        "limits": "Planta de 26 × 20 m C; no s’aplica com a mesura de 1794 la superfície de l’anunci de venda de 1868. Obertures simplificades, sense restitució de rampes.",
+        "documented": {
+          "roof1794": false,
+          "upperPartitions1794": false,
+          "rusticatedFacade": true,
+          "footprint": null,
+          "height": null
+        },
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "anchor": {
+          "easting": 296463.5282720978,
+          "northing": 4499287.814970021
+        },
+        "frontAzimuthDegrees": 19,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296479.0756951252,
+            4499293.037769769
+          ],
+          [
+            296454.4922121596,
+            4499301.502541785
+          ],
+          [
+            296447.9808490704,
+            4499282.592170273
+          ],
+          [
+            296472.564332036,
+            4499274.127398257
+          ]
+        ],
+        "terrain": {
+          "minimum": 2.441174578282991,
+          "maximum": 7.2682098268269195,
+          "technicalBaseElevation": 7.34820982682692
+        }
+      }
+    }
+  ]
+}

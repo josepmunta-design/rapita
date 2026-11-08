@@ -1,0 +1,57 @@
+{
+  "entityId": "hort-rei-nord",
+  "historicalEvidence": {
+    "description": "Entre Sant Tomàs, Sant Antoni i Fundadors, segons correspondència proposada a l’article. Les dues peces estan separades pel camí de la pedrera, després Constància.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.10"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "hort-nord",
+      "anchor": [
+        296308.2735403103,
+        4499428.525091022
+      ],
+      "footprintUTM": [
+        [
+          296298.2659217611,
+          4499478.208193538
+        ],
+        [
+          296346.16343257774,
+          4499462.749912341
+        ],
+        [
+          296318.0215951408,
+          4499378.088160731
+        ],
+        [
+          296272.7036913777,
+          4499393.501414719
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

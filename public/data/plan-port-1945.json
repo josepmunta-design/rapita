@@ -1,0 +1,40 @@
+{
+  "id": "plan-port-1945",
+  "title": "Ortofoto del port i la població · 1945–1946",
+  "image": "reference/port/1945-1946.png",
+  "imageSize": [
+    1920,
+    1080
+  ],
+  "pixelBounds": [
+    48,
+    190,
+    1900,
+    940
+  ],
+  "source": "PORT/1945-1946.png · captura del Comparador històric de Catalunya, ICGC",
+  "sourcePeriod": [
+    1945,
+    1946
+  ],
+  "georeference": {
+    "anchorPixel": [
+      0,
+      0
+    ],
+    "anchorUTM": [
+      295299.97620697937,
+      4500069.991142296
+    ],
+    "metersPerPixel": 1.6202472887223365,
+    "rotationDegrees": -1.6158750372012016,
+    "offsetMeters": [
+      0,
+      0
+    ],
+    "crs": "EPSG:25831",
+    "registrationRMSEMeters": 0.8402280433089546,
+    "registrationInliers": 2712
+  },
+  "limits": "Fotografia de 1945–1946: permet comparar localitzacions, sense convertir els edificis i la costa fotografiats en testimonis de 1800. El retall exclou els controls del navegador."
+}

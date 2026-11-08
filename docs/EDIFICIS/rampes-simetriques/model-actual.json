@@ -1,0 +1,122 @@
+{
+  "entityId": "rampes-simetriques",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rampa-nord",
+        "name": "Baixada del Cóc a la dàrsena petita",
+        "kind": "ramp",
+        "fromYear": 1794,
+        "width": 5,
+        "utmPoints": [
+          [
+            296496.803657557,
+            4499321.639386091
+          ],
+          [
+            296514.0460651223,
+            4499323.918811755
+          ],
+          [
+            296516.9602237598,
+            4499293.763359852
+          ],
+          [
+            296530.432955724,
+            4499277.1857034005
+          ],
+          [
+            296543.0608277399,
+            4499261.482925037
+          ]
+        ],
+        "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric. Ajust relacional N112 il·l.4 (01/11/2026).",
+        "points": [
+          [
+            296496.803657557,
+            4499321.639386091
+          ],
+          [
+            296514.0460651223,
+            4499323.918811755
+          ],
+          [
+            296516.9602237598,
+            4499293.763359852
+          ],
+          [
+            296530.432955724,
+            4499277.1857034005
+          ],
+          [
+            296543.0608277399,
+            4499261.482925037
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rampa-sud",
+        "name": "Baixada del Cóc al port",
+        "kind": "ramp",
+        "fromYear": 1794,
+        "width": 5,
+        "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C. Ajust relacional N112 il·l.4 (01/11/2026).",
+        "utmPoints": [
+          [
+            296485.9899300483,
+            4499293.443817338
+          ],
+          [
+            296504.8019849539,
+            4499287.094534683
+          ],
+          [
+            296513.085484672,
+            4499268.887194614
+          ],
+          [
+            296511.02053803694,
+            4499249.1402253425
+          ],
+          [
+            296499.60209569253,
+            4499235.577438961
+          ]
+        ],
+        "points": [
+          [
+            296485.9899300483,
+            4499293.443817338
+          ],
+          [
+            296504.8019849539,
+            4499287.094534683
+          ],
+          [
+            296513.085484672,
+            4499268.887194614
+          ],
+          [
+            296511.02053803694,
+            4499249.1402253425
+          ],
+          [
+            296499.60209569253,
+            4499235.577438961
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

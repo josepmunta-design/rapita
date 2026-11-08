@@ -1,0 +1,75 @@
+{
+  "entityId": "companyia-canal",
+  "captureDate": "2026-11-02",
+  "confidence": "C: dimensions i detalls estimats, sense plànol acotat",
+  "warning": "Mides estimades, no plànol acotat; posició marcada per Josep i gir d’assaig conservats. Cases de guarda opcionals amb posicions hipotètiques.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "casotes-companyia",
+        "name": "Les Casotes · oficines i tallers de la Companyia",
+        "kind": "warehouse",
+        "fromYear": 1857,
+        "utmAnchor": [
+          296840,
+          4499555
+        ],
+        "alongAzimuthDegrees": 12,
+        "width": 33,
+        "depth": 15.3,
+        "height": 6.5,
+        "positionSource": {
+          "text": "Punt marcat per Josep (01/11/2026), contrastat amb la coberta a la ortofoto ICGC 1945-1946 EPSG:25831: pixel 804,267 del retall [295500,4498000,297700,4500000], 1320x1200. Posicio fixa a tota la cronologia; planta i alcat C.",
+          "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms",
+          "precisionMeters": 5
+        },
+        "evidence": "Oficines i tallers de la Companyia: reconstrucció cap al 1858, amb testimoni de 1857 i obres del conjunt 1852–1859. Onze arcades llargues, tres als laterals i teulada a quatre aigües. Projecte de Jean Lenté, supervisió de Jules Carvallo i execució de Josep Canício Sala. Mides estimades, no mesurades. Comparació manual amb l’estat del museu després de 2013; guardes opcionals en posicions hipotètiques.",
+        "reclaimed": true,
+        "geometryConfidence": "C: dimensions i detalls estimats, sense plànol acotat",
+        "modelSource": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes-threejs.js",
+        "estimatedDimensions": {
+          "lengthMeters": 33,
+          "depthMeters": 15.3,
+          "eaveHeightMeters": 6.5,
+          "ridgeHeightMeters": 8.65,
+          "measured": false
+        },
+        "documentedConfiguration": {
+          "longFacadeArches": 11,
+          "shortFacadeArches": 3,
+          "storeys": 2,
+          "roof": "hipped",
+          "guardhouses": 2
+        },
+        "orientationEvidence": "Es conserva el gir d’assaig de 12° i el punt marcat per Josep. +Z del paquet és convencional; no estableix una nova orientació geogràfica.",
+        "anchor": [
+          296840,
+          4499555
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 1.431555617749691,
+        "footprintUTM": [
+          [
+            296822.2700401531,
+            4499550.947713753
+          ],
+          [
+            296854.5489109774,
+            4499544.0866279565
+          ],
+          [
+            296857.7299598469,
+            4499559.052286247
+          ],
+          [
+            296825.4510890226,
+            4499565.9133720435
+          ]
+        ]
+      }
+    }
+  ]
+}

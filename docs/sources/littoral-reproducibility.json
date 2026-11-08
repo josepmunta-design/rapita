@@ -1,0 +1,27 @@
+{
+  "version": "0.7.0",
+  "verified": "2026-10-30",
+  "algorithm": "sha256",
+  "repeatedRunIdentical": true,
+  "commands": [
+    "node scripts/prepare-littoral.mjs",
+    "node scripts/prepare-landmarks.mjs",
+    "node scripts/prepare-montsia.mjs"
+  ],
+  "files": {
+    "littoral.json": "4b2b2e3c8c07d434d9950dc78515f8b1ce7407954a9bdb709e1b50740d0a8e74",
+    "chronology.json": "730c42efe87d3c27a9c222d605a63ac3130e2d2835feb0d4999ae2554753fc2a",
+    "urban-chronology.json": "47e69a951e8e2c3a0f1c77308c856a86fde9e88b5943eede11f865b834a9c210",
+    "landmarks.json": "bd166fd9fcb2a6e3f1ee083e5a9a68a194cc8a0a4346e28c84e9569b5597095b",
+    "region.json": "c7833405943e19602c972af3fca11f5b4291181cf68f3c01049a47c3e08c7146",
+    "region.f32": "0e32ca11b431c5a799158f565f0c6c9d251c4ef90b91656fa2989d871a443437",
+    "region.valid.u8": "a8585482be5fd6d2c8f71beb229ea4e87767824e6599a9408b536a5878b51bb4",
+    "monuments.geojson": "9cf36ae5e9f0b1aedaa4510e23cd6672fe153cbddbe299d3196adb555ec18e81",
+    "reference/t-6-8.jpg": "96b87ff125a133fd32d9b70be6dfca3040f590e934ebffc6a2851848a294eb70",
+    "reference/T0009734.jpg": "df7c20078a0fb542427fd4e667201af59b76f2255a79afcc77476b55841847f1",
+    "context.json": "1430e71e8c23a9b8a61007722568bd29f0ab7b51ab051a912ed25ea199e7b2e6",
+    "context.f32": "5fb8660b44fae8963f7615559d910edbccc4a65c0e3d4759f944149bc06f0b20",
+    "context.valid.u8": "fdc777675442c46b61af776d02ec96e19ca947c20dabc432bfad355cfe865cd6",
+    "context.sources.u8": "3dea1d32adc6d08f16f77b4632bef67d3946698e01506b28447164886a76cd89"
+  }
+}

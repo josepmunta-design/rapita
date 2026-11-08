@@ -1,0 +1,49 @@
+{
+  "entityId": "rambla",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rambla",
+        "name": "Carrer de la Rambla",
+        "kind": "street",
+        "fromYear": 1782,
+        "width": 5.5,
+        "townPoints": [
+          [
+            -132,
+            -142
+          ],
+          [
+            -132,
+            144
+          ],
+          [
+            0,
+            144
+          ]
+        ],
+        "evidence": "Concessió de Talavera de 1782, H02 pp. 210–211. S'assaja una connexió de l'àmbit occidental; no és la digitalització del límit de la finca.",
+        "points": [
+          [
+            296218.315370088,
+            4499273.4399586525
+          ],
+          [
+            296311.4278622627,
+            4499543.858271275
+          ],
+          [
+            296436.23631424183,
+            4499500.883274887
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

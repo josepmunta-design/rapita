@@ -1,0 +1,53 @@
+{
+  "entityId": "sanitat-antiga",
+  "historicalEvidence": {
+    "description": "A tocar del recinte conventual i de la bateria, abans de les obres. La casa vella de les monges per als guardes és explícita el 1780.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.2,4"
+      },
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "sanitat-antiga",
+      "anchor": [
+        296350,
+        4499188
+      ],
+      "footprintUTM": [
+        [
+          296346.34952388704,
+          4499186.612908024
+        ],
+        [
+          296352.0226353407,
+          4499184.659499098
+        ],
+        [
+          296353.65047611296,
+          4499189.387091976
+        ],
+        [
+          296347.9773646593,
+          4499191.340500902
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

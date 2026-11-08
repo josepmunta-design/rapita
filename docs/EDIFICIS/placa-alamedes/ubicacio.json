@@ -1,0 +1,37 @@
+{
+  "entityId": "placa-alamedes",
+  "historicalEvidence": {
+    "description": "Eix de carretera entre entrada nord pel pont i entrada de València; front semicircular porticat i espai del Cóc com a articulació amb baixades al port.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "carrer-major",
+      "anchor": null,
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

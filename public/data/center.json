@@ -75,17 +75,31 @@
       "front": "west",
       "width": 15,
       "depth": 17,
-      "wallHeight": 6.7,
+      "wallHeight": 9.3,
       "roofRise": 0,
       "state1794": "plaça coberta amb el cos superior molt avançat",
       "evidence": "H02, art. 9, pàg. 214–215 i 231. Identificació probable amb Casa Laureano, simètrica a Sant Elm. H01, pàg. 226, descriu quatre suports i un arquitrau incomplet als vestigis.",
-      "limits": "S’assagen una planta baixa coberta i un alçat superior obert. No s’hi afegeixen una balustrada ni un frontó acabats sense datació. El cobert annex va patir danys i desmuntatges: no es representa íntegre.",
+      "limits": "Columnata de doble alçària i cos superior obert, amb proporcions C inspirades en les fàbriques fotografiades. En la restitució de 1794 no es completen balcons, balustrada ni remat. La comparació fotogràfica afegeix aquests detalls sense assignar-los una data de construcció. Tinglado annex separat; mètrica i persistència el 1800 sense verificar.",
       "documented": {
         "facadeOrder": "Doric",
         "identification": "probable",
         "upperRoof1794": null,
         "footprint": null,
         "height": null
+      },
+      "photographicComparison": {
+        "sources": [
+          "N030",
+          "128379.jpeg",
+          "128380.jpeg",
+          "128381.jpeg",
+          "128382.jpeg",
+          "128383.jpeg"
+        ],
+        "photoDate": null,
+        "automaticTimelineActivation": false,
+        "dimensionsConfidence": "C",
+        "modernExtraStoreyIncluded": false
       },
       "anchor": {
         "easting": 296399.59550755844,
@@ -122,13 +136,13 @@
     },
     {
       "id": "fonda-nova",
-      "name": "Fonda Nova",
+      "name": "Fonda Nova de la plaça",
       "kind": "inn",
-      "across": 48.5,
-      "along": 71.5,
+      "across": 62.11987022608699,
+      "along": 31.38689746228051,
       "front": "west",
-      "width": 10,
-      "depth": 50,
+      "width": 50.76701323307374,
+      "depth": 49.95173187474153,
       "wallHeight": 7.6,
       "roofRise": 1.7,
       "replacesHousingIds": [
@@ -138,7 +152,7 @@
       "inventoryRelation": "Substitueix dos cossos d’assaig reservats; no afegeix unitats a l’inventari reial de 81.",
       "state1794": "establiment habilitat, amb dos cossos i pati",
       "evidence": "H02, pàg. 210–211: cases 5 i 6, cossos cap a la Rambla i el Rampar, pati i accés de carros des del Coc. H01, pàg. 167–168: galeria, carruatges, hort i corral projectats.",
-      "limits": "Els identificadors tècnics substituïts no equivalen als números històrics 5 i 6. Posició exacta, mesures i lloc del sopluig desconeguts. Pati allargat d’assaig.",
+      "limits": "Edifici continu en U, amb murs només al perímetre exterior i del pati, una única cota de cornisa i coberta unida a les cantonades. Les tres peces de planta són una partició tècnica del mateix edifici, no tres edificis independents. Forma relacional C segons N112 il·l.4.",
       "documented": {
         "bodies": 2,
         "courtyard": true,
@@ -149,9 +163,157 @@
         "footprint": null,
         "height": null
       },
+      "planBodies": [
+        [
+          [
+            -25.38350661653687,
+            -24.526935741151732
+          ],
+          [
+            -24.671449050837005,
+            24.975865937370763
+          ],
+          [
+            -12.851750186848555,
+            8.475807793090468
+          ],
+          [
+            -12.86976769969339,
+            -24.97586593737077
+          ]
+        ],
+        [
+          [
+            -24.671449050837005,
+            24.975865937370763
+          ],
+          [
+            25.383506616536874,
+            23.180145152494603
+          ],
+          [
+            11.602928899460537,
+            11.381091047032633
+          ],
+          [
+            -12.851750186848555,
+            8.475807793090468
+          ]
+        ],
+        [
+          [
+            25.383506616536874,
+            23.180145152494603
+          ],
+          [
+            24.588870016731132,
+            -15.44473481721208
+          ],
+          [
+            12.075131099887667,
+            -14.995804620993042
+          ],
+          [
+            11.602928899460537,
+            11.381091047032633
+          ]
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "referencePixels": [
+        [
+          [
+            313,
+            224
+          ],
+          [
+            258,
+            207
+          ],
+          [
+            272,
+            226
+          ],
+          [
+            309,
+            238
+          ]
+        ],
+        [
+          [
+            258,
+            207
+          ],
+          [
+            242,
+            263
+          ],
+          [
+            260,
+            252
+          ],
+          [
+            272,
+            226
+          ]
+        ],
+        [
+          [
+            242,
+            263
+          ],
+          [
+            285,
+            276
+          ],
+          [
+            289,
+            262
+          ],
+          [
+            260,
+            252
+          ]
+        ]
+      ],
+      "planOutline": [
+        [
+          -25.38350661653687,
+          -24.526935741151732
+        ],
+        [
+          -24.671449050837005,
+          24.975865937370763
+        ],
+        [
+          25.383506616536874,
+          23.180145152494603
+        ],
+        [
+          24.588870016731132,
+          -15.44473481721208
+        ],
+        [
+          12.075131099887667,
+          -14.995804620993042
+        ],
+        [
+          11.602928899460537,
+          11.381091047032633
+        ],
+        [
+          -12.851750186848555,
+          8.475807793090468
+        ],
+        [
+          -12.86976769969339,
+          -24.97586593737077
+        ]
+      ],
+      "continuousCompound": true,
       "anchor": {
-        "easting": 296458.4902739603,
-        "northing": 4499416.543122664
+        "easting": 296458.3085654935,
+        "northing": 4499374.181243076
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -160,34 +322,124 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296436.48015034257,
-          4499429.4099194035
+          296442.9574817109,
+          4499406.313166675
         ],
         [
-          296433.224468798,
-          4499419.954733647
+          296426.42935890524,
+          4499358.312012636
         ],
         [
-          296480.500397578,
-          4499403.676325925
+          296473.6596492761,
+          4499342.049319477
         ],
         [
-          296483.75607912254,
-          4499413.131511681
+          296490.18777208176,
+          4499390.050473516
+        ]
+      ],
+      "bodyFootprintsUTM": [
+        [
+          [
+            296489.76330024214,
+            4499390.196630891
+          ],
+          [
+            296442.72565844335,
+            4499405.63990302
+          ],
+          [
+            296454.4786523718,
+            4499389.092264708
+          ],
+          [
+            296486.11369719723,
+            4499378.21850092
+          ]
+        ],
+        [
+          [
+            296442.72565844335,
+            4499405.63990302
+          ],
+          [
+            296428.1272462639,
+            4499357.727383134
+          ],
+          [
+            296443.7699883499,
+            4499366.915779078
+          ],
+          [
+            296454.4786523718,
+            4499389.092264708
+          ]
+        ],
+        [
+          [
+            296428.1272462639,
+            4499357.727383134
+          ],
+          [
+            296464.90649612685,
+            4499345.903695911
+          ],
+          [
+            296468.5560991717,
+            4499357.881825883
+          ],
+          [
+            296443.7699883499,
+            4499366.915779078
+          ]
+        ]
+      ],
+      "planOutlineUTM": [
+        [
+          296489.76330024214,
+          4499390.196630891
+        ],
+        [
+          296442.72565844335,
+          4499405.63990302
+        ],
+        [
+          296428.1272462639,
+          4499357.727383134
+        ],
+        [
+          296464.90649612685,
+          4499345.903695911
+        ],
+        [
+          296468.5560991717,
+          4499357.881825883
+        ],
+        [
+          296443.7699883499,
+          4499366.915779078
+        ],
+        [
+          296454.4786523718,
+          4499389.092264708
+        ],
+        [
+          296486.11369719723,
+          4499378.21850092
         ]
       ],
       "terrain": {
-        "minimum": 5.759659286472165,
-        "maximum": 8.983989175059449,
-        "technicalBaseElevation": 9.063989175059449
+        "minimum": 5.424221178386346,
+        "maximum": 8.040490385840899,
+        "technicalBaseElevation": 8.120490385840899
       }
     },
     {
       "id": "duana-nova",
       "name": "Duana nova del Coc",
       "kind": "warehouse",
-      "across": 67,
-      "along": -29,
+      "across": 95.17330790556377,
+      "along": -48.574647770755206,
       "front": "north",
       "width": 26,
       "depth": 20,
@@ -203,9 +455,10 @@
         "footprint": null,
         "height": null
       },
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "anchor": {
-        "easting": 296443.26276808593,
-        "northing": 4499315.495494959
+        "easting": 296463.5282720978,
+        "northing": 4499287.814970021
       },
       "frontAzimuthDegrees": 19,
       "geometryConfidence": "C",
@@ -214,34 +467,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296458.8101911133,
-          4499320.718294707
+          296479.0756951252,
+          4499293.037769769
         ],
         [
-          296434.22670814773,
-          4499329.183066723
+          296454.4922121596,
+          4499301.502541785
         ],
         [
-          296427.71534505853,
-          4499310.272695211
+          296447.9808490704,
+          4499282.592170273
         ],
         [
-          296452.2988280241,
-          4499301.807923195
+          296472.564332036,
+          4499274.127398257
         ]
       ],
       "terrain": {
-        "minimum": 6.214128258856138,
-        "maximum": 7.776305487194561,
-        "technicalBaseElevation": 7.856305487194561
+        "minimum": 2.441174578282991,
+        "maximum": 7.2682098268269195,
+        "technicalBaseElevation": 7.34820982682692
       }
     },
     {
       "id": "casa-white",
       "name": "Magatzems de Josep White",
       "kind": "warehouse",
-      "across": 67,
-      "along": 29,
+      "across": 96.48669071421283,
+      "along": 16.95863709730206,
       "front": "south",
       "width": 26,
       "depth": 20,
@@ -257,9 +510,10 @@
         "footprint": null,
         "height": null
       },
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "anchor": {
-        "easting": 296462.1457210444,
-        "northing": 4499370.335572344
+        "easting": 296486.1056505503,
+        "northing": 4499349.350312567
       },
       "frontAzimuthDegrees": 199,
       "geometryConfidence": "C",
@@ -268,26 +522,26 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296446.598298017,
-          4499365.112772596
+          296470.5582275229,
+          4499344.127512819
         ],
         [
-          296471.1817809826,
-          4499356.64800058
+          296495.1417104885,
+          4499335.662740803
         ],
         [
-          296477.6931440718,
-          4499375.558372092
+          296501.6530735777,
+          4499354.5731123155
         ],
         [
-          296453.1096611062,
-          4499384.023144108
+          296477.0695906121,
+          4499363.037884331
         ]
       ],
       "terrain": {
-        "minimum": 6.007642892228328,
-        "maximum": 7.362441222654379,
-        "technicalBaseElevation": 7.442441222654379
+        "minimum": 5.136652071705174,
+        "maximum": 6.353724380370073,
+        "technicalBaseElevation": 6.433724380370073
       }
     },
     {
@@ -409,13 +663,27 @@
       "roofRise": 0,
       "state1794": "murs a la cota de rebre les bigues del primer pis",
       "evidence": "H02, art. 8, pàg. 214 i 231: magatzems baixos i futures habitacions altes. Possible àmbit de l’ajuntament actual, amb identificació insegura.",
-      "limits": "Recinte i divisions C, sense coberta ni pisos alts acabats. No augmenta el nombre d’habitatges habitables de l’inventari.",
+      "limits": "El núm.8 del croquis és l’illa residencial occidental, ja representada pels habitatges. Es retira el volum rectangular duplicat darrere la filera per deixar lloc al jardí botànic i als horts.",
       "documented": {
         "roof1794": false,
         "upperHabitationsFinished1794": false,
         "footprint": null,
         "height": null
       },
+      "layoutAlias": "western-residential-block",
+      "representedByHousingIds": [
+        "royal-finished-01",
+        "royal-finished-02",
+        "royal-finished-03",
+        "royal-finished-04",
+        "royal-finished-05",
+        "royal-finished-06",
+        "royal-finished-07",
+        "royal-finished-08",
+        "royal-finished-09",
+        "royal-finished-10",
+        "royal-finished-11"
+      ],
       "anchor": {
         "easting": 296350.1105081414,
         "northing": 4499425.834320706
@@ -425,24 +693,7 @@
       "individualPositionConfidence": "C",
       "state1800": null,
       "historicalBaseElevation": null,
-      "footprintUTM": [
-        [
-          296357.78192368627,
-          4499402.040426877
-        ],
-        [
-          296370.80464986456,
-          4499439.861169902
-        ],
-        [
-          296342.4390925965,
-          4499449.628214535
-        ],
-        [
-          296329.41636641824,
-          4499411.807471511
-        ]
-      ],
+      "footprintUTM": [],
       "terrain": {
         "minimum": 8.454937959222974,
         "maximum": 10.63886801999169,
@@ -451,28 +702,176 @@
     },
     {
       "id": "cases-talavera",
-      "name": "Cases de Ramon Talavera",
+      "name": "Dues cases de Ramon Talavera",
       "kind": "private-courtyard",
-      "across": 58,
-      "along": 110,
+      "across": 63.910523123063165,
+      "along": 89.45709472442176,
       "front": "west",
-      "width": 26,
-      "depth": 48,
+      "width": 49.94910462905992,
+      "depth": 52.67121230194549,
       "wallHeight": 7.2,
       "roofRise": 1.8,
       "inventoryRelation": "Dues cases privades documentades; possible correspondència dins de les 38 propietats mixtes, sense identificació individual completa. No s’afegeixen al total de 119.",
       "state1794": "dues cases amb recinte i pati",
       "evidence": "H02, pàg. 210–211: entre la fonda i el barranc de les Monges, amb accés des de la plaça. Concessió de 1782 amb límits de finca; H01, pàg. 251–253, per a les tècniques residencials.",
-      "limits": "El recinte rectangular de 26 × 48 m simplifica un solar irregular. No és la digitalització dels quatre límits documentals ni prova de la posició de cada casa.",
+      "limits": "Edifici continu en U, amb murs només al perímetre exterior i del pati, una única cota de cornisa i coberta unida a les cantonades. Les tres peces de planta són una partició tècnica del mateix edifici, no tres edificis independents. Forma relacional C segons N112 il·l.4.",
       "documented": {
         "houses": 2,
         "courtyard": true,
         "footprint": null,
         "height": null
       },
+      "planBodies": [
+        [
+          [
+            -23.71034075997872,
+            26.332978905291114
+          ],
+          [
+            -24.97455231452996,
+            -22.086159554055094
+          ],
+          [
+            -11.193974597453618,
+            -10.287105448593117
+          ],
+          [
+            -11.196601843135241,
+            25.884048709072083
+          ]
+        ],
+        [
+          [
+            -24.97455231452996,
+            -22.086159554055094
+          ],
+          [
+            24.28313950735655,
+            -26.335606150972744
+          ],
+          [
+            11.64553203935428,
+            -9.569793391530006
+          ],
+          [
+            -11.193974597453618,
+            -10.287105448593117
+          ]
+        ],
+        [
+          [
+            24.28313950735655,
+            -26.335606150972744
+          ],
+          [
+            24.97455231452996,
+            25.8866759547537
+          ],
+          [
+            12.46081339768648,
+            26.335606150972744
+          ],
+          [
+            11.64553203935428,
+            -9.569793391530006
+          ]
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "referencePixels": [
+        [
+          [
+            279,
+            144
+          ],
+          [
+            333,
+            160
+          ],
+          [
+            315,
+            171
+          ],
+          [
+            275,
+            158
+          ]
+        ],
+        [
+          [
+            333,
+            160
+          ],
+          [
+            320,
+            216
+          ],
+          [
+            306,
+            196
+          ],
+          [
+            315,
+            171
+          ]
+        ],
+        [
+          [
+            320,
+            216
+          ],
+          [
+            262,
+            198
+          ],
+          [
+            266,
+            184
+          ],
+          [
+            306,
+            196
+          ]
+        ]
+      ],
+      "planOutline": [
+        [
+          -23.71034075997872,
+          26.332978905291114
+        ],
+        [
+          -24.97455231452996,
+          -22.086159554055094
+        ],
+        [
+          24.28313950735655,
+          -26.335606150972744
+        ],
+        [
+          24.97455231452996,
+          25.8866759547537
+        ],
+        [
+          12.46081339768648,
+          26.335606150972744
+        ],
+        [
+          11.64553203935428,
+          -9.569793391530006
+        ],
+        [
+          -11.193974597453618,
+          -10.287105448593117
+        ],
+        [
+          -11.196601843135241,
+          25.884048709072083
+        ]
+      ],
+      "continuousCompound": true,
       "anchor": {
-        "easting": 296480.0070743751,
-        "northing": 4499449.852690358
+        "easting": 296478.9074680217,
+        "northing": 4499428.504713717
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -481,26 +880,116 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296461.5470145687,
-          4499469.9580675475
+          296462.1375821117,
+          4499460.692651538
         ],
         [
-          296453.0822425528,
-          4499445.374584582
+          296445.87574430084,
+          4499413.464845277
         ],
         [
-          296498.4671341815,
-          4499429.747313168
+          296495.67735393165,
+          4499396.316775896
         ],
         [
-          296506.93190619745,
-          4499454.330796134
+          296511.9391917425,
+          4499443.544582156
+        ]
+      ],
+      "bodyFootprintsUTM": [
+        [
+          [
+            296461.72847919865,
+            4499459.496460683
+          ],
+          [
+            296507.9212610491,
+            4499444.928066642
+          ],
+          [
+            296492.2785189632,
+            4499435.739670698
+          ],
+          [
+            296458.0788761538,
+            4499447.518330711
+          ]
+        ],
+        [
+          [
+            296507.9212610491,
+            4499444.928066642
+          ],
+          [
+            296495.90245592326,
+            4499396.970519548
+          ],
+          [
+            296484.1644710643,
+            4499414.3780268775
+          ],
+          [
+            296492.2785189632,
+            4499435.739670698
+          ]
+        ],
+        [
+          [
+            296495.90245592326,
+            4499396.970519548
+          ],
+          [
+            296446.3002161405,
+            4499413.318687902
+          ],
+          [
+            296449.94981918536,
+            4499425.296817874
+          ],
+          [
+            296484.1644710643,
+            4499414.3780268775
+          ]
+        ]
+      ],
+      "planOutlineUTM": [
+        [
+          296461.72847919865,
+          4499459.496460683
+        ],
+        [
+          296507.9212610491,
+          4499444.928066642
+        ],
+        [
+          296495.90245592326,
+          4499396.970519548
+        ],
+        [
+          296446.3002161405,
+          4499413.318687902
+        ],
+        [
+          296449.94981918536,
+          4499425.296817874
+        ],
+        [
+          296484.1644710643,
+          4499414.3780268775
+        ],
+        [
+          296492.2785189632,
+          4499435.739670698
+        ],
+        [
+          296458.0788761538,
+          4499447.518330711
         ]
       ],
       "terrain": {
-        "minimum": 4.312377261255737,
-        "maximum": 6.1276005904804265,
-        "technicalBaseElevation": 6.207600590480427
+        "minimum": 4.398047363151567,
+        "maximum": 9.130334382135027,
+        "technicalBaseElevation": 9.210334382135027
       }
     }
   ],

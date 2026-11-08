@@ -1,0 +1,187 @@
+{
+  "reviewed": "2026-10-31",
+  "description": "Fonts arxivades per a la revisió dels porxos; veure data/porxos-evidence.json per autor, data, ús i límits. Només Salvany es distribueix amb el web.",
+  "references": [
+    {
+      "id": "H02",
+      "title": "Relació de 1794, transcrita per Pilar Reverté Vidal (2024)",
+      "year": 1794,
+      "url": "https://www.academia.edu/170882307/1794_Estat_de_les_obres_reials_de_San_Carlos_Una_descripci%C3%B3_detallada_de_les_intervencions_realitzades_a_la_R%C3%A0pita_entre_1780_i_1794",
+      "use": "Estat d’obra i inventari. Pàgines 208–210 i 230, art. 3."
+    },
+    {
+      "id": "H01",
+      "title": "Noèlia Borràs Matamoros, tesi doctoral",
+      "year": 2014,
+      "local": "tesi doctoral.pdf",
+      "use": "P. 226: fotografia antiga i columnata; pp. 251–253: sistemes constructius de les cases de 1788–1789. No s’assimilen automàticament a cada casa porticada."
+    },
+    {
+      "id": "P01",
+      "title": "Josep Salvany i Blanch · Vista dels porxos de la plaça Carles III",
+      "year": 1916,
+      "url": "https://commons.wikimedia.org/wiki/File:Vista_dels_porxos_de_la_pla%C3%A7a_Carles_III.jpeg",
+      "archive": "Biblioteca de Catalunya · Fons Fotogràfic Salvany · MDC bcsalvany/3410",
+      "rights": "Domini públic, segons la fitxa de Wikimedia Commons",
+      "publicImage": "reference/porxos-salvany-1916.jpg",
+      "publicStereo": "reference/porxos-salvany-1916-estereo.jpg",
+      "use": "Arcs exempts, disposició dels elements, fàbrica radial i edificació al darrere. No es traslladen al 1800 els danys observats el 1916."
+    },
+    {
+      "id": "P02",
+      "title": "Inventari del Patrimoni Arquitectònic de Catalunya · fitxa 6415",
+      "year": null,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "use": "Descripció patrimonial de pilastres rectangulars i arcs de carpanell; nota sobre pisos aixecats al segle XX."
+    },
+    {
+      "id": "P03",
+      "title": "J. Contijoch · vista general de la plaça",
+      "year": 1996,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageId": 48670,
+      "use": "Context posterior; s’exclouen elements contemporanis. Imatge de treball, sense incorporar-la com a textura."
+    },
+    {
+      "id": "P04",
+      "title": "Pere Rams i Josep M. Pérez · vista de la plaça",
+      "year": 2008,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageId": 25831,
+      "use": "Comparació d’elements conservats; no data la fàbrica històrica."
+    },
+    {
+      "id": "P05",
+      "title": "Museu del Montsià · exterior i interior dels porxos",
+      "year": 2009,
+      "url": "https://invarquit.cultura.gencat.cat/card/6415",
+      "catalogueImageIds": [
+        25833,
+        25832
+      ],
+      "use": "Geometria visible de pilastres, impostes i arcs transversals. Es discriminen les reformes i els acabats recents."
+    },
+    {
+      "id": "P06",
+      "title": "Albert Esteves · fotografies de la plaça",
+      "year": 2023,
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18368",
+      "rights": "Imatges reservades; només referència local de recerca, no publicades amb l’app",
+      "use": "Contrast visual dels elements conservats; no s’importen terrasses comercials, instal·lacions ni els paviments moderns."
+    },
+    {
+      "id": "P07",
+      "title": "Postals antigues reproduïdes a Pobles de Catalunya",
+      "year": null,
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18368",
+      "use": "Comparació qualitativa. Autor i data no confirmats: no s’utilitzen per datar fases ni com a imatges distribuïdes."
+    }
+  ],
+  "files": [
+    {
+      "file": "commons-1916.html",
+      "bytes": 117030,
+      "sha256": "521aa69e94370a239ade583c4875ae749a91efc80d89c58451b3724dfb590da4"
+    },
+    {
+      "file": "commons-original.html",
+      "bytes": 113907,
+      "sha256": "fb9cb75089ba2fbbb197408babfdfece8346f674352c143490b8cfa954d8054d"
+    },
+    {
+      "file": "ipac-1.jpg",
+      "bytes": 960808,
+      "sha256": "370f00086c2601eb814fd393145852c2608e0901c466edd50310d2d06d60d092"
+    },
+    {
+      "file": "ipac-2.jpg",
+      "bytes": 789068,
+      "sha256": "40ec5105a086f77707ae5a79b359a6013f640cf7cd6debfb8d8af8d5affee6e7"
+    },
+    {
+      "file": "ipac-3.jpg",
+      "bytes": 1010618,
+      "sha256": "46646d572137728d4e8c513502c630fd976b9e0f77e297cb4c0ed2460d96ab14"
+    },
+    {
+      "file": "ipac-4.jpg",
+      "bytes": 1366856,
+      "sha256": "82ee35406081dd88015bd65e9e65c4ddf03b2beb7908cb496487ff43297c0c12"
+    },
+    {
+      "file": "ipac-6415.html",
+      "bytes": 5433,
+      "sha256": "ded010cc56240dc6952cde716ba8ccde9eaee2c89bbee42f55413a1b49be17a9"
+    },
+    {
+      "file": "ipac-client.js",
+      "bytes": 700322,
+      "sha256": "39227484ced228a4dfbfef8fd9318d194ad18099826a42d262d2063d163c5207"
+    },
+    {
+      "file": "ipac-description.txt",
+      "bytes": 3859,
+      "sha256": "3d050bae1575e89b0ef09ff0a86412dc46fb9c98aa1fd16c5b8f9d5b0dbd8e82"
+    },
+    {
+      "file": "ipac-images.json",
+      "bytes": 1944,
+      "sha256": "3b1809f13a4ce7898a44de9848bd320bb17d8bf94064a1b5c0aa5261c4216a87"
+    },
+    {
+      "file": "ipac-record.json",
+      "bytes": 2188,
+      "sha256": "3adacc35fb554cf86ccf5a5b44ab470691c1c840446576e1170df34e2dd33c7a"
+    },
+    {
+      "file": "modern-2023.jpg",
+      "bytes": 143238,
+      "sha256": "20e3ab8c75ac322ca4ca3e91c63683fae9447c8877f4bb63546c2b7edcacb6b4"
+    },
+    {
+      "file": "placa-catalog.html",
+      "bytes": 35143,
+      "sha256": "9b7faf82bce65d1926d1cede2844c12cf6047f667f864de359e2150e9d0322f8"
+    },
+    {
+      "file": "postal-research.jpg",
+      "bytes": 110351,
+      "sha256": "125bf37a8db2fe86f70dd7830654ed32dbd6d8ccd57955f4844c75e5d92f1d68"
+    },
+    {
+      "file": "research-128466.jpg",
+      "bytes": 156953,
+      "sha256": "22d93f33d622bf2a3667f7bbab48290766b6727430a35a78396eda4c70384f96"
+    },
+    {
+      "file": "research-128491.jpg",
+      "bytes": 121871,
+      "sha256": "7340f4ae7f3a5d56c5c61bd28e04c2842b08f448b9d06f680dd8541c55a8335e"
+    },
+    {
+      "file": "research-128492.jpg",
+      "bytes": 90680,
+      "sha256": "707b033be522552391b3fa7f478ff7d957c0669f7ec13787fa73abb336504a46"
+    },
+    {
+      "file": "research-128493.jpg",
+      "bytes": 97157,
+      "sha256": "65d632b1abbe6d7b77136b62c4193b182284980a41dff397ab20532534e44c23"
+    },
+    {
+      "file": "salvany-1916-full.jpg",
+      "bytes": 168730,
+      "sha256": "961714632cc6eb3d203b8a8edba7bb87c8741f7add07f95954de60f580db59ce"
+    },
+    {
+      "file": "salvany-1916.jpg",
+      "bytes": 73954,
+      "sha256": "ca96b70b79f12b21fa9ac9f653c9c67fc7b2ab9bc4723e8441891dc1285afcf5"
+    },
+    {
+      "file": "wiki-placa.html",
+      "bytes": 94920,
+      "sha256": "08e693b009506cd543f202b31ff5e570ad2447f6940f0e271187a7b934c16b32"
+    }
+  ]
+}

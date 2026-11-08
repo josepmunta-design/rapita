@@ -1,0 +1,67 @@
+{
+  "entityId": "fonda-vella",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "fonda-vella-fase-01",
+      "witnessDate": "1781",
+      "witnessYear": 1781,
+      "label": "Fonda en ús",
+      "state": "Concessió de servei als Lantí.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.210"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "fonda-vella-fase-02",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Escriptura de concessió i permuta",
+      "state": "Tinglado i annexos amb afrontacions precises.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.211"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "fonda-vella-fase-03",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Barri litoral habitat",
+      "state": "Cases petites i serveis al voltant; persistència individual desconeguda.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.4–5"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

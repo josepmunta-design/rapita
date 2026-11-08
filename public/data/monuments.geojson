@@ -241,6 +241,44 @@
         "terrainHeight": 106.05197942447917,
         "terrainHeightMethod": "Interpolación bilineal solo con las cuatro muestras válidas; MDT contemporáneo a 10 m."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.574878,
+          40.616905
+        ]
+      },
+      "properties": {
+        "id": "torre-moro",
+        "name": "Torre del Moro I / Torre de Magin",
+        "typ": "torre",
+        "evidence": "Pobles de Catalunya, fitxa 18383; coordenades de Josep",
+        "url": "https://www.poblesdecatalunya.cat/element.php?e=18383",
+        "confidence": "Posicio aportada / alcat C",
+        "utm_x": 294857.7389860111,
+        "utm_y": 4499058.499279343,
+        "shortName": "Torre del Moro",
+        "category": "Torre de guaita / Codonyol",
+        "description": "Torre preexistent de planta rectangular i base atalussada al Codonyol. Paredat amb cantoneres de carreus; matacans, espitlleres i merlets interpretats a partir de les fotos aportades.",
+        "pending": "Mesurar alcats i planta, comprovar lorientacio de cada facana i datar el coronament conservat respecte a 1800.",
+        "certainty": {
+          "existence1800": "B",
+          "position": "B",
+          "footprint": "D",
+          "height": "D",
+          "appearance1800": "C"
+        },
+        "sourceRefs": [
+          "PDC-MORO: fitxa Torre del Moro I, segles XVI-XVII",
+          "Josep: 40.616905 N / 0.574878 E"
+        ],
+        "geometry1800": null,
+        "terrainHeight": 62.62942810066831,
+        "terrainHeightMethod": "MDT contemporani original; quatre mostres valides."
+      }
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "targetRange": [
     1778,
-    1950
+    1993
   ],
   "activeReconstructionRange": [
     1778,
     1800
   ],
   "status": "research-catalogue-not-completed-reconstruction",
-  "priority": "Complete streets, houses and services around 1800 first; retain later evidence as separate phases.",
+  "priority": "Ampliar el segle XIX amb traçabilitat documental. El selector 1778–1993 no implica una reconstrucció urbana completa de cada any.",
   "ortho": {
     "id": "G05",
     "title": "ICGC · ortofoto històrica 1945–1946",
@@ -46,22 +46,26 @@
       "kind": "project-and-existing-traces",
       "confidence": "B-date-from-thesis",
       "render": false,
-      "reason": "Distingir fosc existent, rosat projectat i groc a enderrocar. Reproducció només 384 × 554 píxels, sense controls independents suficients per a un ajust fiable. No s’ha georeferenciat ni convertit en ciutat executada."
+      "reason": "Plànol N003 aportat a 2608 × 3429 píxels, consultable a Arxiu XIX. La tesi l’identifica com ACA MPD 223. Diferencia existent, projecte i enderrocs; encara sense georeferenciació amb controls independents."
     },
     {
       "id": "canal-complex",
       "years": [
+        1851,
         1852,
         1857,
         1859,
-        1867
+        1867,
+        1872,
+        2013
       ],
       "name": "Complex de la Reial Companyia de Canalització de l’Ebre",
       "url": "https://museumarebre.com/museu/",
       "kind": "construction-and-use",
       "confidence": "B",
-      "render": false,
-      "reason": "Obres 1852–1859; oficines, magatzem, dues cases de guarda, resclosa i pont giratori. La menció de 1857 no acredita tot el complex acabat aquell any. Concessió de reg de 1867 diferenciada de la navegació."
+      "render": true,
+      "reason": "Conjunt del canal del XIX, diferent del de Carles III: oficines i tallers (Les Casotes), magatzem independent amb semisoterrani, dues cases de guarda, resclosa i pont giratori. Obres 1852–1859; testimoni local de 1857. Museu inaugurat l’1/12/2013. Model cap al 1858 i comparació actual aportats; mides estimades. La resclosa, el pont, el moll i el magatzem independent continuen sense planta verificada.",
+      "renderMeaning": "Només l’edifici amb model propi i fase datada; no tot el conjunt ni la vila."
     },
     {
       "id": "lighthouse",
@@ -72,16 +76,20 @@
         1874,
         1920,
         1929,
-        1936,
-        1938
+        1937,
+        1938,
+        1975,
+        1995
       ],
       "name": "Far de Sant Carles · punta de la Senieta",
       "url": "https://www.porttarragona.cat/ca/notes-de-premsa-rss/item/1758-far-sant-carles-de-la-rapita",
       "kind": "built-and-light-technology",
       "confidence": "B",
-      "render": false,
-      "reason": "Obra i llanterna de 1862; servei el 1864. La mateixa font discrepa entre setembre i novembre: no es fixa el mes. Tanca renovada segons descripció de 1875; ocultacions i acetilè el 1920; electricitat el 1929. La web municipal documenta apagada durant la guerra i represa a finals de 1938.",
-      "additionalUrl": "https://turismelarapita.cat/interes/far-de-la-rapita/"
+      "render": true,
+      "reason": "Edifici quadrat de 13,10 m, terrat pla i torre central, acabat el 1862. Primera llum l’1/11/1864 segons Cardenal i avís contemporani, malgrat la capçalera web que diu setembre. Llanterna cilíndrica i senyal blanca el 1920; electrificació el 1929; apagat de març de 1937 a finals de 1938. Òptica roja el 1975 i nou equip el 1995. El model actual es consulta com a comparació, sense retrodata dels acabats.",
+      "additionalUrl": "https://turismelarapita.cat/interes/far-de-la-rapita/",
+      "sourcePackage": "Faro/faro_rapita/cronologia-y-fuentes.md",
+      "renderMeaning": "Només l’edifici amb model propi i fase datada; no tot el conjunt ni la vila."
     },
     {
       "id": "ensanche-1867",
@@ -89,12 +97,13 @@
         1867,
         1870
       ],
-      "name": "Còpia de l’eixample · José Maes",
+      "name": "Còpia de l’eixample · José Míes",
       "source": "1679586.xml · ACA RP BGRP Cajas 70 carp.1 n.8",
       "kind": "project",
       "confidence": "A-catalogue",
       "render": false,
-      "reason": "197 parcel·les projectades; l’XML diu escala del pla original de 1867. És un document diferent de l’ACA MPD 223 de la tesi. No prova que es construïssin 197 edificis."
+      "reason": "197 parcel·les projectades; l’XML diu escala del pla original de 1867. És un document diferent de l’ACA MPD 223 de la tesi. No prova que es construïssin 197 edificis.",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/1679586"
     },
     {
       "id": "val-zafan",
@@ -152,5 +161,14 @@
       "render": false,
       "reason": "Una font escolar indica un mercat provisional el 1950. No s’assigna planta, lloc ni data de construcció sense contrastar-la. El mercat actual de 1971 queda fora del període."
     }
+  ],
+  "updated": "2026-11-08",
+  "selectableSceneRange": [
+    1778,
+    1993
+  ],
+  "researchPriorityRange": [
+    1800,
+    1900
   ]
 }

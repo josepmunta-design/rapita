@@ -1,0 +1,106 @@
+{
+  "entityId": "paredo-poblacio",
+  "historicalEvidence": {
+    "description": "Del descens a la dàrsena petita fins a l’extrem de la Mançana antiga, pel caire del Roquer i barranc de les Monges.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.24"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "paredo-poblacio",
+      "anchor": [
+        296473.1647641013,
+        4499315.79073124
+      ],
+      "footprintUTM": [],
+      "retainingLinesUTM": [
+        [
+          [
+            296448.0032034206,
+            4499482.475567581
+          ],
+          [
+            296443.4937313579,
+            4499470.512446679
+          ],
+          [
+            296464.8703842475,
+            4499463.258267798
+          ],
+          [
+            296487.07688801584,
+            4499454.2693418125
+          ],
+          [
+            296507.57866281806,
+            4499446.170302982
+          ],
+          [
+            296525.53084870585,
+            4499439.836029398
+          ],
+          [
+            296519.8613262346,
+            4499410.690537208
+          ],
+          [
+            296514.1918037634,
+            4499381.545045019
+          ],
+          [
+            296507.7524666915,
+            4499357.573776007
+          ],
+          [
+            296502.26305305475,
+            4499338.746712032
+          ]
+        ],
+        [
+          [
+            296429.9226871089,
+            4499235.073435558
+          ],
+          [
+            296421.03882460936,
+            4499218.886014914
+          ],
+          [
+            296420.7986794968,
+            4499205.128110629
+          ],
+          [
+            296426.5926265786,
+            4499192.125011874
+          ],
+          [
+            296442.68999280484,
+            4499178.081935269
+          ],
+          [
+            296459.6622371185,
+            4499164.88371861
+          ],
+          [
+            296476.5894542236,
+            4499149.105894898
+          ]
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C · traça del croquis; secció i cotes sense mesurar"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

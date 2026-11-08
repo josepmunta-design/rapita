@@ -1,0 +1,53 @@
+{
+  "entityId": "capella-convent",
+  "historicalEvidence": {
+    "description": "Al recinte del convent, sobre el Roquer, prop de la torre i de la bateria; el projecte de 1748 la marca amb C. No és Sant Elm ni l’Església Nova. Ajust del visor (31/10/2026): La capella C segueix la planta del redibuix de 1748 sense desplaçament individual. El semicercle de porxos d’assaig s’ha mogut 1 m cap a ponent per evitar el creuament. Alçària i coberta C; el testimoni de 1782 descriu humitats i usos de corral.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1 i 4"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "capella-1748",
+      "anchor": [
+        296375.7488379496,
+        4499230.047844276
+      ],
+      "footprintUTM": [
+        [
+          296377.51386939554,
+          4499227.6508654235
+        ],
+        [
+          296374.0007497635,
+          4499227.685512945
+        ],
+        [
+          296373.9196166238,
+          4499232.413515632
+        ],
+        [
+          296377.56111601554,
+          4499232.441483104
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "C",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

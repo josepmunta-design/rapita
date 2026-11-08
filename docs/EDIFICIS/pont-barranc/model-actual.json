@@ -1,0 +1,51 @@
+{
+  "entityId": "pont-barranc",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "pont-monges",
+        "name": "Pont de l'entrada de Barcelona",
+        "kind": "bridge",
+        "fromYear": 1794,
+        "townAnchor": [
+          0,
+          145
+        ],
+        "width": 8,
+        "depth": 14,
+        "height": 2.8,
+        "evidence": "H02 art. 25: pont amb baranes, guardarrodes i dos braços amb seients. Mides, nombre i forma dels arcs C.",
+        "anchor": [
+          296436.5618823963,
+          4499501.828793462
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 6.5751043311151385,
+        "footprintUTM": [
+          [
+            296430.50083101273,
+            4499496.512436051
+          ],
+          [
+            296438.0649796175,
+            4499493.907890815
+          ],
+          [
+            296442.62293377984,
+            4499507.145150874
+          ],
+          [
+            296435.0587851751,
+            4499509.749696109
+          ]
+        ]
+      }
+    }
+  ]
+}

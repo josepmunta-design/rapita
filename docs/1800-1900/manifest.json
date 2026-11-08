@@ -1,0 +1,364 @@
+{
+  "reviewed": "2026-11-08",
+  "folder": "docs/1800-1900",
+  "files": [
+    {
+      "file": "originals/aca-eixample-1870-resposta-450px.jpg",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/ViewImage.do?accion=42&txt_descarga=1&dbCode=11913087&txt_id_imagen=1&txt_zoom=100&txt_contraste=0&txt_rotar=0&txt_totalImagenes=1",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 30390,
+      "sha256": "b5ce38bb928451511184a79a143d31a7312696a28e5e60f13123cab7a3627cd6",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/aca-eixample-1870.jpg",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/ViewImage.do?accion=42&txt_descarga=1&dbCode=11913087&txt_id_imagen=1&txt_zoom=10&txt_contraste=0&txt_polarizado=&txt_brillo=10.0&txt_contrast=1.0&txt_totalImagenes=1&txt_transformacion=-1",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 55517,
+      "sha256": "666b39ff5a86e2ff651eea8d3f32a8a81fbd97c43d2d467da21d32c3e16251f5",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX08"
+      ]
+    },
+    {
+      "file": "originals/aht-butlleti-23.pdf",
+      "url": "https://xac.gencat.cat/web/.content/xac/01_continguts_arxius_comarcals/ah_tarragona/06_publicacions_aht/publicacions_periodiques_aht/Bulleti-num.-23-Difusio.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 4220113,
+      "sha256": "f9cd9b0dbae6c2c5346bfc3bfae25a243d9222b6f4bb13ed9aacd3319ca34dac",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX10"
+      ]
+    },
+    {
+      "file": "originals/ajuntament-historia.html",
+      "url": "https://larapita.cat/la-ciutat/historia/",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 117448,
+      "sha256": "67bf672c425180ac06f1727fb615ffadfe50bb1b6a6af142e0d13cc2e1f1892e",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX06"
+      ]
+    },
+    {
+      "file": "originals/arxiu-document-mes-2014-08.pdf",
+      "url": "https://larapita.cat/wp-content/uploads/2019/05/docmes2014-08.pdf",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 274987,
+      "sha256": "9c95ca3943fd3a31a6d16807c15774213be1b1ba744298f49fab0b05cf9d4024",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/arxiu-rapita-fons-complement-2024.pdf",
+      "url": "https://larapita.cat/wp-content/uploads/2024/08/Cat%C3%A0leg-FC-agost-2024.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 148468,
+      "sha256": "7fbd7ebd47295581712267853d0953e1f03c114459002880b05872f433366241",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX01"
+      ]
+    },
+    {
+      "file": "originals/canal-dreta-historia.html",
+      "url": "https://comunitatregants.org/web/informacio/historia/",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 114417,
+      "sha256": "8107bb2f28461995f8c5075156e3e59a44e0bd35a92ab010cab91124be904ef3",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX05"
+      ]
+    },
+    {
+      "file": "originals/dipta-desamortitzacio-madoz.pdf",
+      "url": "https://www.dipta.cat/llibreria/sites/llibreria/files/media/la_desamortitzacio_de_madoz.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 111331291,
+      "sha256": "9a9d91f2ce8707c5ef36b8f7ce5a2af94d6b6b3909d1dd52e63d442d09d2ca29",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX21"
+      ]
+    },
+    {
+      "file": "originals/dipta-desamortitzacio.html",
+      "url": "https://www.dipta.cat/llibreria/publicacions/desamortitzacio-madoz-provincia-tarragona-1859-1886",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 54642,
+      "sha256": "198d27035b34b1c767c81f823423269625ea4d0bf086bd4081b6cbb8e3f2a69f",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/gaceta-1851-12-02-concessio-canal.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1851/12/02/pdfs/GMD-1851-6350.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 2109855,
+      "sha256": "c023388268224e2cbb5b0ec211ffde0af583ce6f7b2e63d0547c2dc2702a0a66",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX03"
+      ]
+    },
+    {
+      "file": "originals/gaceta-1870-06-09-salines.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1870/06/09/pdfs/GMD-1870-160.pdf",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 6116231,
+      "sha256": "bce6db2dee27af94ea553353d31d34bc16740c28a1b936d1037f98200040163b",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/gaceta-1878-06-03-carrega-sal.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1878/06/03/pdfs/GMD-1878-154.pdf",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 5496980,
+      "sha256": "7aee54174724c19e947d7b3d99ed0ac6ae140974dcfab60403b23b142036496d",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/gaceta-1878-06-25-carrega-sal.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1878/06/25/pdfs/GMD-1878-176.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 7789471,
+      "sha256": "4ed90c45121899f5dd5ad13c0f0aaa16ab2c3a1f7eb1229cebbe26e568404af7",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX11"
+      ]
+    },
+    {
+      "file": "originals/gaceta-1880-03-22-pesca.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1880/03/22/pdfs/GMD-1880-82.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 6372085,
+      "sha256": "7ecd94029086f8b9570154eb6425f7047f5c9abb0ff8ca7ea2bb2b0533c11d56",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX13"
+      ]
+    },
+    {
+      "file": "originals/gaceta-1880-05-15-ferrocarril.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1880/05/15/pdfs/GMD-1880-136.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 6553018,
+      "sha256": "4d8c41e5c47782042bcb4c4e98ccaf3ecc71a359cec1441db2c4c81261bde4bf",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX12"
+      ]
+    },
+    {
+      "file": "originals/gaceta-1881-12-16-llacunes.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1881/12/16/pdfs/GMD-1881-350.pdf",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 4329804,
+      "sha256": "7288e19d856046dcfb2d27103ee0580d1fa9c2894eb8bef023f4957cada011bb",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/gaceta-1885-11-11-salines.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1885/11/11/pdfs/GMD-1885-315.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 6929517,
+      "sha256": "5b43cec730880bdcee7851b0dc1c9511213116f253ecab536784267e2eecbee4",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX14"
+      ]
+    },
+    {
+      "file": "originals/ign-alfaques-1813.html",
+      "url": "https://www.ign.es/web/catalogo-cartoteca/resources/html/009734.html",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 52324,
+      "sha256": "20550125e6a395c0981301336b8186d8f7983d5d965785cda9156e8c4334dea7",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX15"
+      ]
+    },
+    {
+      "file": "originals/ign-alfaques-1919.html",
+      "url": "https://www.ign.es/web/catalogo-cartoteca/resources/html/000429.html",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 62596,
+      "sha256": "a13500aa59d9c9d0f3e8cdf1332cdbb4178bb7d4ad6ab5a487c1ce7c6d675a16",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX16"
+      ]
+    },
+    {
+      "file": "originals/ine-censos-43136.csv",
+      "url": "https://www.ine.es/intercensal/download.do?typeDownload=3&descargarformato=Ir",
+      "session": "INE: open municipal query with cookie jar before requesting CSV",
+      "reviewScope": "used-source-or-support",
+      "bytes": 897,
+      "sha256": "10d5224f131085414636bceb6c8766cd7d9a27aa5d452b0cd1f217132bc622d1",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX02"
+      ]
+    },
+    {
+      "file": "originals/ine-censos-43136.html",
+      "url": "https://www.ine.es/intercensal/intercensal.do?search=3&codigoProvincia=43&codigoMunicipio=136&btnBuscarCod=Consultar+selecci%C3%B3n",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 80486,
+      "sha256": "8599168497d93b060c7294d1fd9d2a33939a044e548bc60178c74744cfff824e",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX02"
+      ]
+    },
+    {
+      "file": "originals/ine-metodologia-censos.pdf",
+      "url": "https://www.ine.es/alteraciones/alteraciones_municipios_metodologia.pdf",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 102615,
+      "sha256": "a093bb6cae218ab9fbdbc17aa0f6f9577971fa5fbf366651a2c5cb90f6f0c09b",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX02"
+      ]
+    },
+    {
+      "file": "originals/museumarebre-historia.html",
+      "url": "https://museumarebre.com/museu/",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 103812,
+      "sha256": "63cf6504448f4d3fe44bfa8e12ffa6a02c735248bb2f557d9d54d7c4c563c30f",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX04"
+      ]
+    },
+    {
+      "file": "originals/pares-eixample-1870.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/1679586",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 36603,
+      "sha256": "55ebac64d4fac5cd517001b32138150952d01052cf9642879305133fc5820662",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX08"
+      ]
+    },
+    {
+      "file": "originals/pares-eixample-visor.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/1679586",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 39681,
+      "sha256": "bc3a1d697c087550ca9233c0029a866bd2112b4b26d49d64f7910e99a7801f42",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/pares-esglesia-1868.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/1679995",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 33559,
+      "sha256": "04415f22571479408a4a4c1d4f41c5c815b2a4bf2a9e7fdf4b26c0bc1ebf91d9",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX09"
+      ]
+    },
+    {
+      "file": "originals/pares-esglesia-visor.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/1679995",
+      "session": null,
+      "reviewScope": "supplemental-not-used-for-public-claims",
+      "bytes": 16208,
+      "sha256": "02378a3fce4e5026a79bdc45fa546ded50c5cc3c143a55f9031e816517507ba8",
+      "formatValid": true,
+      "sourceIds": []
+    },
+    {
+      "file": "originals/pdc-cementiri.html",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18391",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 34343,
+      "sha256": "7280b6364c4cff5f411bfa6200599a49e763c10b3142fc322cae5dd0331358ea",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX17"
+      ]
+    },
+    {
+      "file": "originals/port-tarragona-far.html",
+      "url": "https://www.porttarragona.cat/ca/notes-de-premsa-rss/item/1758-far-sant-carles-de-la-rapita",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 587576,
+      "sha256": "ae293445fdcf67eb98d3029ad3653fc9acac8be6180526f9b6fbd1a71ce35834",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX07"
+      ]
+    },
+    {
+      "file": "originals/port-tarragona-sanitat-maritima.pdf",
+      "url": "https://www.porttarragona.cat/es/catalogo-de-publicaciones?element=3beed8c2-15db-40af-9860-3c6e3b261cc8&format=raw&item_id=5422&method=download&task=callelement",
+      "session": null,
+      "reviewScope": "used-source-or-support",
+      "bytes": 2849084,
+      "sha256": "7ec082e10b951f2cc71d2074a8492019151f8f8de9f93bf190b3699ec97edfd8",
+      "formatValid": true,
+      "sourceIds": [
+        "XIX18"
+      ]
+    }
+  ],
+  "verifiedFiles": 30,
+  "bytes": 166044018,
+  "failures": [
+    {
+      "sourceId": "XIX19",
+      "type": "HTTP 403",
+      "scope": "BNE original and viewer; not downloaded"
+    },
+    {
+      "sourceId": "XIX09",
+      "type": "image unavailable",
+      "scope": "Catalogue downloaded; viewer reports no associated images"
+    }
+  ]
+}

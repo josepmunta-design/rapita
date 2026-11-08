@@ -1,0 +1,29 @@
+{
+  "entityId": "pedrera-guardiola",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "pedrera-guardiola-fase-01",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Extracció durant 1780–1794",
+      "state": "Activitat documentada, límit i fronts no mesurats.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.223–224"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

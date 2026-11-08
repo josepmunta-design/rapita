@@ -1,0 +1,58 @@
+{
+  "entityId": "mataredona",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "mataredona",
+        "name": "Mas de Mataredona",
+        "kind": "farmstead",
+        "fromYear": 1913,
+        "utmAnchor": [
+          291958.9,
+          4501822.1
+        ],
+        "width": 34,
+        "depth": 22,
+        "height": 6.4,
+        "positionSource": {
+          "text": "Ruïna del Mas de Mata-redona a OpenStreetMap (40,64105° N, 0,53973° E), serra del Montsià, sobre el MDT de 50 m. El conjunt mira cap avall de la vall (est, 82°). Plantes i volums C llegits a la fotografia N100.",
+          "url": "https://www.openstreetmap.org/search?query=Mata-redona%20la%20R%C3%A0pita",
+          "precisionMeters": 30
+        },
+        "evidence": "Full topogràfic de 1913 (N111): «Masia de Matarredona» amb la Fuente de Burga a prop, a la serra del Montsià. La foto N100 (sense data original) mostra un grup de volums de pedra sobre bancals. No es data la masia al 1800 per l'existència del topònim; es mostra a partir del testimoni de 1913.",
+        "alongAzimuthDegrees": -98,
+        "flag": true,
+        "anchor": [
+          291958.9,
+          4501822.1
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 540.6520192388533,
+        "footprintUTM": [
+          [
+            291972.1588914725,
+            4501806.796346942
+          ],
+          [
+            291967.4270060399,
+            4501840.465461278
+          ],
+          [
+            291945.64110852755,
+            4501837.403653057
+          ],
+          [
+            291950.37299396016,
+            4501803.734538721
+          ]
+        ]
+      }
+    }
+  ]
+}

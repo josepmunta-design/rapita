@@ -10,11 +10,12 @@ import {centerNavigation,marketPlan} from './domestic-plan.mjs';
 import {groundQuad,surfaceMaterial} from './vernacular.ts';
 import {crearEdificioDuana1890,DUANA_1890} from './duana-1890.ts';
 import {crearFuenteRapita,FUENTE_RAPITA} from './fuente-rapita.ts';
+import {makeCasaLaureano} from './casa-laureano.ts';
 
 type Hole={x:number;width:number;height:number;bottom:number};
 export type CenterSite={id:string;name:string;kind:string;across:number;along:number;width:number;depth:number;wallHeight:number;roofRise:number;clock?:boolean;
   anchor:{easting:number;northing:number};frontAzimuthDegrees:number;state1794:string;evidence:string;limits:string;inventoryRelation?:string;replacesHousingIds?:string[];
-  terrain:{minimum:number;maximum:number;technicalBaseElevation:number};geometryConfidence:string};
+  terrain:{minimum:number;maximum:number;technicalBaseElevation:number};geometryConfidence:string;planBodies?:number[][][];planOutline?:number[][];layoutAlias?:string};
 export type CenterData={sites:CenterSite[];source:{title:string;url:string};townFrame:Housing['townFrame'];publicSpace:{plaza:{halfWidth:number;north:number;south:number;exedraRadius:number;passage?:{halfWidth:number;south:number}};crossAxis:{west:number;east:number;halfWidth:number};trees:{count:number;across:number[];south:number;north:number}}};
 
 function bossageTexture(){
@@ -53,6 +54,7 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
     const group=new THREE.Group();group.name=s.name;group.userData.centerId=s.id;
     group.userData.navigation=centerNavigation(s);
     group.position.fromArray(toWorld(s.anchor.easting,s.anchor.northing,s.terrain.technicalBaseElevation,meta.origin));group.rotation.y=THREE.MathUtils.degToRad(180-s.frontAzimuthDegrees);root.add(group);
+    if(s.layoutAlias){group.userData.layoutAlias=s.layoutAlias;continue;}
     type Batches=Map<THREE.Material,THREE.BufferGeometry[]>;
     const mainBatches:Batches=new Map();let batches:Batches=mainBatches;
     const transform=(x=0,y=0,z=0,rotation=0)=>new THREE.Matrix4().compose(new THREE.Vector3(x,y,z),new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0),rotation),new THREE.Vector3(1,1,1));
@@ -135,21 +137,10 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
       box(tx,by+Hb+.2,tz,TW+.8,.4,TW+.8,materials.stone);box(tx,by+Hb+.55,tz,TW-.4,.3,TW-.4,materials.roof);
       batches=mainBatches;
     }else if(s.kind==='covered-market'){
-      const plan=marketPlan(s),{T,piers,sideDepth,passage,sideWidth}=plan,floor=4.05;
+      const plan=marketPlan(s);
       emit(groundQuad(plan.floor,localGround),materials.stone);
-      const skirt=(x:number,z:number,L:number,alongX:boolean)=>{const count=Math.ceil(L);for(let i=0;i<count;i++){const a=-L/2+(i+.5)*L/count,cx=x+(alongX?a:0),cz=z+(alongX?0:a),y=localGround(cx,cz);if(y<0)box(cx,y/2,cz,alongX?L/count:T,-y,alongX?T:L/count,materials.support);}};
-      wall(0,0,-d/2+T/2,w,H,T,0,openings(w,3,1.3,4.7));
-      skirt(0,-d/2+T/2,w,true);
-      for(const sign of[-1,1]){
-        wall(sign*(w/2-T/2),0,-passage/2,sideDepth-2*T,H,T,Math.PI/2,[],materials.lime);
-        skirt(sign*(w/2-T/2),-passage/2,sideDepth-2*T,false);
-        wall(sign*(w/2-T/2),floor,d/2-passage/2,passage,H-floor,T,Math.PI/2,[],materials.bare);
-        const x=sign*(w/2-sideWidth/2),y=localGround(x,d/2-T/2);box(x,(3.8+y)/2,d/2-T/2,sideWidth,3.8-y,T);
-      }
-      for(const p of piers){const y=localGround(p.x,p.z);box(p.x,y+.12,p.z,p.baseWidth,.24,p.depth);const col=new THREE.CylinderGeometry(.34,.42,3.55-y,12);emit(col,materials.stone,transform(p.x,(3.8+y+.25)/2,p.z));box(p.x,3.72,p.z,1.03,.22,.96);}
-      box(0,floor-.1,0,w,.2,d,materials.wood);
-      box(0,3.97,d/2-T/2,w,.3,.82);
-      wall(0,floor,d/2-T/2,w,H-floor,T,0,openings(w,3,1.4,.5),materials.bare);
+      const study=makeCasaLaureano(s,localGround),photo=makeCasaLaureano(s,localGround,true);photo.visible=false;
+      group.add(study,photo);group.userData.photoComparison={study,photo};
     }else if(s.kind==='warehouse'){
       // Duana nova i magatzems de White. Detall llegit a N040 i N101 (vista de 1890): carreus encoixinats amb cantoneres, portes d'arc amb dovelles,
       // finestres amb emmarcament de pedra i cornisa. L'inventari de 1794 només acredita murs a tota alçària, sense coberta, revoltons ni envans.
@@ -183,6 +174,31 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
     }else if(s.kind==='unfinished-block'){
       shell(0,0,w,d,H,openings(w,5,2.7,0),materials.bare);
       for(const x of[-w/4,0,w/4])wall(x,0,0,d-1.1,H,.4,Math.PI/2,[{x:0,width:1.2,height:2.2,bottom:0}],materials.bare);
+    }else if(compound&&s.planOutline){
+      const poly=s.planOutline,y=Math.max(...poly.map(([x,z])=>localGround(x,z)))+.08;
+      group.userData.continuousCompound=true;group.userData.corniceElevation=y+H;
+      for(let i=0;i<poly.length;i++){
+        const a=poly[i],b=poly[(i+1)%poly.length],dx=b[0]-a[0],dz=b[1]-a[1],L=Math.hypot(dx,dz),angle=-Math.atan2(dz,dx),cx=(a[0]+b[0])/2,cz=(a[1]+b[1])/2,n=Math.max(1,Math.floor(L/4.5));
+        wall(cx,y,cz,L+.15,H,.55,angle,[...openings(L,n,2.35,0),...openings(L,n,1.45,4.3)],materials.lime);
+        const ground=Math.min(localGround(a[0],a[1]),localGround(b[0],b[1]));if(y>ground)emit(new THREE.BoxGeometry(L+.15,y-ground,.55),materials.support,transform(cx,(y+ground)/2,cz,angle));
+      }
+      const eaves=poly.map(([x,z])=>[x,y+H,z]),ridges=[0,1,2,3].map(i=>[(poly[i][0]+poly[7-i][0])/2,y+H+s.roofRise,(poly[i][1]+poly[7-i][1])/2]);
+      const face=(points:number[][],material:THREE.Material)=>{const vertices:number[]=[],uv:number[]=[];for(let i=1;i<points.length-1;i++){const a=points[0],b=points[i],c=points[i+1],up=(b[2]-a[2])*(c[0]-a[0])-(b[0]-a[0])*(c[2]-a[2]),tri=material===materials.roof&&up<0?[a,c,b]:[a,b,c];for(const p of tri){vertices.push(...p);uv.push(p[0]/1.4,p[2]/1.6);}}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(vertices,3));g.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));emit(g,material);};
+      for(let i=0;i<3;i++){face([eaves[i],eaves[i+1],ridges[i+1],ridges[i]],materials.roof);face([eaves[7-i],ridges[i],ridges[i+1],eaves[6-i]],materials.roof);}
+      face([eaves[0],ridges[0],eaves[7]],materials.lime);face([eaves[3],eaves[4],ridges[3]],materials.lime);
+    }else if(compound&&s.planBodies){
+      for(const poly of s.planBodies){
+        const center=poly.reduce((a,p)=>[a[0]+p[0]/poly.length,a[1]+p[1]/poly.length],[0,0]);
+        const y=Math.max(...poly.map(([x,z])=>localGround(x,z)))+.08;
+        for(let i=0;i<poly.length;i++){
+          const a=poly[i],b=poly[(i+1)%poly.length],dx=b[0]-a[0],dz=b[1]-a[1],L=Math.hypot(dx,dz),angle=-Math.atan2(dz,dx),cx=(a[0]+b[0])/2,cz=(a[1]+b[1])/2;
+          const n=Math.max(1,Math.floor(L/4.5)),holes=[...openings(L,n,2.35,0),...openings(L,n,1.45,4.3)];
+          wall(cx,y,cz,L,H,.5,angle,holes,materials.lime);
+          const ground=Math.min(localGround(...a as[number,number]),localGround(...b as[number,number]));if(y>ground)emit(new THREE.BoxGeometry(L,y-ground,.5),materials.support,transform(cx,(y+ground)/2,cz,angle));
+        }
+        const a=poly[0],b=poly[1],c=poly[2],L=Math.hypot(b[0]-a[0],b[1]-a[1]),D=Math.hypot(c[0]-b[0],c[1]-b[1]);
+        roof(center[0],y,center[1],L+.18,D+.18,H,s.roofRise,-Math.atan2(b[1]-a[1],b[0]-a[0]));
+      }
     }else if(compound){
       const wingDepth=s.kind==='inn'?10:9,frontZ=d/2-wingDepth/2,backZ=-d/2+wingDepth/2;
       for(const z of[frontZ,backZ]){

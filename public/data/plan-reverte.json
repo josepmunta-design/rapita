@@ -1,0 +1,35 @@
+{
+  "id": "plan-reverte",
+  "title": "Croquis de Pilar Reverté · població i port de 1794",
+  "source": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+  "image": "dossier-img/N112-il4.jpg",
+  "imageSize": [
+    572,
+    736
+  ],
+  "pixelBounds": [
+    0,
+    0,
+    572,
+    590
+  ],
+  "georeference": {
+    "anchorPixel": [
+      201,
+      269
+    ],
+    "anchorUTM": [
+      296389.00048781314,
+      4499354.485813496
+    ],
+    "metersPerPixel": 0.86,
+    "rotationDegrees": -1,
+    "offsetMeters": [
+      0,
+      0
+    ],
+    "confidence": "C",
+    "method": "Ajust relacional amb la Mançana, la plaça i la torre existents. No és una georeferenciació històrica mesurada."
+  },
+  "limits": "Croquis interpretatiu publicat el 2024 sobre l’estat de 1794; no és un aixecament original del 1800. Els ajustos de la capa només mouen la imatge."
+}

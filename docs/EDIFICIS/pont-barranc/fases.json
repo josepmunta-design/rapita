@@ -1,0 +1,48 @@
+{
+  "entityId": "pont-barranc",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "pont-barranc-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Pont construït",
+      "state": "Accés urbà amb seients, pilars i reixes.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.25"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "pont-barranc-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Barranc soterrat posterior",
+      "state": "Sense data d’obra de cobriment fixada en la carpeta.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.222"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // Tauler lateral amb l'expedient documental d'un edifici (docs/EDIFICIS, convertit a public/data/dossiers.json).
 export type Phase={label:string;date:string|null;year:number|null;state:string;kind:string;refs:string[];precision:string;outside:boolean|null};
 export type Photo={id:string;title:string;file:string;image:string;kind:'photo'|'plan'|'document';dateText:string;year:number|null;note:string};
-export type Dossier={id:string;name:string;parent:string|null;kind:string;modelIds:string[];withoutModel:string|null;modelNote:string|null;studyPosition:{text:string;url:string|null}|null;placement:string;certainty:string;placementRefs:string;
+export type Dossier={id:string;name:string;parent:string|null;kind:string;modelIds:string[];withoutModel:string|null;modelNote:string|null;phaseRule?:string|null;studyPosition:{text:string;url:string|null}|null;placement:string;certainty:string;placementRefs:string;
   description:string[];phases:Phase[];photos:Photo[];documents:Photo[];todo:{done:boolean;text:string}[];unknown:string[];related:{id:string;name:string}[];
   sources:{id:string;title:string;year:number|null;kind:string;reading:string}[];note:string};
 export type DossierData={prefixes:Record<string,string>;reviewed:string;targetRange:number[];activeSceneRange:number[];items:Record<string,Dossier>};
@@ -61,7 +61,7 @@ function dossierHTML(d:Dossier,data:DossierData,opts:{extra?:string}):string{
     <ul>${d.description.map(t=>`<li>${inline(t)}</li>`).join('')}</ul>
     <h3>Canvis i testimonis per època</h3>
     <ol class="phase-list">${phases}</ol>
-    <p class="dossier-rule">Cada fase recull la data del testimoni, no la de construcció. Cap d’aquestes dates activa automàticament un canvi de geometria.</p>
+    <p class="dossier-rule">${escape(d.phaseRule??'Cada fase recull la data del testimoni, no la de construcció. Cap d’aquestes dates activa automàticament un canvi de geometria.')}</p>
     <h3>Treball pendent</h3>
     <ul class="todo-list">${d.todo.map(t=>`<li class="${t.done?'done':''}">${inline(t.text)}</li>`).join('')}</ul>
     ${d.unknown.length?`<h3>Dades encara desconegudes</h3><ul>${d.unknown.map(t=>`<li>${escape(t)}</li>`).join('')}</ul>`:''}

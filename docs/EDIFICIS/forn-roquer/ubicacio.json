@@ -1,0 +1,49 @@
+{
+  "entityId": "forn-roquer",
+  "historicalEvidence": {
+    "description": "Emplaçament d’assaig al conjunt militar, sense identificació precisa amb el Rajolar de la Rabosa.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "ANT-LIT",
+        "locator": "fonts i annexos del Roquer"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "kiln",
+      "anchor": [
+        296355,
+        4499154
+      ],
+      "footprintUTM": [
+        [
+          296352.5,
+          4499156.5
+        ],
+        [
+          296352.5,
+          4499151.5
+        ],
+        [
+          296357.5,
+          4499151.5
+        ],
+        [
+          296357.5,
+          4499156.5
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

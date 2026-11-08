@@ -1,0 +1,48 @@
+{
+  "entityId": "forn-moli-guix",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "forn-moli-guix-fase-01",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Servei existent",
+      "state": "Afrontació de Fonda Vella.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.211"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "forn-moli-guix-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Arranjaments durant les obres",
+      "state": "Referències sense una data individual fixada en aquest passatge.",
+      "kind": "interpretació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.224"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "entityId": "cova-roquer",
+  "historicalEvidence": {
+    "description": "Emplacament de treball al costat sud del Roquer segons el comentari de Josep: E 296428.711 / N 4499119.484 m, centre del conjunt de tres cavitats. La relacio historica exacta i les seccions continuen pendents de validacio.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,4"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

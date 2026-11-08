@@ -1,0 +1,48 @@
+{
+  "entityId": "mataredona",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "mataredona-fase-01",
+      "witnessDate": "1913",
+      "witnessYear": 1913,
+      "label": "Context cartogràfic",
+      "state": "Ubicació territorial a contrastar amb topografia i parcel·lari.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N111",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "mataredona-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Fotografia del mas",
+      "state": "Sense data original confirmada; no retroprojectar les ruïnes al 1800.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N100",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

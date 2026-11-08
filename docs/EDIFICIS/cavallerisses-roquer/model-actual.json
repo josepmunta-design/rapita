@@ -1,0 +1,573 @@
+{
+  "entityId": "cavallerisses-roquer",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "quarters",
+        "name": "Dependències de la guarnició",
+        "anchor": [
+          296398.6556884499,
+          4499182.022885049
+        ],
+        "kind": "quarters",
+        "width": 7,
+        "depth": 7,
+        "height": 5.4,
+        "radius": 22,
+        "state": "Allotjament de tropa i oficials; volum d'assaig",
+        "evidence": "H02 art. 16 i H01. Els usos són documentats; la separació en aquest cos i les obertures són C. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
+        "alongAzimuthDegrees": 19,
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "footprintUTM": [
+          [
+            296396.48586197593,
+            4499186.471688604
+          ],
+          [
+            296394.20688489475,
+            4499179.853058575
+          ],
+          [
+            296400.8255149239,
+            4499177.574081494
+          ],
+          [
+            296403.1044920051,
+            4499184.192711523
+          ]
+        ],
+        "technicalBaseElevation": 8.298636504935201,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-caballeria-1748",
+        "name": "Quarter de cavalleria del recinte",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296384.99771919835,
+          4499222.163132763
+        ],
+        "alongAzimuthDegrees": 0,
+        "width": 8.370886716293171,
+        "depth": 2.98914713319391,
+        "height": 3.8,
+        "evidence": "Plànol de 1748, D: Quarter de cavalleria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "partitions": 2,
+        "planLetter": "D",
+        "planPixels": [
+          [
+            963,
+            693
+          ],
+          [
+            1042,
+            668
+          ],
+          [
+            1051,
+            694
+          ],
+          [
+            973,
+            720
+          ]
+        ],
+        "polygonUTM": [
+          [
+            296389.1988163046,
+            4499220.636464257
+          ],
+          [
+            296380.832464,
+            4499220.846738158
+          ],
+          [
+            296380.8279295883,
+            4499223.62561139
+          ],
+          [
+            296389.1316669005,
+            4499223.543717247
+          ]
+        ],
+        "anchor": [
+          296384.99771919835,
+          4499222.163132763
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.506984127917471,
+        "footprintUTM": [
+          [
+            296389.1988163046,
+            4499220.636464257
+          ],
+          [
+            296380.832464,
+            4499220.846738158
+          ],
+          [
+            296380.8279295883,
+            4499223.62561139
+          ],
+          [
+            296389.1316669005,
+            4499223.543717247
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-caballeria-1748-2",
+        "name": "Quarter de cavalleria · cambra central",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "height": 3.8,
+        "planLetter": "D",
+        "planPixels": [
+          [
+            1046,
+            703
+          ],
+          [
+            1088,
+            689
+          ],
+          [
+            1097,
+            715
+          ],
+          [
+            1055,
+            730
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "utmAnchor": [
+          296379.3716897274,
+          4499225.756035239
+        ],
+        "alongAzimuthDegrees": 0,
+        "polygonUTM": [
+          [
+            296381.6013579214,
+            4499224.320675856
+          ],
+          [
+            296377.13011475326,
+            4499224.364772702
+          ],
+          [
+            296377.12558034173,
+            4499227.143645934
+          ],
+          [
+            296381.6297058934,
+            4499227.195046465
+          ]
+        ],
+        "width": 4.504125551669858,
+        "depth": 2.8743706084787846,
+        "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "anchor": [
+          296379.3716897274,
+          4499225.756035239
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.482475551008196,
+        "footprintUTM": [
+          [
+            296381.6013579214,
+            4499224.320675856
+          ],
+          [
+            296377.13011475326,
+            4499224.364772702
+          ],
+          [
+            296377.12558034173,
+            4499227.143645934
+          ],
+          [
+            296381.6297058934,
+            4499227.195046465
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-caballeria-1748-3",
+        "name": "Quarter de cavalleria · cambra occidental",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "height": 3.8,
+        "planLetter": "D",
+        "planPixels": [
+          [
+            979,
+            723
+          ],
+          [
+            1021,
+            710
+          ],
+          [
+            1030,
+            738
+          ],
+          [
+            988,
+            751
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "utmAnchor": [
+          296386.46876458003,
+          4499225.58223478
+        ],
+        "alongAzimuthDegrees": 0,
+        "polygonUTM": [
+          [
+            296388.65732979454,
+            4499224.027503678
+          ],
+          [
+            296384.21896901,
+            4499224.167097899
+          ],
+          [
+            296384.2801993656,
+            4499227.136965883
+          ],
+          [
+            296388.71856015007,
+            4499226.9973716615
+          ]
+        ],
+        "width": 4.499591140076518,
+        "depth": 3.1094622053205967,
+        "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra occidental. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "anchor": [
+          296386.46876458003,
+          4499225.58223478
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.57574289119969,
+        "footprintUTM": [
+          [
+            296388.65732979454,
+            4499224.027503678
+          ],
+          [
+            296384.21896901,
+            4499224.167097899
+          ],
+          [
+            296384.2801993656,
+            4499227.136965883
+          ],
+          [
+            296388.71856015007,
+            4499226.9973716615
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-infanteria-1748",
+        "name": "Quarter d'infanteria del recinte",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296386.4556634133,
+          4499229.111795604
+        ],
+        "alongAzimuthDegrees": 0,
+        "width": 4.535623298375867,
+        "depth": 3.5900988606736064,
+        "height": 3.8,
+        "evidence": "Plànol de 1748, E: Quarter d'infanteria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "partitions": 2,
+        "planLetter": "E",
+        "planPixels": [
+          [
+            989,
+            754
+          ],
+          [
+            1032,
+            741
+          ],
+          [
+            1043,
+            773
+          ],
+          [
+            1000,
+            786
+          ]
+        ],
+        "polygonUTM": [
+          [
+            296388.72170992475,
+            4499227.316746174
+          ],
+          [
+            296384.1878517641,
+            4499227.489222779
+          ],
+          [
+            296384.18961690186,
+            4499230.906845035
+          ],
+          [
+            296388.72347506246,
+            4499230.73436843
+          ]
+        ],
+        "anchor": [
+          296386.4556634133,
+          4499229.111795604
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.655983561344318,
+        "footprintUTM": [
+          [
+            296388.72170992475,
+            4499227.316746174
+          ],
+          [
+            296384.1878517641,
+            4499227.489222779
+          ],
+          [
+            296384.18961690186,
+            4499230.906845035
+          ],
+          [
+            296388.72347506246,
+            4499230.73436843
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-infanteria-1748-2",
+        "name": "Quarter d’infanteria · cambra central",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "height": 3.8,
+        "planLetter": "E",
+        "planPixels": [
+          [
+            1038,
+            735
+          ],
+          [
+            1082,
+            721
+          ],
+          [
+            1093,
+            754
+          ],
+          [
+            1049,
+            768
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "utmAnchor": [
+          296381.10377800616,
+          4499228.925023447
+        ],
+        "alongAzimuthDegrees": 0,
+        "polygonUTM": [
+          [
+            296383.4175732057,
+            4499227.113532824
+          ],
+          [
+            296378.7553352853,
+            4499227.223394436
+          ],
+          [
+            296378.78998280666,
+            4499230.736514068
+          ],
+          [
+            296383.452220727,
+            4499230.626652457
+          ]
+        ],
+        "width": 4.696885441662744,
+        "depth": 3.6229812437668443,
+        "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "anchor": [
+          296381.10377800616,
+          4499228.925023447
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.60754541269215,
+        "footprintUTM": [
+          [
+            296383.4175732057,
+            4499227.113532824
+          ],
+          [
+            296378.7553352853,
+            4499227.223394436
+          ],
+          [
+            296378.78998280666,
+            4499230.736514068
+          ],
+          [
+            296383.452220727,
+            4499230.626652457
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cuartel-infanteria-1748-3",
+        "name": "Quarter d’infanteria · cambra meridional",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "height": 3.8,
+        "planLetter": "E",
+        "planPixels": [
+          [
+            1026,
+            783
+          ],
+          [
+            1097,
+            760
+          ],
+          [
+            1103,
+            781
+          ],
+          [
+            1033,
+            805
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "utmAnchor": [
+          296382.41671101924,
+          4499232.505387608
+        ],
+        "alongAzimuthDegrees": 0,
+        "polygonUTM": [
+          [
+            296386.14189613215,
+            4499231.302818275
+          ],
+          [
+            296378.60528760374,
+            4499231.44102786
+          ],
+          [
+            296378.7228334025,
+            4499233.643767061
+          ],
+          [
+            296386.1968269384,
+            4499233.633937236
+          ]
+        ],
+        "width": 7.591539334680419,
+        "depth": 2.3409487856552005,
+        "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra meridional. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "anchor": [
+          296382.41671101924,
+          4499232.505387608
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.73159454888169,
+        "footprintUTM": [
+          [
+            296386.14189613215,
+            4499231.302818275
+          ],
+          [
+            296378.60528760374,
+            4499231.44102786
+          ],
+          [
+            296378.7228334025,
+            4499233.643767061
+          ],
+          [
+            296386.1968269384,
+            4499233.633937236
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entityId": "guardiola",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/landmarks.json",
+      "data": {
+        "id": "guardiola",
+        "name": "Torre de la Guardiola",
+        "kind": "watchtower",
+        "anchor": {
+          "easting": 295807.1,
+          "northing": 4499774
+        },
+        "frontAzimuthDegrees": 110,
+        "width": 5.8,
+        "depth": 5.8,
+        "baseWidth": 6.8,
+        "batteredHeight": 1.8,
+        "wallHeight": 6.8,
+        "wallThickness": 0.65,
+        "focusRadius": 20,
+        "state": "Torre de guaita: base atalussada i alçat d'estudi sense coronament modern",
+        "evidence": "H01, pp. 161–162, la situa entre els elements de 1780. La fitxa municipal descriu planta quadrada, base atalussada i paredat; antecedents de 1483 i 1575.",
+        "limits": "Les mesures i l'alçat el 1800 són C. No es copien el mirador, la imatge religiosa, els merlets, les escales ni les reformes contemporànies. El coronament històric no s'ha restituït. La cota del turó no és l'alçària de la torre.",
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "constructionYear": null,
+        "state1800": null,
+        "modernCrown": false,
+        "supportFootprint": [
+          [
+            -3.4,
+            -3.4
+          ],
+          [
+            -3.4,
+            3.4
+          ],
+          [
+            3.4,
+            -3.4
+          ],
+          [
+            3.4,
+            3.4
+          ]
+        ],
+        "footprintUTM": [
+          [
+            295802.742176602,
+            4499771.967913577
+          ],
+          [
+            295809.13208642334,
+            4499769.642176602
+          ],
+          [
+            295805.0679135766,
+            4499778.357823398
+          ],
+          [
+            295811.45782339794,
+            4499776.032086423
+          ]
+        ],
+        "terrain": {
+          "minimum": 105.05804611888323,
+          "maximum": 105.94274598342851,
+          "technicalBaseElevation": 106.0227459834285
+        }
+      }
+    }
+  ]
+}

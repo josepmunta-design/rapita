@@ -1,0 +1,17 @@
+{
+  "entityId": "rajolar",
+  "historicalEvidence": {
+    "description": "Partida de la Rabosa, en terres de les Santjoanistes; coordenades no fixades.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "p.223"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

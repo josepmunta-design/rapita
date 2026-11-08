@@ -1,0 +1,48 @@
+{
+  "entityId": "barraques-obrers",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "barraques-obrers-fase-01",
+      "witnessDate": "1780-08-06",
+      "witnessYear": 1780,
+      "label": "Campament de treball",
+      "state": "Tendes, barraques i coves; geometria desconeguda.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N025",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "barraques-obrers-fase-02",
+      "witnessDate": "1780-11-13",
+      "witnessYear": 1780,
+      "label": "Barraques en creixement",
+      "state": "12 construïdes; ampliació prevista fins a un total de 50. No consta que s’executés tota la previsió ni que persistissin el 1800.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N029",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

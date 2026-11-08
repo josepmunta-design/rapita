@@ -27,3 +27,8 @@ tmp/
 !/docs/**/*.md
 !/docs/**/*.json
 !/docs/**/*.csv
+
+.vercel
+
+# Generated documentary readers; downloaded source pages remain local
+!/docs/EDIFICIS/**/*.html

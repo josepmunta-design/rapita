@@ -1,0 +1,148 @@
+{
+  "entityId": "canal-antic",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "canal-antic-fase-01",
+      "witnessDate": "1780-05-21",
+      "witnessYear": 1780,
+      "label": "Traçat i anivellament",
+      "state": "Cotes relatives i rescloses proposades.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N023",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N024",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "canal-antic-fase-02",
+      "witnessDate": "1780-11-13",
+      "witnessYear": 1780,
+      "label": "Canal i població projectats",
+      "state": "Ramals i elements previstos; plànols originals no presents en aquestes fotos de llegenda.",
+      "kind": "projecte",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N028",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N029",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "canal-antic-fase-03",
+      "witnessDate": "1785",
+      "witnessYear": 1785,
+      "label": "Ponz",
+      "state": "Nova població i canal descrits; any editorial de la primera edició del volum XIII, edició concreta dels retalls pendent.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N022",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "canal-antic-fase-04",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Canal irregular i poc profund",
+      "state": "Dimensions documentals conservades en unitats originals.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.31"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "canal-antic-fase-05",
+      "witnessDate": "1816",
+      "witnessYear": 1816,
+      "label": "Laborde en castellà",
+      "state": "Barques petites transporten abastiments; bombes de foc i ampliació són propostes.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N016",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N020",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N021",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "canal-antic-fase-06",
+      "witnessDate": "1844",
+      "witnessYear": 1844,
+      "label": "Jaubert",
+      "state": "Retrospecció crítica de les obres interrompudes; no totes les rescloses s’han de dibuixar acabades.",
+      "kind": "retrospectiu",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N004",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N006",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N012",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

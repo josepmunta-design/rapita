@@ -1,0 +1,29 @@
+{
+  "entityId": "torre-moro",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "torre-moro-fase-01",
+      "witnessDate": "2023",
+      "witnessYear": 2023,
+      "label": "Fotografies actuals i atribucio tipologica",
+      "state": "Referencia de forma. No acredita lestat exacte de 1800.",
+      "kind": "testimoni posterior",
+      "eventDate": null,
+      "eventDateReason": "Data de les fotos, no de construccio.",
+      "references": [
+        {
+          "sourceId": "WEB-PDC-MORO",
+          "locator": "fitxa 18383, fotos de 2023 i coordenades aportades per Josep"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": true,
+      "datePrecision": "any"
+    }
+  ]
+}

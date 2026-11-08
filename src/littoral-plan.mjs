@@ -1,3 +1,10 @@
+import {caveFloor,caveCoordinates,caveSites} from './cave-plan.mjs';
+import {harbourHeight,harbourGround} from './harbour-plan.mjs';
+import {inPolygon} from './harbour-plan.mjs';
+function basinWest(n,b){
+ if(!b.polygonUTM)return Math.abs(n-b.center[1])<=b.length/2?b.center[0]-b.width/2:Infinity;
+ let west=Infinity;for(let i=0;i<b.polygonUTM.length;i++){const a=b.polygonUTM[i],c=b.polygonUTM[(i+1)%b.polygonUTM.length];if(n>=Math.min(a[1],c[1])&&n<=Math.max(a[1],c[1])&&a[1]!==c[1])west=Math.min(west,a[0]+(c[0]-a[0])*(n-a[1])/(c[1]-a[1]));}return west;
+}
 /** Interpretation only: never mutates the archived measured terrain or its validity mask. */
 export function shoreEasting(n,shore){
   let west=Infinity;
@@ -8,10 +15,16 @@ export function shoreEasting(n,shore){
 /** Union of sea and open harbour basins. A basin cannot leave a land plug at its seaward edge. */
 export function coastalWaterEasting(n,data){
   let e=shoreEasting(n,data.shorelineStudy);
-  for(const b of data.basins)if(Math.abs(n-b.center[1])<=b.length/2)e=Math.min(e,b.center[0]-b.width/2);
+  for(const b of data.basins)e=Math.min(e,basinWest(n,b));
   return e;
 }
 export function coastalWaterOutline(data){
+  if(data.basins.some(b=>b.polygonUTM)){
+    const lines=[...data.shorelineStudy.slice(1).map((p,i)=>[data.shorelineStudy[i],p]),...data.basins.flatMap(b=>(b.polygonUTM??[]).map((p,i,poly)=>[p,poly[(i+1)%poly.length]]))],levels=new Set(data.shorelineStudy.map(p=>p[1]));
+    for(const b of data.basins)for(const p of b.polygonUTM??[])levels.add(p[1]);
+    for(let i=0;i<lines.length;i++)for(let j=i+1;j<lines.length;j++){const[a,b]=lines[i],[c,d]=lines[j],dx=b[0]-a[0],dy=b[1]-a[1],ex=d[0]-c[0],ey=d[1]-c[1],den=dx*ey-dy*ex;if(Math.abs(den)<1e-8)continue;const t=((c[0]-a[0])*ey-(c[1]-a[1])*ex)/den,u=((c[0]-a[0])*dy-(c[1]-a[1])*dx)/den;if(t>0&&t<1&&u>0&&u<1)levels.add(a[1]+dy*t);}
+    const ns=[...levels].sort((a,b)=>b-a),out=[];for(let i=0;i<ns.length-1;i++){const a=ns[i],b=ns[i+1],eps=Math.min(1e-4,(a-b)/10);for(const n of[a-eps,b+eps])out.push([coastalWaterEasting(n,data),n]);}return out;
+  }
   const shore=data.shorelineStudy,points=[];
   const add=(e,n)=>{if(!points.length||points.at(-1)[0]!==e||points.at(-1)[1]!==n)points.push([e,n]);};
   // Keep polyline order: sorting by northing destroys the re-entrant coves of the traced Roquer.
@@ -35,7 +48,7 @@ export function coastDistance(e,n,data){
   const shore=data.shorelineStudy;let crossings=0;
   for(let i=0;i<shore.length-1;i++){const a=shore[i],b=shore[i+1];if((a[1]>n)!==(b[1]>n)&&e>a[0]+(b[0]-a[0])*(n-a[1])/(b[1]-a[1]))crossings++;}
   let distance=nearestRoute(e,n,shore).distance*(crossings%2?-1:1);
-  for(const b of data.basins)if(Math.abs(n-b.center[1])<=b.length/2)distance=Math.min(distance,b.center[0]-b.width/2-e);
+  for(const b of data.basins)distance=Math.min(distance,basinWest(n,b)-e);
   return distance;
 }
 export function nearestRoute(e,n,route){
@@ -48,24 +61,28 @@ export function nearestRoute(e,n,route){
 export function canalWaterLevel(along,length,sea=.45){return sea+.9*Math.max(0,Math.min(1,(along-100)/Math.max(1,length-100)));}
 const smooth=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
 export function landscapeSample(e,n,original,data){
-  let height=original,zone='land',wetBed=Infinity,bank=null;
+  const modern=harbourGround(e,n,original,data.harbourPhase);if(modern!==null)return {height:modern,zone:modern<0?'seabed':'land'};
+  let height=original,zone='land',wetBed=Infinity,bank=null,canalWet=false,basinWet=false;
   if(n>=4497800&&n<=4501500){
     const d=coastDistance(e,n,data),rock=n>4499060&&n<4499260;
     if(d<=0){height=Math.min(height,-.8-Math.min(8,-d*.015));zone='seabed';wetBed=height;}
     else if(d<24){const edge=rock?.6:.46;height=edge+(original-edge)*smooth(d/(rock?16:24));zone=rock?'rock':'sand';}
   }
-  for(const basin of data.basins){const dx=Math.abs(e-basin.center[0])-basin.width/2,dy=Math.abs(n-basin.center[1])-basin.length/2,d=Math.max(dx,dy);if(d<=0)wetBed=Math.min(wetBed,data.studyWaterElevation-.9);else if(d<4)height=Math.min(height,data.studyWaterElevation-.9+d*.4);}
+  for(const basin of data.basins){const dx=Math.abs(e-basin.center[0])-basin.width/2,dy=Math.abs(n-basin.center[1])-basin.length/2,d=basin.polygonUTM?(inPolygon(e,n,basin.polygonUTM)?-1:nearestRoute(e,n,[...basin.polygonUTM,basin.polygonUTM[0]]).distance):Math.max(dx,dy);if(d<=0){wetBed=Math.min(wetBed,data.studyWaterElevation-.9);basinWet=true;}else if(d<4)height=Math.min(height,data.studyWaterElevation-.9+d*.4);}
   for(const[route,width]of[[data.canal.routeStudy,data.canal.studyWidth],[data.canal.branchStudy,6.5]]){
     if(n<Math.min(route[0][1],route.at(-1)[1])-20||n>Math.max(route[0][1],route.at(-1)[1])+20)continue;
     const p=nearestRoute(e,n,route),edge=p.distance-width/2;
     if(edge<8){const water=route===data.canal.routeStudy?canalWaterLevel(p.along,p.length,data.studyWaterElevation):data.studyWaterElevation,bed=water-.85;
-      if(edge<=0)wetBed=Math.min(wetBed,bed);
-      else if(!bank||edge<bank.distance){const crest=Math.max(original,water+.35);bank={distance:edge,height:edge<4?bed+(crest-bed)*smooth(edge/4):crest+(original-crest)*smooth((edge-4)/4)};}
+      if(edge<=0){wetBed=Math.min(wetBed,bed);canalWet=true;}
+      else if(!bank||edge<bank.distance){const crest=zone==='seabed'?water+.55:Math.max(original,water+.35),outside=zone==='seabed'?-1:original;bank={distance:edge,height:edge<4?bed+(crest-bed)*smooth(edge/4):crest+(outside-crest)*smooth((edge-4)/4)};}
     }
   }
   // Excavation is a union: a neighbouring canal bank must never refill an existing wet bed.
-  if(Number.isFinite(wetBed)){height=Math.min(height,wetBed);zone=zone==='seabed'?'seabed':'bed';}
+  if(bank&&zone==='seabed'&&!canalWet&&!basinWet&&bank.distance>0){height=bank.height;zone=height>data.studyWaterElevation?'sand':'seabed';}
+  else if(Number.isFinite(wetBed)){height=Math.min(height,wetBed);zone=zone==='seabed'?'seabed':'bed';}
   else if(bank){height=bank.height;zone='sand';}
+  if(!data.harbourPhase){const excavated=caveFloor(e,n,height,data.researchLandscape);if(excavated<height-.01){const q=caveCoordinates(e,n,data.researchLandscape);zone=q.depth<0?'sand':caveSites(data.researchLandscape).some(c=>Math.abs(q.along-c.along)<c.width*.5&&q.depth<c.depth+.3)?'cave':'rock';}height=excavated;}
+  const reclaimed=harbourHeight(e,n,data.harbourPhase);if(reclaimed!==null){height=reclaimed;zone='rock';}
   return {height,zone};
 }
 

@@ -7,6 +7,8 @@ const random=(a,b,c=0)=>{const x=Math.sin(a*127.1+b*311.7+c*74.7)*43758.5453;ret
 export function environmentPlan(urban,littoral,housing,center,sample){
  const occupied=[...housing.structures.flatMap(s=>[s.footprintUTM,...housingNavigation(s).floors]),...center.sites.map(s=>s.footprintUTM),...urban.sites.map(s=>s.footprintUTM),...littoral.sites.filter(s=>s.width&&s.depth).map(s=>rect(s.anchor[0],s.anchor[1],s.width,s.depth))].filter(Boolean);
  occupied.push(rect(296516,4499184,86,6),rect(296574,4499247,6,72));
+ for(const s of urban.sites)occupied.push(...(s.collisionFootprintsUTM??[]));
+ for(const line of littoral.portWorks?.breakwaters??[])for(let i=0;i<line.length-1;i++){const a=line[i],b=line[i+1],L=Math.hypot(b[0]-a[0],b[1]-a[1]),dx=(b[0]-a[0])/L,dn=(b[1]-a[1])/L,r=littoral.portWorks.width/2+1;occupied.push([[a[0]-dn*r,a[1]+dx*r],[b[0]-dn*r,b[1]+dx*r],[b[0]+dn*r,b[1]-dx*r],[a[0]+dn*r,a[1]-dx*r]]);}
  const shrubs=[],stones=[],pots=[];
  const dry=(e,n,radius=.4)=>{if(footprintBlocked(e,n,occupied,radius))return null;return sample(e,n);};
  for(let a=-220;a<=190;a+=11)for(let b=-178;b<=170;b+=11){

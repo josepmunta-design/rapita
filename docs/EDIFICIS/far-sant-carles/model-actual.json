@@ -1,0 +1,69 @@
+{
+  "entityId": "far-sant-carles",
+  "captureDate": "2026-11-02",
+  "confidence": "B dimensions principals / C detalls",
+  "warning": "Mides principals documentades; posició i orientació d’assaig, detalls aproximats i cota tècnica contemporània.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "far-sant-carles",
+        "name": "Far de Sant Carles",
+        "kind": "lighthouse",
+        "fromYear": 1862,
+        "utmAnchor": [
+          295687.2,
+          4497963
+        ],
+        "width": 13.1,
+        "depth": 13.1,
+        "height": 3.7,
+        "positionSource": {
+          "text": "Coordenades de la platja del Far (40°36′26,1″ N, 0°35′6,1″ E), Diputació de Tarragona: punta de la Senieta. Són les de la platja, no les de l’edifici: precisió d’unes desenes o centenars de metres. Volum C.",
+          "url": "https://terresdelebre.travel/en/node/840",
+          "precisionMeters": 150
+        },
+        "evidence": "Planta quadrada de 13,10 m, terrat pla i torre central segons Cardenal (1875). Obra de 1862; servei des de l’1/11/1864. Llanterna cilíndrica des de 1920 i òptica roja des de 1975. Acabats actuals només en comparació fotogràfica. Posició aproximada de la platja del Far; orientació sense verificar.",
+        "geometryConfidence": "B dimensions principals / C detalls",
+        "documentedDimensions": {
+          "sideMeters": 13.1,
+          "socleHeightMeters": 0.5,
+          "wallHeightMeters": 2.9,
+          "corniceHeightMeters": 0.3,
+          "crownHeightMeters": 3.7,
+          "towerDiameterMeters": 2.3,
+          "upperTowerDiameterMeters": 1.9,
+          "focalHeight1864Meters": 6.8
+        },
+        "modelSource": "Faro/faro_rapita/faro-rapita-threejs.js",
+        "orientationEvidence": "Façana +Z convencional al paquet; es conserva el gir d’assaig del mapa, sense rumb històric acreditat.",
+        "anchor": [
+          295687.2,
+          4497963
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 0.7826360218215059,
+        "footprintUTM": [
+          [
+            295678.8743819181,
+            4497958.939324741
+          ],
+          [
+            295691.26067525847,
+            4497954.674381918
+          ],
+          [
+            295695.5256180819,
+            4497967.060675259
+          ],
+          [
+            295683.13932474155,
+            4497971.325618082
+          ]
+        ]
+      }
+    }
+  ]
+}

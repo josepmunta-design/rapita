@@ -1,0 +1,86 @@
+{
+  "entityId": "sant-elm",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "sant-elm-fase-01",
+      "witnessDate": "1785",
+      "witnessYear": 1785,
+      "label": "Projecte de Parrado",
+      "state": "Inici de projecte segons l’estudi; no implica temple acabat aquell any.",
+      "kind": "projecte",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.213"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "sant-elm-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Oratori nou",
+      "state": "Falta un tram del campanar.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.6 p.231"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "sant-elm-fase-03",
+      "witnessDate": "1935",
+      "witnessYear": 1935,
+      "label": "Temple antic fotografiat",
+      "state": "L’article reprodueix la vista datada entre claudàtors [1935]; verificar la datació a l’arxiu.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.6 p.212"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "sant-elm-fase-04",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Guerra i temple de postguerra",
+      "state": "El catàleg previ registra destrucció i reconstrucció amb conflicte entre 1941 i 1945; no hi ha en aquesta carpeta expedient d’obra que el resolgui.",
+      "kind": "pendent",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "ANT-HIST",
+          "locator": "parish-rebuilding"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

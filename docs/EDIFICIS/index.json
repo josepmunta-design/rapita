@@ -1,0 +1,1243 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-10-31",
+  "mainDossiers": 66,
+  "individualStudyBodies": 57,
+  "phaseRecords": 299,
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "activeSceneRange": [
+    1778,
+    1993
+  ],
+  "items": [
+    {
+      "id": "esglesia-nova",
+      "name": "Església Nova",
+      "parentDossier": null,
+      "path": "esglesia-nova/README.md",
+      "phasePath": "esglesia-nova/fases.json",
+      "modelIds": [
+        "esglesia_nova"
+      ]
+    },
+    {
+      "id": "sant-elm",
+      "name": "Oratori de Sant Elm i successió parroquial",
+      "parentDossier": null,
+      "path": "sant-elm/README.md",
+      "phasePath": "sant-elm/fases.json",
+      "modelIds": [
+        "sant-elm"
+      ]
+    },
+    {
+      "id": "capella-convent",
+      "name": "Capella de les monges Santjoanistes",
+      "parentDossier": null,
+      "path": "capella-convent/README.md",
+      "phasePath": "capella-convent/fases.json",
+      "modelIds": [
+        "capella-1748"
+      ]
+    },
+    {
+      "id": "convent-masoveria",
+      "name": "Convent i masoveria de les Santjoanistes",
+      "parentDossier": null,
+      "path": "convent-masoveria/README.md",
+      "phasePath": "convent-masoveria/fases.json",
+      "modelIds": [
+        "hostal-1748",
+        "corral-1748-1",
+        "corral-1748-2",
+        "corral-1748-3",
+        "mur-roquer-1748",
+        "mur-nord-1748"
+      ]
+    },
+    {
+      "id": "torre-rapita",
+      "name": "Torre de la Ràpita",
+      "parentDossier": null,
+      "path": "torre-rapita/README.md",
+      "phasePath": "torre-rapita/fases.json",
+      "modelIds": [
+        "tower",
+        "project-1748-tower"
+      ]
+    },
+    {
+      "id": "bateria-roquer",
+      "name": "Bateria i fortí del Roquer",
+      "parentDossier": null,
+      "path": "bateria-roquer/README.md",
+      "phasePath": "bateria-roquer/fases.json",
+      "modelIds": [
+        "battery",
+        "muralla-meseta-1748",
+        "project-1748-battery",
+        "project-1748-powder",
+        "project-1748-guard",
+        "project-1748-officer",
+        "project-1748-governor"
+      ]
+    },
+    {
+      "id": "guardiola",
+      "name": "Torre de la Guardiola",
+      "parentDossier": null,
+      "path": "guardiola/README.md",
+      "phasePath": "guardiola/fases.json",
+      "modelIds": [
+        "guardiola"
+      ]
+    },
+    {
+      "id": "duana-vella",
+      "name": "Duana vella",
+      "parentDossier": null,
+      "path": "duana-vella/README.md",
+      "phasePath": "duana-vella/fases.json",
+      "modelIds": [
+        "old-customs"
+      ]
+    },
+    {
+      "id": "sanitat-antiga",
+      "name": "Casa dels guardes de sanitat antiga",
+      "parentDossier": null,
+      "path": "sanitat-antiga/README.md",
+      "phasePath": "sanitat-antiga/fases.json",
+      "modelIds": [
+        "sanitat-antiga"
+      ]
+    },
+    {
+      "id": "sanitat-moll",
+      "name": "Oficina de sanitat del moll",
+      "parentDossier": null,
+      "path": "sanitat-moll/README.md",
+      "phasePath": "sanitat-moll/fases.json",
+      "modelIds": [
+        "health"
+      ]
+    },
+    {
+      "id": "guardes-rendes",
+      "name": "Casa dels guardes de rendes",
+      "parentDossier": null,
+      "path": "guardes-rendes/README.md",
+      "phasePath": "guardes-rendes/fases.json",
+      "modelIds": [
+        "guardes-rendes-1",
+        "guardes-rendes-2"
+      ]
+    },
+    {
+      "id": "administrador-rendes",
+      "name": "Casa de l’administrador de rendes",
+      "parentDossier": null,
+      "path": "administrador-rendes/README.md",
+      "phasePath": "administrador-rendes/fases.json",
+      "modelIds": [
+        "casa-administrador"
+      ]
+    },
+    {
+      "id": "cases-assentistes",
+      "name": "Cases dels assentistes de la bateria",
+      "parentDossier": null,
+      "path": "cases-assentistes/README.md",
+      "phasePath": "cases-assentistes/fases.json",
+      "modelIds": [
+        "cases-assentistes-1",
+        "cases-assentistes-2"
+      ]
+    },
+    {
+      "id": "ferreria",
+      "name": "Ferreria de les obres",
+      "parentDossier": null,
+      "path": "ferreria/README.md",
+      "phasePath": "ferreria/fases.json",
+      "modelIds": [
+        "ferreria-vella",
+        "ferreria-nova"
+      ]
+    },
+    {
+      "id": "cavallerisses-roquer",
+      "name": "Cavallerisses i allotjaments del Roquer",
+      "parentDossier": null,
+      "path": "cavallerisses-roquer/README.md",
+      "phasePath": "cavallerisses-roquer/fases.json",
+      "modelIds": [
+        "quarters",
+        "cuartel-caballeria-1748",
+        "cuartel-caballeria-1748-2",
+        "cuartel-caballeria-1748-3",
+        "cuartel-infanteria-1748",
+        "cuartel-infanteria-1748-2",
+        "cuartel-infanteria-1748-3"
+      ]
+    },
+    {
+      "id": "fonda-vella",
+      "name": "Fonda Vella dels germans Lantí",
+      "parentDossier": null,
+      "path": "fonda-vella/README.md",
+      "phasePath": "fonda-vella/fases.json",
+      "modelIds": [
+        "old-inn"
+      ]
+    },
+    {
+      "id": "fonda-nova",
+      "name": "Fonda Nova de la plaça",
+      "parentDossier": null,
+      "path": "fonda-nova/README.md",
+      "phasePath": "fonda-nova/fases.json",
+      "modelIds": [
+        "fonda-nova"
+      ]
+    },
+    {
+      "id": "cases-talavera",
+      "name": "Dues cases de Ramon Talavera",
+      "parentDossier": null,
+      "path": "cases-talavera/README.md",
+      "phasePath": "cases-talavera/fases.json",
+      "modelIds": [
+        "cases-talavera"
+      ]
+    },
+    {
+      "id": "mancana-antiga",
+      "name": "Mançana antiga",
+      "parentDossier": null,
+      "path": "mancana-antiga/README.md",
+      "phasePath": "mancana-antiga/fases.json",
+      "modelIds": [
+        "manzana-shared",
+        "pati-mancana"
+      ]
+    },
+    {
+      "id": "mancana-nova",
+      "name": "Mançana nova començada",
+      "parentDossier": null,
+      "path": "mancana-nova/README.md",
+      "phasePath": "mancana-nova/fases.json",
+      "modelIds": [
+        "manzana-nova"
+      ]
+    },
+    {
+      "id": "placa-coberta",
+      "name": "Plaça coberta i edifici superior",
+      "parentDossier": null,
+      "path": "placa-coberta/README.md",
+      "phasePath": "placa-coberta/fases.json",
+      "modelIds": [
+        "placa-coberta"
+      ]
+    },
+    {
+      "id": "tinglado",
+      "name": "Tinglado i tallers coberts",
+      "parentDossier": null,
+      "path": "tinglado/README.md",
+      "phasePath": "tinglado/fases.json",
+      "modelIds": [
+        "tinglado"
+      ]
+    },
+    {
+      "id": "font-oest",
+      "name": "Font occidental i torre",
+      "parentDossier": null,
+      "path": "font-oest/README.md",
+      "phasePath": "font-oest/fases.json",
+      "modelIds": [
+        "font-oest"
+      ]
+    },
+    {
+      "id": "font-est",
+      "name": "Font oriental i torre",
+      "parentDossier": null,
+      "path": "font-est/README.md",
+      "phasePath": "font-est/fases.json",
+      "modelIds": [
+        "font-est"
+      ]
+    },
+    {
+      "id": "duana-nova",
+      "name": "Duana nova i magatzems encoixinats",
+      "parentDossier": null,
+      "path": "duana-nova/README.md",
+      "phasePath": "duana-nova/fases.json",
+      "modelIds": [
+        "duana-nova"
+      ]
+    },
+    {
+      "id": "casa-white",
+      "name": "Magatzems de Josep White",
+      "parentDossier": null,
+      "path": "casa-white/README.md",
+      "phasePath": "casa-white/fases.json",
+      "modelIds": [
+        "casa-white"
+      ]
+    },
+    {
+      "id": "cases-acabades",
+      "name": "Cases grans reials acabades",
+      "parentDossier": null,
+      "path": "cases-acabades/README.md",
+      "phasePath": "cases-acabades/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "cases-cobertes-inacabades",
+      "name": "Set cases cobertes sense acabar",
+      "parentDossier": null,
+      "path": "cases-cobertes-inacabades/README.md",
+      "phasePath": "cases-cobertes-inacabades/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "cases-porxos",
+      "name": "Cases rodones i quatre cases porticades",
+      "parentDossier": null,
+      "path": "cases-porxos/README.md",
+      "phasePath": "cases-porxos/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "cases-petites",
+      "name": "Catorze cases petites del litoral",
+      "parentDossier": null,
+      "path": "cases-petites/README.md",
+      "phasePath": "cases-petites/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "cases-lloguer-1788",
+      "name": "Dotze cases de lloguer de 1788 i 1789",
+      "parentDossier": null,
+      "path": "cases-lloguer-1788/README.md",
+      "phasePath": "cases-lloguer-1788/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "propietats-privades",
+      "name": "Propietats privades i habitatges no identificats",
+      "parentDossier": null,
+      "path": "propietats-privades/README.md",
+      "phasePath": "propietats-privades/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "hort-rei-nord",
+      "name": "Hort del Rei al costat de la Mançana",
+      "parentDossier": null,
+      "path": "hort-rei-nord/README.md",
+      "phasePath": "hort-rei-nord/fases.json",
+      "modelIds": [
+        "hort-nord"
+      ]
+    },
+    {
+      "id": "hort-rei-sud",
+      "name": "Hort del Rei de l’entrada de València",
+      "parentDossier": null,
+      "path": "hort-rei-sud/README.md",
+      "phasePath": "hort-rei-sud/fases.json",
+      "modelIds": [
+        "hort-sud"
+      ]
+    },
+    {
+      "id": "jardi-botanic",
+      "name": "Jardí botànic",
+      "parentDossier": null,
+      "path": "jardi-botanic/README.md",
+      "phasePath": "jardi-botanic/fases.json",
+      "modelIds": [
+        "jardi-botanic"
+      ]
+    },
+    {
+      "id": "pou-figueretes",
+      "name": "Pou de les Figueretes",
+      "parentDossier": null,
+      "path": "pou-figueretes/README.md",
+      "phasePath": "pou-figueretes/fases.json",
+      "modelIds": [
+        "well"
+      ]
+    },
+    {
+      "id": "cova-roquer",
+      "name": "Cova i horts sota el Roquer",
+      "parentDossier": null,
+      "path": "cova-roquer/README.md",
+      "phasePath": "cova-roquer/fases.json",
+      "modelIds": [
+        "pilar-cave",
+        "pilar-garden"
+      ]
+    },
+    {
+      "id": "casa-bous",
+      "name": "Casa dels Bous de l’Horta Vella",
+      "parentDossier": null,
+      "path": "casa-bous/README.md",
+      "phasePath": "casa-bous/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "molinet",
+      "name": "Molí fariner del Molinet",
+      "parentDossier": null,
+      "path": "molinet/README.md",
+      "phasePath": "molinet/fases.json",
+      "modelIds": [
+        "molinet"
+      ]
+    },
+    {
+      "id": "rajolar",
+      "name": "Rajolar de la Rabosa",
+      "parentDossier": null,
+      "path": "rajolar/README.md",
+      "phasePath": "rajolar/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "forn-moli-guix",
+      "name": "Forn i molí de guix",
+      "parentDossier": null,
+      "path": "forn-moli-guix/README.md",
+      "phasePath": "forn-moli-guix/fases.json",
+      "modelIds": [
+        "forn-moli-guix"
+      ]
+    },
+    {
+      "id": "pedrera-guardiola",
+      "name": "Pedrera de la Guardiola i caseta",
+      "parentDossier": null,
+      "path": "pedrera-guardiola/README.md",
+      "phasePath": "pedrera-guardiola/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "glorieta",
+      "name": "Glorieta i Capelleta",
+      "parentDossier": null,
+      "path": "glorieta/README.md",
+      "phasePath": "glorieta/fases.json",
+      "modelIds": [
+        "glorieta"
+      ]
+    },
+    {
+      "id": "canal-antic",
+      "name": "Canals vells i canal de Carles III",
+      "parentDossier": null,
+      "path": "canal-antic/README.md",
+      "phasePath": "canal-antic/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "darsena-gran",
+      "name": "Dàrsena gran i molls del port",
+      "parentDossier": null,
+      "path": "darsena-gran/README.md",
+      "phasePath": "darsena-gran/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "darsena-petita",
+      "name": "Dàrsena petita i enclusa gran de la Ràpita",
+      "parentDossier": null,
+      "path": "darsena-petita/README.md",
+      "phasePath": "darsena-petita/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "amposta-capcalera",
+      "name": "Encluses i dic de capçalera d’Amposta",
+      "parentDossier": null,
+      "path": "amposta-capcalera/README.md",
+      "phasePath": "amposta-capcalera/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "rampes-simetriques",
+      "name": "Dues rampes del Cóc",
+      "parentDossier": null,
+      "path": "rampes-simetriques/README.md",
+      "phasePath": "rampes-simetriques/fases.json",
+      "modelIds": [
+        "rampa-nord",
+        "rampa-sud"
+      ]
+    },
+    {
+      "id": "rampa-figueretes",
+      "name": "Rampa llarga del Pou de les Figueretes",
+      "parentDossier": null,
+      "path": "rampa-figueretes/README.md",
+      "phasePath": "rampa-figueretes/fases.json",
+      "modelIds": [
+        "rampa-roquer",
+        "pilar-trail"
+      ]
+    },
+    {
+      "id": "paredo-poblacio",
+      "name": "Paredó de sosteniment de la població",
+      "parentDossier": null,
+      "path": "paredo-poblacio/README.md",
+      "phasePath": "paredo-poblacio/fases.json",
+      "modelIds": [
+        "paredo-poblacio"
+      ]
+    },
+    {
+      "id": "pont-barranc",
+      "name": "Pont d’entrada sobre el barranc de les Monges",
+      "parentDossier": null,
+      "path": "pont-barranc/README.md",
+      "phasePath": "pont-barranc/fases.json",
+      "modelIds": [
+        "pont-monges",
+        "barranc-monges"
+      ]
+    },
+    {
+      "id": "placa-alamedes",
+      "name": "Plaça Major i passeig de les Alamedes",
+      "parentDossier": null,
+      "path": "placa-alamedes/README.md",
+      "phasePath": "placa-alamedes/fases.json",
+      "modelIds": [
+        "carrer-major"
+      ]
+    },
+    {
+      "id": "cami-pedrera",
+      "name": "Camí de la pedrera i carrer de la Constància",
+      "parentDossier": null,
+      "path": "cami-pedrera/README.md",
+      "phasePath": "cami-pedrera/fases.json",
+      "modelIds": [
+        "pedrera"
+      ]
+    },
+    {
+      "id": "barraques-obrers",
+      "name": "Barraques i tendes de les obres",
+      "parentDossier": null,
+      "path": "barraques-obrers/README.md",
+      "phasePath": "barraques-obrers/fases.json",
+      "modelIds": [
+        "barraques-obrers"
+      ]
+    },
+    {
+      "id": "torre-codonyol",
+      "name": "Torre del Codonyol",
+      "parentDossier": null,
+      "path": "torre-codonyol/README.md",
+      "phasePath": "torre-codonyol/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "torre-sant-joan",
+      "name": "Torre de Sant Joan",
+      "parentDossier": null,
+      "path": "torre-sant-joan/README.md",
+      "phasePath": "torre-sant-joan/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "mataredona",
+      "name": "Mas de Mataredona",
+      "parentDossier": null,
+      "path": "mataredona/README.md",
+      "phasePath": "mataredona/fases.json",
+      "modelIds": [
+        "mataredona"
+      ]
+    },
+    {
+      "id": "companyia-canal",
+      "name": "Edificis de la Companyia de Canalització de l’Ebre",
+      "parentDossier": null,
+      "path": "companyia-canal/README.md",
+      "phasePath": "companyia-canal/fases.json",
+      "modelIds": [
+        "casotes-companyia"
+      ]
+    },
+    {
+      "id": "far-sant-carles",
+      "name": "Far de Sant Carles",
+      "parentDossier": null,
+      "path": "far-sant-carles/README.md",
+      "phasePath": "far-sant-carles/fases.json",
+      "modelIds": [
+        "far-sant-carles"
+      ]
+    },
+    {
+      "id": "locals-comercials",
+      "name": "Botigues i cafès del nucli fotografiat",
+      "parentDossier": null,
+      "path": "locals-comercials/README.md",
+      "phasePath": "locals-comercials/fases.json",
+      "modelIds": []
+    },
+    {
+      "id": "cisterna-fossat-roquer",
+      "name": "Cisterna i fossat del Roquer",
+      "parentDossier": null,
+      "path": "cisterna-fossat-roquer/README.md",
+      "phasePath": "cisterna-fossat-roquer/fases.json",
+      "modelIds": [
+        "cistern",
+        "project-1748-cistern"
+      ]
+    },
+    {
+      "id": "forn-roquer",
+      "name": "Forn de maons de les obres del Roquer",
+      "parentDossier": null,
+      "path": "forn-roquer/README.md",
+      "phasePath": "forn-roquer/fases.json",
+      "modelIds": [
+        "kiln"
+      ]
+    },
+    {
+      "id": "rambla",
+      "name": "Rambla històrica i front de plaça",
+      "parentDossier": null,
+      "path": "rambla/README.md",
+      "phasePath": "rambla/fases.json",
+      "modelIds": [
+        "rambla"
+      ]
+    },
+    {
+      "id": "rampar",
+      "name": "Carrer del Rampar i actual carrer del Pilar",
+      "parentDossier": null,
+      "path": "rampar/README.md",
+      "phasePath": "rampar/fases.json",
+      "modelIds": [
+        "rampar"
+      ]
+    },
+    {
+      "id": "fusteria-antiga",
+      "name": "Fusteria antiga i tallers inicials",
+      "parentDossier": null,
+      "path": "fusteria-antiga/README.md",
+      "phasePath": "fusteria-antiga/fases.json",
+      "modelIds": [
+        "cases-assentistes-1",
+        "cases-assentistes-2"
+      ]
+    },
+    {
+      "id": "torre-moro",
+      "name": "Torre del Moro I / Torre de Magin",
+      "parentDossier": null,
+      "path": "torre-moro/README.md",
+      "phasePath": "torre-moro/fases.json",
+      "modelIds": [
+        "torre-moro"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-01",
+      "name": "Cases grans reials acabades cos d’estudi 01",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-01/README.md",
+      "phasePath": "unitat-royal-finished-01/fases.json",
+      "modelIds": [
+        "royal-finished-01"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-02",
+      "name": "Cases grans reials acabades cos d’estudi 02",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-02/README.md",
+      "phasePath": "unitat-royal-finished-02/fases.json",
+      "modelIds": [
+        "royal-finished-02"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-03",
+      "name": "Cases grans reials acabades cos d’estudi 03",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-03/README.md",
+      "phasePath": "unitat-royal-finished-03/fases.json",
+      "modelIds": [
+        "royal-finished-03"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-04",
+      "name": "Cases grans reials acabades cos d’estudi 04",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-04/README.md",
+      "phasePath": "unitat-royal-finished-04/fases.json",
+      "modelIds": [
+        "royal-finished-04"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-05",
+      "name": "Cases grans reials acabades cos d’estudi 05",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-05/README.md",
+      "phasePath": "unitat-royal-finished-05/fases.json",
+      "modelIds": [
+        "royal-finished-05"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-06",
+      "name": "Cases grans reials acabades cos d’estudi 06",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-06/README.md",
+      "phasePath": "unitat-royal-finished-06/fases.json",
+      "modelIds": [
+        "royal-finished-06"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-07",
+      "name": "Cases grans reials acabades cos d’estudi 07",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-07/README.md",
+      "phasePath": "unitat-royal-finished-07/fases.json",
+      "modelIds": [
+        "royal-finished-07"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-08",
+      "name": "Cases grans reials acabades cos d’estudi 08",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-08/README.md",
+      "phasePath": "unitat-royal-finished-08/fases.json",
+      "modelIds": [
+        "royal-finished-08"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-09",
+      "name": "Cases grans reials acabades cos d’estudi 09",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-09/README.md",
+      "phasePath": "unitat-royal-finished-09/fases.json",
+      "modelIds": [
+        "royal-finished-09"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-10",
+      "name": "Cases grans reials acabades cos d’estudi 10",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-10/README.md",
+      "phasePath": "unitat-royal-finished-10/fases.json",
+      "modelIds": [
+        "royal-finished-10"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-11",
+      "name": "Cases grans reials acabades cos d’estudi 11",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-11/README.md",
+      "phasePath": "unitat-royal-finished-11/fases.json",
+      "modelIds": [
+        "royal-finished-11"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-12",
+      "name": "Cases grans reials acabades cos d’estudi 12",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-12/README.md",
+      "phasePath": "unitat-royal-finished-12/fases.json",
+      "modelIds": [
+        "royal-finished-12"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-13",
+      "name": "Cases grans reials acabades cos d’estudi 13",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-13/README.md",
+      "phasePath": "unitat-royal-finished-13/fases.json",
+      "modelIds": [
+        "royal-finished-13"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-14",
+      "name": "Cases grans reials acabades cos d’estudi 14",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-14/README.md",
+      "phasePath": "unitat-royal-finished-14/fases.json",
+      "modelIds": [
+        "royal-finished-14"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-15",
+      "name": "Cases grans reials acabades cos d’estudi 15",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-15/README.md",
+      "phasePath": "unitat-royal-finished-15/fases.json",
+      "modelIds": [
+        "royal-finished-15"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-16",
+      "name": "Cases grans reials acabades cos d’estudi 16",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-16/README.md",
+      "phasePath": "unitat-royal-finished-16/fases.json",
+      "modelIds": [
+        "royal-finished-16"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-17",
+      "name": "Cases grans reials acabades cos d’estudi 17",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-17/README.md",
+      "phasePath": "unitat-royal-finished-17/fases.json",
+      "modelIds": [
+        "royal-finished-17"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-18",
+      "name": "Cases grans reials acabades cos d’estudi 18",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-18/README.md",
+      "phasePath": "unitat-royal-finished-18/fases.json",
+      "modelIds": [
+        "royal-finished-18"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-19",
+      "name": "Cases grans reials acabades cos d’estudi 19",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-19/README.md",
+      "phasePath": "unitat-royal-finished-19/fases.json",
+      "modelIds": [
+        "royal-finished-19"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-20",
+      "name": "Cases grans reials acabades cos d’estudi 20",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-20/README.md",
+      "phasePath": "unitat-royal-finished-20/fases.json",
+      "modelIds": [
+        "royal-finished-20"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-21",
+      "name": "Cases grans reials acabades cos d’estudi 21",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-21/README.md",
+      "phasePath": "unitat-royal-finished-21/fases.json",
+      "modelIds": [
+        "royal-finished-21"
+      ]
+    },
+    {
+      "id": "unitat-royal-finished-22",
+      "name": "Cases grans reials acabades cos d’estudi 22",
+      "parentDossier": "cases-acabades",
+      "path": "unitat-royal-finished-22/README.md",
+      "phasePath": "unitat-royal-finished-22/fases.json",
+      "modelIds": [
+        "royal-finished-22"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-01",
+      "name": "Set cases cobertes sense acabar cos d’estudi 01",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-01/README.md",
+      "phasePath": "unitat-royal-covered-01/fases.json",
+      "modelIds": [
+        "royal-covered-01"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-02",
+      "name": "Set cases cobertes sense acabar cos d’estudi 02",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-02/README.md",
+      "phasePath": "unitat-royal-covered-02/fases.json",
+      "modelIds": [
+        "royal-covered-02"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-03",
+      "name": "Set cases cobertes sense acabar cos d’estudi 03",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-03/README.md",
+      "phasePath": "unitat-royal-covered-03/fases.json",
+      "modelIds": [
+        "royal-covered-03"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-04",
+      "name": "Set cases cobertes sense acabar cos d’estudi 04",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-04/README.md",
+      "phasePath": "unitat-royal-covered-04/fases.json",
+      "modelIds": [
+        "royal-covered-04"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-05",
+      "name": "Set cases cobertes sense acabar cos d’estudi 05",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-05/README.md",
+      "phasePath": "unitat-royal-covered-05/fases.json",
+      "modelIds": [
+        "royal-covered-05"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-06",
+      "name": "Set cases cobertes sense acabar cos d’estudi 06",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-06/README.md",
+      "phasePath": "unitat-royal-covered-06/fases.json",
+      "modelIds": [
+        "royal-covered-06"
+      ]
+    },
+    {
+      "id": "unitat-royal-covered-07",
+      "name": "Set cases cobertes sense acabar cos d’estudi 07",
+      "parentDossier": "cases-cobertes-inacabades",
+      "path": "unitat-royal-covered-07/README.md",
+      "phasePath": "unitat-royal-covered-07/fases.json",
+      "modelIds": [
+        "royal-covered-07"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-01",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 01",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-01/README.md",
+      "phasePath": "unitat-royal-portico-01/fases.json",
+      "modelIds": [
+        "royal-portico-01"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-02",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 02",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-02/README.md",
+      "phasePath": "unitat-royal-portico-02/fases.json",
+      "modelIds": [
+        "royal-portico-02"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-03",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 03",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-03/README.md",
+      "phasePath": "unitat-royal-portico-03/fases.json",
+      "modelIds": [
+        "royal-portico-03"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-04",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 04",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-04/README.md",
+      "phasePath": "unitat-royal-portico-04/fases.json",
+      "modelIds": [
+        "royal-portico-04"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-05",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 05",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-05/README.md",
+      "phasePath": "unitat-royal-portico-05/fases.json",
+      "modelIds": [
+        "royal-portico-05"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-06",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 06",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-06/README.md",
+      "phasePath": "unitat-royal-portico-06/fases.json",
+      "modelIds": [
+        "royal-portico-06"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-07",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 07",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-07/README.md",
+      "phasePath": "unitat-royal-portico-07/fases.json",
+      "modelIds": [
+        "royal-portico-07"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-08",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 08",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-08/README.md",
+      "phasePath": "unitat-royal-portico-08/fases.json",
+      "modelIds": [
+        "royal-portico-08"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-09",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 09",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-09/README.md",
+      "phasePath": "unitat-royal-portico-09/fases.json",
+      "modelIds": [
+        "royal-portico-09"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-10",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 10",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-10/README.md",
+      "phasePath": "unitat-royal-portico-10/fases.json",
+      "modelIds": [
+        "royal-portico-10"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-11",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 11",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-11/README.md",
+      "phasePath": "unitat-royal-portico-11/fases.json",
+      "modelIds": [
+        "royal-portico-11"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-12",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 12",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-12/README.md",
+      "phasePath": "unitat-royal-portico-12/fases.json",
+      "modelIds": [
+        "royal-portico-12"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-13",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 13",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-13/README.md",
+      "phasePath": "unitat-royal-portico-13/fases.json",
+      "modelIds": [
+        "royal-portico-13"
+      ]
+    },
+    {
+      "id": "unitat-royal-portico-14",
+      "name": "Cases rodones i quatre cases porticades cos d’estudi 14",
+      "parentDossier": "cases-porxos",
+      "path": "unitat-royal-portico-14/README.md",
+      "phasePath": "unitat-royal-portico-14/fases.json",
+      "modelIds": [
+        "royal-portico-14"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-01",
+      "name": "Catorze cases petites del litoral cos d’estudi 01",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-01/README.md",
+      "phasePath": "unitat-royal-small-coast-01/fases.json",
+      "modelIds": [
+        "royal-small-coast-01"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-02",
+      "name": "Catorze cases petites del litoral cos d’estudi 02",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-02/README.md",
+      "phasePath": "unitat-royal-small-coast-02/fases.json",
+      "modelIds": [
+        "royal-small-coast-02"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-03",
+      "name": "Catorze cases petites del litoral cos d’estudi 03",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-03/README.md",
+      "phasePath": "unitat-royal-small-coast-03/fases.json",
+      "modelIds": [
+        "royal-small-coast-03"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-04",
+      "name": "Catorze cases petites del litoral cos d’estudi 04",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-04/README.md",
+      "phasePath": "unitat-royal-small-coast-04/fases.json",
+      "modelIds": [
+        "royal-small-coast-04"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-05",
+      "name": "Catorze cases petites del litoral cos d’estudi 05",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-05/README.md",
+      "phasePath": "unitat-royal-small-coast-05/fases.json",
+      "modelIds": [
+        "royal-small-coast-05"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-06",
+      "name": "Catorze cases petites del litoral cos d’estudi 06",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-06/README.md",
+      "phasePath": "unitat-royal-small-coast-06/fases.json",
+      "modelIds": [
+        "royal-small-coast-06"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-07",
+      "name": "Catorze cases petites del litoral cos d’estudi 07",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-07/README.md",
+      "phasePath": "unitat-royal-small-coast-07/fases.json",
+      "modelIds": [
+        "royal-small-coast-07"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-08",
+      "name": "Catorze cases petites del litoral cos d’estudi 08",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-08/README.md",
+      "phasePath": "unitat-royal-small-coast-08/fases.json",
+      "modelIds": [
+        "royal-small-coast-08"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-09",
+      "name": "Catorze cases petites del litoral cos d’estudi 09",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-09/README.md",
+      "phasePath": "unitat-royal-small-coast-09/fases.json",
+      "modelIds": [
+        "royal-small-coast-09"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-10",
+      "name": "Catorze cases petites del litoral cos d’estudi 10",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-10/README.md",
+      "phasePath": "unitat-royal-small-coast-10/fases.json",
+      "modelIds": [
+        "royal-small-coast-10"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-11",
+      "name": "Catorze cases petites del litoral cos d’estudi 11",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-11/README.md",
+      "phasePath": "unitat-royal-small-coast-11/fases.json",
+      "modelIds": [
+        "royal-small-coast-11"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-12",
+      "name": "Catorze cases petites del litoral cos d’estudi 12",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-12/README.md",
+      "phasePath": "unitat-royal-small-coast-12/fases.json",
+      "modelIds": [
+        "royal-small-coast-12"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-13",
+      "name": "Catorze cases petites del litoral cos d’estudi 13",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-13/README.md",
+      "phasePath": "unitat-royal-small-coast-13/fases.json",
+      "modelIds": [
+        "royal-small-coast-13"
+      ]
+    },
+    {
+      "id": "unitat-royal-small-coast-14",
+      "name": "Catorze cases petites del litoral cos d’estudi 14",
+      "parentDossier": "cases-petites",
+      "path": "unitat-royal-small-coast-14/README.md",
+      "phasePath": "unitat-royal-small-coast-14/fases.json",
+      "modelIds": [
+        "royal-small-coast-14"
+      ]
+    }
+  ]
+}

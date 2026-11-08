@@ -1,0 +1,124 @@
+{
+  "entityId": "companyia-canal",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimoni de 1857; model cap al 1858 aproximat. Comparació actual i distribució de guardes manuals, sense retrodatació dels acabats.",
+  "phases": [
+    {
+      "id": "companyia-canal-fase-01",
+      "witnessDate": "1852/1859",
+      "witnessYear": 1852,
+      "label": "Obres del complex",
+      "state": "Interval documentat del conjunt; no s’hi anticipa la nau acabada el 1852.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
+      "references": [
+        {
+          "sourceId": "CAS-S1",
+          "locator": "Obres del complex"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "interval",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "companyia-canal-fase-02",
+      "witnessDate": "1857",
+      "witnessYear": 1857,
+      "label": "Testimoni de les oficines i tallers",
+      "state": "Es conserva l’activació d’assaig de 1857. El model es titula cap al 1858; la forma exacta i la data d’acabament no estan verificades.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
+      "references": [
+        {
+          "sourceId": "CAS-PACK",
+          "locator": "Testimoni de les oficines i tallers"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "any",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "companyia-canal-fase-03",
+      "witnessDate": "1867",
+      "witnessYear": 1867,
+      "label": "Conversió de la concessió al regadiu",
+      "state": "Canvi d’activitat; no implica una reforma de façanes datada ni canvi de geometria.",
+      "kind": "testimoni",
+      "eventDate": "1867",
+      "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+      "references": [
+        {
+          "sourceId": "CAS-S1",
+          "locator": "Conversió de la concessió al regadiu"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "any",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "companyia-canal-fase-04",
+      "witnessDate": "1872",
+      "witnessYear": 1872,
+      "label": "Abandó de la navegació comercial",
+      "state": "Referència del dossier aportat als estudis locals i econòmics; no es fixa una reforma arquitectònica.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
+      "references": [
+        {
+          "sourceId": "CAS-PACK",
+          "locator": "Abandó de la navegació comercial"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "any",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "companyia-canal-fase-05",
+      "witnessDate": "2013-12-01",
+      "witnessYear": 2013,
+      "label": "Inauguració del museu",
+      "state": "Museu de la Mar de l’Ebre després de la rehabilitació. Fora del selector 1778–1993; estat actual accessible com a comparació manual.",
+      "kind": "testimoni",
+      "eventDate": "2013-12-01",
+      "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+      "references": [
+        {
+          "sourceId": "CAS-S1",
+          "locator": "Inauguració del museu"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": true
+    },
+    {
+      "id": "companyia-canal-fase-06",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Cases de guarda · comparació d’assaig",
+      "state": "Dues cases modelades amb posicions locals de conveniència: ±11 m i +45 m. Dimensions i distribució no verificades; no apareixen automàticament amb la nau.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+      "references": [
+        {
+          "sourceId": "CAS-PACK",
+          "locator": "Cases de guarda · comparació d’assaig"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "desconeguda",
+      "outsideTargetRange": null
+    }
+  ]
+}

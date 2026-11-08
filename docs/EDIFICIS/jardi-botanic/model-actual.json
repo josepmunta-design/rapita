@@ -1,0 +1,87 @@
+{
+  "entityId": "jardi-botanic",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "jardi-botanic",
+        "name": "Jardí botànic",
+        "kind": "botanical",
+        "fromYear": 1794,
+        "townAnchor": [
+          -56.29180567679876,
+          61.360675794885005
+        ],
+        "width": 29.68719235545231,
+        "depth": 30.79150033315507,
+        "evidence": "H02 art. 14: jardí d'un particular tancat amb reixes. No es coneix l'inventari d'espècies; parterres i tanca C.",
+        "townPolygon": [
+          [
+            -71.13540185452491,
+            76.43136431640231
+          ],
+          [
+            -42.304780374457735,
+            76.75642596146254
+          ],
+          [
+            -41.448209499072604,
+            46.2899872733677
+          ],
+          [
+            -70.27883097913977,
+            45.96492562830747
+          ]
+        ],
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "polygonUTM": [
+          [
+            296346.97827438696,
+            4499460.155296218
+          ],
+          [
+            296374.3439922623,
+            4499451.076315815
+          ],
+          [
+            296365.2349937198,
+            4499421.990859904
+          ],
+          [
+            296337.8692758444,
+            4499431.069840307
+          ]
+        ],
+        "anchor": [
+          296356.10663405334,
+          4499441.0730780605
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.603499581098326,
+        "footprintUTM": [
+          [
+            296346.97827438696,
+            4499460.155296218
+          ],
+          [
+            296374.3439922623,
+            4499451.076315815
+          ],
+          [
+            296365.2349937198,
+            4499421.990859904
+          ],
+          [
+            296337.8692758444,
+            4499431.069840307
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -4,10 +4,16 @@ import {wallSurfaceMesh} from './building-plan.mjs';
 import {routeStations} from './littoral-plan.mjs';
 import {urbanVisible,urbanGround} from './urban-plan.mjs';
 import {toWorld} from './geo.mjs';
+import {inPolygon} from './harbour-plan.mjs';
 import type {Terrain} from './terrain';
+import {makeRetainingWall} from './retaining-wall.ts';
+import {makeFaro} from './faro.ts';
+import {makeCasotes,casotesGuardFootprints} from './casotes.ts';
 export type UrbanData=any;
 
 export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)=>number|null,shore?:(n:number)=>number){
+ const lighthouses:ReturnType<typeof makeFaro>[]= [];
+ const casotes:ReturnType<typeof makeCasotes>[]= [],casotesCollision:number[][][]= [];
  const root=new THREE.Group(),groups=new Map<string,THREE.Group>();root.name='Carrers i serveis · planta relacional C';
  const mat={road:new THREE.MeshStandardMaterial({color:'#baa47b',roughness:1,side:THREE.DoubleSide}),bed:new THREE.MeshStandardMaterial({color:'#8c816b',roughness:1,side:THREE.DoubleSide}),soil:new THREE.MeshStandardMaterial({color:'#897551',roughness:1,side:THREE.DoubleSide}),stone:new THREE.MeshStandardMaterial({color:'#b8ac8e',roughness:1}),wood:new THREE.MeshStandardMaterial({color:'#69503b',roughness:1}),lime:new THREE.MeshStandardMaterial({color:'#c8bda4',roughness:1}),tile:new THREE.MeshStandardMaterial({color:'#ad714b',roughness:1}),leaf:new THREE.MeshStandardMaterial({color:'#697750',roughness:1}),dark:new THREE.MeshStandardMaterial({color:'#393d32',roughness:1})};
  Object.entries(mat).forEach(([name,m])=>m.name=name);
@@ -22,6 +28,7 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
  const ravine=new THREE.Group();ravine.name=data.ravine.name;ravine.userData.feature=data.ravine;ravine.add(strip(data.ravine.points,data.ravine.width,true,mat.bed));root.add(ravine);groups.set(data.ravine.id,ravine);
  for(const s of data.sites){
   const group=new THREE.Group();group.name=s.name;group.userData.feature=s;group.position.fromArray(toWorld(s.anchor[0],s.anchor[1],s.technicalBaseElevation,meta.origin));const alongDegrees:number=s.alongAzimuthDegrees??data.frame.alongAzimuthDegrees;group.rotation.y=-alongDegrees*Math.PI/180;root.add(group);groups.set(s.id,group);
+  if(s.kind==='retaining-wall'){group.position.set(0,0,0);group.rotation.set(0,0,0);group.add(makeRetainingWall(s,meta.origin,(e,n)=>level(e,n,true)));continue;}
   const batches=new Map<THREE.Material,THREE.BufferGeometry[]>(),angle=alongDegrees*Math.PI/180;
   const ground=(x:number,z:number)=>{if(s.reclaimed)return 0;const e=s.anchor[0]+x*Math.cos(angle)-z*Math.sin(angle),n=s.anchor[1]-x*Math.sin(angle)-z*Math.cos(angle);return(sample(e,n)??s.technicalBaseElevation)-s.technicalBaseElevation;};
   const emit=(source:THREE.BufferGeometry,m:THREE.Material,x=0,y=0,z=0,rotation=0)=>{const g=source.index?source.toNonIndexed():source;if(g!==source)source.dispose();g.rotateY(rotation);g.translate(x,y,z);g.deleteAttribute('uv');if(!g.getAttribute('normal'))g.computeVertexNormals();const parts=batches.get(m)??[];parts.push(g);batches.set(m,parts);};
@@ -29,8 +36,12 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
   const patch=(x:number,z:number,w:number,d:number,m:THREE.Material)=>{const p:number[]=[],nx=Math.ceil(w/2),nz=Math.ceil(d/2);for(let row=0;row<nz;row++)for(let col=0;col<nx;col++){const corners=[[x-w/2+col*w/nx,z-d/2+row*d/nz],[x-w/2+(col+1)*w/nx,z-d/2+row*d/nz],[x-w/2+col*w/nx,z-d/2+(row+1)*d/nz],[x-w/2+(col+1)*w/nx,z-d/2+(row+1)*d/nz]];for(const i of[0,2,1,1,2,3]){const[a,b]=corners[i];p.push(a,ground(a,b)+.1,b);}}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(p,3));g.computeVertexNormals();emit(g,m);};
   const fence=(w:number,d:number)=>{for(const side of[-1,1])for(let x=-w/2;x<w/2;x+=3){const cx=Math.min(x+1.5,w/2),z=side*d/2,y=ground(cx,z);box(cx,y+.5,z,.11,1,.11,mat.wood);box(cx,y+.65,z,Math.min(3,w/2-x),.09,.09,mat.wood);}for(const side of[-1,1])for(let z=-d/2;z<d/2;z+=3){if(side===1&&Math.abs(z)<3)continue;const cz=z+1.5,x=side*w/2,y=ground(x,cz);box(x,y+.5,cz,.11,1,.11,mat.wood);box(x,y+.65,cz,.09,.09,Math.min(3,d/2-z),mat.wood);}};
   if(['garden','noria-garden','botanical'].includes(s.kind)){
-   patch(0,0,s.width,s.depth,mat.soil);fence(s.width,s.depth);
-   for(let z=-s.depth/2+5;z<s.depth/2-3;z+=5){patch(0,z,s.width-8,1.6,mat.bed);for(let x=-s.width/2+5;x<s.width/2-3;x+=4){if(s.kind==='noria-garden'&&x>10&&z>5)continue;const g=new THREE.DodecahedronGeometry(s.kind==='botanical'?.6:.3,0);emit(g,mat.leaf,x,ground(x,z)+.25,z);}}
+   const poly:number[][]|null=s.polygonUTM?s.polygonUTM.map(([e,n]:number[])=>{const de=e-s.anchor[0],dn=n-s.anchor[1];return[de*Math.cos(angle)-dn*Math.sin(angle),-de*Math.sin(angle)-dn*Math.cos(angle)];}):null;
+   if(poly){
+    for(let x=-s.width/2;x<s.width/2;x+=1.5)for(let z=-s.depth/2;z<s.depth/2;z+=1.5)if(inPolygon(x,z,poly))patch(x,z,1.48,1.48,mat.soil);
+    for(let i=0;i<poly.length;i++){const a=poly[i],b=poly[(i+1)%poly.length],L=Math.hypot(b[0]-a[0],b[1]-a[1]),steps=Math.ceil(L/2.5),r=-Math.atan2(b[1]-a[1],b[0]-a[0]);for(let k=0;k<steps;k++){const t=(k+.5)/steps,x=a[0]+(b[0]-a[0])*t,z=a[1]+(b[1]-a[1])*t,y=ground(x,z);box(x,y+.45,z,.1,.9,.1,mat.wood);emit(new THREE.BoxGeometry(L/steps+.04,.08,.08),mat.wood,x,y+.65,z,r);}}
+   }else{patch(0,0,s.width,s.depth,mat.soil);fence(s.width,s.depth);}
+   for(let z=-s.depth/2+4;z<s.depth/2-3;z+=5)for(let x=-s.width/2+4;x<s.width/2-3;x+=4){if(poly&&!inPolygon(x,z,poly)||s.kind==='noria-garden'&&x>10&&z>5)continue;patch(x,z,2.8,1.5,mat.bed);const g=new THREE.DodecahedronGeometry(s.kind==='botanical'?.6:.3,0);emit(g,mat.leaf,x,ground(x,z)+.25,z);}
    if(s.kind==='noria-garden'){
     const x=18,z=13,y=ground(x,z);emit(new THREE.CylinderGeometry(1.4,1.4,.65,16,1,true),mat.stone,x,y+.325,z);emit(new THREE.CircleGeometry(1.2,20).rotateX(-Math.PI/2),mat.dark,x,y+.08,z);
     const ring=new THREE.TorusGeometry(1.7,.11,5,24);emit(ring,mat.wood,x,y+2.2,z);for(let i=0;i<8;i++){const a=i*Math.PI/4,g=new THREE.BoxGeometry(.1,3.4,.12);g.rotateZ(a);emit(g,mat.wood,x,y+2.2,z);emit(new THREE.CylinderGeometry(.14,.11,.4,6),mat.tile,x+1.7*Math.cos(a),y+2.2+1.7*Math.sin(a),z+.2);}box(x,y+1.8,z+.5,.3,3.6,.3,mat.wood);box(x,y+1.8,z-.5,.3,3.6,.3,mat.wood);
@@ -79,6 +90,18 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
     g.setAttribute('position',new THREE.Float32BufferAttribute([0,3,2,2,3,5,1,2,4,2,5,4,0,2,1,3,4,5].flatMap(k=>v[k]),3));g.computeVertexNormals();
     box(x,y+eave/2,z,w-.2,eave,d-.2,mat.lime);emit(g,mat.wood,x,y,z);box(x,y+.8,z+d/2+.02,.9,1.6,.08,mat.dark);
    }
+  }else if(s.id==='casotes-companyia'){
+   const w=s.width,d=s.depth,base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.06;
+   const model=makeCasotes((x,z)=>{const e=s.anchor[0]+x*Math.cos(angle)-z*Math.sin(angle),n=s.anchor[1]-x*Math.sin(angle)-z*Math.cos(angle);return(sample(e,n)??s.technicalBaseElevation)-s.technicalBaseElevation-base;});
+   model.root.position.y=base;group.add(model.root);casotes.push(model);
+   box(0,base-.2,0,w+.2,.4,d+.2,mat.stone);
+   // Plataforma tècnica preexistent: no s'atribueix al recinte històric ni als guardes.
+   if(shore){const toLocal=(dE:number,dN:number)=>[dE*Math.cos(angle)-dN*Math.sin(angle),-dE*Math.sin(angle)-dN*Math.cos(angle)];
+    box(0,base-1.6,0,w+16,3,d+16,mat.soil);
+    const shoreE=shore(s.anchor[1]),dE=Math.min(0,shoreE-s.anchor[0]),neck=Math.abs(dE)-w/2;
+    if(neck>1){const[cx,cz]=toLocal(dE/2-w/4,0);emit(new THREE.BoxGeometry(neck+w/2+12,3,16),mat.soil,cx,base-1.6,cz,angle);}
+   }
+   for(const poly of casotesGuardFootprints())casotesCollision.push(poly.map(([x,z])=>[s.anchor[0]+x*Math.cos(angle)-z*Math.sin(angle),s.anchor[1]-x*Math.sin(angle)-z*Math.cos(angle)]));
   }else if(s.kind==='warehouse'||s.kind==='farmhouse'){
    // Cossos rectangulars amb coberta a dues aigües: magatzem del canal (façana d'arcades) i masia del Montsià. Volums C.
    const w=s.width,d=s.depth,H=s.height,T=s.kind==='warehouse'?.7:.6,rise=s.kind==='warehouse'?2.6:2.2,base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.06;
@@ -104,18 +127,16 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
     for(const sign of[-1,1]){box(sign*cw/2,cb+.7,cz,.45,1.4,cd,mat.stone);}box(0,cb+.7,cz-cd/2,cw,1.4,.45,mat.stone);box(0,cb+.7,-d/2-.1,cw,1.4,.45,mat.stone);
    }
   }else if(s.kind==='lighthouse'){
-   // Casa del faroler amb coberta a dues aigües i torre amb llanterna adossada. Dimensions C.
-   const w=s.width,d=s.depth,H=s.height,T=.5,base=Math.max(...[-w/2,w/2].flatMap(x=>[-d/2,d/2].map(z=>ground(x,z))))+.06;
-   box(0,base-.2,0,w+.6,.4,d+.6,mat.stone);
-   const wall=(length:number,openings:any[],x:number,z:number,r:number)=>{const q=wallSurfaceMesh(length,H,T,openings,.1),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.lime,x,base,z,r);};
-   wall(w,[{x:-2,width:1.1,height:2.2,bottom:0},{x:1.5,width:.9,height:1.2,bottom:1.5},{x:3.8,width:.9,height:1.2,bottom:1.5}],0,d/2-T/2,0);wall(w,[],0,-d/2+T/2,Math.PI);for(const sign of[-1,1])wall(d-2*T,[],sign*(w/2-T/2),0,Math.PI/2);
-   const rise=1.6,p=[[-w/2,H,-d/2],[-w/2,H,d/2],[-w/2,H+rise,0],[w/2,H,-d/2],[w/2,H,d/2],[w/2,H+rise,0]],g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([0,2,5,0,5,3,1,4,5,1,5,2].flatMap(i=>p[i]),3));g.computeVertexNormals();emit(g,mat.tile,0,base,0);
-   for(const x of[-w/2,w/2]){const end=new THREE.BufferGeometry(),vertices=[[x,H,-d/2],[x,H,d/2],[x,H+rise,0]];end.setAttribute('position',new THREE.Float32BufferAttribute((x<0?[0,1,2]:[0,2,1]).flatMap(i=>vertices[i]),3));end.computeVertexNormals();emit(end,mat.lime,0,base,0);}
-   const tx=w/2-1.8,tower=13;
-   emit(new THREE.CylinderGeometry(1.5,1.9,tower,16),mat.lime,tx,base+tower/2,0);
-   emit(new THREE.CylinderGeometry(2.1,2.1,.35,16),mat.stone,tx,base+tower+.17,0);
-   emit(new THREE.CylinderGeometry(1.15,1.15,2,12),mat.dark,tx,base+tower+1.35,0);
-   emit(new THREE.ConeGeometry(1.5,1.1,12),mat.stone,tx,base+tower+2.9,0);
+   const model=makeFaro();
+   // Suport tècnic fins al terreny mostrejat; no és un recinte històric inventat.
+   const edge=6.55,outline=[[-edge,-edge],[edge,-edge],[edge,edge],[-edge,edge]],p:number[]=[];
+   const base=Math.max(...outline.map(([x,z])=>ground(x,z)),ground(0,0))+.03;
+   model.root.position.y=base;group.add(model.root);lighthouses.push(model);
+   for(let i=0;i<4;i++){const a=outline[i],b=outline[(i+1)%4];for(let j=0;j<14;j++){
+    const vertices=[j/14,(j+1)/14].flatMap(t=>{const x=a[0]+(b[0]-a[0])*t,z=a[1]+(b[1]-a[1])*t;return[[x,base,z],[x,Math.min(base,ground(x,z))-.03,z]];});
+    for(const k of [0,1,2,2,1,3])p.push(...vertices[k]);
+   }}
+   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(p,3));g.computeVertexNormals();emit(g,mat.stone);
   }else if(s.kind==='farmstead'){
    // Mas de Mataredona: grup de volums de pedra sobre bancals, llegit a la fotografia N100 (sense data original) i situat amb el full de 1913 (N111).
    // El conjunt mira cap avall de la vall; plantes, alçades i repartiment són C. Les parets de la dreta es mostren sense coberta: l'estat de ruïna de la foto no es data.
@@ -195,6 +216,6 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
   }
   for(const[m,parts]of batches){const geometry=mergeGeometries(parts,false);if(!geometry)throw Error('Cannot merge urban feature '+s.id);group.add(new THREE.Mesh(geometry,m));for(const p of parts)p.dispose();}
  }
- const setYear=(year:number)=>{for(const group of groups.values()){group.visible=urbanVisible(group.userData.feature,year);if(group.userData.before){group.userData.before.visible=year<1794;group.userData.after.visible=year>=1794;}}};
- return {root,groups,setYear};
+ const setYear=(year:number)=>{lighthouses.forEach(f=>f.setYear(year));casotes.forEach(f=>f.setYear(year));for(const group of groups.values()){group.visible=urbanVisible(group.userData.feature,year);if(group.userData.before){group.userData.before.visible=year<1794;group.userData.after.visible=year>=1794;}}};
+ return {root,groups,setYear,setLighthouseComparison:(on:boolean)=>lighthouses.forEach(f=>f.setComparison(on)),get lighthouseComparison(){return lighthouses.some(f=>f.comparison);},setCasotesComparison:(on:boolean)=>casotes.forEach(f=>f.setComparison(on)),setCasotesGuards:(on:boolean)=>casotes.forEach(f=>f.setGuards(on)),get casotesComparison(){return casotes.some(f=>f.comparison);},get casotesGuards(){return casotes.some(f=>f.guards);},casotesCollision};
 }

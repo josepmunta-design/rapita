@@ -1,0 +1,49 @@
+{
+  "entityId": "unitat-royal-small-coast-08",
+  "historicalEvidence": {
+    "description": "Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.4"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "royal-small-coast-08",
+      "anchor": {
+        "easting": 296459.3383425497,
+        "northing": 4499244.881555407
+      },
+      "footprintUTM": [
+        [
+          296461.93140762445,
+          4499241.661926
+        ],
+        [
+          296463.36390750407,
+          4499245.822207733
+        ],
+        [
+          296456.7452774749,
+          4499248.101184814
+        ],
+        [
+          296455.3127775953,
+          4499243.940903082
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/housing.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

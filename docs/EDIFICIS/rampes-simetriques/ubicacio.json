@@ -1,0 +1,44 @@
+{
+  "entityId": "rampes-simetriques",
+  "historicalEvidence": {
+    "description": "Una del Cóc per l’àmbit posterior de Sant Miquel cap a la dàrsena petita; altra corbada per l’inici de Sant Francesc i Mare de Déu de Montserrat cap a Fonda Vella i dàrsena gran. Corredors interpretats, no cotes aixecades.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "rampa-nord",
+      "anchor": null,
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "rampa-sud",
+      "anchor": null,
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

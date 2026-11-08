@@ -1,0 +1,503 @@
+{
+  "entityId": "bateria-roquer",
+  "historicalEvidence": {
+    "description": "Al caire del Roquer dominant el port; part de l’àmbit del mercat actual. Punt 3 del plànol de 1782. Ajust del visor (31/10/2026): El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. La bateria parcial posterior conserva la planta T-6/8 de vuit canons i sis peces el 1794; centre i orientació reajustats al sector H, sense identificar els dos projectes. La muralla existent segueix la traça rosa amb tres ressalts.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,2,4"
+      },
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "battery",
+      "anchor": [
+        296425.03047827433,
+        4499177.96184199
+      ],
+      "footprintUTM": [
+        [
+          296409.734245367,
+          4499163.715655792
+        ],
+        [
+          296428.63729862374,
+          4499157.20681258
+        ],
+        [
+          296429.8043855197,
+          4499156.898913251
+        ],
+        [
+          296431.018080848,
+          4499156.761982294
+        ],
+        [
+          296432.26669605915,
+          4499156.797338425
+        ],
+        [
+          296433.538206306,
+          4499157.004641148
+        ],
+        [
+          296434.8203662499,
+          4499157.381894023
+        ],
+        [
+          296436.10082798963,
+          4499157.925463899
+        ],
+        [
+          296437.3672599787,
+          4499158.6301159
+        ],
+        [
+          296438.60746578476,
+          4499159.489063845
+        ],
+        [
+          296439.80950154795,
+          4499160.494035592
+        ],
+        [
+          296440.9617910066,
+          4499161.635352716
+        ],
+        [
+          296442.0532369836,
+          4499162.902023708
+        ],
+        [
+          296443.0733282574,
+          4499164.281849834
+        ],
+        [
+          296444.01224079134,
+          4499165.7615426155
+        ],
+        [
+          296444.8609323445,
+          4499167.326851801
+        ],
+        [
+          296445.6112295533,
+          4499168.962702609
+        ],
+        [
+          296446.2559066455,
+          4499170.653340898
+        ],
+        [
+          296446.7887550282,
+          4499172.382484901
+        ],
+        [
+          296447.2046430803,
+          4499174.133482014
+        ],
+        [
+          296447.49956557236,
+          4499175.889469179
+        ],
+        [
+          296447.6706822397,
+          4499177.633535278
+        ],
+        [
+          296447.71634513524,
+          4499179.348884003
+        ],
+        [
+          296447.63611450023,
+          4499181.018995607
+        ],
+        [
+          296447.4307629997,
+          4499182.627786001
+        ],
+        [
+          296447.1022682807,
+          4499184.159761657
+        ],
+        [
+          296446.6537939271,
+          4499185.600168809
+        ],
+        [
+          296446.089658992,
+          4499186.935135552
+        ],
+        [
+          296445.4152964032,
+          4499188.151805422
+        ],
+        [
+          296444.63720064115,
+          4499189.238461227
+        ],
+        [
+          296443.7628651933,
+          4499190.184637877
+        ],
+        [
+          296442.80071038805,
+          4499190.981223172
+        ],
+        [
+          296441.7600023021,
+          4499191.6205455605
+        ],
+        [
+          296440.65076352324,
+          4499192.09644802
+        ],
+        [
+          296421.7477102665,
+          4499198.605291232
+        ],
+        [
+          296421.62835907395,
+          4499186.503559232
+        ],
+        [
+          296412.9865329136,
+          4499182.108904951
+        ],
+        [
+          296417.09076552064,
+          4499173.325430676
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Centre i eix de la bateria posterior ajustats al sector H; es conserva la planta T-6/8 de vuit canons, diferent del projecte de 1748.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "muralla-meseta-1748",
+      "anchor": [
+        296431.11004454753,
+        4499163.085723354
+      ],
+      "footprintUTM": [
+        [
+          296408.59433170146,
+          4499156.016703198
+        ],
+        [
+          296453.6257573936,
+          4499156.016703198
+        ],
+        [
+          296453.6257573936,
+          4499170.154743509
+        ],
+        [
+          296408.59433170146,
+          4499170.154743509
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "A–G",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-battery",
+      "anchor": [
+        296430.71318395296,
+        4499177.019916551
+      ],
+      "footprintUTM": [
+        [
+          296394.3937150466,
+          4499200.047451942
+        ],
+        [
+          296418.45905383275,
+          4499191.761091275
+        ],
+        [
+          296421.1518790125,
+          4499192.756631606
+        ],
+        [
+          296432.99355365336,
+          4499188.679216039
+        ],
+        [
+          296436.5801222389,
+          4499186.376064551
+        ],
+        [
+          296439.4856100929,
+          4499183.0255916985
+        ],
+        [
+          296441.3969422525,
+          4499179.269696283
+        ],
+        [
+          296442.1888887328,
+          4499175.365137822
+        ],
+        [
+          296441.9929790682,
+          4499171.693905822
+        ],
+        [
+          296440.52587090485,
+          4499168.6740219435
+        ],
+        [
+          296437.97540922044,
+          4499165.920346909
+        ],
+        [
+          296434.4731235493,
+          4499163.8148702225
+        ],
+        [
+          296430.69064529904,
+          4499162.446789711
+        ],
+        [
+          296426.69688901166,
+          4499162.326474638
+        ],
+        [
+          296423.1571865453,
+          4499162.904373807
+        ],
+        [
+          296402.5297533,
+          4499170.006968665
+        ],
+        [
+          296402.0693999296,
+          4499168.670005399
+        ],
+        [
+          296423.46081218397,
+          4499161.304351472
+        ],
+        [
+          296427.60638129077,
+          4499160.624655378
+        ],
+        [
+          296432.3704161366,
+          4499161.120660406
+        ],
+        [
+          296436.50515128236,
+          4499162.58108852
+        ],
+        [
+          296440.2047312551,
+          4499165.259549463
+        ],
+        [
+          296443.1137493845,
+          4499168.744321123
+        ],
+        [
+          296444.87679900025,
+          4499172.623681386
+        ],
+        [
+          296445.4641474934,
+          4499177.121507389
+        ],
+        [
+          296445.05419051764,
+          4499180.8945363145
+        ],
+        [
+          296443.6766606819,
+          4499183.718891028
+        ],
+        [
+          296444.73658114334,
+          4499184.3153083455
+        ],
+        [
+          296441.50365409034,
+          4499183.612559691
+        ],
+        [
+          296438.91124119906,
+          4499186.321133745
+        ],
+        [
+          296435.35755499714,
+          4499188.71978261
+        ],
+        [
+          296421.31944070524,
+          4499193.553493
+        ],
+        [
+          296418.50453531503,
+          4499193.134086699
+        ],
+        [
+          296394.8211860334,
+          4499201.288917832
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "H",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-powder",
+      "anchor": [
+        296407.6387413559,
+        4499179.570690014
+      ],
+      "footprintUTM": [
+        [
+          296410.94020245003,
+          4499174.267937932
+        ],
+        [
+          296401.772454341,
+          4499177.424646758
+        ],
+        [
+          296404.3372802618,
+          4499184.873442097
+        ],
+        [
+          296413.5050283708,
+          4499181.716733271
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "K",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-guard",
+      "anchor": [
+        296401.0478475152,
+        4499181.679887227
+      ],
+      "footprintUTM": [
+        [
+          296401.5485772051,
+          4499177.394914149
+        ],
+        [
+          296398.0151742881,
+          4499178.611562342
+        ],
+        [
+          296400.54711782536,
+          4499185.964860304
+        ],
+        [
+          296404.08052074234,
+          4499184.748212111
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "L",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-officer",
+      "anchor": [
+        296398.42885178974,
+        4499184.931712927
+      ],
+      "footprintUTM": [
+        [
+          296399.3336194068,
+          4499182.7508319
+        ],
+        [
+          296396.3732007466,
+          4499183.770185791
+        ],
+        [
+          296397.5240841726,
+          4499187.112593955
+        ],
+        [
+          296400.4845028328,
+          4499186.093240065
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "M",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-governor",
+      "anchor": [
+        296392.8992630475,
+        4499184.539079713
+      ],
+      "footprintUTM": [
+        [
+          296394.86376087565,
+          4499179.696681001
+        ],
+        [
+          296388.3699392984,
+          4499181.932683086
+        ],
+        [
+          296390.9347652193,
+          4499189.381478424
+        ],
+        [
+          296397.4285867965,
+          4499187.145476339
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "N",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -132,224 +132,60 @@
       4500100
     ],
     [
-      296820,
-      4499700
+      296967,
+      4500000
     ],
     [
-      296610,
-      4499400
+      296943,
+      4499780
     ],
     [
-      296550,
-      4499300
+      296955,
+      4499660
     ],
     [
-      296398.71480476455,
-      4499256.028574007
+      296938,
+      4499570
     ],
     [
-      296400.2175645854,
-      4499252.947459773
+      296928,
+      4499510
     ],
     [
-      296401.4009498942,
-      4499249.869495315
+      296524.1413102,
+      4499458.783165929
     ],
     [
-      296402.19919592387,
-      4499246.603685878
+      296510.22701025824,
+      4499351.509665674
     ],
     [
-      296402.1379655683,
-      4499243.633817893
+      296524.5339451555,
+      4499284.169719031
     ],
     [
-      296400.6113921871,
-      4499241.061688287
+      296544.7505476365,
+      4499259.733168863
     ],
     [
-      296398.2879574132,
-      4499238.657120374
+      296514.2498871348,
+      4499237.042022814
     ],
     [
-      296395.2631586227,
-      4499236.387231769
+      296498.17188203236,
+      4499202.917425353
     ],
     [
-      296392.7487290965,
-      4499234.048428623
+      296482.9687550172,
+      4499169.63768784
     ],
     [
-      296391.50864784373,
-      4499231.377651866
+      296468.6855332981,
+      4499139.782417327
     ],
     [
-      296391.27985579544,
-      4499227.610922488
-    ],
-    [
-      296391.08079635614,
-      4499223.6203159755
-    ],
-    [
-      296391.2308440378,
-      4499219.402682553
-    ],
-    [
-      296391.6313516895,
-      4499214.67153009
-    ],
-    [
-      296392.2949184101,
-      4499210.704356638
-    ],
-    [
-      296393.2873089667,
-      4499207.692156945
-    ],
-    [
-      296395.1815076161,
-      4499205.437636714
-    ],
-    [
-      296398.4487016896,
-      4499203.137634999
-    ],
-    [
-      296402.3249121782,
-      4499201.055210871
-    ],
-    [
-      296406.2042724415,
-      4499199.292161256
-    ],
-    [
-      296409.95840271976,
-      4499197.785871159
-    ],
-    [
-      296413.5544206293,
-      4499196.440843207
-    ],
-    [
-      296416.8702459598,
-      4499195.8332114285
-    ],
-    [
-      296419.9356113201,
-      4499195.739098689
-    ],
-    [
-      296423.2014207567,
-      4499196.537344718
-    ],
-    [
-      296426.5361447352,
-      4499197.845960013
-    ],
-    [
-      296430.0915960748,
-      4499198.864933403
-    ],
-    [
-      296431.8308321302,
-      4499197.091049827
-    ],
-    [
-      296433.2741267332,
-      4499194.457689865
-    ],
-    [
-      296435.0102130139,
-      4499192.364431777
-    ],
-    [
-      296437.2237861753,
-      4499190.106761769
-    ],
-    [
-      296439.7270012398,
-      4499188.069819124
-    ],
-    [
-      296442.8095001104,
-      4499186.474331201
-    ],
-    [
-      296445.7636192213,
-      4499184.816228285
-    ],
-    [
-      296448.51729425584,
-      4499182.265766601
-    ],
-    [
-      296451.04394237994,
-      4499179.366197796
-    ],
-    [
-      296453.4719433532,
-      4499176.180136861
-    ],
-    [
-      296455.4193076711,
-      4499172.839113333
-    ],
-    [
-      296456.9815327098,
-      4499169.310244828
-    ],
-    [
-      296458.54375774856,
-      4499165.781376323
-    ],
-    [
-      296459.8194906589,
-      4499162.351154969
-    ],
-    [
-      296460.64746929746,
-      4499158.861468396
-    ],
-    [
-      296460.93849583744,
-      4499155.983948014
-    ],
-    [
-      296460.498425752,
-      4499153.464984076
-    ],
-    [
-      296458.7308417246,
-      4499152.364497045
-    ],
-    [
-      296456.31052493764,
-      4499153.091059258
-    ],
-    [
-      296453.5145181955,
-      4499154.58790003
-    ],
-    [
-      296450.9752709727,
-      4499156.209970788
-    ],
-    [
-      296462,
-      4499146
-    ],
-    [
-      296458,
-      4499142
-    ],
-    [
-      296450,
-      4499137
-    ],
-    [
-      296450,
-      4499128
+      296447.7034682708,
+      4499120.365647587
     ],
     [
       296410,
@@ -383,8 +219,20 @@
     "studyWidth": 8.4,
     "routeStudy": [
       [
-        296600,
-        4499420
+        296551.43438187515,
+        4499248.434799074
+      ],
+      [
+        296530.0727380552,
+        4499256.548846973
+      ],
+      [
+        296560.3095402662,
+        4499362.677305889
+      ],
+      [
+        296592.37114399957,
+        4499474.794829793
       ],
       [
         296820,
@@ -453,16 +301,16 @@
     ],
     "branchStudy": [
       [
-        296692,
-        4499580
+        296530.0727380552,
+        4499256.548846973
       ],
       [
-        296574,
-        4499500
+        296551.43438187515,
+        4499248.434799074
       ],
       [
-        296572,
-        4499424
+        296538.16111986927,
+        4499227.163209671
       ]
     ],
     "limits": "Connexió territorial d'assaig entre la Ràpita i l'Ebre a Amposta, no digitalització d'un traçat de 1800. Cotes d'aigua tècniques de 0,45 a 1,35 m; no model hidràulic ni rescloses operatives.",
@@ -482,26 +330,81 @@
       ],
       "use": "Corredor de referència actual llegit manualment al costat de la TV-3408 i del canal existent. No georeferenciació històrica. Enllaç amb el nucli antic i ramal són C. Controls aproximats, error de treball de desenes de metres."
     },
-    "harbourConnection": "Dàrsena oberta a mar en l’escenari C; ramal prolongat dins la superfície d’aigua per evitar un tall geomètric. Amplada històrica de la boca desconeguda."
+    "harbourConnection": "El braç terminal 19 ressegueix el costat oriental de la població i desemboca al costat nord de la dàrsena gran. Línia d’assaig traçada sobre N112 il·l.4.",
+    "terminalReference": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
   },
   "basins": [
     {
       "id": "small",
       "center": [
-        296580,
-        4499410
+        296537.511377825,
+        4499239.216384991
       ],
-      "width": 34,
-      "length": 36
+      "width": 10,
+      "length": 12,
+      "polygonUTM": [
+        [
+          296529.10780555056,
+          4499250.544772917
+        ],
+        [
+          296549.65460756136,
+          4499245.025341142
+        ],
+        [
+          296542.475474028,
+          4499227.948033341
+        ],
+        [
+          296523.6634191224,
+          4499234.297315996
+        ]
+      ],
+      "name": "Boca del braç del canal · no una segona dàrsena independent"
     },
     {
       "id": "large",
       "center": [
-        296521,
-        4499233
+        296546.11442005757,
+        4499177.782953451
       ],
-      "width": 42,
-      "length": 85
+      "width": 160.22711459943093,
+      "length": 163.90043082274497,
+      "polygonUTM": [
+        [
+          296544.7505476365,
+          4499259.733168863
+        ],
+        [
+          296626.2279773573,
+          4499246.269141006
+        ],
+        [
+          296605.58046391397,
+          4499196.7419465715
+        ],
+        [
+          296590.0471373691,
+          4499144.545090666
+        ],
+        [
+          296571.9942400488,
+          4499095.83273804
+        ],
+        [
+          296466.00086275785,
+          4499133.808361412
+        ],
+        [
+          296483.84363310464,
+          4499170.482547788
+        ],
+        [
+          296501.8214850772,
+          4499214.895555324
+        ]
+      ],
+      "name": "Dàrsena gran · port de 1800"
     }
   ],
   "sites": [
@@ -642,8 +545,8 @@
       "id": "old-inn",
       "name": "Fonda Vella",
       "anchor": [
-        296540,
-        4499368
+        296491.3185959745,
+        4499253.784779031
       ],
       "kind": "inn",
       "width": 12,
@@ -651,14 +554,19 @@
       "height": 5.5,
       "radius": 26,
       "state": "Servei del front litoral; planta i coberta C",
-      "evidence": "H02, anàlisi de les dependències i cases petites properes. No duplica la Fonda Nova ni les 14 unitats residencials."
+      "evidence": "H02, anàlisi de les dependències i cases petites properes. No duplica la Fonda Nova ni les 14 unitats residencials.",
+      "alongAzimuthDegrees": 19,
+      "positionSource": {
+        "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
+        "precisionMeters": 15
+      }
     },
     {
       "id": "old-customs",
       "name": "Duana antiga",
       "anchor": [
-        296510,
-        4499394
+        296473.8414795753,
+        4499245.596413687
       ],
       "kind": "customs",
       "width": 11,
@@ -666,14 +574,19 @@
       "height": 4.4,
       "radius": 23,
       "state": "Cos de servei d'assaig, diferent de la Duana Nova del Coc",
-      "evidence": "H02: serveis anteriors i front litoral. Posició individual, volum i permanència el 1800 per validar."
+      "evidence": "H02: serveis anteriors i front litoral. Posició individual, volum i permanència el 1800 per validar.",
+      "alongAzimuthDegrees": 19,
+      "positionSource": {
+        "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
+        "precisionMeters": 15
+      }
     },
     {
       "id": "health",
       "name": "Caseta de Sanitat i molls",
       "anchor": [
-        296552,
-        4499184
+        296477.96398365987,
+        4499129.298889349
       ],
       "kind": "health",
       "width": 5,
@@ -681,7 +594,8 @@
       "height": 3.1,
       "radius": 50,
       "state": "Caseta al moll; espigons parcials i escullera",
-      "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar."
+      "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar.",
+      "alongAzimuthDegrees": 19
     },
     {
       "id": "well",
@@ -747,7 +661,7 @@
       "id": "bot-1",
       "kind": "bot",
       "anchor": [
-        296565,
+        296701.475,
         4499315
       ],
       "length": 4.1,
@@ -783,196 +697,40 @@
   "shorelineNote": "Traça del peu del cantell del Roquer al redibuix de 1748, amb entrants i sortints; mateixa transformació que els edificis. Enllaços amb la costa general C. No equival a una línia de marees mesurada.",
   "roquerCoast": [
     [
-      296398.71480476455,
-      4499256.028574007
+      296524.1413102,
+      4499458.783165929
     ],
     [
-      296400.2175645854,
-      4499252.947459773
+      296510.22701025824,
+      4499351.509665674
     ],
     [
-      296401.4009498942,
-      4499249.869495315
+      296524.5339451555,
+      4499284.169719031
     ],
     [
-      296402.19919592387,
-      4499246.603685878
+      296544.7505476365,
+      4499259.733168863
     ],
     [
-      296402.1379655683,
-      4499243.633817893
+      296514.2498871348,
+      4499237.042022814
     ],
     [
-      296400.6113921871,
-      4499241.061688287
+      296498.17188203236,
+      4499202.917425353
     ],
     [
-      296398.2879574132,
-      4499238.657120374
+      296482.9687550172,
+      4499169.63768784
     ],
     [
-      296395.2631586227,
-      4499236.387231769
+      296468.6855332981,
+      4499139.782417327
     ],
     [
-      296392.7487290965,
-      4499234.048428623
-    ],
-    [
-      296391.50864784373,
-      4499231.377651866
-    ],
-    [
-      296391.27985579544,
-      4499227.610922488
-    ],
-    [
-      296391.08079635614,
-      4499223.6203159755
-    ],
-    [
-      296391.2308440378,
-      4499219.402682553
-    ],
-    [
-      296391.6313516895,
-      4499214.67153009
-    ],
-    [
-      296392.2949184101,
-      4499210.704356638
-    ],
-    [
-      296393.2873089667,
-      4499207.692156945
-    ],
-    [
-      296395.1815076161,
-      4499205.437636714
-    ],
-    [
-      296398.4487016896,
-      4499203.137634999
-    ],
-    [
-      296402.3249121782,
-      4499201.055210871
-    ],
-    [
-      296406.2042724415,
-      4499199.292161256
-    ],
-    [
-      296409.95840271976,
-      4499197.785871159
-    ],
-    [
-      296413.5544206293,
-      4499196.440843207
-    ],
-    [
-      296416.8702459598,
-      4499195.8332114285
-    ],
-    [
-      296419.9356113201,
-      4499195.739098689
-    ],
-    [
-      296423.2014207567,
-      4499196.537344718
-    ],
-    [
-      296426.5361447352,
-      4499197.845960013
-    ],
-    [
-      296430.0915960748,
-      4499198.864933403
-    ],
-    [
-      296431.8308321302,
-      4499197.091049827
-    ],
-    [
-      296433.2741267332,
-      4499194.457689865
-    ],
-    [
-      296435.0102130139,
-      4499192.364431777
-    ],
-    [
-      296437.2237861753,
-      4499190.106761769
-    ],
-    [
-      296439.7270012398,
-      4499188.069819124
-    ],
-    [
-      296442.8095001104,
-      4499186.474331201
-    ],
-    [
-      296445.7636192213,
-      4499184.816228285
-    ],
-    [
-      296448.51729425584,
-      4499182.265766601
-    ],
-    [
-      296451.04394237994,
-      4499179.366197796
-    ],
-    [
-      296453.4719433532,
-      4499176.180136861
-    ],
-    [
-      296455.4193076711,
-      4499172.839113333
-    ],
-    [
-      296456.9815327098,
-      4499169.310244828
-    ],
-    [
-      296458.54375774856,
-      4499165.781376323
-    ],
-    [
-      296459.8194906589,
-      4499162.351154969
-    ],
-    [
-      296460.64746929746,
-      4499158.861468396
-    ],
-    [
-      296460.93849583744,
-      4499155.983948014
-    ],
-    [
-      296460.498425752,
-      4499153.464984076
-    ],
-    [
-      296458.7308417246,
-      4499152.364497045
-    ],
-    [
-      296456.31052493764,
-      4499153.091059258
-    ],
-    [
-      296453.5145181955,
-      4499154.58790003
-    ],
-    [
-      296450.9752709727,
-      4499156.209970788
+      296447.7034682708,
+      4499120.365647587
     ]
   ],
   "plan1748Project": [
@@ -1568,5 +1326,1048 @@
       "geometryConfidence": "C",
       "projectOnly": true
     }
-  ]
+  ],
+  "researchLandscape": {
+    "version": 1,
+    "source": {
+      "id": "PR01",
+      "title": "Pilar Reverté · Descripció ia · MREVER/PR_2024",
+      "file": "Descripció ia.odt",
+      "year": 2024,
+      "kind": "interpretació de recerca amb referències visuals",
+      "use": "Proves de paisatge per a Ideogram, amb correccions de la investigadora i fotografies de comparació. El 2024 és la marca del dossier, no la data del paisatge ni de totes les fotografies. No és un aixecament ni un inventari històric."
+    },
+    "received": "2026-10-31",
+    "confidence": "C",
+    "sceneFromYear": 1778,
+    "historicalCoordinates": null,
+    "historicalDimensions": null,
+    "description": [
+      "Mar a llevant i platja a la raconada al nord de la punta; sòl sec i pedregós.",
+      "Bateria semicircular prop de la punta, amb la masoveria al darrere i la torre i capella dins del conjunt antic. Es conserva l’alineació comuna de 1748.",
+      "Baixada vorejant el mur de la bateria, amb figueres i un pou a mitja baixada. El brocal fotografiat fou traslladat: no s’utilitza com a coordenada antiga.",
+      "Sorra a la vora de l’aigua; horts i figueres al fons de la raconada, amb sínia; coves sota el Roquer.",
+      "Garriga amb margallons baixos. La investigadora rebutja les palmeres altes de la imatge generada."
+    ],
+    "limits": [
+      "La primera imatge és generada amb IA: és un assaig criticat per la mateixa autora, no una font històrica.",
+      "Els 4 m del penya-segat i els 3 m del mur són valors del text de prova, sense comprovació mètrica. La cova es representa com una boca rocosa d’assaig, sense excavació del MDT.",
+      "La nova capa suggereix relacions espacials; cap data d’aparició es dedueix de la marca PR_2024. S’ofereix com a context C en tota l’escena activa des de 1778.",
+      "Les fotografies de la plaça, Alamedes i cases amb golfes documenten altres estats, sense demostrar que tots els pisos existissin el 1800.",
+      "La superposició cadastral és una pista de treball; no substitueix la transformació comuna de 1748 ni mesura les parcel·les històriques."
+    ],
+    "trail": {
+      "id": "pilar-trail",
+      "width": 1.4,
+      "points": [
+        [
+          296404,
+          4499190
+        ],
+        [
+          296410,
+          4499193
+        ],
+        [
+          296411,
+          4499195
+        ],
+        [
+          296408,
+          4499198
+        ],
+        [
+          296404,
+          4499199
+        ],
+        [
+          296399,
+          4499200
+        ],
+        [
+          296395,
+          4499203
+        ],
+        [
+          296392,
+          4499207
+        ],
+        [
+          296389,
+          4499212
+        ],
+        [
+          296388,
+          4499217
+        ]
+      ],
+      "figs": [
+        [
+          296402,
+          4499191
+        ],
+        [
+          296405,
+          4499194
+        ],
+        [
+          296403,
+          4499197
+        ],
+        [
+          296397,
+          4499200
+        ],
+        [
+          296391,
+          4499207
+        ],
+        [
+          296386,
+          4499216
+        ]
+      ]
+    },
+    "garden": {
+      "id": "pilar-garden",
+      "center": [
+        296452.6888785043,
+        4499208.872120146
+      ],
+      "width": 8,
+      "depth": 10,
+      "figs": [
+        [
+          296431.44730724057,
+          4499223.865120187
+        ],
+        [
+          296437.06114548794,
+          4499200.543593219
+        ]
+      ],
+      "noria": [
+        296440.8158120195,
+        4499218.540806315
+      ],
+      "note": "Detall de conreu dins del recinte Horts de les Monges, ajustat al croquis N112 il·l.4."
+    },
+    "cave": {
+      "id": "pilar-cave",
+      "anchor": [
+        296428.711402999,
+        4499119.483827252
+      ],
+      "width": 6.8,
+      "height": 3.6,
+      "depth": 7.5,
+      "note": "Conjunt de tres coves al vessant sud del Roquer, centrat en el comentari de Josep. Boques laterals, roca continua al damunt i fons tancats; geometria C."
+    },
+    "rocks": {
+      "id": "pilar-rocks",
+      "note": "Comentari de Josep (2026-11-01): zona de roques amb algunes coves a tocar de l’aigua. Posició i volum són una interpretació C.",
+      "center": [
+        296428.711402999,
+        4499119.483827252
+      ],
+      "stones": [
+        [
+          -4,
+          -7,
+          0.35
+        ],
+        [
+          3,
+          8,
+          0.42
+        ],
+        [
+          9,
+          12,
+          0.3
+        ],
+        [
+          -2,
+          -12,
+          0.36
+        ],
+        [
+          4,
+          -1,
+          0.28
+        ],
+        [
+          11,
+          16,
+          0.4
+        ]
+      ],
+      "caves": [
+        [
+          -9.83078304619994,
+          -6.881548132747412,
+          5.8,
+          3.3,
+          6
+        ],
+        [
+          10.650014966726303,
+          7.455010476522148,
+          5.2,
+          3,
+          5.8
+        ]
+      ]
+    },
+    "olives": {
+      "id": "pilar-olives",
+      "note": "Comentari de Josep (2026-10-31): camp d’oliveres a l’escena de 1950. Disposició en fileres interpretada C; no consta cap parcel·lari.",
+      "fromYear": 1950,
+      "center": [
+        296206,
+        4499300
+      ],
+      "rows": 4,
+      "cols": 5,
+      "spacing": 7
+    },
+    "garrigue": {
+      "id": "pilar-garrigue",
+      "points": [
+        [
+          296370,
+          4499245
+        ],
+        [
+          296373,
+          4499240
+        ],
+        [
+          296378,
+          4499249
+        ],
+        [
+          296367,
+          4499236
+        ],
+        [
+          296363,
+          4499227
+        ],
+        [
+          296365,
+          4499216
+        ],
+        [
+          296372,
+          4499180
+        ],
+        [
+          296375,
+          4499170
+        ],
+        [
+          296398,
+          4499162
+        ],
+        [
+          296414,
+          4499152
+        ],
+        [
+          296424,
+          4499145
+        ],
+        [
+          296430,
+          4499140
+        ]
+      ]
+    },
+    "images": [
+      {
+        "id": "PR01-01",
+        "number": 1,
+        "title": "Assaig de paisatge generat amb IA · correccions de Pilar al text",
+        "kind": "photo",
+        "generated": true,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-01.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Imatge generada amb IA; no documenta l’estat històric."
+      },
+      {
+        "id": "PR01-02",
+        "number": 2,
+        "title": "Exemple de vegetació de garriga",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-02.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-03",
+        "number": 3,
+        "title": "Margallons baixos · referència de port vegetal",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-03.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-04",
+        "number": 4,
+        "title": "Exemple de cova sota el Roquer",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-04.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-05",
+        "number": 5,
+        "title": "Segon exemple de cova sota el Roquer",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-05.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-06",
+        "number": 6,
+        "title": "Brocal del pou traslladat · aspecte actual",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-06.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-07",
+        "number": 7,
+        "title": "Brocal del pou traslladat · segona vista",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-07.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-08",
+        "number": 8,
+        "title": "Fàbrica conservada de la base de la bateria",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-08.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-09",
+        "number": 9,
+        "title": "Base de la bateria · segona vista",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-09.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-10",
+        "number": 10,
+        "title": "Porta del convent · fotografia actual",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-10.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-11",
+        "number": 11,
+        "title": "Edifici encoixinat del Cóc · esquerra, inacabat",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-11.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-12",
+        "number": 12,
+        "title": "Edifici encoixinat del Cóc · dreta, fotografia històrica",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-12.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-13",
+        "number": 13,
+        "title": "Cases grans de les Alamedes · referència actual",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-13.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-14",
+        "number": 14,
+        "title": "Cases de la plaça amb pis i golfes · comparació posterior",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-14.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-15",
+        "number": 15,
+        "title": "Detall de les cases de la plaça · comparació posterior",
+        "kind": "photo",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-15.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      },
+      {
+        "id": "PR01-16",
+        "number": 16,
+        "title": "Superposició de treball sobre cadastre · pista, sense georeferenciació validada",
+        "kind": "plan",
+        "generated": false,
+        "year": null,
+        "dateText": "sense data original fixada",
+        "image": "PR01-16.jpg",
+        "note": "Pilar Reverté, dossier MREVER/PR_2024. Data, autoria original i correspondència amb el 1800 no establertes al dossier."
+      }
+    ],
+    "dossiers": {
+      "bateria-roquer": {
+        "description": [
+          "PR01 · Pilar situa la bateria semicircular vora la punta i corregeix la masoveria al darrere. Es conserva la planta i l’ajust de 1748/T-6/8; el mur de 3 m és una proposta del text per a IA. Les fotos de la base són comparació actual."
+        ],
+        "images": [
+          8,
+          9
+        ]
+      },
+      "convent-masoveria": {
+        "description": [
+          "PR01 · La masoveria ha de quedar darrere la bateria; la foto de la porta és una referència actual. No autoritza a reconstruir sencer el convent ni a identificar l’hostal B com una masia completa."
+        ],
+        "images": [
+          10
+        ]
+      },
+      "capella-convent": {
+        "description": [
+          "PR01 · El paisatge proposat inclou una capella petita amb espadanya. Sense alçat mesurat ni data de l’espadanya: es manté l’alçat C existent."
+        ],
+        "images": []
+      },
+      "torre-rapita": {
+        "description": [
+          "PR01 · Torre quadrada alta rere la bateria; relació compatible amb la planta existent. No se’n dedueix una nova alçària."
+        ],
+        "images": []
+      },
+      "pou-figueretes": {
+        "description": [
+          "PR01 · Pou a mitja baixada i camí vorejat de figueres. Les dues fotos documenten el brocal traslladat, no la ubicació antiga. El punt G de 1748 es conserva, amb suport de visualització C."
+        ],
+        "images": [
+          6,
+          7
+        ]
+      },
+      "rampa-figueretes": {
+        "description": [
+          "PR01 · S’afegeix un sender d’assaig que voreja la bateria, passa prop del pou G i baixa cap a la raconada, amb figueres. És una lectura relacional complementària de la rampa llarga d’obra, sense amplada ni perfil històric mesurats."
+        ],
+        "images": []
+      },
+      "cova-roquer": {
+        "description": [
+          "Tres cavitats al costat sud del Roquer, situades segons el comentari de Josep E 296428.711 / N 4499119.484 m. La boca central coincideix amb aquest punt. La forma es contrasta amb PR01-04/05; dimensions, fondaria i separacio C."
+        ],
+        "images": [
+          4,
+          5
+        ]
+      },
+      "duana-nova": {
+        "description": [
+          "PR01 · Pilar identifica dos edificis encoixinats inacabats al Cóc: esquerra (foto amb tendal blanc) i dreta. Les fotografies comparatives no fixen per si soles ni les parcel·les ni l’estat de 1800."
+        ],
+        "images": [
+          11,
+          12
+        ]
+      },
+      "cases-acabades": {
+        "description": [
+          "PR01 · Referència a les cases grans de les Alamedes i a les cases de la plaça amb pis i golfes. Es conserven les tipologies del testimoni de 1794; les fotografies posteriors no permeten redatar els pisos."
+        ],
+        "images": [
+          13,
+          14,
+          15
+        ]
+      },
+      "placa-alamedes": {
+        "description": [
+          "PR01 · Fotografies de cases grans i cases de la plaça amb pis i golfes, de moments diferents o sense data original establerta; comparació de façanes, sense canviar l’inventari de 1794."
+        ],
+        "images": [
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    "cavities": [
+      {
+        "anchor": [
+          296418.8806199528,
+          4499112.602279119
+        ],
+        "along": -12,
+        "width": 5.8,
+        "height": 3.3,
+        "depth": 6,
+        "floorElevation": 0.85,
+        "seed": 2
+      },
+      {
+        "anchor": [
+          296428.711402999,
+          4499119.483827252
+        ],
+        "along": 0,
+        "width": 6.8,
+        "height": 3.6,
+        "depth": 7.5,
+        "floorElevation": 0.85,
+        "seed": 3
+      },
+      {
+        "anchor": [
+          296439.36141796573,
+          4499126.938837728
+        ],
+        "along": 13,
+        "width": 5.2,
+        "height": 3,
+        "depth": 5.8,
+        "floorElevation": 0.85,
+        "seed": 4
+      }
+    ],
+    "cliffCoast": [
+      [
+        296398.71480476455,
+        4499256.028574007
+      ],
+      [
+        296400.2175645854,
+        4499252.947459773
+      ],
+      [
+        296401.4009498942,
+        4499249.869495315
+      ],
+      [
+        296402.19919592387,
+        4499246.603685878
+      ],
+      [
+        296402.1379655683,
+        4499243.633817893
+      ],
+      [
+        296400.6113921871,
+        4499241.061688287
+      ],
+      [
+        296398.2879574132,
+        4499238.657120374
+      ],
+      [
+        296395.2631586227,
+        4499236.387231769
+      ],
+      [
+        296392.7487290965,
+        4499234.048428623
+      ],
+      [
+        296391.50864784373,
+        4499231.377651866
+      ],
+      [
+        296391.27985579544,
+        4499227.610922488
+      ],
+      [
+        296391.08079635614,
+        4499223.6203159755
+      ],
+      [
+        296391.2308440378,
+        4499219.402682553
+      ],
+      [
+        296391.6313516895,
+        4499214.67153009
+      ],
+      [
+        296392.2949184101,
+        4499210.704356638
+      ],
+      [
+        296393.2873089667,
+        4499207.692156945
+      ],
+      [
+        296395.1815076161,
+        4499205.437636714
+      ],
+      [
+        296398.4487016896,
+        4499203.137634999
+      ],
+      [
+        296402.3249121782,
+        4499201.055210871
+      ],
+      [
+        296406.2042724415,
+        4499199.292161256
+      ],
+      [
+        296409.95840271976,
+        4499197.785871159
+      ],
+      [
+        296413.5544206293,
+        4499196.440843207
+      ],
+      [
+        296416.8702459598,
+        4499195.8332114285
+      ],
+      [
+        296419.9356113201,
+        4499195.739098689
+      ],
+      [
+        296423.2014207567,
+        4499196.537344718
+      ],
+      [
+        296426.5361447352,
+        4499197.845960013
+      ],
+      [
+        296430.0915960748,
+        4499198.864933403
+      ],
+      [
+        296431.8308321302,
+        4499197.091049827
+      ],
+      [
+        296433.2741267332,
+        4499194.457689865
+      ],
+      [
+        296435.0102130139,
+        4499192.364431777
+      ],
+      [
+        296437.2237861753,
+        4499190.106761769
+      ],
+      [
+        296439.7270012398,
+        4499188.069819124
+      ],
+      [
+        296442.8095001104,
+        4499186.474331201
+      ],
+      [
+        296445.7636192213,
+        4499184.816228285
+      ],
+      [
+        296448.51729425584,
+        4499182.265766601
+      ],
+      [
+        296451.04394237994,
+        4499179.366197796
+      ],
+      [
+        296453.4719433532,
+        4499176.180136861
+      ],
+      [
+        296455.4193076711,
+        4499172.839113333
+      ],
+      [
+        296456.9815327098,
+        4499169.310244828
+      ],
+      [
+        296458.54375774856,
+        4499165.781376323
+      ],
+      [
+        296459.8194906589,
+        4499162.351154969
+      ],
+      [
+        296460.64746929746,
+        4499158.861468396
+      ],
+      [
+        296460.93849583744,
+        4499155.983948014
+      ],
+      [
+        296460.498425752,
+        4499153.464984076
+      ],
+      [
+        296458.7308417246,
+        4499152.364497045
+      ],
+      [
+        296456.31052493764,
+        4499153.091059258
+      ],
+      [
+        296453.5145181955,
+        4499154.58790003
+      ],
+      [
+        296450.9752709727,
+        4499156.209970788
+      ]
+    ],
+    "caveFrame": {
+      "center": [
+        296428.711402999,
+        4499119.483827252
+      ],
+      "tangent": [
+        0.8192319205190405,
+        0.5734623443633283
+      ],
+      "outward": [
+        0.5734623443633283,
+        -0.8192319205190405
+      ],
+      "floorElevation": 0.85,
+      "rockDepth": 10,
+      "commentId": "498c0593-3701-4287-914a-582c8e3d6f3b",
+      "source": "Comentari de Josep: Les coves van aqui, 01/11/2026. El punt fixa el centre del conjunt; dimensions i distribucio C."
+    }
+  },
+  "coast1748Trace": [
+    [
+      296398.71480476455,
+      4499256.028574007
+    ],
+    [
+      296400.2175645854,
+      4499252.947459773
+    ],
+    [
+      296401.4009498942,
+      4499249.869495315
+    ],
+    [
+      296402.19919592387,
+      4499246.603685878
+    ],
+    [
+      296402.1379655683,
+      4499243.633817893
+    ],
+    [
+      296400.6113921871,
+      4499241.061688287
+    ],
+    [
+      296398.2879574132,
+      4499238.657120374
+    ],
+    [
+      296395.2631586227,
+      4499236.387231769
+    ],
+    [
+      296392.7487290965,
+      4499234.048428623
+    ],
+    [
+      296391.50864784373,
+      4499231.377651866
+    ],
+    [
+      296391.27985579544,
+      4499227.610922488
+    ],
+    [
+      296391.08079635614,
+      4499223.6203159755
+    ],
+    [
+      296391.2308440378,
+      4499219.402682553
+    ],
+    [
+      296391.6313516895,
+      4499214.67153009
+    ],
+    [
+      296392.2949184101,
+      4499210.704356638
+    ],
+    [
+      296393.2873089667,
+      4499207.692156945
+    ],
+    [
+      296395.1815076161,
+      4499205.437636714
+    ],
+    [
+      296398.4487016896,
+      4499203.137634999
+    ],
+    [
+      296402.3249121782,
+      4499201.055210871
+    ],
+    [
+      296406.2042724415,
+      4499199.292161256
+    ],
+    [
+      296409.95840271976,
+      4499197.785871159
+    ],
+    [
+      296413.5544206293,
+      4499196.440843207
+    ],
+    [
+      296416.8702459598,
+      4499195.8332114285
+    ],
+    [
+      296419.9356113201,
+      4499195.739098689
+    ],
+    [
+      296423.2014207567,
+      4499196.537344718
+    ],
+    [
+      296426.5361447352,
+      4499197.845960013
+    ],
+    [
+      296430.0915960748,
+      4499198.864933403
+    ],
+    [
+      296431.8308321302,
+      4499197.091049827
+    ],
+    [
+      296433.2741267332,
+      4499194.457689865
+    ],
+    [
+      296435.0102130139,
+      4499192.364431777
+    ],
+    [
+      296437.2237861753,
+      4499190.106761769
+    ],
+    [
+      296439.7270012398,
+      4499188.069819124
+    ],
+    [
+      296442.8095001104,
+      4499186.474331201
+    ],
+    [
+      296445.7636192213,
+      4499184.816228285
+    ],
+    [
+      296448.51729425584,
+      4499182.265766601
+    ],
+    [
+      296451.04394237994,
+      4499179.366197796
+    ],
+    [
+      296453.4719433532,
+      4499176.180136861
+    ],
+    [
+      296455.4193076711,
+      4499172.839113333
+    ],
+    [
+      296456.9815327098,
+      4499169.310244828
+    ],
+    [
+      296458.54375774856,
+      4499165.781376323
+    ],
+    [
+      296459.8194906589,
+      4499162.351154969
+    ],
+    [
+      296460.64746929746,
+      4499158.861468396
+    ],
+    [
+      296460.93849583744,
+      4499155.983948014
+    ],
+    [
+      296460.498425752,
+      4499153.464984076
+    ],
+    [
+      296458.7308417246,
+      4499152.364497045
+    ],
+    [
+      296456.31052493764,
+      4499153.091059258
+    ],
+    [
+      296453.5145181955,
+      4499154.58790003
+    ],
+    [
+      296450.9752709727,
+      4499156.209970788
+    ]
+  ],
+  "portWorks": {
+    "source": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+    "breakwaters": [
+      [
+        [
+          296544.7505476365,
+          4499259.733168863
+        ],
+        [
+          296626.2279773573,
+          4499246.269141006
+        ],
+        [
+          296605.58046391397,
+          4499196.7419465715
+        ]
+      ],
+      [
+        [
+          296466.00086275785,
+          4499133.808361412
+        ],
+        [
+          296571.9942400488,
+          4499095.83273804
+        ],
+        [
+          296590.0471373691,
+          4499144.545090666
+        ]
+      ]
+    ],
+    "width": 4.2,
+    "top": 1.3,
+    "dockProps": [
+      [
+        296491.6468425976,
+        4499124.759399147
+      ],
+      [
+        296503.60996349953,
+        4499120.249927084
+      ],
+      [
+        296515.57308440155,
+        4499115.740455022
+      ],
+      [
+        296527.5512143731,
+        4499112.090851977
+      ]
+    ]
+  },
+  "layoutReference": {
+    "source": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+    "registration": {
+      "pixelOrigin": [
+        201,
+        269
+      ],
+      "townOrigin": [
+        3,
+        -9.8
+      ],
+      "metersPerPixel": 0.86,
+      "imageAxisDegrees": 18,
+      "confidence": "C",
+      "basis": "Ajust relacional amb la Mançana, la plaça i la torre existents. No és una georeferenciació històrica mesurada."
+    },
+    "protectedStructures": [
+      "sant-elm",
+      "placa-coberta",
+      "duana-nova",
+      "casa-white",
+      "battery",
+      "tower"
+    ],
+    "historicalCoordinates": null
+  }
 }

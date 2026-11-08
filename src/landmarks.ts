@@ -46,10 +46,18 @@ export function makeLandmarks(data:LandmarkData,meta:Terrain,h:Float32Array,v:Ui
       box(0,.025,z0,w,.05,d,stone);skirt([[-w/2,z0+d/2],[w/2,z0+d/2],[w/2,z0-d/2],[-w/2,z0-d/2]]);
     }else{
       const w=site.width,d=site.depth,T=site.wallThickness,base=site.batteredHeight,H=site.wallHeight-base;
-      const g=new THREE.CylinderGeometry(w/Math.SQRT2,site.baseWidth/Math.SQRT2,base,4,1);g.rotateY(Math.PI/4);emit(g,stone,0,base/2,0);
+      if(site.id==='torre-moro'){const g=new THREE.BoxGeometry(1,1,1),p=g.getAttribute('position');for(let i=0;i<p.count;i++){const top=p.getY(i)>0;p.setXYZ(i,p.getX(i)*(top?w:site.baseWidth),(p.getY(i)+.5)*base,p.getZ(i)*(top?d:site.baseDepth));}g.computeVertexNormals();emit(g,stone);}else{const g=new THREE.CylinderGeometry(w/Math.SQRT2,site.baseWidth/Math.SQRT2,base,4,1);g.rotateY(Math.PI/4);emit(g,stone,0,base/2,0);}
       wall(0,base,d/2-T/2,w,H,T,0,[{x:0,width:.9,height:1.6,bottom:1.1}],stone);wall(0,base,-d/2+T/2,w,H,T,Math.PI,[],stone);
       for(const sign of[-1,1])wall(sign*(w/2-T/2),base,0,d-2*T,H,T,Math.PI/2,[{x:0,width:.25,height:.9,bottom:2.6}],stone);
       skirt([[-site.baseWidth/2,site.baseWidth/2],[site.baseWidth/2,site.baseWidth/2],[site.baseWidth/2,-site.baseWidth/2],[-site.baseWidth/2,-site.baseWidth/2]]);
+      if(site.crownStudy){
+        const top=site.wallHeight;box(0,top-.06,0,w-.9,.12,d-.9,stone);
+        for(const sign of [-1,1]){box(0,top+.2,sign*(d/2-T/2),w,.4,T,stone);box(sign*(w/2-T/2),top+.2,0,T,.4,d,stone);}
+        for(const sign of [-1,1])for(let i=0;i<4;i++){const x=-w/2+.48+i*(w-.96)/3;box(x,top+.76,sign*(d/2-T/2),.75,.75,T,stone);}
+        for(const sign of [-1,1])for(let i=1;i<3;i++)box(sign*(w/2-T/2),top+.76,-d/2+.5+i*(d-1)/3,T,.75,.7,stone);
+        for(const [x,z,r] of [[w*.28,d/2+.32,0],[w/2+.32,-d*.25,Math.PI/2]]){wall(x,top-1.2,z,.95,.95,.55,r,[{x:0,width:.3,height:.5,bottom:.12}],stone);for(const dx of [-.3,.3])box(x+dx*Math.cos(r),top-1.45,z-dx*Math.sin(r),.18,.55,.65,stone);}
+        for(let y=base+.2;y<top-.4;y+=.5)for(const x of [-w/2+.16,w/2-.16])for(const z of [-d/2+.16,d/2-.16])box(x,y,z,.38,.28,.38,lime);
+      }
     }
     for(const[mat,list]of batches){const g=mergeGeometries(list,false);if(!g)throw Error('Invalid landmark batch');group.add(new THREE.Mesh(g,mat));for(const old of list)old.dispose();}
   }

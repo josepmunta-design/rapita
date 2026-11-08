@@ -1,0 +1,73 @@
+{
+  "entityId": "companyia-canal",
+  "historicalEvidence": {
+    "description": "Les Casotes, actual Museu de la Mar de l’Ebre, a la plaça Agustí Vizcarro. Es conserva el punt marcat per Josep i contrastat amb l’ortofoto 1945–1946; no es desplaça a les coordenades del catàleg aportat.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N111",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "casotes-companyia",
+      "anchor": [
+        296840,
+        4499555
+      ],
+      "footprintUTM": [
+        [
+          296822.2700401531,
+          4499550.947713753
+        ],
+        [
+          296854.5489109774,
+          4499544.0866279565
+        ],
+        [
+          296857.7299598469,
+          4499559.052286247
+        ],
+        [
+          296825.4510890226,
+          4499565.9133720435
+        ]
+      ],
+      "alongAzimuthDegrees": 12,
+      "positionSource": {
+        "text": "Punt marcat per Josep (01/11/2026), contrastat amb la coberta a la ortofoto ICGC 1945-1946 EPSG:25831: pixel 804,267 del retall [295500,4498000,297700,4500000], 1320x1200. Posicio fixa a tota la cronologia; planta i alcat C.",
+        "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms",
+        "precisionMeters": 5
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "Posició de treball marcada per Josep; dimensions C estimades"
+    }
+  ],
+  "hypotheticalGuards": {
+    "georeferenced": false,
+    "localCenters": [
+      [
+        -11,
+        45
+      ],
+      [
+        11,
+        45
+      ]
+    ],
+    "footprintMeters": [
+      6,
+      6.1
+    ],
+    "warning": "Distribució convencional del paquet aportat, no posició històrica."
+  },
+  "warning": "Es conserva el gir d’assaig de 12° i el punt marcat per Josep. +Z del paquet és convencional; no estableix una nova orientació geogràfica."
+}

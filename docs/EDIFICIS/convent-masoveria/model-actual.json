@@ -1,0 +1,596 @@
+{
+  "entityId": "convent-masoveria",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "hostal-1748",
+        "name": "Hostal del recinte del convent",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296385.8758960818,
+          4499200.283175075
+        ],
+        "alongAzimuthDegrees": 0,
+        "width": 2.5721296063275076,
+        "depth": 3.2626596614718437,
+        "height": 5.2,
+        "evidence": "Plànol de 1748, B: Hostal del recinte del convent. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "B",
+        "planPixels": [
+          [
+            921,
+            477
+          ],
+          [
+            943,
+            495
+          ],
+          [
+            936,
+            506
+          ],
+          [
+            914,
+            489
+          ]
+        ],
+        "polygonUTM": [
+          [
+            296386.1071112447,
+            4499198.6279709
+          ],
+          [
+            296384.59805187455,
+            4499201.07033611
+          ],
+          [
+            296385.6282397271,
+            4499201.890630562
+          ],
+          [
+            296387.1701814809,
+            4499199.543762729
+          ]
+        ],
+        "anchor": [
+          296385.8758960818,
+          4499200.283175075
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.70367709609697,
+        "footprintUTM": [
+          [
+            296386.1071112447,
+            4499198.6279709
+          ],
+          [
+            296384.59805187455,
+            4499201.07033611
+          ],
+          [
+            296385.6282397271,
+            4499201.890630562
+          ],
+          [
+            296387.1701814809,
+            4499199.543762729
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "corral-1748-1",
+        "name": "Corral del recinte",
+        "kind": "enclosure",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296388.0509531866,
+          4499208.694031168
+        ],
+        "polygonUTM": [
+          [
+            296386.91972151067,
+            4499200.057281767
+          ],
+          [
+            296377.7397548038,
+            4499208.452362545
+          ],
+          [
+            296385.08083416836,
+            4499211.158790959
+          ],
+          [
+            296385.61993190536,
+            4499220.480117026
+          ],
+          [
+            296388.87944179267,
+            4499220.639614031
+          ],
+          [
+            296391.2458319096,
+            4499207.967815113
+          ],
+          [
+            296395.51171608904,
+            4499203.294362731
+          ],
+          [
+            296393.4103933133,
+            4499197.50190517
+          ]
+        ],
+        "width": 17.771961285208818,
+        "depth": 23.137708860449493,
+        "height": 2.3,
+        "evidence": "Plànol de 1748, F: Corral del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "F",
+        "planPixels": [
+          [
+            918,
+            493
+          ],
+          [
+            1031,
+            542
+          ],
+          [
+            971,
+            591
+          ],
+          [
+            996,
+            680
+          ],
+          [
+            966,
+            692
+          ],
+          [
+            903,
+            581
+          ],
+          [
+            848,
+            551
+          ],
+          [
+            849,
+            490
+          ]
+        ],
+        "alongAzimuthDegrees": 0,
+        "anchor": [
+          296388.0509531866,
+          4499208.694031168
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.81468584340232,
+        "footprintUTM": [
+          [
+            296386.91972151067,
+            4499200.057281767
+          ],
+          [
+            296377.7397548038,
+            4499208.452362545
+          ],
+          [
+            296385.08083416836,
+            4499211.158790959
+          ],
+          [
+            296385.61993190536,
+            4499220.480117026
+          ],
+          [
+            296388.87944179267,
+            4499220.639614031
+          ],
+          [
+            296391.2458319096,
+            4499207.967815113
+          ],
+          [
+            296395.51171608904,
+            4499203.294362731
+          ],
+          [
+            296393.4103933133,
+            4499197.50190517
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "corral-1748-2",
+        "name": "Corral petit del recinte",
+        "kind": "enclosure",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296381.17363326746,
+          4499218.735296634
+        ],
+        "polygonUTM": [
+          [
+            296385.01821917586,
+            4499211.287170719
+          ],
+          [
+            296376.6847492547,
+            4499211.592941997
+          ],
+          [
+            296377.28507734736,
+            4499223.884136046
+          ],
+          [
+            296381.469828387,
+            4499223.938686352
+          ],
+          [
+            296381.2802182717,
+            4499220.906203375
+          ],
+          [
+            296385.30370716803,
+            4499220.802641313
+          ]
+        ],
+        "width": 8.618957913306076,
+        "depth": 12.651515632867813,
+        "height": 2.3,
+        "evidence": "Plànol de 1748, F: Corral petit del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "F",
+        "planPixels": [
+          [
+            972,
+            592
+          ],
+          [
+            1051,
+            568
+          ],
+          [
+            1085,
+            685
+          ],
+          [
+            1046,
+            699
+          ],
+          [
+            1038,
+            670
+          ],
+          [
+            1000,
+            682
+          ]
+        ],
+        "alongAzimuthDegrees": 0,
+        "anchor": [
+          296381.17363326746,
+          4499218.735296634
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.288187492255148,
+        "footprintUTM": [
+          [
+            296385.01821917586,
+            4499211.287170719
+          ],
+          [
+            296376.6847492547,
+            4499211.592941997
+          ],
+          [
+            296377.28507734736,
+            4499223.884136046
+          ],
+          [
+            296381.469828387,
+            4499223.938686352
+          ],
+          [
+            296381.2802182717,
+            4499220.906203375
+          ],
+          [
+            296385.30370716803,
+            4499220.802641313
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "corral-1748-3",
+        "name": "Corral oriental del recinte",
+        "kind": "enclosure",
+        "fromYear": 1778,
+        "height": 2.3,
+        "planLetter": "F",
+        "planPixels": [
+          [
+            1048,
+            591
+          ],
+          [
+            1092,
+            575
+          ],
+          [
+            1135,
+            676
+          ],
+          [
+            1087,
+            691
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "utmAnchor": [
+          296375.0581784273,
+          4499219.122999941
+        ],
+        "alongAzimuthDegrees": 0,
+        "polygonUTM": [
+          [
+            296377.7275362059,
+            4499213.690734496
+          ],
+          [
+            296372.9995335184,
+            4499213.609601357
+          ],
+          [
+            296372.21426708816,
+            4499224.66877884
+          ],
+          [
+            296377.29137689667,
+            4499224.52288507
+          ]
+        ],
+        "width": 5.513269117742311,
+        "depth": 11.059177483431995,
+        "evidence": "Plànol de 1748, F: Corral oriental del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "anchor": [
+          296375.0581784273,
+          4499219.122999941
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.255433390590422,
+        "footprintUTM": [
+          [
+            296377.7275362059,
+            4499213.690734496
+          ],
+          [
+            296372.9995335184,
+            4499213.609601357
+          ],
+          [
+            296372.21426708816,
+            4499224.66877884
+          ],
+          [
+            296377.29137689667,
+            4499224.52288507
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "mur-roquer-1748",
+        "name": "Mur del recinte sobre el cantell",
+        "kind": "wallline",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296391.85707500804,
+          4499210.570265708
+        ],
+        "lineUTM": [
+          [
+            296395.4459513218,
+            4499203.103367979
+          ],
+          [
+            296391.2458319096,
+            4499207.967815113
+          ],
+          [
+            296388.87944179267,
+            4499220.639614031
+          ]
+        ],
+        "width": 6.566509529133327,
+        "depth": 17.536246052011847,
+        "height": 2.6,
+        "evidence": "Plànol de 1748, F: Mur del recinte sobre el cantell. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "F",
+        "planPixels": [
+          [
+            848,
+            549
+          ],
+          [
+            903,
+            581
+          ],
+          [
+            966,
+            692
+          ]
+        ],
+        "alongAzimuthDegrees": 0,
+        "anchor": [
+          296391.85707500804,
+          4499210.570265708
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.737923196560075,
+        "footprintUTM": [
+          [
+            296388.5738202435,
+            4499201.802142682
+          ],
+          [
+            296395.1403297726,
+            4499201.802142682
+          ],
+          [
+            296395.1403297726,
+            4499219.338388734
+          ],
+          [
+            296388.5738202435,
+            4499219.338388734
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "mur-nord-1748",
+        "name": "Mur diagonal del recinte",
+        "kind": "wallline",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296383.09813742776,
+          4499199.258128856
+        ],
+        "lineUTM": [
+          [
+            296388.935239369,
+            4499184.194887504
+          ],
+          [
+            296387.07883801556,
+            4499190.28190188
+          ],
+          [
+            296386.8868391271,
+            4499199.961784391
+          ],
+          [
+            296377.7397548038,
+            4499208.452362545
+          ],
+          [
+            296374.85001582315,
+            4499213.399707956
+          ]
+        ],
+        "width": 14.085223545844201,
+        "depth": 29.20482045225799,
+        "height": 2.6,
+        "evidence": "Plànol de 1748, F: Mur diagonal del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "F",
+        "planPixels": [
+          [
+            848,
+            351
+          ],
+          [
+            885,
+            402
+          ],
+          [
+            918,
+            492
+          ],
+          [
+            1031,
+            542
+          ],
+          [
+            1074,
+            579
+          ]
+        ],
+        "alongAzimuthDegrees": 0,
+        "anchor": [
+          296383.09813742776,
+          4499199.258128856
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.797446609022035,
+        "footprintUTM": [
+          [
+            296376.0555256548,
+            4499184.65571863
+          ],
+          [
+            296390.1407492007,
+            4499184.65571863
+          ],
+          [
+            296390.1407492007,
+            4499213.860539082
+          ],
+          [
+            296376.0555256548,
+            4499213.860539082
+          ]
+        ]
+      }
+    }
+  ]
+}

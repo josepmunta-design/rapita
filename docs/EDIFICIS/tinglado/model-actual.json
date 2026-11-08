@@ -1,0 +1,51 @@
+{
+  "entityId": "tinglado",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "tinglado",
+        "name": "Tinglado i tallers coberts",
+        "kind": "shed",
+        "fromYear": 1786,
+        "utmAnchor": [
+          296360.6,
+          4499211.3
+        ],
+        "width": 22,
+        "depth": 10,
+        "height": 4.2,
+        "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona.",
+        "anchor": [
+          296360.6,
+          4499211.3
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.69930665936503,
+        "footprintUTM": [
+          [
+            296348.5714548961,
+            4499210.153656821
+          ],
+          [
+            296369.3728635593,
+            4499202.991157423
+          ],
+          [
+            296372.6285451038,
+            4499212.446343179
+          ],
+          [
+            296351.82713644067,
+            4499219.608842577
+          ]
+        ]
+      }
+    }
+  ]
+}

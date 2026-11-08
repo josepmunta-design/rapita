@@ -1,0 +1,55 @@
+{
+  "reviewed": "2026-11-02",
+  "package": "Edificios Codigo/casotes_rapita_modelos_y_fuentes.zip",
+  "files": [
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes-threejs.js",
+      "sha256": "318055f10031885b3decbc84a2deb341b0c34a7eb7a9dddc1d0880dfd010c16d"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_1858.glb",
+      "sha256": "067c9733ff8883044563bd256fdaae64c85662cff6c0955b2f82fc0c10eb1259"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_1858_con_guardas.glb",
+      "sha256": "56c19b6c0985e966459e14570f87cc98da2dd27f518b051c4ae913e2fdfb9604"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_actual.glb",
+      "sha256": "2075cf6657408e78f3495c85ffe991154c88e20489d0d21963beb197176d803c"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_actual_con_guardas.glb",
+      "sha256": "a7afc585dcd20ac4ab3d5fa080244b8e84a6efc760b10aef77f20722a918a828"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/cronologia-fuentes-y-medidas.md",
+      "sha256": "a74ab2bec812dd7d7e83e382839e17b0dcee19a3cb3352268fe3840b009194e2"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/generar_glb.py",
+      "sha256": "7242cd9a7511187e737192062dd5f44819296245a7a042e3813fed34cec24781"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/README.txt",
+      "sha256": "b12e2b65e754c2074fc15f990cc0d7ac4420f6deff889af6703ef98f08981df4"
+    },
+    {
+      "file": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/visor-casotes.html",
+      "sha256": "a031dfcff555aae4d86c1fd5f1e92dec0371779753d51ace960f57c25581ca0a"
+    }
+  ],
+  "runtimeSource": "src/casotes-model.js",
+  "adaptations": [
+    "Orientació dels triangles de coberta corregida perquè les normals mirin cap a fora.",
+    "Agrupació per material i per edifici sense canviar les posicions locals.",
+    "Comparacions actual i de guardes manuals; cancel·lades amb un canvi d’any."
+  ],
+  "dimensionsMeasured": false,
+  "guardPositionsVerified": false,
+  "userAnchorPreserved": [
+    296840,
+    4499555
+  ],
+  "alongAzimuthPreserved": 12
+}

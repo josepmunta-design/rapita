@@ -1,0 +1,14 @@
+{
+  "version": "0.8.0",
+  "verified": "2026-10-30",
+  "algorithm": "sha256",
+  "repeatedRunIdentical": true,
+  "command": "node scripts/prepare-urban.mjs",
+  "files": {
+    "urban-fabric.json": "5d830ac1254d6ceb854de41b7c66455d5cc1a3f3c0c44c64c566099f48238a3d",
+    "history-catalog.json": "313333fe7a5a12b16c9a2033b0521568e472fbe8c1ea6bedb709fdcbf91aab18",
+    "chronology.json": "6092672bdf21a19a0a4434833d7e9b0ad4b04da15804966611c023b31c920cb8",
+    "reference/plan-1852.jpg": "9ad0f19714763e9154c4dec63b2f15a94d0e883468701889c789815d2d407757",
+    "reference/rapita-1945-1946.jpg": "ae432973003dbd02962e1a70eb3087d722b913bbf7511a191c6b8e0bacd9b519"
+  }
+}

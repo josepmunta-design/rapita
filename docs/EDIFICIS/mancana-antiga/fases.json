@@ -1,0 +1,128 @@
+{
+  "entityId": "mancana-antiga",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "mancana-antiga-fase-01",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Abans de 1780",
+      "state": "Preexistència d’origen desconegut, malmesa al nord.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.203,213"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    },
+    {
+      "id": "mancana-antiga-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "24 unitats i serveis",
+      "state": "Programa complex, no 24 edificis independents.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.7"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "mancana-antiga-fase-03",
+      "witnessDate": "1865",
+      "witnessYear": 1865,
+      "label": "29 habitacions registrades",
+      "state": "Canvi de recompte, no data segura de les obres interiors.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.226"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "mancana-antiga-fase-04",
+      "witnessDate": "1869",
+      "witnessYear": 1869,
+      "label": "Subhasta del quarter",
+      "state": "2.904,09 m²; sense postor segons l’article.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.214"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "mancana-antiga-fase-05",
+      "witnessDate": "1958",
+      "witnessYear": 1958,
+      "label": "Vista aèria identificada",
+      "state": "ANC1-564-N-4739, data en el peu de l’article. És comparació posterior a 1950.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N063",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N112",
+          "locator": "il·l.5 p.209"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": true,
+      "datePrecision": "any"
+    },
+    {
+      "id": "mancana-antiga-fase-06",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Enderroc posterior",
+      "state": "L’article situa l’enderroc als anys 70; conservar com fase fora del límit 1950.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.213"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

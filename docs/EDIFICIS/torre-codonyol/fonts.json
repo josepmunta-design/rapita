@@ -1,0 +1,61 @@
+[
+  {
+    "id": "N028",
+    "file": "DESCRIPCIO RAPITA_1780/20251125_123151.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_123151.jpg",
+    "bytes": 3982710,
+    "sha256": "b9f2580e31359898fcaac9922b10dc92efdeb37f77d56cc7d15d9c2c45263647",
+    "review": "inventariat",
+    "width": 4032,
+    "height": 3024,
+    "exif": {
+      "306": "2025:11:25 12:31:51"
+    },
+    "title": "Explicación del plano vista y esclusa",
+    "witnessDate": "1780-11-13",
+    "kind": "llegenda",
+    "reviewMethod": "lectura visual completa",
+    "reading": "19 punts amb territori, Amposta, salines, ullals, moll i fort projectats, torres, pont i basses. Referència de 27 peus alport, no profunditat uniforme del canal.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N028.jpg"
+  },
+  {
+    "id": "N109",
+    "file": "MPD_07_063.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\MPD_07_063.jpg",
+    "bytes": 350715,
+    "sha256": "7eb007f6ee1068777f6510721cc0a8783b7728962e08905c88503b4d8590f328",
+    "review": "inventariat",
+    "width": 1894,
+    "height": 1094,
+    "exif": {},
+    "title": "Mapa deldelta amb fortificacions",
+    "witnessDate": 1585,
+    "kind": "mapa territorial",
+    "reviewMethod": "inspecció visual",
+    "reading": "AGS MPD07,063; data 1585 segons catàleg del Ministeri de Cultura. Pictòric, sense escala mètrica parcel·lària; no representa urbanisme neoclàssic de 1780.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N109.jpg"
+  },
+  {
+    "id": "N111",
+    "file": "planimetria ràpita detallat_1913.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
+    "bytes": 4410878,
+    "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
+    "review": "inventariat",
+    "width": 6259,
+    "height": 4394,
+    "exif": {},
+    "title": "Planimetria delterme amb afegits",
+    "witnessDate": "1913-01-05",
+    "kind": "plànol amb capes",
+    "reviewMethod": "full complet i detalls de notes",
+    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
+  },
+  {
+    "id": "WEB-AGS",
+    "title": "Ministeri de Cultura Mapa del delta de l’Ebre amb fortificacions AGS MPD07,063",
+    "url": "https://www.cultura.gob.es/dam/jcr%3A28bf9496-836a-4abe-9eae-b20ea1ffbd93/Catalu-a.pdf",
+    "reading": "Catàleg oficial identifica el mapa amb l’any1585. Consulta31/10/2026; no és data llegida en elcamp de la còpia local."
+  }
+]

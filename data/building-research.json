@@ -3378,7 +3378,7 @@
       "name": "Catorze cases petites del litoral",
       "category": "tipologia",
       "location": {
-        "description": "Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no són catorze cases documentades amb número i solar individual. Ajust del visor (31/10/2026): Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals.",
+        "description": "Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari.",
         "historicalCoordinates": null,
         "georeferencedHistoricalFootprint": null,
         "confidence": "B relacional / C mètrica",
@@ -3462,7 +3462,8 @@
         "N093"
       ],
       "modellingActions": [
-        "Localitzar afrontacions i distingir titularitat abans d’afegir o desplaçar cases."
+        "Conservar les 14 unitats i els estats de linventari de 1794.",
+        "Diferenciar agrupacions litorals de la trama del projecte reial; verificar identitats i afrontacions abans de donar les posicions per mesurades."
       ],
       "currentModelIds": [],
       "relations": [],
@@ -4080,7 +4081,7 @@
       "name": "Cova i horts sota el Roquer",
       "category": "espai habitat",
       "location": {
-        "description": "Raconada entre paret del Roquer i antic espigó, àmbit posterior del carrer del Fossat.",
+        "description": "Emplacament de treball al costat sud del Roquer segons el comentari de Josep: E 296428.711 / N 4499119.484 m, centre del conjunt de tres cavitats. La relacio historica exacta i les seccions continuen pendents de validacio.",
         "historicalCoordinates": null,
         "georeferencedHistoricalFootprint": null,
         "confidence": "B relacional / C mètrica",
@@ -4169,7 +4170,8 @@
       ],
       "images": [],
       "modellingActions": [
-        "No construir una cova de forma precisa sense secció; reservar volum de treball C i horta diferenciada de platja."
+        "Tres galeries laterals cegues, cobertes per una massa continua de roca.",
+        "Revisar tancament, orientacio de cares i normals amb una malla sense cares dobles. Dimensions i separacio C."
       ],
       "currentModelIds": [],
       "relations": [],
@@ -5537,9 +5539,11 @@
       ],
       "images": [],
       "modellingActions": [
-        "Calcar alineació segons afrontacions i relleu; excloure expressamentN110."
+        "Contrastar al??ria i secci? del pared? amb un aixecament; N110 continua excl?s."
       ],
-      "currentModelIds": [],
+      "currentModelIds": [
+        "paredo-poblacio"
+      ],
       "relations": [],
       "unknowns": [
         "Planta històrica georeferenciada amb error d’ajust independent.",
@@ -6273,7 +6277,7 @@
       "name": "Edificis de la Companyia de Canalització de l’Ebre",
       "category": "complex industrial",
       "location": {
-        "description": "Entorn del canal del XIX i resclosa, amb oficines i cases de guarda, diferent dels serveis del canal inicial.",
+        "description": "Les Casotes, actual Museu de la Mar de l’Ebre, a la plaça Agustí Vizcarro. Es conserva el punt marcat per Josep i contrastat amb l’ortofoto 1945–1946; no es desplaça a les coordenades del catàleg aportat.",
         "historicalCoordinates": null,
         "georeferencedHistoricalFootprint": null,
         "confidence": "B relacional / C mètrica",
@@ -6290,24 +6294,42 @@
       },
       "facts": [
         {
-          "text": "N073 mostra casetes delcanal; N107 mostra gran edifici d’arcades de façana i coberta. Són fotografies de color sense data original fixada.",
+          "text": "Oficines i tallers de la Companyia: reconstrucció cap al 1858, amb testimoni de 1857 i obres del conjunt 1852–1859. Onze arcades llargues, tres als laterals i teulada a quatre aigües. Projecte de Jean Lenté, supervisió de Jules Carvallo i execució de Josep Canício Sala. Mides estimades, no mesurades. Comparació manual amb l’estat del museu després de 2013; guardes opcionals en posicions hipotètiques.",
           "references": [
             {
-              "sourceId": "N073",
-              "locator": "fitxer o imatge completa"
+              "sourceId": "CAS-S1",
+              "locator": "història del complex"
             },
             {
-              "sourceId": "N107",
-              "locator": "fitxer o imatge completa"
+              "sourceId": "CAS-PACK",
+              "locator": "configuració i models"
             }
           ]
         },
         {
-          "text": "Elcatàleg de recerca previ situa obres 1852–1859, oficines, magatzem, dues cases deguarda, resclosa i pont giratori. No és equipament del 1800.",
+          "text": "Les Casotes són les oficines i tallers. El moll i el magatzem de mercaderies amb semisoterrani constituïen un altre element; no es reconstrueixen com una prolongació de la mateixa nau.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "canal-complex"
+              "sourceId": "CAS-S1",
+              "locator": "complex duaner"
+            }
+          ]
+        },
+        {
+          "text": "La fotografia de les casetes del canal és un testimoni de comparació sense data original fixada. La fotografia anterior del gran edifici blanc amb cossos laterals no té correspondència verificada amb aquesta nau i s’exclou de la galeria.",
+          "references": [
+            {
+              "sourceId": "N073",
+              "locator": "cases de guarda; fotografia sense data"
+            }
+          ]
+        },
+        {
+          "text": "La planta de 33 × 15,3 m, les alçàries i els petits buits són hipòtesis del paquet, no mesures. Els 900 m² publicats no es converteixen en una planta deduïda.",
+          "references": [
+            {
+              "sourceId": "CAS-PACK",
+              "locator": "problema de les mesures"
             }
           ]
         }
@@ -6317,36 +6339,100 @@
           "id": "companyia-canal-fase-01",
           "witnessDate": "1852/1859",
           "witnessYear": 1852,
-          "label": "Obres delcomplex",
-          "state": "Interval del catàleg previ; confirmar cada subedifici.",
-          "kind": "retrospectiu",
+          "label": "Obres del complex",
+          "state": "Interval documentat del conjunt; no s’hi anticipa la nau acabada el 1852.",
+          "kind": "testimoni",
           "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "canal-complex"
+              "sourceId": "CAS-S1",
+              "locator": "Obres del complex"
             }
           ],
           "automaticTimelineActivation": false
         },
         {
           "id": "companyia-canal-fase-02",
-          "witnessDate": null,
-          "witnessYear": null,
-          "label": "Fotografies modernes",
-          "state": "Comparació de volums existents, no data de construcció.",
-          "kind": "comparació",
+          "witnessDate": "1857",
+          "witnessYear": 1857,
+          "label": "Testimoni de les oficines i tallers",
+          "state": "Es conserva l’activació d’assaig de 1857. El model es titula cap al 1858; la forma exacta i la data d’acabament no estan verificades.",
+          "kind": "testimoni",
           "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
           "references": [
             {
-              "sourceId": "N073",
-              "locator": "fitxer o imatge completa"
-            },
+              "sourceId": "CAS-PACK",
+              "locator": "Testimoni de les oficines i tallers"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "companyia-canal-fase-03",
+          "witnessDate": "1867",
+          "witnessYear": 1867,
+          "label": "Conversió de la concessió al regadiu",
+          "state": "Canvi d’activitat; no implica una reforma de façanes datada ni canvi de geometria.",
+          "kind": "testimoni",
+          "eventDate": "1867",
+          "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+          "references": [
             {
-              "sourceId": "N107",
-              "locator": "fitxer o imatge completa"
+              "sourceId": "CAS-S1",
+              "locator": "Conversió de la concessió al regadiu"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "companyia-canal-fase-04",
+          "witnessDate": "1872",
+          "witnessYear": 1872,
+          "label": "Abandó de la navegació comercial",
+          "state": "Referència del dossier aportat als estudis locals i econòmics; no es fixa una reforma arquitectònica.",
+          "kind": "testimoni",
+          "eventDate": null,
+          "eventDateReason": "Interval o testimoni, sense fixar l’acabament de cada cos.",
+          "references": [
+            {
+              "sourceId": "CAS-PACK",
+              "locator": "Abandó de la navegació comercial"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "companyia-canal-fase-05",
+          "witnessDate": "2013-12-01",
+          "witnessYear": 2013,
+          "label": "Inauguració del museu",
+          "state": "Museu de la Mar de l’Ebre després de la rehabilitació. Fora del selector 1778–1993; estat actual accessible com a comparació manual.",
+          "kind": "testimoni",
+          "eventDate": "2013-12-01",
+          "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+          "references": [
+            {
+              "sourceId": "CAS-S1",
+              "locator": "Inauguració del museu"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "companyia-canal-fase-06",
+          "witnessDate": null,
+          "witnessYear": null,
+          "label": "Cases de guarda · comparació d’assaig",
+          "state": "Dues cases modelades amb posicions locals de conveniència: ±11 m i +45 m. Dimensions i distribució no verificades; no apareixen automàticament amb la nau.",
+          "kind": "comparació",
+          "eventDate": null,
+          "eventDateReason": "Data institucional; no activa automàticament acabats al selector.",
+          "references": [
+            {
+              "sourceId": "CAS-PACK",
+              "locator": "Cases de guarda · comparació d’assaig"
             }
           ],
           "automaticTimelineActivation": false
@@ -6357,19 +6443,23 @@
         "N111"
       ],
       "images": [
-        "N073",
-        "N107"
+        "N073"
       ],
       "modellingActions": [
-        "Crear subcarpetes d’oficines, magatzem i cada casa deguarda quan s’identifiquin els cossos.",
-        "No convertir elcanal projectat de 1852 en conjunt acabat aquell any."
+        "Integrats els models cap al 1858 i actual amb coberta a quatre aigües i arqueria d’onze i tres vanos.",
+        "Mantenir el punt marcat per Josep i verificar les mides amb un aixecament.",
+        "Georeferenciar les cases de guarda abans d’incorporar-les com a edificis històrics fixos.",
+        "Localitzar separadament magatzem semisoterrat, moll, resclosa i pont giratori."
       ],
-      "currentModelIds": [],
+      "currentModelIds": [
+        "casotes-companyia"
+      ],
       "relations": [],
       "unknowns": [
-        "Planta històrica georeferenciada amb error d’ajust independent.",
-        "Alçàries i gruixos mesurats i datació de cada fàbrica.",
-        "Correspondència parcel·lària i persistència entre testimonis."
+        "Dimensions mesurades de la nau i alçàries del segle XIX.",
+        "Data precisa de finalització i programa original de portes i finestres.",
+        "Posició, orientació, separació i distància de les dues cases de guarda.",
+        "Posició històrica del magatzem semisoterrat, moll, resclosa i pont."
       ]
     },
     {
@@ -6394,20 +6484,28 @@
       },
       "facts": [
         {
-          "text": "Elcatàleg anterior diferencia obra/llanterna 1862 i entrada en servei 1864 amb conflicte de mes, i fases tècniques 1920,1929 i 1938.",
+          "text": "Planta quadrada de 13,10 m, terrat pla i torre central segons Cardenal (1875). Obra de 1862; servei des de l’1/11/1864. Llanterna cilíndrica des de 1920 i òptica roja des de 1975. Acabats actuals només en comparació fotogràfica. Posició aproximada de la platja del Far; orientació sense verificar.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "memòria de 1875 i reformes"
+            },
+            {
+              "sourceId": "FAR-S5",
+              "locator": "làmina històrica del paquet aportat"
             }
           ]
         },
         {
-          "text": "N085 mostra dues torres i una grua durant una intervenció moderna, sense datació original; no és l’aspecte del1864 ni una prova de dos fars simultanis al1950.",
+          "text": "Façanes originals groc clar; llanterna octogonal de coure. El model actual té façanes blanques, terrat vermellós i cúpula metàl·lica grisa; no es coneix la data de tots els acabats.",
           "references": [
             {
-              "sourceId": "N085",
-              "locator": "fitxer o imatge completa"
+              "sourceId": "FAR-S1",
+              "locator": "descripció dels acabats"
+            },
+            {
+              "sourceId": "FAR-S2",
+              "locator": "fotografies recents"
             }
           ]
         }
@@ -6417,49 +6515,53 @@
           "id": "far-sant-carles-fase-01",
           "witnessDate": "1862",
           "witnessYear": 1862,
-          "label": "Construcció i llanterna",
-          "state": "Separar obra i entrada en servei.",
-          "kind": "retrospectiu",
-          "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "label": "Obra acabada i llanterna",
+          "state": "Obra rebuda el maig i muntatge de la llanterna acabat el 21/12/1862. Edifici visible, encara sense servei.",
+          "kind": "testimoni",
+          "eventDate": "1862",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "Obra acabada i llanterna"
             }
           ],
           "automaticTimelineActivation": false
         },
         {
           "id": "far-sant-carles-fase-02",
-          "witnessDate": "1864",
+          "witnessDate": "1864-11-01",
           "witnessYear": 1864,
-          "label": "Inici de servei",
-          "state": "Any documentat alcatàleg anterior, mes en conflicte.",
-          "kind": "retrospectiu",
-          "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "label": "Primera llum",
+          "state": "Roja fixa de 6è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.",
+          "kind": "testimoni",
+          "eventDate": "1864-11-01",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "Primera llum"
+            },
+            {
+              "sourceId": "FAR-S3",
+              "locator": "avís nàutic"
             }
           ],
           "automaticTimelineActivation": false
         },
         {
           "id": "far-sant-carles-fase-03",
-          "witnessDate": "1920",
+          "witnessDate": "1920-08-29",
           "witnessYear": 1920,
-          "label": "Canvi de llum",
-          "state": "Ocultacions i acetilè segons catàleg.",
-          "kind": "retrospectiu",
-          "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "label": "Llanterna cilíndrica",
+          "state": "Nova llanterna cilíndrica de 1,80 m amb muntants helicoidals i senyal blanca. Acetilè el 2/9/1920. El model conserva el groc original com a hipòtesi; data del repintat desconeguda.",
+          "kind": "testimoni",
+          "eventDate": "1920-08-29",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "Llanterna cilíndrica"
             }
           ],
           "automaticTimelineActivation": false
@@ -6469,31 +6571,82 @@
           "witnessDate": "1929",
           "witnessYear": 1929,
           "label": "Electrificació",
-          "state": "Variant tècnica pròpia.",
-          "kind": "retrospectiu",
-          "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "state": "Làmpada elèctrica de 100 bugies. La fitxa RABASF associa amb 1929 el mecanisme que el Port posa en servei el 1920; divergència conservada.",
+          "kind": "testimoni",
+          "eventDate": "1929",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "Electrificació"
             }
           ],
           "automaticTimelineActivation": false
         },
         {
           "id": "far-sant-carles-fase-05",
-          "witnessDate": "1938",
-          "witnessYear": 1938,
-          "label": "Represa després dela guerra",
-          "state": "Data de represa a finals d’any alcatàleg.",
-          "kind": "retrospectiu",
-          "eventDate": null,
-          "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+          "witnessDate": "1937-03-17",
+          "witnessYear": 1937,
+          "label": "Apagada durant la guerra",
+          "state": "Apagat del 17/3/1937 a finals de 1938. El selector anual representa 1937 i 1938 sense emissió; la represa es veu a partir de 1939.",
+          "kind": "testimoni",
+          "eventDate": "1937-03-17",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
           "references": [
             {
-              "sourceId": "ANT-HIST",
-              "locator": "lighthouse"
+              "sourceId": "FAR-S1",
+              "locator": "Apagada durant la guerra"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "far-sant-carles-fase-06",
+          "witnessDate": "1975-05-23",
+          "witnessYear": 1975,
+          "label": "Nova òptica roja",
+          "state": "Òptica de tambor de 500 mm i làmpada de 250 W; 4 i 1 ocultacions roges. No data els acabats blancs del model actual.",
+          "kind": "testimoni",
+          "eventDate": "1975-05-23",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+          "references": [
+            {
+              "sourceId": "FAR-S1",
+              "locator": "Nova òptica roja"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "far-sant-carles-fase-07",
+          "witnessDate": "1995-07-02",
+          "witnessYear": 1995,
+          "label": "Equip Balizamar",
+          "state": "Dues làmpades halògenes de 1.000 W amb canviador. Fora del selector, que acaba el 1993.",
+          "kind": "testimoni",
+          "eventDate": "1995-07-02",
+          "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+          "references": [
+            {
+              "sourceId": "FAR-S1",
+              "locator": "Equip Balizamar"
+            }
+          ],
+          "automaticTimelineActivation": false
+        },
+        {
+          "id": "far-sant-carles-fase-08",
+          "witnessDate": null,
+          "witnessYear": null,
+          "label": "Aspecte actual · comparació",
+          "state": "Model fotogràfic aportat: façanes blanques, terrat vermellós i llanterna metàl·lica amb òptica roja. Data de cada acabat desconeguda; activació manual independent de l’any.",
+          "kind": "comparació",
+          "eventDate": null,
+          "eventDateReason": "Data dels acabats recents no fixada.",
+          "references": [
+            {
+              "sourceId": "FAR-S2",
+              "locator": "Aspecte actual · comparació"
             }
           ],
           "automaticTimelineActivation": false
@@ -6503,18 +6656,22 @@
         "N108",
         "N111"
       ],
-      "images": [
-        "N085"
-      ],
+      "images": [],
       "modellingActions": [
-        "Recuperar plànols i dimensions del far històric; excloure la grua i torre substitutòria moderna fins datar-les."
+        "Models de 1864 i actual integrats a partir del codi aportat; llanterna de 1920 adaptada amb òptica blanca fins al 1975.",
+        "Validar la posició exacta de l’edifici i el rumb de la façana; el paquet no els fixa.",
+        "Datar el repintat blanc i els acabats del terrat abans d’activar-los en una fase històrica."
       ],
-      "currentModelIds": [],
+      "currentModelIds": [
+        "far-sant-carles"
+      ],
       "relations": [],
       "unknowns": [
-        "Planta històrica georeferenciada amb error d’ajust independent.",
-        "Alçàries i gruixos mesurats i datació de cada fàbrica.",
-        "Correspondència parcel·lària i persistència entre testimonis."
+        "Posició exacta i orientació geogràfica de la façana.",
+        "Alçada total de cúpula i pinacle i detalls sense cota; no confondre el focus de 6,80 m amb l’alçada total.",
+        "Data del repintat blanc, terrat vermellós i detalls contemporanis.",
+        "Autor del projecte: atribucions discrepants entre les fonts.",
+        "La fotografia de la intervenció anterior mostra una torre alta de tipologia diferent: correspondència amb Punta Senieta no verificada; exclosa com a referència visual del model."
       ]
     },
     {
@@ -7076,6 +7233,141 @@
         "Alçàries i gruixos mesurats i datació de cada fàbrica.",
         "Correspondència parcel·lària i persistència entre testimonis."
       ]
+    },
+    {
+      "id": "torre-moro",
+      "name": "Torre del Moro I / Torre de Magin",
+      "category": "torre de guaita",
+      "location": {
+        "description": "Partida del Codonyol, prop de la N-340. Coordenades de Josep: 40.616905 / 0.574878; EPSG:25831 E 294857.739 / N 4499058.499 m.",
+        "historicalCoordinates": null,
+        "georeferencedHistoricalFootprint": null,
+        "confidence": "B posicio indicada / C geometria",
+        "references": [
+          {
+            "sourceId": "WEB-PDC-MORO",
+            "locator": "fitxa 18383, fotos de 2023 i coordenades aportades per Josep"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Torre de planta rectangular i base atalussada, de paredat i cantoneres de carreus. La fitxa descriu dos matacans, espitlleres i merlets conservats.",
+          "references": [
+            {
+              "sourceId": "WEB-PDC-MORO",
+              "locator": "fitxa 18383, fotos de 2023 i coordenades aportades per Josep"
+            }
+          ]
+        },
+        {
+          "text": "Datacio general XVI-XVII; altres autors proposen un origen XIV-XV. Es representa com a preexistencia de 1778, sense atribuir-li una nova construccio aquell any.",
+          "references": [
+            {
+              "sourceId": "WEB-PDC-MORO",
+              "locator": "fitxa 18383, fotos de 2023 i coordenades aportades per Josep"
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "id": "torre-moro-fase-01",
+          "witnessDate": "2023",
+          "witnessYear": 2023,
+          "label": "Fotografies actuals i atribucio tipologica",
+          "state": "Referencia de forma. No acredita lestat exacte de 1800.",
+          "kind": "testimoni posterior",
+          "eventDate": null,
+          "eventDateReason": "Data de les fotos, no de construccio.",
+          "references": [
+            {
+              "sourceId": "WEB-PDC-MORO",
+              "locator": "fitxa 18383, fotos de 2023 i coordenades aportades per Josep"
+            }
+          ],
+          "automaticTimelineActivation": false
+        }
+      ],
+      "planSources": [],
+      "images": [],
+      "modellingActions": [
+        "Posicio fixa segons les coordenades de Josep. Volum C rectangular, base atalussada i detalls defensius."
+      ],
+      "currentModelIds": [
+        "torre-moro"
+      ],
+      "relations": [],
+      "unknowns": [
+        "Dimensions i alcaria mesurades.",
+        "Orientacio precisa i datacio de les reformes.",
+        "Configuracio exacta de 1800."
+      ]
     }
-  ]
+  ],
+  "externalSources": {
+    "WEB-PDC-MORO": {
+      "id": "WEB-PDC-MORO",
+      "title": "Pobles de Catalunya - Torre del Moro I",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18383",
+      "kind": "fitxa patrimonial i fotografies actuals",
+      "reading": "Consulta 01/11/2026. Identificacio, planta rectangular, base atalussada, matacans, espitlleres i merlets. Dimensions i estat de 1800 desconeguts."
+    },
+    "FAR-S1": {
+      "id": "FAR-S1",
+      "title": "Autoritat Portuària de Tarragona · Cardenal (1875) i història del far",
+      "url": "https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita",
+      "reading": "Memòria de 19/1/1875: dimensions, acabats i primera llum; reformes de 1920, 1929, 1975 i 1995. La capçalera web diu setembre; el relat de Cardenal fixa novembre.",
+      "kind": "text històric i cronologia institucional",
+      "witnessDate": "1875-01-19"
+    },
+    "FAR-S2": {
+      "id": "FAR-S2",
+      "title": "RABASF · Far de Punta Senieta",
+      "url": "https://www.faros-historicos-de-espana.com/faro/faro-de-sant-carles-de-la-rapita",
+      "reading": "Fitxa i fotografies dels acabats recents; no és un aixecament mètric contemporani. Divergència 1920/1929 en la datació de la llanterna.",
+      "kind": "fitxa patrimonial",
+      "witnessDate": null
+    },
+    "FAR-S3": {
+      "id": "FAR-S3",
+      "title": "BOP de Cadis · avís nàutic de 20/9/1864, publicat l’1/10/1864",
+      "url": "https://archivodigital.dipucadiz.es/boletin-oficial-de-la-provincia-de-cadiz/pdf_BOP/1864/1864_10_01.pdf",
+      "reading": "El paquet aportat transcriu l’avís de primera llum de l’1/11/1864. La data concorda amb el relat de Cardenal.",
+      "kind": "avís nàutic contemporani",
+      "witnessDate": "1864-10-01"
+    },
+    "FAR-S5": {
+      "id": "FAR-S5",
+      "title": "Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita",
+      "url": "https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52",
+      "reading": "Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.",
+      "kind": "plànol històric",
+      "witnessDate": null
+    },
+    "CAS-S1": {
+      "id": "CAS-S1",
+      "title": "Museu de la Mar de l’Ebre · història de l’edifici i la Companyia",
+      "url": "https://museumarebre.com/museu/",
+      "kind": "història institucional",
+      "witnessDate": null,
+      "reading": "Identifica les antigues oficines i tallers i els diferencia del magatzem amb semisoterrani; obres de 1852–1859, projecte de Jean Lenté, supervisió de Carvallo i execució de Canício Sala. Museu obert l’1/12/2013. Consulta 2/11/2026."
+    },
+    "CAS-S2": {
+      "id": "CAS-S2",
+      "title": "Pobles de Catalunya · Oficines de la Companyia de Canalització de l’Ebre",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18378",
+      "kind": "fitxa patrimonial i fotografies",
+      "witnessDate": "2023",
+      "reading": "Fotografies recents i fotografia antiga sense data; dues plantes, maó vist, teulada a quatre aigües i cases dels vigilants. Les imatges externes s’enllacen, sense incorporar-ne noves còpies a la galeria pública."
+    },
+    "CAS-PACK": {
+      "id": "CAS-PACK",
+      "title": "Paquet aportat: casotes_rapita_modelos_y_fuentes",
+      "absolutePath": "A:\\Mapa Ràpita\\Edificios Codigo\\casotes_rapita_modelos_y_fuentes\\cronologia-fuentes-y-medidas.md",
+      "kind": "model procedural i dossier de treball",
+      "witnessDate": "2026-11-02",
+      "reading": "Model cap al 1858 i actual, amb guardes opcionals. Planta de 33 × 15,3 m i carena a 8,65 m estimades. Onze arcades llargues i tres laterals; cases de guarda a 45 m i separació de 22 m per conveniència visual, sense georeferenciació."
+    }
+  }
 }

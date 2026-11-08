@@ -1,0 +1,52 @@
+{
+  "entityId": "fonda-vella",
+  "historicalEvidence": {
+    "description": "Prop de l’arenal i del moll, àmbit dels carrers Fonda Vella, Arsenal i Verge de la Ràpita. Límits de 1782: arenal amb sèquia a llevant; mar amb arenal al sud; pescadors amb carrer a ponent; coberts i forn/molí de guix al nord.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.2,4 p.210–211"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "old-inn",
+      "anchor": [
+        296491.3185959745,
+        4499253.784779031
+      ],
+      "footprintUTM": [
+        [
+          296488.9011660655,
+          4499265.193373714
+        ],
+        [
+          296482.3898029763,
+          4499246.2830022015
+        ],
+        [
+          296493.73602588347,
+          4499242.376184348
+        ],
+        [
+          296500.24738897267,
+          4499261.28655586
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
+        "precisionMeters": 15
+      },
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -1,0 +1,17 @@
+{
+  "entityId": "locals-comercials",
+  "historicalEvidence": {
+    "description": "Plaça Major, Sant Francesc, Plaça Vella i entorn de Sant Elm. Noms comercials posteriors no equivalen a edificis nous ni permeten numerar les cases del 1794.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

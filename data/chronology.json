@@ -1,7 +1,7 @@
 {
   "range": [
     1778,
-    1950
+    1993
   ],
   "defaultYear": 1800,
   "mode": "documented-snapshots",
@@ -107,9 +107,63 @@
       "minorTick": true
     },
     {
+      "year": 1804,
+      "label": "Inspecció i Junta de Sanitat",
+      "description": "L’estudi transcriu la inspecció de Soler i documenta l’organització sanitària de 1804. Les 50–60 famílies són una estimació del visitant, no un cens.",
+      "sources": [
+        "XIX18"
+      ],
+      "state": "later-witness",
+      "minorTick": true,
+      "researchEventId": "sanitat-1804"
+    },
+    {
+      "year": 1813,
+      "label": "Carta del port dels Alfacs",
+      "description": "Carta de Bauza, 1813: costa preindustrial. Es conserva la costa d’estudi anterior; sense encaix metric suficient per deduir nous rebliments.",
+      "sources": [
+        "PORT/planol 1813 port alfacs.jpg"
+      ],
+      "state": "later-witness",
+      "minorTick": true
+    },
+    {
+      "year": 1842,
+      "label": "949 habitants de dret",
+      "description": "INE: 949 habitants de dret i 191 llars. La població de fet manca.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1842"
+    },
+    {
+      "year": 1851,
+      "label": "Concessió del canal de navegació",
+      "description": "La llei de 26 de novembre autoritza el canal Amposta–Alfacs i les obres de navegació i reg.",
+      "sources": [
+        "XIX03"
+      ],
+      "state": "authorization-witness",
+      "minorTick": true,
+      "researchEventId": "concessio-1851"
+    },
+    {
+      "year": 1852,
+      "label": "Obres del complex de la Companyia",
+      "description": "El museu situa les obres entre 1852 i 1859; el primer testimoni representat de Les Casotes es manté el 1857.",
+      "sources": [
+        "XIX04"
+      ],
+      "state": "later-witness",
+      "minorTick": true,
+      "researchEventId": "complex-1852-1859"
+    },
+    {
       "year": 1857,
-      "label": "Les Casotes · magatzem del canal",
-      "description": "Edifici neoclàssic de Jules Carvallo, antic magatzem de mercaderies del canal de navegació d’Amposta a la Ràpita. Contorn en planta d’OpenStreetMap; alçària i façana C. La identificació amb el gran edifici d’arcades de N107 és probable, no demostrada. Oficines, cases de guarda i resclosa de la Companyia no tenen posició.",
+      "label": "Les Casotes · oficines i tallers de la Companyia",
+      "description": "Testimoni de 1857 dins les obres de 1852–1859. Reconstrucció cap al 1858 amb dues plantes, onze arcades llargues, tres als laterals i teulada a quatre aigües. Dimensions estimades de 33 × 15,3 m. Es conserva la posició marcada per Josep; l’acabament precís és desconegut. Projecte de Jean Lenté, supervisat per Jules Carvallo.",
       "sources": [
         "Museu de la Mar de l’Ebre (surtdecasa.cat)",
         "OpenStreetMap · contorn de l’edifici",
@@ -119,9 +173,43 @@
       "minorTick": false
     },
     {
+      "year": 1858,
+      "label": "Inici de navegació segons els regants",
+      "description": "La Comunitat situa l’inici de navegació fluvial el 1858. És una fita diferent de la inauguració del canal de 1857.",
+      "sources": [
+        "XIX05",
+        "XIX06"
+      ],
+      "state": "use-witness",
+      "minorTick": true,
+      "researchEventId": "navegacio-1858"
+    },
+    {
+      "year": 1860,
+      "label": "2.429 habitants de fet",
+      "description": "INE: 2.429 habitants de fet i 528 llars.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1860"
+    },
+    {
+      "year": 1861,
+      "label": "Plànol dels terrenys de l’hemidelta dret",
+      "description": "L’AHT identifica un plànol de 1861 amb conreus, erms, llacunes i camins. Cal obtenir-ne la imatge completa.",
+      "sources": [
+        "XIX10"
+      ],
+      "state": "catalogue-witness",
+      "minorTick": true,
+      "researchEventId": "gauran-1861"
+    },
+    {
       "year": 1862,
       "label": "Far de Sant Carles · obra i llanterna",
-      "description": "Obra i llanterna del far de la punta de la Senieta. Posició aproximada a partir de les coordenades de la platja del Far (Diputació de Tarragona), unes desenes o centenars de metres; volum C. L’entrada en servei és de 1864.",
+      "description": "Far de Punta Senieta acabat el 1862, amb llanterna instal·lada el desembre. Planta de 13,10 m, terrat pla i torre central segons Cardenal (1875). Encara sense servei. Posició i orientació d’assaig.",
       "sources": [
         "Autoritat Portuària de Tarragona",
         "Diputació de Tarragona · Platja del Far",
@@ -133,12 +221,122 @@
     {
       "year": 1864,
       "label": "Far de Sant Carles en servei",
-      "description": "Any d’inici de servei documentat al catàleg previ; el mes continua en conflicte. No canvia la geometria.",
+      "description": "Primera llum l’1 de novembre de 1864: roja fixa, 6 milles i focus a 6,80 m del terreny. Data del relat de Cardenal i de l’avís nàutic de 20/9/1864; la capçalera web del Port discrepa amb setembre.",
       "sources": [
         "history-catalog.json · lighthouse"
       ],
       "state": "later-witness",
       "minorTick": true
+    },
+    {
+      "year": 1867,
+      "label": "Concessió reorientada al reg",
+      "description": "El Museu data el canvi de concessió el 1867. No s’utilitza per negar un ús agrícola anterior.",
+      "sources": [
+        "XIX04"
+      ],
+      "state": "authorization-witness",
+      "minorTick": true,
+      "researchEventId": "concessio-reg-1867"
+    },
+    {
+      "year": 1868,
+      "label": "Croquis acotat d’Església Nova",
+      "description": "La fitxa PARES acredita el croquis de 1868. La imatge no està accessible; no s’hi extreuen noves dimensions.",
+      "sources": [
+        "XIX09"
+      ],
+      "state": "catalogue-witness",
+      "minorTick": true,
+      "researchEventId": "croquis-1868"
+    },
+    {
+      "year": 1870,
+      "label": "Còpia de l’eixample de 1867",
+      "description": "José Míes copia el plànol el 2 de març de 1870. Les 197 parcel·les són solars d’un projecte.",
+      "sources": [
+        "XIX08"
+      ],
+      "state": "project-witness",
+      "minorTick": true,
+      "researchEventId": "eixample-1870"
+    },
+    {
+      "year": 1877,
+      "label": "3.164 de fet · 3.119 de dret",
+      "description": "INE: 3.164 habitants de fet, 3.119 de dret i 726 llars.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1877"
+    },
+    {
+      "year": 1878,
+      "label": "Càrrega de sal autoritzada",
+      "description": "L’ordre habilita el Fondal de les Estaques i obliga a construir una caseta. Emplaçament i execució de la caseta pendents.",
+      "sources": [
+        "XIX11"
+      ],
+      "state": "authorization-witness",
+      "minorTick": true,
+      "researchEventId": "sal-1878"
+    },
+    {
+      "year": 1880,
+      "label": "Llei del ferrocarril fins a la Ràpita",
+      "description": "Autorització legal de la línia Val de Zafán–Alcañiz–Ràpita; no prova que hi arribessin trens.",
+      "sources": [
+        "XIX12"
+      ],
+      "state": "project-witness",
+      "minorTick": true,
+      "researchEventId": "ferrocarril-1880"
+    },
+    {
+      "year": 1885,
+      "label": "Salines establertes i moll esmentat",
+      "description": "La disposició tracta uns terrenys ja ocupats i un moll construït sense autorització. Falten planta i delimitació.",
+      "sources": [
+        "XIX14"
+      ],
+      "state": "later-witness",
+      "minorTick": true,
+      "researchEventId": "salines-1885"
+    },
+    {
+      "year": 1887,
+      "label": "3.132 de fet · 3.045 de dret",
+      "description": "INE: 3.132 habitants de fet, 3.045 de dret i 769 llars.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1887"
+    },
+    {
+      "year": 1897,
+      "label": "3.569 de fet · 3.582 de dret",
+      "description": "INE: 3.569 habitants de fet, 3.582 de dret i 765 llars.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1897"
+    },
+    {
+      "year": 1900,
+      "label": "3.901 de fet · 3.843 de dret",
+      "description": "INE: 3.901 habitants de fet, 3.843 de dret i 923 llars. El municipi no equival al nucli edificat.",
+      "sources": [
+        "XIX02"
+      ],
+      "state": "census-witness",
+      "minorTick": true,
+      "researchEventId": "cens-1900"
     },
     {
       "year": 1913,
@@ -153,13 +351,73 @@
       "minorTick": false
     },
     {
+      "year": 1945,
+      "label": "Port de 1945–1946",
+      "description": "Primer testimoni aeri aportat: dic de ponent i mollet. Costa i terrenys guanyats al mar digitalitzats aproximadament.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1946,
+      "label": "Testimoni 1945–1946",
+      "description": "Mateixa fase del vol 1945–1946; no es pressuposa un canvi anual.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
+      "minorTick": true
+    },
+    {
       "year": 1950,
-      "label": "Fi de l’horitzó d’estudi",
-      "description": "Darrer any de l’atles. Només hi apareixen els edificis datats; la resta de l’escena es manté com el 1800 i no és una reconstrucció de 1801–1950.",
+      "label": "Context de postguerra",
+      "description": "Any de consulta: el port conserva l’últim testimoni disponible. La resta de la vila manté context anterior sense una reconstrucció integral del 1950.",
       "sources": [
         "history-catalog.json"
       ],
       "state": "later-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1957,
+      "label": "Port comercial i pesquer",
+      "description": "Ortofoto de 1957: consolidacio del dic i del mollet. La memoria situa el dic definitiu el 1953.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1983,
+      "label": "Port: testimoni 1983–1989",
+      "description": "Captura de la capa ICGC 1983–1989: darsenes, moll de pesca i contradic. La data exacta del vol no consta a la captura.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1990,
+      "label": "Ampliacions dels anys vuitanta",
+      "description": "Ortofoto oficial ICGC de 1990 consultada en EPSG:25831. Es distingeix de la captura aportada 1990.png, que mostra realment 1993.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
+      "minorTick": false
+    },
+    {
+      "year": 1993,
+      "label": "Port: ortofoto de 1993",
+      "description": "Any real de la capa visible a 1990.png: noves esplanades, pantalan i prolongacions. Formes i cotes aproximades C.",
+      "sources": [
+        "PORT / ICGC; Marti-Ramis-MPIA, pp. 38-39"
+      ],
+      "state": "harbour-witness",
       "minorTick": false
     }
   ],
@@ -510,12 +768,24 @@
         ],
         "dateMeaning": "Testimoni de plantació de 60 arbres; distribució i supervivència individual desconegudes"
       }
+    ],
+    "torre-moro": [
+      {
+        "fromYear": 1778,
+        "variant": "preexisting-tower-study",
+        "visible": true,
+        "sourceRefs": [
+          "PDC-MORO"
+        ],
+        "certainty": "C",
+        "dateMeaning": "Preexistencia de la torre datada generalment XVI-XVII; no data de construccio de 1778. Alcat de 1800 interpretat."
+      }
     ]
   },
   "targetRange": [
     1778,
-    1950
+    1993
   ],
-  "priority": "Completar carrers, cases i edificis del 1800 abans d’ampliar els models del XIX/XX",
+  "priority": "Fases del port fins al 1993; context urba anterior sense reconstruccio integral del segle XX.",
   "futureCatalogue": "history-catalog.json"
 }

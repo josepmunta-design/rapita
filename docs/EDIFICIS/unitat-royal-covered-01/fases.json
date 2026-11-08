@@ -1,0 +1,30 @@
+{
+  "entityId": "unitat-royal-covered-01",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "unitat-royal-covered-01-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Coberta acabada i interiors pendents",
+      "state": "Obertures sense fusteries; no emblanquinar com a casa acabada.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.2"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

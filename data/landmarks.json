@@ -1,12 +1,114 @@
 {
-  "version":1,
-  "sources":[
-    {"id":"H01","title":"Borràs Matamoros, tesi, pp. 161–162 i 229–231","file":"tesi doctoral.pdf","use":"Guardiola esmentada entre els elements existents el 1780. Glorieta: rotonda, tres arcs de maó a migdia, cos rectangular annex i cúpula no construïda. La descripció de Jaubert es refereix a una visita de 1816: no és un inventari de 1800."},
-    {"id":"H02","title":"Reverté, inventari de les obres de 1794","use":"La Glorieta no apareix esmentada expressament. No se li assigna una data exacta d'acabament a partir d'aquest inventari."},
-    {"id":"H12","title":"Turisme La Ràpita · Mirador de la Guardiola","url":"https://turismelarapita.cat/es/interes/mirador-de-la-guardiola/","use":"Torre documentada des de 1483 i artillada el 1575; planta quadrada, base atalussada i paredat. Els 113 m es refereixen al turó, no a l'alçària de la torre."}
+  "version": 1,
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Borràs Matamoros, tesi, pp. 161–162 i 229–231",
+      "file": "tesi doctoral.pdf",
+      "use": "Guardiola esmentada entre els elements existents el 1780. Glorieta: rotonda, tres arcs de maó a migdia, cos rectangular annex i cúpula no construïda. La descripció de Jaubert es refereix a una visita de 1816: no és un inventari de 1800."
+    },
+    {
+      "id": "H02",
+      "title": "Reverté, inventari de les obres de 1794",
+      "use": "La Glorieta no apareix esmentada expressament. No se li assigna una data exacta d'acabament a partir d'aquest inventari."
+    },
+    {
+      "id": "H12",
+      "title": "Turisme La Ràpita · Mirador de la Guardiola",
+      "url": "https://turismelarapita.cat/es/interes/mirador-de-la-guardiola/",
+      "use": "Torre documentada des de 1483 i artillada el 1575; planta quadrada, base atalussada i paredat. Els 113 m es refereixen al turó, no a l'alçària de la torre."
+    },
+    {
+      "id": "PDC-MORO",
+      "title": "Pobles de Catalunya: Torre del Moro I / Torre de Magin",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18383",
+      "use": "Fitxa consultada 01/11/2026 i fotos aportades per Josep: planta rectangular, base atalussada, cantoneres de carreus, dos matacans i merlets. Datacio general XVI-XVII, amb propostes anteriors. No es un aixecament de 1800."
+    }
   ],
-  "sites":[
-    {"id":"glorieta","name":"La Glorieta · la Capelleta","kind":"pavilion","anchor":{"easting":295915.7,"northing":4499527.6},"frontAzimuthDegrees":180,"radius":4.2,"annexWidth":5.4,"annexDepth":4,"wallHeight":4.2,"wallThickness":0.55,"focusRadius":18,"state":"Pavelló inacabat, amb tres arcs i annex; sense cúpula","evidence":"H01, pp. 229–231: rotonda amb tres arcs de maó a la cara sud, columnes i cos rectangular al costat oposat. Cúpula prevista però no executada.","limits":"Posició aproximada del monument actual. Radi, alçària, gruixos, proporcions i orientació exacta C. Es mostra el 1800 com a hipòtesi retrospectiva del projecte del XVIII, no com una data de construcció documentada. La visita de Jaubert és de 1816.","geometryConfidence":"C","historicalFootprint":null,"historicalHeight":null,"constructionYear":null,"state1800":null,"domeConstructed":false},
-    {"id":"guardiola","name":"Torre de la Guardiola","kind":"watchtower","anchor":{"easting":295807.1,"northing":4499774},"frontAzimuthDegrees":110,"width":5.8,"depth":5.8,"baseWidth":6.8,"batteredHeight":1.8,"wallHeight":6.8,"wallThickness":0.65,"focusRadius":20,"state":"Torre de guaita: base atalussada i alçat d'estudi sense coronament modern","evidence":"H01, pp. 161–162, la situa entre els elements de 1780. La fitxa municipal descriu planta quadrada, base atalussada i paredat; antecedents de 1483 i 1575.","limits":"Les mesures i l'alçat el 1800 són C. No es copien el mirador, la imatge religiosa, els merlets, les escales ni les reformes contemporànies. El coronament històric no s'ha restituït. La cota del turó no és l'alçària de la torre.","geometryConfidence":"C","historicalFootprint":null,"historicalHeight":null,"constructionYear":null,"state1800":null,"modernCrown":false}
+  "sites": [
+    {
+      "id": "glorieta",
+      "name": "La Glorieta · la Capelleta",
+      "kind": "pavilion",
+      "anchor": {
+        "easting": 295915.7,
+        "northing": 4499527.6
+      },
+      "frontAzimuthDegrees": 180,
+      "radius": 4.2,
+      "annexWidth": 5.4,
+      "annexDepth": 4,
+      "wallHeight": 4.2,
+      "wallThickness": 0.55,
+      "focusRadius": 18,
+      "state": "Pavelló inacabat, amb tres arcs i annex; sense cúpula",
+      "evidence": "H01, pp. 229–231: rotonda amb tres arcs de maó a la cara sud, columnes i cos rectangular al costat oposat. Cúpula prevista però no executada.",
+      "limits": "Posició aproximada del monument actual. Radi, alçària, gruixos, proporcions i orientació exacta C. Es mostra el 1800 com a hipòtesi retrospectiva del projecte del XVIII, no com una data de construcció documentada. La visita de Jaubert és de 1816.",
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "constructionYear": null,
+      "state1800": null,
+      "domeConstructed": false
+    },
+    {
+      "id": "guardiola",
+      "name": "Torre de la Guardiola",
+      "kind": "watchtower",
+      "anchor": {
+        "easting": 295807.1,
+        "northing": 4499774
+      },
+      "frontAzimuthDegrees": 110,
+      "width": 5.8,
+      "depth": 5.8,
+      "baseWidth": 6.8,
+      "batteredHeight": 1.8,
+      "wallHeight": 6.8,
+      "wallThickness": 0.65,
+      "focusRadius": 20,
+      "state": "Torre de guaita: base atalussada i alçat d'estudi sense coronament modern",
+      "evidence": "H01, pp. 161–162, la situa entre els elements de 1780. La fitxa municipal descriu planta quadrada, base atalussada i paredat; antecedents de 1483 i 1575.",
+      "limits": "Les mesures i l'alçat el 1800 són C. No es copien el mirador, la imatge religiosa, els merlets, les escales ni les reformes contemporànies. El coronament històric no s'ha restituït. La cota del turó no és l'alçària de la torre.",
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "constructionYear": null,
+      "state1800": null,
+      "modernCrown": false
+    },
+    {
+      "id": "torre-moro",
+      "name": "Torre del Moro I / Torre de Magin",
+      "kind": "watchtower",
+      "anchor": {
+        "easting": 294857.7389860111,
+        "northing": 4499058.499279343
+      },
+      "geographicPosition": {
+        "latitude": 40.616905,
+        "longitude": 0.574878,
+        "crs": "EPSG:4326",
+        "source": "Coordenades aportades per Josep, transformades a EPSG:25831"
+      },
+      "frontAzimuthDegrees": 130,
+      "width": 6.5,
+      "depth": 5.8,
+      "baseWidth": 7.2,
+      "baseDepth": 6.5,
+      "batteredHeight": 2.0,
+      "wallHeight": 10.6,
+      "wallThickness": 0.65,
+      "focusRadius": 24,
+      "state": "Torre rectangular amb base atalussada, espitlleres, matacans i merlets / estudi C",
+      "evidence": "Pobles de Catalunya la situa al Codonyol, prop de la N-340, i la data als segles XVI-XVII, amb possibles antecedents XIV-XV. Fotografia actual: maconeria, cantoneres de carreus, dos matacans i merlets.",
+      "limits": "Coordenades indicades per Josep. Amplades, alcaria, orientacio de treball i aspecte de 1800 C. No sinclouen la casa, el tancament ni les finestres modernes. Les fotos de 2023 no demostren lestat exacte del coronament de 1800.",
+      "geometryConfidence": "C",
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "constructionYear": null,
+      "state1800": null,
+      "crownStudy": true
+    }
   ]
 }

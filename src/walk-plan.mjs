@@ -1,11 +1,12 @@
 /** Exterior walking: a circular footprint, swept short steps, no traversal of NoData/water. */
 import {landscapeSample} from './littoral-plan.mjs';
 import {urbanGround} from './urban-plan.mjs';
+import {nearestRoute} from './littoral-plan.mjs';
 export const walkDistance=(dt,speed=6,fast=false)=>Math.max(0,Math.min(dt,.25))*speed*(fast?2:1);
 export function walkingSurface(e,n,sample,urban,littoral,{interpreted=true,canal=true,bridge=true,port=true}={}){
  if(interpreted&&canal&&port){
-  if(Math.abs(e-296516)<=42&&Math.abs(n-4499184)<=2.1)return 1.3;
-  if(Math.abs(e-296574)<=2.1&&Math.abs(n-4499247)<=34.5)return 1.25;
+  if(littoral.portWorks){if(littoral.portWorks.breakwaters.some(line=>nearestRoute(e,n,line).distance<=littoral.portWorks.width/2-.2))return littoral.portWorks.top;}
+  else{if(Math.abs(e-296516)<=42&&Math.abs(n-4499184)<=2.1)return 1.3;if(Math.abs(e-296574)<=2.1&&Math.abs(n-4499247)<=34.5)return 1.25;}
  }
  const raw=sample(e,n);if(raw===null)return null;if(!interpreted)return raw;
  if(canal&&bridge){const s=urban.sites.find(s=>s.kind==='bridge'),r=urban.frame.alongAzimuthDegrees*Math.PI/180,x=e-s.anchor[0],y=n-s.anchor[1],across=x*Math.cos(r)-y*Math.sin(r),along=x*Math.sin(r)+y*Math.cos(r);if(Math.abs(across)<s.width/2-.5&&Math.abs(along)<=s.depth/2)return s.technicalBaseElevation+.6;}

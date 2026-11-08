@@ -1,0 +1,29 @@
+{
+  "entityId": "forn-roquer",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "forn-roquer-fase-01",
+      "witnessDate": "1780",
+      "witnessYear": 1780,
+      "label": "Forn auxiliar del primer model",
+      "state": "Obres auxiliars de 1780 documentades a la lectura anterior; posició i geometria individuals C.",
+      "kind": "testimoni de revisió anterior",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "ANT-LIT",
+          "locator": "fase1779–1781"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "entityId": "tinglado",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "tinglado-fase-01",
+      "witnessDate": "1785/1786",
+      "witnessYear": 1785,
+      "label": "Obres descrites en informe",
+      "state": "Font de novembre 1785–juliol 1786 citada per a programa i ubicació.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "nota 78 p.215"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "interval"
+    },
+    {
+      "id": "tinglado-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Dany i desmuntatge",
+      "state": "No assignar automàticament a la tempesta de 1795; recuperar materials segons document.",
+      "kind": "interpretació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.215"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    },
+    {
+      "id": "tinglado-fase-03",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Annex a la plaça coberta",
+      "state": "El text en conserva la menció sense resoldre totes les fases d’obra.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.9"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

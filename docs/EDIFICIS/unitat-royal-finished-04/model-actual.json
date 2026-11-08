@@ -1,0 +1,59 @@
+{
+  "entityId": "unitat-royal-finished-04",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/housing.json",
+      "data": {
+        "id": "royal-finished-04",
+        "group": "royal-finished",
+        "kind": "large",
+        "anchor": {
+          "easting": 296376.4066512371,
+          "northing": 4499414.664591153
+        },
+        "across": -28.5,
+        "along": 43,
+        "frontAzimuthDegrees": 109,
+        "width": 5,
+        "depth": 10.4,
+        "wallHeight": 7.8,
+        "roofRise": 1.8,
+        "wallThickness": 0.42,
+        "originalHouseNumber": null,
+        "state1800": null,
+        "individualPositionConfidence": "C",
+        "geometryConfidence": "C",
+        "state1794": "finished",
+        "layoutBasis": "group-location-inference",
+        "terrace": true,
+        "footprintUTM": [
+          [
+            296380.5094274441,
+            4499410.607840311
+          ],
+          [
+            296382.13726821635,
+            4499415.335433189
+          ],
+          [
+            296372.30387503013,
+            4499418.7213419955
+          ],
+          [
+            296370.67603425786,
+            4499413.9937491175
+          ]
+        ],
+        "terrain": {
+          "minimum": 8.700599165422668,
+          "maximum": 9.155734826079518,
+          "technicalBaseElevation": 9.235734826079518,
+          "historicalElevation": null
+        }
+      }
+    }
+  ]
+}

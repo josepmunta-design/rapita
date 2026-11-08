@@ -1,0 +1,94 @@
+{
+  "entityId": "capella-convent",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "capella-1748",
+        "name": "Capella de les monges Santjoanistes",
+        "kind": "stonehouse",
+        "fromYear": 1778,
+        "utmAnchor": [
+          296375.7488379496,
+          4499230.047844276
+        ],
+        "alongAzimuthDegrees": 0,
+        "width": 3.641499391756952,
+        "depth": 4.7906176801770926,
+        "height": 5.5,
+        "evidence": "Plànol de 1748, C: Capella de les monges Santjoanistes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "planLetter": "C",
+        "planPixels": [
+          [
+            1095,
+            721
+          ],
+          [
+            1128,
+            710
+          ],
+          [
+            1144,
+            754
+          ],
+          [
+            1110,
+            766
+          ]
+        ],
+        "polygonUTM": [
+          [
+            296377.51386939554,
+            4499227.6508654235
+          ],
+          [
+            296374.0007497635,
+            4499227.685512945
+          ],
+          [
+            296373.9196166238,
+            4499232.413515632
+          ],
+          [
+            296377.56111601554,
+            4499232.441483104
+          ]
+        ],
+        "anchor": [
+          296375.7488379496,
+          4499230.047844276
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.438320281832082,
+        "footprintUTM": [
+          [
+            296377.51386939554,
+            4499227.6508654235
+          ],
+          [
+            296374.0007497635,
+            4499227.685512945
+          ],
+          [
+            296373.9196166238,
+            4499232.413515632
+          ],
+          [
+            296377.56111601554,
+            4499232.441483104
+          ]
+        ]
+      }
+    }
+  ]
+}

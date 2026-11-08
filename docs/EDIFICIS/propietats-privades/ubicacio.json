@@ -1,0 +1,17 @@
+{
+  "entityId": "propietats-privades",
+  "historicalEvidence": {
+    "description": "Recinte conventual, entorn de plaça i església i part de mar; correspondència cadastral incompleta.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.5"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

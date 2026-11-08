@@ -5,7 +5,9 @@
       "id": "font-burga",
       "name": "Font de Burga",
       "kind": "font",
-      "modelIds": ["font-burga"],
+      "modelIds": [
+        "font-burga"
+      ],
       "parent": null,
       "placement": "Prop de la masia de Mataredona, al barranc que baixa cap a l'est, a la serra del Montsià. Posició llegida al full topogràfic de 1913 (N111, 1:25.000): uns 640 m a l'est i 120 m al nord de la masia. L'escala del full s'ha calibrat amb la Guardiola i el far de Sant Carles (≈ 8,1 m per píxel de la reproducció), amb una precisió d'unes desenes de metres.",
       "certainty": "C posició (±60 m) / D forma i dimensions",
@@ -16,24 +18,98 @@
         "Cap font descriu l'aspecte de la font: la pica de pedra amb mur de fons del visor és una peça d'assaig."
       ],
       "phases": [
-        {"label": "Context cartogràfic", "date": "1913-01-05", "year": 1913, "state": "Font en blau amb rètol, al costat de la masia; sense descripció de l'obra.", "kind": "testimoni", "refs": ["N111", "N108"], "precision": "dia", "outside": false}
+        {
+          "label": "Context cartogràfic",
+          "date": "1913-01-05",
+          "year": 1913,
+          "state": "Font en blau amb rètol, al costat de la masia; sense descripció de l'obra.",
+          "kind": "testimoni",
+          "refs": [
+            "N111",
+            "N108"
+          ],
+          "precision": "dia",
+          "outside": false
+        }
       ],
       "todo": [
-        {"done": false, "text": "Cercar una descripció o fotografia de la font abans de fixar-ne la forma."},
-        {"done": false, "text": "Contrastar la posició amb un punt independent (la masia, el barranc o la cota)."}
+        {
+          "done": false,
+          "text": "Cercar una descripció o fotografia de la font abans de fixar-ne la forma."
+        },
+        {
+          "done": false,
+          "text": "Contrastar la posició amb un punt independent (la masia, el barranc o la cota)."
+        }
       ],
       "unknown": [
         "Forma, dimensions i materials de la font.",
         "Data de la construcció o de la captació de l'aigua.",
         "Relació d'ús amb la masia de Mataredona."
       ],
-      "related": [{"id": "mataredona", "name": "Mas de Mataredona"}],
-      "sourceIds": ["N111", "N108"],
+      "related": [
+        {
+          "id": "mataredona",
+          "name": "Mas de Mataredona"
+        }
+      ],
+      "sourceIds": [
+        "N111",
+        "N108"
+      ],
       "sources": [
-        {"id": "N111", "title": "Planimetria del terme amb afegits", "year": 1913, "kind": "plànol", "reading": "Full 141.1 de l'Instituto Geográfico y Estadístico, 1:25.000, base 5/1/1913. Hi ha afegits posteriors: no es fa servir tot el vermell com si fos 1913."},
-        {"id": "N108", "title": "Full topogràfic del terme", "year": 1912, "kind": "plànol", "reading": "Full 141, signatura 30/12/1912 i comprovació 8/1/1913. Corbes i punts del treball topogràfic, no MDT del 1800."}
+        {
+          "id": "N111",
+          "title": "Planimetria del terme amb afegits",
+          "year": 1913,
+          "kind": "plànol",
+          "reading": "Full 141.1 de l'Instituto Geográfico y Estadístico, 1:25.000, base 5/1/1913. Hi ha afegits posteriors: no es fa servir tot el vermell com si fos 1913."
+        },
+        {
+          "id": "N108",
+          "title": "Full topogràfic del terme",
+          "year": 1912,
+          "kind": "plànol",
+          "reading": "Full 141, signatura 30/12/1912 i comprovació 8/1/1913. Corbes i punts del treball topogràfic, no MDT del 1800."
+        }
       ],
       "note": ""
+    },
+    {
+      "id": "hort-monges",
+      "name": "Horts de les Monges",
+      "kind": "hort",
+      "modelIds": [
+        "hort-monges"
+      ],
+      "parent": null,
+      "placement": "Entre el recinte de les monges i la dàrsena gran, al sud de Fonda Vella. Recinte traçat sobre N112 il·l.4, amb ajust relacional C.",
+      "certainty": "C · posició i mètrica d’assaig",
+      "placementRefs": "N112 il·l.4 · núm. Horts de les monges",
+      "description": [
+        "Recinte irregular entre el Roquer i el port de 1800. La forma segueix el croquis aportat, sense convertir-lo en un aixecament mètric."
+      ],
+      "phases": [],
+      "todo": [],
+      "unknown": [
+        "Límits i cultius individuals de 1800."
+      ],
+      "related": [
+        {
+          "id": "fonda-vella",
+          "name": "Fonda Vella"
+        }
+      ],
+      "sourceIds": [],
+      "sources": [
+        {
+          "id": "N112",
+          "title": "Pilar Reverté, Recerca 20 · il·l.4",
+          "year": 2024,
+          "kind": "croquis interpretatiu",
+          "reading": "Base relacional per al conjunt, no plànol original del 1800."
+        }
+      ]
     }
   ]
 }

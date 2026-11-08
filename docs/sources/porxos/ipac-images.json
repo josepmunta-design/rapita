@@ -1,0 +1,62 @@
+[
+  {
+    "id": 25833,
+    "titol": "PLAÇA CARLES III",
+    "autor": "Museu del Montsià",
+    "path": "https://fitxersssl.cultura.gencat.cat/Dades_nucli_p/Arquit_imatges/fotografies/006415003.JPG",
+    "height": 3400,
+    "width": 5093,
+    "peu": "Vista exterior dels porxos.",
+    "mes": null,
+    "any": 2009,
+    "principal": 0,
+    "localFile": "ipac-1.jpg",
+    "sha256": "370f00086c2601eb814fd393145852c2608e0901c466edd50310d2d06d60d092",
+    "bytes": 960808
+  },
+  {
+    "id": 25832,
+    "titol": "PLAÇA CARLES III",
+    "autor": "Museu del Montsià",
+    "path": "https://fitxersssl.cultura.gencat.cat/Dades_nucli_p/Arquit_imatges/fotografies/006415002.JPG",
+    "height": 3333,
+    "width": 5080,
+    "peu": "Vista interior dels porxos.",
+    "mes": null,
+    "any": 2009,
+    "principal": 0,
+    "localFile": "ipac-2.jpg",
+    "sha256": "40ec5105a086f77707ae5a79b359a6013f640cf7cd6debfb8d8af8d5affee6e7",
+    "bytes": 789068
+  },
+  {
+    "id": 25831,
+    "titol": "PLAÇA CARLES III",
+    "autor": "Pere Rams i Josep M. Pérez",
+    "path": "https://fitxersssl.cultura.gencat.cat/Dades_nucli_p/Arquit_imatges/fotografies/006415001.JPG",
+    "height": 2272,
+    "width": 1704,
+    "peu": "Vista de la plaça.",
+    "mes": null,
+    "any": 2008,
+    "principal": 0,
+    "localFile": "ipac-3.jpg",
+    "sha256": "46646d572137728d4e8c513502c630fd976b9e0f77e297cb4c0ed2460d96ab14",
+    "bytes": 1010618
+  },
+  {
+    "id": 48670,
+    "titol": "PLAÇA CARLES III",
+    "autor": "J.Contijoch",
+    "path": "https://fitxersssl.cultura.gencat.cat/Dades_nucli_p/Arquit_imatges/fotografies/006415004.JPG",
+    "height": 1088,
+    "width": 1538,
+    "peu": "Vista general de la plaça. ",
+    "mes": null,
+    "any": 1996,
+    "principal": 0,
+    "localFile": "ipac-4.jpg",
+    "sha256": "82ee35406081dd88015bd65e9e65c4ddf03b2beb7908cb496487ff43297c0c12",
+    "bytes": 1366856
+  }
+]

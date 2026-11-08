@@ -1,0 +1,404 @@
+{
+  "entities": 123,
+  "main": 66,
+  "individualStudyBodies": 57,
+  "phaseRecords": 292,
+  "sourceFiles": 113,
+  "allReferencesResolved": true,
+  "automaticTimelineActivations": 0,
+  "modelsWithoutDedicatedDossier": [
+    "font-burga"
+  ],
+  "currentModelsLinked": {
+    "esglesia_nova": [
+      "esglesia-nova"
+    ],
+    "sant-elm": [
+      "sant-elm"
+    ],
+    "capella-1748": [
+      "capella-convent"
+    ],
+    "hostal-1748": [
+      "convent-masoveria"
+    ],
+    "corral-1748-1": [
+      "convent-masoveria"
+    ],
+    "corral-1748-2": [
+      "convent-masoveria"
+    ],
+    "corral-1748-3": [
+      "convent-masoveria"
+    ],
+    "mur-roquer-1748": [
+      "convent-masoveria"
+    ],
+    "mur-nord-1748": [
+      "convent-masoveria"
+    ],
+    "tower": [
+      "torre-rapita"
+    ],
+    "project-1748-tower": [
+      "torre-rapita"
+    ],
+    "battery": [
+      "bateria-roquer"
+    ],
+    "muralla-meseta-1748": [
+      "bateria-roquer"
+    ],
+    "project-1748-battery": [
+      "bateria-roquer"
+    ],
+    "project-1748-powder": [
+      "bateria-roquer"
+    ],
+    "project-1748-guard": [
+      "bateria-roquer"
+    ],
+    "project-1748-officer": [
+      "bateria-roquer"
+    ],
+    "project-1748-governor": [
+      "bateria-roquer"
+    ],
+    "guardiola": [
+      "guardiola"
+    ],
+    "old-customs": [
+      "duana-vella"
+    ],
+    "sanitat-antiga": [
+      "sanitat-antiga"
+    ],
+    "health": [
+      "sanitat-moll"
+    ],
+    "guardes-rendes-1": [
+      "guardes-rendes"
+    ],
+    "guardes-rendes-2": [
+      "guardes-rendes"
+    ],
+    "casa-administrador": [
+      "administrador-rendes"
+    ],
+    "cases-assentistes-1": [
+      "cases-assentistes",
+      "fusteria-antiga"
+    ],
+    "cases-assentistes-2": [
+      "cases-assentistes",
+      "fusteria-antiga"
+    ],
+    "ferreria-vella": [
+      "ferreria"
+    ],
+    "ferreria-nova": [
+      "ferreria"
+    ],
+    "quarters": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-caballeria-1748": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-caballeria-1748-2": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-caballeria-1748-3": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-infanteria-1748": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-infanteria-1748-2": [
+      "cavallerisses-roquer"
+    ],
+    "cuartel-infanteria-1748-3": [
+      "cavallerisses-roquer"
+    ],
+    "old-inn": [
+      "fonda-vella"
+    ],
+    "fonda-nova": [
+      "fonda-nova"
+    ],
+    "cases-talavera": [
+      "cases-talavera"
+    ],
+    "manzana-shared": [
+      "mancana-antiga"
+    ],
+    "pati-mancana": [
+      "mancana-antiga"
+    ],
+    "manzana-nova": [
+      "mancana-nova"
+    ],
+    "placa-coberta": [
+      "placa-coberta"
+    ],
+    "tinglado": [
+      "tinglado"
+    ],
+    "font-oest": [
+      "font-oest"
+    ],
+    "font-est": [
+      "font-est"
+    ],
+    "duana-nova": [
+      "duana-nova"
+    ],
+    "casa-white": [
+      "casa-white"
+    ],
+    "hort-nord": [
+      "hort-rei-nord"
+    ],
+    "hort-sud": [
+      "hort-rei-sud"
+    ],
+    "jardi-botanic": [
+      "jardi-botanic"
+    ],
+    "well": [
+      "pou-figueretes"
+    ],
+    "molinet": [
+      "molinet"
+    ],
+    "forn-moli-guix": [
+      "forn-moli-guix"
+    ],
+    "glorieta": [
+      "glorieta"
+    ],
+    "rampa-nord": [
+      "rampes-simetriques"
+    ],
+    "rampa-sud": [
+      "rampes-simetriques"
+    ],
+    "rampa-roquer": [
+      "rampa-figueretes"
+    ],
+    "pont-monges": [
+      "pont-barranc"
+    ],
+    "carrer-major": [
+      "placa-alamedes"
+    ],
+    "pedrera": [
+      "cami-pedrera"
+    ],
+    "barraques-obrers": [
+      "barraques-obrers"
+    ],
+    "mataredona": [
+      "mataredona"
+    ],
+    "casotes-companyia": [
+      "companyia-canal"
+    ],
+    "far-sant-carles": [
+      "far-sant-carles"
+    ],
+    "cistern": [
+      "cisterna-fossat-roquer"
+    ],
+    "project-1748-cistern": [
+      "cisterna-fossat-roquer"
+    ],
+    "kiln": [
+      "forn-roquer"
+    ],
+    "rambla": [
+      "rambla"
+    ],
+    "rampar": [
+      "rampar"
+    ],
+    "torre-moro": [
+      "torre-moro"
+    ],
+    "royal-finished-01": [
+      "unitat-royal-finished-01"
+    ],
+    "royal-finished-02": [
+      "unitat-royal-finished-02"
+    ],
+    "royal-finished-03": [
+      "unitat-royal-finished-03"
+    ],
+    "royal-finished-04": [
+      "unitat-royal-finished-04"
+    ],
+    "royal-finished-05": [
+      "unitat-royal-finished-05"
+    ],
+    "royal-finished-06": [
+      "unitat-royal-finished-06"
+    ],
+    "royal-finished-07": [
+      "unitat-royal-finished-07"
+    ],
+    "royal-finished-08": [
+      "unitat-royal-finished-08"
+    ],
+    "royal-finished-09": [
+      "unitat-royal-finished-09"
+    ],
+    "royal-finished-10": [
+      "unitat-royal-finished-10"
+    ],
+    "royal-finished-11": [
+      "unitat-royal-finished-11"
+    ],
+    "royal-finished-12": [
+      "unitat-royal-finished-12"
+    ],
+    "royal-finished-13": [
+      "unitat-royal-finished-13"
+    ],
+    "royal-finished-14": [
+      "unitat-royal-finished-14"
+    ],
+    "royal-finished-15": [
+      "unitat-royal-finished-15"
+    ],
+    "royal-finished-16": [
+      "unitat-royal-finished-16"
+    ],
+    "royal-finished-17": [
+      "unitat-royal-finished-17"
+    ],
+    "royal-finished-18": [
+      "unitat-royal-finished-18"
+    ],
+    "royal-finished-19": [
+      "unitat-royal-finished-19"
+    ],
+    "royal-finished-20": [
+      "unitat-royal-finished-20"
+    ],
+    "royal-finished-21": [
+      "unitat-royal-finished-21"
+    ],
+    "royal-finished-22": [
+      "unitat-royal-finished-22"
+    ],
+    "royal-covered-01": [
+      "unitat-royal-covered-01"
+    ],
+    "royal-covered-02": [
+      "unitat-royal-covered-02"
+    ],
+    "royal-covered-03": [
+      "unitat-royal-covered-03"
+    ],
+    "royal-covered-04": [
+      "unitat-royal-covered-04"
+    ],
+    "royal-covered-05": [
+      "unitat-royal-covered-05"
+    ],
+    "royal-covered-06": [
+      "unitat-royal-covered-06"
+    ],
+    "royal-covered-07": [
+      "unitat-royal-covered-07"
+    ],
+    "royal-portico-01": [
+      "unitat-royal-portico-01"
+    ],
+    "royal-portico-02": [
+      "unitat-royal-portico-02"
+    ],
+    "royal-portico-03": [
+      "unitat-royal-portico-03"
+    ],
+    "royal-portico-04": [
+      "unitat-royal-portico-04"
+    ],
+    "royal-portico-05": [
+      "unitat-royal-portico-05"
+    ],
+    "royal-portico-06": [
+      "unitat-royal-portico-06"
+    ],
+    "royal-portico-07": [
+      "unitat-royal-portico-07"
+    ],
+    "royal-portico-08": [
+      "unitat-royal-portico-08"
+    ],
+    "royal-portico-09": [
+      "unitat-royal-portico-09"
+    ],
+    "royal-portico-10": [
+      "unitat-royal-portico-10"
+    ],
+    "royal-portico-11": [
+      "unitat-royal-portico-11"
+    ],
+    "royal-portico-12": [
+      "unitat-royal-portico-12"
+    ],
+    "royal-portico-13": [
+      "unitat-royal-portico-13"
+    ],
+    "royal-portico-14": [
+      "unitat-royal-portico-14"
+    ],
+    "royal-small-coast-01": [
+      "unitat-royal-small-coast-01"
+    ],
+    "royal-small-coast-02": [
+      "unitat-royal-small-coast-02"
+    ],
+    "royal-small-coast-03": [
+      "unitat-royal-small-coast-03"
+    ],
+    "royal-small-coast-04": [
+      "unitat-royal-small-coast-04"
+    ],
+    "royal-small-coast-05": [
+      "unitat-royal-small-coast-05"
+    ],
+    "royal-small-coast-06": [
+      "unitat-royal-small-coast-06"
+    ],
+    "royal-small-coast-07": [
+      "unitat-royal-small-coast-07"
+    ],
+    "royal-small-coast-08": [
+      "unitat-royal-small-coast-08"
+    ],
+    "royal-small-coast-09": [
+      "unitat-royal-small-coast-09"
+    ],
+    "royal-small-coast-10": [
+      "unitat-royal-small-coast-10"
+    ],
+    "royal-small-coast-11": [
+      "unitat-royal-small-coast-11"
+    ],
+    "royal-small-coast-12": [
+      "unitat-royal-small-coast-12"
+    ],
+    "royal-small-coast-13": [
+      "unitat-royal-small-coast-13"
+    ],
+    "royal-small-coast-14": [
+      "unitat-royal-small-coast-14"
+    ],
+    "paredo-poblacio": [
+      "paredo-poblacio"
+    ]
+  },
+  "measuredHistoricalFootprintsInvented": 0
+}

@@ -1,0 +1,29 @@
+{
+  "entityId": "rampa-figueretes",
+  "historicalEvidence": {
+    "description": "Des de la plaça/recinte conventual vorejant bateria fins al moll gran, àmbit Mare de Déu de la Ràpita.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,4"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "rampa-roquer",
+      "anchor": null,
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

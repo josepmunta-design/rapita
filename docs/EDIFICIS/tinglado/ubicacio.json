@@ -1,0 +1,49 @@
+{
+  "entityId": "tinglado",
+  "historicalEvidence": {
+    "description": "Davant de la capella del convent i prop de les cases rodones; hipòtesi entre Casa Laureano i porxos del costat est. La posició és insegura.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 p.215"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "tinglado",
+      "anchor": [
+        296360.6,
+        4499211.3
+      ],
+      "footprintUTM": [
+        [
+          296348.5714548961,
+          4499210.153656821
+        ],
+        [
+          296369.3728635593,
+          4499202.991157423
+        ],
+        [
+          296372.6285451038,
+          4499212.446343179
+        ],
+        [
+          296351.82713644067,
+          4499219.608842577
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

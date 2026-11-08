@@ -1,0 +1,85 @@
+{
+  "entityId": "torre-moro",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/landmarks.json",
+      "data": {
+        "id": "torre-moro",
+        "name": "Torre del Moro I / Torre de Magin",
+        "kind": "watchtower",
+        "anchor": {
+          "easting": 294857.7389860111,
+          "northing": 4499058.499279343
+        },
+        "geographicPosition": {
+          "latitude": 40.616905,
+          "longitude": 0.574878,
+          "crs": "EPSG:4326",
+          "source": "Coordenades aportades per Josep, transformades a EPSG:25831"
+        },
+        "frontAzimuthDegrees": 130,
+        "width": 6.5,
+        "depth": 5.8,
+        "baseWidth": 7.2,
+        "baseDepth": 6.5,
+        "batteredHeight": 2,
+        "wallHeight": 10.6,
+        "wallThickness": 0.65,
+        "focusRadius": 24,
+        "state": "Torre rectangular amb base atalussada, espitlleres, matacans i merlets / estudi C",
+        "evidence": "Pobles de Catalunya la situa al Codonyol, prop de la N-340, i la data als segles XVI-XVII, amb possibles antecedents XIV-XV. Fotografia actual: maconeria, cantoneres de carreus, dos matacans i merlets.",
+        "limits": "Coordenades indicades per Josep. Amplades, alcaria, orientacio de treball i aspecte de 1800 C. No sinclouen la casa, el tancament ni les finestres modernes. Les fotos de 2023 no demostren lestat exacte del coronament de 1800.",
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "constructionYear": null,
+        "state1800": null,
+        "crownStudy": true,
+        "supportFootprint": [
+          [
+            -3.6,
+            -3.6
+          ],
+          [
+            -3.6,
+            3.6
+          ],
+          [
+            3.6,
+            -3.6
+          ],
+          [
+            3.6,
+            3.6
+          ]
+        ],
+        "footprintUTM": [
+          [
+            294852.667190621,
+            4499058.055554743
+          ],
+          [
+            294858.1827106115,
+            4499053.427483953
+          ],
+          [
+            294857.29526141076,
+            4499063.571074733
+          ],
+          [
+            294862.81078140123,
+            4499058.943003942
+          ]
+        ],
+        "terrain": {
+          "minimum": 62.2973350754946,
+          "maximum": 62.8197198758627,
+          "technicalBaseElevation": 62.8997198758627
+        }
+      }
+    }
+  ]
+}

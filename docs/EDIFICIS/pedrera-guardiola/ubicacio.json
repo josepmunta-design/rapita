@@ -1,0 +1,21 @@
+{
+  "entityId": "pedrera-guardiola",
+  "historicalEvidence": {
+    "description": "Àmbit de la Guardiola; pedra transportada pel camí que travessa la devesa, actual Constància, fins al Cóc i les rampes.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4"
+      },
+      {
+        "sourceId": "N111",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.5.0",
+  "verified": "2026-10-30",
+  "algorithm": "sha256",
+  "repeatedRunIdentical": true,
+  "files": {
+    "littoral.json": "3f2933f48f8afffdda2b68ba8f04794404fd556876e1894f4c4eeb00bb098deb",
+    "chronology.json": "41d26f26672fb9836f1100444d0eadaee9a7c4bf93539cd462926ba681610209",
+    "urban-chronology.json": "47e69a951e8e2c3a0f1c77308c856a86fde9e88b5943eede11f865b834a9c210",
+    "region.json": "c7833405943e19602c972af3fca11f5b4291181cf68f3c01049a47c3e08c7146",
+    "region.f32": "0e32ca11b431c5a799158f565f0c6c9d251c4ef90b91656fa2989d871a443437",
+    "region.valid.u8": "a8585482be5fd6d2c8f71beb229ea4e87767824e6599a9408b536a5878b51bb4",
+    "monuments.geojson": "6ce6f185b6984a9545babaaf195a8efe9707dd548af5c49f9e4d7136ee6755d3",
+    "reference/t-6-8.jpg": "96b87ff125a133fd32d9b70be6dfca3040f590e934ebffc6a2851848a294eb70",
+    "reference/T0009734.jpg": "df7c20078a0fb542427fd4e667201af59b76f2255a79afcc77476b55841847f1"
+  }
+}

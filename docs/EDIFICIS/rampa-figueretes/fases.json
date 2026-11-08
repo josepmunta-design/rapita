@@ -1,0 +1,67 @@
+{
+  "entityId": "rampa-figueretes",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "rampa-figueretes-fase-01",
+      "witnessDate": "1748",
+      "witnessYear": 1748,
+      "label": "Baixada anterior",
+      "state": "Camí amb arbres i pou.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.1"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": true,
+      "datePrecision": "any"
+    },
+    {
+      "id": "rampa-figueretes-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Rampa reforçada",
+      "state": "Paredó construït, terraplè encara començat.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.23"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "rampa-figueretes-fase-03",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Fotografia del pou",
+      "state": "Relació visual entre descens i cases, sense data original.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N104",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

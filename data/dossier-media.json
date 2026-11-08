@@ -95,5 +95,71 @@
     "N088",
     "N097",
     "N103"
-  ]
+  ],
+  "localImages": {
+    "esglesia-nova": [
+      {
+        "id": "EN01",
+        "title": "Església Nova · façana en blanc i negre",
+        "file": "església nova_facebook_BN.jpg",
+        "dateText": "data original no fixada",
+        "year": null,
+        "note": "Vista frontal de la façana en ruïna amb columnes i persones. Imatge aportada per Josep el 2/11/2026; autoria i data de la fotografia original no fixades.",
+        "kind": "photo",
+        "image": "EN01-esglesia-nova.jpg",
+        "src": {
+          "local": "docs/EDIFICIS/esglesia-nova/església nova_facebook_BN.jpg"
+        },
+        "originalSha256": "b67d1a2dad09c31726cbf0865f189188c0a76a40ebc3b95a51ef8e0aa76d3b73",
+        "added": "2026-11-02"
+      }
+    ],
+    "cases-porxos": [
+      {
+        "id": "CP01",
+        "title": "Porxos · vista en blanc i negre",
+        "file": "porxos_BN.jpg",
+        "dateText": "data original no fixada",
+        "year": null,
+        "note": "Vista de les arcades i els cossos sense coberta. Imatge aportada per Josep el 2/11/2026; autoria i data original no fixades.",
+        "kind": "photo",
+        "image": "CP01-cases-porxos.jpg",
+        "src": {
+          "local": "docs/EDIFICIS/cases-porxos/porxos_BN.jpg"
+        },
+        "originalSha256": "39051d42f05ee78dc1e14a9a366955cc2499cc36a046d6847438d2b8d66a85e5",
+        "added": "2026-11-02"
+      },
+      {
+        "id": "CP02",
+        "title": "Plaça de Carles III · vista amb grades",
+        "file": "130267878_3381205301992488_7654617715339037590_o.jpg",
+        "dateText": "data original no fixada",
+        "year": null,
+        "note": "Vista general de la plaça, els porxos i les grades de fusta. Imatge aportada per Josep el 2/11/2026; autoria i data original no fixades.",
+        "kind": "photo",
+        "image": "CP02-cases-porxos.jpg",
+        "src": {
+          "local": "docs/EDIFICIS/cases-porxos/130267878_3381205301992488_7654617715339037590_o.jpg"
+        },
+        "originalSha256": "a1a81205ab527edb4c0b311d37b3a4cc50a7a37a917ca4b61cbc9b229979d501",
+        "added": "2026-11-02"
+      },
+      {
+        "id": "CP03",
+        "title": "Porxos i plaça de bous · reproducció impresa",
+        "file": "20210810_190100.jpg",
+        "dateText": "data original no fixada",
+        "year": null,
+        "note": "Fotografia d’una pàgina impresa amb una plaça de bous de carros davant del temple. El fitxer porta data digital de 10/8/2021, que no data la fotografia històrica reproduïda; publicació, autoria i data original no fixades.",
+        "kind": "photo",
+        "image": "CP03-cases-porxos.jpg",
+        "src": {
+          "local": "docs/EDIFICIS/cases-porxos/20210810_190100.jpg"
+        },
+        "originalSha256": "51306a566685b5cd744f2344c7eae5bd5c21f19bda77e411828be7bd1205b743",
+        "added": "2026-11-02"
+      }
+    ]
+  }
 }

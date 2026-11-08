@@ -1,3 +1,5 @@
+import {makeRockCave,makeRoquerCliff} from './rock-cave.ts';
+import {caveSites} from './cave-plan.mjs';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {toWorld} from './geo.mjs';
@@ -38,13 +40,8 @@ export function makeResearchLandscape(data:any,meta:Terrain,sample:(e:number,n:n
  gb.emit(new THREE.TorusGeometry(1.2,.09,5,20),wood,we,wn,wy+1.8,Math.PI/2);
  for(let i=0;i<8;i++){const a=i*Math.PI/4,spoke=new THREE.BoxGeometry(.08,2.4,.08);spoke.rotateX(a);gb.emit(spoke,wood,we,wn,wy+1.8);gb.emit(new THREE.CylinderGeometry(.12,.10,.28,6),earth,we+.15,wn+1.2*Math.sin(a),wy+1.8+1.2*Math.cos(a));}
  for(const de of[-.4,.4])gb.emit(new THREE.BoxGeometry(.18,2.4,.18),wood,we+de,wn,wy+1.2);gb.flush();
- const cave=newGroup(data.cave.id,'Boca de cova sota el Roquer · assaig PR01 · C'),cb=builder(cave),[ce,cn]=data.cave.anchor,cy=level(ce,cn),W=data.cave.width,H=data.cave.height;
- // An open arch with a recessed dark back: no solid black disc, no excavation of source terrain.
- const face=new THREE.Shape();face.moveTo(-W/2,0);face.lineTo(-W/2,H);face.lineTo(W/2,H);face.lineTo(W/2,0);face.lineTo(W*.34,0);face.lineTo(W*.34,.8);
- for(let i=0;i<=20;i++){const a=i*Math.PI/20;face.lineTo(W*.34*Math.cos(a),.8+H*.50*Math.sin(a));}
- face.lineTo(-W*.34,0);face.closePath();
- cb.emit(new THREE.ExtrudeGeometry(face,{depth:data.cave.depth,bevelEnabled:false}),stone,ce,cn,cy,-Math.PI/2);
- cb.emit(new THREE.BoxGeometry(.1,H*.65,W*.68),dark,ce-data.cave.depth+.1,cn,cy+H*.325);cb.flush();
+ const cave=newGroup(data.cave.id,'Cova erosionada sota el Roquer / PR01 / C');
+ cave.add(makeRoquerCliff(data,meta.origin));
  const garrigue=newGroup(data.garrigue.id,'Garriga i margallons baixos · PR01 · C'),pb=builder(garrigue);
  for(const[i,[e,n]]of data.garrigue.points.entries()){
   const y=level(e,n);pb.emit(new THREE.DodecahedronGeometry(.65,0).scale(1,.6,1),leaf,e+.9,n+.5,y+.35);
@@ -58,13 +55,8 @@ export function makeResearchLandscape(data:any,meta:Terrain,sample:(e:number,n:n
  // Comment-driven additions: a rocky shore with small caves (1800) and an olive grove (1950 scene).
  const rocks=newGroup(data.rocks.id,'Zona de roques amb coves · comentari · C'),rb=builder(rocks),[re,rn]=data.rocks.center;
  for(const[i,[dx,dn,size]]of data.rocks.stones.entries())rb.emit(new THREE.DodecahedronGeometry(size,0).scale(1.3,.75+(i%3)*.12,1),stone,re+dx,rn+dn,level(re+dx,rn+dn)+size*.3,i*.7);
- for(const[dx,dn,w,h,depth]of data.rocks.caves){
-  const e=re+dx,n=rn+dn,y=level(e,n),mouth=new THREE.Shape();mouth.moveTo(-w/2,0);mouth.lineTo(-w/2,h);mouth.lineTo(w/2,h);mouth.lineTo(w/2,0);mouth.lineTo(w*.34,0);mouth.lineTo(w*.34,.6);
-  for(let i=0;i<=20;i++){const a=i*Math.PI/20;mouth.lineTo(w*.34*Math.cos(a),.6+h*.5*Math.sin(a));}
-  mouth.lineTo(-w*.34,0);mouth.closePath();
-  rb.emit(new THREE.ExtrudeGeometry(mouth,{depth,bevelEnabled:false}),stone,e,n,y,-Math.PI/2);
-  rb.emit(new THREE.BoxGeometry(.1,h*.6,w*.68),dark,e-depth+.1,n,y+h*.3);
- }rb.flush();
+
+ rb.flush();
  const olives=newGroup(data.olives.id,'Camp d’oliveres · comentari · C'),ob=builder(olives),[oe,on]=data.olives.center,{rows,cols,spacing}=data.olives;
  for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){
   const jitter=((r*7+c*13)%5-2)*.3,e=oe+(c-(cols-1)/2)*spacing+jitter,n=on+(r-(rows-1)/2)*spacing-jitter,y=level(e,n);

@@ -1,0 +1,21 @@
+{
+  "entityId": "amposta-capcalera",
+  "historicalEvidence": {
+    "description": "Entre l’Ebre i el canal a Amposta, amb espigó entrant al riu. Fora del nucli rapitenc però dins l’abast territorial del mapa.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N028",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N112",
+        "locator": "il·l.3"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

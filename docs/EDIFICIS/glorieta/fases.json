@@ -1,0 +1,71 @@
+{
+  "entityId": "glorieta",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "glorieta-fase-01",
+      "witnessDate": "1800",
+      "witnessYear": 1800,
+      "label": "Hipòtesi del model actual",
+      "state": "El model 0.12 la mostra retrospectivament; no és data d’obra documentada.",
+      "kind": "hipòtesi",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "ANT-LAND",
+          "locator": "glorieta"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "glorieta-fase-02",
+      "witnessDate": "1844",
+      "witnessYear": 1844,
+      "label": "Pavelló en la traducció de Jaubert",
+      "state": "Data editorial; la data de visita 1816 prové de la tesi anterior i s’ha de mantenir separada.",
+      "kind": "retrospectiu",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N004",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "ANT-TESI",
+          "locator": "pp.229–231"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "glorieta-fase-03",
+      "witnessDate": "1916",
+      "witnessYear": 1916,
+      "label": "Salvany",
+      "state": "Estat de ruïna fotografiat.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N099",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

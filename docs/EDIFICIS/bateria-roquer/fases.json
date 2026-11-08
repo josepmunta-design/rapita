@@ -1,0 +1,90 @@
+{
+  "entityId": "bateria-roquer",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "bateria-roquer-fase-01",
+      "witnessDate": "1748",
+      "witnessYear": 1748,
+      "label": "Projecte de bateria",
+      "state": "Distingir preexistències i projecte.",
+      "kind": "projecte",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.1"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": true,
+      "datePrecision": "any"
+    },
+    {
+      "id": "bateria-roquer-fase-02",
+      "witnessDate": "1780-08-06",
+      "witnessYear": 1780,
+      "label": "Habilitació per allotjament",
+      "state": "Obra suspesa i ús de Canals.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N025",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N026",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "bateria-roquer-fase-03",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Bateria incompleta",
+      "state": "Sis peces i tres curenyes; cap equivalència automàtica amb els vuit canons projectats.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.17"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "bateria-roquer-fase-04",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Mercat municipal posterior",
+      "state": "L’article situa el mercat sobre la bateria el 1971; és fora del límit actiu de 1950 i no ha d’aparèixer abans.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.198"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

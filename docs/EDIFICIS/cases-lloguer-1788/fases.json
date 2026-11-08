@@ -1,0 +1,48 @@
+{
+  "entityId": "cases-lloguer-1788",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "cases-lloguer-1788-fase-01",
+      "witnessDate": "1788",
+      "witnessYear": 1788,
+      "label": "Obres de les dotze",
+      "state": "Fase d’obres contrastada anteriorment a la tesi.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "ANT-TESI",
+          "locator": "pp.251–253"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "cases-lloguer-1788-fase-02",
+      "witnessDate": "1789",
+      "witnessYear": 1789,
+      "label": "Major part acabada",
+      "state": "No se sumen un altre cop a les 81 unitats del 1794.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "ANT-TESI",
+          "locator": "pp.251–253"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

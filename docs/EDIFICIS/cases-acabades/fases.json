@@ -1,0 +1,56 @@
+{
+  "entityId": "cases-acabades",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "cases-acabades-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "22 cases acabades",
+      "state": "Inventari agregat; identitat dels cossos d’assaig no validada.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.1"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "cases-acabades-fase-02",
+      "witnessDate": "1816",
+      "witnessYear": 1816,
+      "label": "Descripció general de Laborde",
+      "state": "Cases baixes i uniformes i carrer molt ample. No és una mesura de cada façana.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N016",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N020",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N021",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

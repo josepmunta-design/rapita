@@ -1,0 +1,52 @@
+{
+  "entityId": "forn-moli-guix",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "forn-moli-guix",
+        "name": "Forn i molí de guix",
+        "kind": "service-house",
+        "chimney": true,
+        "fromYear": 1782,
+        "utmAnchor": [
+          296547,
+          4499389
+        ],
+        "width": 8,
+        "depth": 6,
+        "height": 3.6,
+        "evidence": "N112 p.211 i 224: forn i molí de guix esmentats com a límit nord de la Fonda Vella en la concessió de 1782. Forma i solar propis desconeguts: volum de servei C.",
+        "anchor": [
+          296547,
+          4499389
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 2.115070616006851,
+        "footprintUTM": [
+          [
+            296542.24122123426,
+            4499387.465716891
+          ],
+          [
+            296549.805369839,
+            4499384.861171655
+          ],
+          [
+            296551.75877876574,
+            4499390.534283109
+          ],
+          [
+            296544.194630161,
+            4499393.138828345
+          ]
+        ]
+      }
+    }
+  ]
+}

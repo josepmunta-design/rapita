@@ -1,0 +1,57 @@
+{
+  "entityId": "unitat-royal-portico-10",
+  "historicalEvidence": {
+    "description": "Capçalera semicircular: deu cases rodones; quatre restants probablement juntes a l’oest, entre la font i el carrer de l’església. És la interpretació de l’article, no parcel·lari original recuperat.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.3"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "royal-portico-10",
+      "anchor": {
+        "easting": 296321.54407413566,
+        "northing": 4499259.064106937
+      },
+      "footprintUTM": [
+        [
+          296326.070776485,
+          4499254.86673929
+        ],
+        [
+          296327.2994933841,
+          4499261.2966119405
+        ],
+        [
+          296317.8443076281,
+          4499264.552293485
+        ],
+        [
+          296316.0813659902,
+          4499255.32682403
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/housing.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

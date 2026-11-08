@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-11-08",
+  "range": [
+    1800,
+    1900
+  ],
+  "sources": [
+    {
+      "id": "XIX01",
+      "title": "Fons de Complement · catàleg 2024",
+      "issuer": "Arxiu Municipal de la Ràpita",
+      "kind": "cataleg",
+      "period": [
+        1800,
+        1900
+      ],
+      "file": "arxiu-rapita-fons-complement-2024.pdf",
+      "url": "https://larapita.cat/wp-content/uploads/2024/08/Cat%C3%A0leg-FC-agost-2024.pdf",
+      "note": "Localitza expedients; les descripcions no substitueixen els originals.",
+      "locator": "pp. 1–7 i 12",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "catalogue",
+      "publicationYear": 2024
+    },
+    {
+      "id": "XIX02",
+      "title": "Censos de població · municipi 43136",
+      "issuer": "INE",
+      "kind": "estadistica",
+      "period": [
+        1842,
+        1900
+      ],
+      "file": "ine-censos-43136.csv",
+      "url": "https://www.ine.es/intercensal/intercensal.do?search=3&codigoProvincia=43&codigoMunicipio=136&btnBuscarCod=Consultar+selecci%C3%B3n",
+      "note": "Fet, dret i llars són magnituds diferents; no permeten deduir edificis.",
+      "locator": "Taula municipal; set censos fins al 1900",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original",
+      "extraFiles": [
+        "ine-censos-43136.html",
+        "ine-metodologia-censos.pdf"
+      ],
+      "publicFile": "research/ine-censos-1842-1900.csv"
+    },
+    {
+      "id": "XIX03",
+      "title": "Concessió de la canalització de l’Ebre",
+      "issuer": "Gaceta de Madrid / BOE",
+      "kind": "norma",
+      "period": [
+        1851,
+        1851
+      ],
+      "file": "gaceta-1851-12-02-concessio-canal.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1851/12/02/pdfs/GMD-1851-6350.pdf",
+      "note": "Llei de 26/11/1851, publicada el 2/12. Autoritza la concessió; no acredita obres executades.",
+      "locator": "Núm. 6350, PDF p. 1, art. 1 i condicions",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original"
+    },
+    {
+      "id": "XIX04",
+      "title": "La Companyia i el complex duaner",
+      "issuer": "Museu de la Mar de l’Ebre",
+      "kind": "institucional",
+      "period": [
+        1851,
+        1867
+      ],
+      "file": "museumarebre-historia.html",
+      "url": "https://museumarebre.com/museu/",
+      "note": "Obres del complex 1852–1859, oficines, taller, magatzem, resclosa, pont i cases de guarda. Planta exacta pendent.",
+      "locator": "Història · complex duaner i fi de la Companyia",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "institutional"
+    },
+    {
+      "id": "XIX05",
+      "title": "Història del Canal de la Dreta",
+      "issuer": "Comunitat General del Canal de la Dreta de l’Ebre",
+      "kind": "institucional",
+      "period": [
+        1847,
+        1860
+      ],
+      "file": "canal-dreta-historia.html",
+      "url": "https://comunitatregants.org/web/informacio/historia/",
+      "note": "Diferencia concessió de 1851, canal de 1856–1857 i inici de navegació de 1858.",
+      "locator": "Història del canal",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "institutional"
+    },
+    {
+      "id": "XIX06",
+      "title": "Història de la ciutat",
+      "issuer": "Ajuntament de la Ràpita",
+      "kind": "institucional",
+      "period": [
+        1800,
+        1900
+      ],
+      "file": "ajuntament-historia.html",
+      "url": "https://larapita.cat/la-ciutat/historia/",
+      "note": "Situa l’ús per al reg el 1861; no és la mateixa fita que la concessió de reg de 1867.",
+      "locator": "Canal i evolució del segle XIX",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "institutional"
+    },
+    {
+      "id": "XIX07",
+      "title": "Far de Sant Carles · memòria de Cardenal (1875)",
+      "issuer": "Autoritat Portuària de Tarragona",
+      "kind": "testimoni",
+      "period": [
+        1861,
+        1875
+      ],
+      "file": "port-tarragona-far.html",
+      "url": "https://www.porttarragona.cat/ca/notes-de-premsa-rss/item/1758-far-sant-carles-de-la-rapita",
+      "note": "Obra de 1862 i dimensions documentades. La mateixa pàgina discrepa entre setembre i novembre de 1864.",
+      "locator": "Història · transcripció de la memòria de 1875",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "transcription"
+    },
+    {
+      "id": "XIX08",
+      "title": "Còpia del plànol de l’eixample · 1870",
+      "issuer": "Ministerio de Cultura · ACA / PARES",
+      "kind": "planol",
+      "period": [
+        1867,
+        1870
+      ],
+      "file": "pares-eixample-1870.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/1679586",
+      "note": "Còpia de 2/3/1870 del projecte de 1867: 197 solars, no 197 cases construïdes. Autor: José Míes.",
+      "locator": "ACA, REAL PATRIMONIO, BGRP, Cajas 70, carp. 1, nº 8, plano",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original",
+      "extraFiles": [
+        "aca-eixample-1870.jpg"
+      ],
+      "publicFile": "research/aca-eixample-1870.jpg",
+      "credit": "Ministerio de Cultura · Archivo de la Corona de Aragón · PARES. Domini públic; citeu la signatura i l’URL."
+    },
+    {
+      "id": "XIX09",
+      "title": "Croquis de l’edifici anomenat Iglesia nueva",
+      "issuer": "Ministerio de Cultura · ACA / PARES",
+      "kind": "planol",
+      "period": [
+        1868,
+        1868
+      ],
+      "file": "pares-esglesia-1868.html",
+      "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/1679995",
+      "note": "La fitxa diu que té mesures; el visor no ofereix la imatge en aquesta consulta. Cap cota nova extreta.",
+      "locator": "ACA, REAL PATRIMONIO, BGRP, Cajas 70, carp. 2, nº 1, croquis",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "catalogue",
+      "availability": "catalogue-only"
+    },
+    {
+      "id": "XIX10",
+      "title": "Plànol de Carlos Gaurán · 1861",
+      "issuer": "Arxiu Històric de Tarragona",
+      "kind": "cataleg",
+      "period": [
+        1861,
+        1875
+      ],
+      "file": "aht-butlleti-23.pdf",
+      "url": "https://xac.gencat.cat/web/.content/xac/01_continguts_arxius_comarcals/ah_tarragona/06_publicacions_aht/publicacions_periodiques_aht/Bulleti-num.-23-Difusio.pdf",
+      "note": "Notícia de restauració: plànol de 8/7/1861, certificació de 1874 i protocol de 1875. Original d’alta resolució pendent.",
+      "locator": "Butlletí 23, p. 5; protocol notarial 8340, f. 295–311",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "catalogue"
+    },
+    {
+      "id": "XIX11",
+      "title": "Càrrega de sal al Fondal de les Estaques",
+      "issuer": "Gaceta de Madrid / BOE",
+      "kind": "norma",
+      "period": [
+        1878,
+        1878
+      ],
+      "file": "gaceta-1878-06-25-carrega-sal.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1878/06/25/pdfs/GMD-1878-176.pdf",
+      "note": "Ordre de 9/6/1878, publicada el 25/6. Habilita la càrrega i exigeix una caseta de carabiners; no en prova la construcció.",
+      "locator": "Núm. 176, Ministeri d’Hisenda",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original"
+    },
+    {
+      "id": "XIX12",
+      "title": "Llei del ferrocarril de Val de Zafán",
+      "issuer": "Gaceta de Madrid / BOE",
+      "kind": "norma",
+      "period": [
+        1880,
+        1880
+      ],
+      "file": "gaceta-1880-05-15-ferrocarril.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1880/05/15/pdfs/GMD-1880-136.pdf",
+      "note": "Llei de 14/5/1880, publicada el 15/5. Autoritza la concessió fins a la Ràpita; no acredita una línia local en servei.",
+      "locator": "Núm. 136, p. 403, PDF p. 1, art. 1–3",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original"
+    },
+    {
+      "id": "XIX13",
+      "title": "Concessió de pesca i piscicultura a les llacunes",
+      "issuer": "Gaceta de Madrid / BOE",
+      "kind": "norma",
+      "period": [
+        1880,
+        1880
+      ],
+      "file": "gaceta-1880-03-22-pesca.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1880/03/22/pdfs/GMD-1880-82.pdf",
+      "note": "Concessió a la societat San Pedro, amb obligacions de sanejament. No acredita totes les actuacions acabades.",
+      "locator": "Núm. 82, p. 750, PDF p. 2, Ministeri de Marina",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original"
+    },
+    {
+      "id": "XIX14",
+      "title": "Terrenys i moll de les Salines de la Trinitat",
+      "issuer": "Gaceta de Madrid / BOE",
+      "kind": "norma",
+      "period": [
+        1885,
+        1885
+      ],
+      "file": "gaceta-1885-11-11-salines.pdf",
+      "url": "https://www.boe.es/gazeta/dias/1885/11/11/pdfs/GMD-1885-315.pdf",
+      "note": "La disposició reconeix salines ja establertes i esmenta un moll sense autorització; no en fixa la planta.",
+      "locator": "Núm. 315, p. 480, PDF p. 2, Ministeri de Foment",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original"
+    },
+    {
+      "id": "XIX15",
+      "title": "Plano del puerto de Alfaques · 1813",
+      "issuer": "IGN · Dirección Hidrográfica",
+      "kind": "planol",
+      "period": [
+        1813,
+        1813
+      ],
+      "file": "ign-alfaques-1813.html",
+      "url": "https://www.ign.es/web/catalogo-cartoteca/resources/html/009734.html",
+      "note": "Carta a escala aproximada 1:76.100. Serveix de testimoni posterior al 1800, no de parcel·lari urbà.",
+      "locator": "IGN 009734 · 92-83(V01-0020-MAPA15)",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original",
+      "publicFile": "reference/T0009734.jpg",
+      "credit": "Instituto Geográfico Nacional · CC BY 4.0"
+    },
+    {
+      "id": "XIX16",
+      "title": "Carta de 1919 sobre un aixecament de 1878",
+      "issuer": "IGN · Dirección de Hidrografía",
+      "kind": "planol",
+      "period": [
+        1878,
+        1919
+      ],
+      "file": "ign-alfaques-1919.html",
+      "url": "https://www.ign.es/web/catalogo-cartoteca/resources/html/000429.html",
+      "note": "Exemplar de 1919, 2a edició corregida; no es retrodata tota la seva costa a 1878.",
+      "locator": "IGN 000429 · S1-35-O-109",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "catalogue"
+    },
+    {
+      "id": "XIX17",
+      "title": "Cementiri Municipal · notícia històrica",
+      "issuer": "Pobles de Catalunya · Albert Esteves",
+      "kind": "estudi",
+      "period": [
+        1800,
+        1910
+      ],
+      "file": "pdc-cementiri.html",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18391",
+      "note": "Situa l’actual cementiri el 1910 i esmenta recintes anteriors, sense plantes ni dates precises.",
+      "locator": "Fitxa 18391",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "secondary"
+    },
+    {
+      "id": "XIX18",
+      "title": "Sanitat Marítima: la defensa de la costa i la salut pública de Tarragona (1720–1930)",
+      "issuer": "Pedro Otiña Hermoso · Port de Tarragona",
+      "kind": "estudi",
+      "period": [
+        1804,
+        1805
+      ],
+      "file": "port-tarragona-sanitat-maritima.pdf",
+      "url": "https://www.porttarragona.cat/es/catalogo-de-publicaciones?element=3beed8c2-15db-40af-9860-3c6e3b261cc8&format=raw&item_id=5422&method=download&task=callelement",
+      "note": "Inspecció de 1804 i Junta de Sanitat, amb referències AHCB. El llatzeret es tracta com a proposta, sense edifici nou.",
+      "locator": "pp. 145–151; AHCB, Fons Sanitat VII–VIII, 1804",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "secondary",
+      "publicationYear": 2014
+    },
+    {
+      "id": "XIX19",
+      "title": "Costa entre el riu de la Sénia i Sant Carles · 1818",
+      "issuer": "Biblioteca Nacional de España",
+      "kind": "planol",
+      "period": [
+        1818,
+        1818
+      ],
+      "file": null,
+      "url": "https://bdh.bne.es/bnesearch/detalle/bdh0000021490",
+      "note": "Original identificat però descàrrega denegada (HTTP 403). No s’ha llegit la imatge.",
+      "locator": "BNE MR/42/451 · bdh0000021490",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "catalogue",
+      "availability": "unavailable"
+    },
+    {
+      "id": "XIX20",
+      "title": "Reforma urbanística · plànol aportat de 1852",
+      "issuer": "Archivo de la Corona de Aragón · material aportat",
+      "kind": "planol",
+      "period": [
+        1852,
+        1852
+      ],
+      "file": null,
+      "url": "https://hdl.handle.net/10803/284704",
+      "note": "Imatge N003, signada el 30/1/1852. Diferencia existent, projecte i enderroc; no és la ciutat de 1800.",
+      "locator": "N003 · correspondència amb MPD 223 segons H01, pp. 232–233",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "original",
+      "localOriginal": "docs/EDIFICIS/fonts-20261031/originals/N003.jpg",
+      "publicFile": "research/aca-reforma-1852.jpg",
+      "credit": "Ministerio de Cultura · Archivo de la Corona de Aragón · reproducció aportada. Atribució MPD 223 segons la tesi H01."
+    },
+    {
+      "id": "XIX21",
+      "title": "La desamortització de Madoz a la província de Tarragona (1859–1886)",
+      "issuer": "Salvador-J. Rovira i Gómez · Diputació de Tarragona, 1987",
+      "kind": "estudi",
+      "period": [
+        1859,
+        1886
+      ],
+      "publicationYear": 1987,
+      "file": "dipta-desamortitzacio-madoz.pdf",
+      "url": "https://www.dipta.cat/llibreria/sites/llibreria/files/media/la_desamortitzacio_de_madoz.pdf",
+      "note": "Apartat de la Ràpita: cases i solars diferenciats, amb adreces històriques i remissions al BOPT i protocols notarials. Cal conciliar numeració i finques abans de dibuixar-les.",
+      "locator": "pp. 488–495 (PDF 490–497), apartat 2.10.7",
+      "reviewed": "2026-11-08",
+      "reviewLevel": "secondary"
+    }
+  ],
+  "events": [
+    {
+      "id": "sanitat-1804",
+      "year": 1804,
+      "title": "Inspecció i Junta de Sanitat",
+      "kind": "testimoni",
+      "topic": "vida",
+      "claim": "L’estudi transcriu la inspecció de Soler i documenta l’organització sanitària de 1804. Les 50–60 famílies són una estimació del visitant, no un cens.",
+      "refs": [
+        "XIX18"
+      ],
+      "locator": "pp. 147–148",
+      "geometry": "none",
+      "dossier": "sanitat-antiga",
+      "date": "1804",
+      "confidence": "B"
+    },
+    {
+      "id": "carta-1813",
+      "year": 1813,
+      "title": "Carta dels Alfacs",
+      "kind": "testimoni",
+      "topic": "costa",
+      "claim": "Testimoni cartogràfic de 1813; no modifica automàticament la costa de 1800.",
+      "refs": [
+        "XIX15"
+      ],
+      "locator": "Fitxa IGN 009734",
+      "geometry": "none",
+      "source": "XIX15",
+      "confidence": "A"
+    },
+    {
+      "id": "cens-1842",
+      "year": 1842,
+      "title": "949 habitants de dret",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 949 habitants de dret i 191 llars. La població de fet manca.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1842",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "concessio-1851",
+      "year": 1851,
+      "title": "Concessió del canal de navegació",
+      "kind": "autoritzacio",
+      "topic": "canal",
+      "claim": "La llei de 26 de novembre autoritza el canal Amposta–Alfacs i les obres de navegació i reg.",
+      "refs": [
+        "XIX03"
+      ],
+      "locator": "PDF p. 1, art. 1",
+      "geometry": "none",
+      "date": "1851-11-26",
+      "confidence": "A",
+      "dossier": "canal-antic"
+    },
+    {
+      "id": "complex-1852-1859",
+      "year": 1852,
+      "title": "Obres del complex de la Companyia",
+      "kind": "obra",
+      "topic": "canal",
+      "claim": "El museu situa les obres entre 1852 i 1859; el primer testimoni representat de Les Casotes es manté el 1857.",
+      "refs": [
+        "XIX04"
+      ],
+      "locator": "Història · complex duaner",
+      "geometry": "none",
+      "endYear": 1859,
+      "confidence": "B",
+      "dossier": "companyia-canal"
+    },
+    {
+      "id": "reforma-1852",
+      "year": 1852,
+      "title": "Reforma del nucli",
+      "kind": "projecte",
+      "topic": "urbanisme",
+      "claim": "El plànol diferencia edificis existents, nova alineació i peces a enderrocar. No es representa tot com a obra feta.",
+      "refs": [
+        "XIX20"
+      ],
+      "locator": "N003, llegenda i signatures",
+      "geometry": "none",
+      "source": "XIX20",
+      "confidence": "A"
+    },
+    {
+      "id": "cens-1857",
+      "year": 1857,
+      "title": "1.962 habitants de fet",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 1.962 habitants de fet i 417 llars. No es calcula un nombre de cases a partir de les llars.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1857",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "navegacio-1858",
+      "year": 1858,
+      "title": "Inici de navegació segons els regants",
+      "kind": "us",
+      "topic": "canal",
+      "claim": "La Comunitat situa l’inici de navegació fluvial el 1858. És una fita diferent de la inauguració del canal de 1857.",
+      "refs": [
+        "XIX05",
+        "XIX06"
+      ],
+      "locator": "Història del canal",
+      "geometry": "none",
+      "confidence": "B",
+      "dossier": "canal-antic"
+    },
+    {
+      "id": "cens-1860",
+      "year": 1860,
+      "title": "2.429 habitants de fet",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 2.429 habitants de fet i 528 llars.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1860",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "gauran-1861",
+      "year": 1861,
+      "title": "Plànol dels terrenys de l’hemidelta dret",
+      "kind": "cataleg",
+      "topic": "territori",
+      "claim": "L’AHT identifica un plànol de 1861 amb conreus, erms, llacunes i camins. Cal obtenir-ne la imatge completa.",
+      "refs": [
+        "XIX10"
+      ],
+      "locator": "Butlletí 23, p. 5",
+      "geometry": "none",
+      "source": "XIX10",
+      "confidence": "B"
+    },
+    {
+      "id": "reg-1861",
+      "year": 1861,
+      "title": "Ús per al reg",
+      "kind": "us",
+      "topic": "canal",
+      "claim": "L’Ajuntament situa la transformació per al reg el 1861. La concessió de 1867 és una altra fita administrativa.",
+      "refs": [
+        "XIX06",
+        "XIX04"
+      ],
+      "locator": "Història municipal; museu, fi de la Companyia",
+      "geometry": "none",
+      "confidence": "B",
+      "dossier": "canal-antic"
+    },
+    {
+      "id": "far-1862",
+      "year": 1862,
+      "title": "Far construït; llanterna instal·lada",
+      "kind": "obra",
+      "topic": "costa",
+      "claim": "La memòria de Cardenal data l’obra a l’abril de 1862 i la instal·lació de la llanterna al desembre; encara sense servei.",
+      "refs": [
+        "XIX07"
+      ],
+      "locator": "Memòria de 1875, obra i aparell",
+      "geometry": "none",
+      "confidence": "B",
+      "dossier": "far-sant-carles"
+    },
+    {
+      "id": "far-1864",
+      "year": 1864,
+      "title": "Far en servei · discrepància de mes",
+      "kind": "us",
+      "topic": "costa",
+      "claim": "El relat de Cardenal fixa l’1 de novembre; la capçalera institucional diu setembre. Es conserva el conflicte.",
+      "refs": [
+        "XIX07"
+      ],
+      "locator": "Nota hidrogràfica i història",
+      "geometry": "none",
+      "confidence": "B",
+      "dossier": "far-sant-carles"
+    },
+    {
+      "id": "concessio-reg-1867",
+      "year": 1867,
+      "title": "Concessió reorientada al reg",
+      "kind": "autoritzacio",
+      "topic": "canal",
+      "claim": "El Museu data el canvi de concessió el 1867. No s’utilitza per negar un ús agrícola anterior.",
+      "refs": [
+        "XIX04"
+      ],
+      "locator": "Fi de la Reial Companyia",
+      "geometry": "none",
+      "confidence": "B",
+      "dossier": "companyia-canal"
+    },
+    {
+      "id": "croquis-1868",
+      "year": 1868,
+      "title": "Croquis acotat d’Església Nova",
+      "kind": "cataleg",
+      "topic": "urbanisme",
+      "claim": "La fitxa PARES acredita el croquis de 1868. La imatge no està accessible; no s’hi extreuen noves dimensions.",
+      "refs": [
+        "XIX09"
+      ],
+      "locator": "PARES 1679995",
+      "geometry": "none",
+      "confidence": "A-catalogue",
+      "dossier": "esglesia-nova"
+    },
+    {
+      "id": "eixample-1870",
+      "year": 1870,
+      "title": "Còpia de l’eixample de 1867",
+      "kind": "projecte",
+      "topic": "urbanisme",
+      "claim": "José Míes copia el plànol el 2 de març de 1870. Les 197 parcel·les són solars d’un projecte.",
+      "refs": [
+        "XIX08"
+      ],
+      "locator": "PARES 1679586 · contingut i data",
+      "geometry": "none",
+      "source": "XIX08",
+      "confidence": "A"
+    },
+    {
+      "id": "cens-1877",
+      "year": 1877,
+      "title": "3.164 de fet · 3.119 de dret",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 3.164 habitants de fet, 3.119 de dret i 726 llars.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1877",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "sal-1878",
+      "year": 1878,
+      "title": "Càrrega de sal autoritzada",
+      "kind": "autoritzacio",
+      "topic": "economia",
+      "claim": "L’ordre habilita el Fondal de les Estaques i obliga a construir una caseta. Emplaçament i execució de la caseta pendents.",
+      "refs": [
+        "XIX11"
+      ],
+      "locator": "Ordre 9/6/1878, publicada 25/6",
+      "geometry": "none",
+      "date": "1878-06-09",
+      "confidence": "A",
+      "source": "XIX11"
+    },
+    {
+      "id": "ferrocarril-1880",
+      "year": 1880,
+      "title": "Llei del ferrocarril fins a la Ràpita",
+      "kind": "projecte",
+      "topic": "transport",
+      "claim": "Autorització legal de la línia Val de Zafán–Alcañiz–Ràpita; no prova que hi arribessin trens.",
+      "refs": [
+        "XIX12"
+      ],
+      "locator": "Llei 14/5/1880 · art. 1–3",
+      "geometry": "none",
+      "date": "1880-05-14",
+      "confidence": "A",
+      "source": "XIX12"
+    },
+    {
+      "id": "pesca-1880",
+      "year": 1880,
+      "title": "Concessió de piscicultura a San Pedro",
+      "kind": "autoritzacio",
+      "topic": "economia",
+      "claim": "La concessió inclou obligacions de sanejament i pesca a les llacunes; no s’assumeixen executades totes les obres.",
+      "refs": [
+        "XIX13"
+      ],
+      "locator": "PDF p. 2",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "salines-1885",
+      "year": 1885,
+      "title": "Salines establertes i moll esmentat",
+      "kind": "testimoni",
+      "topic": "economia",
+      "claim": "La disposició tracta uns terrenys ja ocupats i un moll construït sense autorització. Falten planta i delimitació.",
+      "refs": [
+        "XIX14"
+      ],
+      "locator": "PDF p. 2",
+      "geometry": "none",
+      "confidence": "A",
+      "source": "XIX14"
+    },
+    {
+      "id": "cens-1887",
+      "year": 1887,
+      "title": "3.132 de fet · 3.045 de dret",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 3.132 habitants de fet, 3.045 de dret i 769 llars.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1887",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "cens-1897",
+      "year": 1897,
+      "title": "3.569 de fet · 3.582 de dret",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 3.569 habitants de fet, 3.582 de dret i 765 llars.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1897",
+      "geometry": "none",
+      "confidence": "A"
+    },
+    {
+      "id": "cens-1900",
+      "year": 1900,
+      "title": "3.901 de fet · 3.843 de dret",
+      "kind": "cens",
+      "topic": "poblacio",
+      "claim": "INE: 3.901 habitants de fet, 3.843 de dret i 923 llars. El municipi no equival al nucli edificat.",
+      "refs": [
+        "XIX02"
+      ],
+      "locator": "Cens 1900",
+      "geometry": "none",
+      "confidence": "A"
+    }
+  ],
+  "leads": [
+    {
+      "id": "militar-1803",
+      "year": 1803,
+      "title": "Bateries i edificis militars",
+      "locator": "C020 · p. 6",
+      "signature": "Ar.F-T.8-C.3-326(1) i 327",
+      "next": "Obtenir originals i distingir projecte/estat.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "salines-1817",
+      "year": 1817,
+      "title": "Salines i canal de reg",
+      "locator": "C002 · p. 1",
+      "signature": "AGP, Bailia de Catalunya, 11483/01",
+      "next": "Llegir reclamacions i plànols adjunts.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "fabriques-1825",
+      "year": 1825,
+      "title": "Petició de fàbriques",
+      "locator": "C002 · p. 1",
+      "signature": "AGP, Bailia, 11490/38",
+      "next": "Petició; execució desconeguda.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "llogaters-1828",
+      "year": 1828,
+      "title": "Llogaters del Reial Patrimoni",
+      "locator": "C002 · p. 1",
+      "signature": "AGP, Bailia, 11546/29",
+      "next": "Conciliar cases i arrendataris.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "frontmar-1829",
+      "year": 1829,
+      "title": "Terrenys tocant al mar",
+      "locator": "C002 · p. 1",
+      "signature": "AGP, Bailia, 11479/1",
+      "next": "Localitzar finques.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "escola-1832",
+      "year": 1832,
+      "title": "Establiment d’escola",
+      "locator": "C002 · p. 1",
+      "signature": "AGP, Bailia, 11546/48",
+      "next": "Comprovar funcionament i adreça.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "manzana-1842",
+      "year": 1842,
+      "title": "Reparació de cases 1 i 2",
+      "locator": "C014 · p. 5",
+      "signature": "Pressupost Mies · Manzana",
+      "next": "Identificar peces.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "cementiri-1843",
+      "year": 1843,
+      "title": "Capella del cementiri de la Devesa",
+      "locator": "C014 · p. 5",
+      "signature": "Carta de Gasparín Gombau de 1854; esment 1843",
+      "next": "Obtenir carta i planta.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "preso-1861",
+      "year": 1861,
+      "title": "Presó a plaça Major 15",
+      "locator": "C002 · p. 2",
+      "signature": "AGP, Bailia, 11535/26",
+      "next": "Contrastar numeració i ús.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "cases-1865",
+      "year": 1865,
+      "title": "Registre de cases",
+      "locator": "C002 · p. 2",
+      "signature": "AGP, Bailia, 11545/1",
+      "next": "Transcriure i relacionar finques.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "llogaters-1869",
+      "year": 1869,
+      "title": "Cases i llogaters",
+      "locator": "C002 · p. 2",
+      "signature": "AGP, Bailia, 11536/26",
+      "next": "Conciliar amb 1865.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "solars-eixample",
+      "year": 1870,
+      "title": "Solars de l’eixample",
+      "locator": "PARES 1679586",
+      "signature": "ACA, BGRP, Caja 70, carp. 2, 1; Caja 349, exp. 1865",
+      "next": "Obtenir relació i plànol original.",
+      "refs": [
+        "XIX08"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "salines-1873",
+      "year": 1873,
+      "title": "Inventari de les Salines de la Trinitat",
+      "locator": "C027 · p. 12",
+      "signature": "Donació Jordi Surià Guillaumes, 1873–1874",
+      "next": "Consultar inventari íntegre.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "sanpedro-1882",
+      "year": 1882,
+      "title": "Estatuts de San Pedro",
+      "locator": "C022 · p. 7",
+      "signature": "Museo Naval, AMN 1187 F 044",
+      "next": "Consultar estatuts.",
+      "refs": [
+        "XIX01"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "costa-1878",
+      "year": 1878,
+      "title": "Aixecament hidrogràfic original",
+      "locator": "IGN 000429 / XIX16",
+      "signature": "Dirección Hidrográfica, aixecament 1878",
+      "next": "Obtenir edició anterior a les correccions de 1919.",
+      "refs": [
+        "XIX16"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    },
+    {
+      "id": "finques-madoz",
+      "year": 1864,
+      "title": "Cases i solars del registre de desamortització",
+      "locator": "XIX21, pp. 488–495",
+      "signature": "BOPT, suplements 1864; protocols notarials 8328–8333 i altres",
+      "next": "Conciliar adreces històriques i títols amb els plànols.",
+      "refs": [
+        "XIX21"
+      ],
+      "status": "original-pendent",
+      "geometry": null
+    }
+  ],
+  "census": {
+    "source": "XIX02",
+    "scope": "Municipi 43136; límits i conceptes de cada cens.",
+    "rows": [
+      {
+        "year": 1842,
+        "deFacto": null,
+        "deJure": 949,
+        "households": 191
+      },
+      {
+        "year": 1857,
+        "deFacto": 1962,
+        "deJure": null,
+        "households": 417
+      },
+      {
+        "year": 1860,
+        "deFacto": 2429,
+        "deJure": null,
+        "households": 528
+      },
+      {
+        "year": 1877,
+        "deFacto": 3164,
+        "deJure": 3119,
+        "households": 726
+      },
+      {
+        "year": 1887,
+        "deFacto": 3132,
+        "deJure": 3045,
+        "households": 769
+      },
+      {
+        "year": 1897,
+        "deFacto": 3569,
+        "deJure": 3582,
+        "households": 765
+      },
+      {
+        "year": 1900,
+        "deFacto": 3901,
+        "deJure": 3843,
+        "households": 923
+      }
+    ],
+    "notes": [
+      "Fet: persones presents; dret: població resident segons el concepte històric del cens.",
+      "Un valor desconegut es conserva com a null, mai com a zero.",
+      "Llars, habitatges, edificis i famílies no són unitats equivalents.",
+      "No s’interpolen valors entre censos."
+    ]
+  },
+  "limits": [
+    "L’arxiu amplia la documentació; no declara reconstruïda tota la ciutat del segle XIX.",
+    "Cada fita distingeix testimoni, projecte, autorització, obra o ús.",
+    "Els models heretats del 1800 són context C; mantenir-los no acredita la seva supervivència.",
+    "Cap plànol nou es georeferencia sense controls independents i residus d’ajust."
+  ],
+  "conflicts": [
+    {
+      "id": "canal-dates",
+      "title": "1857, 1858, 1861 i 1867",
+      "text": "Inauguració, inici de navegació, ús agrícola i canvi de concessió són fites diferents.",
+      "refs": [
+        "XIX04",
+        "XIX05",
+        "XIX06"
+      ]
+    },
+    {
+      "id": "far-month",
+      "title": "Far de 1864: setembre / novembre",
+      "text": "La nota inicial i la transcripció de Cardenal discrepen. La discrepància continua visible.",
+      "refs": [
+        "XIX07"
+      ]
+    },
+    {
+      "id": "chart-1878",
+      "title": "Aixecament de 1878 / edició de 1919",
+      "text": "No es retrodata la versió corregida completa.",
+      "refs": [
+        "XIX16"
+      ]
+    },
+    {
+      "id": "cemetery",
+      "title": "Devesa / cementiri actual",
+      "text": "La referència de 1843 apareix en una carta catalogada de 1854; el recinte actual s’atribueix a 1910 en una font secundària. Ubicació històrica precisa pendent.",
+      "refs": [
+        "XIX01",
+        "XIX17"
+      ]
+    }
+  ]
+}

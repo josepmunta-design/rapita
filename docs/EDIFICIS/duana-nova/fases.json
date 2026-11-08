@@ -1,0 +1,48 @@
+{
+  "entityId": "duana-nova",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "duana-nova-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Duana inacabada",
+      "state": "Sense coberta ni envans alts.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.12"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "duana-nova-fase-02",
+      "witnessDate": "1868/1869",
+      "witnessYear": 1868,
+      "label": "Venda del solar 6",
+      "state": "Interval de la documentació citada; confirmar dia i expedient.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.214,217"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "interval"
+    }
+  ]
+}

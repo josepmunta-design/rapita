@@ -1,0 +1,29 @@
+{
+  "entityId": "guardes-rendes",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "guardes-rendes-fase-01",
+      "witnessDate": "1780-11-13",
+      "witnessYear": 1780,
+      "label": "Servei existent",
+      "state": "Casa dels guardes diferenciada per ús.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N029",
+          "locator": "punt4"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

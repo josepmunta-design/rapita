@@ -1,0 +1,48 @@
+{
+  "entityId": "cavallerisses-roquer",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "cavallerisses-roquer-fase-01",
+      "witnessDate": "1781",
+      "witnessYear": 1781,
+      "label": "Annexos i serveis",
+      "state": "Cavallerisses i casetes d’allotjament amb forn i taverna.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.203"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "cavallerisses-roquer-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Annexos militars",
+      "state": "El text inclou annexos començats a la torre; correspondència individual desconeguda.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.16"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

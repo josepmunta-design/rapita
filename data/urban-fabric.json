@@ -55,23 +55,11 @@
       "width": 5.5,
       "townPoints": [
         [
-          -82,
+          -132,
           -142
         ],
         [
-          -82,
-          0
-        ],
-        [
-          -82,
-          78
-        ],
-        [
-          -111,
-          78
-        ],
-        [
-          -111,
+          -132,
           144
         ],
         [
@@ -89,20 +77,20 @@
       "width": 5.5,
       "townPoints": [
         [
-          88,
-          151
+          121,
+          145
         ],
         [
-          88,
+          121,
           45
         ],
         [
-          91,
+          125,
           0
         ],
         [
-          110,
-          -2
+          140,
+          -15
         ]
       ],
       "evidence": "H02, límits de Talavera de 1782 i accessos al Cóc. Correspondència individual amb els carrers actuals pendent."
@@ -116,14 +104,18 @@
       "townPoints": [
         [
           -220,
-          4
+          -21
         ],
         [
-          -155,
-          0
+          -140,
+          -21
         ],
         [
-          -90,
+          -70,
+          -21
+        ],
+        [
+          -40,
           0
         ],
         [
@@ -149,23 +141,27 @@
       "width": 5,
       "utmPoints": [
         [
-          296479,
-          4499343
+          296496.803657557,
+          4499321.639386091
         ],
         [
-          296500,
-          4499348
+          296514.0460651223,
+          4499323.918811755
         ],
         [
-          296530,
-          4499380
+          296516.9602237598,
+          4499293.763359852
         ],
         [
-          296562,
-          4499423
+          296530.432955724,
+          4499277.1857034005
+        ],
+        [
+          296543.0608277399,
+          4499261.482925037
         ]
       ],
-      "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric."
+      "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric. Ajust relacional N112 il·l.4 (01/11/2026)."
     },
     {
       "id": "rampa-sud",
@@ -173,19 +169,27 @@
       "kind": "ramp",
       "fromYear": 1794,
       "width": 5,
-      "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C.",
-      "townPoints": [
+      "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C. Ajust relacional N112 il·l.4 (01/11/2026).",
+      "utmPoints": [
         [
-          98.58,
-          -1.73
+          296485.9899300483,
+          4499293.443817338
         ],
         [
-          100,
-          -53
+          296504.8019849539,
+          4499287.094534683
         ],
         [
-          189.66,
-          -66.61
+          296513.085484672,
+          4499268.887194614
+        ],
+        [
+          296511.02053803694,
+          4499249.1402253425
+        ],
+        [
+          296499.60209569253,
+          4499235.577438961
         ]
       ]
     },
@@ -195,31 +199,23 @@
       "kind": "ramp",
       "fromYear": 1794,
       "width": 4,
-      "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C.",
-      "townPoints": [
+      "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+      "utmPoints": [
         [
-          10.5,
-          -104
+          296404.0215530871,
+          4499229.504624519
         ],
         [
-          42,
-          -104
+          296416.48432533804,
+          4499204.3432869585
         ],
         [
-          60,
-          -145
+          296435.751004384,
+          4499174.762531754
         ],
         [
-          110,
-          -145
-        ],
-        [
-          161.5,
-          -129.2
-        ],
-        [
-          203.5,
-          -122.1
+          296465.26106629637,
+          4499140.702322624
         ]
       ]
     }
@@ -279,12 +275,31 @@
       "kind": "garden",
       "fromYear": 1794,
       "townAnchor": [
-        -151,
-        45
+        -97.43365935696715,
+        33.92338891189114
       ],
-      "width": 60,
-      "depth": 43,
-      "evidence": "H02 art. 10: dos horts a l'entrada de València separats pel camí. Recintes i conreus d'assaig C."
+      "width": 51.275250459190545,
+      "depth": 89.39189320278044,
+      "evidence": "H02 art. 10: dos horts a l'entrada de València separats pel camí. Recintes i conreus d'assaig C.",
+      "townPolygon": [
+        [
+          -123.07128458656243,
+          77.64152333241901
+        ],
+        [
+          -72.7505743040261,
+          78.61933551328136
+        ],
+        [
+          -71.79603412737188,
+          -10.592009354124112
+        ],
+        [
+          -119.6630185978667,
+          -10.772557689499074
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
     },
     {
       "id": "hort-sud",
@@ -292,12 +307,31 @@
       "kind": "noria-garden",
       "fromYear": 1794,
       "townAnchor": [
-        -151,
-        -48
+        -92.12382154508131,
+        -55.10215312877611
       ],
-      "width": 60,
-      "depth": 53,
-      "evidence": "H02 art. 10: sínia i dos terrenys habilitats en horta. Posició individual, dimensions i mecanisme detallat C."
+      "width": 55.579122801569255,
+      "depth": 48.95064768967111,
+      "evidence": "H02 art. 10: sínia i dos terrenys habilitats en horta. Posició individual, dimensions i mecanisme detallat C.",
+      "townPolygon": [
+        [
+          -119.54177729238953,
+          -30.62682928394056
+        ],
+        [
+          -64.33426014429668,
+          -30.77396983930746
+        ],
+        [
+          -66.60743762096321,
+          -79.43821815528965
+        ],
+        [
+          -119.91338294586593,
+          -79.57747697361167
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
     },
     {
       "id": "jardi-botanic",
@@ -305,12 +339,31 @@
       "kind": "botanical",
       "fromYear": 1794,
       "townAnchor": [
-        -145,
-        101
+        -56.29180567679876,
+        61.360675794885005
       ],
-      "width": 48,
-      "depth": 38,
-      "evidence": "H02 art. 14: jardí d'un particular tancat amb reixes. No es coneix l'inventari d'espècies; parterres i tanca C."
+      "width": 29.68719235545231,
+      "depth": 30.79150033315507,
+      "evidence": "H02 art. 14: jardí d'un particular tancat amb reixes. No es coneix l'inventari d'espècies; parterres i tanca C.",
+      "townPolygon": [
+        [
+          -71.13540185452491,
+          76.43136431640231
+        ],
+        [
+          -42.304780374457735,
+          76.75642596146254
+        ],
+        [
+          -41.448209499072604,
+          46.2899872733677
+        ],
+        [
+          -70.27883097913977,
+          45.96492562830747
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
     },
     {
       "id": "ferreria-vella",
@@ -332,14 +385,15 @@
       "name": "Ferreria de la Fonda Vella",
       "kind": "forge",
       "fromYear": 1794,
-      "utmAnchor": [
-        296557,
-        4499328
-      ],
       "width": 9,
       "depth": 6,
       "height": 3.6,
-      "evidence": "H02 pp. 211–212: ferreria nova a l'àmbit de Fonda Vella. Planta i posició C; data exacta de trasllat desconeguda."
+      "evidence": "H02 pp. 211–212: ferreria nova a l'àmbit de Fonda Vella. Planta i posició C; data exacta de trasllat desconeguda.",
+      "alongAzimuthDegrees": 19,
+      "townAnchor": [
+        125,
+        -101
+      ]
     },
     {
       "id": "guardes-rendes-1",
@@ -374,14 +428,14 @@
       "name": "Casa de l’administrador de rendes",
       "kind": "service-house",
       "fromYear": 1780,
-      "utmAnchor": [
-        296525,
-        4499407
-      ],
       "width": 8,
       "depth": 6,
       "height": 4,
-      "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794."
+      "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
+      "townAnchor": [
+        99,
+        84
+      ]
     },
     {
       "id": "pati-mancana",
@@ -498,24 +552,41 @@
     },
     {
       "id": "casotes-companyia",
-      "name": "Les Casotes · magatzem del canal",
+      "name": "Les Casotes · oficines i tallers de la Companyia",
       "kind": "warehouse",
       "fromYear": 1857,
       "utmAnchor": [
-        296850.8,
-        4499547.2
+        296840,
+        4499555
       ],
       "alongAzimuthDegrees": 12,
-      "width": 42,
-      "depth": 13.3,
-      "height": 8.5,
+      "width": 33,
+      "depth": 15.3,
+      "height": 6.5,
       "positionSource": {
-        "text": "Contorn en planta de l’edifici a OpenStreetMap (Museu de la Mar de l’Ebre, Camí del Canal Marítim): 42,0 × 13,3 m. Alçària, façana i coberta C.",
-        "url": "https://www.openstreetmap.org/search?query=Museu%20de%20la%20Mar%20de%20l%27Ebre%20la%20R%C3%A0pita",
+        "text": "Punt marcat per Josep (01/11/2026), contrastat amb la coberta a la ortofoto ICGC 1945-1946 EPSG:25831: pixel 804,267 del retall [295500,4498000,297700,4500000], 1320x1200. Posicio fixa a tota la cronologia; planta i alcat C.",
+        "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms",
         "precisionMeters": 5
       },
-      "evidence": "Antic magatzem de mercaderies del canal de navegació d’Amposta a la Ràpita (1857, Jules Carvallo). Probablement el gran edifici d’arcades de façana de N107; la identificació no està demostrada. No és una obra de Carles III.",
-      "reclaimed": true
+      "evidence": "Oficines i tallers de la Companyia: reconstrucció cap al 1858, amb testimoni de 1857 i obres del conjunt 1852–1859. Onze arcades llargues, tres als laterals i teulada a quatre aigües. Projecte de Jean Lenté, supervisió de Jules Carvallo i execució de Josep Canício Sala. Mides estimades, no mesurades. Comparació manual amb l’estat del museu després de 2013; guardes opcionals en posicions hipotètiques.",
+      "reclaimed": true,
+      "geometryConfidence": "C: dimensions i detalls estimats, sense plànol acotat",
+      "modelSource": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes-threejs.js",
+      "estimatedDimensions": {
+        "lengthMeters": 33,
+        "depthMeters": 15.3,
+        "eaveHeightMeters": 6.5,
+        "ridgeHeightMeters": 8.65,
+        "measured": false
+      },
+      "documentedConfiguration": {
+        "longFacadeArches": 11,
+        "shortFacadeArches": 3,
+        "storeys": 2,
+        "roof": "hipped",
+        "guardhouses": 2
+      },
+      "orientationEvidence": "Es conserva el gir d’assaig de 12° i el punt marcat per Josep. +Z del paquet és convencional; no estableix una nova orientació geogràfica."
     },
     {
       "id": "far-sant-carles",
@@ -526,15 +597,28 @@
         295687.2,
         4497963
       ],
-      "width": 12,
-      "depth": 7,
-      "height": 5,
+      "width": 13.1,
+      "depth": 13.1,
+      "height": 3.7,
       "positionSource": {
         "text": "Coordenades de la platja del Far (40°36′26,1″ N, 0°35′6,1″ E), Diputació de Tarragona: punta de la Senieta. Són les de la platja, no les de l’edifici: precisió d’unes desenes o centenars de metres. Volum C.",
         "url": "https://terresdelebre.travel/en/node/840",
         "precisionMeters": 150
       },
-      "evidence": "Obra i llanterna de 1862; servei des de 1864 (mes en conflicte). Les fases tècniques de 1920, 1929 i 1938 no canvien la geometria."
+      "evidence": "Planta quadrada de 13,10 m, terrat pla i torre central segons Cardenal (1875). Obra de 1862; servei des de l’1/11/1864. Llanterna cilíndrica des de 1920 i òptica roja des de 1975. Acabats actuals només en comparació fotogràfica. Posició aproximada de la platja del Far; orientació sense verificar.",
+      "geometryConfidence": "B dimensions principals / C detalls",
+      "documentedDimensions": {
+        "sideMeters": 13.1,
+        "socleHeightMeters": 0.5,
+        "wallHeightMeters": 2.9,
+        "corniceHeightMeters": 0.3,
+        "crownHeightMeters": 3.7,
+        "towerDiameterMeters": 2.3,
+        "upperTowerDiameterMeters": 1.9,
+        "focalHeight1864Meters": 6.8
+      },
+      "modelSource": "Faro/faro_rapita/faro-rapita-threejs.js",
+      "orientationEvidence": "Façana +Z convencional al paquet; es conserva el gir d’assaig del mapa, sense rumb històric acreditat."
     },
     {
       "id": "mataredona",
@@ -1527,6 +1611,213 @@
       "width": 5.513269117742311,
       "depth": 11.059177483431995,
       "evidence": "Plànol de 1748, F: Corral oriental del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
+    },
+    {
+      "id": "hort-monges",
+      "name": "Horts de les Monges",
+      "kind": "garden",
+      "fromYear": 1794,
+      "height": 1,
+      "evidence": "N112 il·l.4 i referència aportada per Josep. Recinte relacional C, sense parcel·lari històric mesurat.",
+      "townAnchor": [
+        113.78382610051722,
+        -130.84671912898796
+      ],
+      "width": 74.32383192694475,
+      "depth": 46.76004924711047,
+      "townPolygon": [
+        [
+          80.56956709311035,
+          -109.38365659578608
+        ],
+        [
+          150.47879435492572,
+          -107.46669450543273
+        ],
+        [
+          150.9457420639896,
+          -153.43210715273747
+        ],
+        [
+          112.3208620942829,
+          -154.2267437525432
+        ],
+        [
+          84.67712762602436,
+          -141.50655725043507
+        ],
+        [
+          76.62191013704485,
+          -127.84722083883587
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+    },
+    {
+      "id": "paredo-poblacio",
+      "name": "Paredó de sosteniment · mur 24",
+      "kind": "retaining-wall",
+      "fromYear": 1794,
+      "utmAnchor": [
+        296473.1647641013,
+        4499315.79073124
+      ],
+      "width": 104.73216920904815,
+      "depth": 333.3696726830676,
+      "height": 3,
+      "thickness": 1.3,
+      "baseWidth": 1.8,
+      "retainingLinesUTM": [
+        [
+          [
+            296448.0032034206,
+            4499482.475567581
+          ],
+          [
+            296443.4937313579,
+            4499470.512446679
+          ],
+          [
+            296464.8703842475,
+            4499463.258267798
+          ],
+          [
+            296487.07688801584,
+            4499454.2693418125
+          ],
+          [
+            296507.57866281806,
+            4499446.170302982
+          ],
+          [
+            296525.53084870585,
+            4499439.836029398
+          ],
+          [
+            296519.8613262346,
+            4499410.690537208
+          ],
+          [
+            296514.1918037634,
+            4499381.545045019
+          ],
+          [
+            296507.7524666915,
+            4499357.573776007
+          ],
+          [
+            296502.26305305475,
+            4499338.746712032
+          ]
+        ],
+        [
+          [
+            296429.9226871089,
+            4499235.073435558
+          ],
+          [
+            296421.03882460936,
+            4499218.886014914
+          ],
+          [
+            296420.7986794968,
+            4499205.128110629
+          ],
+          [
+            296426.5926265786,
+            4499192.125011874
+          ],
+          [
+            296442.68999280484,
+            4499178.081935269
+          ],
+          [
+            296459.6622371185,
+            4499164.88371861
+          ],
+          [
+            296476.5894542236,
+            4499149.105894898
+          ]
+        ]
+      ],
+      "referencePixels": [
+        [
+          [
+            267,
+            119
+          ],
+          [
+            262,
+            133
+          ],
+          [
+            287,
+            141
+          ],
+          [
+            313,
+            151
+          ],
+          [
+            337,
+            160
+          ],
+          [
+            358,
+            167
+          ],
+          [
+            352,
+            201
+          ],
+          [
+            346,
+            235
+          ],
+          [
+            339,
+            263
+          ],
+          [
+            333,
+            285
+          ]
+        ],
+        [
+          [
+            251,
+            407
+          ],
+          [
+            241,
+            426
+          ],
+          [
+            241,
+            442
+          ],
+          [
+            248,
+            457
+          ],
+          [
+            267,
+            473
+          ],
+          [
+            287,
+            488
+          ],
+          [
+            307,
+            506
+          ]
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "evidence": "N112 il·l.4, núm.24; art.24 p.233 i p.222: mur de maçoneria i terraplens per sostenir la població. Dos trams traçats sobre el croquis; secció i cotes d’assaig C.",
+      "limits": "No és una muralla defensiva. Traça relacional C; gruix, perfil i cotes històriques desconeguts. El coronament segueix la cota del terreny interior."
     }
   ],
   "privateLedger": {

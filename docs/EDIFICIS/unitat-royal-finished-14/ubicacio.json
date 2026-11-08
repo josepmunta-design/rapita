@@ -1,0 +1,53 @@
+{
+  "entityId": "unitat-royal-finished-14",
+  "historicalEvidence": {
+    "description": "Entorn de plaça Major, actual Carles III i Cóc; assignació individual encara desconeguda. Les ubicacions del model són d’assaig.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.1"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "royal-finished-14",
+      "anchor": {
+        "easting": 296427.37109665613,
+        "northing": 4499387.597539169
+      },
+      "footprintUTM": [
+        [
+          296422.9846648765,
+          4499391.751960457
+        ],
+        [
+          296421.3568241042,
+          4499387.024367579
+        ],
+        [
+          296431.7575284358,
+          4499383.44311788
+        ],
+        [
+          296433.38536920806,
+          4499388.170710758
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/housing.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

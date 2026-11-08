@@ -1,0 +1,50 @@
+{
+  "entityId": "pou-figueretes",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "well",
+        "name": "Pou de les Figueretes",
+        "anchor": [
+          296407.97500624356,
+          4499200.712022799
+        ],
+        "kind": "well",
+        "width": 2,
+        "depth": 2,
+        "height": 1,
+        "radius": 16,
+        "state": "Pou de la baixada arbrada del Roquer (G del plànol de 1748); brocal genèric C",
+        "evidence": "Plànol de 1748, G: Pou de les Figueretes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
+        "planLetter": "G",
+        "planPixels": [
+          [
+            723,
+            567
+          ]
+        ],
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "footprintUTM": [
+          [
+            296407.97500624356,
+            4499200.712022799
+          ]
+        ],
+        "alongAzimuthDegrees": 19,
+        "technicalBaseElevation": 7.701909352256295,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    }
+  ]
+}

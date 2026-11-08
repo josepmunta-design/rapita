@@ -1,0 +1,79 @@
+{
+  "entityId": "placa-coberta",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "placa-coberta",
+        "name": "Plaça coberta · Casa Laureano",
+        "kind": "covered-market",
+        "across": 37,
+        "along": -76,
+        "front": "west",
+        "width": 15,
+        "depth": 17,
+        "wallHeight": 9.3,
+        "roofRise": 0,
+        "state1794": "plaça coberta amb el cos superior molt avançat",
+        "evidence": "H02, art. 9, pàg. 214–215 i 231. Identificació probable amb Casa Laureano, simètrica a Sant Elm. H01, pàg. 226, descriu quatre suports i un arquitrau incomplet als vestigis.",
+        "limits": "Columnata de doble alçària i cos superior obert, amb proporcions C inspirades en les fàbriques fotografiades. En la restitució de 1794 no es completen balcons, balustrada ni remat. La comparació fotogràfica afegeix aquests detalls sense assignar-los una data de construcció. Tinglado annex separat; mètrica i persistència el 1800 sense verificar.",
+        "documented": {
+          "facadeOrder": "Doric",
+          "identification": "probable",
+          "upperRoof1794": null,
+          "footprint": null,
+          "height": null
+        },
+        "photographicComparison": {
+          "sources": [
+            "N030",
+            "128379.jpeg",
+            "128380.jpeg",
+            "128381.jpeg",
+            "128382.jpeg",
+            "128383.jpeg"
+          ],
+          "photoDate": null,
+          "automaticTimelineActivation": false,
+          "dimensionsConfidence": "C",
+          "modernExtraStoreyIncluded": false
+        },
+        "anchor": {
+          "easting": 296399.59550755844,
+          "northing": 4499280.82316654
+        },
+        "frontAzimuthDegrees": 289,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296394.0003608242,
+            4499290.68188517
+          ],
+          [
+            296389.1168385074,
+            4499276.499106536
+          ],
+          [
+            296405.19065429264,
+            4499270.96444791
+          ],
+          [
+            296410.07417660946,
+            4499285.147226544
+          ]
+        ],
+        "terrain": {
+          "minimum": 7.724620956185981,
+          "maximum": 8.987170517016573,
+          "technicalBaseElevation": 9.067170517016573
+        }
+      }
+    }
+  ]
+}

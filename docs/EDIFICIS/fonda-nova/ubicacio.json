@@ -1,0 +1,49 @@
+{
+  "entityId": "fonda-nova",
+  "historicalEvidence": {
+    "description": "Entre Rambla o plaça Major i Rampar o carrer del Pilar; entrada de carros des del Cóc, actual Sant Jordi. Hipòtesi de correspondència amb el núm.50 actual de Carles III.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.2,4 p.210"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "fonda-nova",
+      "anchor": {
+        "easting": 296458.3085654935,
+        "northing": 4499374.181243076
+      },
+      "footprintUTM": [
+        [
+          296442.9574817109,
+          4499406.313166675
+        ],
+        [
+          296426.42935890524,
+          4499358.312012636
+        ],
+        [
+          296473.6596492761,
+          4499342.049319477
+        ],
+        [
+          296490.18777208176,
+          4499390.050473516
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/center.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -1,0 +1,49 @@
+{
+  "entityId": "forn-roquer",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "kiln",
+        "name": "Forn de maons",
+        "anchor": [
+          296355,
+          4499154
+        ],
+        "kind": "kiln",
+        "width": 5,
+        "depth": 5,
+        "height": 2.8,
+        "radius": 17,
+        "state": "Forn d'obra documentat el 1780; continuïtat el 1800 desconeguda",
+        "evidence": "H01, p. 114. Forn de tipus genèric C, sense atribuir-li una fàbrica conservada concreta.",
+        "footprintUTM": [
+          [
+            296352.5,
+            4499156.5
+          ],
+          [
+            296352.5,
+            4499151.5
+          ],
+          [
+            296357.5,
+            4499151.5
+          ],
+          [
+            296357.5,
+            4499156.5
+          ]
+        ],
+        "technicalBaseElevation": 9.82547083199024,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    }
+  ]
+}

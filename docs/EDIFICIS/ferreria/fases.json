@@ -1,0 +1,48 @@
+{
+  "entityId": "ferreria",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "ferreria-fase-01",
+      "witnessDate": "1780-08-06",
+      "witnessYear": 1780,
+      "label": "Ferreria inicial",
+      "state": "Al servei de les primeres obres.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N025",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "ferreria-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Ferreria a Fonda Vella",
+      "state": "Variant posterior dins el període d’obres; no inventar any de trasllat.",
+      "kind": "interpretació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.212 i 224"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

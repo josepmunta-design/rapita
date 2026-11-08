@@ -1,0 +1,72 @@
+[
+  {
+    "id": "N003",
+    "file": "ACA_31757111.JPG",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\ACA_31757111.JPG",
+    "bytes": 919772,
+    "sha256": "6d481c10f35634ae089c50bcdd9e67913131868397c693ae3ba8d42e5cfe7ea9",
+    "review": "inventariat",
+    "width": 2608,
+    "height": 3429,
+    "exif": {
+      "306": "2012:07:02 13:11:18",
+      "33432": "Gobierno de EspaÃ±a. Ministerio de Cultura. Archivo de la Corona de AragÃ³n"
+    },
+    "title": "Plànol de reforma de la Ràpita",
+    "witnessDate": "1852-01-30",
+    "kind": "projecte urbà",
+    "reviewMethod": "inspecció visual",
+    "reading": "Data de signatura 30/1/1852 i conformitat 31/1/1852 llegides a la part inferior. Fosc: edificis existents; rosa: nova delineació; groc: edificis a demolir quan convingui. Església, magatzems, duana, quarter, mercat, administració i canal amb parts projectades. No és ciutat acabada de 1800. La correspondència ambACA MPD223 ve de la tesi anterior, no del nom 31757111.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N003.jpg"
+  },
+  {
+    "id": "N111",
+    "file": "planimetria ràpita detallat_1913.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
+    "bytes": 4410878,
+    "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
+    "review": "inventariat",
+    "width": 6259,
+    "height": 4394,
+    "exif": {},
+    "title": "Planimetria delterme amb afegits",
+    "witnessDate": "1913-01-05",
+    "kind": "plànol amb capes",
+    "reviewMethod": "full complet i detalls de notes",
+    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
+  },
+  {
+    "id": "CAS-S1",
+    "title": "Museu de la Mar de l’Ebre · història de l’edifici i la Companyia",
+    "url": "https://museumarebre.com/museu/",
+    "kind": "història institucional",
+    "witnessDate": null,
+    "reading": "Identifica les antigues oficines i tallers i els diferencia del magatzem amb semisoterrani; obres de 1852–1859, projecte de Jean Lenté, supervisió de Carvallo i execució de Canício Sala. Museu obert l’1/12/2013. Consulta 2/11/2026."
+  },
+  {
+    "id": "CAS-PACK",
+    "title": "Paquet aportat: casotes_rapita_modelos_y_fuentes",
+    "absolutePath": "A:\\Mapa Ràpita\\Edificios Codigo\\casotes_rapita_modelos_y_fuentes\\cronologia-fuentes-y-medidas.md",
+    "kind": "model procedural i dossier de treball",
+    "witnessDate": "2026-11-02",
+    "reading": "Model cap al 1858 i actual, amb guardes opcionals. Planta de 33 × 15,3 m i carena a 8,65 m estimades. Onze arcades llargues i tres laterals; cases de guarda a 45 m i separació de 22 m per conveniència visual, sense georeferenciació."
+  },
+  {
+    "id": "N073",
+    "file": "FOTOS I POSTALS/casetes del cananl.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\casetes del cananl.jpg",
+    "bytes": 203131,
+    "sha256": "808dd6bb75fd7b245df36d45bef47527591d2df7995c4b20e80292737ea9d0fa",
+    "review": "inventariat",
+    "width": 1066,
+    "height": 1601,
+    "exif": {},
+    "title": "Casetes del canal",
+    "witnessDate": null,
+    "kind": "fotografia",
+    "reviewMethod": "inspecció visual",
+    "reading": "Fotografia acolorida/moderna de casetes; s’ha deconciliar amb edificis del XIX, no activar el 1800.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N073.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "entityId": "unitat-royal-portico-05",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/housing.json",
+      "data": {
+        "id": "royal-portico-05",
+        "group": "royal-portico",
+        "kind": "large",
+        "anchor": {
+          "easting": 296347.7599517644,
+          "northing": 4499225.838113611
+        },
+        "across": 5.889901325000171,
+        "along": -144.8653951596056,
+        "frontAzimuthDegrees": 2.633399776889405,
+        "width": 5,
+        "depth": 11,
+        "wallHeight": 7.8,
+        "roofRise": 1.8,
+        "wallThickness": 0.42,
+        "originalHouseNumber": null,
+        "state1800": null,
+        "individualPositionConfidence": "C",
+        "geometryConfidence": "C",
+        "state1794": "unroofed-with-portico",
+        "frontWidth": 6.546220858394196,
+        "backWidth": 9.392403840304716,
+        "frontZ": 5.234088023576099,
+        "backZ": -4.664134574869074,
+        "arcSector": true,
+        "layoutBasis": "hypothetical-10-cases-rodones",
+        "terrace": true,
+        "footprintUTM": [
+          [
+            296351.27008747624,
+            4499230.916290114
+          ],
+          [
+            296344.7307797129,
+            4499231.217058303
+          ],
+          [
+            296342.8544140999,
+            4499221.3946730485
+          ],
+          [
+            296352.23689915164,
+            4499220.963136083
+          ]
+        ],
+        "terrain": {
+          "minimum": 10.082758894871482,
+          "maximum": 10.53578218360125,
+          "technicalBaseElevation": 10.615782183601251,
+          "historicalElevation": null
+        }
+      }
+    }
+  ]
+}

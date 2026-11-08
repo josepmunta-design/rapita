@@ -1,0 +1,84 @@
+{
+  "entityId": "ferreria",
+  "historicalEvidence": {
+    "description": "Primer al costat del convent; l’article situa una ferreria nova a la zona de la Fonda Vella. La data exacta del canvi no està fixada.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "ferreria-vella",
+      "anchor": [
+        296331,
+        4499210
+      ],
+      "footprintUTM": [
+        [
+          296326.24122123426,
+          4499208.465716891
+        ],
+        [
+          296333.805369839,
+          4499205.861171655
+        ],
+        [
+          296335.75877876574,
+          4499211.534283109
+        ],
+        [
+          296328.194630161,
+          4499214.138828345
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "ferreria-nova",
+      "anchor": [
+        296474.6619383498,
+        4499228.535204558
+      ],
+      "footprintUTM": [
+        [
+          296469.43040029623,
+          4499227.163705526
+        ],
+        [
+          296477.9400674766,
+          4499224.233592136
+        ],
+        [
+          296479.8934764033,
+          4499229.9067035895
+        ],
+        [
+          296471.38380922296,
+          4499232.83681698
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

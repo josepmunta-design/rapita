@@ -1,0 +1,57 @@
+{
+  "entityId": "duana-nova",
+  "historicalEvidence": {
+    "description": "A un costat del Cóc, prop de la rampa cap a la dàrsena gran i davant l’edifici de White. L’article varia esquerra/dreta entre p.217 i 226; cal resoldre orientació amb afrontacions, no amb aquestes paraules.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.12"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "duana-nova",
+      "anchor": {
+        "easting": 296463.5282720978,
+        "northing": 4499287.814970021
+      },
+      "footprintUTM": [
+        [
+          296479.0756951252,
+          4499293.037769769
+        ],
+        [
+          296454.4922121596,
+          4499301.502541785
+        ],
+        [
+          296447.9808490704,
+          4499282.592170273
+        ],
+        [
+          296472.564332036,
+          4499274.127398257
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/center.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

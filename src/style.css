@@ -105,3 +105,9 @@ dialog input[type=search]{width:100%;padding:9px 10px;font-size:13px;border:1px 
 .dossier-doc img{height:132px;max-height:none;object-fit:cover;object-position:top}
 .dossier-doc figcaption{padding:8px 10px}
 .photo-year b{margin-right:5px;font-weight:bold;letter-spacing:.3px}
+
+.time-stops .offset-year{top:14px}.time-stops{height:30px}.time-stops button[aria-pressed=true]{z-index:2;background:#e6eadc}
+#planreverte-controls input[type=range],#planport1945-controls input[type=range]{width:100%;accent-color:var(--green);margin:10px 0 18px;cursor:pointer}#planreverte-controls .height-label,#planport1945-controls .height-label{gap:12px}#planreverte-controls .text-button,#planport1945-controls .text-button{display:block;margin-bottom:18px}#planreverte-status:empty,#planport1945-status:empty{display:none}
+.placa-photo-banner{position:absolute;top:118px;left:30px;z-index:4;display:grid;gap:5px;max-width:min(450px,calc(100% - 100px));padding:12px 15px;background:#f4efdfef;border:1px solid #bfa578;border-left:3px solid #9c723c;color:#3c4c40;box-shadow:0 4px 20px #26362620;font-size:11px}.placa-photo-banner[hidden]{display:none}.placa-photo-banner strong{font-size:13px}.placa-photo-banner button{justify-self:start;border:0;border-bottom:1px solid #8b724f;background:none;padding:4px 0;color:#68502d;font:inherit;cursor:pointer}.walking .placa-photo-banner{top:auto;bottom:28px;left:auto;right:20px}@media(max-width:700px){.placa-photo-banner{top:95px;left:15px;max-width:calc(100% - 80px);padding:8px 10px;font-size:9px}.placa-photo-banner strong{font-size:11px}}
+
+.littoral-shortcuts{flex-wrap:wrap}.littoral-shortcuts button{min-width:68px}@media(max-width:700px){.time-stops{display:flex;gap:10px;overflow-x:auto;height:24px}.time-stops button{position:static!important;transform:none!important;flex-shrink:0;font-size:9px;min-width:28px}.time-stops .minor-stop{display:none}.time-stops .offset-year{top:auto}}

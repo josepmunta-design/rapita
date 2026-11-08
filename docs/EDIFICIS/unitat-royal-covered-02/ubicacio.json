@@ -1,0 +1,49 @@
+{
+  "entityId": "unitat-royal-covered-02",
+  "historicalEvidence": {
+    "description": "Entorn de la plaça; repartiment exacte de les set dins del parcel·lari desconegut.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.2"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "royal-covered-02",
+      "anchor": {
+        "easting": 296357.5236982786,
+        "northing": 4499359.824513768
+      },
+      "footprintUTM": [
+        [
+          296361.91013005824,
+          4499355.670092479
+        ],
+        [
+          296363.5379708305,
+          4499360.397685357
+        ],
+        [
+          296353.13726649893,
+          4499363.978935056
+        ],
+        [
+          296351.50942572666,
+          4499359.251342178
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/housing.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

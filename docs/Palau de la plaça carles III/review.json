@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-11-01",
+  "method": "inspecció visual de les cinc fotografies i comparació amb N030",
+  "photoDate": null,
+  "historicalDimensions": null,
+  "notes": "128382 és una fotografia en blanc i negre; la data original no es fixa. Les altres mostren també transformacions modernes. No s’han publicat els fitxers com a textures o imatges del visor.",
+  "images": [
+    {
+      "file": "128379.jpeg",
+      "sha256": "971573ece6e8ebd5bb24e7ca28110e44edd814b9564b6bb32de81f670031b009"
+    },
+    {
+      "file": "128380.jpeg",
+      "sha256": "a0b9a494933aab1cf2f577c52212c6968c8cefaa0062a7b6b70d36107bc003d6"
+    },
+    {
+      "file": "128381.jpeg",
+      "sha256": "388ee77b911d981dd913bfa6b593c2667920ee5c0abec9ff14d40004946489ae"
+    },
+    {
+      "file": "128382.jpeg",
+      "sha256": "787525827dea31c14c9676a37427585b43df73d0f749de96dd598e232f85ce5e"
+    },
+    {
+      "file": "128383.jpeg",
+      "sha256": "4810c4a2aa98fc3e8776146d8d7ea93d9a7dc45dd4628fbe138639a0f7fa6f77"
+    }
+  ]
+}

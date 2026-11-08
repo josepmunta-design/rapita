@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ANT-TESI",
+    "title": "Noèlia Borràs Matamoros La nova i reial població de Sant Carles de la Ràpita",
+    "absolutePath": "A:\\Mapa Ràpita\\tesi doctoral.pdf",
+    "reading": "Tesi anterior revisada focalment al projecte. Fonts i pàgines indicades a cada citació; no és un nou testimoni de la carpeta."
+  },
+  {
+    "id": "N016",
+    "file": "descripcio poble/laborde/laborde_descripcio.docx",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\laborde_descripcio.docx",
+    "bytes": 709114,
+    "sha256": "2c2b7f63002d3356063e173a53ce497cfdc1b9194ff40b7ef5948fcc383e86cc",
+    "review": "inventariat",
+    "paragraphs": 33,
+    "embeddedMedia": [
+      "word/media/image1.jpeg",
+      "word/media/image4.png",
+      "word/media/image2.jpeg",
+      "word/media/image3.jpeg"
+    ],
+    "title": "Reculls de descripcions de Laborde",
+    "witnessDate": null,
+    "kind": "recull",
+    "reviewMethod": "text complet i revisió d’imatges",
+    "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N016.docx"
+  },
+  {
+    "id": "N021",
+    "file": "descripcio poble/Laborde_descripció poble.docx",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\Laborde_descripció poble.docx",
+    "bytes": 7162627,
+    "sha256": "782af89be6cce3e1ab06016a57202b4fa3ac5b9958eb3ed7aa273096b388bf08",
+    "review": "inventariat",
+    "paragraphs": 34,
+    "embeddedMedia": [
+      "word/media/image1.png",
+      "word/media/image5.png",
+      "word/media/image4.jpg",
+      "word/media/image3.png",
+      "word/media/image2.png"
+    ],
+    "title": "Reculls de descripcions de Laborde",
+    "witnessDate": null,
+    "kind": "recull",
+    "reviewMethod": "text complet i revisió d’imatges",
+    "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura.",
+    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N021.docx"
+  }
+]

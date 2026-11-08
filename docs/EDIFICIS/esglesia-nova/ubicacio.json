@@ -1,0 +1,37 @@
+{
+  "entityId": "esglesia-nova",
+  "historicalEvidence": {
+    "description": "A uns 400 vares de la població segons la relació de 1794, amb passeig cap al mar. Monument conservat al sud del nucli; el plànol de 1852 hi preveu una església més gran, no una obra existent completa.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "art.15 i il·l.3"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "ESG-001",
+      "anchor": {
+        "easting": 295939.875,
+        "northing": 4498901.55,
+        "accuracyMeters": 1.5
+      },
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/buildings/esglesia-nova.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

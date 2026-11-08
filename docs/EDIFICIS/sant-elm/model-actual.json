@@ -1,0 +1,65 @@
+{
+  "entityId": "sant-elm",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "sant-elm",
+        "name": "Oratori de Sant Elm",
+        "kind": "church",
+        "across": -50,
+        "along": -76,
+        "front": "east",
+        "width": 17,
+        "depth": 25,
+        "wallHeight": 9.4,
+        "roofRise": 2.8,
+        "state1794": "temple acabat de construir, amb el petit campanar sense concloure",
+        "evidence": "H02, art. 6, pàg. 212–213 i 231: façana dòrica i interior jònic; probable emplaçament de l’església actual, amb dimensions més petites.",
+        "limits": "Nau, coberta i torre baixa d’assaig. No es copia l’església moderna; planta, alçat i estat el 1800 sense verificar.",
+        "documented": {
+          "facadeOrder": "Doric",
+          "interiorOrder": "Ionic",
+          "towerComplete1794": false,
+          "footprint": null,
+          "height": null
+        },
+        "anchor": {
+          "easting": 296317.3353914813,
+          "northing": 4499309.147595977
+        },
+        "frontAzimuthDegrees": 109,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296326.3870443634,
+            4499297.041086154
+          ],
+          [
+            296331.92170298914,
+            4499313.114901939
+          ],
+          [
+            296308.28373859916,
+            4499321.254105801
+          ],
+          [
+            296302.74907997344,
+            4499305.180290015
+          ]
+        ],
+        "terrain": {
+          "minimum": 10.739794941241149,
+          "maximum": 12.077459248825749,
+          "technicalBaseElevation": 12.157459248825749
+        }
+      }
+    }
+  ]
+}

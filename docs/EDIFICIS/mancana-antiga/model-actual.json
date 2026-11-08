@@ -1,0 +1,101 @@
+{
+  "entityId": "mancana-antiga",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/housing.json",
+      "data": {
+        "id": "manzana-shared",
+        "group": "manzana-units",
+        "kind": "shared-courtyard",
+        "anchor": {
+          "easting": 296366.80804168206,
+          "northing": 4499483.542139705
+        },
+        "across": -60,
+        "along": 105,
+        "width": 80,
+        "depth": 40,
+        "wingDepth": 7,
+        "countedUnits": 24,
+        "wallHeight": 5.8,
+        "roofRise": 1.5,
+        "wallThickness": 0.5,
+        "frontAzimuthDegrees": 19,
+        "state1794": "finished-mixed-shared-building",
+        "state1800": null,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "originalHouseNumber": null,
+        "footprintUTM": [
+          [
+            296411.1401477952,
+            4499489.429785039
+          ],
+          [
+            296335.4986617472,
+            4499515.475237396
+          ],
+          [
+            296322.4759355689,
+            4499477.654494371
+          ],
+          [
+            296398.1174216169,
+            4499451.609042015
+          ]
+        ],
+        "terrain": {
+          "minimum": 6.588020652482214,
+          "maximum": 9.304427478570226,
+          "technicalBaseElevation": 9.384427478570226,
+          "historicalElevation": null
+        }
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "pati-mancana",
+        "name": "Pati de materials i fusteria de la Mançana",
+        "kind": "workyard",
+        "fromYear": 1794,
+        "townAnchor": [
+          -60,
+          105
+        ],
+        "width": 42,
+        "depth": 15,
+        "evidence": "H02 art. 7: eines, fustes, maons i teules al pati tancat. Són usos del conjunt existent, sense afegir cases ni habitacions.",
+        "anchor": [
+          296366.80804168206,
+          4499483.542139705
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 7.891351267312442,
+        "footprintUTM": [
+          [
+            296344.51039043604,
+            4499483.287681632
+          ],
+          [
+            296384.22217061126,
+            4499469.613819145
+          ],
+          [
+            296389.1056929281,
+            4499483.796597779
+          ],
+          [
+            296349.39391275286,
+            4499497.470460266
+          ]
+        ]
+      }
+    }
+  ]
+}

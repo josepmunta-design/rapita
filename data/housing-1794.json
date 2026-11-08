@@ -107,29 +107,6 @@
       "front": "east",
       "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
     },
-    "smallRows": [
-      {
-        "across": 113,
-        "startAlong": -31,
-        "spacing": 4.8,
-        "count": 5,
-        "front": "east"
-      },
-      {
-        "across": 128,
-        "startAlong": -28,
-        "spacing": 4.8,
-        "count": 5,
-        "front": "west"
-      },
-      {
-        "across": 143,
-        "startAlong": -23,
-        "spacing": 4.8,
-        "count": 4,
-        "front": "east"
-      }
-    ],
     "manzana": {
       "across": -60,
       "along": 105,
@@ -139,7 +116,149 @@
       "countedUnits": 24,
       "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
     },
-    "smallCoastAdjustment": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals."
+    "smallCoastAdjustment": "Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
+    "coastalHouses": [
+      {
+        "anchor": [
+          296483.7697247865,
+          4499277.5570266675
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296482.81980135146,
+          4499272.412821629
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296481.8698779164,
+          4499267.268616592
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296480.91995448136,
+          4499262.124411554
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296464.7677199083,
+          4499260.269143311
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296462.9579274554,
+          4499255.139947344
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296461.1481350026,
+          4499250.010751376
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296459.3383425497,
+          4499244.881555407
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296457.66384793434,
+          4499332.746839811
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296455.8732230848,
+          4499327.546487645
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296454.0825982353,
+          4499322.346135479
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296452.2919733858,
+          4499317.145783314
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296450.5013485362,
+          4499311.945431148
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296448.71072368673,
+          4499306.745078982
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      }
+    ]
   },
   "typologies": {
     "large": {
@@ -208,6 +327,12 @@
       "title": "ICGC, Ortofoto Territorial 2024 i Mapa Base Topogràfic",
       "local": "docs/sources/nucleo-ortofoto-2024.jpg; docs/sources/nucleo-topografico.jpg",
       "use": "Lectura d’alineacions actuals i noms de carrers. No es trasllada el parcel·lari contemporani al 1800."
+    },
+    {
+      "id": "PORT-1813",
+      "title": "Plano del puerto Alfaques, Felipe Bauza, 1813; carta antiga T0025916",
+      "local": "PORT/planol 1813 port alfacs.jpg; PORT/T0025916.jpg",
+      "use": "Agrupacions de petits cossos a tocar del front litoral i relacio amb el promontori. Els simbols no permeten identificar ni comptar les 14 parcelles de 1794. No sutilitzen com a aixecament metric."
     }
   ]
 }

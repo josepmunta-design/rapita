@@ -1,0 +1,59 @@
+{
+  "entityId": "unitat-royal-covered-04",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/housing.json",
+      "data": {
+        "id": "royal-covered-04",
+        "group": "royal-covered",
+        "kind": "large",
+        "anchor": {
+          "easting": 296354.26801673404,
+          "northing": 4499350.369328012
+        },
+        "across": -28.5,
+        "along": -25,
+        "frontAzimuthDegrees": 109,
+        "width": 5,
+        "depth": 10.4,
+        "wallHeight": 7.8,
+        "roofRise": 1.8,
+        "wallThickness": 0.42,
+        "originalHouseNumber": null,
+        "state1800": null,
+        "individualPositionConfidence": "C",
+        "geometryConfidence": "C",
+        "state1794": "roofed-unfinished",
+        "layoutBasis": "group-location-inference",
+        "terrace": true,
+        "footprintUTM": [
+          [
+            296358.370792941,
+            4499346.312577169
+          ],
+          [
+            296359.9986337133,
+            4499351.040170047
+          ],
+          [
+            296350.1652405271,
+            4499354.426078854
+          ],
+          [
+            296348.5373997548,
+            4499349.698485976
+          ]
+        ],
+        "terrain": {
+          "minimum": 9.926029830513535,
+          "maximum": 10.554826668152549,
+          "technicalBaseElevation": 10.634826668152549,
+          "historicalElevation": null
+        }
+      }
+    }
+  ]
+}

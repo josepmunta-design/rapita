@@ -1,0 +1,48 @@
+{
+  "entityId": "rampar",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "rampar-fase-01",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Carrer i afrontacions",
+      "state": "Relació de cases, pati i desnivell.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.210–211"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "rampar-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Recinte terraplenat",
+      "state": "Estat del paredó i accessos.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.24 p.233"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

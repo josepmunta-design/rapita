@@ -1,0 +1,122 @@
+{
+  "entityId": "cisterna-fossat-roquer",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "cistern",
+        "name": "Cisterna i fossat",
+        "anchor": [
+          296417.8650252895,
+          4499180.108646249
+        ],
+        "kind": "cistern",
+        "width": 4.5,
+        "depth": 5,
+        "height": 1.1,
+        "radius": 18,
+        "state": "Excavació i obra parcial; restitució C",
+        "evidence": "H01, pp. 113–114: cisterna excavada i contraescarpa acabada el 1780. Posició individual d'assaig. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
+        "alongAzimuthDegrees": 19,
+        "positionSource": {
+          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+          "url": null,
+          "precisionMeters": 15
+        },
+        "footprintUTM": [
+          [
+            296416.5515288805,
+            4499183.204971036
+          ],
+          [
+            296414.9236881082,
+            4499178.477378158
+          ],
+          [
+            296419.17852169846,
+            4499177.012321463
+          ],
+          [
+            296420.8063624707,
+            4499181.739914341
+          ]
+        ],
+        "technicalBaseElevation": 6.929406143825961,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    },
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "project-1748-cistern",
+        "letter": "I",
+        "pixels": [
+          [
+            539,
+            371
+          ],
+          [
+            584,
+            371
+          ],
+          [
+            607,
+            412
+          ],
+          [
+            562,
+            460
+          ],
+          [
+            540,
+            458
+          ],
+          [
+            527,
+            403
+          ]
+        ],
+        "height": 0.7,
+        "name": "Cisterna projectada",
+        "anchor": [
+          296418.4766665168,
+          4499180.592369262
+        ],
+        "footprintUTM": [
+          [
+            296419.10157626687,
+            4499175.944178495
+          ],
+          [
+            296414.8041943408,
+            4499177.423885756
+          ],
+          [
+            296413.95593241724,
+            4499182.095573001
+          ],
+          [
+            296419.83166875615,
+            4499185.199739792
+          ],
+          [
+            296421.866846264,
+            4499184.2853326015
+          ],
+          [
+            296421.2997810557,
+            4499178.605505927
+          ]
+        ],
+        "geometryConfidence": "C",
+        "projectOnly": true
+      }
+    }
+  ]
+}

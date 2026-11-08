@@ -43,28 +43,42 @@
       "front": "west",
       "width": 15,
       "depth": 17,
-      "wallHeight": 6.7,
+      "wallHeight": 9.3,
       "roofRise": 0,
       "state1794": "plaça coberta amb el cos superior molt avançat",
       "evidence": "H02, art. 9, pàg. 214–215 i 231. Identificació probable amb Casa Laureano, simètrica a Sant Elm. H01, pàg. 226, descriu quatre suports i un arquitrau incomplet als vestigis.",
-      "limits": "S’assagen una planta baixa coberta i un alçat superior obert. No s’hi afegeixen una balustrada ni un frontó acabats sense datació. El cobert annex va patir danys i desmuntatges: no es representa íntegre.",
+      "limits": "Columnata de doble alçària i cos superior obert, amb proporcions C inspirades en les fàbriques fotografiades. En la restitució de 1794 no es completen balcons, balustrada ni remat. La comparació fotogràfica afegeix aquests detalls sense assignar-los una data de construcció. Tinglado annex separat; mètrica i persistència el 1800 sense verificar.",
       "documented": {
         "facadeOrder": "Doric",
         "identification": "probable",
         "upperRoof1794": null,
         "footprint": null,
         "height": null
+      },
+      "photographicComparison": {
+        "sources": [
+          "N030",
+          "128379.jpeg",
+          "128380.jpeg",
+          "128381.jpeg",
+          "128382.jpeg",
+          "128383.jpeg"
+        ],
+        "photoDate": null,
+        "automaticTimelineActivation": false,
+        "dimensionsConfidence": "C",
+        "modernExtraStoreyIncluded": false
       }
     },
     {
       "id": "fonda-nova",
-      "name": "Fonda Nova",
+      "name": "Fonda Nova de la plaça",
       "kind": "inn",
-      "across": 48.5,
-      "along": 71.5,
+      "across": 62.11987022608699,
+      "along": 31.38689746228051,
       "front": "west",
-      "width": 10,
-      "depth": 50,
+      "width": 50.76701323307374,
+      "depth": 49.95173187474153,
       "wallHeight": 7.6,
       "roofRise": 1.7,
       "replacesHousingIds": [
@@ -74,7 +88,7 @@
       "inventoryRelation": "Substitueix dos cossos d’assaig reservats; no afegeix unitats a l’inventari reial de 81.",
       "state1794": "establiment habilitat, amb dos cossos i pati",
       "evidence": "H02, pàg. 210–211: cases 5 i 6, cossos cap a la Rambla i el Rampar, pati i accés de carros des del Coc. H01, pàg. 167–168: galeria, carruatges, hort i corral projectats.",
-      "limits": "Els identificadors tècnics substituïts no equivalen als números històrics 5 i 6. Posició exacta, mesures i lloc del sopluig desconeguts. Pati allargat d’assaig.",
+      "limits": "Edifici continu en U, amb murs només al perímetre exterior i del pati, una única cota de cornisa i coberta unida a les cantonades. Les tres peces de planta són una partició tècnica del mateix edifici, no tres edificis independents. Forma relacional C segons N112 il·l.4.",
       "documented": {
         "bodies": 2,
         "courtyard": true,
@@ -84,14 +98,162 @@
         ],
         "footprint": null,
         "height": null
-      }
+      },
+      "planBodies": [
+        [
+          [
+            -25.38350661653687,
+            -24.526935741151732
+          ],
+          [
+            -24.671449050837005,
+            24.975865937370763
+          ],
+          [
+            -12.851750186848555,
+            8.475807793090468
+          ],
+          [
+            -12.86976769969339,
+            -24.97586593737077
+          ]
+        ],
+        [
+          [
+            -24.671449050837005,
+            24.975865937370763
+          ],
+          [
+            25.383506616536874,
+            23.180145152494603
+          ],
+          [
+            11.602928899460537,
+            11.381091047032633
+          ],
+          [
+            -12.851750186848555,
+            8.475807793090468
+          ]
+        ],
+        [
+          [
+            25.383506616536874,
+            23.180145152494603
+          ],
+          [
+            24.588870016731132,
+            -15.44473481721208
+          ],
+          [
+            12.075131099887667,
+            -14.995804620993042
+          ],
+          [
+            11.602928899460537,
+            11.381091047032633
+          ]
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "referencePixels": [
+        [
+          [
+            313,
+            224
+          ],
+          [
+            258,
+            207
+          ],
+          [
+            272,
+            226
+          ],
+          [
+            309,
+            238
+          ]
+        ],
+        [
+          [
+            258,
+            207
+          ],
+          [
+            242,
+            263
+          ],
+          [
+            260,
+            252
+          ],
+          [
+            272,
+            226
+          ]
+        ],
+        [
+          [
+            242,
+            263
+          ],
+          [
+            285,
+            276
+          ],
+          [
+            289,
+            262
+          ],
+          [
+            260,
+            252
+          ]
+        ]
+      ],
+      "planOutline": [
+        [
+          -25.38350661653687,
+          -24.526935741151732
+        ],
+        [
+          -24.671449050837005,
+          24.975865937370763
+        ],
+        [
+          25.383506616536874,
+          23.180145152494603
+        ],
+        [
+          24.588870016731132,
+          -15.44473481721208
+        ],
+        [
+          12.075131099887667,
+          -14.995804620993042
+        ],
+        [
+          11.602928899460537,
+          11.381091047032633
+        ],
+        [
+          -12.851750186848555,
+          8.475807793090468
+        ],
+        [
+          -12.86976769969339,
+          -24.97586593737077
+        ]
+      ],
+      "continuousCompound": true
     },
     {
       "id": "duana-nova",
       "name": "Duana nova del Coc",
       "kind": "warehouse",
-      "across": 67,
-      "along": -29,
+      "across": 95.17330790556377,
+      "along": -48.574647770755206,
       "front": "north",
       "width": 26,
       "depth": 20,
@@ -106,14 +268,15 @@
         "rusticatedFacade": true,
         "footprint": null,
         "height": null
-      }
+      },
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
     },
     {
       "id": "casa-white",
       "name": "Magatzems de Josep White",
       "kind": "warehouse",
-      "across": 67,
-      "along": 29,
+      "across": 96.48669071421283,
+      "along": 16.95863709730206,
       "front": "south",
       "width": 26,
       "depth": 20,
@@ -128,7 +291,8 @@
         "roof1794": null,
         "footprint": null,
         "height": null
-      }
+      },
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
     },
     {
       "id": "font-oest",
@@ -185,35 +349,197 @@
       "roofRise": 0,
       "state1794": "murs a la cota de rebre les bigues del primer pis",
       "evidence": "H02, art. 8, pàg. 214 i 231: magatzems baixos i futures habitacions altes. Possible àmbit de l’ajuntament actual, amb identificació insegura.",
-      "limits": "Recinte i divisions C, sense coberta ni pisos alts acabats. No augmenta el nombre d’habitatges habitables de l’inventari.",
+      "limits": "El núm.8 del croquis és l’illa residencial occidental, ja representada pels habitatges. Es retira el volum rectangular duplicat darrere la filera per deixar lloc al jardí botànic i als horts.",
       "documented": {
         "roof1794": false,
         "upperHabitationsFinished1794": false,
         "footprint": null,
         "height": null
-      }
+      },
+      "layoutAlias": "western-residential-block",
+      "representedByHousingIds": [
+        "royal-finished-01",
+        "royal-finished-02",
+        "royal-finished-03",
+        "royal-finished-04",
+        "royal-finished-05",
+        "royal-finished-06",
+        "royal-finished-07",
+        "royal-finished-08",
+        "royal-finished-09",
+        "royal-finished-10",
+        "royal-finished-11"
+      ]
     },
     {
       "id": "cases-talavera",
-      "name": "Cases de Ramon Talavera",
+      "name": "Dues cases de Ramon Talavera",
       "kind": "private-courtyard",
-      "across": 58,
-      "along": 110,
+      "across": 63.910523123063165,
+      "along": 89.45709472442176,
       "front": "west",
-      "width": 26,
-      "depth": 48,
+      "width": 49.94910462905992,
+      "depth": 52.67121230194549,
       "wallHeight": 7.2,
       "roofRise": 1.8,
       "inventoryRelation": "Dues cases privades documentades; possible correspondència dins de les 38 propietats mixtes, sense identificació individual completa. No s’afegeixen al total de 119.",
       "state1794": "dues cases amb recinte i pati",
       "evidence": "H02, pàg. 210–211: entre la fonda i el barranc de les Monges, amb accés des de la plaça. Concessió de 1782 amb límits de finca; H01, pàg. 251–253, per a les tècniques residencials.",
-      "limits": "El recinte rectangular de 26 × 48 m simplifica un solar irregular. No és la digitalització dels quatre límits documentals ni prova de la posició de cada casa.",
+      "limits": "Edifici continu en U, amb murs només al perímetre exterior i del pati, una única cota de cornisa i coberta unida a les cantonades. Les tres peces de planta són una partició tècnica del mateix edifici, no tres edificis independents. Forma relacional C segons N112 il·l.4.",
       "documented": {
         "houses": 2,
         "courtyard": true,
         "footprint": null,
         "height": null
-      }
+      },
+      "planBodies": [
+        [
+          [
+            -23.71034075997872,
+            26.332978905291114
+          ],
+          [
+            -24.97455231452996,
+            -22.086159554055094
+          ],
+          [
+            -11.193974597453618,
+            -10.287105448593117
+          ],
+          [
+            -11.196601843135241,
+            25.884048709072083
+          ]
+        ],
+        [
+          [
+            -24.97455231452996,
+            -22.086159554055094
+          ],
+          [
+            24.28313950735655,
+            -26.335606150972744
+          ],
+          [
+            11.64553203935428,
+            -9.569793391530006
+          ],
+          [
+            -11.193974597453618,
+            -10.287105448593117
+          ]
+        ],
+        [
+          [
+            24.28313950735655,
+            -26.335606150972744
+          ],
+          [
+            24.97455231452996,
+            25.8866759547537
+          ],
+          [
+            12.46081339768648,
+            26.335606150972744
+          ],
+          [
+            11.64553203935428,
+            -9.569793391530006
+          ]
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "referencePixels": [
+        [
+          [
+            279,
+            144
+          ],
+          [
+            333,
+            160
+          ],
+          [
+            315,
+            171
+          ],
+          [
+            275,
+            158
+          ]
+        ],
+        [
+          [
+            333,
+            160
+          ],
+          [
+            320,
+            216
+          ],
+          [
+            306,
+            196
+          ],
+          [
+            315,
+            171
+          ]
+        ],
+        [
+          [
+            320,
+            216
+          ],
+          [
+            262,
+            198
+          ],
+          [
+            266,
+            184
+          ],
+          [
+            306,
+            196
+          ]
+        ]
+      ],
+      "planOutline": [
+        [
+          -23.71034075997872,
+          26.332978905291114
+        ],
+        [
+          -24.97455231452996,
+          -22.086159554055094
+        ],
+        [
+          24.28313950735655,
+          -26.335606150972744
+        ],
+        [
+          24.97455231452996,
+          25.8866759547537
+        ],
+        [
+          12.46081339768648,
+          26.335606150972744
+        ],
+        [
+          11.64553203935428,
+          -9.569793391530006
+        ],
+        [
+          -11.193974597453618,
+          -10.287105448593117
+        ],
+        [
+          -11.196601843135241,
+          25.884048709072083
+        ]
+      ],
+      "continuousCompound": true
     }
   ],
   "publicSpace": {

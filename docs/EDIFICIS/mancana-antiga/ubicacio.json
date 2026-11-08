@@ -1,0 +1,88 @@
+{
+  "entityId": "mancana-antiga",
+  "historicalEvidence": {
+    "description": "Entre els actuals Sant Antoni, Sant Tomàs, Sant Joaquim i Carles III. El límit antic de ponent s’anomena Sant Sebastià; Sant Tomàs es construí més tard, apropant-se al cos.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.2,4,5"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "manzana-shared",
+      "anchor": {
+        "easting": 296366.80804168206,
+        "northing": 4499483.542139705
+      },
+      "footprintUTM": [
+        [
+          296411.1401477952,
+          4499489.429785039
+        ],
+        [
+          296335.4986617472,
+          4499515.475237396
+        ],
+        [
+          296322.4759355689,
+          4499477.654494371
+        ],
+        [
+          296398.1174216169,
+          4499451.609042015
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/housing.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "pati-mancana",
+      "anchor": [
+        296366.80804168206,
+        4499483.542139705
+      ],
+      "footprintUTM": [
+        [
+          296344.51039043604,
+          4499483.287681632
+        ],
+        [
+          296384.22217061126,
+          4499469.613819145
+        ],
+        [
+          296389.1056929281,
+          4499483.796597779
+        ],
+        [
+          296349.39391275286,
+          4499497.470460266
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

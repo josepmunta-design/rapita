@@ -1,0 +1,263 @@
+{
+  "entityId": "cavallerisses-roquer",
+  "historicalEvidence": {
+    "description": "Annexos a torre i bateria; cossos concrets pendents de calcar sobre plànols militars. Ajust del visor (31/10/2026): Tres peces D de cavalleria i tres peces E d’infanteria segueixen les plantes individuals traçades al redibuix de 1748. S’eliminen els rectangles agregats anteriors. Les dependències de 1781 continuen com a cos d’assaig diferenciat, sense identificar-les documentalment amb D o E.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,2,4"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "quarters",
+      "anchor": [
+        296398.6556884499,
+        4499182.022885049
+      ],
+      "footprintUTM": [
+        [
+          296396.48586197593,
+          4499186.471688604
+        ],
+        [
+          296394.20688489475,
+          4499179.853058575
+        ],
+        [
+          296400.8255149239,
+          4499177.574081494
+        ],
+        [
+          296403.1044920051,
+          4499184.192711523
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-caballeria-1748",
+      "anchor": [
+        296384.99771919835,
+        4499222.163132763
+      ],
+      "footprintUTM": [
+        [
+          296389.1988163046,
+          4499220.636464257
+        ],
+        [
+          296380.832464,
+          4499220.846738158
+        ],
+        [
+          296380.8279295883,
+          4499223.62561139
+        ],
+        [
+          296389.1316669005,
+          4499223.543717247
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "D",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-caballeria-1748-2",
+      "anchor": [
+        296379.3716897274,
+        4499225.756035239
+      ],
+      "footprintUTM": [
+        [
+          296381.6013579214,
+          4499224.320675856
+        ],
+        [
+          296377.13011475326,
+          4499224.364772702
+        ],
+        [
+          296377.12558034173,
+          4499227.143645934
+        ],
+        [
+          296381.6297058934,
+          4499227.195046465
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "D",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-caballeria-1748-3",
+      "anchor": [
+        296386.46876458003,
+        4499225.58223478
+      ],
+      "footprintUTM": [
+        [
+          296388.65732979454,
+          4499224.027503678
+        ],
+        [
+          296384.21896901,
+          4499224.167097899
+        ],
+        [
+          296384.2801993656,
+          4499227.136965883
+        ],
+        [
+          296388.71856015007,
+          4499226.9973716615
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "D",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-infanteria-1748",
+      "anchor": [
+        296386.4556634133,
+        4499229.111795604
+      ],
+      "footprintUTM": [
+        [
+          296388.72170992475,
+          4499227.316746174
+        ],
+        [
+          296384.1878517641,
+          4499227.489222779
+        ],
+        [
+          296384.18961690186,
+          4499230.906845035
+        ],
+        [
+          296388.72347506246,
+          4499230.73436843
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "E",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-infanteria-1748-2",
+      "anchor": [
+        296381.10377800616,
+        4499228.925023447
+      ],
+      "footprintUTM": [
+        [
+          296383.4175732057,
+          4499227.113532824
+        ],
+        [
+          296378.7553352853,
+          4499227.223394436
+        ],
+        [
+          296378.78998280666,
+          4499230.736514068
+        ],
+        [
+          296383.452220727,
+          4499230.626652457
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "E",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "cuartel-infanteria-1748-3",
+      "anchor": [
+        296382.41671101924,
+        4499232.505387608
+      ],
+      "footprintUTM": [
+        [
+          296386.14189613215,
+          4499231.302818275
+        ],
+        [
+          296378.60528760374,
+          4499231.44102786
+        ],
+        [
+          296378.7228334025,
+          4499233.643767061
+        ],
+        [
+          296386.1968269384,
+          4499233.633937236
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "E",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

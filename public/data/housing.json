@@ -107,29 +107,6 @@
       "front": "east",
       "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
     },
-    "smallRows": [
-      {
-        "across": 113,
-        "startAlong": -31,
-        "spacing": 4.8,
-        "count": 5,
-        "front": "east"
-      },
-      {
-        "across": 128,
-        "startAlong": -28,
-        "spacing": 4.8,
-        "count": 5,
-        "front": "west"
-      },
-      {
-        "across": 143,
-        "startAlong": -23,
-        "spacing": 4.8,
-        "count": 4,
-        "front": "east"
-      }
-    ],
     "manzana": {
       "across": -60,
       "along": 105,
@@ -139,7 +116,149 @@
       "countedUnits": 24,
       "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
     },
-    "smallCoastAdjustment": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals."
+    "smallCoastAdjustment": "Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
+    "coastalHouses": [
+      {
+        "anchor": [
+          296483.7697247865,
+          4499277.5570266675
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296482.81980135146,
+          4499272.412821629
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296481.8698779164,
+          4499267.268616592
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296480.91995448136,
+          4499262.124411554
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296464.7677199083,
+          4499260.269143311
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296462.9579274554,
+          4499255.139947344
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296461.1481350026,
+          4499250.010751376
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296459.3383425497,
+          4499244.881555407
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 2,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296457.66384793434,
+          4499332.746839811
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296455.8732230848,
+          4499327.546487645
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296454.0825982353,
+          4499322.346135479
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296452.2919733858,
+          4499317.145783314
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296450.5013485362,
+          4499311.945431148
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      },
+      {
+        "anchor": [
+          296448.71072368673,
+          4499306.745078982
+        ],
+        "frontAzimuthDegrees": 109,
+        "cluster": 3,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      }
+    ]
   },
   "typologies": {
     "large": {
@@ -208,6 +327,12 @@
       "title": "ICGC, Ortofoto Territorial 2024 i Mapa Base Topogràfic",
       "local": "docs/sources/nucleo-ortofoto-2024.jpg; docs/sources/nucleo-topografico.jpg",
       "use": "Lectura d’alineacions actuals i noms de carrers. No es trasllada el parcel·lari contemporani al 1800."
+    },
+    {
+      "id": "PORT-1813",
+      "title": "Plano del puerto Alfaques, Felipe Bauza, 1813; carta antiga T0025916",
+      "local": "PORT/planol 1813 port alfacs.jpg; PORT/T0025916.jpg",
+      "use": "Agrupacions de petits cossos a tocar del front litoral i relacio amb el promontori. Els simbols no permeten identificar ni comptar les 14 parcelles de 1794. No sutilitzen com a aixecament metric."
     }
   ],
   "structures": [
@@ -2332,11 +2457,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296486.10548625456,
-        "northing": 4499298.628322703
+        "easting": 296483.7697247865,
+        "northing": 4499277.5570266675
       },
-      "across": 113,
-      "along": -31,
+      "across": 117.65163710601172,
+      "along": -51.68375136370915,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2348,30 +2473,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 1,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296488.6985513293,
-          4499295.408693296
+          296486.3627898613,
+          4499274.337397261
         ],
         [
-          296490.13105120894,
-          4499299.568975029
+          296487.7952897409,
+          4499278.497678993
         ],
         [
-          296483.5124211798,
-          4499301.84795211
+          296481.17665971175,
+          4499280.776656074
         ],
         [
-          296482.0799213002,
-          4499297.687670377
+          296479.74415983213,
+          4499276.616374342
         ]
       ],
       "terrain": {
-        "minimum": 2.718078376738706,
-        "maximum": 3.294455685822849,
-        "technicalBaseElevation": 3.374455685822849,
+        "minimum": 2.695818258860743,
+        "maximum": 2.932491379689096,
+        "technicalBaseElevation": 3.012491379689096,
         "historicalElevation": null
       }
     },
@@ -2380,11 +2507,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296487.668213396,
-        "northing": 4499303.166811866
+        "easting": 296482.81980135146,
+        "northing": 4499272.412821629
       },
-      "across": 113,
-      "along": -26.2,
+      "across": 118.42825619328619,
+      "along": -56.85695760386707,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2396,30 +2523,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 1,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296490.26127847075,
-          4499299.947182459
+          296485.4128664262,
+          4499269.193192222
         ],
         [
-          296491.69377835037,
-          4499304.1074641915
+          296486.84536630585,
+          4499273.353473955
         ],
         [
-          296485.0751483212,
-          4499306.386441273
+          296480.2267362767,
+          4499275.632451036
         ],
         [
-          296483.6426484416,
-          4499302.22615954
+          296478.7942363971,
+          4499271.472169303
         ]
       ],
       "terrain": {
-        "minimum": 3.170491729924138,
-        "maximum": 3.8331054563447813,
-        "technicalBaseElevation": 3.9131054563447814,
+        "minimum": 2.629809186002668,
+        "maximum": 2.93168298680354,
+        "technicalBaseElevation": 3.01168298680354,
         "historicalElevation": null
       }
     },
@@ -2428,11 +2557,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296489.23094053735,
-        "northing": 4499307.705301029
+        "easting": 296481.8698779164,
+        "northing": 4499267.268616592
       },
-      "across": 113,
-      "along": -21.4,
+      "across": 119.20487528025745,
+      "along": -62.0301638431444,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2444,30 +2573,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 1,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296491.8240056121,
-          4499304.485671622
+          296484.4629429912,
+          4499264.048987185
         ],
         [
-          296493.25650549174,
-          4499308.645953354
+          296485.8954428708,
+          4499268.209268917
         ],
         [
-          296486.6378754626,
-          4499310.924930436
+          296479.27681284165,
+          4499270.4882459985
         ],
         [
-          296485.20537558297,
-          4499306.764648703
+          296477.844312962,
+          4499266.327964266
         ]
       ],
       "terrain": {
-        "minimum": 3.5479663170510953,
-        "maximum": 4.307524480045574,
-        "technicalBaseElevation": 4.387524480045574,
+        "minimum": 2.5465391968939257,
+        "maximum": 2.800566807551224,
+        "technicalBaseElevation": 2.880566807551224,
         "historicalElevation": null
       }
     },
@@ -2476,11 +2607,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296490.7936676788,
-        "northing": 4499312.243790192
+        "easting": 296480.91995448136,
+        "northing": 4499262.124411554
       },
-      "across": 113,
-      "along": -16.6,
+      "across": 119.9814943672287,
+      "along": -67.20337008242173,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2492,30 +2623,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 1,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296493.38673275354,
-          4499309.024160785
+          296483.5130195561,
+          4499258.904782147
         ],
         [
-          296494.81923263316,
-          4499313.184442517
+          296484.94551943574,
+          4499263.06506388
         ],
         [
-          296488.200602604,
-          4499315.4634195985
+          296478.3268894066,
+          4499265.344040961
         ],
         [
-          296486.7681027244,
-          4499311.303137866
+          296476.894389527,
+          4499261.183759228
         ]
       ],
       "terrain": {
-        "minimum": 3.906030340815155,
-        "maximum": 4.541103004277002,
-        "technicalBaseElevation": 4.6211030042770025,
+        "minimum": 2.2763758572282113,
+        "maximum": 2.5725460846747636,
+        "technicalBaseElevation": 2.6525460846747637,
         "historicalElevation": null
       }
     },
@@ -2524,11 +2657,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296492.35639482015,
-        "northing": 4499316.7822793545
+        "easting": 296464.7677199083,
+        "northing": 4499260.269143311
       },
-      "across": 113,
-      "along": -11.8,
+      "across": 105.31327279880917,
+      "along": -74.2162138689809,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2540,30 +2673,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 2,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296494.9494598949,
-          4499313.562649948
+          296467.3607849831,
+          4499257.049513904
         ],
         [
-          296496.38195977453,
-          4499317.72293168
+          296468.7932848627,
+          4499261.209795637
         ],
         [
-          296489.7633297454,
-          4499320.001908761
+          296462.17465483357,
+          4499263.488772718
         ],
         [
-          296488.33082986576,
-          4499315.841627029
+          296460.74215495394,
+          4499259.328490986
         ]
       ],
       "terrain": {
-        "minimum": 4.034677002688038,
-        "maximum": 4.540048917085218,
-        "technicalBaseElevation": 4.620048917085218,
+        "minimum": 2.7082742517216567,
+        "maximum": 3.5758267097396423,
+        "technicalBaseElevation": 3.6558267097396424,
         "historicalElevation": null
       }
     },
@@ -2572,12 +2707,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296501.26496935193,
-        "northing": 4499296.581356113
+        "easting": 296462.9579274554,
+        "northing": 4499255.139947344
       },
-      "across": 128,
-      "along": -28,
-      "frontAzimuthDegrees": -71,
+      "across": 105.2719832816631,
+      "along": -79.65517472316102,
+      "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2588,30 +2723,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 2,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296498.6719042772,
-          4499299.80098552
+          296465.5509925302,
+          4499251.920317937
         ],
         [
-          296497.23940439755,
-          4499295.640703787
+          296466.9834924098,
+          4499256.080599669
         ],
         [
-          296503.8580344267,
-          4499293.361726706
+          296460.36486238067,
+          4499258.359576751
         ],
         [
-          296505.2905343063,
-          4499297.522008439
+          296458.93236250104,
+          4499254.199295018
         ]
       ],
       "terrain": {
-        "minimum": 2.542601085166893,
-        "maximum": 3.041813213810003,
-        "technicalBaseElevation": 3.121813213810003,
+        "minimum": 2.741035985893616,
+        "maximum": 3.572547063080547,
+        "technicalBaseElevation": 3.652547063080547,
         "historicalElevation": null
       }
     },
@@ -2620,12 +2757,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296502.8276964933,
-        "northing": 4499301.119845276
+        "easting": 296461.1481350026,
+        "northing": 4499250.010751376
       },
-      "across": 128,
-      "along": -23.2,
-      "frontAzimuthDegrees": -71,
+      "across": 105.23069376457207,
+      "along": -85.09413557732219,
+      "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2636,30 +2773,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 2,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296500.23463141854,
-          4499304.339474683
+          296463.74120007735,
+          4499246.791121969
         ],
         [
-          296498.8021315389,
-          4499300.17919295
+          296465.17369995697,
+          4499250.951403702
         ],
         [
-          296505.42076156806,
-          4499297.900215869
+          296458.5550699278,
+          4499253.230380783
         ],
         [
-          296506.8532614477,
-          4499302.0604976015
+          296457.1225700482,
+          4499249.07009905
         ]
       ],
       "terrain": {
-        "minimum": 2.8829874268337674,
-        "maximum": 3.4314380292473343,
-        "technicalBaseElevation": 3.5114380292473344,
+        "minimum": 2.7633590136375004,
+        "maximum": 3.6378844196648785,
+        "technicalBaseElevation": 3.7178844196648786,
         "historicalElevation": null
       }
     },
@@ -2668,12 +2807,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296504.3904236347,
-        "northing": 4499305.658334439
+        "easting": 296459.3383425497,
+        "northing": 4499244.881555407
       },
-      "across": 128,
-      "along": -18.4,
-      "frontAzimuthDegrees": -71,
+      "across": 105.1894042477292,
+      "along": -90.53309643238289,
+      "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2684,30 +2823,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 2,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296501.7973585599,
-          4499308.877963846
+          296461.93140762445,
+          4499241.661926
         ],
         [
-          296500.3648586803,
-          4499304.717682113
+          296463.36390750407,
+          4499245.822207733
         ],
         [
-          296506.98348870943,
-          4499302.438705032
+          296456.7452774749,
+          4499248.101184814
         ],
         [
-          296508.41598858905,
-          4499306.598986764
+          296455.3127775953,
+          4499243.940903082
         ]
       ],
       "terrain": {
-        "minimum": 2.982793458616622,
-        "maximum": 3.641988142762515,
-        "technicalBaseElevation": 3.721988142762515,
+        "minimum": 2.762841096589078,
+        "maximum": 3.5709654870049494,
+        "technicalBaseElevation": 3.6509654870049495,
         "historicalElevation": null
       }
     },
@@ -2716,12 +2857,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296505.9531507761,
-        "northing": 4499310.196823602
+        "easting": 296457.66384793434,
+        "northing": 4499332.746839811
       },
-      "across": 128,
-      "along": -13.600000000000001,
-      "frontAzimuthDegrees": -71,
+      "across": 74.99999999998232,
+      "along": -7.999999999853689,
+      "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2732,30 +2873,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296503.36008570134,
-          4499313.416453009
+          296460.2569130091,
+          4499329.527210404
         ],
         [
-          296501.9275858217,
-          4499309.256171276
+          296461.6894128887,
+          4499333.687492137
         ],
         [
-          296508.54621585086,
-          4499306.977194195
+          296455.0707828596,
+          4499335.966469218
         ],
         [
-          296509.9787157305,
-          4499311.137475927
+          296453.63828297995,
+          4499331.806187485
         ]
       ],
       "terrain": {
-        "minimum": 2.9845937607920376,
-        "maximum": 3.6277536133737365,
-        "technicalBaseElevation": 3.7077536133737365,
+        "minimum": 6.843039600230441,
+        "maximum": 7.047079413543872,
+        "technicalBaseElevation": 7.127079413543872,
         "historicalElevation": null
       }
     },
@@ -2764,12 +2907,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296507.51587791747,
-        "northing": 4499314.7353127645
+        "easting": 296455.8732230848,
+        "northing": 4499327.546487645
       },
-      "across": 128,
-      "along": -8.8,
-      "frontAzimuthDegrees": -71,
+      "across": 74.99999999995936,
+      "along": -13.499999999916351,
+      "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2780,30 +2923,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296504.9228128427,
-          4499317.954942171
+          296458.46628815954,
+          4499324.326858238
         ],
         [
-          296503.4903129631,
-          4499313.794660439
+          296459.89878803917,
+          4499328.487139971
         ],
         [
-          296510.1089429922,
-          4499311.515683358
+          296453.28015801,
+          4499330.766117052
         ],
         [
-          296511.54144287185,
-          4499315.67596509
+          296451.8476581304,
+          4499326.6058353195
         ]
       ],
       "terrain": {
-        "minimum": 3.0893480434892737,
-        "maximum": 3.5742750003898776,
-        "technicalBaseElevation": 3.6542750003898776,
+        "minimum": 6.358314980615372,
+        "maximum": 7.099841484839191,
+        "technicalBaseElevation": 7.179841484839191,
         "historicalElevation": null
       }
     },
@@ -2812,11 +2957,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296517.0755887582,
-        "northing": 4499296.425426674
+        "easting": 296454.0825982353,
+        "northing": 4499322.346135479
       },
-      "across": 143,
-      "along": -23,
+      "across": 74.99999999999143,
+      "along": -18.99999999996007,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2828,30 +2973,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296519.668653833,
-          4499293.205797267
+          296456.67566331004,
+          4499319.1265060725
         ],
         [
-          296521.1011537126,
-          4499297.366079
+          296458.10816318967,
+          4499323.286787805
         ],
         [
-          296514.48252368346,
-          4499299.645056081
+          296451.4895331605,
+          4499325.565764886
         ],
         [
-          296513.05002380384,
-          4499295.484774348
+          296450.0570332809,
+          4499321.405483154
         ]
       ],
       "terrain": {
-        "minimum": 2.334870265553824,
-        "maximum": 2.6159397940499787,
-        "technicalBaseElevation": 2.6959397940499787,
+        "minimum": 6.261568951976887,
+        "maximum": 6.553875072991057,
+        "technicalBaseElevation": 6.633875072991057,
         "historicalElevation": null
       }
     },
@@ -2860,11 +3007,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296518.6383158996,
-        "northing": 4499300.963915837
+        "easting": 296452.2919733858,
+        "northing": 4499317.145783314
       },
-      "across": 143,
-      "along": -18.2,
+      "across": 75.0000000000235,
+      "along": -24.50000000000378,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2876,30 +3023,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296521.23138097435,
-          4499297.74428643
+          296454.88503846055,
+          4499313.926153907
         ],
         [
-          296522.663880854,
-          4499301.904568163
+          296456.31753834017,
+          4499318.086435639
         ],
         [
-          296516.0452508248,
-          4499304.183545244
+          296449.698908311,
+          4499320.3654127205
         ],
         [
-          296514.6127509452,
-          4499300.023263511
+          296448.2664084314,
+          4499316.205130988
         ]
       ],
       "terrain": {
-        "minimum": 2.280370271251689,
-        "maximum": 2.6980717483394945,
-        "technicalBaseElevation": 2.7780717483394946,
+        "minimum": 6.340998037597829,
+        "maximum": 6.726899703007976,
+        "technicalBaseElevation": 6.806899703007976,
         "historicalElevation": null
       }
     },
@@ -2908,11 +3057,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296520.201043041,
-        "northing": 4499305.502405
+        "easting": 296450.5013485362,
+        "northing": 4499311.945431148
       },
-      "across": 143,
-      "along": -13.4,
+      "across": 75.00000000000054,
+      "along": -30.00000000006645,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2924,30 +3073,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296522.7941081158,
-          4499302.282775593
+          296453.094413611,
+          4499308.725801741
         ],
         [
-          296524.2266079954,
-          4499306.443057326
+          296454.5269134906,
+          4499312.886083473
         ],
         [
-          296517.60797796625,
-          4499308.722034407
+          296447.90828346147,
+          4499315.165060555
         ],
         [
-          296516.17547808663,
-          4499304.561752674
+          296446.47578358185,
+          4499311.004778822
         ]
       ],
       "terrain": {
-        "minimum": 2.1872912497950816,
-        "maximum": 2.6094428562242413,
-        "technicalBaseElevation": 2.6894428562242414,
+        "minimum": 6.602824712440432,
+        "maximum": 6.923849150560636,
+        "technicalBaseElevation": 7.003849150560636,
         "historicalElevation": null
       }
     },
@@ -2956,11 +3107,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296521.7637701824,
-        "northing": 4499310.040894163
+        "easting": 296448.71072368673,
+        "northing": 4499306.745078982
       },
-      "across": 143,
-      "along": -8.600000000000001,
+      "across": 75.0000000000326,
+      "along": -35.50000000011017,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2972,30 +3123,32 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "finished",
-      "layoutBasis": "group-location-inference",
-      "terrace": false,
+      "layoutBasis": "N112-relational-layout-study",
+      "coastalCluster": 3,
+      "shoreSetbackMeters": null,
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296524.35683525715,
-          4499306.821264756
+          296451.3037887615,
+          4499303.525449575
         ],
         [
-          296525.78933513677,
-          4499310.981546489
+          296452.7362886411,
+          4499307.685731308
         ],
         [
-          296519.1707051076,
-          4499313.26052357
+          296446.11765861197,
+          4499309.964708389
         ],
         [
-          296517.738205228,
-          4499309.100241837
+          296444.68515873235,
+          4499305.804426656
         ]
       ],
       "terrain": {
-        "minimum": 2.1728212220113012,
-        "maximum": 2.6075403133174326,
-        "technicalBaseElevation": 2.6875403133174327,
+        "minimum": 6.910037210367545,
+        "maximum": 7.159198536039928,
+        "technicalBaseElevation": 7.239198536039928,
         "historicalElevation": null
       }
     },

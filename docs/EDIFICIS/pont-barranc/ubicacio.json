@@ -1,0 +1,53 @@
+{
+  "entityId": "pont-barranc",
+  "historicalEvidence": {
+    "description": "Entrada de Barcelona, al començament de l’actual Sant Josep, donant accés a les Alamedes; barranc avui soterrat.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.25"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "pont-monges",
+      "anchor": [
+        296436.5618823963,
+        4499501.828793462
+      ],
+      "footprintUTM": [
+        [
+          296430.50083101273,
+          4499496.512436051
+        ],
+        [
+          296438.0649796175,
+          4499493.907890815
+        ],
+        [
+          296442.62293377984,
+          4499507.145150874
+        ],
+        [
+          296435.0587851751,
+          4499509.749696109
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

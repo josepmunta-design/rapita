@@ -1,0 +1,62 @@
+# Catorze cases petites del litoral
+
+Revisió: **31/10/2026** · tipologia. Expedient per a reconstrucció i col·locació per èpoques.
+
+[Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
+
+## Col·locació
+
+Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari.
+
+Certesa: B relacional / C mètrica.
+
+[N112](../fonts-20261031/originals/N112.pdf) · il·l.4 art.4
+
+**Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
+
+## Descripció documentada
+
+- 14 cases o habitacions petites reials acabades fora de la Mançana; les 24 restants petites són dins de la Mançana antiga. [N112](../fonts-20261031/originals/N112.pdf) · art.4 p.230–231
+- Conviuen amb cases o coberts de pescadors de propietat privada; no equiparar tota barraca visible a una d’aquestes 14. [N112](../fonts-20261031/originals/N112.pdf) · p.211
+
+## Canvis i testimonis per època
+
+### 1794-05-20 · 14 unitats petites
+
+Grup agregat del patrimoni reial.
+
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
+[N112](../fonts-20261031/originals/N112.pdf) · art.4
+
+### Sense data fixada · Façanes litorals del XX
+
+Serveixen per estudiar transformacions i no per adjudicar números de 1794.
+
+Tipus: comparació. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
+[N043](../fonts-20261031/originals/N043.jpg) · fitxer o imatge completa; [N044](../fonts-20261031/originals/N044.jpg) · fitxer o imatge completa; [N093](../fonts-20261031/originals/N093.jpg) · fitxer o imatge completa
+
+## Fotografies i plànols de comparació
+
+- [N043 · Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N043.jpg) · data original no fixada. Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
+- [N044 · Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N044.jpg) · data original no fixada. Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
+- [N093 · Front portuari acolorit](../fonts-20261031/originals/N093.jpg) · data original no fixada. Barques, cases i molls d’una fase posterior; colors no validats.
+
+## Aplicació al model i treball pendent
+
+- [ ] Conservar les 14 unitats i els estats de linventari de 1794.
+- [ ] Diferenciar agrupacions litorals de la trama del projecte reial; verificar identitats i afrontacions abans de donar les posicions per mesurades.
+
+### Dades encara desconegudes
+
+- Planta històrica georeferenciada amb error d’ajust independent.
+- Alçàries i gruixos mesurats i datació de cada fàbrica.
+- Correspondència parcel·lària i persistència entre testimonis.
+
+## Fonts utilitzades
+
+- **N043** · [Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N043.jpg). Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
+- **N044** · [Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N044.jpg). Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
+- **N093** · [Front portuari acolorit](../fonts-20261031/originals/N093.jpg). Barques, cases i molls d’una fase posterior; colors no validats.
+- **N112** · [Pilar Reverté Vidal Recerca 20](../fonts-20261031/originals/N112.pdf). Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre base ICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos.

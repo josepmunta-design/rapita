@@ -1,0 +1,1491 @@
+{
+  "sourceRoot": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita",
+  "reviewed": "2026-10-31",
+  "records": [
+    {
+      "id": "N001",
+      "file": "1908_Cartoteca.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\1908_Cartoteca.jpg",
+      "bytes": 156648,
+      "sha256": "1acb89c475e436b061ce2e7971e77e89c211928e45d3863a6ac49619346d0a96",
+      "review": "inventariat",
+      "width": 729,
+      "height": 1093,
+      "exif": {}
+    },
+    {
+      "id": "N002",
+      "file": "20210809_180227.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\20210809_180227.jpg",
+      "bytes": 3471830,
+      "sha256": "fc51b01e8eb9135dc82f60fab0196e45dfa2a2440c5af62bbb845066a0da5368",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 1960,
+      "exif": {
+        "306": "2021:08:09 18:02:27"
+      }
+    },
+    {
+      "id": "N003",
+      "file": "ACA_31757111.JPG",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\ACA_31757111.JPG",
+      "bytes": 919772,
+      "sha256": "6d481c10f35634ae089c50bcdd9e67913131868397c693ae3ba8d42e5cfe7ea9",
+      "review": "inventariat",
+      "width": 2608,
+      "height": 3429,
+      "exif": {
+        "306": "2012:07:02 13:11:18",
+        "33432": "Gobierno de EspaÃ±a. Ministerio de Cultura. Archivo de la Corona de AragÃ³n"
+      }
+    },
+    {
+      "id": "N004",
+      "file": "descripcio poble/1490380918_1000214.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\1490380918_1000214.pdf",
+      "bytes": 162505,
+      "sha256": "d3a5bdd1f94345634af1c40cc3af4042f584311a51e4b0e9e3cf3db3543dc8a7",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230225111655+01'00'",
+        "/CreationDate": "D:20230225111655+01'00'",
+        "/Producer": "iText 2.1.4 (by lowagie.com)"
+      }
+    },
+    {
+      "id": "N005",
+      "file": "descripcio poble/1661754096_1000214.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\1661754096_1000214.pdf",
+      "bytes": 151064,
+      "sha256": "fa66c172fcd0c569a0d8b6db43c8c96917e84c857576d93d2206a481e0ef7afd",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230225111710+01'00'",
+        "/CreationDate": "D:20230225111710+01'00'",
+        "/Producer": "iText 2.1.4 (by lowagie.com)"
+      }
+    },
+    {
+      "id": "N006",
+      "file": "descripcio poble/2048991127_1000214.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\2048991127_1000214.pdf",
+      "bytes": 159627,
+      "sha256": "c791efc98bfedda91ba3a578ced95c60a16caf6cda533b632b114202ad81ec1d",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230225111632+01'00'",
+        "/CreationDate": "D:20230225111632+01'00'",
+        "/Producer": "iText 2.1.4 (by lowagie.com)"
+      }
+    },
+    {
+      "id": "N007",
+      "file": "descripcio poble/732405664_1000214.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\732405664_1000214.pdf",
+      "bytes": 154652,
+      "sha256": "25020d4418c857ce1236815620ce1139fe6c8acdce79a4821b2af7cdb0e10aa6",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230225111034+01'00'",
+        "/CreationDate": "D:20230225111034+01'00'",
+        "/Producer": "iText 2.1.4 (by lowagie.com)"
+      }
+    },
+    {
+      "id": "N008",
+      "file": "descripcio poble/804592946_1000214.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\804592946_1000214.pdf",
+      "bytes": 168756,
+      "sha256": "72124ea0253ceca44b4af2e17f9ae77ad1e94616f82e5d3ee2fcbfd1080f11a9",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230225111408+01'00'",
+        "/CreationDate": "D:20230225111408+01'00'",
+        "/Producer": "iText 2.1.4 (by lowagie.com)"
+      }
+    },
+    {
+      "id": "N009",
+      "file": "descripcio poble/chi-22139513-72-1677318883.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\chi-22139513-72-1677318883.pdf",
+      "bytes": 336442,
+      "sha256": "3800286b3b97423afa2390761076c4374c4f01235c04878e3cc4f6b05f2c0461",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        1125
+      ],
+      "metadata": {
+        "/Author": "Jaubert de Passa, François Jacques, baron, 1785-1856",
+        "/CreationDate": "D:20230225095444",
+        "/Creator": "HathiTrust",
+        "/Producer": "HathiTrust Image Server / PDF::API2",
+        "/Title": "Canales de riego de Cataluña y reino de Valencia; leyes y costumbres que los rigen: reglamentos y ordenanzas de sus principales acequias. Traducida al castellano por Juan Fiol. Publicada y adicionada por la Sociedad Económica de Amigos del Pais."
+      }
+    },
+    {
+      "id": "N010",
+      "file": "descripcio poble/Descripcio poble_AHL260-76_1.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\Descripcio poble_AHL260-76_1.jpg",
+      "bytes": 859609,
+      "sha256": "078b3a864c88d77ddad2945da7e6cc8dcca9e6037ed1f3831c25c612bd2853f1",
+      "review": "inventariat",
+      "width": 1891,
+      "height": 2561,
+      "exif": {}
+    },
+    {
+      "id": "N011",
+      "file": "descripcio poble/Descripcio poble_AHL260-76_2.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\Descripcio poble_AHL260-76_2.jpg",
+      "bytes": 844276,
+      "sha256": "f6100b4ef4c004d41dfed335aef72492a4cc30ea507f1939ab18cb80414b7011",
+      "review": "inventariat",
+      "width": 1890,
+      "height": 2561,
+      "exif": {}
+    },
+    {
+      "id": "N012",
+      "file": "descripcio poble/jaubert de passa.docx",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\jaubert de passa.docx",
+      "bytes": 3792395,
+      "sha256": "2bb03eef5bf7313e2fd9b7c7b0a2dd5deec6a92654ebf0ee5d9318dc742035aa",
+      "review": "inventariat",
+      "paragraphs": 15,
+      "embeddedMedia": [
+        "word/media/image1.png",
+        "word/media/image9.png",
+        "word/media/image11.jpeg",
+        "word/media/image12.jpeg",
+        "word/media/image13.jpeg",
+        "word/media/image8.png",
+        "word/media/image10.jpeg",
+        "word/media/image6.png",
+        "word/media/image2.png",
+        "word/media/image3.png",
+        "word/media/image7.png",
+        "word/media/image5.png",
+        "word/media/image4.png"
+      ]
+    },
+    {
+      "id": "N013",
+      "file": "descripcio poble/laborde/Laaborde_amb gravats.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\Laaborde_amb gravats.pdf",
+      "bytes": 395898,
+      "sha256": "ab148437bd4286444d4e476916952370603132bfb97288f7ba95a6c83465cefc",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        4361
+      ],
+      "metadata": {
+        "/ModDate": "D:20230428132215+02'00'",
+        "/CreationDate": "D:20230428132215+02'00'",
+        "/Producer": "iText 2.1.7 by 1T3XT"
+      }
+    },
+    {
+      "id": "N014",
+      "file": "descripcio poble/laborde/laborde_1826-96.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\laborde_1826-96.pdf",
+      "bytes": 230138,
+      "sha256": "0138c1d6f60ff03fa4f3792a48ed5036e7d6ecf53f29720f14fc9f1c26f353a0",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        285
+      ],
+      "metadata": {
+        "/Producer": "iLovePDF",
+        "/ModDate": "D:20230428095407Z"
+      }
+    },
+    {
+      "id": "N015",
+      "file": "descripcio poble/laborde/laborde_1826-96_page-0001.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\laborde_1826-96_page-0001.jpg",
+      "bytes": 471079,
+      "sha256": "923f9bec1fbfa201ba105f0f37ab8376cce72a3a55e58b253cd68dbc97fe5e71",
+      "review": "inventariat",
+      "width": 691,
+      "height": 1360,
+      "exif": {}
+    },
+    {
+      "id": "N016",
+      "file": "descripcio poble/laborde/laborde_descripcio.docx",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\laborde_descripcio.docx",
+      "bytes": 709114,
+      "sha256": "2c2b7f63002d3356063e173a53ce497cfdc1b9194ff40b7ef5948fcc383e86cc",
+      "review": "inventariat",
+      "paragraphs": 33,
+      "embeddedMedia": [
+        "word/media/image1.jpeg",
+        "word/media/image4.png",
+        "word/media/image2.jpeg",
+        "word/media/image3.jpeg"
+      ]
+    },
+    {
+      "id": "N017",
+      "file": "descripcio poble/laborde/Laborde_gravats1.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\Laborde_gravats1.pdf",
+      "bytes": 725215,
+      "sha256": "ec5a8d16ce1b9513b0a76f57898d548e7309eec2d00068ec27bab1a1e3db88e2",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        0
+      ],
+      "metadata": {
+        "/ModDate": "D:20230428132445+02'00'",
+        "/CreationDate": "D:20230428132445+02'00'",
+        "/Producer": "iText 2.1.7 by 1T3XT"
+      }
+    },
+    {
+      "id": "N018",
+      "file": "descripcio poble/laborde/Laborde_gravats2.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\Laborde_gravats2.pdf",
+      "bytes": 462125,
+      "sha256": "8a867d48fa5ca212793b2670d75e4589e359ff4edb3f08ac4486e9ae28bb6081",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        7328
+      ],
+      "metadata": {
+        "/ModDate": "D:20230428132620+02'00'",
+        "/CreationDate": "D:20230428132620+02'00'",
+        "/Producer": "iText 2.1.7 by 1T3XT"
+      }
+    },
+    {
+      "id": "N019",
+      "file": "descripcio poble/laborde/Laborde_gravats3.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\Laborde_gravats3.pdf",
+      "bytes": 395898,
+      "sha256": "6bb93fbf94a6c2f75ea09bbebb0cfc447c68853bea76cb1d814d01da48d56c59",
+      "review": "inventariat",
+      "pages": 1,
+      "pageTextLengths": [
+        4361
+      ],
+      "metadata": {
+        "/ModDate": "D:20230428132636+02'00'",
+        "/CreationDate": "D:20230428132636+02'00'",
+        "/Producer": "iText 2.1.7 by 1T3XT"
+      }
+    },
+    {
+      "id": "N020",
+      "file": "descripcio poble/laborde/Nuevo Documento de Microsoft Word.docx",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\laborde\\Nuevo Documento de Microsoft Word.docx",
+      "bytes": 190205,
+      "sha256": "82985fbc57b7a36f936ce502c4f1f85493b14bd40b4b1caf0980f9bbf93fe63b",
+      "review": "inventariat",
+      "paragraphs": 6,
+      "embeddedMedia": [
+        "word/media/image1.png"
+      ]
+    },
+    {
+      "id": "N021",
+      "file": "descripcio poble/Laborde_descripció poble.docx",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\Laborde_descripció poble.docx",
+      "bytes": 7162627,
+      "sha256": "782af89be6cce3e1ab06016a57202b4fa3ac5b9958eb3ed7aa273096b388bf08",
+      "review": "inventariat",
+      "paragraphs": 34,
+      "embeddedMedia": [
+        "word/media/image1.png",
+        "word/media/image5.png",
+        "word/media/image4.jpg",
+        "word/media/image3.png",
+        "word/media/image2.png"
+      ]
+    },
+    {
+      "id": "N022",
+      "file": "descripcio poble/Ponz_Volum 13.odt",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\descripcio poble\\Ponz_Volum 13.odt",
+      "bytes": 420099,
+      "sha256": "8a85c175c4cf8c07d597e2d557bf825b54019cca39936d64bc538b0ed4bbfcb2",
+      "review": "inventariat",
+      "paragraphs": 21,
+      "embeddedMedia": [
+        "media/image1.png",
+        "media/image4.png",
+        "media/image3.png",
+        "media/image2.png",
+        "media/image5.png"
+      ]
+    },
+    {
+      "id": "N023",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_120254.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_120254.jpg",
+      "bytes": 3918952,
+      "sha256": "c439168a7b73532d783bd08d2d83de1cc3faaa2892529c31023787d1faacb829",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:02:54"
+      }
+    },
+    {
+      "id": "N024",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_120306.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_120306.jpg",
+      "bytes": 3999177,
+      "sha256": "1a398b0063e50af2d267cc678241c9ab4c0319370bc3b8fe80cfbe387f922235",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:03:06"
+      }
+    },
+    {
+      "id": "N025",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_121052.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_121052.jpg",
+      "bytes": 3709901,
+      "sha256": "813d9dd5214ac47dd55e88687a248aae67d4bc219734ad49490f4ec539838070",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:10:52"
+      }
+    },
+    {
+      "id": "N026",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_121101.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_121101.jpg",
+      "bytes": 3635218,
+      "sha256": "85584132885bff401a25054331c495dcb09e5981ef0b79d53e479c57bfe8b76f",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:11:01"
+      }
+    },
+    {
+      "id": "N027",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_123138.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_123138.jpg",
+      "bytes": 3527741,
+      "sha256": "7d9e13817a0fee379d2e1dd2a1589daa24bb29de1f0b0b4ff495314272c042c3",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:31:38"
+      }
+    },
+    {
+      "id": "N028",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_123151.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_123151.jpg",
+      "bytes": 3982710,
+      "sha256": "b9f2580e31359898fcaac9922b10dc92efdeb37f77d56cc7d15d9c2c45263647",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:31:51"
+      }
+    },
+    {
+      "id": "N029",
+      "file": "DESCRIPCIO RAPITA_1780/20251125_123159.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\DESCRIPCIO RAPITA_1780\\20251125_123159.jpg",
+      "bytes": 4251106,
+      "sha256": "62ddf4317cc983d84f7584a426fe4fe4a73805fb2ac61c8bde1f28e18cbc7790",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2025:11:25 12:31:59"
+      }
+    },
+    {
+      "id": "N030",
+      "file": "FOTOS I POSTALS/130267878_3381205301992488_7654617715339037590_o.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\130267878_3381205301992488_7654617715339037590_o.jpg",
+      "bytes": 81238,
+      "sha256": "a1a81205ab527edb4c0b311d37b3a4cc50a7a37a917ca4b61cbc9b229979d501",
+      "review": "inventariat",
+      "width": 980,
+      "height": 548,
+      "exif": {}
+    },
+    {
+      "id": "N031",
+      "file": "FOTOS I POSTALS/130280722_3381186301994388_2427779503105556212_n.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\130280722_3381186301994388_2427779503105556212_n.jpg",
+      "bytes": 62501,
+      "sha256": "5bae934706945776e52a691166ca4734b8a54309c6a15365375089dec6287cf7",
+      "review": "inventariat",
+      "width": 720,
+      "height": 537,
+      "exif": {}
+    },
+    {
+      "id": "N032",
+      "file": "FOTOS I POSTALS/130398980_3381202088659476_2604663660611277484_n.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\130398980_3381202088659476_2604663660611277484_n.jpg",
+      "bytes": 65905,
+      "sha256": "05ff0e0dc90c14889330cf98ea022b7420f569ac63f3256e87acbcaf701ee7f6",
+      "review": "inventariat",
+      "width": 687,
+      "height": 668,
+      "exif": {}
+    },
+    {
+      "id": "N033",
+      "file": "FOTOS I POSTALS/20210810_183355.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183355.jpg",
+      "bytes": 7170463,
+      "sha256": "dd437894021c86ab36506c9e190101a73bde386119b434107b51aa563bf8629b",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:33:55"
+      }
+    },
+    {
+      "id": "N034",
+      "file": "FOTOS I POSTALS/20210810_183550.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183550.jpg",
+      "bytes": 4383607,
+      "sha256": "cd271eeb5de2214fba26646b27bed258ddd7a4b250c23e816c4ca877ce049654",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:35:50"
+      }
+    },
+    {
+      "id": "N035",
+      "file": "FOTOS I POSTALS/20210810_183557.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183557.jpg",
+      "bytes": 5515537,
+      "sha256": "da66c26dcf01e923f93b2e0b09c09e09f30c8399f141fa6b4765e79d85d4a4c9",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:35:57"
+      }
+    },
+    {
+      "id": "N036",
+      "file": "FOTOS I POSTALS/20210810_183600.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183600.jpg",
+      "bytes": 4713295,
+      "sha256": "d7b37f8907b3ee3055b77a844bd1565785e3bfa4623fae97a4efa56ebde4dca7",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:36:00"
+      }
+    },
+    {
+      "id": "N037",
+      "file": "FOTOS I POSTALS/20210810_183605.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183605.jpg",
+      "bytes": 5169684,
+      "sha256": "57620f540e85ca38103bd5e7900603afca5a22d880af7bc6839bb4e2fac22e46",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:36:05"
+      }
+    },
+    {
+      "id": "N038",
+      "file": "FOTOS I POSTALS/20210810_183615.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_183615.jpg",
+      "bytes": 5509546,
+      "sha256": "5603a805c720f7aea1c999727841d228485d353bb0ccebb62cf9497322537ff8",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:36:15"
+      }
+    },
+    {
+      "id": "N039",
+      "file": "FOTOS I POSTALS/20210810_184020.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184020.jpg",
+      "bytes": 6441788,
+      "sha256": "77f19fdc21cecf0c44a6b41a3209f3728d56e7bbaf637e63338bf19e21907ffe",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:40:20"
+      }
+    },
+    {
+      "id": "N040",
+      "file": "FOTOS I POSTALS/20210810_184026.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184026.jpg",
+      "bytes": 6802874,
+      "sha256": "3b30bdc114de8e6bbb558366d2ac9d43e49e2ab7a9f480809206bf0d6ee4407a",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:40:26"
+      }
+    },
+    {
+      "id": "N041",
+      "file": "FOTOS I POSTALS/20210810_184037.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184037.jpg",
+      "bytes": 7158353,
+      "sha256": "c92cbdfceb6c5b5c40d4f9474538136297447989ed83934cdcb01ab9ca2838f9",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:40:37"
+      }
+    },
+    {
+      "id": "N042",
+      "file": "FOTOS I POSTALS/20210810_184044.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184044.jpg",
+      "bytes": 6503000,
+      "sha256": "c531f83fed9142b000014cb4be27f9cfcab1bd6b925651135118dfbea8b4f6cc",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:40:44"
+      }
+    },
+    {
+      "id": "N043",
+      "file": "FOTOS I POSTALS/20210810_184254.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184254.jpg",
+      "bytes": 6632743,
+      "sha256": "49e7f39eeb6c1d338221b8036c6e7b079d3b3dc01967231899bd4eaac989b876",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:42:54"
+      }
+    },
+    {
+      "id": "N044",
+      "file": "FOTOS I POSTALS/20210810_184259.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184259.jpg",
+      "bytes": 5912368,
+      "sha256": "193c44ee33e4396fea50aea692d022ddbd5314f753003a18084f5da36b8651b4",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:42:59"
+      }
+    },
+    {
+      "id": "N045",
+      "file": "FOTOS I POSTALS/20210810_184306.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184306.jpg",
+      "bytes": 6165389,
+      "sha256": "184e0c14ce72038de38eb114ff8f9d9bc02e261c36a89f979c74f4584a4f0efe",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:43:06"
+      }
+    },
+    {
+      "id": "N046",
+      "file": "FOTOS I POSTALS/20210810_184315.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184315.jpg",
+      "bytes": 5908161,
+      "sha256": "308d66b56afb910a60dcc09a01bd5dcfda265f9722c220df4e1185b9c62e691b",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:43:15"
+      }
+    },
+    {
+      "id": "N047",
+      "file": "FOTOS I POSTALS/20210810_184547.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184547.jpg",
+      "bytes": 4800249,
+      "sha256": "224d66a1c93d7c3fe92e443cdb4e5edcac2a890632914238dd572626366773f9",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:45:47"
+      }
+    },
+    {
+      "id": "N048",
+      "file": "FOTOS I POSTALS/20210810_184555.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_184555.jpg",
+      "bytes": 4638811,
+      "sha256": "415318ad439f51659bf3da1d2493a1c2a610694c4f72026727a5238bfaa7ba75",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:45:55"
+      }
+    },
+    {
+      "id": "N049",
+      "file": "FOTOS I POSTALS/20210810_185236.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_185236.jpg",
+      "bytes": 5352419,
+      "sha256": "131d81eacc16ca43f4f455419d10db812f431d252c9fa621aa16b12119da2972",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:52:36"
+      }
+    },
+    {
+      "id": "N050",
+      "file": "FOTOS I POSTALS/20210810_185729.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_185729.jpg",
+      "bytes": 5075463,
+      "sha256": "ae5f4261eeaa61b1317f19ce155fef45b90a3580480297e1509e0ac0e18d9536",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 18:57:29"
+      }
+    },
+    {
+      "id": "N051",
+      "file": "FOTOS I POSTALS/20210810_190100.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190100.jpg",
+      "bytes": 5375474,
+      "sha256": "51306a566685b5cd744f2344c7eae5bd5c21f19bda77e411828be7bd1205b743",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:01:00"
+      }
+    },
+    {
+      "id": "N052",
+      "file": "FOTOS I POSTALS/20210810_190117.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190117.jpg",
+      "bytes": 5045309,
+      "sha256": "3c016f91c0fb41a817ce220e9f0bc5ad013c5324700262115564057a16b2c5fb",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:01:17"
+      }
+    },
+    {
+      "id": "N053",
+      "file": "FOTOS I POSTALS/20210810_190234.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190234.jpg",
+      "bytes": 2606673,
+      "sha256": "2ffda2d8f990af51db0d2d5bad68f7b7c9bc5f0dc7b998ba645febf0133ba858",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 2791,
+      "exif": {}
+    },
+    {
+      "id": "N054",
+      "file": "FOTOS I POSTALS/20210810_190332.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190332.jpg",
+      "bytes": 4298674,
+      "sha256": "684b171caf7f4bbbf44263b2272fe620bce5b219c914849e7e7281719686e1ef",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:03:32"
+      }
+    },
+    {
+      "id": "N055",
+      "file": "FOTOS I POSTALS/20210810_190337.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190337.jpg",
+      "bytes": 5888298,
+      "sha256": "6d03d4eb15ea27065e77552d871f20518e75f51ac588ccbeb2b755a2af5603a2",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:03:37"
+      }
+    },
+    {
+      "id": "N056",
+      "file": "FOTOS I POSTALS/20210810_190951.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190951.jpg",
+      "bytes": 5239834,
+      "sha256": "697a30a985c04154b3c02ad02a56aa733b9e4d191b090a06f1bbfcc1a20a62d6",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:09:51"
+      }
+    },
+    {
+      "id": "N057",
+      "file": "FOTOS I POSTALS/20210810_190958.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_190958.jpg",
+      "bytes": 6064592,
+      "sha256": "77ff79314885065edd705ccaa74786ba3d2d8741e9e0665afceffc7fb9f96ff6",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:09:58"
+      }
+    },
+    {
+      "id": "N058",
+      "file": "FOTOS I POSTALS/20210810_191225.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_191225.jpg",
+      "bytes": 4552449,
+      "sha256": "99a99b6aabdb91b2a02e7c4682ff3ddd2d495a090d68dd3184726e0970e8294d",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:12:25"
+      }
+    },
+    {
+      "id": "N059",
+      "file": "FOTOS I POSTALS/20210810_191233.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\20210810_191233.jpg",
+      "bytes": 5473459,
+      "sha256": "97d90ca1c086bae498cc3147d6edc28b435404622d6a57e38376ea362fc5d48c",
+      "review": "inventariat",
+      "width": 4032,
+      "height": 3024,
+      "exif": {
+        "306": "2021:08:10 19:12:33"
+      }
+    },
+    {
+      "id": "N060",
+      "file": "FOTOS I POSTALS/450px-Església_Nova-_a1.jpeg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\450px-Església_Nova-_a1.jpeg",
+      "bytes": 45645,
+      "sha256": "2036e31d6a1ea9975410dfb67dca11e919406147cbc104007d298bdf6bb471ab",
+      "review": "inventariat",
+      "width": 450,
+      "height": 338,
+      "exif": {}
+    },
+    {
+      "id": "N061",
+      "file": "FOTOS I POSTALS/481823388_3535793790055625_5280309010478527461_n.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\481823388_3535793790055625_5280309010478527461_n.jpg",
+      "bytes": 739476,
+      "sha256": "6878faabc31c799c13d947643a6dc111e9008ac0cd7ae930063425c1e3231dd2",
+      "review": "inventariat",
+      "width": 2048,
+      "height": 1334,
+      "exif": {
+        "33432": "                                                      ",
+        "315": "                                    "
+      }
+    },
+    {
+      "id": "N062",
+      "file": "FOTOS I POSTALS/ANC1-211-N-35277.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-211-N-35277.jpg",
+      "bytes": 102458,
+      "sha256": "dfba9eb4376b4ebf1c6b83d1b4cf0405d51effd76d22c2ec54f4460083809cdf",
+      "review": "inventariat",
+      "width": 822,
+      "height": 548,
+      "exif": {
+        "306": "2010:09:08 16:08:44"
+      }
+    },
+    {
+      "id": "N063",
+      "file": "FOTOS I POSTALS/ANC1-564-N-4739.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-4739.jpg",
+      "bytes": 217150,
+      "sha256": "362a25dc7de038563a94229b82a610525375ee340e017748791f28a60037fabb",
+      "review": "inventariat",
+      "width": 822,
+      "height": 785,
+      "exif": {
+        "306": "2023:06:08 15:49:44"
+      }
+    },
+    {
+      "id": "N064",
+      "file": "FOTOS I POSTALS/ANC1-564-N-6553.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-6553.jpg",
+      "bytes": 265075,
+      "sha256": "60beb58889b3816f81183083f2f0df30e24b57897d53decf6c175723f2262015",
+      "review": "inventariat",
+      "width": 821,
+      "height": 805,
+      "exif": {
+        "306": "2023:06:08 15:50:33"
+      }
+    },
+    {
+      "id": "N065",
+      "file": "FOTOS I POSTALS/ANC1-564-N-6553_2.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-6553_2.jpg",
+      "bytes": 252789,
+      "sha256": "982a3578025652dfad7edf68d30cee3b44a92b85198454923d7a41da33676569",
+      "review": "inventariat",
+      "width": 821,
+      "height": 862,
+      "exif": {
+        "306": "2023:06:08 15:51:00"
+      }
+    },
+    {
+      "id": "N066",
+      "file": "FOTOS I POSTALS/ANC1-564-N-6553_3.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-6553_3.jpg",
+      "bytes": 236165,
+      "sha256": "35c4f1d523ff327b99bc74985aa5090f3f884f3aa239f68a3995ff49068e53bf",
+      "review": "inventariat",
+      "width": 821,
+      "height": 812,
+      "exif": {
+        "306": "2023:06:08 15:52:36"
+      }
+    },
+    {
+      "id": "N067",
+      "file": "FOTOS I POSTALS/ANC1-564-N-6553_4.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-6553_4.jpg",
+      "bytes": 266700,
+      "sha256": "e7f66106358b672b297b0841f1c870e84f729e558a4561e935bbfd62334393b9",
+      "review": "inventariat",
+      "width": 821,
+      "height": 805,
+      "exif": {
+        "306": "2023:06:08 15:54:05"
+      }
+    },
+    {
+      "id": "N068",
+      "file": "FOTOS I POSTALS/ANC1-564-N-6553_5.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-564-N-6553_5.jpg",
+      "bytes": 186989,
+      "sha256": "a36ffd0d8f1923ca66b1b0d2923b81280ad5ca7e69fe79ee5c196af450d59776",
+      "review": "inventariat",
+      "width": 821,
+      "height": 812,
+      "exif": {
+        "306": "2023:06:08 15:56:26"
+      }
+    },
+    {
+      "id": "N069",
+      "file": "FOTOS I POSTALS/ANC1-57-N-576.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-57-N-576.jpg",
+      "bytes": 97117,
+      "sha256": "e3ec5851b42c40424513fe6a29e523930ab2dada96d6be5b106a111578fb6b1a",
+      "review": "inventariat",
+      "width": 563,
+      "height": 794,
+      "exif": {
+        "306": "2009:09:28 09:55:21"
+      }
+    },
+    {
+      "id": "N070",
+      "file": "FOTOS I POSTALS/ANC1-57-N-577.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-57-N-577.jpg",
+      "bytes": 98422,
+      "sha256": "5dd06e46bfba7d8f65ee2bf8bd9586c5a4bc933bccee0e45f6ece0ed8f106c4f",
+      "review": "inventariat",
+      "width": 564,
+      "height": 794,
+      "exif": {
+        "306": "2009:09:28 09:55:21"
+      }
+    },
+    {
+      "id": "N071",
+      "file": "FOTOS I POSTALS/ANC1-57-N-578.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ANC1-57-N-578.jpg",
+      "bytes": 90229,
+      "sha256": "dffa9659055d15d275e1a8c3e7a6996488260f8723e2f89dcb9dbd8a2461fa3a",
+      "review": "inventariat",
+      "width": 564,
+      "height": 794,
+      "exif": {
+        "306": "2009:09:28 09:55:22"
+      }
+    },
+    {
+      "id": "N072",
+      "file": "FOTOS I POSTALS/aribant al port_Salvany_1921.png",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\aribant al port_Salvany_1921.png",
+      "bytes": 881531,
+      "sha256": "08c26894d33df75f87749b28b4daab726e9672c1c93b331a09e5bccb656121a2",
+      "review": "inventariat",
+      "width": 1796,
+      "height": 881,
+      "exif": {}
+    },
+    {
+      "id": "N073",
+      "file": "FOTOS I POSTALS/casetes del cananl.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\casetes del cananl.jpg",
+      "bytes": 203131,
+      "sha256": "808dd6bb75fd7b245df36d45bef47527591d2df7995c4b20e80292737ea9d0fa",
+      "review": "inventariat",
+      "width": 1066,
+      "height": 1601,
+      "exif": {}
+    },
+    {
+      "id": "N074",
+      "file": "FOTOS I POSTALS/ChatGPT Image 11 ago 2025, 21_35_29.jpeg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\ChatGPT Image 11 ago 2025, 21_35_29.jpeg",
+      "bytes": 516331,
+      "sha256": "64a07a5c482223216997d6e1495ae7a371b7f860b222f183b8e00f1617604457",
+      "review": "inventariat",
+      "width": 1536,
+      "height": 1024,
+      "exif": {}
+    },
+    {
+      "id": "N075",
+      "file": "FOTOS I POSTALS/esglesia nova 2.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\esglesia nova 2.jpg",
+      "bytes": 388343,
+      "sha256": "52a770e2ac64b9c7f4a36fd963d88f6d82d35de42d072033d40b8825cb72f104",
+      "review": "inventariat",
+      "width": 1370,
+      "height": 1335,
+      "exif": {}
+    },
+    {
+      "id": "N076",
+      "file": "FOTOS I POSTALS/església antiga.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\església antiga.jpg",
+      "bytes": 126596,
+      "sha256": "83b8bffe0b77dbd8e1c749ca649ac6edea4a2ccc676660daca0c03936d65f685",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 999,
+      "exif": {}
+    },
+    {
+      "id": "N077",
+      "file": "FOTOS I POSTALS/església nova_facebook.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\església nova_facebook.jpg",
+      "bytes": 322623,
+      "sha256": "fd7282520d5a20664dc771220b77bd98fe65a800a48dca12837cc32f7db068ec",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1056,
+      "exif": {}
+    },
+    {
+      "id": "N078",
+      "file": "FOTOS I POSTALS/església nova_facebook_BN - copia.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\església nova_facebook_BN - copia.jpg",
+      "bytes": 526088,
+      "sha256": "b67d1a2dad09c31726cbf0865f189188c0a76a40ebc3b95a51ef8e0aa76d3b73",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1056,
+      "exif": {}
+    },
+    {
+      "id": "N079",
+      "file": "FOTOS I POSTALS/església nova_facebook_BN.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\església nova_facebook_BN.jpg",
+      "bytes": 526088,
+      "sha256": "b67d1a2dad09c31726cbf0865f189188c0a76a40ebc3b95a51ef8e0aa76d3b73",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1056,
+      "exif": {}
+    },
+    {
+      "id": "N080",
+      "file": "FOTOS I POSTALS/façana lateral esgl´sia Nova_josep Salvany_1916.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\façana lateral esgl´sia Nova_josep Salvany_1916.jpg",
+      "bytes": 52303,
+      "sha256": "cf80bf18afa5151bc21cc0597fcd1e262376477e2eed5d5a6bfa8617d6916a15",
+      "review": "inventariat",
+      "width": 787,
+      "height": 360,
+      "exif": {}
+    },
+    {
+      "id": "N081",
+      "file": "FOTOS I POSTALS/font pública, plaça Carles III. 1916_Josep salvany. BC.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\font pública, plaça Carles III. 1916_Josep salvany. BC.jpg",
+      "bytes": 47255,
+      "sha256": "7dbc2e5c856a59772a3b6118b9203633bff12a6a186ffdb7f6255b249cd16d32",
+      "review": "inventariat",
+      "width": 787,
+      "height": 360,
+      "exif": {}
+    },
+    {
+      "id": "N082",
+      "file": "FOTOS I POSTALS/fonts original.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\fonts original.jpg",
+      "bytes": 47255,
+      "sha256": "7dbc2e5c856a59772a3b6118b9203633bff12a6a186ffdb7f6255b249cd16d32",
+      "review": "inventariat",
+      "width": 787,
+      "height": 360,
+      "exif": {}
+    },
+    {
+      "id": "N083",
+      "file": "FOTOS I POSTALS/Foto Esglesia Sant Elm.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Foto Esglesia Sant Elm.jpg",
+      "bytes": 241368,
+      "sha256": "379265ed392049c21edddf6661117e771fc9ef4999961ce9cd4c56f0d4bc38b1",
+      "review": "inventariat",
+      "width": 1200,
+      "height": 1600,
+      "exif": {}
+    },
+    {
+      "id": "N084",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20210317-WA0006.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20210317-WA0006.jpg",
+      "bytes": 386013,
+      "sha256": "328d820070f3251c6cc8d86c15a5216fe479de838a85c1d35433b069618e9420",
+      "review": "inventariat",
+      "width": 2000,
+      "height": 904,
+      "exif": {}
+    },
+    {
+      "id": "N085",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0005.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0005.jpg",
+      "bytes": 200010,
+      "sha256": "d42e08b1eace5122516cdc953830fec67c47af9327e2e0c5d86a1f059c9478b3",
+      "review": "inventariat",
+      "width": 1091,
+      "height": 1600,
+      "exif": {}
+    },
+    {
+      "id": "N086",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0006.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0006.jpg",
+      "bytes": 216808,
+      "sha256": "8e813dd1264676201322946ea0712041c8d9381badb2c6a7549e5c27720d2e67",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1008,
+      "exif": {}
+    },
+    {
+      "id": "N087",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0007.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0007.jpg",
+      "bytes": 511623,
+      "sha256": "9a95708144442c45e2712471da94901baa5b13adee5e85dc72f08e7834e2e57f",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1162,
+      "exif": {}
+    },
+    {
+      "id": "N088",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0008.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0008.jpg",
+      "bytes": 131028,
+      "sha256": "d862de5f654e96af4bd1847ed55a78ce557a66b6b0189f69f70f658e2d5af448",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 999,
+      "exif": {}
+    },
+    {
+      "id": "N089",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0009.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0009.jpg",
+      "bytes": 141021,
+      "sha256": "0537c759d9f966d41181c642278dd105cc7efc3e0b6cb785c77aa334ab9a968f",
+      "review": "inventariat",
+      "width": 1332,
+      "height": 885,
+      "exif": {}
+    },
+    {
+      "id": "N090",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0010.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0010.jpg",
+      "bytes": 406713,
+      "sha256": "bf20051cf653a23dd43f8f736a85c78bf9a6e8d873b638d79bf4161c597aab83",
+      "review": "inventariat",
+      "width": 1220,
+      "height": 1446,
+      "exif": {}
+    },
+    {
+      "id": "N091",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0011.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0011.jpg",
+      "bytes": 276451,
+      "sha256": "fdedec560908aaa585f959045aef2523577d1e6810b584280906963853f10f35",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 1024,
+      "exif": {}
+    },
+    {
+      "id": "N092",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0012.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0012.jpg",
+      "bytes": 278004,
+      "sha256": "1e90d4996f33a763b24f21783beca7d92143cd4513652d82588cfb3dbcf14f02",
+      "review": "inventariat",
+      "width": 1499,
+      "height": 999,
+      "exif": {}
+    },
+    {
+      "id": "N093",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0013.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0013.jpg",
+      "bytes": 169583,
+      "sha256": "c06075b09f7d5bd518346adaa6d053060da5906eeeebd941f394c5c2f13f0168",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 745,
+      "exif": {}
+    },
+    {
+      "id": "N094",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0014.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0014.jpg",
+      "bytes": 236367,
+      "sha256": "71f3176aba0dcac2ae1d3567dae4b2d713f477d6f578665a3c639a8a6c6f94ee",
+      "review": "inventariat",
+      "width": 1487,
+      "height": 962,
+      "exif": {}
+    },
+    {
+      "id": "N095",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0015.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0015.jpg",
+      "bytes": 73609,
+      "sha256": "1005b0e81a2affcf79747e08a747df867125850eebcbc49c9cabadf75bb9d3b1",
+      "review": "inventariat",
+      "width": 960,
+      "height": 540,
+      "exif": {}
+    },
+    {
+      "id": "N096",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0016.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0016.jpg",
+      "bytes": 90591,
+      "sha256": "648262304940be21ae624b271f4d10ff4b182b59f13380a530ca0d408fb9bbcb",
+      "review": "inventariat",
+      "width": 960,
+      "height": 606,
+      "exif": {}
+    },
+    {
+      "id": "N097",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0017.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0017.jpg",
+      "bytes": 328375,
+      "sha256": "0eedaf9bb08853cf2ea1b3b9052f369bd2d857c6a06eef831bc1a85f9cd27ef8",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1066,
+      "exif": {}
+    },
+    {
+      "id": "N098",
+      "file": "FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0018.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Fotos noves\\IMG-20240223-WA0018.jpg",
+      "bytes": 288285,
+      "sha256": "48dbbffa995073ded3cc112a719bc5c7c53f77acfd8d88e8cdaada066c53b162",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 1092,
+      "exif": {}
+    },
+    {
+      "id": "N099",
+      "file": "FOTOS I POSTALS/Glorieta de la Ràpita. Foto Josep Salvay Blanch. 1916.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Glorieta de la Ràpita. Foto Josep Salvay Blanch. 1916.jpg",
+      "bytes": 663733,
+      "sha256": "8d17be09acd6e9b796d637982c68aed714e988feb07dfc7c1f340379c667cf63",
+      "review": "inventariat",
+      "width": 2048,
+      "height": 1347,
+      "exif": {}
+    },
+    {
+      "id": "N100",
+      "file": "FOTOS I POSTALS/Mas de Mataredona_ACPJ350-120.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Mas de Mataredona_ACPJ350-120.jpg",
+      "bytes": 91661,
+      "sha256": "7cc6ee795f4857a8c29e5957c8ac66c41b81c3855fc65490bd405675d79baaea",
+      "review": "inventariat",
+      "width": 1242,
+      "height": 837,
+      "exif": {}
+    },
+    {
+      "id": "N101",
+      "file": "FOTOS I POSTALS/Plaça del Cóc.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Plaça del Cóc.jpg",
+      "bytes": 354608,
+      "sha256": "eaefd27f7a4edb1fa246439d8038d66e7fb7c9abd63e77014dddd6fec737b723",
+      "review": "inventariat",
+      "width": 1600,
+      "height": 978,
+      "exif": {}
+    },
+    {
+      "id": "N102",
+      "file": "FOTOS I POSTALS/porxos.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\porxos.jpg",
+      "bytes": 116230,
+      "sha256": "58272dda021f02294e50acb895fe8de1b5ca4730637927de0f24064415c2075a",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 843,
+      "exif": {}
+    },
+    {
+      "id": "N103",
+      "file": "FOTOS I POSTALS/porxos_BN.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\porxos_BN.jpg",
+      "bytes": 184353,
+      "sha256": "39051d42f05ee78dc1e14a9a366955cc2499cc36a046d6847438d2b8d66a85e5",
+      "review": "inventariat",
+      "width": 1500,
+      "height": 843,
+      "exif": {}
+    },
+    {
+      "id": "N104",
+      "file": "FOTOS I POSTALS/pou de les figueretes_facebook_vicent Moya.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\pou de les figueretes_facebook_vicent Moya.jpg",
+      "bytes": 167716,
+      "sha256": "b2fc7cd33281d9ee4c667b484986df8a69cba7e9ae56f52cbb3bc102a42e1699",
+      "review": "inventariat",
+      "width": 843,
+      "height": 890,
+      "exif": {}
+    },
+    {
+      "id": "N105",
+      "file": "FOTOS I POSTALS/SEQUERS CARSI_ROISIN.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\SEQUERS CARSI_ROISIN.jpg",
+      "bytes": 53127,
+      "sha256": "8c9536d2ced04ca71c3b5316f64c1c13a4b33f11bff954f43a2a8e9150aff2a2",
+      "review": "inventariat",
+      "width": 720,
+      "height": 540,
+      "exif": {}
+    },
+    {
+      "id": "N106",
+      "file": "FOTOS I POSTALS/templet.jpeg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\templet.jpeg",
+      "bytes": 10536,
+      "sha256": "3ab50302a1beee5ec4beca1572c41850048f8570f2583271efe78b80965a4df8",
+      "review": "inventariat",
+      "width": 266,
+      "height": 174,
+      "exif": {}
+    },
+    {
+      "id": "N107",
+      "file": "FOTOS I POSTALS/Vicent Moya.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\FOTOS I POSTALS\\Vicent Moya.jpg",
+      "bytes": 195587,
+      "sha256": "259d9dba1074d2851165ffc7abcf78dad7ed0cb5175d22147a01be941332330f",
+      "review": "inventariat",
+      "width": 1499,
+      "height": 855,
+      "exif": {}
+    },
+    {
+      "id": "N108",
+      "file": "IGN_planimetria Rapita_1912.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\IGN_planimetria Rapita_1912.jpg",
+      "bytes": 4367373,
+      "sha256": "5b4c957774ede6fb8c20251a4a681db49e9ca7212d8e7b282e55427b7a6e84fa",
+      "review": "inventariat",
+      "width": 6496,
+      "height": 4725,
+      "exif": {}
+    },
+    {
+      "id": "N109",
+      "file": "MPD_07_063.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\MPD_07_063.jpg",
+      "bytes": 350715,
+      "sha256": "7eb007f6ee1068777f6510721cc0a8783b7728962e08905c88503b4d8590f328",
+      "review": "inventariat",
+      "width": 1894,
+      "height": 1094,
+      "exif": {}
+    },
+    {
+      "id": "N110",
+      "file": "Paredon_Ar.G-T.1-C.2-592.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\Paredon_Ar.G-T.1-C.2-592.jpg",
+      "bytes": 8867646,
+      "sha256": "3b5b5f1413e50e7f5a756b95ff63ab0e6ef3a3f5e5cd64742c04a15427c423a7",
+      "review": "inventariat",
+      "width": 3232,
+      "height": 2469,
+      "exif": {
+        "270": "",
+        "306": "2023:05:30 12:16:46"
+      }
+    },
+    {
+      "id": "N111",
+      "file": "planimetria ràpita detallat_1913.jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
+      "bytes": 4410878,
+      "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
+      "review": "inventariat",
+      "width": 6259,
+      "height": 4394,
+      "exif": {}
+    },
+    {
+      "id": "N112",
+      "file": "Recerca_20.pdf",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\Recerca_20.pdf",
+      "bytes": 1748806,
+      "sha256": "1c151d7520f84b5d4c0b8777adb239301d3b3b624eface8e025120e4e100a522",
+      "review": "inventariat",
+      "pages": 44,
+      "pageTextLengths": [
+        2593,
+        0,
+        3706,
+        2832,
+        3246,
+        3042,
+        2442,
+        3222,
+        3270,
+        3102,
+        3039,
+        2918,
+        3487,
+        1389,
+        3184,
+        3059,
+        2497,
+        1259,
+        1708,
+        3049,
+        3182,
+        2180,
+        3477,
+        2004,
+        3007,
+        1376,
+        3055,
+        1727,
+        1878,
+        1985,
+        2657,
+        2762,
+        2778,
+        1653,
+        2969,
+        2781,
+        1118,
+        2263,
+        374,
+        2904,
+        3093,
+        3058,
+        2897,
+        3121
+      ],
+      "metadata": {
+        "/CreationDate": "D:20250702104048+02'00'",
+        "/Creator": "Adobe InDesign 14.0 (Macintosh)",
+        "/ModDate": "D:20250702111715+02'00'",
+        "/Producer": "Adobe PDF Library 15.0"
+      }
+    },
+    {
+      "id": "N113",
+      "file": "Término de la Rápita - Manuel Antonio Santiesteban (I).jpg",
+      "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\Término de la Rápita - Manuel Antonio Santiesteban (I).jpg",
+      "bytes": 739288,
+      "sha256": "960da84f33bc8c6b53f7b1110063719bc36be7c5e2328518319bd3596c25c92b",
+      "review": "inventariat",
+      "width": 1064,
+      "height": 1600,
+      "exif": {}
+    }
+  ]
+}

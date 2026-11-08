@@ -1,0 +1,49 @@
+{
+  "entityId": "administrador-rendes",
+  "historicalEvidence": {
+    "description": "Prop de la duana, posició individual desconeguda; s’esmenta juntament amb la casa dels guardes.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "casa-administrador",
+      "anchor": [
+        296510.30856395874,
+        4499411.920913059
+      ],
+      "footprintUTM": [
+        [
+          296505.549785193,
+          4499410.38662995
+        ],
+        [
+          296513.11393379775,
+          4499407.782084715
+        ],
+        [
+          296515.0673427245,
+          4499413.455196168
+        ],
+        [
+          296507.5031941197,
+          4499416.059741404
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

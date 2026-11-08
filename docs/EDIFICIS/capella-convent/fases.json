@@ -1,0 +1,67 @@
+{
+  "entityId": "capella-convent",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "capella-convent-fase-01",
+      "witnessDate": "1748",
+      "witnessYear": 1748,
+      "label": "Capella C al projecte militar",
+      "state": "Peça preexistent diferenciada del projecte de bateria.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.1 p.197"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": true,
+      "datePrecision": "any"
+    },
+    {
+      "id": "capella-convent-fase-02",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Reutilització religiosa",
+      "state": "Missa en condicions precàries i reparacions sol·licitades.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.198–199"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "capella-convent-fase-03",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Propietat inclosa al conjunt privat",
+      "state": "Es compta amb la casa de masoveria dins dels 38 registres mixtos, no com una nova casa reial.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.5 p.231"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

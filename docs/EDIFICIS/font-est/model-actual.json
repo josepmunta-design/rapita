@@ -1,0 +1,63 @@
+{
+  "entityId": "font-est",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "font-est",
+        "name": "Font oriental",
+        "kind": "fountain",
+        "across": 24,
+        "along": -114,
+        "front": "west",
+        "width": 4.8,
+        "depth": 3,
+        "wallHeight": 6.5,
+        "roofRise": 0,
+        "clock": false,
+        "state1794": "segona font i torre simètrica, sense un segon rellotge acreditat",
+        "evidence": "H02, art. 11, pàg. 216 i 231. Parella de la font occidental; H01, pàg. 226–227.",
+        "limits": "Simetria d’assaig; no s’atribueix a aquesta torre un segon rellotge instal·lat.",
+        "documented": {
+          "footprint": null,
+          "height": null
+        },
+        "anchor": {
+          "easting": 296374.93217620626,
+          "northing": 4499249.125846675
+        },
+        "frontAzimuthDegrees": 289,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296374.29526191356,
+            4499251.883443488
+          ],
+          [
+            296372.73253477213,
+            4499247.344954325
+          ],
+          [
+            296375.56909049896,
+            4499246.3682498615
+          ],
+          [
+            296377.1318176404,
+            4499250.906739024
+          ]
+        ],
+        "terrain": {
+          "minimum": 9.774109445337805,
+          "maximum": 9.897525601645485,
+          "technicalBaseElevation": 9.977525601645485
+        }
+      }
+    }
+  ]
+}

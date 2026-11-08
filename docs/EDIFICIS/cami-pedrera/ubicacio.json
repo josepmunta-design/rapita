@@ -1,0 +1,33 @@
+{
+  "entityId": "cami-pedrera",
+  "historicalEvidence": {
+    "description": "De la Guardiola al Cóc a través de la devesa de les monges; separa els dos Horts del Rei i continua cap al mar per les rampes.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4"
+      },
+      {
+        "sourceId": "N111",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "pedrera",
+      "anchor": null,
+      "footprintUTM": null,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

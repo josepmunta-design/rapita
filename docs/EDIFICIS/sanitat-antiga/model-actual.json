@@ -1,0 +1,52 @@
+{
+  "entityId": "sanitat-antiga",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "sanitat-antiga",
+        "name": "Casa dels guardes de sanitat antiga",
+        "kind": "service-house",
+        "fromYear": 1780,
+        "toYear": 1793,
+        "utmAnchor": [
+          296350,
+          4499188
+        ],
+        "width": 6,
+        "depth": 5,
+        "height": 3.4,
+        "evidence": "N029 punt 3 i N112 il·l. 2 i 4: guardes de sanitat a la casa vella de les monges, a tocar del recinte conventual. Posició i volum C. La identitat amb l’oficina del moll de 1794 o el trasllat continuen pendents: la visibilitat fins a 1793 és una convenció d’escena, no una data d’enderroc.",
+        "anchor": [
+          296350,
+          4499188
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 9.806428912281987,
+        "footprintUTM": [
+          [
+            296346.34952388704,
+            4499186.612908024
+          ],
+          [
+            296352.0226353407,
+            4499184.659499098
+          ],
+          [
+            296353.65047611296,
+            4499189.387091976
+          ],
+          [
+            296347.9773646593,
+            4499191.340500902
+          ]
+        ]
+      }
+    }
+  ]
+}

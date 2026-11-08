@@ -1,0 +1,81 @@
+{
+  "entityId": "cami-pedrera",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "pedrera",
+        "name": "Camí de la pedrera al Cóc",
+        "kind": "track",
+        "fromYear": 1794,
+        "width": 5,
+        "townPoints": [
+          [
+            -220,
+            -21
+          ],
+          [
+            -140,
+            -21
+          ],
+          [
+            -70,
+            -21
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            0
+          ],
+          [
+            111,
+            -4
+          ]
+        ],
+        "evidence": "H02 p. 223: camí obert per transportar pedra de la Guardiola, amb referència actual a la Constància. Traça dins del nucli C; no es reconstrueix tota la pedrera.",
+        "points": [
+          [
+            296174.5034821246,
+            4499416.497703893
+          ],
+          [
+            296250.14496817254,
+            4499390.452251536
+          ],
+          [
+            296316.33126846445,
+            4499367.662480724
+          ],
+          [
+            296351.533756976,
+            4499377.751326178
+          ],
+          [
+            296389.3545,
+            4499364.7286
+          ],
+          [
+            296474.4511718039,
+            4499335.427466099
+          ],
+          [
+            296493.0047892737,
+            4499324.808460553
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

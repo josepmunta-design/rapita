@@ -1,3 +1,4 @@
+import {caveSites} from './cave-plan.mjs';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {wallSurfaceMesh} from './building-plan.mjs';
@@ -117,7 +118,7 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     }
     // Perimeter footings descend into the current study ground, without a floating building.
     if(s.kind!=='battery'){
-      const ground=sampleHeight(meta,h,v,...s.anchor),bottom=ground===null?-2:landscapeSample(...s.anchor,ground,data).height;
+      const ground=sampleHeight(meta,h,v,...s.anchor),bottom=ground===null?-2:landscapeSample(...s.anchor,ground,{...data,researchLandscape:undefined}).height;
       const rise=Math.max(.15,s.technicalBaseElevation-bottom+.2);b.box(0,-rise/2,0,w,rise,d,mat.earth);
     }
     b.flush();
@@ -132,10 +133,10 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
   }
   const p=createBuilder(port),worldBox=(e:number,n:number,w:number,d:number,top:number,H:number,m=mat.stone)=>{const[x,,z]=toWorld(e,n,0,meta.origin);p.box(x,top-H/2,z,w,H,d,m);};
   // Modest works in the inventory, not the monumental unexecuted mole of 1782.
-  worldBox(296516,4499184,85,5,1.3,2.6);worldBox(296574,4499247,5,70,1.25,2.5);
-  for(let i=0;i<13;i++)worldBox(296477+i*7,4499188,3.5,2.5,.8,1.8,mat.rock);
+  if(data.portWorks){for(const line of data.portWorks.breakwaters)for(let i=0;i<line.length-1;i++){const a=line[i],b=line[i+1],dx=b[0]-a[0],dn=b[1]-a[1],L=Math.hypot(dx,dn),[x,,z]=toWorld((a[0]+b[0])/2,(a[1]+b[1])/2,0,meta.origin),angle=Math.atan2(dn,dx);p.box(x,data.portWorks.top-1.4,z,L+.4,2.8,data.portWorks.width,mat.stone,angle);}}
+  else{worldBox(296516,4499184,85,5,1.3,2.6);worldBox(296574,4499247,5,70,1.25,2.5);}
   // Built retaining wall / two ramp studies connect the high town to the low waterfront.
-  for(const [start,end]of[[[296457,4499323],[296505,4499285]],[[296455,4499380],[296563,4499411]]]){
+  for(const [start,end]of(data.portWorks?[]:[[[296457,4499323],[296505,4499285]],[[296455,4499380],[296563,4499411]]])){
     const dx=end[0]-start[0],dn=end[1]-start[1],L=Math.hypot(dx,dn),angle=Math.atan2(-dn,dx);
     const [x,,z]=toWorld((start[0]+end[0])/2,(start[1]+end[1])/2,0,meta.origin);
     const shape=new THREE.BufferGeometry();shape.setAttribute('position',new THREE.Float32BufferAttribute([-L/2,6,-2,L/2,1.3,-2,-L/2,6,2,L/2,1.3,2],3));shape.setIndex([0,2,1,1,2,3]);shape.computeVertexNormals();p.emit(shape,mat.earth,x,0,z,-angle);
@@ -155,12 +156,19 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
   for(let i=0;i<rocks.count;i++){
     const st=coastStations?.[Math.min(coastStations.length-1,Math.floor(i/rocks.count*coastStations.length))],distance=.6+(Math.sin(i*23.17)*.5+.5)*1.7,n=st?st.n-st.dx*distance:4499055+(i/rocks.count)*205,e=st?st.e+st.dy*distance:shoreEasting(n,data.shorelineStudy)-distance,level=sampleHeight(meta,h,v,e,n);
     const ground=level===null?.6:landscapeSample(e,n,level,data).height;
-    dummy.position.fromArray(toWorld(e,n,ground+.1,meta.origin));dummy.rotation.set(i*.7,i*1.7,i*.3);dummy.scale.set(.7+(i%4)*.3,.4+(i%3)*.2,.65+(i%5)*.22);dummy.updateMatrix();rocks.setMatrixAt(i,dummy.matrix);
+    dummy.position.fromArray(toWorld(e,n,ground+.1,meta.origin));dummy.rotation.set(i*.7,i*1.7,i*.3);dummy.scale.set(.7+(i%4)*.3,.4+(i%3)*.2,.65+(i%5)*.22);if(caveSites(data.researchLandscape).some((c:any)=>Math.abs(n-c.anchor[1])<c.width*.6))dummy.scale.setScalar(.02);dummy.updateMatrix();rocks.setMatrixAt(i,dummy.matrix);
   }
   root.add(rocks);
   const boats=makeBoats(data,meta);root.add(boats);
   const research=data.researchLandscape?makeResearchLandscape(data.researchLandscape,meta,(e,n)=>{const raw=sampleHeight(meta,h,v,e,n);return raw===null?null:landscapeSample(e,n,raw,data).height;}):null;
   if(research)roquer.add(research.root);
+  let harbourPhase:any=null;
+  const setHarbourPhase=(phase:any,active:any)=>{
+    if((phase?.fromYear??null)===(harbourPhase?.fromYear??null))return;
+    harbourPhase=phase;const replacement=makeSea(phase?[]:data.basins);
+    if(phase){const shape=new THREE.Shape();coastalWaterOutline(active).forEach(([e,n]:number[],i:number)=>{const[x,,z]=toWorld(e,n,0,meta.origin);i?shape.lineTo(x,-z):shape.moveTo(x,-z);});shape.lineTo(4200,-(meta.origin.northing-4497800));shape.lineTo(4200,-(meta.origin.northing-4501500));shape.closePath();replacement.geometry.dispose();replacement.geometry=new THREE.ShapeGeometry(shape);replacement.geometry.rotateX(-Math.PI/2);}
+    openHarbour.geometry.dispose();openHarbour.geometry=replacement.geometry;
+  };
   const setYear=(year:number)=>{
     research?.setYear(year);
     const battery=entityAt(chronology,'battery',year),tower=entityAt(chronology,'tower',year),works=entityAt(chronology,'works',year),services=entityAt(chronology,'services',year);
@@ -168,7 +176,7 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     oldTower!.visible=tower.variant==='unrepaired';repairedTower!.visible=!oldTower!.visible;guns.visible=entityAt(chronology,'guns',year).visible;
     for(const id of['quarters','cistern','kiln'])siteGroups.get(id)!.visible=works.visible;
     for(const id of['old-inn','old-customs'])siteGroups.get(id)!.visible=entityAt(chronology,id,year).visible;siteGroups.get('health')!.visible=services.visible;
-    port.visible=services.visible;canal.visible=entityAt(chronology,'canal',year).visible;openHarbour.visible=canal.visible;earlierCoast.visible=!canal.visible;boats.visible=services.visible;
+    port.visible=services.visible;canal.visible=entityAt(chronology,'canal',year).visible;openHarbour.visible=!!harbourPhase||canal.visible;earlierCoast.visible=!openHarbour.visible;boats.visible=services.visible;
   };
-  setYear(1800);return {root,roquer,port,canal,water,boats,research,project,planProject,guns,siteGroups,setYear,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
+  setYear(1800);return {root,roquer,port,canal,water,boats,research,project,planProject,guns,siteGroups,setYear,setHarbourPhase,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
 }

@@ -31,7 +31,10 @@ export function generateHousingLayout(config){
       arcSector:true,layoutBasis:'hypothetical-10-cases-rodones',terrace:true});
   }
   row(config.layout.porticoRow,'royal-portico','large','unroofed-with-portico');
-  for(const r of config.layout.smallRows)row(r,'royal-small-coast','small','finished');
+  if(config.layout.coastalHouses){
+    const r=frame.alongAzimuthDegrees*Math.PI/180;
+    for(const p of config.layout.coastalHouses){const de=p.anchor[0]-frame.easting,dn=p.anchor[1]-frame.northing;add('royal-small-coast','small',de*Math.cos(r)-dn*Math.sin(r),de*Math.sin(r)+dn*Math.cos(r),'east',{frontAzimuthDegrees:p.frontAzimuthDegrees,state1794:'finished',layoutBasis:p.layoutSource?'N112-relational-layout-study':'1813-coastal-clusters-study',coastalCluster:p.cluster,shoreSetbackMeters:p.shoreSetbackMeters,layoutSource:p.layoutSource});}
+  }else for(const r of config.layout.smallRows??[])row(r,'royal-small-coast','small','finished');
   const m=config.layout.manzana;
   structures.push({id:'manzana-shared',group:'manzana-units',kind:'shared-courtyard',anchor:townToUTM(m.across,m.along,frame),
     across:m.across,along:m.along,width:m.acrossLength,depth:m.alongLength,wingDepth:m.wingDepth,countedUnits:m.countedUnits,

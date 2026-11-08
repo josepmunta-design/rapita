@@ -1,0 +1,87 @@
+{
+  "entityId": "hort-rei-sud",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "hort-sud",
+        "name": "Hort del Rei · tram sud i sínia",
+        "kind": "noria-garden",
+        "fromYear": 1794,
+        "townAnchor": [
+          -92.12382154508131,
+          -55.10215312877611
+        ],
+        "width": 55.579122801569255,
+        "depth": 48.95064768967111,
+        "evidence": "H02 art. 10: sínia i dos terrenys habilitats en horta. Posició individual, dimensions i mecanisme detallat C.",
+        "townPolygon": [
+          [
+            -119.54177729238953,
+            -30.62682928394056
+          ],
+          [
+            -64.33426014429668,
+            -30.77396983930746
+          ],
+          [
+            -66.60743762096321,
+            -79.43821815528965
+          ],
+          [
+            -119.91338294586593,
+            -79.57747697361167
+          ]
+        ],
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "polygonUTM": [
+          [
+            296266.35440872307,
+            4499374.689359814
+          ],
+          [
+            296318.5062374202,
+            4499356.576426216
+          ],
+          [
+            296300.51337637816,
+            4499311.30354966
+          ],
+          [
+            296250.0662766471,
+            4499328.526596103
+          ]
+        ],
+        "anchor": [
+          296284.31020917324,
+          4499342.621073224
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 12.881403539321186,
+        "footprintUTM": [
+          [
+            296266.35440872307,
+            4499374.689359814
+          ],
+          [
+            296318.5062374202,
+            4499356.576426216
+          ],
+          [
+            296300.51337637816,
+            4499311.30354966
+          ],
+          [
+            296250.0662766471,
+            4499328.526596103
+          ]
+        ]
+      }
+    }
+  ]
+}

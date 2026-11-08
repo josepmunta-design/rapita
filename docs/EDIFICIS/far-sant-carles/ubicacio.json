@@ -1,0 +1,55 @@
+{
+  "entityId": "far-sant-carles",
+  "historicalEvidence": {
+    "description": "Punta de la Senieta, litoral al sud del poble; senyalat al full 1912–1913.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N108",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N111",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "far-sant-carles",
+      "anchor": [
+        295687.2,
+        4497963
+      ],
+      "footprintUTM": [
+        [
+          295678.8743819181,
+          4497958.939324741
+        ],
+        [
+          295691.26067525847,
+          4497954.674381918
+        ],
+        [
+          295695.5256180819,
+          4497967.060675259
+        ],
+        [
+          295683.13932474155,
+          4497971.325618082
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "positionSource": {
+        "text": "Coordenades de la platja del Far (40°36′26,1″ N, 0°35′6,1″ E), Diputació de Tarragona: punta de la Senieta. Són les de la platja, no les de l’edifici: precisió d’unes desenes o centenars de metres. Volum C.",
+        "url": "https://terresdelebre.travel/en/node/840",
+        "precisionMeters": 150
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició d’assaig"
+    }
+  ],
+  "warning": "Façana +Z convencional al paquet; es conserva el gir d’assaig del mapa, sense rumb històric acreditat."
+}

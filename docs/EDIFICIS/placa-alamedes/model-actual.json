@@ -1,0 +1,49 @@
+{
+  "entityId": "placa-alamedes",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "carrer-major",
+        "name": "Carrer principal i Alamedes",
+        "kind": "street",
+        "fromYear": 1794,
+        "width": 10,
+        "townPoints": [
+          [
+            0,
+            -116
+          ],
+          [
+            0,
+            80
+          ],
+          [
+            0,
+            165
+          ]
+        ],
+        "evidence": "H02, art. 11, 25–26. Eix principal, passeig i entrada nord; amplada i traça C.",
+        "points": [
+          [
+            296351.588594083,
+            4499255.04844523
+          ],
+          [
+            296415.3999523566,
+            4499440.370086048
+          ],
+          [
+            296443.07324548543,
+            4499520.739164974
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "entityId": "ferreria",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "ferreria-vella",
+        "name": "Ferreria de les primeres obres",
+        "kind": "forge",
+        "fromYear": 1780,
+        "toYear": 1793,
+        "utmAnchor": [
+          296331,
+          4499210
+        ],
+        "width": 8,
+        "depth": 6,
+        "height": 3.4,
+        "evidence": "H01 pp. 159–162, testimoni de 1780. Emplaçament prop del convent C. La substitució visual el 1794 no data un trasllat real.",
+        "anchor": [
+          296331,
+          4499210
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 11.010168662071226,
+        "footprintUTM": [
+          [
+            296326.24122123426,
+            4499208.465716891
+          ],
+          [
+            296333.805369839,
+            4499205.861171655
+          ],
+          [
+            296335.75877876574,
+            4499211.534283109
+          ],
+          [
+            296328.194630161,
+            4499214.138828345
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "ferreria-nova",
+        "name": "Ferreria de la Fonda Vella",
+        "kind": "forge",
+        "fromYear": 1794,
+        "width": 9,
+        "depth": 6,
+        "height": 3.6,
+        "evidence": "H02 pp. 211–212: ferreria nova a l'àmbit de Fonda Vella. Planta i posició C; data exacta de trasllat desconeguda.",
+        "alongAzimuthDegrees": 19,
+        "townAnchor": [
+          125,
+          -101
+        ],
+        "anchor": [
+          296474.6619383498,
+          4499228.535204558
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 2.413060773512405,
+        "footprintUTM": [
+          [
+            296469.43040029623,
+            4499227.163705526
+          ],
+          [
+            296477.9400674766,
+            4499224.233592136
+          ],
+          [
+            296479.8934764033,
+            4499229.9067035895
+          ],
+          [
+            296471.38380922296,
+            4499232.83681698
+          ]
+        ]
+      }
+    }
+  ]
+}

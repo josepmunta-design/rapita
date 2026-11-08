@@ -1,0 +1,17 @@
+{
+  "entityId": "darsena-petita",
+  "historicalEvidence": {
+    "description": "Boca del canal de navegació; diferencia de la dàrsena portuària gran i de les encluses d’Amposta.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.3,4,11"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

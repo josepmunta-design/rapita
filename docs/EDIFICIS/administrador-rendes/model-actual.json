@@ -1,0 +1,51 @@
+{
+  "entityId": "administrador-rendes",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "casa-administrador",
+        "name": "Casa de l’administrador de rendes",
+        "kind": "service-house",
+        "fromYear": 1780,
+        "width": 8,
+        "depth": 6,
+        "height": 4,
+        "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
+        "townAnchor": [
+          99,
+          84
+        ],
+        "anchor": [
+          296510.30856395874,
+          4499411.920913059
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 3.7453284717255624,
+        "footprintUTM": [
+          [
+            296505.549785193,
+            4499410.38662995
+          ],
+          [
+            296513.11393379775,
+            4499407.782084715
+          ],
+          [
+            296515.0673427245,
+            4499413.455196168
+          ],
+          [
+            296507.5031941197,
+            4499416.059741404
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "entityId": "unitat-royal-portico-08",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "unitat-royal-portico-08-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "14 cases inacabades",
+      "state": "Porxos conclosos i primeres bigues.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.3"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "unitat-royal-portico-08-fase-02",
+      "witnessDate": "1794-09-19",
+      "witnessYear": 1794,
+      "label": "Venda de 10 cases rodones anunciada",
+      "state": "No és data d’acabament ni confirma tots els arcs per finca.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.210 nota 60"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "unitat-royal-portico-08-fase-03",
+      "witnessDate": "1916",
+      "witnessYear": 1916,
+      "label": "Salvany i fronts exempts",
+      "state": "Fotografia contrastada a l’expedient 0.12; no retroprojectar-ne danys.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "ANT-PORXOS",
+          "locator": "P01"
+        },
+        {
+          "sourceId": "N081",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "unitat-royal-portico-08-fase-04",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Galeria i acolorits posteriors",
+      "state": "Colors i dates originals pendents.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N031",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N102",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N103",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

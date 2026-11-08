@@ -1,0 +1,49 @@
+{
+  "entityId": "forn-moli-guix",
+  "historicalEvidence": {
+    "description": "Al nord de la Fonda Vella segons les afrontacions de la concessió de 1782; forma i solar propis desconeguts.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "p.211"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "forn-moli-guix",
+      "anchor": [
+        296547,
+        4499389
+      ],
+      "footprintUTM": [
+        [
+          296542.24122123426,
+          4499387.465716891
+        ],
+        [
+          296549.805369839,
+          4499384.861171655
+        ],
+        [
+          296551.75877876574,
+          4499390.534283109
+        ],
+        [
+          296544.194630161,
+          4499393.138828345
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

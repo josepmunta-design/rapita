@@ -1,0 +1,94 @@
+{
+  "entityId": "cases-assentistes",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cases-assentistes-1",
+        "name": "Cases dels assentistes de la bateria · cos 1",
+        "kind": "service-house",
+        "fromYear": 1780,
+        "utmAnchor": [
+          296336.2,
+          4499198.3
+        ],
+        "width": 7,
+        "depth": 6,
+        "height": 4,
+        "evidence": "N025 i N029: dues cases construïdes pels assentistes del castell dins del recinte conventual. Planta, alçat i repartiment C; la relació amb la ferreria i la caseta comprades el 1780 no està conciliada.",
+        "anchor": [
+          296336.2,
+          4499198.3
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 10.590029696026399,
+        "footprintUTM": [
+          [
+            296331.9139805221,
+            4499196.602932814
+          ],
+          [
+            296338.5326105512,
+            4499194.323955732
+          ],
+          [
+            296340.48601947795,
+            4499199.997067186
+          ],
+          [
+            296333.8673894488,
+            4499202.276044267
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "cases-assentistes-2",
+        "name": "Cases dels assentistes de la bateria · cos 2",
+        "kind": "service-house",
+        "fromYear": 1780,
+        "utmAnchor": [
+          296343.8,
+          4499195.7
+        ],
+        "width": 7,
+        "depth": 6,
+        "height": 4,
+        "evidence": "N025 i N029: segona de les dues cases dels assentistes. El 1794 hi ha casutxes embargades als assentistes dins dels 38 registres privats mixtos; no se sumen a l’inventari residencial.",
+        "anchor": [
+          296343.8,
+          4499195.7
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 10.27271007876728,
+        "footprintUTM": [
+          [
+            296339.51398052205,
+            4499194.002932814
+          ],
+          [
+            296346.1326105512,
+            4499191.723955733
+          ],
+          [
+            296348.0860194779,
+            4499197.397067186
+          ],
+          [
+            296341.4673894488,
+            4499199.676044268
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "entityId": "sanitat-moll",
+  "historicalEvidence": {
+    "description": "A la capçalera de la dàrsena, protegida pel canó de la bateria, segons l’article 18 de 1794. Emplaçament exacte sense aixecament.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "D posició individual / B relació territorial quan està documentada",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.18"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "health",
+      "anchor": [
+        296477.96398365987,
+        4499129.298889349
+      ],
+      "footprintUTM": [
+        [
+          296476.25132352975,
+          4499132.003846887
+        ],
+        [
+          296474.94905091194,
+          4499128.221772584
+        ],
+        [
+          296479.67664379,
+          4499126.593931812
+        ],
+        [
+          296480.9789164078,
+          4499130.376006114
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -28,13 +28,16 @@ export function housingNavigation(s){
 }
 export function marketPlan(s){
  const w=s.width,d=s.depth,T=.55,pier=.75,passage=3.2;
- const piers=[-.4,-.133333,.133333,.4].map(k=>({x:k*w,z:d/2-T/2,width:pier,baseWidth:1.05,depth:1.05}));
+ const piers=[-.4,-.133333,.133333,.4].map(k=>({x:k*w,z:d/2-T/2,width:pier,baseWidth:1.3,depth:1.3}));
  const sideDepth=d-passage,sideWidth=w/2-piers[3].x-pier/2;
  return{T,piers,passage,sideDepth,sideWidth,
-  solids:[rect(0,-d/2+T/2,w,T),...[-1,1].map(sign=>rect(sign*(w/2-T/2),-passage/2,T,sideDepth)),...piers.map(p=>rect(p.x,p.z,p.baseWidth,p.depth)),...[-1,1].map(sign=>rect(sign*(w/2-sideWidth/2),d/2-T/2,sideWidth,T))],
+  solids:[rect(0,-passage/2,w,sideDepth),...piers.map(p=>rect(p.x,p.z,p.baseWidth,p.depth))],
   floor:rect(0,0,w,d)};
 }
 export function centerNavigation(s){
+ if(s.layoutAlias)return{solids:[],floors:[]};
+ if(s.planOutlineUTM)return{solids:[s.planOutlineUTM],floors:[]};
+ if(s.bodyFootprintsUTM)return{solids:s.bodyFootprintsUTM,floors:[]};
  if(s.kind==='covered-market'){const p=marketPlan(s);return{solids:p.solids.map(p=>siteUTM(s,p)),floors:[siteUTM(s,p.floor)]};}
  if(s.kind==='inn'){
   const wing=10,w=s.width,d=s.depth,T=.3;

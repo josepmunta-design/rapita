@@ -1,0 +1,17 @@
+{
+  "entityId": "cases-lloguer-1788",
+  "historicalEvidence": {
+    "description": "Ubicació i correspondència individual amb l’inventari posterior pendents; alternativa cronològica del model, no dotze unitats addicionals.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "ANT-TESI",
+        "locator": "pp.251–253"
+      }
+    ]
+  },
+  "studyPositions": [],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

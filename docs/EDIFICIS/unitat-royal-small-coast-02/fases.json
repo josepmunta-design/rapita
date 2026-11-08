@@ -1,0 +1,58 @@
+{
+  "entityId": "unitat-royal-small-coast-02",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "unitat-royal-small-coast-02-fase-01",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "14 unitats petites",
+      "state": "Grup agregat del patrimoni reial.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.4"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "unitat-royal-small-coast-02-fase-02",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Façanes litorals del XX",
+      "state": "Serveixen per estudiar transformacions i no per adjudicar números de 1794.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N043",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N044",
+          "locator": "fitxer o imatge completa"
+        },
+        {
+          "sourceId": "N093",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "individualIdentityVerified": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

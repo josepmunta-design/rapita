@@ -1,0 +1,166 @@
+{
+  "entityId": "far-sant-carles",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Dates documentades amb resolució anual al visor; comparació actual sense activació per any.",
+  "phases": [
+    {
+      "id": "far-sant-carles-fase-01",
+      "witnessDate": "1862",
+      "witnessYear": 1862,
+      "label": "Obra acabada i llanterna",
+      "state": "Obra rebuda el maig i muntatge de la llanterna acabat el 21/12/1862. Edifici visible, encara sense servei.",
+      "kind": "testimoni",
+      "eventDate": "1862",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Obra acabada i llanterna"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "any",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "far-sant-carles-fase-02",
+      "witnessDate": "1864-11-01",
+      "witnessYear": 1864,
+      "label": "Primera llum",
+      "state": "Roja fixa de 6è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.",
+      "kind": "testimoni",
+      "eventDate": "1864-11-01",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Primera llum"
+        },
+        {
+          "sourceId": "FAR-S3",
+          "locator": "avís nàutic"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "far-sant-carles-fase-03",
+      "witnessDate": "1920-08-29",
+      "witnessYear": 1920,
+      "label": "Llanterna cilíndrica",
+      "state": "Nova llanterna cilíndrica de 1,80 m amb muntants helicoidals i senyal blanca. Acetilè el 2/9/1920. El model conserva el groc original com a hipòtesi; data del repintat desconeguda.",
+      "kind": "testimoni",
+      "eventDate": "1920-08-29",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Llanterna cilíndrica"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "far-sant-carles-fase-04",
+      "witnessDate": "1929",
+      "witnessYear": 1929,
+      "label": "Electrificació",
+      "state": "Làmpada elèctrica de 100 bugies. La fitxa RABASF associa amb 1929 el mecanisme que el Port posa en servei el 1920; divergència conservada.",
+      "kind": "testimoni",
+      "eventDate": "1929",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Electrificació"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "any",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "far-sant-carles-fase-05",
+      "witnessDate": "1937-03-17",
+      "witnessYear": 1937,
+      "label": "Apagada durant la guerra",
+      "state": "Apagat del 17/3/1937 a finals de 1938. El selector anual representa 1937 i 1938 sense emissió; la represa es veu a partir de 1939.",
+      "kind": "testimoni",
+      "eventDate": "1937-03-17",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Apagada durant la guerra"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": false
+    },
+    {
+      "id": "far-sant-carles-fase-06",
+      "witnessDate": "1975-05-23",
+      "witnessYear": 1975,
+      "label": "Nova òptica roja",
+      "state": "Òptica de tambor de 500 mm i làmpada de 250 W; 4 i 1 ocultacions roges. No data els acabats blancs del model actual.",
+      "kind": "testimoni",
+      "eventDate": "1975-05-23",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Nova òptica roja"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": true
+    },
+    {
+      "id": "far-sant-carles-fase-07",
+      "witnessDate": "1995-07-02",
+      "witnessYear": 1995,
+      "label": "Equip Balizamar",
+      "state": "Dues làmpades halògenes de 1.000 W amb canviador. Fora del selector, que acaba el 1993.",
+      "kind": "testimoni",
+      "eventDate": "1995-07-02",
+      "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
+      "references": [
+        {
+          "sourceId": "FAR-S1",
+          "locator": "Equip Balizamar"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "dia",
+      "outsideTargetRange": true
+    },
+    {
+      "id": "far-sant-carles-fase-08",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Aspecte actual · comparació",
+      "state": "Model fotogràfic aportat: façanes blanques, terrat vermellós i llanterna metàl·lica amb òptica roja. Data de cada acabat desconeguda; activació manual independent de l’any.",
+      "kind": "comparació",
+      "eventDate": null,
+      "eventDateReason": "Data dels acabats recents no fixada.",
+      "references": [
+        {
+          "sourceId": "FAR-S2",
+          "locator": "Aspecte actual · comparació"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "datePrecision": "desconeguda",
+      "outsideTargetRange": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "dossiers": 123,
+  "mainDossiers": 66,
+  "individualStudyBodies": 57,
+  "phaseRecords": 299,
+  "originalFilesVerifiedUnchanged": 113,
+  "archivedCopiesVerified": 113,
+  "localHTMLLinksChecked": 2700,
+  "errors": []
+}

@@ -36,7 +36,8 @@ export function makeEnvironment(urban:any,littoral:any,housing:any,center:any,me
  instances(pot,clay,plan.pots,courtyards,new THREE.Vector3(1,1,1));
  const box=(parent:THREE.Group,x:number,y:number,z:number,w:number,h:number,d:number,m=wood)=>{const mesh=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);mesh.position.set(x,y,z);mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;};
  const dockProp=(e:number,n:number)=>{const g=new THREE.Group();g.position.fromArray(toWorld(e,n,1.3,meta.origin));docks.add(g);return g;};
- for(const[e,n]of[[296499,4499185.2],[296506,4499185.2],[296544,4499185.1]]){
+ const dockPoints=littoral.portWorks?.dockProps??[[296499,4499185.2],[296506,4499185.2],[296544,4499185.1],[296492,4499185.15]];
+ for(const[e,n]of dockPoints.slice(0,3)){
   const g=dockProp(e,n),barrel=new THREE.Mesh(new THREE.LatheGeometry([[.23,0],[.26,.06],[.30,.35],[.26,.67],[.23,.72]].map(p=>new THREE.Vector2(...p)),12),wood);barrel.castShadow=true;g.add(barrel);
   for(const y of[.10,.6]){const hoop=new THREE.Mesh(new THREE.TorusGeometry(.28,.024,4,12),iron);hoop.rotation.x=Math.PI/2;hoop.position.y=y;g.add(hoop);}
   const lid=new THREE.Mesh(new THREE.CylinderGeometry(.23,.23,.035,12),wood);lid.position.y=.72;g.add(lid);
@@ -44,7 +45,7 @@ export function makeEnvironment(urban:any,littoral:any,housing:any,center:any,me
   for(let row=0;row<4;row++)for(const sign of[-1,1])box(g,-.8,.10+row*.14,sign*.27,.65,.10,.04);
   box(g,-.8,.06,0,.65,.08,.58);for(const sign of[-1,1])box(g,-.8+sign*.29,.3,0,.04,.55,.58);
  }
- const net=dockProp(296492,4499185.15),lines:number[]=[];
+ const net=dockProp(...dockPoints[3] as[number,number]),lines:number[]=[];
  for(let i=0;i<=18;i++)lines.push(i*.22,.035,-.45,i*.22,.035,.45);
  for(let i=0;i<=5;i++)lines.push(0,.035,-.45+i*.18,3.96,.035,-.45+i*.18);
  const ng=new THREE.BufferGeometry();ng.setAttribute('position',new THREE.Float32BufferAttribute(lines,3));net.add(new THREE.LineSegments(ng,new THREE.LineBasicMaterial({color:'#746b4a'})));

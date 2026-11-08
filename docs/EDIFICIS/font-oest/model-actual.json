@@ -1,0 +1,65 @@
+{
+  "entityId": "font-oest",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "font-oest",
+        "name": "Font i torre del rellotge",
+        "kind": "fountain",
+        "across": -24,
+        "along": -114,
+        "front": "east",
+        "width": 4.8,
+        "depth": 3,
+        "wallHeight": 6.5,
+        "roofRise": 0,
+        "clock": true,
+        "state1794": "font pública amb torre; rellotge instal·lat en una de les dues",
+        "evidence": "H02, art. 11, pàg. 216 i 231: dues fonts amb piles de carreus i torres, i un rellotge públic. H01, pàg. 226–227: arc i frontó triangular.",
+        "limits": "L’assignació del rellotge a aquesta torre és C; posició precisa, alçària i forma de les torres sense mesurar. L’esfera és un símbol d’assaig.",
+        "documented": {
+          "pairedFountains": 2,
+          "installedClocks": 1,
+          "footprint": null,
+          "height": null
+        },
+        "anchor": {
+          "easting": 296329.5472845775,
+          "northing": 4499264.7531180885
+        },
+        "frontAzimuthDegrees": 109,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296330.1841988702,
+            4499261.995521275
+          ],
+          [
+            296331.74692601163,
+            4499266.534010438
+          ],
+          [
+            296328.9103702848,
+            4499267.510714902
+          ],
+          [
+            296327.3476431434,
+            4499262.972225739
+          ]
+        ],
+        "terrain": {
+          "minimum": 10.46975858497632,
+          "maximum": 10.57593464286632,
+          "technicalBaseElevation": 10.65593464286632
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "entityId": "sanitat-moll",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/littoral.json",
+      "data": {
+        "id": "health",
+        "name": "Caseta de Sanitat i molls",
+        "anchor": [
+          296477.96398365987,
+          4499129.298889349
+        ],
+        "kind": "health",
+        "width": 5,
+        "depth": 4,
+        "height": 3.1,
+        "radius": 50,
+        "state": "Caseta al moll; espigons parcials i escullera",
+        "evidence": "H02 art. 18. H03 descriu la Junta de Sanitat al conjunt antic: l'atribució exacta de cada dependència resta oberta. Afectació de les tempestes de 1795 per delimitar.",
+        "alongAzimuthDegrees": 19,
+        "footprintUTM": [
+          [
+            296476.25132352975,
+            4499132.003846887
+          ],
+          [
+            296474.94905091194,
+            4499128.221772584
+          ],
+          [
+            296479.67664379,
+            4499126.593931812
+          ],
+          [
+            296480.9789164078,
+            4499130.376006114
+          ]
+        ],
+        "technicalBaseElevation": 1.3,
+        "geometryConfidence": "C",
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "state1800": null
+      }
+    }
+  ]
+}

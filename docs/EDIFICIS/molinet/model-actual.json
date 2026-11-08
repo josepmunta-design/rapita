@@ -1,0 +1,51 @@
+{
+  "entityId": "molinet",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "molinet",
+        "name": "Molí fariner del Molinet",
+        "kind": "mill",
+        "fromYear": 1794,
+        "utmAnchor": [
+          296592,
+          4499448
+        ],
+        "width": 10,
+        "depth": 8,
+        "height": 3.6,
+        "evidence": "N112 art. 30 p.234: molí de dues moles amb conducte i rastellador; el 1794 manca tancar i cobrir l’edifici. Es mostra sense coberta. Situat al final del canal, vora la platja del port; planta i mecanisme C (plànol PARES1679817 no recuperat). L’ordre d’acabament de 1794 no prova la posada en servei.",
+        "anchor": [
+          296592,
+          4499448
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 1.864924370050428,
+        "footprintUTM": [
+          [
+            296585.9701345042,
+            4499445.84576647
+          ],
+          [
+            296595.42532026017,
+            4499442.590084925
+          ],
+          [
+            296598.0298654958,
+            4499450.15423353
+          ],
+          [
+            296588.57467973983,
+            4499453.409915075
+          ]
+        ]
+      }
+    }
+  ]
+}

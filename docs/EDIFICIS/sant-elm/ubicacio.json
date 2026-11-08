@@ -1,0 +1,57 @@
+{
+  "entityId": "sant-elm",
+  "historicalEvidence": {
+    "description": "Probablement al solar de l’església parroquial actual, a un extrem del front semicircular, davant l’edifici superior de la plaça coberta. La identificació és probable, no una planta contrastada.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.6"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      },
+      {
+        "sourceId": "N003",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "sant-elm",
+      "anchor": {
+        "easting": 296317.3353914813,
+        "northing": 4499309.147595977
+      },
+      "footprintUTM": [
+        [
+          296326.3870443634,
+          4499297.041086154
+        ],
+        [
+          296331.92170298914,
+          4499313.114901939
+        ],
+        [
+          296308.28373859916,
+          4499321.254105801
+        ],
+        [
+          296302.74907997344,
+          4499305.180290015
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/center.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

@@ -1,0 +1,67 @@
+{
+  "entityId": "fonda-nova",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "fonda-nova-fase-01",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Primer cos",
+      "state": "Plànol mostra la fase inicial i recinte de pati.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "il·l.2 p.204"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "fonda-nova-fase-02",
+      "witnessDate": "1783",
+      "witnessYear": 1783,
+      "label": "Obres de terraplè",
+      "state": "250 vares cúbiques per terraplenar davant del mesón, segons informe citat; no és una cota absoluta.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.222"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "fonda-nova-fase-03",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Fonda en ús",
+      "state": "Dos cossos i pati; localització del sopluig no documentada.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.210"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "entityId": "rampa-figueretes",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rampa-roquer",
+        "name": "Baixada del Pou de les Figueretes",
+        "kind": "ramp",
+        "fromYear": 1794,
+        "width": 4,
+        "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+        "utmPoints": [
+          [
+            296404.0215530871,
+            4499229.504624519
+          ],
+          [
+            296416.48432533804,
+            4499204.3432869585
+          ],
+          [
+            296435.751004384,
+            4499174.762531754
+          ],
+          [
+            296465.26106629637,
+            4499140.702322624
+          ]
+        ],
+        "points": [
+          [
+            296404.0215530871,
+            4499229.504624519
+          ],
+          [
+            296416.48432533804,
+            4499204.3432869585
+          ],
+          [
+            296435.751004384,
+            4499174.762531754
+          ],
+          [
+            296465.26106629637,
+            4499140.702322624
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

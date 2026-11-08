@@ -1,0 +1,88 @@
+{
+  "entityId": "torre-rapita",
+  "historicalEvidence": {
+    "description": "A ponent de la bateria, a l’àmbit de l’actual plaça del Mercat, sobre el Roquer. Punt 2 al plànol de 1782. Ajust del visor (31/10/2026): Planta A i porció O traçades al redibuix de 1748 amb la mateixa transformació que la costa i el recinte. A és la part existent; O es consulta com a projecte daurat. El visor manté la reparació de 1780 com a fase posterior. Alçàries, obertures i persistència C.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,2,4"
+      },
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "tower",
+      "anchor": [
+        296388.9867085829,
+        4499194.271625824
+      ],
+      "footprintUTM": [
+        [
+          296391.08972781326,
+          4499188.900841769
+        ],
+        [
+          296384.02292197925,
+          4499191.334138156
+        ],
+        [
+          296386.8836893525,
+          4499199.64240988
+        ],
+        [
+          296393.9504951865,
+          4499197.209113493
+        ]
+      ],
+      "alongAzimuthDegrees": 19,
+      "planLetter": "A",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "project-1748-tower",
+      "anchor": [
+        296390.73539396224,
+        4499193.455865784
+      ],
+      "footprintUTM": [
+        [
+          296391.15549258044,
+          4499189.0918365205
+        ],
+        [
+          296387.7175870396,
+          4499190.27560233
+        ],
+        [
+          296390.315295344,
+          4499197.819895046
+        ],
+        [
+          296393.75320088485,
+          4499196.636129236
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": "O",
+      "projectOnly": true,
+      "positionSource": null,
+      "source": "public/data/littoral.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

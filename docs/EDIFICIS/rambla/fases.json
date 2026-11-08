@@ -1,0 +1,48 @@
+{
+  "entityId": "rambla",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "rambla-fase-01",
+      "witnessDate": "1782",
+      "witnessYear": 1782,
+      "label": "Afrontació urbana",
+      "state": "La Rambla ja delimita els recintes documentats.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.210–211"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "rambla-fase-02",
+      "witnessDate": "1816",
+      "witnessYear": 1816,
+      "label": "Descripció del carrer ample",
+      "state": "Testimoni general de l’edició castellana de Laborde.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N016",
+          "locator": "pp.27–29"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    }
+  ]
+}

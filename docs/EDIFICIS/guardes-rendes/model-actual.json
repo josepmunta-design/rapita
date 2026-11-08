@@ -1,0 +1,94 @@
+{
+  "entityId": "guardes-rendes",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "guardes-rendes-1",
+        "name": "Casa dels guardes de rendes · 1",
+        "kind": "guardhouse",
+        "fromYear": 1780,
+        "utmAnchor": [
+          296327,
+          4499182
+        ],
+        "width": 6,
+        "depth": 5,
+        "height": 3.2,
+        "evidence": "H01 pp. 161–162: dues cases de guardes. Geometria i lloc individual C; relació amb el conjunt mixt de 1794 desconeguda.",
+        "anchor": [
+          296327,
+          4499182
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 11.08981976568698,
+        "footprintUTM": [
+          [
+            296323.34952388704,
+            4499180.612908024
+          ],
+          [
+            296329.0226353407,
+            4499178.659499098
+          ],
+          [
+            296330.65047611296,
+            4499183.387091976
+          ],
+          [
+            296324.9773646593,
+            4499185.340500902
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "guardes-rendes-2",
+        "name": "Casa dels guardes de rendes · 2",
+        "kind": "guardhouse",
+        "fromYear": 1780,
+        "utmAnchor": [
+          296337,
+          4499174
+        ],
+        "width": 6,
+        "depth": 5,
+        "height": 3.2,
+        "evidence": "H01 pp. 161–162. Es conserva com a hipòtesi de continuïtat fins al 1800, no com una nova unitat de l'inventari.",
+        "anchor": [
+          296337,
+          4499174
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 10.524447754025456,
+        "footprintUTM": [
+          [
+            296333.34952388704,
+            4499172.612908024
+          ],
+          [
+            296339.0226353407,
+            4499170.659499098
+          ],
+          [
+            296340.65047611296,
+            4499175.387091976
+          ],
+          [
+            296334.9773646593,
+            4499177.340500902
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "entityId": "casa-white",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "casa-white",
+        "name": "Magatzems de Josep White",
+        "kind": "warehouse",
+        "across": 96.48669071421283,
+        "along": 16.95863709730206,
+        "front": "south",
+        "width": 26,
+        "depth": 20,
+        "wallHeight": 8.2,
+        "roofRise": 0,
+        "state1794": "obra avançada a càrrec d’un comerciant; edifici simètric",
+        "inventoryRelation": "Immoble privat singular; possible relació amb el conjunt mixt de 38. No se suma com a habitatge addicional.",
+        "evidence": "H02, art. 13 i pàg. 216–217: edifici davant de la duana nova; adquirit per White el 1792 per mantenir la simetria.",
+        "limits": "S’assaja el mateix estat sense coberta que al model simètric; la font no detalla separadament cada avenç de l’obra privada. Persistència el 1800 desconeguda.",
+        "documented": {
+          "symmetryRequired": true,
+          "roof1794": null,
+          "footprint": null,
+          "height": null
+        },
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "anchor": {
+          "easting": 296486.1056505503,
+          "northing": 4499349.350312567
+        },
+        "frontAzimuthDegrees": 199,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [
+          [
+            296470.5582275229,
+            4499344.127512819
+          ],
+          [
+            296495.1417104885,
+            4499335.662740803
+          ],
+          [
+            296501.6530735777,
+            4499354.5731123155
+          ],
+          [
+            296477.0695906121,
+            4499363.037884331
+          ]
+        ],
+        "terrain": {
+          "minimum": 5.136652071705174,
+          "maximum": 6.353724380370073,
+          "technicalBaseElevation": 6.433724380370073
+        }
+      }
+    }
+  ]
+}

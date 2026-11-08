@@ -1,0 +1,87 @@
+{
+  "entityId": "hort-rei-nord",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "hort-nord",
+        "name": "Hort del Rei · tram nord",
+        "kind": "garden",
+        "fromYear": 1794,
+        "townAnchor": [
+          -97.43365935696715,
+          33.92338891189114
+        ],
+        "width": 51.275250459190545,
+        "depth": 89.39189320278044,
+        "evidence": "H02 art. 10: dos horts a l'entrada de València separats pel camí. Recintes i conreus d'assaig C.",
+        "townPolygon": [
+          [
+            -123.07128458656243,
+            77.64152333241901
+          ],
+          [
+            -72.7505743040261,
+            78.61933551328136
+          ],
+          [
+            -71.79603412737188,
+            -10.592009354124112
+          ],
+          [
+            -119.6630185978667,
+            -10.772557689499074
+          ]
+        ],
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "polygonUTM": [
+          [
+            296298.2659217611,
+            4499478.208193538
+          ],
+          [
+            296346.16343257774,
+            4499462.749912341
+          ],
+          [
+            296318.0215951408,
+            4499378.088160731
+          ],
+          [
+            296272.7036913777,
+            4499393.501414719
+          ]
+        ],
+        "anchor": [
+          296308.2735403103,
+          4499428.525091022
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 11.034263880363579,
+        "footprintUTM": [
+          [
+            296298.2659217611,
+            4499478.208193538
+          ],
+          [
+            296346.16343257774,
+            4499462.749912341
+          ],
+          [
+            296318.0215951408,
+            4499378.088160731
+          ],
+          [
+            296272.7036913777,
+            4499393.501414719
+          ]
+        ]
+      }
+    }
+  ]
+}

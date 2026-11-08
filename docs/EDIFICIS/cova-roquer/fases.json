@@ -1,0 +1,67 @@
+{
+  "entityId": "cova-roquer",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "cova-roquer-fase-01",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Abans de 1780",
+      "state": "Hort i cova preexistents.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.198"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    },
+    {
+      "id": "cova-roquer-fase-02",
+      "witnessDate": "1780-08-06",
+      "witnessYear": 1780,
+      "label": "Coves habilitades per als obrers",
+      "state": "Allotjament de les obres al peu del turó.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N025",
+          "locator": "fitxer o imatge completa"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    },
+    {
+      "id": "cova-roquer-fase-03",
+      "witnessDate": null,
+      "witnessYear": null,
+      "label": "Guerra Civil",
+      "state": "Refugi segons record recollit per Millan i Carles, citat a l’article; no data una obra nova.",
+      "kind": "retrospectiu",
+      "eventDate": null,
+      "eventDateReason": "La data del testimoni no fixa automàticament la construcció, reforma o desaparició.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "p.198"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
+    }
+  ]
+}

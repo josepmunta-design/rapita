@@ -1,0 +1,57 @@
+{
+  "entityId": "rampar",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rampar",
+        "name": "Carrer del Rampar",
+        "kind": "street",
+        "fromYear": 1782,
+        "width": 5.5,
+        "townPoints": [
+          [
+            121,
+            145
+          ],
+          [
+            121,
+            45
+          ],
+          [
+            125,
+            0
+          ],
+          [
+            140,
+            -15
+          ]
+        ],
+        "evidence": "H02, límits de Talavera de 1782 i accessos al Cóc. Correspondència individual amb els carrers actuals pendent.",
+        "points": [
+          [
+            296550.9696300438,
+            4499462.435046773
+          ],
+          [
+            296518.41281459806,
+            4499367.883189213
+          ],
+          [
+            296507.54432194994,
+            4499324.032580693
+          ],
+          [
+            296516.843578267,
+            4499304.966279742
+          ]
+        ],
+        "historicalWidth": null,
+        "positionConfidence": "C"
+      }
+    }
+  ]
+}

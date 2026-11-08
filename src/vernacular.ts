@@ -6,6 +6,7 @@ const texture=(kind:string,relief=false)=>{
   const noise=((x*17+y*31+(x*y)%29)%19)-9;let value:number[];
   if(kind==='tile'){const a=x%16,b=y%32,v=142+27*Math.cos(a/16*Math.PI*2)+noise*.5;value=b>29?[85,55,36]:[v+24,v*.67,v*.43];if(relief)value=[a===0||b>29?60:150+55*Math.cos(a/16*Math.PI*2),0,0];}
   else if(kind==='brick'){const joint=y%16<2||(x+(Math.floor(y/16)%2)*16)%32<2;value=joint?[173,163,141]:[154+noise,122+noise*.7,85+noise*.6];if(relief)value=[joint?80:170+noise,0,0];}
+  else if(kind==='masonry'){const row=Math.floor(y/16),joint=y%16<1||(x+(row%2)*16)%32<1,tone=((row*11+Math.floor((x+(row%2)*16)/32)*7)%13)-6;value=joint?[145,140,126]:[183+tone+noise*.4,176+tone+noise*.4,157+tone+noise*.4];if(relief)value=[joint?75:150+noise,0,0];}
   else if(kind==='wood'){const grain=Math.sin(x*.6+Math.sin(y*.055)*2)*9+noise*.35;value=[105+grain,79+grain*.7,53+grain*.5];if(relief)value=[120+grain,0,0];}
   else {value=[196+noise*.5,188+noise*.5,164+noise*.5];if(relief)value=[128+noise,0,0];}
   const i=(y*size+x)*4;if(relief)value=[value[0],value[0],value[0]];bytes.set([...value.map(v=>Math.max(0,Math.min(255,Math.round(v)))),255],i);

@@ -7,6 +7,7 @@ import {roofTexture,surfaceMaterial,groundQuad} from './vernacular.ts';
 import {housingNavigation,porticoPlan,yardPlan} from './domestic-plan.mjs';
 import {detailedPorxo} from './porxos.ts';
 import {PORXO_STUDY} from './porxo-plan.mjs';
+import {makePlacaFacade} from './placa-facades.ts';
 
 export type HousingStructure={id:string;group:string;kind:string;anchor:{easting:number;northing:number};across:number;along:number;
   width:number;depth:number;frontWidth?:number;backWidth?:number;frontZ?:number;backZ?:number;wingDepth?:number;countedUnits?:number;
@@ -140,6 +141,11 @@ export function makeHousing(data:Housing,meta:Terrain,heights:Float32Array,valid
       }
     }
     for(const[material,geometries]of batches){const merged=mergeGeometries(geometries,false);if(!merged)throw new Error('No es pot generar l’habitatge: '+s.id);house.add(new THREE.Mesh(merged,material));geometries.forEach(g=>g.dispose());}
+    if(s.group==='royal-portico'){
+      const study=new THREE.Group(),photo=new THREE.Group();study.name='Porxo · obra oberta de 1794';photo.name='Porxo i façana · comparació N030';
+      for(const mesh of [...house.children]){study.add(mesh);if((mesh as THREE.Mesh).material!==palette.wood)photo.add(mesh.clone());}
+      photo.add(makePlacaFacade(s));photo.visible=false;house.add(study,photo);house.userData.photoComparison={study,photo};
+    }
     root.add(house);
   }
   return root;

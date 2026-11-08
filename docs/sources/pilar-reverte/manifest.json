@@ -1,0 +1,103 @@
+{
+  "sourceId": "PR01",
+  "file": "Descripció ia.odt",
+  "sha256": "c6fb63cc951b1ee098fe41e9bce2f756f0c4d5bd089e46ab4ae7d7fcd497a65e",
+  "images": [
+    {
+      "number": 1,
+      "embeddedPath": "media/image1.jpeg",
+      "sha256": "50b6098769abaa19ea64b91d9355746293ffd0d93758e73127b70704b06ac5fb",
+      "web": "PR01-01.jpg"
+    },
+    {
+      "number": 2,
+      "embeddedPath": "media/image2.jpeg",
+      "sha256": "1960ce6faf69347229b480df996e0e5c0e978672e03771faf5a452e56d2659a0",
+      "web": "PR01-02.jpg"
+    },
+    {
+      "number": 3,
+      "embeddedPath": "media/image3.jpeg",
+      "sha256": "1878c9a00ab2fd86729566aa6e7a0c943c5d0abe3273431037b62915e337767e",
+      "web": "PR01-03.jpg"
+    },
+    {
+      "number": 4,
+      "embeddedPath": "media/image4.jpeg",
+      "sha256": "12698e87dfde5b83a7b80cf9383ecd914e47eb327ce1207a6fa1a65f1fe502ac",
+      "web": "PR01-04.jpg"
+    },
+    {
+      "number": 5,
+      "embeddedPath": "media/image5.jpeg",
+      "sha256": "87a8449ed80268c1985bf0d408555a23e82b3b10ddfe2487f5e72e2838f1ee96",
+      "web": "PR01-05.jpg"
+    },
+    {
+      "number": 6,
+      "embeddedPath": "media/image6.jpeg",
+      "sha256": "c5ae697873ea3815747efedc8e66044adc5fb12c21e205f5f45a7dbdebcdb860",
+      "web": "PR01-06.jpg"
+    },
+    {
+      "number": 7,
+      "embeddedPath": "media/image7.jpeg",
+      "sha256": "7c20039fe6424811083ebfffae6e1db54c2944334525e20cbb7ac7ec87c70777",
+      "web": "PR01-07.jpg"
+    },
+    {
+      "number": 8,
+      "embeddedPath": "media/image8.jpeg",
+      "sha256": "5db2781b1be3e70546d731e2e3d9a8f18247053739d92d2c0e5ecfc3276f67e4",
+      "web": "PR01-08.jpg"
+    },
+    {
+      "number": 9,
+      "embeddedPath": "media/image9.jpeg",
+      "sha256": "23e1b2fdcb2f8b0a165947ca400624aad0722d14699bed5a839759e23d37b4cb",
+      "web": "PR01-09.jpg"
+    },
+    {
+      "number": 10,
+      "embeddedPath": "media/image10.jpeg",
+      "sha256": "16c11bf8ac9b81441e5034b07ab0cb66e93c41dcad271d769c4c2bc6960155b6",
+      "web": "PR01-10.jpg"
+    },
+    {
+      "number": 11,
+      "embeddedPath": "media/image11.jpeg",
+      "sha256": "9233dbd9ec189e36a1f4199b9d832e27fbfb14f7abe46a299b4b4d7b43059d57",
+      "web": "PR01-11.jpg"
+    },
+    {
+      "number": 12,
+      "embeddedPath": "media/image12.jpeg",
+      "sha256": "9c81dcd87c675cebbf23c6566dbbffffccf2791b219bf0e67dd4323004552df2",
+      "web": "PR01-12.jpg"
+    },
+    {
+      "number": 13,
+      "embeddedPath": "media/image13.jpeg",
+      "sha256": "4bd70d5b03291017e1d994d541a7b5cfa794b70cc7b98363392683c6e7bd9963",
+      "web": "PR01-13.jpg"
+    },
+    {
+      "number": 14,
+      "embeddedPath": "media/image14.jpeg",
+      "sha256": "530297cd24713d8102346a9207412e34cef98ecb54de32a27f4f5768938794a6",
+      "web": "PR01-14.jpg"
+    },
+    {
+      "number": 15,
+      "embeddedPath": "media/image15.jpeg",
+      "sha256": "487b0c0d4319e5deaec2f1176df183b2b215695a46ea90ea1f0dd6e88feb41a7",
+      "web": "PR01-15.jpg"
+    },
+    {
+      "number": 16,
+      "embeddedPath": "media/image16.png",
+      "sha256": "ed7b211a9a527cbe8ccc3ab05114a9a3b2b3f836ab8cb2210a58701b4095a681",
+      "web": "PR01-16.jpg"
+    }
+  ]
+}

@@ -1,0 +1,6906 @@
+{
+  "reviewed": "2026-11-08",
+  "method": "Recursive inventory excluding dependencies, generated build, private runtime and temporary work. Binary originals inventoried; this does not assert reading every page or photograph.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 404
+    },
+    {
+      "path": ".vercelignore",
+      "bytes": 236
+    },
+    {
+      "path": "1679586.xml",
+      "bytes": 5450
+    },
+    {
+      "path": "1997_septiembre_3368_10.pdf",
+      "bytes": 1740633
+    },
+    {
+      "path": "api/comments.mjs",
+      "bytes": 4282
+    },
+    {
+      "path": "d8d56b1d-95b0-48ce-9b0f-25803e03324c.png",
+      "bytes": 2631953
+    },
+    {
+      "path": "data/building-research.json",
+      "bytes": 266843
+    },
+    {
+      "path": "data/casotes-provenance.json",
+      "bytes": 2310
+    },
+    {
+      "path": "data/center-1794.json",
+      "bytes": 16615
+    },
+    {
+      "path": "data/chronology.json",
+      "bytes": 24885
+    },
+    {
+      "path": "data/dossier-extra.json",
+      "bytes": 4371
+    },
+    {
+      "path": "data/dossier-media.json",
+      "bytes": 6361
+    },
+    {
+      "path": "data/dossier-model-links.json",
+      "bytes": 22590
+    },
+    {
+      "path": "data/esglesia-nova.json",
+      "bytes": 4586
+    },
+    {
+      "path": "data/faro-provenance.json",
+      "bytes": 1628
+    },
+    {
+      "path": "data/harbour-registration.json",
+      "bytes": 23043
+    },
+    {
+      "path": "data/harbour-traces.json",
+      "bytes": 21357
+    },
+    {
+      "path": "data/history-catalog.json",
+      "bytes": 7083
+    },
+    {
+      "path": "data/housing-1794.json",
+      "bytes": 12080
+    },
+    {
+      "path": "data/interpretations.json",
+      "bytes": 6641
+    },
+    {
+      "path": "data/landmarks.json",
+      "bytes": 5150
+    },
+    {
+      "path": "data/layout-reference-1800.json",
+      "bytes": 2098
+    },
+    {
+      "path": "data/littoral-1800.json",
+      "bytes": 56550
+    },
+    {
+      "path": "data/new-source-notes.json",
+      "bytes": 38730
+    },
+    {
+      "path": "data/pilar-reverte.json",
+      "bytes": 19387
+    },
+    {
+      "path": "data/plan-1748.json",
+      "bytes": 28915
+    },
+    {
+      "path": "data/porxos-evidence.json",
+      "bytes": 8538
+    },
+    {
+      "path": "data/research-19c.json",
+      "bytes": 32540
+    },
+    {
+      "path": "data/urban-chronology.json",
+      "bytes": 2047
+    },
+    {
+      "path": "data/urban-fabric.json",
+      "bytes": 52352
+    },
+    {
+      "path": "Descripció ia.odt",
+      "bytes": 3891004
+    },
+    {
+      "path": "docs/1800-1900/aportados/alfaques-1813-IGN.jpg",
+      "bytes": 2295092
+    },
+    {
+      "path": "docs/1800-1900/aportados/reforma-1852-N003.jpg",
+      "bytes": 919772
+    },
+    {
+      "path": "docs/1800-1900/manifest.json",
+      "bytes": 7632
+    },
+    {
+      "path": "docs/1800-1900/originals/aca-eixample-1870-alta.jpg",
+      "bytes": 30390
+    },
+    {
+      "path": "docs/1800-1900/originals/aca-eixample-1870.jpg",
+      "bytes": 55517
+    },
+    {
+      "path": "docs/1800-1900/originals/aht-butlleti-23.pdf",
+      "bytes": 4220113
+    },
+    {
+      "path": "docs/1800-1900/originals/ajuntament-historia.html",
+      "bytes": 117448
+    },
+    {
+      "path": "docs/1800-1900/originals/arxiu-document-mes-2014-08.pdf",
+      "bytes": 274987
+    },
+    {
+      "path": "docs/1800-1900/originals/arxiu-rapita-fons-complement-2024.pdf",
+      "bytes": 148468
+    },
+    {
+      "path": "docs/1800-1900/originals/canal-dreta-historia.html",
+      "bytes": 114417
+    },
+    {
+      "path": "docs/1800-1900/originals/dipta-desamortitzacio-madoz.pdf",
+      "bytes": 111331291
+    },
+    {
+      "path": "docs/1800-1900/originals/dipta-desamortitzacio.html",
+      "bytes": 54642
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1851-12-02-concessio-canal.pdf",
+      "bytes": 2109855
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1870-06-09-salines.pdf",
+      "bytes": 6116231
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1878-06-03-carrega-sal.pdf",
+      "bytes": 5496980
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1878-06-25-carrega-sal.pdf",
+      "bytes": 7789471
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1880-03-22-pesca.pdf",
+      "bytes": 6372085
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1880-05-15-ferrocarril.pdf",
+      "bytes": 6553018
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1881-12-16-llacunes.pdf",
+      "bytes": 4329804
+    },
+    {
+      "path": "docs/1800-1900/originals/gaceta-1885-11-11-salines.pdf",
+      "bytes": 6929517
+    },
+    {
+      "path": "docs/1800-1900/originals/ign-alfaques-1813.html",
+      "bytes": 52324
+    },
+    {
+      "path": "docs/1800-1900/originals/ign-alfaques-1919.html",
+      "bytes": 62596
+    },
+    {
+      "path": "docs/1800-1900/originals/ine-censos-43136.csv",
+      "bytes": 897
+    },
+    {
+      "path": "docs/1800-1900/originals/ine-censos-43136.html",
+      "bytes": 80486
+    },
+    {
+      "path": "docs/1800-1900/originals/ine-metodologia-censos.pdf",
+      "bytes": 102615
+    },
+    {
+      "path": "docs/1800-1900/originals/museumarebre-historia.html",
+      "bytes": 103812
+    },
+    {
+      "path": "docs/1800-1900/originals/pares-eixample-1870.html",
+      "bytes": 36603
+    },
+    {
+      "path": "docs/1800-1900/originals/pares-eixample-visor.html",
+      "bytes": 39681
+    },
+    {
+      "path": "docs/1800-1900/originals/pares-esglesia-1868.html",
+      "bytes": 33559
+    },
+    {
+      "path": "docs/1800-1900/originals/pares-esglesia-visor.html",
+      "bytes": 16208
+    },
+    {
+      "path": "docs/1800-1900/originals/pdc-cementiri.html",
+      "bytes": 34343
+    },
+    {
+      "path": "docs/1800-1900/originals/port-tarragona-far.html",
+      "bytes": 587576
+    },
+    {
+      "path": "docs/1800-1900/originals/port-tarragona-sanitat-maritima.pdf",
+      "bytes": 2849084
+    },
+    {
+      "path": "docs/1800-1900/README.md",
+      "bytes": 968
+    },
+    {
+      "path": "docs/1800-1900/research-19c.json",
+      "bytes": 32540
+    },
+    {
+      "path": "docs/1800-1900/REVISION.md",
+      "bytes": 13078
+    },
+    {
+      "path": "docs/AJUST_PLANTA_1800.md",
+      "bytes": 3771
+    },
+    {
+      "path": "docs/amposta-0.5.0.jpg",
+      "bytes": 45969
+    },
+    {
+      "path": "docs/archivo-blender/crear_rapita_1800.py",
+      "bytes": 10952
+    },
+    {
+      "path": "docs/archivo-blender/LEEME_INSTRUCCIONES.txt",
+      "bytes": 1577
+    },
+    {
+      "path": "docs/archivo-blender/terreno_rapita_mdt50cm_muestra10m.npz",
+      "bytes": 313116
+    },
+    {
+      "path": "docs/caminar-0.10.0.jpg",
+      "bytes": 41801
+    },
+    {
+      "path": "docs/canal-0.5.0.jpg",
+      "bytes": 49681
+    },
+    {
+      "path": "docs/CASOTES_RAPITA.md",
+      "bytes": 4817
+    },
+    {
+      "path": "docs/centro-0.4.0.jpg",
+      "bytes": 94241
+    },
+    {
+      "path": "docs/CENTRO.md",
+      "bytes": 6307
+    },
+    {
+      "path": "docs/columnata-0.11.0.jpg",
+      "bytes": 56648
+    },
+    {
+      "path": "docs/CRONOLOGIA.md",
+      "bytes": 6283
+    },
+    {
+      "path": "docs/desembocadura-0.7.0.jpg",
+      "bytes": 50668
+    },
+    {
+      "path": "docs/DETALL_HABITATGES.md",
+      "bytes": 9192
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/fases.json",
+      "bytes": 912
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/fonts.json",
+      "bytes": 1212
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/index.html",
+      "bytes": 4941
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/model-actual.json",
+      "bytes": 1632
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/README.md",
+      "bytes": 3055
+    },
+    {
+      "path": "docs/EDIFICIS/administrador-rendes/ubicacio.json",
+      "bytes": 1424
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/fases.json",
+      "bytes": 1572
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/fonts.json",
+      "bytes": 4830
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/index.html",
+      "bytes": 6435
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/model-actual.json",
+      "bytes": 328
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/README.md",
+      "bytes": 4072
+    },
+    {
+      "path": "docs/EDIFICIS/amposta-capcalera/ubicacio.json",
+      "bytes": 737
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/fases.json",
+      "bytes": 1649
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/fonts.json",
+      "bytes": 2222
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/index.html",
+      "bytes": 6320
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/model-actual.json",
+      "bytes": 1646
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/README.md",
+      "bytes": 4261
+    },
+    {
+      "path": "docs/EDIFICIS/barraques-obrers/ubicacio.json",
+      "bytes": 1391
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/fases.json",
+      "bytes": 2969
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/fonts.json",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/index.html",
+      "bytes": 9511
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/model-actual.json",
+      "bytes": 19195
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/README.md",
+      "bytes": 6984
+    },
+    {
+      "path": "docs/EDIFICIS/bateria-roquer/ubicacio.json",
+      "bytes": 12452
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/fases.json",
+      "bytes": 1556
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/fonts.json",
+      "bytes": 3509
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/index.html",
+      "bytes": 5833
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/model-actual.json",
+      "bytes": 1935
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/README.md",
+      "bytes": 3613
+    },
+    {
+      "path": "docs/EDIFICIS/cami-pedrera/ubicacio.json",
+      "bytes": 1075
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/fases.json",
+      "bytes": 4882
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/fonts.json",
+      "bytes": 16285
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/index.html",
+      "bytes": 14223
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/model-actual.json",
+      "bytes": 322
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/README.md",
+      "bytes": 10720
+    },
+    {
+      "path": "docs/EDIFICIS/canal-antic/ubicacio.json",
+      "bytes": 1135
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/fases.json",
+      "bytes": 2241
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/index.html",
+      "bytes": 6247
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/model-actual.json",
+      "bytes": 2693
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/README.md",
+      "bytes": 4131
+    },
+    {
+      "path": "docs/EDIFICIS/capella-convent/ubicacio.json",
+      "bytes": 2013
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/fases.json",
+      "bytes": 871
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/index.html",
+      "bytes": 4345
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/model-actual.json",
+      "bytes": 320
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/README.md",
+      "bytes": 2312
+    },
+    {
+      "path": "docs/EDIFICIS/casa-bous/ubicacio.json",
+      "bytes": 627
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/fases.json",
+      "bytes": 1519
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/fonts.json",
+      "bytes": 4317
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/index.html",
+      "bytes": 7023
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/model-actual.json",
+      "bytes": 2383
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/README.md",
+      "bytes": 4581
+    },
+    {
+      "path": "docs/EDIFICIS/casa-white/ubicacio.json",
+      "bytes": 1481
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/fases.json",
+      "bytes": 1789
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/fonts.json",
+      "bytes": 7705
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/index.html",
+      "bytes": 8403
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/model-actual.json",
+      "bytes": 325
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/README.md",
+      "bytes": 5638
+    },
+    {
+      "path": "docs/EDIFICIS/cases-acabades/ubicacio.json",
+      "bytes": 743
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/fases.json",
+      "bytes": 2238
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/fonts.json",
+      "bytes": 4986
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/index.html",
+      "bytes": 7744
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/model-actual.json",
+      "bytes": 2832
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/README.md",
+      "bytes": 5457
+    },
+    {
+      "path": "docs/EDIFICIS/cases-assentistes/ubicacio.json",
+      "bytes": 2268
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/fases.json",
+      "bytes": 944
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/index.html",
+      "bytes": 4355
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/model-actual.json",
+      "bytes": 336
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/README.md",
+      "bytes": 2324
+    },
+    {
+      "path": "docs/EDIFICIS/cases-cobertes-inacabades/ubicacio.json",
+      "bytes": 609
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/fases.json",
+      "bytes": 1538
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/fonts.json",
+      "bytes": 2631
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/index.html",
+      "bytes": 5799
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/model-actual.json",
+      "bytes": 329
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/README.md",
+      "bytes": 3536
+    },
+    {
+      "path": "docs/EDIFICIS/cases-lloguer-1788/ubicacio.json",
+      "bytes": 664
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/fases.json",
+      "bytes": 1752
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/index.html",
+      "bytes": 7219
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/model-actual.json",
+      "bytes": 324
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/README.md",
+      "bytes": 4491
+    },
+    {
+      "path": "docs/EDIFICIS/cases-petites/ubicacio.json",
+      "bytes": 864
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/130267878_3381205301992488_7654617715339037590_o.jpg",
+      "bytes": 81238
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/20210810_190100.jpg",
+      "bytes": 5375474
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/fases.json",
+      "bytes": 3125
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/index.html",
+      "bytes": 12094
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/model-actual.json",
+      "bytes": 323
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/porxos_BN.jpg",
+      "bytes": 184353
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/README.md",
+      "bytes": 8307
+    },
+    {
+      "path": "docs/EDIFICIS/cases-porxos/ubicacio.json",
+      "bytes": 911
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/fases.json",
+      "bytes": 1515
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/index.html",
+      "bytes": 6106
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/model-actual.json",
+      "bytes": 7790
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/README.md",
+      "bytes": 4031
+    },
+    {
+      "path": "docs/EDIFICIS/cases-talavera/ubicacio.json",
+      "bytes": 1456
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/fases.json",
+      "bytes": 1570
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/index.html",
+      "bytes": 6379
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/model-actual.json",
+      "bytes": 16436
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/README.md",
+      "bytes": 4298
+    },
+    {
+      "path": "docs/EDIFICIS/cavallerisses-roquer/ubicacio.json",
+      "bytes": 8573
+    },
+    {
+      "path": "docs/EDIFICIS/checks.json",
+      "bytes": 254
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/fases.json",
+      "bytes": 955
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/fonts.json",
+      "bytes": 1314
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/index.html",
+      "bytes": 5746
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/model-actual.json",
+      "bytes": 3464
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/README.md",
+      "bytes": 3908
+    },
+    {
+      "path": "docs/EDIFICIS/cisterna-fossat-roquer/ubicacio.json",
+      "bytes": 3044
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/fases.json",
+      "bytes": 4389
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/fonts.json",
+      "bytes": 3914
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/index.html",
+      "bytes": 9090
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/model-actual.json",
+      "bytes": 2976
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/README.md",
+      "bytes": 8069
+    },
+    {
+      "path": "docs/EDIFICIS/companyia-canal/ubicacio.json",
+      "bytes": 2146
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/fases.json",
+      "bytes": 2228
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/fonts.json",
+      "bytes": 2966
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/index.html",
+      "bytes": 7644
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/model-actual.json",
+      "bytes": 15815
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/README.md",
+      "bytes": 5366
+    },
+    {
+      "path": "docs/EDIFICIS/convent-masoveria/ubicacio.json",
+      "bytes": 7935
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/fases.json",
+      "bytes": 2160
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/fonts.json",
+      "bytes": 2769
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/index.html",
+      "bytes": 6371
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/model-actual.json",
+      "bytes": 322
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/README.md",
+      "bytes": 4069
+    },
+    {
+      "path": "docs/EDIFICIS/cova-roquer/ubicacio.json",
+      "bytes": 729
+    },
+    {
+      "path": "docs/EDIFICIS/CRITERIS_I_CONFLICTES.html",
+      "bytes": 10867
+    },
+    {
+      "path": "docs/EDIFICIS/CRITERIS_I_CONFLICTES.md",
+      "bytes": 8458
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/fases.json",
+      "bytes": 2798
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/fonts.json",
+      "bytes": 8107
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/index.html",
+      "bytes": 10064
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/model-actual.json",
+      "bytes": 323
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/README.md",
+      "bytes": 6902
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-gran/ubicacio.json",
+      "bytes": 883
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/fases.json",
+      "bytes": 925
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/index.html",
+      "bytes": 4651
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/model-actual.json",
+      "bytes": 325
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/README.md",
+      "bytes": 2560
+    },
+    {
+      "path": "docs/EDIFICIS/darsena-petita/ubicacio.json",
+      "bytes": 615
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/fases.json",
+      "bytes": 1500
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/fonts.json",
+      "bytes": 5491
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/index.html",
+      "bytes": 8146
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/model-actual.json",
+      "bytes": 2276
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/README.md",
+      "bytes": 5596
+    },
+    {
+      "path": "docs/EDIFICIS/duana-nova/ubicacio.json",
+      "bytes": 1673
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/fases.json",
+      "bytes": 1491
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/fonts.json",
+      "bytes": 5150
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/index.html",
+      "bytes": 7186
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/model-actual.json",
+      "bytes": 1738
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/README.md",
+      "bytes": 5005
+    },
+    {
+      "path": "docs/EDIFICIS/duana-vella/ubicacio.json",
+      "bytes": 1730
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/església nova_facebook_BN.jpg",
+      "bytes": 526088
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/fases.json",
+      "bytes": 4820
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/fonts.json",
+      "bytes": 10069
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/index.html",
+      "bytes": 13502
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/model-actual.json",
+      "bytes": 6859
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/README.md",
+      "bytes": 9879
+    },
+    {
+      "path": "docs/EDIFICIS/esglesia-nova/ubicacio.json",
+      "bytes": 1275
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/fases.json",
+      "bytes": 5833
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/fonts.json",
+      "bytes": 3615
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/index.html",
+      "bytes": 9224
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/model-actual.json",
+      "bytes": 2560
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/README.md",
+      "bytes": 8133
+    },
+    {
+      "path": "docs/EDIFICIS/far-sant-carles/ubicacio.json",
+      "bytes": 1600
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/fases.json",
+      "bytes": 1534
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/fonts.json",
+      "bytes": 4986
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/index.html",
+      "bytes": 6981
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/model-actual.json",
+      "bytes": 2681
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/README.md",
+      "bytes": 4809
+    },
+    {
+      "path": "docs/EDIFICIS/ferreria/ubicacio.json",
+      "bytes": 2202
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/fases.json",
+      "bytes": 2165
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/index.html",
+      "bytes": 6492
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/model-actual.json",
+      "bytes": 7878
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/README.md",
+      "bytes": 4329
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-nova/ubicacio.json",
+      "bytes": 1448
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/fases.json",
+      "bytes": 2131
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/fonts.json",
+      "bytes": 3561
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/index.html",
+      "bytes": 7674
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/model-actual.json",
+      "bytes": 1734
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/README.md",
+      "bytes": 5137
+    },
+    {
+      "path": "docs/EDIFICIS/fonda-vella/ubicacio.json",
+      "bytes": 1673
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/fases.json",
+      "bytes": 1616
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/fonts.json",
+      "bytes": 5449
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/index.html",
+      "bytes": 7721
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/model-actual.json",
+      "bytes": 1965
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/README.md",
+      "bytes": 5216
+    },
+    {
+      "path": "docs/EDIFICIS/font-est/ubicacio.json",
+      "bytes": 1547
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/fases.json",
+      "bytes": 1619
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/fonts.json",
+      "bytes": 5449
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/index.html",
+      "bytes": 7726
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/model-actual.json",
+      "bytes": 2171
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/README.md",
+      "bytes": 5220
+    },
+    {
+      "path": "docs/EDIFICIS/font-oest/ubicacio.json",
+      "bytes": 1546
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/catalogue-reviewed.json",
+      "bytes": 109831
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-01.jpg",
+      "bytes": 337244
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-02.jpg",
+      "bytes": 404120
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-03.jpg",
+      "bytes": 334412
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-04.jpg",
+      "bytes": 258505
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-05.jpg",
+      "bytes": 255678
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-06.jpg",
+      "bytes": 235731
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/documents-07.jpg",
+      "bytes": 134033
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-01.jpg",
+      "bytes": 342808
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-02.jpg",
+      "bytes": 408905
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-03.jpg",
+      "bytes": 473671
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-04.jpg",
+      "bytes": 429786
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-05.jpg",
+      "bytes": 516185
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/imatges-06.jpg",
+      "bytes": 466377
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/peus-01.jpg",
+      "bytes": 445202
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/peus-02.jpg",
+      "bytes": 545212
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/peus-03.jpg",
+      "bytes": 412382
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/peus-04.jpg",
+      "bytes": 491223
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/contactes/peus-05.jpg",
+      "bytes": 273342
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N003-llegenda-data.jpg",
+      "bytes": 294510
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N010-data.jpg",
+      "bytes": 162254
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N029-nota.jpg",
+      "bytes": 310362
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N108-dates.jpg",
+      "bytes": 463734
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N111-anotacions.jpg",
+      "bytes": 1218894
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf07-1-Im0.png",
+      "bytes": 419991
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf14-1-Im0.png",
+      "bytes": 533789
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf17-1-Im0.png",
+      "bytes": 174974
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf18-1-Im0.png",
+      "bytes": 242150
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf28-1-Im0.png",
+      "bytes": 185898
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/detalls/N112-pdf30-1-Im0.png",
+      "bytes": 326764
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/inventory.json",
+      "bytes": 59006
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image1.png",
+      "bytes": 282548
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image10.jpeg",
+      "bytes": 97827
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image11.jpeg",
+      "bytes": 128999
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image12.jpeg",
+      "bytes": 112934
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image13.jpeg",
+      "bytes": 120872
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image2.png",
+      "bytes": 419918
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image3.png",
+      "bytes": 432456
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image4.png",
+      "bytes": 415770
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image5.png",
+      "bytes": 411671
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image6.png",
+      "bytes": 386976
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image7.png",
+      "bytes": 426310
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image8.png",
+      "bytes": 425176
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N012/image9.png",
+      "bytes": 115070
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N016/image1.jpeg",
+      "bytes": 133724
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N016/image2.jpeg",
+      "bytes": 194508
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N016/image3.jpeg",
+      "bytes": 185071
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N016/image4.png",
+      "bytes": 176081
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N020/image1.png",
+      "bytes": 176081
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N021/image1.png",
+      "bytes": 1657225
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N021/image2.png",
+      "bytes": 590446
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N021/image3.png",
+      "bytes": 1590309
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N021/image4.jpg",
+      "bytes": 1686607
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N021/image5.png",
+      "bytes": 1618812
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N022/image1.png",
+      "bytes": 35118
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N022/image2.png",
+      "bytes": 94868
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N022/image3.png",
+      "bytes": 83012
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N022/image4.png",
+      "bytes": 67790
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media/N022/image5.png",
+      "bytes": 133399
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/media-index.json",
+      "bytes": 10909
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N001.jpg",
+      "bytes": 156648
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N002.jpg",
+      "bytes": 3471830
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N003.jpg",
+      "bytes": 919772
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N004.pdf",
+      "bytes": 162505
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N005.pdf",
+      "bytes": 151064
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N006.pdf",
+      "bytes": 159627
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N007.pdf",
+      "bytes": 154652
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N008.pdf",
+      "bytes": 168756
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N009.pdf",
+      "bytes": 336442
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N010.jpg",
+      "bytes": 859609
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N011.jpg",
+      "bytes": 844276
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N012.docx",
+      "bytes": 3792395
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N013.pdf",
+      "bytes": 395898
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N014.pdf",
+      "bytes": 230138
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N015.jpg",
+      "bytes": 471079
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N016.docx",
+      "bytes": 709114
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N017.pdf",
+      "bytes": 725215
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N018.pdf",
+      "bytes": 462125
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N019.pdf",
+      "bytes": 395898
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N020.docx",
+      "bytes": 190205
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N021.docx",
+      "bytes": 7162627
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N022.odt",
+      "bytes": 420099
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N023.jpg",
+      "bytes": 3918952
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N024.jpg",
+      "bytes": 3999177
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N025.jpg",
+      "bytes": 3709901
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N026.jpg",
+      "bytes": 3635218
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N027.jpg",
+      "bytes": 3527741
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N028.jpg",
+      "bytes": 3982710
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N029.jpg",
+      "bytes": 4251106
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N030.jpg",
+      "bytes": 81238
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N031.jpg",
+      "bytes": 62501
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N032.jpg",
+      "bytes": 65905
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N033.jpg",
+      "bytes": 7170463
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N034.jpg",
+      "bytes": 4383607
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N035.jpg",
+      "bytes": 5515537
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N036.jpg",
+      "bytes": 4713295
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N037.jpg",
+      "bytes": 5169684
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N038.jpg",
+      "bytes": 5509546
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N039.jpg",
+      "bytes": 6441788
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N040.jpg",
+      "bytes": 6802874
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N041.jpg",
+      "bytes": 7158353
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N042.jpg",
+      "bytes": 6503000
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N043.jpg",
+      "bytes": 6632743
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N044.jpg",
+      "bytes": 5912368
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N045.jpg",
+      "bytes": 6165389
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N046.jpg",
+      "bytes": 5908161
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N047.jpg",
+      "bytes": 4800249
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N048.jpg",
+      "bytes": 4638811
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N049.jpg",
+      "bytes": 5352419
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N050.jpg",
+      "bytes": 5075463
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N051.jpg",
+      "bytes": 5375474
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N052.jpg",
+      "bytes": 5045309
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N053.jpg",
+      "bytes": 2606673
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N054.jpg",
+      "bytes": 4298674
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N055.jpg",
+      "bytes": 5888298
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N056.jpg",
+      "bytes": 5239834
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N057.jpg",
+      "bytes": 6064592
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N058.jpg",
+      "bytes": 4552449
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N059.jpg",
+      "bytes": 5473459
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N060.jpeg",
+      "bytes": 45645
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N061.jpg",
+      "bytes": 739476
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N062.jpg",
+      "bytes": 102458
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N063.jpg",
+      "bytes": 217150
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N064.jpg",
+      "bytes": 265075
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N065.jpg",
+      "bytes": 252789
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N066.jpg",
+      "bytes": 236165
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N067.jpg",
+      "bytes": 266700
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N068.jpg",
+      "bytes": 186989
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N069.jpg",
+      "bytes": 97117
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N070.jpg",
+      "bytes": 98422
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N071.jpg",
+      "bytes": 90229
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N072.png",
+      "bytes": 881531
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N073.jpg",
+      "bytes": 203131
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N074.jpeg",
+      "bytes": 516331
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N075.jpg",
+      "bytes": 388343
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N076.jpg",
+      "bytes": 126596
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N077.jpg",
+      "bytes": 322623
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N078.jpg",
+      "bytes": 526088
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N079.jpg",
+      "bytes": 526088
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N080.jpg",
+      "bytes": 52303
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N081.jpg",
+      "bytes": 47255
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N082.jpg",
+      "bytes": 47255
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N083.jpg",
+      "bytes": 241368
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N084.jpg",
+      "bytes": 386013
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N085.jpg",
+      "bytes": 200010
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N086.jpg",
+      "bytes": 216808
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N087.jpg",
+      "bytes": 511623
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N088.jpg",
+      "bytes": 131028
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N089.jpg",
+      "bytes": 141021
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N090.jpg",
+      "bytes": 406713
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N091.jpg",
+      "bytes": 276451
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N092.jpg",
+      "bytes": 278004
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N093.jpg",
+      "bytes": 169583
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N094.jpg",
+      "bytes": 236367
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N095.jpg",
+      "bytes": 73609
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N096.jpg",
+      "bytes": 90591
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N097.jpg",
+      "bytes": 328375
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N098.jpg",
+      "bytes": 288285
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N099.jpg",
+      "bytes": 663733
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N100.jpg",
+      "bytes": 91661
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N101.jpg",
+      "bytes": 354608
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N102.jpg",
+      "bytes": 116230
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N103.jpg",
+      "bytes": 184353
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N104.jpg",
+      "bytes": 167716
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N105.jpg",
+      "bytes": 53127
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N106.jpeg",
+      "bytes": 10536
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N107.jpg",
+      "bytes": 195587
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N108.jpg",
+      "bytes": 4367373
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N109.jpg",
+      "bytes": 350715
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N110.jpg",
+      "bytes": 8867646
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N111.jpg",
+      "bytes": 4410878
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N112.pdf",
+      "bytes": 1748806
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/originals/N113.jpg",
+      "bytes": 739288
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N004/page-1.jpg",
+      "bytes": 237188
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N005/page-1.jpg",
+      "bytes": 220924
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N006/page-1.jpg",
+      "bytes": 232349
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N007/page-1.jpg",
+      "bytes": 220794
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N008/page-1.jpg",
+      "bytes": 238835
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N009/page-1.jpg",
+      "bytes": 220372
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N013/page-1.jpg",
+      "bytes": 302933
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N014/page-1.jpg",
+      "bytes": 189000
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N017/page-1.jpg",
+      "bytes": 300183
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N018/page-1.jpg",
+      "bytes": 340680
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N019/page-1.jpg",
+      "bytes": 302933
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-01.jpg",
+      "bytes": 236916
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-02.jpg",
+      "bytes": 33155
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-03.jpg",
+      "bytes": 310233
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-04.jpg",
+      "bytes": 266809
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-05.jpg",
+      "bytes": 280324
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-06.jpg",
+      "bytes": 265150
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-07.jpg",
+      "bytes": 249598
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-08.jpg",
+      "bytes": 289198
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-09.jpg",
+      "bytes": 292069
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-10.jpg",
+      "bytes": 292290
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-11.jpg",
+      "bytes": 272057
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-12.jpg",
+      "bytes": 268672
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-13.jpg",
+      "bytes": 310884
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-14.jpg",
+      "bytes": 179069
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-15.jpg",
+      "bytes": 274934
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-16.jpg",
+      "bytes": 287749
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-17.jpg",
+      "bytes": 280728
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-18.jpg",
+      "bytes": 207846
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-19.jpg",
+      "bytes": 238772
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-20.jpg",
+      "bytes": 275362
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-21.jpg",
+      "bytes": 289588
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-22.jpg",
+      "bytes": 231637
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-23.jpg",
+      "bytes": 298345
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-24.jpg",
+      "bytes": 221886
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-25.jpg",
+      "bytes": 275412
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-26.jpg",
+      "bytes": 215221
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-27.jpg",
+      "bytes": 286518
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-28.jpg",
+      "bytes": 227483
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-29.jpg",
+      "bytes": 237050
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-30.jpg",
+      "bytes": 239099
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-31.jpg",
+      "bytes": 254883
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-32.jpg",
+      "bytes": 263635
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-33.jpg",
+      "bytes": 259415
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-34.jpg",
+      "bytes": 172422
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-35.jpg",
+      "bytes": 274895
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-36.jpg",
+      "bytes": 266406
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-37.jpg",
+      "bytes": 124675
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-38.jpg",
+      "bytes": 235604
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-39.jpg",
+      "bytes": 62416
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-40.jpg",
+      "bytes": 268606
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-41.jpg",
+      "bytes": 294915
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-42.jpg",
+      "bytes": 290579
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-43.jpg",
+      "bytes": 284925
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/renders/N112/page-44.jpg",
+      "bytes": 302485
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N004.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N004.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N005.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N005.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N006.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N006.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N007.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N007.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N008.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N008.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N009.json",
+      "bytes": 1277
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N009.txt",
+      "bytes": 1250
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N012.txt",
+      "bytes": 352
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N013.json",
+      "bytes": 4585
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N013.txt",
+      "bytes": 4556
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N014.json",
+      "bytes": 360
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N014.txt",
+      "bytes": 333
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N016.txt",
+      "bytes": 6495
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N017.json",
+      "bytes": 46
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N017.txt",
+      "bytes": 19
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N018.json",
+      "bytes": 7694
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N018.txt",
+      "bytes": 7665
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N019.json",
+      "bytes": 4585
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N019.txt",
+      "bytes": 4556
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N020.txt",
+      "bytes": 2019
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N021.txt",
+      "bytes": 5189
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N022.txt",
+      "bytes": 262
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N112.json",
+      "bytes": 118431
+    },
+    {
+      "path": "docs/EDIFICIS/fonts-20261031/text/N112.txt",
+      "bytes": 117539
+    },
+    {
+      "path": "docs/EDIFICIS/FONTS.html",
+      "bytes": 61015
+    },
+    {
+      "path": "docs/EDIFICIS/FONTS.md",
+      "bytes": 54032
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/fases.json",
+      "bytes": 1513
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/index.html",
+      "bytes": 5158
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/model-actual.json",
+      "bytes": 1535
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/README.md",
+      "bytes": 3194
+    },
+    {
+      "path": "docs/EDIFICIS/forn-moli-guix/ubicacio.json",
+      "bytes": 1385
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/fases.json",
+      "bytes": 927
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/fonts.json",
+      "bytes": 1974
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/index.html",
+      "bytes": 5410
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/model-actual.json",
+      "bytes": 1372
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/README.md",
+      "bytes": 3582
+    },
+    {
+      "path": "docs/EDIFICIS/forn-roquer/ubicacio.json",
+      "bytes": 1316
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/fases.json",
+      "bytes": 1397
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/fonts.json",
+      "bytes": 2769
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/index.html",
+      "bytes": 5989
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/model-actual.json",
+      "bytes": 2830
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/README.md",
+      "bytes": 4073
+    },
+    {
+      "path": "docs/EDIFICIS/fusteria-antiga/ubicacio.json",
+      "bytes": 2156
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/fases.json",
+      "bytes": 2304
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/fonts.json",
+      "bytes": 8369
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/index.html",
+      "bytes": 9714
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/model-actual.json",
+      "bytes": 10913
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/README.md",
+      "bytes": 6914
+    },
+    {
+      "path": "docs/EDIFICIS/glorieta/ubicacio.json",
+      "bytes": 5290
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/fases.json",
+      "bytes": 878
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/fonts.json",
+      "bytes": 2966
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/index.html",
+      "bytes": 5641
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/model-actual.json",
+      "bytes": 2628
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/README.md",
+      "bytes": 3648
+    },
+    {
+      "path": "docs/EDIFICIS/guardes-rendes/ubicacio.json",
+      "bytes": 2168
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/fases.json",
+      "bytes": 1647
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/fonts.json",
+      "bytes": 6750
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/index.html",
+      "bytes": 7961
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/model-actual.json",
+      "bytes": 2439
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/README.md",
+      "bytes": 5679
+    },
+    {
+      "path": "docs/EDIFICIS/guardiola/ubicacio.json",
+      "bytes": 1702
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/fases.json",
+      "bytes": 1567
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/fonts.json",
+      "bytes": 4684
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/index.html",
+      "bytes": 7332
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/model-actual.json",
+      "bytes": 2377
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/README.md",
+      "bytes": 4998
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-nord/ubicacio.json",
+      "bytes": 1617
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/fases.json",
+      "bytes": 1564
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/fonts.json",
+      "bytes": 4684
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/index.html",
+      "bytes": 7318
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/model-actual.json",
+      "bytes": 2406
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/README.md",
+      "bytes": 4980
+    },
+    {
+      "path": "docs/EDIFICIS/hort-rei-sud/ubicacio.json",
+      "bytes": 1590
+    },
+    {
+      "path": "docs/EDIFICIS/index.html",
+      "bytes": 39585
+    },
+    {
+      "path": "docs/EDIFICIS/index.json",
+      "bytes": 37631
+    },
+    {
+      "path": "docs/EDIFICIS/INDEX.md",
+      "bytes": 13076
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/fases.json",
+      "bytes": 2154
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/fonts.json",
+      "bytes": 2728
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/index.html",
+      "bytes": 6885
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/model-actual.json",
+      "bytes": 2387
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/README.md",
+      "bytes": 4683
+    },
+    {
+      "path": "docs/EDIFICIS/jardi-botanic/ubicacio.json",
+      "bytes": 1504
+    },
+    {
+      "path": "docs/EDIFICIS/lector-expedients.jpg",
+      "bytes": 41282
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/fases.json",
+      "bytes": 2271
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/fonts.json",
+      "bytes": 7604
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/index.html",
+      "bytes": 8476
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/model-actual.json",
+      "bytes": 328
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/README.md",
+      "bytes": 5461
+    },
+    {
+      "path": "docs/EDIFICIS/locals-comercials/ubicacio.json",
+      "bytes": 687
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/fases.json",
+      "bytes": 4187
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/fonts.json",
+      "bytes": 7275
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/index.html",
+      "bytes": 11724
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/model-actual.json",
+      "bytes": 2866
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/README.md",
+      "bytes": 8379
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-antiga/ubicacio.json",
+      "bytes": 2394
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/fases.json",
+      "bytes": 899
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/index.html",
+      "bytes": 5277
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/model-actual.json",
+      "bytes": 2284
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/README.md",
+      "bytes": 3340
+    },
+    {
+      "path": "docs/EDIFICIS/mancana-nova/ubicacio.json",
+      "bytes": 1080
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/fases.json",
+      "bytes": 1573
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/fonts.json",
+      "bytes": 2723
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/index.html",
+      "bytes": 6298
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/model-actual.json",
+      "bytes": 2109
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/README.md",
+      "bytes": 4047
+    },
+    {
+      "path": "docs/EDIFICIS/mataredona/ubicacio.json",
+      "bytes": 1861
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/fases.json",
+      "bytes": 1530
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/index.html",
+      "bytes": 5685
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/model-actual.json",
+      "bytes": 1636
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/README.md",
+      "bytes": 3617
+    },
+    {
+      "path": "docs/EDIFICIS/molinet/ubicacio.json",
+      "bytes": 1360
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/fases.json",
+      "bytes": 1539
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/fonts.json",
+      "bytes": 2729
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/index.html",
+      "bytes": 5837
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/model-actual.json",
+      "bytes": 136662
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/README.md",
+      "bytes": 3614
+    },
+    {
+      "path": "docs/EDIFICIS/paredo-poblacio/ubicacio.json",
+      "bytes": 2670
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/fases.json",
+      "bytes": 915
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/fonts.json",
+      "bytes": 2727
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/index.html",
+      "bytes": 4917
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/model-actual.json",
+      "bytes": 328
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/README.md",
+      "bytes": 2833
+    },
+    {
+      "path": "docs/EDIFICIS/pedrera-guardiola/ubicacio.json",
+      "bytes": 773
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/fases.json",
+      "bytes": 2759
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/fonts.json",
+      "bytes": 8227
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/index.html",
+      "bytes": 10345
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/model-actual.json",
+      "bytes": 1264
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/README.md",
+      "bytes": 7110
+    },
+    {
+      "path": "docs/EDIFICIS/placa-alamedes/ubicacio.json",
+      "bytes": 1203
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/fases.json",
+      "bytes": 2414
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/fonts.json",
+      "bytes": 6581
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/index.html",
+      "bytes": 9398
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/model-actual.json",
+      "bytes": 2840
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/README.md",
+      "bytes": 6809
+    },
+    {
+      "path": "docs/EDIFICIS/placa-coberta/ubicacio.json",
+      "bytes": 1606
+    },
+    {
+      "path": "docs/EDIFICIS/PLANS.html",
+      "bytes": 15949
+    },
+    {
+      "path": "docs/EDIFICIS/PLANS.md",
+      "bytes": 12886
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/fases.json",
+      "bytes": 1512
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/fonts.json",
+      "bytes": 2728
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/index.html",
+      "bytes": 5932
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/model-actual.json",
+      "bytes": 1466
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/README.md",
+      "bytes": 3841
+    },
+    {
+      "path": "docs/EDIFICIS/pont-barranc/ubicacio.json",
+      "bytes": 1470
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/fases.json",
+      "bytes": 2137
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/fonts.json",
+      "bytes": 2628
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/index.html",
+      "bytes": 6683
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/model-actual.json",
+      "bytes": 1784
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/README.md",
+      "bytes": 4338
+    },
+    {
+      "path": "docs/EDIFICIS/pou-figueretes/ubicacio.json",
+      "bytes": 1680
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/fases.json",
+      "bytes": 897
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/index.html",
+      "bytes": 4695
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/model-actual.json",
+      "bytes": 330
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/README.md",
+      "bytes": 2600
+    },
+    {
+      "path": "docs/EDIFICIS/propietats-privades/ubicacio.json",
+      "bytes": 621
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/fases.json",
+      "bytes": 898
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/index.html",
+      "bytes": 4395
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/model-actual.json",
+      "bytes": 318
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/README.md",
+      "bytes": 2375
+    },
+    {
+      "path": "docs/EDIFICIS/rajolar/ubicacio.json",
+      "bytes": 620
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/fases.json",
+      "bytes": 1414
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/fonts.json",
+      "bytes": 2889
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/index.html",
+      "bytes": 5423
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/model-actual.json",
+      "bytes": 1318
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/README.md",
+      "bytes": 3635
+    },
+    {
+      "path": "docs/EDIFICIS/rambla/ubicacio.json",
+      "bytes": 953
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/fases.json",
+      "bytes": 2137
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/fonts.json",
+      "bytes": 2628
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/index.html",
+      "bytes": 5747
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/model-actual.json",
+      "bytes": 1578
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/README.md",
+      "bytes": 3548
+    },
+    {
+      "path": "docs/EDIFICIS/rampa-figueretes/ubicacio.json",
+      "bytes": 969
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/fases.json",
+      "bytes": 1379
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/index.html",
+      "bytes": 5033
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/model-actual.json",
+      "bytes": 1430
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/README.md",
+      "bytes": 3278
+    },
+    {
+      "path": "docs/EDIFICIS/rampar/ubicacio.json",
+      "bytes": 954
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/fases.json",
+      "bytes": 1680
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/fonts.json",
+      "bytes": 5323
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/index.html",
+      "bytes": 7057
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/model-actual.json",
+      "bytes": 3210
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/README.md",
+      "bytes": 4654
+    },
+    {
+      "path": "docs/EDIFICIS/rampes-simetriques/ubicacio.json",
+      "bytes": 1532
+    },
+    {
+      "path": "docs/EDIFICIS/REGENERACIO.md",
+      "bytes": 3152
+    },
+    {
+      "path": "docs/EDIFICIS/reproducibility.json",
+      "bytes": 91071
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/fases.json",
+      "bytes": 1488
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/fonts.json",
+      "bytes": 2966
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/index.html",
+      "bytes": 6173
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/model-actual.json",
+      "bytes": 1686
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/README.md",
+      "bytes": 4085
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-antiga/ubicacio.json",
+      "bytes": 1468
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/fases.json",
+      "bytes": 877
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/index.html",
+      "bytes": 4956
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/model-actual.json",
+      "bytes": 1561
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/README.md",
+      "bytes": 3122
+    },
+    {
+      "path": "docs/EDIFICIS/sanitat-moll/ubicacio.json",
+      "bytes": 1426
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/fases.json",
+      "bytes": 2907
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/fonts.json",
+      "bytes": 8283
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/index.html",
+      "bytes": 10598
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/model-actual.json",
+      "bytes": 2158
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/README.md",
+      "bytes": 7542
+    },
+    {
+      "path": "docs/EDIFICIS/sant-elm/ubicacio.json",
+      "bytes": 1661
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/fases.json",
+      "bytes": 2223
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/index.html",
+      "bytes": 6362
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/model-actual.json",
+      "bytes": 1823
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/README.md",
+      "bytes": 4375
+    },
+    {
+      "path": "docs/EDIFICIS/tinglado/ubicacio.json",
+      "bytes": 1375
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/fases.json",
+      "bytes": 1686
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/fonts.json",
+      "bytes": 3081
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/index.html",
+      "bytes": 6207
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/model-actual.json",
+      "bytes": 325
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/README.md",
+      "bytes": 3901
+    },
+    {
+      "path": "docs/EDIFICIS/torre-codonyol/ubicacio.json",
+      "bytes": 837
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/fases.json",
+      "bytes": 930
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/fonts.json",
+      "bytes": 388
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/index.html",
+      "bytes": 5219
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/model-actual.json",
+      "bytes": 2760
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/README.md",
+      "bytes": 3281
+    },
+    {
+      "path": "docs/EDIFICIS/torre-moro/ubicacio.json",
+      "bytes": 1462
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/fases.json",
+      "bytes": 2094
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/fonts.json",
+      "bytes": 2966
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/index.html",
+      "bytes": 6782
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/model-actual.json",
+      "bytes": 3455
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/README.md",
+      "bytes": 4610
+    },
+    {
+      "path": "docs/EDIFICIS/torre-rapita/ubicacio.json",
+      "bytes": 2818
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/fases.json",
+      "bytes": 883
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/fonts.json",
+      "bytes": 4575
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/index.html",
+      "bytes": 5836
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/model-actual.json",
+      "bytes": 326
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/README.md",
+      "bytes": 3608
+    },
+    {
+      "path": "docs/EDIFICIS/torre-sant-joan/ubicacio.json",
+      "bytes": 801
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/model-actual.json",
+      "bytes": 1730
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-01/ubicacio.json",
+      "bytes": 1376
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/model-actual.json",
+      "bytes": 1730
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-02/ubicacio.json",
+      "bytes": 1377
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/model-actual.json",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-03/ubicacio.json",
+      "bytes": 1374
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/model-actual.json",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-04/ubicacio.json",
+      "bytes": 1374
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/model-actual.json",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-05/ubicacio.json",
+      "bytes": 1377
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/model-actual.json",
+      "bytes": 1730
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-06/ubicacio.json",
+      "bytes": 1376
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/fases.json",
+      "bytes": 984
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/fonts.json",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/index.html",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/model-actual.json",
+      "bytes": 1727
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/README.md",
+      "bytes": 3590
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-covered-07/ubicacio.json",
+      "bytes": 1375
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/model-actual.json",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-01/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/model-actual.json",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-02/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/model-actual.json",
+      "bytes": 1718
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-03/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/model-actual.json",
+      "bytes": 1724
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-04/ubicacio.json",
+      "bytes": 1526
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/model-actual.json",
+      "bytes": 1715
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-05/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/model-actual.json",
+      "bytes": 1721
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-06/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/model-actual.json",
+      "bytes": 1719
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-07/ubicacio.json",
+      "bytes": 1521
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/model-actual.json",
+      "bytes": 1718
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-08/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/model-actual.json",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-09/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/model-actual.json",
+      "bytes": 1717
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-10/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/model-actual.json",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-11/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/model-actual.json",
+      "bytes": 1722
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-12/ubicacio.json",
+      "bytes": 1524
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/model-actual.json",
+      "bytes": 1721
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-13/ubicacio.json",
+      "bytes": 1524
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/model-actual.json",
+      "bytes": 1718
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-14/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/model-actual.json",
+      "bytes": 1719
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-15/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/model-actual.json",
+      "bytes": 1722
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-16/ubicacio.json",
+      "bytes": 1524
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/model-actual.json",
+      "bytes": 1716
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-17/ubicacio.json",
+      "bytes": 1521
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/model-actual.json",
+      "bytes": 1715
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-18/ubicacio.json",
+      "bytes": 1522
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/model-actual.json",
+      "bytes": 1717
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-19/ubicacio.json",
+      "bytes": 1520
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/index.html",
+      "bytes": 8262
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/model-actual.json",
+      "bytes": 1719
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/README.md",
+      "bytes": 6068
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-20/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/index.html",
+      "bytes": 8568
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/model-actual.json",
+      "bytes": 1786
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/README.md",
+      "bytes": 6382
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-21/ubicacio.json",
+      "bytes": 1524
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/fases.json",
+      "bytes": 1907
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/fonts.json",
+      "bytes": 5927
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/index.html",
+      "bytes": 8568
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/model-actual.json",
+      "bytes": 1784
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/README.md",
+      "bytes": 6382
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-finished-22/ubicacio.json",
+      "bytes": 1523
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/model-actual.json",
+      "bytes": 1965
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-01/ubicacio.json",
+      "bytes": 1691
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/model-actual.json",
+      "bytes": 1965
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-02/ubicacio.json",
+      "bytes": 1692
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/model-actual.json",
+      "bytes": 1964
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-03/ubicacio.json",
+      "bytes": 1689
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/model-actual.json",
+      "bytes": 1969
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-04/ubicacio.json",
+      "bytes": 1694
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/model-actual.json",
+      "bytes": 1966
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-05/ubicacio.json",
+      "bytes": 1692
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/model-actual.json",
+      "bytes": 1969
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-06/ubicacio.json",
+      "bytes": 1692
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/model-actual.json",
+      "bytes": 1963
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-07/ubicacio.json",
+      "bytes": 1688
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/model-actual.json",
+      "bytes": 1964
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-08/ubicacio.json",
+      "bytes": 1688
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/model-actual.json",
+      "bytes": 1967
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-09/ubicacio.json",
+      "bytes": 1689
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/model-actual.json",
+      "bytes": 1967
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-10/ubicacio.json",
+      "bytes": 1688
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/model-actual.json",
+      "bytes": 1732
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-11/ubicacio.json",
+      "bytes": 1691
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/model-actual.json",
+      "bytes": 1735
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-12/ubicacio.json",
+      "bytes": 1692
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/model-actual.json",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-13/ubicacio.json",
+      "bytes": 1689
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/fases.json",
+      "bytes": 3356
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/fonts.json",
+      "bytes": 8354
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/index.html",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/model-actual.json",
+      "bytes": 1733
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/README.md",
+      "bytes": 8135
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-portico-14/ubicacio.json",
+      "bytes": 1691
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/model-actual.json",
+      "bytes": 1888
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-01/ubicacio.json",
+      "bytes": 1652
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/model-actual.json",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-02/ubicacio.json",
+      "bytes": 1651
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/model-actual.json",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-03/ubicacio.json",
+      "bytes": 1650
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/model-actual.json",
+      "bytes": 1887
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-04/ubicacio.json",
+      "bytes": 1649
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/model-actual.json",
+      "bytes": 1889
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-05/ubicacio.json",
+      "bytes": 1651
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/model-actual.json",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-06/ubicacio.json",
+      "bytes": 1651
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/model-actual.json",
+      "bytes": 1889
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-07/ubicacio.json",
+      "bytes": 1650
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/model-actual.json",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-08/ubicacio.json",
+      "bytes": 1648
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/model-actual.json",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-09/ubicacio.json",
+      "bytes": 1651
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/model-actual.json",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-10/ubicacio.json",
+      "bytes": 1650
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/model-actual.json",
+      "bytes": 1887
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-11/ubicacio.json",
+      "bytes": 1652
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/model-actual.json",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-12/ubicacio.json",
+      "bytes": 1651
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/model-actual.json",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-13/ubicacio.json",
+      "bytes": 1650
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/fases.json",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/fonts.json",
+      "bytes": 4337
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/index.html",
+      "bytes": 7290
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/model-actual.json",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/README.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/EDIFICIS/unitat-royal-small-coast-14/ubicacio.json",
+      "bytes": 1652
+    },
+    {
+      "path": "docs/EDIFICIS/validation.json",
+      "bytes": 8444
+    },
+    {
+      "path": "docs/esglesia-0.2.0.jpg",
+      "bytes": 75979
+    },
+    {
+      "path": "docs/ESGLESIA_NOVA.md",
+      "bytes": 9179
+    },
+    {
+      "path": "docs/FARO_RAPITA.md",
+      "bytes": 4145
+    },
+    {
+      "path": "docs/glorieta-0.6.0.jpg",
+      "bytes": 46998
+    },
+    {
+      "path": "docs/glorieta-0.7.0.jpg",
+      "bytes": 48956
+    },
+    {
+      "path": "docs/GLORIETA_GUARDIOLA.md",
+      "bytes": 3370
+    },
+    {
+      "path": "docs/guardiola-0.7.0.jpg",
+      "bytes": 48543
+    },
+    {
+      "path": "docs/habitatge-0.11.0.jpg",
+      "bytes": 71229
+    },
+    {
+      "path": "docs/habitatges-1789-0.5.0.jpg",
+      "bytes": 62264
+    },
+    {
+      "path": "docs/HORITZO_1950.md",
+      "bytes": 3971
+    },
+    {
+      "path": "docs/investigacion/crear_base_reconstruccion.py",
+      "bytes": 8397
+    },
+    {
+      "path": "docs/investigacion/Dossier_Rapita_1800_actualizado_2026-10-29.md",
+      "bytes": 14750
+    },
+    {
+      "path": "docs/investigacion/LEEME.txt",
+      "bytes": 1413
+    },
+    {
+      "path": "docs/investigacion/Rapita_1800_distancias_y_rumbos.csv",
+      "bytes": 204
+    },
+    {
+      "path": "docs/investigacion/Rapita_1800_mapa_interactivo.html",
+      "bytes": 4979
+    },
+    {
+      "path": "docs/investigacion/Rapita_1800_plano_base_georreferenciado.png",
+      "bytes": 377602
+    },
+    {
+      "path": "docs/investigacion/Rapita_1800_plano_base_georreferenciado.svg",
+      "bytes": 174542
+    },
+    {
+      "path": "docs/investigacion/Rapita_1800_puntos_georreferenciados.geojson",
+      "bytes": 3639
+    },
+    {
+      "path": "docs/investigacion/Solicitudes_ICGC_MDT.txt",
+      "bytes": 1709
+    },
+    {
+      "path": "docs/lidar/analisis_tecnico_y_limitaciones.md",
+      "bytes": 2588
+    },
+    {
+      "path": "docs/lidar/cobertura_lidar_rapita_2024.png",
+      "bytes": 2032529
+    },
+    {
+      "path": "docs/lidar/inventario_lidar.csv",
+      "bytes": 679
+    },
+    {
+      "path": "docs/lidar/teselas_cobertura.geojson",
+      "bytes": 4750
+    },
+    {
+      "path": "docs/lidar/_rightcrop.png",
+      "bytes": 332727
+    },
+    {
+      "path": "docs/mapa-integrado-0.2.0.jpg",
+      "bytes": 84462
+    },
+    {
+      "path": "docs/mapa-integrado-0.3.0.jpg",
+      "bytes": 87158
+    },
+    {
+      "path": "docs/mapa-integrado-0.4.0.jpg",
+      "bytes": 88521
+    },
+    {
+      "path": "docs/montsia-0.7.0.jpg",
+      "bytes": 54974
+    },
+    {
+      "path": "docs/MONTSIA.md",
+      "bytes": 5134
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/128379.jpeg",
+      "bytes": 145736
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/128380.jpeg",
+      "bytes": 160127
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/128381.jpeg",
+      "bytes": 170553
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/128382.jpeg",
+      "bytes": 121134
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/128383.jpeg",
+      "bytes": 138241
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/N030.jpg",
+      "bytes": 99338
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/N112-il4.jpg",
+      "bytes": 69336
+    },
+    {
+      "path": "docs/Palau de la plaça carles III/review.json",
+      "bytes": 1043
+    },
+    {
+      "path": "docs/PALAU_I_PLACA.md",
+      "bytes": 3031
+    },
+    {
+      "path": "docs/PASSEIG_I_VIDA.md",
+      "bytes": 5207
+    },
+    {
+      "path": "docs/pati-0.11.0.jpg",
+      "bytes": 71331
+    },
+    {
+      "path": "docs/PILAR_REVERTE.md",
+      "bytes": 4146
+    },
+    {
+      "path": "docs/PLÀNOL_REVERTÉ_SUPERPOSAT.md",
+      "bytes": 1934
+    },
+    {
+      "path": "docs/PORT_CORRECCION_20261101.md",
+      "bytes": 2012
+    },
+    {
+      "path": "docs/porxos-0.11.0.jpg",
+      "bytes": 78303
+    },
+    {
+      "path": "docs/porxos-0.12.0.jpg",
+      "bytes": 80262
+    },
+    {
+      "path": "docs/porxos-conjunt-0.12.0.jpg",
+      "bytes": 94866
+    },
+    {
+      "path": "docs/porxos-fitxa-0.12.0.jpg",
+      "bytes": 68960
+    },
+    {
+      "path": "docs/PORXOS.md",
+      "bytes": 7076
+    },
+    {
+      "path": "docs/REVISION_COVES_CASES_TORRE_MORO_20261101.md",
+      "bytes": 2593
+    },
+    {
+      "path": "docs/roquer-0.5.0.jpg",
+      "bytes": 61145
+    },
+    {
+      "path": "docs/roquer-1779-0.5.0.jpg",
+      "bytes": 50673
+    },
+    {
+      "path": "docs/ROQUER_ALINEACIO.md",
+      "bytes": 4839
+    },
+    {
+      "path": "docs/ROQUER_ALINEACIO.png",
+      "bytes": 1565998
+    },
+    {
+      "path": "docs/ROQUER_CANAL.md",
+      "bytes": 9691
+    },
+    {
+      "path": "docs/sources/canal-region-request.txt",
+      "bytes": 223
+    },
+    {
+      "path": "docs/sources/canal-region.asc",
+      "bytes": 275283
+    },
+    {
+      "path": "docs/sources/canal-topographic-current.jpg",
+      "bytes": 1183216
+    },
+    {
+      "path": "docs/sources/canal-topographic-request.txt",
+      "bytes": 227
+    },
+    {
+      "path": "docs/sources/canal-wcs-trial-request.txt",
+      "bytes": 212
+    },
+    {
+      "path": "docs/sources/esglesia-nova-ortofoto-2024.jpg",
+      "bytes": 181997
+    },
+    {
+      "path": "docs/sources/history/flight-info.html",
+      "bytes": 355
+    },
+    {
+      "path": "docs/sources/history/plan-1852-000.jpg",
+      "bytes": 25874
+    },
+    {
+      "path": "docs/sources/history/rapita-1945-1946-request.txt",
+      "bytes": 246
+    },
+    {
+      "path": "docs/sources/history/rapita-1945-1946.jpg",
+      "bytes": 563181
+    },
+    {
+      "path": "docs/sources/littoral-reproducibility-0.5.0.json",
+      "bytes": 954
+    },
+    {
+      "path": "docs/sources/littoral-reproducibility.json",
+      "bytes": 1548
+    },
+    {
+      "path": "docs/sources/nucleo-ortofoto-2024.jpg",
+      "bytes": 699617
+    },
+    {
+      "path": "docs/sources/nucleo-ortofoto-request.txt",
+      "bytes": 232
+    },
+    {
+      "path": "docs/sources/nucleo-topografico-request.txt",
+      "bytes": 216
+    },
+    {
+      "path": "docs/sources/nucleo-topografico.jpg",
+      "bytes": 1093867
+    },
+    {
+      "path": "docs/sources/ortofoto-request.txt",
+      "bytes": 232
+    },
+    {
+      "path": "docs/sources/pilar-reverte/manifest.json",
+      "bytes": 3247
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image1.jpeg",
+      "bytes": 209513
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image10.jpeg",
+      "bytes": 410535
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image11.jpeg",
+      "bytes": 221407
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image12.jpeg",
+      "bytes": 296256
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image13.jpeg",
+      "bytes": 146674
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image14.jpeg",
+      "bytes": 184077
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image15.jpeg",
+      "bytes": 173260
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image16.png",
+      "bytes": 55850
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image2.jpeg",
+      "bytes": 138068
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image3.jpeg",
+      "bytes": 153596
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image4.jpeg",
+      "bytes": 108637
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image5.jpeg",
+      "bytes": 108173
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image6.jpeg",
+      "bytes": 112338
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image7.jpeg",
+      "bytes": 79089
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image8.jpeg",
+      "bytes": 141062
+    },
+    {
+      "path": "docs/sources/pilar-reverte/originals/image9.jpeg",
+      "bytes": 98274
+    },
+    {
+      "path": "docs/sources/pilar-reverte/text.txt",
+      "bytes": 2303
+    },
+    {
+      "path": "docs/sources/plan-1748-redibuix.png",
+      "bytes": 2970202
+    },
+    {
+      "path": "docs/sources/porxos/commons-1916.html",
+      "bytes": 117030
+    },
+    {
+      "path": "docs/sources/porxos/commons-original.html",
+      "bytes": 113907
+    },
+    {
+      "path": "docs/sources/porxos/ipac-1.jpg",
+      "bytes": 960808
+    },
+    {
+      "path": "docs/sources/porxos/ipac-2.jpg",
+      "bytes": 789068
+    },
+    {
+      "path": "docs/sources/porxos/ipac-3.jpg",
+      "bytes": 1010618
+    },
+    {
+      "path": "docs/sources/porxos/ipac-4.jpg",
+      "bytes": 1366856
+    },
+    {
+      "path": "docs/sources/porxos/ipac-6415.html",
+      "bytes": 5433
+    },
+    {
+      "path": "docs/sources/porxos/ipac-client.js",
+      "bytes": 700322
+    },
+    {
+      "path": "docs/sources/porxos/ipac-description.txt",
+      "bytes": 3859
+    },
+    {
+      "path": "docs/sources/porxos/ipac-images.json",
+      "bytes": 1944
+    },
+    {
+      "path": "docs/sources/porxos/ipac-record.json",
+      "bytes": 2188
+    },
+    {
+      "path": "docs/sources/porxos/manifest.json",
+      "bytes": 7134
+    },
+    {
+      "path": "docs/sources/porxos/modern-2023.jpg",
+      "bytes": 143238
+    },
+    {
+      "path": "docs/sources/porxos/placa-catalog.html",
+      "bytes": 35143
+    },
+    {
+      "path": "docs/sources/porxos/postal-research.jpg",
+      "bytes": 110351
+    },
+    {
+      "path": "docs/sources/porxos/research-128466.jpg",
+      "bytes": 156953
+    },
+    {
+      "path": "docs/sources/porxos/research-128491.jpg",
+      "bytes": 121871
+    },
+    {
+      "path": "docs/sources/porxos/research-128492.jpg",
+      "bytes": 90680
+    },
+    {
+      "path": "docs/sources/porxos/research-128493.jpg",
+      "bytes": 97157
+    },
+    {
+      "path": "docs/sources/porxos/salvany-1916-full.jpg",
+      "bytes": 168730
+    },
+    {
+      "path": "docs/sources/porxos/salvany-1916.jpg",
+      "bytes": 73954
+    },
+    {
+      "path": "docs/sources/porxos/wiki-placa.html",
+      "bytes": 94920
+    },
+    {
+      "path": "docs/sources/urban-reproducibility.json",
+      "bytes": 659
+    },
+    {
+      "path": "docs/TRAMA_1800.md",
+      "bytes": 7108
+    },
+    {
+      "path": "docs/vida-moll-0.10.0.jpg",
+      "bytes": 38319
+    },
+    {
+      "path": "docs/visor-0.1.0.jpg",
+      "bytes": 50884
+    },
+    {
+      "path": "docs/visor-catala-0.4.1.jpg",
+      "bytes": 58396
+    },
+    {
+      "path": "docs/viviendas-0.3.0.jpg",
+      "bytes": 95713
+    },
+    {
+      "path": "docs/VIVIENDAS.md",
+      "bytes": 5741
+    },
+    {
+      "path": "Dossier_Rapita_1800_fuentes.md",
+      "bytes": 9600
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes-threejs.js",
+      "bytes": 10412
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_1858.glb",
+      "bytes": 354668
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_1858_con_guardas.glb",
+      "bytes": 359208
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_actual.glb",
+      "bytes": 373368
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/casotes_actual_con_guardas.glb",
+      "bytes": 386648
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/cronologia-fuentes-y-medidas.md",
+      "bytes": 9626
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/generar_glb.py",
+      "bytes": 5952
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/README.txt",
+      "bytes": 1551
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes/visor-casotes.html",
+      "bytes": 6484
+    },
+    {
+      "path": "Edificios Codigo/casotes_rapita_modelos_y_fuentes.zip",
+      "bytes": 212557
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/build_models.py",
+      "bytes": 9078
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/fases.json",
+      "bytes": 2907
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/fonts.json",
+      "bytes": 8283
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/IMG-20240223-WA0017.jpg",
+      "bytes": 328375
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/investigacion-y-limitaciones.md",
+      "bytes": 5052
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/model-actual.json",
+      "bytes": 2158
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/README.md",
+      "bytes": 7542
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/sant-elm-threejs.js",
+      "bytes": 1622
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/sant_elm_1794_hipotesis.glb",
+      "bytes": 23620
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/sant_elm_fotografia_1930s.glb",
+      "bytes": 50792
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/ubicacio.json",
+      "bytes": 1661
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d/sant_elm_rapita/visor-sant-elm.html",
+      "bytes": 6125
+    },
+    {
+      "path": "Edificios Codigo/sant_elm_rapita_3d.zip",
+      "bytes": 362847
+    },
+    {
+      "path": "edificio_rapita/edificio_plaza_rapita_1890.js",
+      "bytes": 18596
+    },
+    {
+      "path": "edificio_rapita/vista_edificio_rapita.html",
+      "bytes": 3722
+    },
+    {
+      "path": "edificio_rapita.zip",
+      "bytes": 8134
+    },
+    {
+      "path": "especifiación técnica 1.0.txt",
+      "bytes": 45585
+    },
+    {
+      "path": "Faro/faro_rapita/cronologia-y-fuentes.md",
+      "bytes": 9870
+    },
+    {
+      "path": "Faro/faro_rapita/faro-rapita-threejs.js",
+      "bytes": 11026
+    },
+    {
+      "path": "Faro/faro_rapita/faro_rapita_1864.glb",
+      "bytes": 104500
+    },
+    {
+      "path": "Faro/faro_rapita/faro_rapita_actual.glb",
+      "bytes": 170432
+    },
+    {
+      "path": "Faro/faro_rapita/generar-glb.py",
+      "bytes": 7620
+    },
+    {
+      "path": "Faro/faro_rapita/README.txt",
+      "bytes": 1601
+    },
+    {
+      "path": "Faro/faro_rapita/visor-faro-rapita.html",
+      "bytes": 6259
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/cronologia-y-fuentes.md",
+      "bytes": 9870
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/faro-rapita-threejs.js",
+      "bytes": 11026
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/faro_rapita_1864.glb",
+      "bytes": 104500
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/faro_rapita_actual.glb",
+      "bytes": 170432
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/generar-glb.py",
+      "bytes": 7620
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/README.txt",
+      "bytes": 1601
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs/faro_rapita/visor-faro-rapita.html",
+      "bytes": 6259
+    },
+    {
+      "path": "Faro/faro_rapita_dos_modelos_threejs.zip",
+      "bytes": 73762
+    },
+    {
+      "path": "FME_46302427_1793275473239_7788.zip",
+      "bytes": 428694141
+    },
+    {
+      "path": "FME_46302427_1793390462662_232.zip",
+      "bytes": 836173137
+    },
+    {
+      "path": "GUIA_PROYECTO.md",
+      "bytes": 61798
+    },
+    {
+      "path": "Imatges IA/El Roquer i la plaça marítima en 1950.png",
+      "bytes": 2760399
+    },
+    {
+      "path": "Imatges IA/Reconstrucción aérea de un puerto mediterráneo histórico.png",
+      "bytes": 3702956
+    },
+    {
+      "path": "Imatges IA/Reconstrucción de asentamiento costero antiguo.png",
+      "bytes": 3087835
+    },
+    {
+      "path": "Imatges IA/Reconstrucción histórica de ciudad costera.png",
+      "bytes": 3098283
+    },
+    {
+      "path": "Imatges recreades web/openart-image-1773432005083-a242883b-1773432005275-3104e3f4-2.png",
+      "bytes": 2175815
+    },
+    {
+      "path": "Imatges recreades web/openart-image-1773590311956-f6876d91-1773590312156-7dd36d61-2.png",
+      "bytes": 2239496
+    },
+    {
+      "path": "index.html",
+      "bytes": 29834
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/1908_Cartoteca.jpg",
+      "bytes": 156648
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/20210809_180227.jpg",
+      "bytes": 3471830
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/ACA_31757111.JPG",
+      "bytes": 919772
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/1490380918_1000214.pdf",
+      "bytes": 162505
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/1661754096_1000214.pdf",
+      "bytes": 151064
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/2048991127_1000214.pdf",
+      "bytes": 159627
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/732405664_1000214.pdf",
+      "bytes": 154652
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/804592946_1000214.pdf",
+      "bytes": 168756
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/chi-22139513-72-1677318883.pdf",
+      "bytes": 336442
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/Descripcio poble_AHL260-76_1.jpg",
+      "bytes": 859609
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/Descripcio poble_AHL260-76_2.jpg",
+      "bytes": 844276
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/jaubert de passa.docx",
+      "bytes": 3792395
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/Laaborde_amb gravats.pdf",
+      "bytes": 395898
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/laborde_1826-96.pdf",
+      "bytes": 230138
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/laborde_1826-96_page-0001.jpg",
+      "bytes": 471079
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/laborde_descripcio.docx",
+      "bytes": 709114
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/Laborde_gravats1.pdf",
+      "bytes": 725215
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/Laborde_gravats2.pdf",
+      "bytes": 462125
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/Laborde_gravats3.pdf",
+      "bytes": 395898
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/laborde/Nuevo Documento de Microsoft Word.docx",
+      "bytes": 190205
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/Laborde_descripció poble.docx",
+      "bytes": 7162627
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/descripcio poble/Ponz_Volum 13.odt",
+      "bytes": 420099
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_120254.jpg",
+      "bytes": 3918952
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_120306.jpg",
+      "bytes": 3999177
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_121052.jpg",
+      "bytes": 3709901
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_121101.jpg",
+      "bytes": 3635218
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_123138.jpg",
+      "bytes": 3527741
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_123151.jpg",
+      "bytes": 3982710
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/DESCRIPCIO RAPITA_1780/20251125_123159.jpg",
+      "bytes": 4251106
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/130267878_3381205301992488_7654617715339037590_o.jpg",
+      "bytes": 81238
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/130280722_3381186301994388_2427779503105556212_n.jpg",
+      "bytes": 62501
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/130398980_3381202088659476_2604663660611277484_n.jpg",
+      "bytes": 65905
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183355.jpg",
+      "bytes": 7170463
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183550.jpg",
+      "bytes": 4383607
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183557.jpg",
+      "bytes": 5515537
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183600.jpg",
+      "bytes": 4713295
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183605.jpg",
+      "bytes": 5169684
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_183615.jpg",
+      "bytes": 5509546
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184020.jpg",
+      "bytes": 6441788
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184026.jpg",
+      "bytes": 6802874
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184037.jpg",
+      "bytes": 7158353
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184044.jpg",
+      "bytes": 6503000
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184254.jpg",
+      "bytes": 6632743
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184259.jpg",
+      "bytes": 5912368
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184306.jpg",
+      "bytes": 6165389
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184315.jpg",
+      "bytes": 5908161
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184547.jpg",
+      "bytes": 4800249
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_184555.jpg",
+      "bytes": 4638811
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_185236.jpg",
+      "bytes": 5352419
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_185729.jpg",
+      "bytes": 5075463
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190100.jpg",
+      "bytes": 5375474
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190117.jpg",
+      "bytes": 5045309
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190234.jpg",
+      "bytes": 2606673
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190332.jpg",
+      "bytes": 4298674
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190337.jpg",
+      "bytes": 5888298
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190951.jpg",
+      "bytes": 5239834
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_190958.jpg",
+      "bytes": 6064592
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_191225.jpg",
+      "bytes": 4552449
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/20210810_191233.jpg",
+      "bytes": 5473459
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/450px-Església_Nova-_a1.jpeg",
+      "bytes": 45645
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/481823388_3535793790055625_5280309010478527461_n.jpg",
+      "bytes": 739476
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-211-N-35277.jpg",
+      "bytes": 102458
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-4739.jpg",
+      "bytes": 217150
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-6553.jpg",
+      "bytes": 265075
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-6553_2.jpg",
+      "bytes": 252789
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-6553_3.jpg",
+      "bytes": 236165
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-6553_4.jpg",
+      "bytes": 266700
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-564-N-6553_5.jpg",
+      "bytes": 186989
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-57-N-576.jpg",
+      "bytes": 97117
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-57-N-577.jpg",
+      "bytes": 98422
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ANC1-57-N-578.jpg",
+      "bytes": 90229
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/aribant al port_Salvany_1921.png",
+      "bytes": 881531
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/casetes del cananl.jpg",
+      "bytes": 203131
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/ChatGPT Image 11 ago 2025, 21_35_29.jpeg",
+      "bytes": 516331
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/esglesia nova 2.jpg",
+      "bytes": 388343
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/església antiga.jpg",
+      "bytes": 126596
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/església nova_facebook.jpg",
+      "bytes": 322623
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/església nova_facebook_BN - copia.jpg",
+      "bytes": 526088
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/església nova_facebook_BN.jpg",
+      "bytes": 526088
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/façana lateral esgl´sia Nova_josep Salvany_1916.jpg",
+      "bytes": 52303
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/font pública, plaça Carles III. 1916_Josep salvany. BC.jpg",
+      "bytes": 47255
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/fonts original.jpg",
+      "bytes": 47255
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Foto Esglesia Sant Elm.jpg",
+      "bytes": 241368
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20210317-WA0006.jpg",
+      "bytes": 386013
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0005.jpg",
+      "bytes": 200010
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0006.jpg",
+      "bytes": 216808
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0007.jpg",
+      "bytes": 511623
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0008.jpg",
+      "bytes": 131028
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0009.jpg",
+      "bytes": 141021
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0010.jpg",
+      "bytes": 406713
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0011.jpg",
+      "bytes": 276451
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0012.jpg",
+      "bytes": 278004
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0013.jpg",
+      "bytes": 169583
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0014.jpg",
+      "bytes": 236367
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0015.jpg",
+      "bytes": 73609
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0016.jpg",
+      "bytes": 90591
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0017.jpg",
+      "bytes": 328375
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Fotos noves/IMG-20240223-WA0018.jpg",
+      "bytes": 288285
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Glorieta de la Ràpita. Foto Josep Salvay Blanch. 1916.jpg",
+      "bytes": 663733
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Mas de Mataredona_ACPJ350-120.jpg",
+      "bytes": 91661
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Plaça del Cóc.jpg",
+      "bytes": 354608
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/porxos.jpg",
+      "bytes": 116230
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/porxos_BN.jpg",
+      "bytes": 184353
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/pou de les figueretes_facebook_vicent Moya.jpg",
+      "bytes": 167716
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/SEQUERS CARSI_ROISIN.jpg",
+      "bytes": 53127
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/templet.jpeg",
+      "bytes": 10536
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/FOTOS I POSTALS/Vicent Moya.jpg",
+      "bytes": 195587
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/IGN_planimetria Rapita_1912.jpg",
+      "bytes": 4367373
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/MPD_07_063.jpg",
+      "bytes": 350715
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/Paredon_Ar.G-T.1-C.2-592.jpg",
+      "bytes": 8867646
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/planimetria ràpita detallat_1913.jpg",
+      "bytes": 4410878
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/Recerca_20.pdf",
+      "bytes": 1748806
+    },
+    {
+      "path": "JOSEP_descripcions Ràpita-20261031T095755Z-1-001/JOSEP_descripcions Ràpita/Término de la Rápita - Manuel Antonio Santiesteban (I).jpg",
+      "bytes": 739288
+    },
+    {
+      "path": "La_rabita_en_el_islam_Estudios_interdisciplinares.pdf",
+      "bytes": 25699167
+    },
+    {
+      "path": "lidar-litoral-v1r0-full1km295498-202403-202404.laz",
+      "bytes": 171104464
+    },
+    {
+      "path": "lidar-litoral-v1r0-full1km295499-202403-202404.laz",
+      "bytes": 49605339
+    },
+    {
+      "path": "lidar-litoral-v1r0-full1km296498-202403-202404.laz",
+      "bytes": 81396118
+    },
+    {
+      "path": "lidar-litoral-v1r0-full1km296499-202403-202404.laz",
+      "bytes": 371324127
+    },
+    {
+      "path": "N032.jpg",
+      "bytes": 82171
+    },
+    {
+      "path": "N112-il1.jpg",
+      "bytes": 43285
+    },
+    {
+      "path": "output_files actual.zip",
+      "bytes": 553862
+    },
+    {
+      "path": "output_files.zip",
+      "bytes": 14701
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 44419
+    },
+    {
+      "path": "package.json",
+      "bytes": 2902
+    },
+    {
+      "path": "Plano histórico de la Torre de la Ràpita.png",
+      "bytes": 2970202
+    },
+    {
+      "path": "PORT/1945-1946.png",
+      "bytes": 1553598
+    },
+    {
+      "path": "PORT/1957.png",
+      "bytes": 1618481
+    },
+    {
+      "path": "PORT/1983.png",
+      "bytes": 1450873
+    },
+    {
+      "path": "PORT/1990.png",
+      "bytes": 3318137
+    },
+    {
+      "path": "PORT/Marti-Ramis-MPIA.pdf",
+      "bytes": 12801649
+    },
+    {
+      "path": "PORT/planol 1813 port alfacs.jpg",
+      "bytes": 366546
+    },
+    {
+      "path": "PORT/T0025916.jpg",
+      "bytes": 601714
+    },
+    {
+      "path": "public/data/buildings/esglesia-nova.json",
+      "bytes": 5204
+    },
+    {
+      "path": "public/data/center.json",
+      "bytes": 27302
+    },
+    {
+      "path": "public/data/chronology.json",
+      "bytes": 24885
+    },
+    {
+      "path": "public/data/context.f32",
+      "bytes": 194012
+    },
+    {
+      "path": "public/data/context.json",
+      "bytes": 1929
+    },
+    {
+      "path": "public/data/context.sources.u8",
+      "bytes": 48503
+    },
+    {
+      "path": "public/data/context.valid.u8",
+      "bytes": 48503
+    },
+    {
+      "path": "public/data/dossier-img/CP01-cases-porxos.jpg",
+      "bytes": 131310
+    },
+    {
+      "path": "public/data/dossier-img/CP02-cases-porxos.jpg",
+      "bytes": 99338
+    },
+    {
+      "path": "public/data/dossier-img/CP03-cases-porxos.jpg",
+      "bytes": 277797
+    },
+    {
+      "path": "public/data/dossier-img/EN01-esglesia-nova.jpg",
+      "bytes": 328442
+    },
+    {
+      "path": "public/data/dossier-img/N001.jpg",
+      "bytes": 147578
+    },
+    {
+      "path": "public/data/dossier-img/N003.jpg",
+      "bytes": 183452
+    },
+    {
+      "path": "public/data/dossier-img/N004.jpg",
+      "bytes": 187896
+    },
+    {
+      "path": "public/data/dossier-img/N006.jpg",
+      "bytes": 183083
+    },
+    {
+      "path": "public/data/dossier-img/N010.jpg",
+      "bytes": 287359
+    },
+    {
+      "path": "public/data/dossier-img/N011.jpg",
+      "bytes": 264382
+    },
+    {
+      "path": "public/data/dossier-img/N017.jpg",
+      "bytes": 172904
+    },
+    {
+      "path": "public/data/dossier-img/N023.jpg",
+      "bytes": 191846
+    },
+    {
+      "path": "public/data/dossier-img/N024.jpg",
+      "bytes": 189493
+    },
+    {
+      "path": "public/data/dossier-img/N025.jpg",
+      "bytes": 173795
+    },
+    {
+      "path": "public/data/dossier-img/N026.jpg",
+      "bytes": 166774
+    },
+    {
+      "path": "public/data/dossier-img/N028.jpg",
+      "bytes": 184447
+    },
+    {
+      "path": "public/data/dossier-img/N029.jpg",
+      "bytes": 218600
+    },
+    {
+      "path": "public/data/dossier-img/N030.jpg",
+      "bytes": 99338
+    },
+    {
+      "path": "public/data/dossier-img/N031.jpg",
+      "bytes": 79366
+    },
+    {
+      "path": "public/data/dossier-img/N032.jpg",
+      "bytes": 82171
+    },
+    {
+      "path": "public/data/dossier-img/N033.jpg",
+      "bytes": 266252
+    },
+    {
+      "path": "public/data/dossier-img/N040.jpg",
+      "bytes": 218156
+    },
+    {
+      "path": "public/data/dossier-img/N041.jpg",
+      "bytes": 239847
+    },
+    {
+      "path": "public/data/dossier-img/N043.jpg",
+      "bytes": 226850
+    },
+    {
+      "path": "public/data/dossier-img/N044.jpg",
+      "bytes": 250589
+    },
+    {
+      "path": "public/data/dossier-img/N046.jpg",
+      "bytes": 251695
+    },
+    {
+      "path": "public/data/dossier-img/N047.jpg",
+      "bytes": 170060
+    },
+    {
+      "path": "public/data/dossier-img/N050.jpg",
+      "bytes": 242890
+    },
+    {
+      "path": "public/data/dossier-img/N051.jpg",
+      "bytes": 277797
+    },
+    {
+      "path": "public/data/dossier-img/N053.jpg",
+      "bytes": 188078
+    },
+    {
+      "path": "public/data/dossier-img/N054.jpg",
+      "bytes": 216431
+    },
+    {
+      "path": "public/data/dossier-img/N055.jpg",
+      "bytes": 332778
+    },
+    {
+      "path": "public/data/dossier-img/N056.jpg",
+      "bytes": 194424
+    },
+    {
+      "path": "public/data/dossier-img/N057.jpg",
+      "bytes": 265326
+    },
+    {
+      "path": "public/data/dossier-img/N058.jpg",
+      "bytes": 231437
+    },
+    {
+      "path": "public/data/dossier-img/N059.jpg",
+      "bytes": 259829
+    },
+    {
+      "path": "public/data/dossier-img/N060.jpg",
+      "bytes": 39056
+    },
+    {
+      "path": "public/data/dossier-img/N063.jpg",
+      "bytes": 114010
+    },
+    {
+      "path": "public/data/dossier-img/N064.jpg",
+      "bytes": 143253
+    },
+    {
+      "path": "public/data/dossier-img/N072.jpg",
+      "bytes": 94524
+    },
+    {
+      "path": "public/data/dossier-img/N073.jpg",
+      "bytes": 214151
+    },
+    {
+      "path": "public/data/dossier-img/N075.jpg",
+      "bytes": 457203
+    },
+    {
+      "path": "public/data/dossier-img/N076.jpg",
+      "bytes": 154929
+    },
+    {
+      "path": "public/data/dossier-img/N077.jpg",
+      "bytes": 335113
+    },
+    {
+      "path": "public/data/dossier-img/N080.jpg",
+      "bytes": 55542
+    },
+    {
+      "path": "public/data/dossier-img/N081.jpg",
+      "bytes": 50329
+    },
+    {
+      "path": "public/data/dossier-img/N083.jpg",
+      "bytes": 209032
+    },
+    {
+      "path": "public/data/dossier-img/N084.jpg",
+      "bytes": 222004
+    },
+    {
+      "path": "public/data/dossier-img/N085.jpg",
+      "bytes": 175107
+    },
+    {
+      "path": "public/data/dossier-img/N087.jpg",
+      "bytes": 454005
+    },
+    {
+      "path": "public/data/dossier-img/N089.jpg",
+      "bytes": 146299
+    },
+    {
+      "path": "public/data/dossier-img/N093.jpg",
+      "bytes": 180622
+    },
+    {
+      "path": "public/data/dossier-img/N094.jpg",
+      "bytes": 259798
+    },
+    {
+      "path": "public/data/dossier-img/N095.jpg",
+      "bytes": 77886
+    },
+    {
+      "path": "public/data/dossier-img/N096.jpg",
+      "bytes": 95409
+    },
+    {
+      "path": "public/data/dossier-img/N099.jpg",
+      "bytes": 291793
+    },
+    {
+      "path": "public/data/dossier-img/N100.jpg",
+      "bytes": 115225
+    },
+    {
+      "path": "public/data/dossier-img/N101.jpg",
+      "bytes": 179215
+    },
+    {
+      "path": "public/data/dossier-img/N102.jpg",
+      "bytes": 137800
+    },
+    {
+      "path": "public/data/dossier-img/N104.jpg",
+      "bytes": 172688
+    },
+    {
+      "path": "public/data/dossier-img/N106.jpg",
+      "bytes": 11108
+    },
+    {
+      "path": "public/data/dossier-img/N107.jpg",
+      "bytes": 225817
+    },
+    {
+      "path": "public/data/dossier-img/N108.jpg",
+      "bytes": 211694
+    },
+    {
+      "path": "public/data/dossier-img/N109.jpg",
+      "bytes": 226950
+    },
+    {
+      "path": "public/data/dossier-img/N111.jpg",
+      "bytes": 247559
+    },
+    {
+      "path": "public/data/dossier-img/N112-il1.jpg",
+      "bytes": 275053
+    },
+    {
+      "path": "public/data/dossier-img/N112-il2.jpg",
+      "bytes": 40132
+    },
+    {
+      "path": "public/data/dossier-img/N112-il3.jpg",
+      "bytes": 53627
+    },
+    {
+      "path": "public/data/dossier-img/N112-il4.jpg",
+      "bytes": 69336
+    },
+    {
+      "path": "public/data/dossier-img/N112-il5.jpg",
+      "bytes": 75923
+    },
+    {
+      "path": "public/data/dossier-img/N112-il6.jpg",
+      "bytes": 38308
+    },
+    {
+      "path": "public/data/dossier-img/N112-il7.jpg",
+      "bytes": 28587
+    },
+    {
+      "path": "public/data/dossier-img/N112-il8.jpg",
+      "bytes": 69794
+    },
+    {
+      "path": "public/data/dossier-img/N112-il9.jpg",
+      "bytes": 51435
+    },
+    {
+      "path": "public/data/dossier-img/N112-p196.jpg",
+      "bytes": 194363
+    },
+    {
+      "path": "public/data/dossier-img/N112-p197.jpg",
+      "bytes": 186273
+    },
+    {
+      "path": "public/data/dossier-img/N112-p198.jpg",
+      "bytes": 213586
+    },
+    {
+      "path": "public/data/dossier-img/N112-p199.jpg",
+      "bytes": 213992
+    },
+    {
+      "path": "public/data/dossier-img/N112-p202.jpg",
+      "bytes": 197926
+    },
+    {
+      "path": "public/data/dossier-img/N112-p203.jpg",
+      "bytes": 230747
+    },
+    {
+      "path": "public/data/dossier-img/N112-p204.jpg",
+      "bytes": 135693
+    },
+    {
+      "path": "public/data/dossier-img/N112-p205.jpg",
+      "bytes": 200234
+    },
+    {
+      "path": "public/data/dossier-img/N112-p206.jpg",
+      "bytes": 213253
+    },
+    {
+      "path": "public/data/dossier-img/N112-p208.jpg",
+      "bytes": 150979
+    },
+    {
+      "path": "public/data/dossier-img/N112-p209.jpg",
+      "bytes": 176136
+    },
+    {
+      "path": "public/data/dossier-img/N112-p210.jpg",
+      "bytes": 200453
+    },
+    {
+      "path": "public/data/dossier-img/N112-p211.jpg",
+      "bytes": 212855
+    },
+    {
+      "path": "public/data/dossier-img/N112-p212.jpg",
+      "bytes": 168183
+    },
+    {
+      "path": "public/data/dossier-img/N112-p213.jpg",
+      "bytes": 221118
+    },
+    {
+      "path": "public/data/dossier-img/N112-p214.jpg",
+      "bytes": 162416
+    },
+    {
+      "path": "public/data/dossier-img/N112-p215.jpg",
+      "bytes": 201133
+    },
+    {
+      "path": "public/data/dossier-img/N112-p216.jpg",
+      "bytes": 160457
+    },
+    {
+      "path": "public/data/dossier-img/N112-p217.jpg",
+      "bytes": 213280
+    },
+    {
+      "path": "public/data/dossier-img/N112-p218.jpg",
+      "bytes": 159218
+    },
+    {
+      "path": "public/data/dossier-img/N112-p219.jpg",
+      "bytes": 172747
+    },
+    {
+      "path": "public/data/dossier-img/N112-p220.jpg",
+      "bytes": 175220
+    },
+    {
+      "path": "public/data/dossier-img/N112-p221.jpg",
+      "bytes": 187737
+    },
+    {
+      "path": "public/data/dossier-img/N112-p222.jpg",
+      "bytes": 192752
+    },
+    {
+      "path": "public/data/dossier-img/N112-p223.jpg",
+      "bytes": 190957
+    },
+    {
+      "path": "public/data/dossier-img/N112-p224.jpg",
+      "bytes": 121391
+    },
+    {
+      "path": "public/data/dossier-img/N112-p225.jpg",
+      "bytes": 204723
+    },
+    {
+      "path": "public/data/dossier-img/N112-p226.jpg",
+      "bytes": 198311
+    },
+    {
+      "path": "public/data/dossier-img/N112-p230.jpg",
+      "bytes": 197162
+    },
+    {
+      "path": "public/data/dossier-img/N112-p231.jpg",
+      "bytes": 216712
+    },
+    {
+      "path": "public/data/dossier-img/N112-p232.jpg",
+      "bytes": 218226
+    },
+    {
+      "path": "public/data/dossier-img/N112-p233.jpg",
+      "bytes": 210196
+    },
+    {
+      "path": "public/data/dossier-img/N112-p234.jpg",
+      "bytes": 224245
+    },
+    {
+      "path": "public/data/dossier-img/N113.jpg",
+      "bytes": 356460
+    },
+    {
+      "path": "public/data/dossier-img/PR01-04.jpg",
+      "bytes": 58834
+    },
+    {
+      "path": "public/data/dossier-img/PR01-05.jpg",
+      "bytes": 58896
+    },
+    {
+      "path": "public/data/dossier-img/PR01-06.jpg",
+      "bytes": 60238
+    },
+    {
+      "path": "public/data/dossier-img/PR01-07.jpg",
+      "bytes": 42396
+    },
+    {
+      "path": "public/data/dossier-img/PR01-08.jpg",
+      "bytes": 78030
+    },
+    {
+      "path": "public/data/dossier-img/PR01-09.jpg",
+      "bytes": 52597
+    },
+    {
+      "path": "public/data/dossier-img/PR01-10.jpg",
+      "bytes": 203082
+    },
+    {
+      "path": "public/data/dossier-img/PR01-11.jpg",
+      "bytes": 113569
+    },
+    {
+      "path": "public/data/dossier-img/PR01-12.jpg",
+      "bytes": 155275
+    },
+    {
+      "path": "public/data/dossier-img/PR01-13.jpg",
+      "bytes": 73853
+    },
+    {
+      "path": "public/data/dossier-img/PR01-14.jpg",
+      "bytes": 94594
+    },
+    {
+      "path": "public/data/dossier-img/PR01-15.jpg",
+      "bytes": 85371
+    },
+    {
+      "path": "public/data/dossiers.json",
+      "bytes": 798849
+    },
+    {
+      "path": "public/data/esglesia-terrain.f32",
+      "bytes": 58564
+    },
+    {
+      "path": "public/data/esglesia-terrain.json",
+      "bytes": 1229
+    },
+    {
+      "path": "public/data/esglesia-terrain.valid.u8",
+      "bytes": 14641
+    },
+    {
+      "path": "public/data/harbour/1945.f32",
+      "bytes": 707364
+    },
+    {
+      "path": "public/data/harbour/1957.f32",
+      "bytes": 707364
+    },
+    {
+      "path": "public/data/harbour/1983.f32",
+      "bytes": 707364
+    },
+    {
+      "path": "public/data/harbour/1990.f32",
+      "bytes": 707364
+    },
+    {
+      "path": "public/data/harbour/1993.f32",
+      "bytes": 707364
+    },
+    {
+      "path": "public/data/harbour-history.json",
+      "bytes": 137015
+    },
+    {
+      "path": "public/data/history-catalog.json",
+      "bytes": 7083
+    },
+    {
+      "path": "public/data/housing.json",
+      "bytes": 85079
+    },
+    {
+      "path": "public/data/landmarks.json",
+      "bytes": 14696
+    },
+    {
+      "path": "public/data/littoral.json",
+      "bytes": 65850
+    },
+    {
+      "path": "public/data/monuments.geojson",
+      "bytes": 11524
+    },
+    {
+      "path": "public/data/plan-1748.json",
+      "bytes": 28915
+    },
+    {
+      "path": "public/data/plan-port-1945.json",
+      "bytes": 947
+    },
+    {
+      "path": "public/data/plan-reverte.json",
+      "bytes": 871
+    },
+    {
+      "path": "public/data/porxos-study.json",
+      "bytes": 9006
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-01.jpg",
+      "bytes": 121677
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-02.jpg",
+      "bytes": 86343
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-03.jpg",
+      "bytes": 92912
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-04.jpg",
+      "bytes": 67542
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-05.jpg",
+      "bytes": 68083
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-06.jpg",
+      "bytes": 68397
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-07.jpg",
+      "bytes": 48325
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-08.jpg",
+      "bytes": 89461
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-09.jpg",
+      "bytes": 60490
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-10.jpg",
+      "bytes": 228399
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-11.jpg",
+      "bytes": 128310
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-12.jpg",
+      "bytes": 172704
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-13.jpg",
+      "bytes": 83542
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-14.jpg",
+      "bytes": 106149
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-15.jpg",
+      "bytes": 96276
+    },
+    {
+      "path": "public/data/reference/pilar-reverte/PR01-16.jpg",
+      "bytes": 21035
+    },
+    {
+      "path": "public/data/reference/plan-1748.jpg",
+      "bytes": 471765
+    },
+    {
+      "path": "public/data/reference/plan-1852.jpg",
+      "bytes": 25874
+    },
+    {
+      "path": "public/data/reference/port/1945-1946.png",
+      "bytes": 1553598
+    },
+    {
+      "path": "public/data/reference/port/1945-utm.png",
+      "bytes": 1460560
+    },
+    {
+      "path": "public/data/reference/port/1957-utm.png",
+      "bytes": 1566223
+    },
+    {
+      "path": "public/data/reference/port/1957.png",
+      "bytes": 1618481
+    },
+    {
+      "path": "public/data/reference/port/1983-utm.png",
+      "bytes": 1444483
+    },
+    {
+      "path": "public/data/reference/port/1983.png",
+      "bytes": 1450873
+    },
+    {
+      "path": "public/data/reference/port/1990-utm.png",
+      "bytes": 1266068
+    },
+    {
+      "path": "public/data/reference/port/1990.png",
+      "bytes": 3318137
+    },
+    {
+      "path": "public/data/reference/port/1993-utm.png",
+      "bytes": 3499098
+    },
+    {
+      "path": "public/data/reference/porxos-salvany-1916-estereo.jpg",
+      "bytes": 168730
+    },
+    {
+      "path": "public/data/reference/porxos-salvany-1916.jpg",
+      "bytes": 73954
+    },
+    {
+      "path": "public/data/reference/rapita-1945-1946.jpg",
+      "bytes": 563181
+    },
+    {
+      "path": "public/data/reference/t-6-8.jpg",
+      "bytes": 3026992
+    },
+    {
+      "path": "public/data/reference/T0009734.jpg",
+      "bytes": 2295092
+    },
+    {
+      "path": "public/data/region.f32",
+      "bytes": 59328
+    },
+    {
+      "path": "public/data/region.json",
+      "bytes": 811
+    },
+    {
+      "path": "public/data/region.valid.u8",
+      "bytes": 14832
+    },
+    {
+      "path": "public/data/research/aca-eixample-1870.jpg",
+      "bytes": 55517
+    },
+    {
+      "path": "public/data/research/aca-reforma-1852.jpg",
+      "bytes": 919772
+    },
+    {
+      "path": "public/data/research/ine-censos-1842-1900.csv",
+      "bytes": 166
+    },
+    {
+      "path": "public/data/research-19c.json",
+      "bytes": 34890
+    },
+    {
+      "path": "public/data/terrain.f32",
+      "bytes": 460800
+    },
+    {
+      "path": "public/data/terrain.json",
+      "bytes": 991
+    },
+    {
+      "path": "public/data/terrain.valid.u8",
+      "bytes": 115200
+    },
+    {
+      "path": "public/data/town-terrain.f32",
+      "bytes": 226904
+    },
+    {
+      "path": "public/data/town-terrain.json",
+      "bytes": 1116
+    },
+    {
+      "path": "public/data/town-terrain.valid.u8",
+      "bytes": 56726
+    },
+    {
+      "path": "public/data/urban-chronology.json",
+      "bytes": 10864
+    },
+    {
+      "path": "public/data/urban-fabric.json",
+      "bytes": 192289
+    },
+    {
+      "path": "Rapita_1800_Blender_PROTOTIPO.zip",
+      "bytes": 319774
+    },
+    {
+      "path": "Rapita_1800_investigacion_fase_2.zip",
+      "bytes": 389184
+    },
+    {
+      "path": "Rapita_LiDAR_2024_cobertura_verificada.zip",
+      "bytes": 2339742
+    },
+    {
+      "path": "README.md",
+      "bytes": 15863
+    },
+    {
+      "path": "scripts/align-reference-1800.mjs",
+      "bytes": 8251
+    },
+    {
+      "path": "scripts/align-roquer.mjs",
+      "bytes": 5357
+    },
+    {
+      "path": "scripts/audit-project.mjs",
+      "bytes": 2564
+    },
+    {
+      "path": "scripts/bake-harbour.mjs",
+      "bytes": 1590
+    },
+    {
+      "path": "scripts/build-dossiers.mjs",
+      "bytes": 11334
+    },
+    {
+      "path": "scripts/build-research.mjs",
+      "bytes": 4116
+    },
+    {
+      "path": "scripts/catalogue-new-sources.py",
+      "bytes": 3493
+    },
+    {
+      "path": "scripts/prepare-building-dossiers.py",
+      "bytes": 23860
+    },
+    {
+      "path": "scripts/prepare-casotes.mjs",
+      "bytes": 6677
+    },
+    {
+      "path": "scripts/prepare-center.mjs",
+      "bytes": 1604
+    },
+    {
+      "path": "scripts/prepare-dossier-images.py",
+      "bytes": 2911
+    },
+    {
+      "path": "scripts/prepare-esglesia.mjs",
+      "bytes": 4483
+    },
+    {
+      "path": "scripts/prepare-faro.mjs",
+      "bytes": 5774
+    },
+    {
+      "path": "scripts/prepare-harbour.py",
+      "bytes": 7928
+    },
+    {
+      "path": "scripts/prepare-housing.mjs",
+      "bytes": 3899
+    },
+    {
+      "path": "scripts/prepare-landmarks.mjs",
+      "bytes": 2060
+    },
+    {
+      "path": "scripts/prepare-littoral.mjs",
+      "bytes": 6431
+    },
+    {
+      "path": "scripts/prepare-montsia.mjs",
+      "bytes": 6430
+    },
+    {
+      "path": "scripts/prepare-pilar.py",
+      "bytes": 1861
+    },
+    {
+      "path": "scripts/prepare-porxos.mjs",
+      "bytes": 997
+    },
+    {
+      "path": "scripts/prepare-reference-overlay.mjs",
+      "bytes": 823
+    },
+    {
+      "path": "scripts/prepare-terrain.mjs",
+      "bytes": 5199
+    },
+    {
+      "path": "scripts/prepare-urban.mjs",
+      "bytes": 2544
+    },
+    {
+      "path": "scripts/refresh-housing-layout.mjs",
+      "bytes": 1746
+    },
+    {
+      "path": "scripts/render-research-pages.py",
+      "bytes": 3448
+    },
+    {
+      "path": "scripts/render-roquer-check.py",
+      "bytes": 2995
+    },
+    {
+      "path": "scripts/sync-reference-dossiers.py",
+      "bytes": 7543
+    },
+    {
+      "path": "scripts/sync-roquer-docs.mjs",
+      "bytes": 8419
+    },
+    {
+      "path": "scripts/validate-building-dossiers.py",
+      "bytes": 4048
+    },
+    {
+      "path": "src/boats.ts",
+      "bytes": 3997
+    },
+    {
+      "path": "src/building-plan.mjs",
+      "bytes": 3735
+    },
+    {
+      "path": "src/casa-laureano.ts",
+      "bytes": 6805
+    },
+    {
+      "path": "src/casotes-model.js",
+      "bytes": 10631
+    },
+    {
+      "path": "src/casotes.ts",
+      "bytes": 4548
+    },
+    {
+      "path": "src/cave-cut.ts",
+      "bytes": 2117
+    },
+    {
+      "path": "src/cave-plan.mjs",
+      "bytes": 3100
+    },
+    {
+      "path": "src/center-plan.mjs",
+      "bytes": 1843
+    },
+    {
+      "path": "src/center.ts",
+      "bytes": 22709
+    },
+    {
+      "path": "src/chronology.mjs",
+      "bytes": 813
+    },
+    {
+      "path": "src/comments.css",
+      "bytes": 2755
+    },
+    {
+      "path": "src/comments.ts",
+      "bytes": 12355
+    },
+    {
+      "path": "src/context-plan.mjs",
+      "bytes": 2337
+    },
+    {
+      "path": "src/domestic-plan.mjs",
+      "bytes": 3271
+    },
+    {
+      "path": "src/dossiers.ts",
+      "bytes": 9911
+    },
+    {
+      "path": "src/duana-1890.ts",
+      "bytes": 15740
+    },
+    {
+      "path": "src/early-town.ts",
+      "bytes": 1102
+    },
+    {
+      "path": "src/environment-plan.mjs",
+      "bytes": 2972
+    },
+    {
+      "path": "src/environment.ts",
+      "bytes": 5588
+    },
+    {
+      "path": "src/esglesia.ts",
+      "bytes": 10271
+    },
+    {
+      "path": "src/faro-rapita-model.js",
+      "bytes": 11763
+    },
+    {
+      "path": "src/faro.ts",
+      "bytes": 3543
+    },
+    {
+      "path": "src/fuente-rapita.ts",
+      "bytes": 6418
+    },
+    {
+      "path": "src/geo.mjs",
+      "bytes": 1439
+    },
+    {
+      "path": "src/harbour-cache.ts",
+      "bytes": 3898
+    },
+    {
+      "path": "src/harbour-plan.mjs",
+      "bytes": 1634
+    },
+    {
+      "path": "src/harbour.ts",
+      "bytes": 1151
+    },
+    {
+      "path": "src/housing-plan.mjs",
+      "bytes": 4176
+    },
+    {
+      "path": "src/housing.ts",
+      "bytes": 13950
+    },
+    {
+      "path": "src/landmarks.ts",
+      "bytes": 7850
+    },
+    {
+      "path": "src/landscape.ts",
+      "bytes": 5782
+    },
+    {
+      "path": "src/life-plan.mjs",
+      "bytes": 1498
+    },
+    {
+      "path": "src/life.ts",
+      "bytes": 9266
+    },
+    {
+      "path": "src/littoral-plan.mjs",
+      "bytes": 8190
+    },
+    {
+      "path": "src/littoral.ts",
+      "bytes": 21149
+    },
+    {
+      "path": "src/lod.mjs",
+      "bytes": 2242
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 110842
+    },
+    {
+      "path": "src/picking.ts",
+      "bytes": 6076
+    },
+    {
+      "path": "src/placa-facades.ts",
+      "bytes": 3327
+    },
+    {
+      "path": "src/placa-model.ts",
+      "bytes": 1946
+    },
+    {
+      "path": "src/plan1748-layout.mjs",
+      "bytes": 1137
+    },
+    {
+      "path": "src/plan1748.ts",
+      "bytes": 3357
+    },
+    {
+      "path": "src/port-overlay-plan.mjs",
+      "bytes": 1144
+    },
+    {
+      "path": "src/porxo-plan.mjs",
+      "bytes": 1007
+    },
+    {
+      "path": "src/porxos-evidence.ts",
+      "bytes": 2549
+    },
+    {
+      "path": "src/porxos.ts",
+      "bytes": 4559
+    },
+    {
+      "path": "src/reference-layout.mjs",
+      "bytes": 1387
+    },
+    {
+      "path": "src/research-landscape.ts",
+      "bytes": 6553
+    },
+    {
+      "path": "src/research-model.mjs",
+      "bytes": 1203
+    },
+    {
+      "path": "src/research.css",
+      "bytes": 5719
+    },
+    {
+      "path": "src/research.ts",
+      "bytes": 10855
+    },
+    {
+      "path": "src/retaining-wall.ts",
+      "bytes": 3570
+    },
+    {
+      "path": "src/rock-cave.ts",
+      "bytes": 9455
+    },
+    {
+      "path": "src/sidebar.css",
+      "bytes": 2056
+    },
+    {
+      "path": "src/sidebar.ts",
+      "bytes": 800
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 29342
+    },
+    {
+      "path": "src/terrain.ts",
+      "bytes": 2525
+    },
+    {
+      "path": "src/urban-plan.mjs",
+      "bytes": 1877
+    },
+    {
+      "path": "src/urban.ts",
+      "bytes": 27204
+    },
+    {
+      "path": "src/vernacular.ts",
+      "bytes": 3117
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38
+    },
+    {
+      "path": "src/walk-plan.mjs",
+      "bytes": 2936
+    },
+    {
+      "path": "src/walking.ts",
+      "bytes": 7745
+    },
+    {
+      "path": "t-6-8.jpg",
+      "bytes": 3026992
+    },
+    {
+      "path": "T0009734.jpg",
+      "bytes": 2295092
+    },
+    {
+      "path": "tesi doctoral.pdf",
+      "bytes": 28088454
+    },
+    {
+      "path": "tests/building.test.mjs",
+      "bytes": 5207
+    },
+    {
+      "path": "tests/casotes.test.mjs",
+      "bytes": 6491
+    },
+    {
+      "path": "tests/center.test.mjs",
+      "bytes": 5839
+    },
+    {
+      "path": "tests/chronology-urban.test.mjs",
+      "bytes": 3537
+    },
+    {
+      "path": "tests/comments-api.test.mjs",
+      "bytes": 3843
+    },
+    {
+      "path": "tests/continuous-u.test.mjs",
+      "bytes": 2476
+    },
+    {
+      "path": "tests/domestic.test.mjs",
+      "bytes": 5978
+    },
+    {
+      "path": "tests/environment.test.mjs",
+      "bytes": 2942
+    },
+    {
+      "path": "tests/faro.test.mjs",
+      "bytes": 5385
+    },
+    {
+      "path": "tests/geo.test.mjs",
+      "bytes": 2811
+    },
+    {
+      "path": "tests/harbour-connection.test.mjs",
+      "bytes": 4632
+    },
+    {
+      "path": "tests/housing.test.mjs",
+      "bytes": 4835
+    },
+    {
+      "path": "tests/landmarks.test.mjs",
+      "bytes": 2805
+    },
+    {
+      "path": "tests/landscape-seam.test.mjs",
+      "bytes": 2291
+    },
+    {
+      "path": "tests/life.test.mjs",
+      "bytes": 3808
+    },
+    {
+      "path": "tests/littoral.test.mjs",
+      "bytes": 6923
+    },
+    {
+      "path": "tests/lod.test.mjs",
+      "bytes": 2474
+    },
+    {
+      "path": "tests/montsia.test.mjs",
+      "bytes": 4253
+    },
+    {
+      "path": "tests/pilar-reverte.test.mjs",
+      "bytes": 4098
+    },
+    {
+      "path": "tests/placa-photo.test.mjs",
+      "bytes": 3565
+    },
+    {
+      "path": "tests/port-georeference.test.mjs",
+      "bytes": 3876
+    },
+    {
+      "path": "tests/port-history.test.mjs",
+      "bytes": 3698
+    },
+    {
+      "path": "tests/port-overlay.test.mjs",
+      "bytes": 1225
+    },
+    {
+      "path": "tests/porxos.test.mjs",
+      "bytes": 3936
+    },
+    {
+      "path": "tests/projected-plan.test.mjs",
+      "bytes": 3018
+    },
+    {
+      "path": "tests/reference-layout.test.mjs",
+      "bytes": 3688
+    },
+    {
+      "path": "tests/relocation-20261101.test.mjs",
+      "bytes": 4267
+    },
+    {
+      "path": "tests/research.test.mjs",
+      "bytes": 4206
+    },
+    {
+      "path": "tests/retaining-wall.test.mjs",
+      "bytes": 2387
+    },
+    {
+      "path": "tests/roquer-alignment.test.mjs",
+      "bytes": 3706
+    },
+    {
+      "path": "tests/urban.test.mjs",
+      "bytes": 6001
+    },
+    {
+      "path": "tests/walking.test.mjs",
+      "bytes": 3119
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 284
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 144
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 656
+    }
+  ]
+}

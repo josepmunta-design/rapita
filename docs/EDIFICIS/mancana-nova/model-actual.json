@@ -1,0 +1,61 @@
+{
+  "entityId": "mancana-nova",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/center.json",
+      "data": {
+        "id": "manzana-nova",
+        "name": "Mançana nova iniciada",
+        "kind": "unfinished-block",
+        "across": -57,
+        "along": 45,
+        "front": "east",
+        "width": 40,
+        "depth": 30,
+        "wallHeight": 3.6,
+        "roofRise": 0,
+        "state1794": "murs a la cota de rebre les bigues del primer pis",
+        "evidence": "H02, art. 8, pàg. 214 i 231: magatzems baixos i futures habitacions altes. Possible àmbit de l’ajuntament actual, amb identificació insegura.",
+        "limits": "El núm.8 del croquis és l’illa residencial occidental, ja representada pels habitatges. Es retira el volum rectangular duplicat darrere la filera per deixar lloc al jardí botànic i als horts.",
+        "documented": {
+          "roof1794": false,
+          "upperHabitationsFinished1794": false,
+          "footprint": null,
+          "height": null
+        },
+        "layoutAlias": "western-residential-block",
+        "representedByHousingIds": [
+          "royal-finished-01",
+          "royal-finished-02",
+          "royal-finished-03",
+          "royal-finished-04",
+          "royal-finished-05",
+          "royal-finished-06",
+          "royal-finished-07",
+          "royal-finished-08",
+          "royal-finished-09",
+          "royal-finished-10",
+          "royal-finished-11"
+        ],
+        "anchor": {
+          "easting": 296350.1105081414,
+          "northing": 4499425.834320706
+        },
+        "frontAzimuthDegrees": 109,
+        "geometryConfidence": "C",
+        "individualPositionConfidence": "C",
+        "state1800": null,
+        "historicalBaseElevation": null,
+        "footprintUTM": [],
+        "terrain": {
+          "minimum": 8.454937959222974,
+          "maximum": 10.63886801999169,
+          "technicalBaseElevation": 10.71886801999169
+        }
+      }
+    }
+  ]
+}

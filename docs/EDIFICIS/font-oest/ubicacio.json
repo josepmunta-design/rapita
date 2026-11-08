@@ -1,0 +1,53 @@
+{
+  "entityId": "font-oest",
+  "historicalEvidence": {
+    "description": "Als punts on el semicercle de la plaça troba els trams rectes, vinculada a les cases porticades. Assignació est/oest d’assaig; cal confirmar a quina torre hi havia el rellotge.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.4 art.11"
+      },
+      {
+        "sourceId": "N001",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "font-oest",
+      "anchor": {
+        "easting": 296329.5472845775,
+        "northing": 4499264.7531180885
+      },
+      "footprintUTM": [
+        [
+          296330.1841988702,
+          4499261.995521275
+        ],
+        [
+          296331.74692601163,
+          4499266.534010438
+        ],
+        [
+          296328.9103702848,
+          4499267.510714902
+        ],
+        [
+          296327.3476431434,
+          4499262.972225739
+        ]
+      ],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": null,
+      "source": "public/data/center.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

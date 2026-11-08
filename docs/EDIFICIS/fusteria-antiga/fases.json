@@ -1,0 +1,48 @@
+{
+  "entityId": "fusteria-antiga",
+  "targetRange": [
+    1778,
+    1950
+  ],
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
+  "phases": [
+    {
+      "id": "fusteria-antiga-fase-01",
+      "witnessDate": "1780",
+      "witnessYear": 1780,
+      "label": "Habilitació proposada",
+      "state": "Tallers per a les obres.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N025",
+          "locator": "primera cara"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "any"
+    },
+    {
+      "id": "fusteria-antiga-fase-02",
+      "witnessDate": "1794-05-20",
+      "witnessYear": 1794,
+      "label": "Dos esments de fusteria",
+      "state": "Cal resoldre identitat i usos.",
+      "kind": "testimoni",
+      "eventDate": null,
+      "eventDateReason": "No s’assimila testimoni i data d’obra.",
+      "references": [
+        {
+          "sourceId": "N112",
+          "locator": "art.5 i7"
+        }
+      ],
+      "automaticTimelineActivation": false,
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
+    }
+  ]
+}

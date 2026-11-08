@@ -1,0 +1,42 @@
+{
+  "reviewed": "2026-11-02",
+  "package": "Faro/faro_rapita_dos_modelos_threejs.zip",
+  "files": [
+    {
+      "file": "Faro/faro_rapita/cronologia-y-fuentes.md",
+      "sha256": "ceadfd2a74894be35fd9238ab72db752d8e6be67d8d9303845386e479170fe51"
+    },
+    {
+      "file": "Faro/faro_rapita/faro-rapita-threejs.js",
+      "sha256": "a90ce8643fcf998dbd5b2dda731b63a598dbff3a11c8b228fa23b200dba0dabd"
+    },
+    {
+      "file": "Faro/faro_rapita/faro_rapita_1864.glb",
+      "sha256": "84186c0000b0f1aa8ac62ed0a61b7cc06f6d310f1b9597b61b1afa51c5d3e191"
+    },
+    {
+      "file": "Faro/faro_rapita/faro_rapita_actual.glb",
+      "sha256": "832561bc9657318a8d2ff5285cb8e3a6eed82a163c4250669f7bd526623e60ab"
+    },
+    {
+      "file": "Faro/faro_rapita/generar-glb.py",
+      "sha256": "7bf0cb4399c2137cd0c7e35ca82abadb63117af67c52beb7ab1bfd364dff9c5c"
+    },
+    {
+      "file": "Faro/faro_rapita/README.txt",
+      "sha256": "486b1a4d60883fddce9dfff8a80f14d988e5b038b87b6d1fa46c044d205740b2"
+    },
+    {
+      "file": "Faro/faro_rapita/visor-faro-rapita.html",
+      "sha256": "4dec830f358543281e251b8f0d4b0e0e1f85b2ca82a04eeea8bcc7824ad4753e"
+    }
+  ],
+  "runtimeSource": "src/faro-rapita-model.js",
+  "adaptations": [
+    "Agrupació de geometria per material a src/faro.ts.",
+    "Fase de 1920 amb llanterna cilíndrica, acabats grocs hipotètics i òptica sense color vermell; òptica roja des de 1975.",
+    "Model actual només com a comparació manual; es cancel·la amb el canvi d’any."
+  ],
+  "geographicOrientationEstablished": false,
+  "originalGLBsUsedAtRuntime": false
+}

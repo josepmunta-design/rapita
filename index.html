@@ -10,18 +10,19 @@
   <body>
     <header class="masthead">
       <a class="identity" href="./" aria-label="La Ràpita 1800, inici"><span class="brand-mark" aria-hidden="true">R<span>1800</span></span><span>LA RÀPITA<small>ATLES DE RECONSTRUCCIÓ</small></span></a>
-      <div class="period">Un territori. Un projecte inacabat.<span>DEL DOCUMENT AL PAISATGE · CAP AL 1800</span></div>
+      <div class="period">Un territori. Un projecte inacabat.<span>DEL DOCUMENT AL PAISATGE · ARXIU 1800–1900</span></div>
       <nav class="header-actions" aria-label="Eines del mapa">
         <button id="sidebar-toggle" class="header-button" aria-expanded="false" aria-controls="exploration-panel">☰ Explora</button>
         <div id="header-comments"></div>
+        <button id="research-open" class="header-button">Arxiu XIX <span aria-hidden="true">→</span></button>
         <button id="dossier-index" class="header-button">Expedients <span aria-hidden="true">→</span></button>
         <button id="method-open" class="header-button">Mètode i fonts <span aria-hidden="true">↗</span></button>
       </nav>
     </header>
     <section class="timebar" aria-label="Cronologia de la reconstrucció">
       <div class="time-year"><span class="eyebrow">ANY DE L’ESCENA</span><output id="year-value" for="year-slider">1800</output></div>
-      <div class="time-range"><label class="sr-only" for="year-slider">Any de la reconstrucció, de 1778 a 1950</label><input id="year-slider" type="range" min="0" max="60" step="1" value="22" aria-describedby="time-note"><div class="time-stops" id="time-stops"></div></div>
-      <div class="time-description"><strong id="time-stage"></strong><span id="time-note"></span><button id="time-evidence" class="inline-link">Com es llegeix la cronologia →</button></div>
+      <div class="time-range"><nav class="chronology-period" aria-label="Període del selector"><button data-period="early">1778–1800</button><button data-period="century">1800–1900</button><button data-period="port">1900–1993</button></nav><label class="sr-only" for="year-slider">Any de la reconstrucció, de 1778 a 1993</label><input id="year-slider" type="range" min="0" max="60" step="1" value="22" aria-describedby="time-note"><div class="time-stops" id="time-stops"></div></div>
+      <div class="time-description"><strong id="time-stage"></strong><span id="time-note"></span><label id="context-control" class="context-control" hidden><input id="context-1800" type="checkbox" checked> Edificis heretats del 1800</label><button id="research-time-open" class="research-shortcut">Documents del segle XIX →</button><button id="time-evidence" class="inline-link">Com es llegeix la cronologia →</button></div>
     </section>
     <main class="workspace sidebar-closed">
       <aside id="exploration-panel" class="sidebar" aria-label="Exploració del territori" hidden>
@@ -30,11 +31,55 @@
         <div class="tabs" role="tablist" aria-label="Tauler d’exploració"><button id="places-tab" role="tab" aria-selected="true" aria-controls="places-panel">Llocs</button><button id="layers-tab" role="tab" aria-selected="false" aria-controls="layers-panel" tabindex="-1">Capes</button><button id="housing-tab" role="tab" aria-selected="false" aria-controls="housing-panel" tabindex="-1">Habitatges</button><button id="building-tab" role="tab" aria-selected="false" aria-controls="building-panel" tabindex="-1">Edificis</button><button id="urban-tab" role="tab" aria-selected="false" aria-controls="urban-panel" tabindex="-1">Trama</button><button id="littoral-tab" role="tab" aria-selected="false" aria-controls="littoral-panel" tabindex="-1">Litoral</button></div>
         <section id="places-panel" role="tabpanel" aria-labelledby="places-tab"><div class="section-label">REFERÈNCIES DE L’ASSENTAMENT</div><nav id="places" aria-label="Punts d’interès"></nav></section>
         <section id="layers-panel" role="tabpanel" aria-labelledby="layers-tab" hidden>
+          <div class="building-tools" id="planport1945-tools">
+            <div class="section-label">ORTOFOTO HISTÒRICA · 1945–1946</div>
+            <label class="cutaway-label"><input id="planport1945-toggle" type="checkbox" aria-controls="planport1945-controls"> Superposa el mapa del port de 1945–1946</label>
+            <p class="tool-note">Captura de PORT/1945-1946.png · ICGC · registre UTM. Compara les localitzacions amb l’any seleccionat.</p>
+            <div id="planport1945-controls" hidden>
+              <button id="planport1945-focus" class="text-button">Centra el nucli i el port <span>↗</span></button>
+              <button id="planport1945-full" class="text-button">Enquadra tota l’ortofoto <span>↗</span></button>
+              <label class="height-label" for="planport1945-opacity">Opacitat <output id="planport1945-opacity-value" for="planport1945-opacity">65 %</output></label>
+              <input id="planport1945-opacity" type="range" min="5" max="100" value="65" step="5">
+              <label class="height-label" for="planport1945-rotation">Rotació <output id="planport1945-rotation-value" for="planport1945-rotation"></output></label>
+              <input id="planport1945-rotation" type="range" min="-12" max="10" value="0" step="0.01">
+              <label class="height-label" for="planport1945-scale">Escala <output id="planport1945-scale-value" for="planport1945-scale"></output></label>
+              <input id="planport1945-scale" type="range" min="1" max="2.4" value="1.62" step="0.001">
+              <label class="height-label" for="planport1945-de">Desplaçament est <output id="planport1945-de-value" for="planport1945-de"></output></label>
+              <input id="planport1945-de" type="range" min="-200" max="200" value="0" step="1">
+              <label class="height-label" for="planport1945-dn">Desplaçament nord <output id="planport1945-dn-value" for="planport1945-dn"></output></label>
+              <input id="planport1945-dn" type="range" min="-200" max="200" value="0" step="1">
+              <button id="planport1945-reset" class="text-button">Restableix el registre UTM <span>↺</span></button>
+              <a id="planport1945-original" class="text-button" href="data/reference/port/1945-1946.png" target="_blank" rel="noopener">Obre la captura original ↗</a>
+            </div>
+            <p id="planport1945-status" class="tool-note" role="status"></p>
+          </div>
+          <div class="building-tools" id="planreverte-tools">
+            <div class="section-label">CROQUIS DE PILAR REVERTÉ · POBLACIÓ I PORT</div>
+            <label class="cutaway-label"><input id="planreverte-toggle" type="checkbox" aria-controls="planreverte-controls"> Projecta el mapa de Pilar Reverté sobre el terreny</label>
+            <p class="tool-note">Estat de 1794 · N112 il·l.4 · ajust C compartit amb els edificis. Els controls mouen només la imatge.</p>
+            <div id="planreverte-controls" hidden>
+              <button id="planreverte-focus" class="text-button">Centra el plànol en planta <span>↗</span></button>
+              <label class="height-label" for="planreverte-opacity">Opacitat <output id="planreverte-opacity-value" for="planreverte-opacity">70 %</output></label>
+              <input id="planreverte-opacity" type="range" min="5" max="100" value="70" step="5">
+              <label class="cutaway-label"><input id="planreverte-paper" type="checkbox"> Mostra el paper blanc</label>
+              <label class="height-label" for="planreverte-rotation">Rotació <output id="planreverte-rotation-value" for="planreverte-rotation"></output></label>
+              <input id="planreverte-rotation" type="range" min="-31" max="29" value="-1" step="0.5">
+              <label class="height-label" for="planreverte-scale">Escala <output id="planreverte-scale-value" for="planreverte-scale"></output></label>
+              <input id="planreverte-scale" type="range" min="0.4" max="1.4" value="0.86" step="0.005">
+              <label class="height-label" for="planreverte-de">Desplaçament est <output id="planreverte-de-value" for="planreverte-de"></output></label>
+              <input id="planreverte-de" type="range" min="-150" max="150" value="0" step="1">
+              <label class="height-label" for="planreverte-dn">Desplaçament nord <output id="planreverte-dn-value" for="planreverte-dn"></output></label>
+              <input id="planreverte-dn" type="range" min="-150" max="150" value="0" step="1">
+              <button id="planreverte-reset" class="text-button">Restableix l’ajust dels edificis <span>↺</span></button>
+              <a id="planreverte-original" class="text-button" href="data/dossier-img/N112-il4.jpg" target="_blank" rel="noopener">Obre el croquis complet i la llegenda ↗</a>
+            </div>
+            <p id="planreverte-status" class="tool-note" role="status"></p>
+          </div>
           <div class="section-label">LECTURA DEL TERRITORI</div>
           <label class="layer"><span>Habitatges d’estudi<small>Inventari de 1794 · geometria C</small></span><input id="housing-toggle" type="checkbox" checked></label>
           <label class="layer"><span>Carrers i serveis<small>Pont, horts, ferreries i guardes · C</small></span><input id="urban-toggle" type="checkbox" checked></label>
           <label class="layer"><span>Centre i plaça<small>Serveis, fonda i edificis en obres · C</small></span><input id="center-toggle" type="checkbox" checked></label>
-          <label class="layer"><span>Glorieta i Guardiola<small>Alçats d’estudi C · cronologia pròpia</small></span><input id="landmarks-toggle" type="checkbox" checked></label>
+          <label class="layer"><span>Glorieta, Guardiola i Torre del Moro<small>Alçats d’estudi C · cronologia pròpia</small></span><input id="landmarks-toggle" type="checkbox" checked></label>
           <label class="layer"><span>Roquer i serveis del litoral<small>Fases documentades · geometria C</small></span><input id="littoral-toggle" type="checkbox" checked></label>
           <label class="layer"><span>Paisatge de Pilar Reverté<small>Figueres, hort, cova i margallons · C</small></span><input id="research-landscape-toggle" type="checkbox" checked></label>
           <label class="layer"><span>Litoral i aigua d’estudi<small>Alternativa reversible al MDT actual</small></span><input id="landscape-toggle" type="checkbox" checked></label>
@@ -49,14 +94,14 @@
           <label class="layer"><span>Eix interpretat<small>Glorieta–Coc · orientació preliminar</small></span><input id="axis-toggle" type="checkbox"></label>
           <p class="layer-note">L’eix és preliminar. La costa i el canal són un escenari C; el MDT original es conserva. Les corbes mesurades es consulten en el mode MDT actual.</p>
         </section>
-        <section id="urban-panel" role="tabpanel" aria-labelledby="urban-tab" hidden><div class="building-tools"><p class="building-summary">Carrers, accessos i serveis documentats. <strong>Planta relacional C</strong>; les parcel·les individuals continuen pendents de comprovació.</p><button id="urban-overview" class="text-button">Mostra la trama del poble ↗</button><p id="urban-selection" class="tool-note"></p><button id="urban-evidence" class="text-button">Fonts i registre de propietats →</button><button id="future-evidence" class="text-button">Documents per a les fases fins al 1950 →</button></div><nav id="urban-list" aria-label="Carrers i serveis"></nav></section>
+        <section id="urban-panel" role="tabpanel" aria-labelledby="urban-tab" hidden><div class="building-tools"><p class="building-summary">Carrers, accessos i serveis documentats. <strong>Planta relacional C</strong>; les parcel·les individuals continuen pendents de comprovació.</p><button id="urban-overview" class="text-button">Mostra la trama del poble ↗</button><p id="urban-selection" class="tool-note"></p><div id="casotes-controls" hidden><button id="casotes-historical" class="text-button" aria-pressed="true">Les Casotes · reconstrucció cap al 1858</button><button id="casotes-actual" class="text-button" aria-pressed="false">Les Casotes · compara amb el museu actual ↗</button><button id="casotes-guards" class="text-button" aria-pressed="false">Cases de guarda · distribució hipotètica</button></div><div id="faro-controls" hidden><button id="faro-historical" class="text-button" aria-pressed="true">Far · fase de l’any seleccionat</button><button id="faro-actual" class="text-button" aria-pressed="false">Far · compara amb l’aspecte actual ↗</button></div><button id="urban-evidence" class="text-button">Fonts i registre de propietats →</button><button id="future-evidence" class="text-button">Documents per a les fases fins al 1993 →</button></div><nav id="urban-list" aria-label="Carrers i serveis"></nav></section>
         <section id="littoral-panel" role="tabpanel" aria-labelledby="littoral-tab" hidden>
           <div class="building-tools litoral-intro"><p class="building-summary"><strong>El Roquer i el camí de l’aigua.</strong> Fàbriques parcials i una costa d’estudi, dins del mateix mapa.</p>
-            <div class="littoral-shortcuts"><button id="roquer-overview">Roquer ↗</button><button id="canal-overview">Canal ↗</button><button id="amposta-view">Amposta ↗</button><button id="mouth-view">Desembocadura ↗</button></div>
+            <div class="littoral-shortcuts"><button id="port-overview">Port ↗</button><button id="roquer-overview">Roquer ↗</button><button id="canal-overview">Canal ↗</button><button id="amposta-view">Amposta ↗</button><button id="mouth-view">Desembocadura ↗</button></div>
             <div class="model-modes" role="group" aria-label="Base del paisatge"><button id="landscape-study" aria-pressed="true">Litoral · C</button><button id="landscape-measured" aria-pressed="false">MDT actual</button></div>
             <p class="tool-note" id="landscape-note">Costa interpretada; nivell d’aigua tècnic, sense validar la cota històrica.</p>
           </div>
-          <nav id="littoral-list" aria-label="Edificis del Roquer i del litoral"></nav>
+          <button id="caves-view" class="text-button">Coves del Roquer · 1800 ↗</button><button id="port-evidence" class="text-button">Fases i fonts del port →</button><nav id="littoral-list" aria-label="Edificis del Roquer i del litoral"></nav>
           <div class="building-tools"><label class="cutaway-label"><input id="project-toggle" type="checkbox"> Envolupant del projecte T-6/8 · C</label><label class="cutaway-label"><input id="boats-toggle" type="checkbox" checked> Embarcacions d’estudi</label><p class="tool-note">Projecte per a 8 canons; inventari de 1794 amb 6 peces. No s’acaben les dependències que les fonts deixen obertes.</p><button id="littoral-evidence" class="text-button">Documents, paisatge de Pilar i límits <span>→</span></button></div>
           <div class="building-tools" id="plan1748-tools">
             <button id="roquer-plan-view" class="text-button">Roquer en planta · ajust de 1748 <span>↗</span></button>
@@ -96,14 +141,14 @@
             <button id="housing-evidence" class="text-button">Fonts i decisions <span>→</span></button>
             <p class="tool-note">Fusteries, cornises, teules, terrats i patis de detall C. Les cases inacabades conserven els buits sense tancar. Els porxos són transitables.</p>
             <p class="tool-note">Selecciona una arcada al mapa per llegir-ne la descripció amb les fonts, també durant el passeig.</p>
-            <button id="porxos-evidence" class="text-button">Porxos · fotografies i restitució <span>→</span></button><button id="porxos-overview" class="text-button">Mostra el conjunt dels porxos <span>↗</span></button><button id="housing-porches" class="text-button">Camina pels porxos <span>↗</span></button>
+            <button id="porxos-evidence" class="text-button">Porxos · fotografies i restitució <span>→</span></button><button id="porxos-overview" class="text-button">Mostra el conjunt dels porxos <span>↗</span></button><button id="placa-photo-view" class="text-button" aria-pressed="false">Semicercle i plaça · vista de les fotografies <span>↗</span></button><p class="tool-note">Comparació amb N030 i les fotografies del Palau. Data pendent de confirmar; alçats aproximats.</p><button id="housing-porches" class="text-button">Camina pels porxos <span>↗</span></button>
           </div>
         </section>
         <section id="building-panel" role="tabpanel" aria-labelledby="building-tab" hidden>
           <div id="center-tools">
             <div class="section-label">PLAÇA I SERVEIS · 1794</div>
             <div class="building-tools center-intro"><p class="building-summary" id="center-summary">Un centre habitat i encara en obres. <strong>Edificis d’estudi C</strong>, sempre presents al mapa general.</p><button id="center-overview" class="text-button">Mostra tot el centre <span>↗</span></button></div>
-            <div class="building-tools"><button id="center-porxos-evidence" class="text-button">Les arcades · descripció i fonts <span>→</span></button></div><nav id="center-list" aria-label="Edificis del centre"></nav><div class="section-label">EL VESSANT I LA GUAITA</div><nav id="landmark-list" aria-label="Glorieta i Guardiola"></nav><div class="building-tools"><button id="landmark-evidence" class="text-button">Fonts de la Glorieta i la Guardiola <span>→</span></button></div>
+            <div class="building-tools"><button id="center-porxos-evidence" class="text-button">Les arcades · descripció i fonts <span>→</span></button></div><nav id="center-list" aria-label="Edificis del centre"></nav><div class="section-label">EL VESSANT I LA GUAITA</div><nav id="landmark-list" aria-label="Glorieta, Guardiola i Torre del Moro"></nav><div class="building-tools"><button id="landmark-evidence" class="text-button">Fonts de les fites i torres <span>→</span></button></div>
             <div class="building-tools"><p class="hypothesis-note">MODELS D’ESTUDI C · CONSULTA LA CRONOLOGIA I LES MESURES</p><button id="center-evidence" class="text-button">Fonts i decisions del centre <span>→</span></button><button id="center-esglesia" class="text-button">Laboratori de l’Església Nova <span>↗</span></button></div>
           </div>
           <div id="esglesia-tools" hidden>
@@ -129,11 +174,12 @@
         <div id="scene" role="img" aria-label="Terreny tridimensional ICGC amb sis referències històriques. Fes servir els botons de llocs per explorar-lo amb el teclat."></div>
         <div id="labels" aria-label="Marcadors sobre el terreny"></div><div id="route-labels" aria-label="Connexions del canal"></div>
         <div id="walk-toolbar" class="walk-toolbar" hidden><strong>A peu · 1,65 m</strong><label class="sr-only" for="walk-spawn">Punt de sortida</label><select id="walk-spawn"></select><label class="walk-speed" for="walk-speed">Velocitat <input id="walk-speed" type="range" min="2" max="12" step="1" value="6"><output id="walk-speed-value" for="walk-speed">6 m/s</output></label><button id="walk-mouse">Captura ratolí</button><button id="life-pause" aria-pressed="false">Pausa ambient</button><button id="walk-exit">Surt · Esc</button><span id="walk-status" role="status">WASD o fletxes · arrossega per mirar</span><span id="walk-distance">0 m</span></div><div class="walk-crosshair" aria-hidden="true"></div><div id="walk-pad" class="walk-pad"><button data-key="w" aria-label="Camina endavant">↑</button><button data-key="a" aria-label="Camina a l’esquerra">←</button><button data-key="s" aria-label="Camina enrere">↓</button><button data-key="d" aria-label="Camina a la dreta">→</button></div>
+        <aside id="casotes-comparison-banner" class="placa-photo-banner" hidden><strong id="casotes-comparison-title">Les Casotes · comparació</strong><span id="casotes-comparison-note"></span><button id="casotes-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="faro-comparison-banner" class="placa-photo-banner" hidden><strong>Far de la Ràpita · aspecte actual</strong><span>Comparació fotogràfica · acabats sense data de reforma fixada</span><button id="faro-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="placa-photo-banner" class="placa-photo-banner" hidden><strong>Semicercle i plaça · comparació fotogràfica</strong><span>N030 i fotografies del Palau · data sense confirmar · geometria C</span><button id="placa-photo-exit">Torna a l’any seleccionat</button></aside>
         <div class="map-caption"><span id="map-eyebrow" class="eyebrow">EL TERRITORI COM A DOCUMENT</span><h2 id="map-title">La Ràpita i el seu relleu</h2><span id="map-subtitle">MDT ICGC 2021–2023 / escala vertical real</span></div>
         <div class="view-controls" role="group" aria-label="Vistes de càmera"><button id="view-oblique" aria-pressed="true" title="Vista obliqua">Perspectiva</button><button id="view-top" aria-pressed="false" title="Vista des de dalt">Planta</button><button id="montsia-view" title="Enquadra la serra del Montsià">Montsià</button><button id="view-walk" aria-pressed="false" title="Recorregut a peu, primera persona">Camina</button><button id="view-full" title="Mostra tota la cobertura">↔ <span>Extensió</span></button><button id="view-territory" hidden>Vista general ↗</button></div>
         <div class="compass" aria-label="Orientació nord"><span>N</span><div id="north-arrow">↑</div></div>
         <div class="zoom-controls" role="group" aria-label="Zoom"><button id="zoom-in" aria-label="Apropa">+</button><button id="zoom-out" aria-label="Allunya">−</button><button id="reset" aria-label="Restableix la vista" title="Restableix · R">⌂</button></div>
-        <article class="feature-card" id="feature-card" aria-live="polite"><div class="card-kicker"><span id="card-number">01 / 06</span><span id="card-category"></span><button id="card-collapse" aria-label="Replega la fitxa" aria-expanded="true">−</button></div><h3 id="card-title"></h3><div id="card-body"><p id="card-description"></p><div class="certainty-row"><span class="certainty" id="certainty"></span><span id="altitude"></span></div><button id="details-open" class="text-button">Consulta l’evidència i els pendents <span>→</span></button></div></article>
+        <article class="feature-card" id="feature-card" aria-live="polite"><div class="card-kicker"><span id="card-number">01 / 06</span><span id="card-category"></span><button id="card-collapse" aria-label="Replega la fitxa" aria-expanded="true">−</button></div><h3 id="card-title"></h3><div id="card-body"><p id="card-description"></p><div class="certainty-row"><span class="certainty" id="certainty"></span><span id="altitude"></span></div><button id="laureano-photo-toggle" class="text-button" aria-pressed="false" hidden>Mostra l’aspecte de les fotografies ↗</button><button id="details-open" class="text-button">Consulta l’evidència i els pendents <span>→</span></button></div></article>
         <div class="map-legend"><span><i class="land-swatch"></i><span id="ground-legend">Paisatge interpretat · C</span></span><span id="void-legend"><i class="void-swatch"></i>Sense dades / sense malla</span><span><i class="anchor-swatch"></i><span id="reference-legend">Referència aproximada</span></span></div>
         <div class="notice"><span aria-hidden="true">ⓘ</span><span id="notice-text">Base de recerca. El relleu actual no equival al del 1800. Els marcadors són referències.</span></div>
         <div id="pick-tooltip" class="pick-tooltip" hidden></div>

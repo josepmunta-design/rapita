@@ -1,0 +1,20 @@
+{
+  "reviewed": "2026-11-08",
+  "files": 1725,
+  "bytes": 2810873684,
+  "jsonParsed": 574,
+  "textDocumentsInventoried": 194,
+  "imagesInventoried": 559,
+  "previousSourceRecords": 113,
+  "dossiers": 125,
+  "dossierImagesChecked": 722,
+  "newSources": 21,
+  "newEvents": 24,
+  "archiveFiles": 30,
+  "archiveBytes": 166044018,
+  "selectableYears": [
+    1778,
+    1993
+  ],
+  "issues": []
+}

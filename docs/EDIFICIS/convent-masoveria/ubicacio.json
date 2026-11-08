@@ -1,0 +1,256 @@
+{
+  "entityId": "convent-masoveria",
+  "historicalEvidence": {
+    "description": "Illa del convent sobre el Roquer. En el plànol de 1782 és el recinte 1; al costat de torre, sanitat i bateria. Ajust del visor (31/10/2026): Hostal B i tres corrals F, amb els murs del recinte, traçats com a peces diferenciades al redibuix. Els quarters D i E i la capella C tenen expedients vinculats. No es reconstrueix un claustre complet ni s’identifica l’hostal B amb la Fonda Vella dels Lantí, que és una altra hipòtesi documental.",
+    "historicalCoordinates": null,
+    "georeferencedHistoricalFootprint": null,
+    "confidence": "B relacional / C mètrica",
+    "references": [
+      {
+        "sourceId": "N112",
+        "locator": "il·l.1,2,4"
+      },
+      {
+        "sourceId": "N029",
+        "locator": "fitxer o imatge completa"
+      }
+    ]
+  },
+  "studyPositions": [
+    {
+      "modelId": "hostal-1748",
+      "anchor": [
+        296385.8758960818,
+        4499200.283175075
+      ],
+      "footprintUTM": [
+        [
+          296386.1071112447,
+          4499198.6279709
+        ],
+        [
+          296384.59805187455,
+          4499201.07033611
+        ],
+        [
+          296385.6282397271,
+          4499201.890630562
+        ],
+        [
+          296387.1701814809,
+          4499199.543762729
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "B",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "corral-1748-1",
+      "anchor": [
+        296388.0509531866,
+        4499208.694031168
+      ],
+      "footprintUTM": [
+        [
+          296386.91972151067,
+          4499200.057281767
+        ],
+        [
+          296377.7397548038,
+          4499208.452362545
+        ],
+        [
+          296385.08083416836,
+          4499211.158790959
+        ],
+        [
+          296385.61993190536,
+          4499220.480117026
+        ],
+        [
+          296388.87944179267,
+          4499220.639614031
+        ],
+        [
+          296391.2458319096,
+          4499207.967815113
+        ],
+        [
+          296395.51171608904,
+          4499203.294362731
+        ],
+        [
+          296393.4103933133,
+          4499197.50190517
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "F",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "corral-1748-2",
+      "anchor": [
+        296381.17363326746,
+        4499218.735296634
+      ],
+      "footprintUTM": [
+        [
+          296385.01821917586,
+          4499211.287170719
+        ],
+        [
+          296376.6847492547,
+          4499211.592941997
+        ],
+        [
+          296377.28507734736,
+          4499223.884136046
+        ],
+        [
+          296381.469828387,
+          4499223.938686352
+        ],
+        [
+          296381.2802182717,
+          4499220.906203375
+        ],
+        [
+          296385.30370716803,
+          4499220.802641313
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "F",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "corral-1748-3",
+      "anchor": [
+        296375.0581784273,
+        4499219.122999941
+      ],
+      "footprintUTM": [
+        [
+          296377.7275362059,
+          4499213.690734496
+        ],
+        [
+          296372.9995335184,
+          4499213.609601357
+        ],
+        [
+          296372.21426708816,
+          4499224.66877884
+        ],
+        [
+          296377.29137689667,
+          4499224.52288507
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "F",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "mur-roquer-1748",
+      "anchor": [
+        296391.85707500804,
+        4499210.570265708
+      ],
+      "footprintUTM": [
+        [
+          296388.5738202435,
+          4499201.802142682
+        ],
+        [
+          296395.1403297726,
+          4499201.802142682
+        ],
+        [
+          296395.1403297726,
+          4499219.338388734
+        ],
+        [
+          296388.5738202435,
+          4499219.338388734
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "F",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "mur-nord-1748",
+      "anchor": [
+        296383.09813742776,
+        4499199.258128856
+      ],
+      "footprintUTM": [
+        [
+          296376.0555256548,
+          4499184.65571863
+        ],
+        [
+          296390.1407492007,
+          4499184.65571863
+        ],
+        [
+          296390.1407492007,
+          4499213.860539082
+        ],
+        [
+          296376.0555256548,
+          4499213.860539082
+        ]
+      ],
+      "alongAzimuthDegrees": 0,
+      "planLetter": "F",
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "url": null,
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
+}

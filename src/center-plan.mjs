@@ -10,6 +10,9 @@ export function generateCenterLayout(config,frame,housing){
     const s={...site,anchor:townToUTM(site.across,site.along,frame),frontAzimuthDegrees:(frame.alongAzimuthDegrees+bearings[site.front]+360)%360,
       geometryConfidence:'C',individualPositionConfidence:'C',state1800:null,historicalBaseElevation:null};
     s.footprintUTM=[[-s.width/2,s.depth/2],[s.width/2,s.depth/2],[s.width/2,-s.depth/2],[-s.width/2,-s.depth/2]].map(([x,z])=>planToUTM(x,z,s.anchor,s.frontAzimuthDegrees));
+    if(s.planBodies)s.bodyFootprintsUTM=s.planBodies.map(poly=>poly.map(([x,z])=>planToUTM(x,z,s.anchor,s.frontAzimuthDegrees)));
+    if(s.planOutline)s.planOutlineUTM=s.planOutline.map(([x,z])=>planToUTM(x,z,s.anchor,s.frontAzimuthDegrees));
+    if(s.layoutAlias)s.footprintUTM=[];
     return s;
   });
 }

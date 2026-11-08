@@ -1,0 +1,61 @@
+{
+  "entityId": "unitat-royal-small-coast-03",
+  "captureDate": "2026-11-01",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
+  "snapshots": [
+    {
+      "file": "public/data/housing.json",
+      "data": {
+        "id": "royal-small-coast-03",
+        "group": "royal-small-coast",
+        "kind": "small",
+        "anchor": {
+          "easting": 296481.8698779164,
+          "northing": 4499267.268616592
+        },
+        "across": 119.20487528025745,
+        "along": -62.0301638431444,
+        "frontAzimuthDegrees": 109,
+        "width": 4.4,
+        "depth": 7,
+        "wallHeight": 3.2,
+        "roofRise": 1.2,
+        "wallThickness": 0.35,
+        "originalHouseNumber": null,
+        "state1800": null,
+        "individualPositionConfidence": "C",
+        "geometryConfidence": "C",
+        "state1794": "finished",
+        "layoutBasis": "N112-relational-layout-study",
+        "coastalCluster": 1,
+        "shoreSetbackMeters": null,
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "footprintUTM": [
+          [
+            296484.4629429912,
+            4499264.048987185
+          ],
+          [
+            296485.8954428708,
+            4499268.209268917
+          ],
+          [
+            296479.27681284165,
+            4499270.4882459985
+          ],
+          [
+            296477.844312962,
+            4499266.327964266
+          ]
+        ],
+        "terrain": {
+          "minimum": 2.5465391968939257,
+          "maximum": 2.800566807551224,
+          "technicalBaseElevation": 2.880566807551224,
+          "historicalElevation": null
+        }
+      }
+    }
+  ]
+}
