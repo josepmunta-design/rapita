@@ -15,7 +15,8 @@ const[h,v]=await loadGrid(meta);
 test('battery project and inventory stay distinct; unmeasured historical geometry remains unknown',()=>{
   assert.equal(data.battery.projectedGuns,8);assert.equal(data.battery.inventoryGuns,6);assert.equal(data.battery.mountedGuns,3);assert.equal(data.battery.unmountedGuns,3);
   for(const s of data.sites){assert.equal(s.geometryConfidence,'C');assert.equal(s.historicalHeight,null);assert.equal(s.historicalFootprint,null);assert.equal(s.state1800,null);assert.ok(Number.isFinite(s.technicalBaseElevation));}
-  const xs=data.battery.outlineStudy.map(p=>p[0]);assert.ok(Math.abs(Math.max(...xs)-Math.min(...xs)-36.9)<1e-8);
+  const xs=data.battery.outlineStudy.map(p=>p[0]);// Planta T-6/8 encaixada al front conservat sota el mercat (09/11/2026): 28,5 m; la lectura anterior de l'escala donava 36,9 m.
+  assert.ok(Math.abs(Math.max(...xs)-Math.min(...xs)-28.5)<1e-8);assert.equal(data.battery.preservedFit.previousPlanWidth,36.9);assert.ok(data.battery.preservedFit.rmsMeters<.5);
   assert.match(data.sources.find(s=>s.id==='P01').credit,/Archivo General Militar de Madrid/);
   assert.match(data.sources.find(s=>s.id==='P02').title,/1813/);assert.ok(data.excluded.some(s=>s.includes('1867')));
 });

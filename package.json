@@ -1,7 +1,7 @@
 {
   "name": "rapita-1800",
   "private": true,
-  "version": "0.14.1",
+  "version": "0.19.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
@@ -12,9 +12,9 @@
     "test": "node --test tests/*.test.mjs",
     "data:housing": "node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs",
     "data:center": "node scripts/prepare-center.mjs",
-    "data:reference": "node scripts/align-reference-1800.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-urban.mjs && python scripts/sync-reference-dossiers.py && node scripts/prepare-reference-overlay.mjs",
+    "data:reference": "node scripts/align-reference-1800.mjs && node scripts/apply-coast-1794.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-urban.mjs && python scripts/sync-reference-dossiers.py && node scripts/prepare-reference-overlay.mjs",
     "data:littoral": "node scripts/prepare-littoral.mjs",
-    "data:roquer": "node scripts/align-roquer.mjs && node scripts/prepare-housing.mjs && node scripts/prepare-center.mjs && node scripts/prepare-littoral.mjs && node scripts/prepare-urban.mjs && node scripts/sync-roquer-docs.mjs && python scripts/prepare-building-dossiers.py && node scripts/build-dossiers.mjs",
+    "data:roquer": "node scripts/register-roquer-20261109.mjs && node scripts/align-roquer.mjs && node scripts/apply-coast-1794.mjs && node scripts/apply-roquer-walls-20261109.mjs && node scripts/apply-convent-20261109.mjs && node scripts/apply-monges-20261108.mjs && node scripts/refresh-housing-layout.mjs && node scripts/prepare-center.mjs && node scripts/apply-figueretes-1748.mjs && node scripts/prepare-urban.mjs && node scripts/prepare-littoral.mjs && node scripts/sync-roquer-docs.mjs && python scripts/prepare-building-dossiers.py && node scripts/build-dossiers.mjs",
     "data:landmarks": "node scripts/prepare-landmarks.mjs",
     "data:montsia": "node scripts/prepare-montsia.mjs",
     "data:urban": "node scripts/prepare-urban.mjs",
@@ -25,7 +25,10 @@
     "data:faro": "node scripts/prepare-urban.mjs && node scripts/prepare-faro.mjs && node scripts/build-dossiers.mjs",
     "data:casotes": "node scripts/prepare-urban.mjs && node scripts/prepare-casotes.mjs && node scripts/build-dossiers.mjs",
     "data:research": "node scripts/build-research.mjs",
-    "data:coast-audit": "node scripts/check-coastal-buildings.mjs --report"
+    "data:coast-audit": "node scripts/check-coastal-buildings.mjs --report",
+    "data:coast": "node scripts/apply-coast-1794.mjs && node scripts/prepare-littoral.mjs && node scripts/check-coastal-buildings.mjs --report",
+    "data:icgc": "node scripts/apply-actual-map-20261108.mjs && node scripts/apply-monges-20261108.mjs && npm run data:plaza",
+    "data:plaza": "node scripts/refresh-housing-layout.mjs && node scripts/prepare-center.mjs && node scripts/apply-figueretes-1748.mjs && node scripts/prepare-urban.mjs && node scripts/prepare-littoral.mjs && node scripts/check-coastal-buildings.mjs --report"
   },
   "dependencies": {
     "three": "0.187.0"

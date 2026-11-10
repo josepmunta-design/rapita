@@ -18,7 +18,7 @@ Certesa: D posició individual / B relació territorial quan està documentada.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| casa-administrador | — | 296510.309 | 4499411.921 | Model d’assaig |
+| casa-administrador | — | 296509.301 | 4499405.922 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

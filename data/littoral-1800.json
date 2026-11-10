@@ -83,11 +83,11 @@
   ],
   "battery": {
     "anchor": [
-      296425.03047827433,
-      4499177.96184199
+      296437.092,
+      4499169.832
     ],
-    "frontAzimuthDegrees": 109,
-    "planWidth": 36.9,
+    "frontAzimuthDegrees": 130.9,
+    "planWidth": 28.5,
     "planDepth": 35.2,
     "digitization": {
       "sourceImageSize": [
@@ -112,76 +112,127 @@
     "inventoryGuns": 6,
     "mountedGuns": 3,
     "unmountedGuns": 3,
-    "state": "Bateria inacabada; distribució de fàbriques i alçàries d'assaig C. La muralla s'acabà el 1780, però el conjunt quedà suspès el 1781 i a mig fer el 1794."
+    "state": "Bateria inacabada; distribució de fàbriques i alçàries d'assaig C. La muralla s'acabà el 1780, però el conjunt quedà suspès el 1781 i a mig fer el 1794.",
+    "preservedFit": {
+      "source": "Ortofoto ICGC 2024 i topogràfic 1:1.000: mur corbat del front SE del mercat municipal",
+      "points": 6,
+      "rmsMeters": 0.2,
+      "previousPlanWidth": 36.9,
+      "date": "2026-11-09"
+    }
   },
   "shorelineStudy": [
     [
-      298800,
+      300589,
       4501500
     ],
     [
-      298200,
-      4501000
+      300589,
+      4499645
     ],
     [
-      297600,
-      4500500
+      298800,
+      4499645
+    ],
+    [
+      298350,
+      4499656
+    ],
+    [
+      298200,
+      4499666
+    ],
+    [
+      298100,
+      4499676
+    ],
+    [
+      298000,
+      4499695
+    ],
+    [
+      297850,
+      4499695
+    ],
+    [
+      297700,
+      4499684
+    ],
+    [
+      297680,
+      4499724
+    ],
+    [
+      297650,
+      4499724
+    ],
+    [
+      297550,
+      4499676
+    ],
+    [
+      297450,
+      4499685
+    ],
+    [
+      297400,
+      4499675
+    ],
+    [
+      297300,
+      4499634
     ],
     [
       297200,
-      4500100
+      4499606
     ],
     [
-      296967,
-      4500000
+      297150,
+      4499590
     ],
     [
-      296943,
-      4499780
+      297000,
+      4499560
     ],
     [
-      296955,
-      4499660
+      296820,
+      4499500
     ],
     [
-      296938,
-      4499570
+      296700,
+      4499385
     ],
     [
-      296928,
-      4499510
+      296631.0015644197,
+      4499307.857210587
     ],
     [
-      296524.1413102,
-      4499458.783165929
+      296602.0422293169,
+      4499289.697854915
     ],
     [
-      296510.22701025824,
-      4499351.509665674
+      296572.44646504166,
+      4499269.571306851
     ],
     [
-      296524.5339451555,
-      4499284.169719031
+      296554.9489032942,
+      4499252.674107886
     ],
     [
-      296544.7505476365,
-      4499259.733168863
+      296537.36128712964,
+      4499230.617694812
     ],
     [
-      296514.2498871348,
-      4499237.042022814
+      296518.59110695205,
+      4499190.089106925
     ],
     [
-      296498.17188203236,
-      4499202.917425353
+      296488.3799708259,
+      4499134.707929131
     ],
     [
-      296482.9687550172,
-      4499169.63768784
-    ],
-    [
-      296468.6855332981,
-      4499139.782417327
+      296466.00086275785,
+      4499133.808361412
     ],
     [
       296447.7034682708,
@@ -330,7 +381,7 @@
       ],
       "use": "Corredor de referència actual llegit manualment al costat de la TV-3408 i del canal existent. No georeferenciació històrica. Enllaç amb el nucli antic i ramal són C. Controls aproximats, error de treball de desenes de metres."
     },
-    "harbourConnection": "El braç terminal 19 ressegueix el costat oriental de la població i desemboca al costat nord de la dàrsena gran. Línia d’assaig traçada sobre N112 il·l.4.",
+    "harbourConnection": "El canal arriba a la dàrsena petita (zona C de N112 il·l.3) i continua pel braç terminal 19, en terra, pel costat oriental de la població fins a la cantonada NW de la dàrsena gran. Enclusa gran començada i sense connexió oberta amb el mar el 1794.",
     "terminalReference": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
   },
   "basins": [
@@ -365,15 +416,19 @@
     {
       "id": "large",
       "center": [
-        296546.11442005757,
-        4499177.782953451
+        296555.9428774845,
+        4499180.159938065
       ],
-      "width": 160.22711459943093,
-      "length": 163.90043082274497,
+      "width": 140.5701997455326,
+      "length": 168.65440005157143,
       "polygonUTM": [
         [
-          296544.7505476365,
-          4499259.733168863
+          296554.9489032942,
+          4499252.674107886
+        ],
+        [
+          296568.0570655352,
+          4499264.487138092
         ],
         [
           296626.2279773573,
@@ -392,16 +447,20 @@
           4499095.83273804
         ],
         [
-          296466.00086275785,
-          4499133.808361412
+          296485.65777761175,
+          4499126.584200669
         ],
         [
-          296483.84363310464,
-          4499170.482547788
+          296488.3799708259,
+          4499134.707929131
         ],
         [
-          296501.8214850772,
-          4499214.895555324
+          296518.59110695205,
+          4499190.089106925
+        ],
+        [
+          296537.36128712964,
+          4499230.617694812
         ]
       ],
       "name": "Dàrsena gran · port de 1800"
@@ -412,35 +471,35 @@
       "id": "battery",
       "name": "Bateria del Roquer",
       "anchor": [
-        296425.03047827433,
-        4499177.96184199
+        296437.092,
+        4499169.832
       ],
       "kind": "battery",
       "radius": 40,
       "state": "Muralla i dependències parcials; sis peces de l'inventari de 1794",
       "evidence": "H01, pp. 113–115; H02 art. 16–17; projecte T-6/8. Les dues primeres plantes completes del plànol no es presenten com a obra executada.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Centre i eix de la bateria posterior ajustats al sector H; es conserva la planta T-6/8 de vuit canons, diferent del projecte de 1748.",
+        "text": "La bateria es conserva parcialment sota el mercat municipal. Planta T-6/8 de vuit canons encaixada al front corbat conservat (6 punts, RMS 0,20 m) i a l’eix del mercat (130,9°); coincideix amb el sector H del plànol de 1748 registrat amb els mateixos testimonis.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 2
       }
     },
     {
       "id": "tower",
       "name": "Torre de la Ràpita",
       "anchor": [
-        296388.9867085829,
-        4499194.271625824
+        296402.613330366,
+        4499206.241574595
       ],
       "kind": "tower",
-      "width": 7.474000000213545,
-      "depth": 8.787000000654782,
+      "width": 8.806000000069822,
+      "depth": 10.353000000104908,
       "height": 13.2,
       "radius": 16,
       "state": "Torre traçada al redibuix de 1748: part A existent i porció O projectada; reparació posterior representada des de 1780. Alçària i obertures C.",
       "evidence": "Plànol de 1748, A: Torre de la Ràpita. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
-      "existingWidth": 3.7370000001067725,
-      "alongAzimuthDegrees": 19,
+      "existingWidth": 4.403000000034911,
+      "alongAzimuthDegrees": 41.31100000000001,
       "planLetter": "A",
       "planPixels": [
         [
@@ -461,26 +520,26 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "footprintUTM": [
         [
-          296391.08972781326,
-          4499188.900841769
+          296402.50334318524,
+          4499199.446689455
         ],
         [
-          296384.02292197925,
-          4499191.334138156
+          296395.8888271666,
+          4499205.259934146
         ],
         [
-          296386.8836893525,
-          4499199.64240988
+          296402.72331754665,
+          4499213.036459736
         ],
         [
-          296393.9504951865,
-          4499197.209113493
+          296409.3378335653,
+          4499207.2232150445
         ]
       ]
     },
@@ -488,8 +547,8 @@
       "id": "quarters",
       "name": "Dependències de la guarnició",
       "anchor": [
-        296398.6556884499,
-        4499182.022885049
+        296407.67388645676,
+        4499188.565440846
       ],
       "kind": "quarters",
       "width": 7,
@@ -498,19 +557,19 @@
       "radius": 22,
       "state": "Allotjament de tropa i oficials; volum d'assaig",
       "evidence": "H02 art. 16 i H01. Els usos són documentats; la separació en aquest cos i les obertures són C. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": 41.31100000000001,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       }
     },
     {
       "id": "cistern",
       "name": "Cisterna i fossat",
       "anchor": [
-        296417.8650252895,
-        4499180.108646249
+        296427.7560857255,
+        4499177.886727229
       ],
       "kind": "cistern",
       "width": 4.5,
@@ -519,11 +578,11 @@
       "radius": 18,
       "state": "Excavació i obra parcial; restitució C",
       "evidence": "H01, pp. 113–114: cisterna excavada i contraescarpa acabada el 1780. Posició individual d'assaig. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": 41.31100000000001,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       }
     },
     {
@@ -545,8 +604,8 @@
       "id": "old-inn",
       "name": "Fonda Vella",
       "anchor": [
-        296491.3185959745,
-        4499253.784779031
+        296465.023,
+        4499277.332
       ],
       "kind": "inn",
       "width": 12,
@@ -559,7 +618,8 @@
       "positionSource": {
         "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
         "precisionMeters": 15
-      }
+      },
+      "actualMap20261108": "Abans damunt del carrer de la Mare de Déu de Montserrat (across 132,5; along −71,7). Nova posició: illa actual més propera que deixa lliures la baixada del Cóc al port (rampa-sud), les cases petites i la duana antiga; 35 m cap a ponent, C."
     },
     {
       "id": "old-customs",
@@ -605,8 +665,8 @@
       "id": "well",
       "name": "Pou de les Figueretes",
       "anchor": [
-        296407.97500624356,
-        4499200.712022799
+        296426.19154989166,
+        4499204.768389186
       ],
       "kind": "well",
       "width": 2,
@@ -623,17 +683,17 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "footprintUTM": [
         [
-          296407.97500624356,
-          4499200.712022799
+          296426.19154989166,
+          4499204.768389186
         ]
       ],
-      "alongAzimuthDegrees": 19
+      "alongAzimuthDegrees": 41.31100000000001
     }
   ],
   "boats": [
@@ -641,8 +701,8 @@
       "id": "llagut-1",
       "kind": "llagut",
       "anchor": [
-        296555,
-        4499250
+        296578,
+        4499236
       ],
       "length": 6.4,
       "beam": 1.9,
@@ -698,43 +758,171 @@
       "sail": true
     }
   ],
-  "shorelineNote": "Traça del peu del cantell del Roquer al redibuix de 1748, amb entrants i sortints; mateixa transformació que els edificis. Enllaços amb la costa general C. No equival a una línia de marees mesurada.",
+  "shorelineNote": "Costa estimada de N112 il·l.4 (línia punteada) entre la punta del Roquer i N 4.499.310; enllaç C cap a la zona C de N112 il·l.3 i la costa general del nord. El peu del cantell del Roquer (roquerCoast) queda darrere d’una platja. Revisió 08/11/2026; no és una línia de marees mesurada.",
   "roquerCoast": [
     [
-      296524.1413102,
-      4499458.783165929
+      296440.8404237337,
+      4499269.206141353
     ],
     [
-      296510.22701025824,
-      4499351.509665674
+      296441.10029551556,
+      4499265.175516256
     ],
     [
-      296524.5339451555,
-      4499284.169719031
+      296441.01345388195,
+      4499261.291177893
     ],
     [
-      296544.7505476365,
-      4499259.733168863
+      296440.4227841115,
+      4499257.374355555
     ],
     [
-      296514.2498871348,
-      4499237.042022814
+      296439.02764617663,
+      4499254.164549463
     ],
     [
-      296498.17188203236,
-      4499202.917425353
+      296436.213170607,
+      4499252.043718432
     ],
     [
-      296482.9687550172,
-      4499169.63768784
+      296432.6050548638,
+      4499250.461960932
     ],
     [
-      296468.6855332981,
-      4499139.782417327
+      296428.2926842987,
+      4499249.340719608
     ],
     [
-      296447.7034682708,
-      4499120.365647587
+      296424.50579785235,
+      4499247.916076831
+    ],
+    [
+      296421.9594783375,
+      4499245.559573716
+    ],
+    [
+      296420.02526686864,
+      4499241.556127451
+    ],
+    [
+      296418.02332603006,
+      4499237.295353123
+    ],
+    [
+      296416.3003692372,
+      4499232.630964
+    ],
+    [
+      296414.620724408,
+      4499227.294804028
+    ],
+    [
+      296413.56953846425,
+      4499222.673726868
+    ],
+    [
+      296413.30392612744,
+      4499218.946503226
+    ],
+    [
+      296414.3601995072,
+      4499215.641788934
+    ],
+    [
+      296416.8927119006,
+      4499211.673370359
+    ],
+    [
+      296420.1863804947,
+      4499207.669706389
+    ],
+    [
+      296423.6263358193,
+      4499204.012755834
+    ],
+    [
+      296427.04463516205,
+      4499200.691690703
+    ],
+    [
+      296430.3627211623,
+      4499197.617125645
+    ],
+    [
+      296433.7052245687,
+      4499195.4716595
+    ],
+    [
+      296437.00441601145,
+      4499193.997964204
+    ],
+    [
+      296440.92123834876,
+      4499193.4072944345
+    ],
+    [
+      296445.1414621379,
+      4499193.342108783
+    ],
+    [
+      296449.47272726055,
+      4499192.862480346
+    ],
+    [
+      296450.5750740282,
+      4499190.150979542
+    ],
+    [
+      296450.97040454973,
+      4499186.635010576
+    ],
+    [
+      296451.9264645869,
+      4499183.576796357
+    ],
+    [
+      296453.32945138216,
+      4499180.1257953355
+    ],
+    [
+      296455.1468809627,
+      4499176.785835647
+    ],
+    [
+      296457.7931961137,
+      4499173.667958626
+    ],
+    [
+      296460.27156855253,
+      4499170.539253614
+    ],
+    [
+      296462.1323100967,
+      4499166.527523076
+    ],
+    [
+      296463.5894368465,
+      4499162.236808493
+    ],
+    [
+      296464.81089151424,
+      4499157.677937854
+    ],
+    [
+      296465.43913269346,
+      4499153.165140604
+    ],
+    [
+      296465.56354573584,
+      4499148.619859381
+    ],
+    [
+      296465.6879587782,
+      4499144.074578159
+    ],
+    [
+      296465.5442157657,
+      4499139.764969017
     ]
   ],
   "plan1748Project": [
@@ -882,145 +1070,145 @@
       "height": 2.8,
       "name": "Bateria projectada per a 14 canons",
       "anchor": [
-        296430.71318395296,
-        4499177.019916551
+        296440.37918029,
+        4499168.77310315
       ],
       "footprintUTM": [
         [
-          296394.3937150466,
-          4499200.047451942
+          296411.0905129066,
+          4499210.118791693
         ],
         [
-          296418.45905383275,
-          4499191.761091275
+          296433.6156215108,
+          4499190.3223367985
         ],
         [
-          296421.1518790125,
-          4499192.756631606
+          296436.99613173853,
+          4499190.203011191
         ],
         [
-          296432.99355365336,
-          4499188.679216039
+          296448.0799153374,
+          4499180.461898467
         ],
         [
-          296436.5801222389,
-          4499186.376064551
+          296450.9591411462,
+          4499176.347193163
         ],
         [
-          296439.4856100929,
-          4499183.0255916985
+          296452.627522572,
+          4499171.3955357205
         ],
         [
-          296441.3969422525,
-          4499179.269696283
+          296453.03091966006,
+          4499166.446639704
         ],
         [
-          296442.1888887328,
-          4499175.365137822
+          296452.14767642866,
+          4499161.836390535
         ],
         [
-          296441.9929790682,
-          4499171.693905822
+          296450.29202232056,
+          4499157.922329621
         ],
         [
-          296440.52587090485,
-          4499168.6740219435
+          296447.3420880113,
+          4499155.286842462
         ],
         [
-          296437.97540922044,
-          4499165.920346909
+          296443.3303574738,
+          4499153.426100918
         ],
         [
-          296434.4731235493,
-          4499163.8148702225
+          296438.5710601507,
+          4499152.697646395
         ],
         [
-          296430.69064529904,
-          4499162.446789711
+          296433.83618023375,
+          4499152.898290787
         ],
         [
-          296426.69688901166,
-          4499162.326474638
+          296429.42911917466,
+          4499154.553518211
         ],
         [
-          296423.1571865453,
-          4499162.904373807
+          296425.82928770443,
+          4499156.7667137245
         ],
         [
-          296402.5297533,
-          4499170.006968665
+          296406.522051758,
+          4499173.735103634
         ],
         [
-          296402.0693999296,
-          4499168.670005399
+          296405.4222487083,
+          4499172.483708711
         ],
         [
-          296423.46081218397,
-          4499161.304351472
+          296425.44456746755,
+          4499154.886859916
         ],
         [
-          296427.60638129077,
-          4499160.624655378
+          296429.6592684082,
+          4499152.29170559
         ],
         [
-          296432.3704161366,
-          4499161.120660406
+          296435.07398574095,
+          4499150.701446112
         ],
         [
-          296436.50515128236,
-          4499162.58108852
+          296440.23413643416,
+          4499150.443900342
         ],
         [
-          296440.2047312551,
-          4499165.259549463
+          296445.4647779214,
+          4499151.708666973
         ],
         [
-          296443.1137493845,
-          4499168.744321123
+          296450.194352696,
+          4499154.2059339695
         ],
         [
-          296444.87679900025,
-          4499172.623681386
+          296453.8513032514,
+          4499157.645889294
         ],
         [
-          296445.4641474934,
-          4499177.121507389
+          296456.5033589574,
+          4499162.285861011
         ],
         [
-          296445.05419051764,
-          4499180.8945363145
+          296457.7441435952,
+          4499166.581880736
         ],
         [
-          296443.6766606819,
-          4499183.718891028
+          296457.50592779514,
+          4499170.276620408
         ],
         [
-          296444.73658114334,
-          4499184.3153083455
+          296458.9280268542,
+          4499170.452629686
         ],
         [
-          296441.50365409034,
-          4499183.612559691
+          296455.08976187755,
+          4499171.132684808
         ],
         [
-          296438.91124119906,
-          4499186.321133745
+          296453.4755204064,
+          4499175.244628688
         ],
         [
-          296435.35755499714,
-          4499188.71978261
+          296450.6748519582,
+          4499179.448719344
         ],
         [
-          296421.31944070524,
-          4499193.553493
+          296437.53520527243,
+          4499190.996651365
         ],
         [
-          296418.50453531503,
-          4499193.134086699
+          296434.2793257934,
+          4499191.798575812
         ],
         [
-          296394.8211860334,
-          4499201.288917832
+          296412.1117585956,
+          4499211.280801264
         ]
       ],
       "geometryConfidence": "C",
@@ -1058,33 +1246,33 @@
       "height": 0.7,
       "name": "Cisterna projectada",
       "anchor": [
-        296418.4766665168,
-        4499180.592369262
+        296428.6391475349,
+        4499178.140409677
       ],
       "footprintUTM": [
         [
-          296419.10157626687,
-          4499175.944178495
+          296427.2412118914,
+          4499172.794305905
         ],
         [
-          296414.8041943408,
-          4499177.423885756
+          296423.2188710692,
+          4499176.329387136
         ],
         [
-          296413.95593241724,
-          4499182.095573001
+          296424.3838597706,
+          4499181.801005847
         ],
         [
-          296419.83166875615,
-          4499185.199739792
+          296432.17695390596,
+          4499182.556421493
         ],
         [
-          296421.866846264,
-          4499184.2853326015
+          296433.98631691985,
+          4499180.649388855
         ],
         [
-          296421.2997810557,
-          4499178.605505927
+          296430.8276716527,
+          4499174.711948828
         ]
       ],
       "geometryConfidence": "C",
@@ -1114,25 +1302,25 @@
       "height": 4,
       "name": "Magatzem de pólvora projectat",
       "anchor": [
-        296407.6387413559,
-        4499179.570690014
+        296416.3686829685,
+        4499181.8744757725
       ],
       "footprintUTM": [
         [
-          296410.94020245003,
-          4499174.267937932
+          296417.59544277855,
+          4499174.617693746
         ],
         [
-          296401.772454341,
-          4499177.424646758
+          296409.0144490246,
+          4499182.159200372
         ],
         [
-          296404.3372802618,
-          4499184.873442097
+          296415.14192315843,
+          4499189.131257798
         ],
         [
-          296413.5050283708,
-          4499181.716733271
+          296423.7229169124,
+          4499181.589751172
         ]
       ],
       "geometryConfidence": "C",
@@ -1162,25 +1350,25 @@
       "height": 3,
       "name": "Cos de guàrdia projectat",
       "anchor": [
-        296401.0478475152,
-        4499181.679887227
+        296410.1279503426,
+        4499187.121576952
       ],
       "footprintUTM": [
         [
-          296401.5485772051,
-          4499177.394914149
+          296408.7571209607,
+          4499182.226929743
         ],
         [
-          296398.0151742881,
-          4499178.611562342
+          296405.44986295135,
+          4499185.133552088
         ],
         [
-          296400.54711782536,
-          4499185.964860304
+          296411.4987797245,
+          4499192.016224162
         ],
         [
-          296404.08052074234,
-          4499184.748212111
+          296414.80603773386,
+          4499189.109601816
         ]
       ],
       "geometryConfidence": "C",
@@ -1210,25 +1398,25 @@
       "height": 3,
       "name": "Quarto de l’oficial projectat",
       "anchor": [
-        296398.42885178974,
-        4499184.931712927
+        296408.7277249716,
+        4499191.837562311
       ],
       "footprintUTM": [
         [
-          296399.3336194068,
-          4499182.7508319
+          296408.7384441094,
+          4499189.055679567
         ],
         [
-          296396.3732007466,
-          4499183.770185791
+          296405.9674982097,
+          4499191.490957749
         ],
         [
-          296397.5240841726,
-          4499187.112593955
+          296408.71700583387,
+          4499194.619445056
         ],
         [
-          296400.4845028328,
-          4499186.093240065
+          296411.4879517336,
+          4499192.184166874
         ]
       ],
       "geometryConfidence": "C",
@@ -1258,25 +1446,25 @@
       "height": 3,
       "name": "Allotjament del governador projectat",
       "anchor": [
-        296392.8992630475,
-        4499184.539079713
+        296402.5247814609,
+        4499193.882923967
       ],
       "footprintUTM": [
         [
-          296394.86376087565,
-          4499179.696681001
+          296402.50014634844,
+          4499187.725944991
         ],
         [
-          296388.3699392984,
-          4499181.932683086
+          296396.4219424394,
+          4499193.067845518
         ],
         [
-          296390.9347652193,
-          4499189.381478424
+          296402.54941657325,
+          4499200.039902943
         ],
         [
-          296397.4285867965,
-          4499187.145476339
+          296408.6276204823,
+          4499194.698002417
         ]
       ],
       "geometryConfidence": "C",
@@ -1306,25 +1494,25 @@
       "height": 10.7,
       "name": "Porció de torre que es proposa reedificar",
       "anchor": [
-        296390.73539396224,
-        4499193.455865784
+        296404.154537325,
+        4499204.570214039
       ],
       "footprintUTM": [
         [
-          296391.15549258044,
-          4499189.0918365205
+          296402.6604579066,
+          4499199.625460158
         ],
         [
-          296387.7175870396,
-          4499190.27560233
+          296399.44258524885,
+          4499202.453525143
         ],
         [
-          296390.315295344,
-          4499197.819895046
+          296405.64861674345,
+          4499209.514967919
         ],
         [
-          296393.75320088485,
-          4499196.636129236
+          296408.8664894012,
+          4499206.686902935
         ]
       ],
       "geometryConfidence": "C",
@@ -1365,72 +1553,77 @@
       "width": 1.4,
       "points": [
         [
-          296404,
-          4499190
+          296423.934,
+          4499247.626
         ],
         [
-          296410,
-          4499193
+          296420.169,
+          4499240.638
         ],
         [
-          296411,
-          4499195
+          296417.4,
+          4499233.882
         ],
         [
-          296408,
-          4499198
+          296415.975,
+          4499227.213
         ],
         [
-          296404,
-          4499199
+          296415.693,
+          4499221.124
         ],
         [
-          296399,
-          4499200
+          296417.383,
+          4499215.837
         ],
         [
-          296395,
-          4499203
+          296421.804,
+          4499210.051
         ],
         [
-          296392,
-          4499207
+          296426.192,
+          4499204.768
         ],
         [
-          296389,
-          4499212
+          296432.058,
+          4499200.087
         ],
         [
-          296388,
-          4499217
+          296438.6,
+          4499196.715
         ]
       ],
       "figs": [
         [
-          296402,
-          4499191
+          296417.189,
+          4499242.055
         ],
         [
-          296405,
-          4499194
+          296420.55,
+          4499232.898
         ],
         [
-          296403,
-          4499197
+          296412.704,
+          4499227.651
         ],
         [
-          296397,
-          4499200
+          296418.968,
+          4499221.529
         ],
         [
-          296391,
-          4499207
+          296414.494,
+          4499214.242
         ],
         [
-          296386,
-          4499216
+          296424.386,
+          4499212.106
+        ],
+        [
+          296433.855,
+          4499202.855
         ]
-      ]
+      ],
+      "note": "Senda de PR01 sobre l’eix del camí arbrat de 1748; pou al mig i figueres a banda i banda. Revisió 08/11/2026."
     },
     "garden": {
       "id": "pilar-garden",
@@ -1446,8 +1639,8 @@
           4499223.865120187
         ],
         [
-          296437.06114548794,
-          4499200.543593219
+          296445,
+          4499205
         ]
       ],
       "noria": [
@@ -1798,7 +1991,7 @@
       },
       "pou-figueretes": {
         "description": [
-          "PR01 · Pou a mitja baixada i camí vorejat de figueres. Les dues fotos documenten el brocal traslladat, no la ubicació antiga. El punt G de 1748 es conserva, amb suport de visualització C."
+          "PR01 · Pou a mitja baixada, al mig del camí vorejat de figueres (fotografies PR01-06/07, brocal traslladat el 1971). El camí segueix el traç arbrat del plànol de 1748 i passa pel punt G."
         ],
         "images": [
           6,
@@ -2300,8 +2493,8 @@
     "breakwaters": [
       [
         [
-          296544.7505476365,
-          4499259.733168863
+          296568.0570655352,
+          4499264.487138092
         ],
         [
           296626.2279773573,
@@ -2373,5 +2566,99 @@
       "tower"
     ],
     "historicalCoordinates": null
+  },
+  "coastRevision": {
+    "date": "2026-11-08",
+    "source": "N112 il·l.4 · llegenda «Línia de costa estimada»; N112 il·l.3 zona C; carta dels Alfacs de 1813 (IGN T0009734); PR01 «platja al nord»",
+    "reason": "La costa anterior seguia el mur de contenció 24 i deixava el braç 19 dins del mar, amb aigua entre el canal i la població.",
+    "previousShoreReplacedNorthOf": 4499120,
+    "previousNortheastBay": "Traça C anterior (296967,4500000)–(298800,4501500): retirada; deixava mar entre el canal i el delta.",
+    "dossier": "docs/CANAL/README.md",
+    "geometryConfidence": "C"
+  },
+  "canalWorks": {
+    "source": "N112 il·l.3 zona C («Dàrsena del canal i enclusa»), georeferenciada a docs/CANAL/data/georef-N112-il3.json; N112 art.20–21 p.233 (relació del 20/5/1794)",
+    "geometryConfidence": "C",
+    "historicalCoordinates": null,
+    "darsenaPetita": {
+      "id": "darsena-petita",
+      "name": "Dàrsena petita del canal",
+      "fromYear": 1790,
+      "polygonUTM": [
+        [
+          296646.98,
+          4499546.361
+        ],
+        [
+          296666.477,
+          4499574.215
+        ],
+        [
+          296683.272,
+          4499562.46
+        ],
+        [
+          296663.775,
+          4499534.605
+        ]
+      ],
+      "length": 34,
+      "width": 20,
+      "copingHeight": 0.55,
+      "state": "Acabada el 1794: maçoneria, carreus, pilotatge i puçolana sota l’aigua, coronada de canteria.",
+      "limits": "Eixamplament lateral del canal a la zona C. Mides, forma rectangular i costat obert al canal són C; l’any d’inici és una cota de visualització anterior al testimoni de 1794."
+    },
+    "enclusa": {
+      "id": "enclusa-gran",
+      "name": "Enclusa gran · començada",
+      "fromYear": 1792,
+      "axisUTM": [
+        [
+          296676.8,
+          4499546.239
+        ],
+        [
+          296707.932,
+          4499524.448
+        ]
+      ],
+      "length": 38,
+      "width": 8.4,
+      "wallThickness": 2.2,
+      "floorElevation": 0.75,
+      "wallHeights": [
+        2.6,
+        2.1,
+        1.5,
+        0.9,
+        0.5
+      ],
+      "plugMeters": 4,
+      "state": "Començada i sense concloure el 1794; la major part de la pedra ja tallada. Sense portes ni connexió oberta amb el mar.",
+      "limits": "Cambra seca, murs a diferents alçàries i aplecs de carreus representen l’estat «començada». Llargada, amplada, orientació i alçàries són C; no es copien portes ni mecanismes del XIX."
+    },
+    "stonePiles": [
+      [
+        296673.688,
+        4499531.329
+      ],
+      [
+        296684.666,
+        4499526.086
+      ],
+      [
+        296692.776,
+        4499516.747
+      ],
+      [
+        296693.021,
+        4499551.974
+      ],
+      [
+        296705.556,
+        4499541.98
+      ]
+    ],
+    "arm19": "Del costat de ponent de la dàrsena petita surt el braç 19 cap a la dàrsena gran, pel costat oriental de la població (N112 il·l.4)."
   }
 }

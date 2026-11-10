@@ -33,15 +33,19 @@
       "width": 10,
       "townPoints": [
         [
-          0,
+          -8,
           -116
         ],
         [
-          0,
-          80
+          -6.9,
+          -100
         ],
         [
-          0,
+          -5,
+          10
+        ],
+        [
+          -2.5,
           165
         ]
       ],
@@ -195,29 +199,94 @@
     },
     {
       "id": "rampa-roquer",
-      "name": "Baixada del Pou de les Figueretes",
+      "name": "Rampa llarga del Pou de les Figueretes",
       "kind": "ramp",
-      "fromYear": 1794,
-      "width": 4,
-      "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+      "fromYear": 1778,
+      "width": 3.6,
+      "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
       "utmPoints": [
         [
-          296404.0215530871,
-          4499229.504624519
+          296423.934,
+          4499247.626
         ],
         [
-          296416.48432533804,
-          4499204.3432869585
+          296420.169,
+          4499240.638
         ],
         [
-          296435.751004384,
-          4499174.762531754
+          296417.4,
+          4499233.882
         ],
         [
-          296465.26106629637,
-          4499140.702322624
+          296415.975,
+          4499227.213
+        ],
+        [
+          296415.693,
+          4499221.124
+        ],
+        [
+          296417.383,
+          4499215.837
+        ],
+        [
+          296421.804,
+          4499210.051
+        ],
+        [
+          296426.19154989166,
+          4499204.768389186
+        ],
+        [
+          296432.058,
+          4499200.087
+        ],
+        [
+          296438.6,
+          4499196.715
+        ],
+        [
+          296444.139,
+          4499195.807
+        ],
+        [
+          296448.785,
+          4499195.685
+        ],
+        [
+          296452.016,
+          4499193.954
+        ],
+        [
+          296456,
+          4499182
+        ],
+        [
+          296465,
+          4499173
+        ],
+        [
+          296472,
+          4499164
+        ],
+        [
+          296474,
+          4499156
+        ],
+        [
+          296470,
+          4499143
+        ],
+        [
+          296464.50086275785,
+          4499136.308361412
         ]
-      ]
+      ],
+      "positionSource": {
+        "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+        "precisionMeters": 15
+      },
+      "wellOnAxis": "well"
     }
   ],
   "ravine": {
@@ -433,9 +502,10 @@
       "height": 4,
       "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
       "townAnchor": [
-        99,
-        84
-      ]
+        100,
+        78
+      ],
+      "actualMap20261108": "Abans [99, 84], damunt del carrer del Pilar."
     },
     {
       "id": "pati-mancana",
@@ -443,8 +513,8 @@
       "kind": "workyard",
       "fromYear": 1794,
       "townAnchor": [
-        -60,
-        105
+        -63.5,
+        105.5
       ],
       "width": 42,
       "depth": 15,
@@ -499,13 +569,23 @@
       "kind": "shed",
       "fromYear": 1786,
       "utmAnchor": [
-        296360.6,
-        4499211.3
+        296380.971,
+        4499268.199
       ],
       "width": 22,
       "depth": 10,
       "height": 4.2,
-      "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona."
+      "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. Revisió 08/11/2026: es pren la hipòtesi de N112 p.215 n.79 (entre Casa Laureano i les cases rodones); l’anterior posició darrere del semicercle es conserva a previousUtmAnchor.",
+      "previousUtmAnchor": [
+        296360.6,
+        4499211.3
+      ],
+      "alongAzimuthDegrees": 109,
+      "positionSource": {
+        "text": "Hipòtesi de N112 p.215 nota 79: una part del cobert entre l’actual Casa Laureano i les cases rodones, amb arcs que després formarien part dels porxos de la plaça. Façana de cinc arcs a la línia oriental de la plaça (+23 m), simètrica a les quatre cases porxades de ponent; entre la plaça coberta i la font oriental. Posició C.",
+        "precisionMeters": 20
+      },
+      "actualMap20261108": "Entre la plaça coberta i la font de llevant, amb la façana a la línia actual (18,5 m)."
     },
     {
       "id": "forn-moli-guix",
@@ -514,8 +594,8 @@
       "chimney": true,
       "fromYear": 1782,
       "utmAnchor": [
-        296496.5276864458,
-        4499268.913076241
+        296470.2320904713,
+        4499292.46029721
       ],
       "width": 8,
       "depth": 6,
@@ -536,7 +616,8 @@
       "positionSource": {
         "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
         "precisionMeters": 15
-      }
+      },
+      "actualMap20261108": "Segueix la Fonda Vella; abans al mig del carrer de la Mare de Déu de Montserrat."
     },
     {
       "id": "barraques-obrers",
@@ -686,18 +767,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296385.8758960818,
-        4499200.283175075
+        296401.9114187451,
+        4499214.1856791
       ],
       "alongAzimuthDegrees": 0,
-      "width": 2.5721296063275076,
-      "depth": 3.2626596614718437,
+      "width": 2.120831032341812,
+      "depth": 3.770535606890917,
       "height": 5.2,
       "evidence": "Plànol de 1748, B: Hostal del recinte del convent. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "B",
       "planPixels": [
@@ -720,20 +801,20 @@
       ],
       "polygonUTM": [
         [
-          296386.1071112447,
-          4499198.6279709
+          296401.42308781197,
+          4499212.278064959
         ],
         [
-          296384.59805187455,
-          4499201.07033611
+          296400.8706425691,
+          4499215.615263223
         ],
         [
-          296385.6282397271,
-          4499201.890630562
+          296402.3604709979,
+          4499216.048600566
         ],
         [
-          296387.1701814809,
-          4499199.543762729
+          296402.99147360143,
+          4499212.800787654
         ]
       ]
     },
@@ -743,18 +824,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296375.7488379496,
-        4499230.047844276
+        296404.18627365655,
+        4499251.159292147
       ],
       "alongAzimuthDegrees": 0,
-      "width": 3.641499391756952,
-      "depth": 4.7906176801770926,
+      "width": 6.008148527587764,
+      "depth": 6.799027276225388,
       "height": 5.5,
       "evidence": "Plànol de 1748, C: Capella de les monges Santjoanistes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "C",
       "planPixels": [
@@ -777,22 +858,51 @@
       ],
       "polygonUTM": [
         [
-          296377.51386939554,
-          4499227.6508654235
+          296405.0380326414,
+          4499247.757071511
         ],
         [
-          296374.0007497635,
-          4499227.685512945
+          296401.22418507084,
+          4499249.366225544
         ],
         [
-          296373.9196166238,
-          4499232.413515632
+          296403.2505433156,
+          4499254.556098787
         ],
         [
-          296377.56111601554,
-          4499232.441483104
+          296407.2323335984,
+          4499252.957772743
         ]
-      ]
+      ],
+      "toYear": 1777,
+      "replacedBy": "esglesia-convent",
+      "replacementNote": "La capella C del plànol de 1748 és la mateixa capella del convent; des del 09/11/2026 es dibuixa a la posició de les restes conservades (9 m de diferència, dins la tolerància del redibuix)."
+    },
+    {
+      "id": "esglesia-convent",
+      "name": "Capella del convent de les monges",
+      "kind": "convent-chapel",
+      "fromYear": 1778,
+      "townAnchor": [
+        46.5,
+        -93.6
+      ],
+      "alongAzimuthDegrees": 109,
+      "width": 5.5,
+      "depth": 11,
+      "height": 5.2,
+      "remainsUTM": [
+        296398.9,
+        4499262.4
+      ],
+      "remains": "Mur del carrer amb porta d’arc escarser, brancal de carreus i petita espadanya (BCIL, Passatge del Convent).",
+      "evidence": "Restes conservades al Passatge / Carreró del Convent (BCIL; Pobles de Catalunya 18369; foto de castillosricsol): porta d’arc escarser i espadanya al mur del carrer. Capella C del plànol de 1748. N112 p.215: el tinglado era davant de la capella del convent. Informe de 1785: capella estreta, baixa, humida i amb enterraments a dins.",
+      "limits": "La façana segueix la línia del carrer al punt de les restes; mida de la nau, alçària, coberta i finestres C. No es reconstrueix el claustre ni la resta del monestir medieval.",
+      "positionSource": {
+        "text": "Coordenades de l’inventari (40,619122 N, 0,593016 E) i línia de façana actual del topogràfic ICGC 1:1.000. A 9 m de la capella C del plànol de 1748 registrat.",
+        "precisionMeters": 3
+      },
+      "geometryConfidence": "C"
     },
     {
       "id": "cuartel-caballeria-1748",
@@ -800,18 +910,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296384.99771919835,
-        4499222.163132763
+        296410.7409091658,
+        4499238.427912278
       ],
       "alongAzimuthDegrees": 0,
-      "width": 8.370886716293171,
-      "depth": 2.98914713319391,
+      "width": 10.252572016557679,
+      "depth": 7.002433092333376,
       "height": 3.8,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "partitions": 2,
       "planLetter": "D",
@@ -835,20 +945,20 @@
       ],
       "polygonUTM": [
         [
-          296389.1988163046,
-          4499220.636464257
+          296414.6372929538,
+          4499234.884710054
         ],
         [
-          296380.832464,
-          4499220.846738158
+          296405.6119161598,
+          4499238.856107758
         ],
         [
-          296380.8279295883,
-          4499223.62561139
+          296406.8499393733,
+          4499241.887143146
         ],
         [
-          296389.1316669005,
-          4499223.543717247
+          296415.86448817636,
+          4499238.083688154
         ]
       ]
     },
@@ -858,18 +968,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296386.4556634133,
-        4499229.111795604
+        296415.4381632474,
+        4499245.349917458
       ],
       "alongAzimuthDegrees": 0,
-      "width": 4.535623298375867,
-      "depth": 3.5900988606736064,
+      "width": 6.39541248237947,
+      "depth": 5.940419157966971,
       "height": 3.8,
       "evidence": "Plànol de 1748, E: Quarter d'infanteria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "partitions": 2,
       "planLetter": "E",
@@ -893,20 +1003,20 @@
       ],
       "polygonUTM": [
         [
-          296388.72170992475,
-          4499227.316746174
+          296417.10527281417,
+          4499242.379707879
         ],
         [
-          296384.1878517641,
-          4499227.489222779
+          296412.24045700626,
+          4499244.595664819
         ],
         [
-          296384.18961690186,
-          4499230.906845035
+          296413.7710536807,
+          4499248.320127037
         ],
         [
-          296388.72347506246,
-          4499230.73436843
+          296418.63586948864,
+          4499246.104170099
         ]
       ]
     },
@@ -916,51 +1026,51 @@
       "kind": "enclosure",
       "fromYear": 1778,
       "utmAnchor": [
-        296388.0509531866,
-        4499208.694031168
+        296408.044361301,
+        4499222.380735184
       ],
       "polygonUTM": [
         [
-          296386.91972151067,
-          4499200.057281767
+          296402.9481616378,
+          4499213.472558502
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296385.08083416836,
-          4499211.158790959
+          296405.9093593505,
+          4499226.395863077
         ],
         [
-          296385.61993190536,
-          4499220.480117026
+          296410.66633066186,
+          4499236.315093386
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296395.51171608904,
-          4499203.294362731
+          296413.7614631701,
+          4499213.157893647
         ],
         [
-          296393.4103933133,
-          4499197.50190517
+          296408.8800788164,
+          4499207.783944559
         ]
       ],
-      "width": 17.771961285208818,
-      "depth": 23.137708860449493,
+      "width": 17.593651957809925,
+      "depth": 28.53114882670343,
       "height": 2.3,
       "evidence": "Plànol de 1748, F: Corral del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1005,43 +1115,43 @@
       "kind": "enclosure",
       "fromYear": 1778,
       "utmAnchor": [
-        296381.17363326746,
-        4499218.735296634
+        296405.03936560964,
+        4499236.402007588
       ],
       "polygonUTM": [
         [
-          296385.01821917586,
-          4499211.287170719
+          296405.89853135956,
+          4499226.563805788
         ],
         [
-          296376.6847492547,
-          4499211.592941997
+          296396.9517119263,
+          4499230.624588844
         ],
         [
-          296377.28507734736,
-          4499223.884136046
+          296403.1038211726,
+          4499243.753625246
         ],
         [
-          296381.469828387,
-          4499223.938686352
+          296407.6896529348,
+          4499241.9412831
         ],
         [
-          296381.2802182717,
-          4499220.906203375
+          296406.1265722876,
+          4499238.720649019
         ],
         [
-          296385.30370716803,
-          4499220.802641313
+          296410.4659039769,
+          4499236.808093532
         ]
       ],
-      "width": 8.618957913306076,
-      "depth": 12.651515632867813,
+      "width": 13.514192050555721,
+      "depth": 17.189819457940757,
       "height": 2.3,
       "evidence": "Plànol de 1748, F: Corral petit del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1078,31 +1188,31 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296391.85707500804,
-        4499210.570265708
+        296413.0323058799,
+        4499222.723409587
       ],
       "lineUTM": [
         [
-          296395.4459513218,
-          4499203.103367979
+          296413.60434844875,
+          4499212.979122944
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ]
       ],
-      "width": 6.566509529133327,
-      "depth": 17.536246052011847,
+      "width": 3.0885898856213316,
+      "depth": 22.051873840391636,
       "height": 2.6,
       "evidence": "Plànol de 1748, F: Mur del recinte sobre el cantell. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1127,39 +1237,39 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296383.09813742776,
-        4499199.258128856
+        296398.42513222294,
+        4499214.310832916
       ],
       "lineUTM": [
         [
-          296388.935239369,
-          4499184.194887504
+          296398.049991032,
+          4499195.280823327
         ],
         [
-          296387.07883801556,
-          4499190.28190188
+          296398.74915841786,
+          4499202.746098604
         ],
         [
-          296386.8868391271,
-          4499199.961784391
+          296402.86960427713,
+          4499213.383173151
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296374.85001582315,
-          4499213.399707956
+          296395.759979807,
+          4499233.414647008
         ]
       ],
-      "width": 14.085223545844201,
-      "depth": 29.20482045225799,
+      "width": 7.109624470118433,
+      "depth": 38.133823681622744,
       "height": 2.6,
       "evidence": "Plànol de 1748, F: Mur diagonal del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1192,79 +1302,79 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296431.11004454753,
-        4499163.085723354
+        296434.57912020176,
+        4499153.407142959
       ],
       "lineUTM": [
         [
-          296454.6892151818,
-          4499163.5835520355
+          296460.5033906789,
+          4499143.403025016
         ],
         [
-          296453.81990897184,
-          4499156.405499952
+          296456.34515570465,
+          4499135.967689993
         ],
         [
-          296440.66470412473,
-          4499160.080642728
+          296443.6496743526,
+          4499145.857850873
         ],
         [
-          296440.0399388363,
-          4499158.2661925815
+          296442.1570844995,
+          4499144.159529192
         ],
         [
-          296437.84349918517,
-          4499159.022487405
+          296440.1012214126,
+          4499145.966348489
         ],
         [
-          296438.4024997064,
-          4499160.6459428
+          296441.43669654435,
+          4499147.485899466
         ],
         [
-          296430.34783772746,
-          4499163.312565645
+          296433.84976964886,
+          4499153.995332412
         ],
         [
-          296429.85460197343,
-          4499161.880105003
+          296432.67140923854,
+          4499152.654552138
         ],
         [
-          296427.6581623223,
-          4499162.636399826
+          296430.6155461517,
+          4499154.461371435
         ],
         [
-          296428.1513980763,
-          4499164.068860468
+          296431.79390656203,
+          4499155.802151709
         ],
         [
-          296420.2877308496,
-          4499166.669718548
+          296424.3857503698,
+          4499162.154469933
         ],
         [
-          296419.8273774792,
-          4499165.332755282
+          296423.28594732017,
+          4499160.903075011
         ],
         [
-          296417.4399430758,
-          4499166.154814871
+          296421.0513135301,
+          4499162.867009029
         ],
         [
-          296417.96606121346,
-          4499167.68277289
+          296422.30823130114,
+          4499164.297174654
         ],
         [
-          296409.65778948966,
-          4499170.543540264
+          296414.5317057116,
+          4499171.131665034
         ]
       ],
-      "width": 45.031425692141056,
-      "depth": 14.13804031163454,
+      "width": 45.97168496728409,
+      "depth": 35.16397504135966,
       "height": 3,
       "evidence": "Plànol de 1748, A–G: Muralla de la meseta amb tres baluards. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "towersUTM": [
         [
@@ -1343,7 +1453,10 @@
           290
         ]
       ],
-      "alongAzimuthDegrees": 0
+      "alongAzimuthDegrees": 0,
+      "toYear": 1779,
+      "replacedBy": "battery",
+      "replacementNote": "Amb el registre de 09/11/2026 la muralla de 1748 coincideix amb el flanc SW de la bateria; a partir del 1780 la representa la bateria."
     },
     {
       "id": "cuartel-caballeria-1748-2",
@@ -1371,35 +1484,35 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296379.3716897274,
-        4499225.756035239
+        296406.21553941595,
+        4499244.860695653
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296381.6013579214,
-          4499224.320675856
+          296408.0038823776,
+          4499242.298824507
         ],
         [
-          296377.13011475326,
-          4499224.364772702
+          296403.1498945605,
+          4499244.346838734
         ],
         [
-          296377.12558034173,
-          4499227.143645934
+          296404.38791777403,
+          4499247.377874122
         ],
         [
-          296381.6297058934,
-          4499227.195046465
+          296409.3204629518,
+          4499245.419245247
         ]
       ],
-      "width": 4.504125551669858,
-      "depth": 2.8743706084787846,
+      "width": 6.170568391273264,
+      "depth": 5.079049615189433,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
     },
     {
@@ -1428,35 +1541,35 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296386.46876458003,
-        4499225.58223478
+        296413.87370188814,
+        4499241.496791208
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296388.65732979454,
-          4499224.027503678
+          296415.56384814886,
+          4499238.823188374
         ],
         [
-          296384.21896901,
-          4499224.167097899
+          296410.78841769247,
+          4499240.960587951
         ],
         [
-          296384.2801993656,
-          4499227.136965883
+          296412.18355562736,
+          4499244.1703940425
         ],
         [
-          296388.71856015007,
-          4499226.9973716615
+          296416.95898608374,
+          4499242.032994465
         ]
       ],
-      "width": 4.499591140076518,
-      "depth": 3.1094622053205967,
+      "width": 6.170568391273264,
+      "depth": 5.34720566868782,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra occidental. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
     },
     {
@@ -1485,35 +1598,35 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296381.10377800616,
-        4499228.925023447
+        296409.5209984899,
+        4499247.540185133
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296383.4175732057,
-          4499227.113532824
+          296411.2328007325,
+          4499244.530696873
         ],
         [
-          296378.7553352853,
-          4499227.223394436
+          296406.20004221227,
+          4499246.735825822
         ],
         [
-          296378.78998280666,
-          4499230.736514068
+          296407.80919624737,
+          4499250.5496733915
         ],
         [
-          296383.452220727,
-          4499230.626652457
+          296412.84195476765,
+          4499248.344544444
         ]
       ],
-      "width": 4.696885441662744,
-      "depth": 3.6229812437668443,
+      "width": 6.641912555380259,
+      "depth": 6.018976518884301,
       "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
     },
     {
@@ -1542,35 +1655,35 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296382.41671101924,
-        4499232.505387608
+        296412.5535778697,
+        4499250.855564135
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296386.14189613215,
-          4499231.302818275
+          296416.07617826486,
+          4499247.878505422
         ],
         [
-          296378.60528760374,
-          4499231.44102786
+          296407.9229990051,
+          4499251.400214944
         ],
         [
-          296378.7228334025,
-          4499233.643767061
+          296409.03639147,
+          4499253.748651492
         ],
         [
-          296386.1968269384,
-          4499233.633937236
+          296417.17874273885,
+          4499250.394884682
         ]
       ],
-      "width": 7.591539334680419,
-      "depth": 2.3409487856552005,
+      "width": 9.255743733723648,
+      "depth": 5.8701460706070065,
       "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra meridional. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
     },
     {
@@ -1599,51 +1712,127 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296375.0581784273,
-        4499219.122999941
+        296398.54685832304,
+        4499239.559998784
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296377.7275362059,
-          4499213.690734496
+          296399.026687277,
+          4499232.44477985
         ],
         [
-          296372.9995335184,
-          4499213.609601357
+          296393.83681403537,
+          4499234.471138094
         ],
         [
-          296372.21426708816,
-          4499224.66877884
+          296397.9275373462,
+          4499246.877025115
         ],
         [
-          296377.29137689667,
-          4499224.52288507
+          296403.3963946335,
+          4499244.447052076
         ]
       ],
-      "width": 5.513269117742311,
-      "depth": 11.059177483431995,
+      "width": 9.55958059814293,
+      "depth": 14.432245265692472,
       "evidence": "Plànol de 1748, F: Corral oriental del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C."
     },
     {
       "id": "hort-monges",
       "name": "Horts de les Monges",
       "kind": "garden",
-      "fromYear": 1794,
+      "fromYear": 1781,
       "height": 1,
-      "evidence": "N112 il·l.4 i referència aportada per Josep. Recinte relacional C, sense parcel·lari històric mesurat.",
-      "townAnchor": [
-        113.78382610051722,
-        -130.84671912898796
+      "evidence": "N112: hort de les monges reduït després de les obres de la bateria i de la rampa llarga (1780–1781); la queixa de 1796 recorda els tres jornals originals. Recinte C entre els carrers actuals de la Mare de Déu de la Ràpita, de l’Arsenal i del Pou de les Figueretes.",
+      "width": 92.49,
+      "depth": 61.32,
+      "layoutSource": "Mapa topogràfic ICGC 1:1.000 (vores conservades al parcel·lari) i N112; revisió 08/11/2026",
+      "utmAnchor": [
+        296450.922,
+        4499206.283
       ],
-      "width": 74.32383192694475,
-      "depth": 46.76004924711047,
-      "townPolygon": [
+      "polygonUTM": [
+        [
+          296425,
+          4499240
+        ],
+        [
+          296457,
+          4499237.5
+        ],
+        [
+          296463,
+          4499228
+        ],
+        [
+          296466,
+          4499208
+        ],
+        [
+          296505,
+          4499204
+        ],
+        [
+          296498,
+          4499170
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
+        ]
+      ],
+      "areaM2": 2942,
+      "previousTownPolygon": [
         [
           80.56956709311035,
           -109.38365659578608
@@ -1669,7 +1858,105 @@
           -127.84722083883587
         ]
       ],
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      "previousTownAnchor": [
+        113.78382610051722,
+        -130.84671912898796
+      ],
+      "revisedPolygon20261108": true,
+      "geometryConfidence": "C"
+    },
+    {
+      "id": "hort-monges-1778",
+      "name": "Horts de les Monges · tres jornals (abans de 1781)",
+      "kind": "garden",
+      "fromYear": 1778,
+      "toYear": 1780,
+      "height": 1,
+      "utmAnchor": [
+        296455.7,
+        4499210.144
+      ],
+      "width": 106.21,
+      "depth": 87.98,
+      "polygonUTM": [
+        [
+          296424,
+          4499244
+        ],
+        [
+          296456,
+          4499243
+        ],
+        [
+          296468,
+          4499244
+        ],
+        [
+          296520,
+          4499244
+        ],
+        [
+          296526,
+          4499214
+        ],
+        [
+          296506,
+          4499168
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
+        ]
+      ],
+      "areaM2": 5936,
+      "revisedPolygon20261108": true,
+      "evidence": "Queixa de 1796 (N112): l’hort tenia tres jornals abans de les obres. 3 jornals de Tortosa = 6.570 m²; el polígon C en fa uns 5.900 i arriba fins al roquer de la costa («raconada del roquer… on batia la mar»).",
+      "layoutSource": "Mapa topogràfic ICGC 1:1.000 i N112; revisió 08/11/2026",
+      "geometryConfidence": "C"
     },
     {
       "id": "paredo-poblacio",
@@ -1677,11 +1964,11 @@
       "kind": "retaining-wall",
       "fromYear": 1794,
       "utmAnchor": [
-        296473.1647641013,
-        4499315.79073124
+        296484.5122900319,
+        4499410.611139806
       ],
-      "width": 104.73216920904815,
-      "depth": 333.3696726830676,
+      "width": 82.03711734793615,
+      "depth": 143.72885554935783,
       "height": 3,
       "thickness": 1.3,
       "baseWidth": 1.8,
@@ -1727,36 +2014,6 @@
             296502.26305305475,
             4499338.746712032
           ]
-        ],
-        [
-          [
-            296429.9226871089,
-            4499235.073435558
-          ],
-          [
-            296421.03882460936,
-            4499218.886014914
-          ],
-          [
-            296420.7986794968,
-            4499205.128110629
-          ],
-          [
-            296426.5926265786,
-            4499192.125011874
-          ],
-          [
-            296442.68999280484,
-            4499178.081935269
-          ],
-          [
-            296459.6622371185,
-            4499164.88371861
-          ],
-          [
-            296476.5894542236,
-            4499149.105894898
-          ]
         ]
       ],
       "referencePixels": [
@@ -1801,7 +2058,44 @@
             333,
             285
           ]
-        ],
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "evidence": "N112 il·l.4, núm.24; art.24 p.233 i p.222: mur de maçoneria i terraplens per sostenir la població. Dos trams traçats sobre el croquis; secció i cotes d’assaig C.",
+      "limits": "No és una muralla defensiva. Traça relacional C; gruix, perfil i cotes històriques desconeguts. El coronament segueix la cota del terreny interior.",
+      "retiredLinesUTM": [
+        [
+          [
+            296429.9226871089,
+            4499235.073435558
+          ],
+          [
+            296421.03882460936,
+            4499218.886014914
+          ],
+          [
+            296420.7986794968,
+            4499205.128110629
+          ],
+          [
+            296426.5926265786,
+            4499192.125011874
+          ],
+          [
+            296442.68999280484,
+            4499178.081935269
+          ],
+          [
+            296459.6622371185,
+            4499164.88371861
+          ],
+          [
+            296476.5894542236,
+            4499149.105894898
+          ]
+        ]
+      ],
+      "retiredReferencePixels": [
         [
           [
             251,
@@ -1833,9 +2127,161 @@
           ]
         ]
       ],
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
-      "evidence": "N112 il·l.4, núm.24; art.24 p.233 i p.222: mur de maçoneria i terraplens per sostenir la població. Dos trams traçats sobre el croquis; secció i cotes d’assaig C.",
-      "limits": "No és una muralla defensiva. Traça relacional C; gruix, perfil i cotes històriques desconeguts. El coronament segueix la cota del terreny interior."
+      "retiredNote": "Tram dels Horts de les Monges retirat el 09/11/2026: travessava la rampa i els horts, a 50–70 m de l’escarpament del MDT. El sosteniment d’aquest tram és el mur de la rampa llarga (mur-rampa-figueretes)."
+    },
+    {
+      "id": "casa-bous",
+      "name": "Casa dels Bous de l’Horta Vella",
+      "kind": "farmhouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        297160,
+        4500330
+      ],
+      "width": 12,
+      "depth": 7.5,
+      "height": 5.6,
+      "alongAzimuthDegrees": 10,
+      "positionSource": {
+        "text": "Topònim «Horta Vella» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL), entre la població i el camí del Pas, a l’est del canal. Posició indicativa de partida: no s’han recuperat les afrontacions del procés de 1796.",
+        "precisionMeters": 300
+      },
+      "evidence": "N112 p.203 i nota 45: masia amb corrals annexos, arrendada per les monges, anterior a les obres, a l’Horta Vella dins de l’heretat de les Santjoanistes, entre el poble i el camí del Pas. Planta, alçat i corral són C; emplaçament per topònim de partida.",
+      "flag": true
+    },
+    {
+      "id": "rajolar-rabosa",
+      "name": "Rajolar de la Rabosa",
+      "kind": "brickworks",
+      "fromYear": 1786,
+      "utmAnchor": [
+        297700,
+        4500300
+      ],
+      "width": 26,
+      "depth": 18,
+      "height": 3.6,
+      "alongAzimuthDegrees": 5,
+      "positionSource": {
+        "text": "Partida de «la Rabosa» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL). Punt indicatiu dins la partida, sobre terra baixa d’argila; no és un solar documentat.",
+        "precisionMeters": 350
+      },
+      "evidence": "N112 p.223 nota 94: reclamació de 1796 d’una teuleria anomenada «lo Rajolà», amb dos forns i una casa, feta uns deu anys abans (cap al 1786), a la partida de la Rabosa en terres de les Santjoanistes. Dos forns de tipus mediterrani, casa i era d’assecat són C.",
+      "flag": true
+    },
+    {
+      "id": "pedrera-guardiola",
+      "name": "Pedrera de la Guardiola i caseta",
+      "kind": "quarry",
+      "fromYear": 1780,
+      "utmAnchor": [
+        295880,
+        4499662
+      ],
+      "width": 30,
+      "depth": 18,
+      "height": 2.6,
+      "alongAzimuthDegrees": -75,
+      "positionSource": {
+        "text": "Peu del front oriental de la Guardiola, on el MDT actual mostra un tall i una plataforma a uns 40 m. Aquest front pot incloure extraccions posteriors; el punt de la caseta és indicatiu.",
+        "precisionMeters": 80
+      },
+      "evidence": "N112 p.223–224: pedrera de la Guardiola i camí per transportar la pedra travessant la devesa (actual Constància) fins al Cóc i les rampes; caseta al peu de la pedrera esmentada entre obres no incloses a l’inventari. Fronts, caseta i aplecs de pedra són C.",
+      "flag": true
+    },
+    {
+      "id": "mur-rampa-figueretes",
+      "name": "Mur de contenció de la rampa llarga",
+      "kind": "retaining-wall",
+      "fromYear": 1786,
+      "utmAnchor": [
+        296442.461,
+        4499196.4035
+      ],
+      "width": 58.29999999998836,
+      "depth": 104.72100000083447,
+      "height": 2.6,
+      "thickness": 1,
+      "baseWidth": 1.4,
+      "retainingLinesUTM": [
+        [
+          [
+            296421.821,
+            4499248.764
+          ],
+          [
+            296418.001,
+            4499241.668
+          ],
+          [
+            296415.109,
+            4499234.598
+          ],
+          [
+            296413.596,
+            4499227.531
+          ],
+          [
+            296413.311,
+            4499220.829
+          ],
+          [
+            296415.282,
+            4499214.677
+          ],
+          [
+            296419.926,
+            4499208.557
+          ],
+          [
+            296424.519,
+            4499203.047
+          ],
+          [
+            296430.751,
+            4499198.074
+          ],
+          [
+            296437.799,
+            4499194.453
+          ],
+          [
+            296443.898,
+            4499193.419
+          ],
+          [
+            296448.235,
+            4499193.349
+          ],
+          [
+            296449.893,
+            4499192.835
+          ],
+          [
+            296453.96,
+            4499180.736
+          ],
+          [
+            296463.206,
+            4499171.406
+          ],
+          [
+            296469.879,
+            4499162.877
+          ],
+          [
+            296471.611,
+            4499156.228
+          ],
+          [
+            296467.838,
+            4499144.043
+          ]
+        ]
+      ],
+      "evidence": "N112 art.23 p.221 i p.233: la rampa es reforçà amb un mur de contenció en tota la llargada, que també protegia els vianants (uns 6 m de desnivell al punt més alt). Traça paral·lela a l’eix C; alçària adaptada al terreny actual.",
+      "layoutSource": "Plànol de 1748 (redibuix) i N112 art.23",
+      "geometryConfidence": "C"
     }
   ],
   "privateLedger": {
@@ -1915,7 +2361,17 @@
       "evidence": "N112 il·l.3, zona D; p.223 i art.30 p.234: molí de dues moles al final del canal vell, a la platja del Molinet. El 1794 manca el cos d’edifici per circuir-lo i cobrir-lo. Solar individual no georeferenciat; model d’estudi conservat sense emplaçament al mapa.",
       "placementStatus": "unlocated",
       "historicalCoordinates": null,
-      "reason": "N112 il·l.3, zona D, i p.223; art.30 p.234: el molí és a l’extrem del canal vell, a la platja del Molinet. La posició anterior al costat del braç nou era invàlida. No s’assigna un nou solar sense georeferenciar el testimoni."
+      "reason": "N112 il·l.3, zona D, i p.223; art.30 p.234: el molí és a l’extrem del canal vell, a la platja del Molinet. La posició anterior al costat del braç nou era invàlida. No s’assigna un nou solar sense georeferenciar el testimoni.",
+      "estimatedPosition": {
+        "utm": [
+          298788,
+          4499661
+        ],
+        "precisionMeters": 80,
+        "source": "N112 il·l.3 zona D (extrem sud, vora la Bassa de Rabassa), georeferenciada a docs/CANAL/data/georef-N112-il3.json",
+        "outsideModelledTerrain": true,
+        "note": "El terreny del visor acaba a E 298.350; el molí queda uns 440 m més a llevant i no es pot emplaçar en 3D."
+      }
     }
   ]
 }

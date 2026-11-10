@@ -18,8 +18,8 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| manzana-shared | — | 296366.808 | 4499483.542 | Model d’assaig |
-| pati-mancana | — | 296366.808 | 4499483.542 | Model d’assaig |
+| manzana-shared | — | 296363.662 | 4499485.154 | Model d’assaig |
+| pati-mancana | — | 296363.662 | 4499485.154 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

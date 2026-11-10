@@ -4,6 +4,8 @@ import {casotesDescription} from './casotes.ts';
 import {faroDescription} from './faro.ts';
 import {clipCaveVoids} from './cave-cut';
 import * as THREE from 'three';
+import {makeVisualStyle} from './visual-style';
+import {makeVegetation} from './visual-vegetation';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { toWorld, sampleHeight, terrainIndices } from './geo.mjs';
 import { cutCoarsePatch, stitchedPatchIndices } from './lod.mjs';
@@ -183,7 +185,8 @@ async function start() {
   renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.shadowMap.autoUpdate=false;
   host.append(renderer.domElement);
   const scene=new THREE.Scene();
-  scene.add(new THREE.HemisphereLight('#fff8dd','#8b9b7b',2.3));
+  const hemisphere=new THREE.HemisphereLight('#fff8dd','#8b9b7b',2.3);scene.add(hemisphere);
+  let visual:ReturnType<typeof makeVisualStyle>|undefined;
   const sun=new THREE.DirectionalLight('#fff6de',2.6); sun.position.set(-900,1600,800); scene.add(sun);
   sun.castShadow=true;sun.target.position.set(0,0,-40);scene.add(sun.target);sun.shadow.mapSize.set(2048,2048);
   Object.assign(sun.shadow.camera,{left:-380,right:380,top:380,bottom:-380,near:100,far:4000});sun.shadow.bias=-.00015;sun.shadow.normalBias=.06;
@@ -195,6 +198,7 @@ async function start() {
   controls.maxPolarAngle=Math.PI*.485;
   controls.screenSpacePanning=false;
   controls.target.set(-250,20,120); camera.position.set(750,850,1250); controls.update();
+  if(import.meta.env.DEV)(window as any).__rapita={camera,controls,origin:meta.origin,scene};
   const coarseIndices=cutCoarsePatch(meta,cutCoarsePatch(meta,terrainIndices(meta.width,meta.height,valid),detailMeta),townMeta);
   const fineIndices=stitchedPatchIndices(detailMeta.width,detailMeta.height,fineValid,meta.step/detailMeta.step);
   const coarse=makeTerrain(meta,heights,valid,10,coarseIndices),fine=makeTerrain(detailMeta,fineHeights,fineValid,2,fineIndices);
@@ -269,6 +273,36 @@ async function start() {
     el<HTMLAnchorElement>('planreverte-original').href=`${import.meta.env.BASE_URL}data/${data.image}`;
     refreshRevertePlan();
   }catch(error){console.warn('Croquis de Pilar Reverté no disponible',error);el<HTMLInputElement>('planreverte-toggle').disabled=true;el('planreverte-status').textContent='No s’ha pogut carregar el croquis. Recarrega la pàgina per tornar-ho a provar.';}
+  let refreshIcgcPlan=()=>{};
+  try{
+    // Mapa actual de l'ICGC (topogràfic o ortofoto 2024) projectat sobre el mateix terreny, per comparar emplaçaments.
+    const layers=await get<{variants:(PlanData&{id:string;title:string;source:string})[]}>('plan-icgc-actual.json');
+    const input=(key:string)=>el<HTMLInputElement>(`planicgc-${key}`),select=el<HTMLSelectElement>('planicgc-variant');
+    for(const v of layers.variants){const o=document.createElement('option');o.value=v.id;o.textContent=v.title;select.append(o);}
+    let interpreted=true,withUrban=true,projectionData=activeLittoral,lastProjection='';
+    const sample=(e:number,n:number)=>{const raw=sampleHeight(townMeta,townHeights,townValid,e,n)??sampleHeight(detailMeta,fineHeights,fineValid,e,n)??sampleHeight(meta,heights,valid,e,n)??sampleHeight(regionMeta,regionHeights,regionValid,e,n);if(raw===null||!interpreted)return raw;const h=landscapeSample(e,n,raw,projectionData).height;return Math.max(littoralData.studyWaterElevation,withUrban?urbanGround(e,n,h,fabricData):h);};
+    const plans=new Map<string,ReturnType<typeof makeProjectedPlan>>(),loading=new Map<string,Promise<ReturnType<typeof makeProjectedPlan>>>();
+    // Una sola càrrega per variant: dues crides seguides (casella + enfocament) creaven dues malles i la primera no s'amagava mai.
+    const planFor=(id:string)=>{let pending=loading.get(id);if(!pending){pending=(async()=>{const data=layers.variants.find(v=>v.id===id)!;const texture=await new THREE.TextureLoader().loadAsync(`${import.meta.env.BASE_URL}data/${data.image}`);texture.colorSpace=THREE.SRGBColorSpace;texture.anisotropy=8;const plan=makeProjectedPlan(data,texture,meta.origin,sample);scene.add(plan.mesh);plans.set(id,plan);return plan;})();loading.set(id,pending);}return pending;};
+    refreshIcgcPlan=async()=>{
+      const on=input('toggle').checked,id=select.value,data=layers.variants.find(v=>v.id===id)!;
+      el('planicgc-controls').hidden=!on;el('planicgc-opacity-value').textContent=input('opacity').value+' %';
+      for(const[key,p]of plans)p.mesh.visible=on&&key===id;
+      el<HTMLAnchorElement>('planicgc-original').href=`${import.meta.env.BASE_URL}data/${data.image}`;
+      el('planicgc-status').textContent=on?`${data.title}. Registre exacte per la petició WMS (EPSG:25831). Mapa contemporani: compara alineacions, no és un testimoni de 1800.`:'';
+      if(!on)return;
+      const plan=await planFor(id);plan.mesh.visible=input('toggle').checked&&select.value===id;plan.setOpacity(Number(input('opacity').value)/100);plan.setPaperVisible(input('paper').checked);
+      const above=input('above').checked,m=plan.mesh.material as THREE.MeshBasicMaterial;m.depthTest=!above;plan.mesh.renderOrder=above?20:9;
+      const canal=chronologyAt(chronologyData,sceneYear).showCanal;interpreted=el<HTMLInputElement>('landscape-toggle').checked;withUrban=canal&&el<HTMLInputElement>('urban-toggle').checked;
+      projectionData=canal?activeLittoral:{...activeLittoral,basins:[],canal:{...activeLittoral.canal,routeStudy:[[0,0],[0,1]],branchStudy:[[0,0],[0,1]]}};
+      const g=data.georeference,key=JSON.stringify([id,sceneYear,interpreted,withUrban]);
+      if(key!==lastProjection){plan.update({rotation:g.rotationDegrees,scale:g.metersPerPixel,dE:0,dN:0});lastProjection=key;}
+    };
+    const focus=()=>{urbanFocus=null;mountainFocus=false;landmarkFocus=null;littoralFocus=null;selectedLittoral=null;laboratory=false;housingFocus=false;centerFocus=true;selectedCenter=null;updateVisibility();const target=new THREE.Vector3(...toWorld(296400,4499320,6,meta.origin));move(target.clone().add(new THREE.Vector3(0,420,.01)),target);setView('top');};
+    for(const key of['opacity','paper','above'])input(key).oninput=()=>{void refreshIcgcPlan();};
+    select.onchange=()=>{lastProjection='';void refreshIcgcPlan();};
+    input('toggle').oninput=()=>{void refreshIcgcPlan();if(input('toggle').checked)focus();};el('planicgc-focus').onclick=focus;
+  }catch(error){console.warn('Mapa actual ICGC no disponible',error);el<HTMLInputElement>('planicgc-toggle').disabled=true;el('planicgc-status').textContent='No s’ha pogut carregar el mapa actual.';}
   let refreshPort1945Plan=()=>{};
   try{
     const data=await get<PlanData&{georeference:PlanData['georeference']&{registrationRMSEMeters:number}}>('plan-port-1945.json'),texture=await new THREE.TextureLoader().loadAsync(`${import.meta.env.BASE_URL}data/${data.image}`);texture.colorSpace=THREE.SRGBColorSpace;
@@ -350,8 +384,11 @@ async function start() {
   });
   const life=makeLife(fabricData,littoralData,littoral.boats,meta,walkSurfaceAt);scene.add(life.root);
   const environment=makeEnvironment(fabricData,littoralData,housingData,centerData,meta,walkSurfaceAt);scene.add(environment.root);
-  const detailedMaterials=new Set<THREE.Material>(),groundEffects:((on:boolean)=>void)[]=[];
+  // Vegetació ambiental C: només a l’estil Realista; no forma part de cap inventari.
+  const vegetation=makeVegetation({urban:fabricData,littoral:littoralData,housing:housingData,center:centerData,landmarks:landmarkData,sample:(e:number,n:number)=>sampleMeasured(e,n)??sampleHeight(regionMeta,regionHeights,regionValid,e,n),origin:meta.origin},{group:center.trees,trunks:center.trees.children[0] as THREE.InstancedMesh},littoral.research&&{groups:littoral.research.groups,data:littoralData.researchLandscape,sample:(e:number,n:number)=>sampleHeight(meta,heights,valid,e,n)});scene.add(vegetation.root);
+  const detailedMaterials=new Set<THREE.Material>(),groundEffects:((on:boolean,realistic?:boolean)=>void)[]=[];
   for(const root of[coarse.mesh,fine.mesh,town.mesh,regionMeasured,historic,historicCoast,urban.root,housing,earlyTown.root])root.traverse(o=>{if(!(o instanceof THREE.Mesh))return;o.receiveShadow=true;const m=o.material as THREE.MeshStandardMaterial;if(detailedMaterials.has(m))return;if(['road','bed','soil'].includes(m.name)||[coarse.mesh,fine.mesh,town.mesh,regionMeasured].includes(root as any)||root===historic||root===historicCoast){groundEffects.push(groundDetail(m));detailedMaterials.add(m);}});
+  for(const group of portCache.groups.values()){const m=(group.children[0] as THREE.Mesh).material as THREE.MeshStandardMaterial;groundEffects.push(groundDetail(m));detailedMaterials.add(m);}
   el('housing-manzana').onclick=()=>{el<HTMLSelectElement>('walk-spawn').value='manzana';walking.start();};
   el('view-village').onclick=()=>{if(el('exploration-panel').hidden)el('sidebar-toggle').click();openHousing();};
   el('housing-porches').onclick=()=>{el<HTMLSelectElement>('walk-spawn').value='porxos';walking.start();};
@@ -415,7 +452,7 @@ async function start() {
     landmarks.setYear(sceneYear);landmarks.root.visible=el<HTMLInputElement>('landmarks-toggle').checked;
     littoral.setYear(sceneYear);earlyTown.setYear(sceneYear);earlyTown.root.visible&&=el<HTMLInputElement>('housing-toggle').checked;
     littoral.routeAnnotation.visible=littoralFocus==='canal'&&interpreted&&ch.showCanal;
-    littoral.root.visible=interpreted;el<HTMLButtonElement>('mouth-view').disabled=!ch.showCanal;
+    littoral.root.visible=interpreted;el<HTMLButtonElement>('mouth-view').disabled=!ch.showCanal;el<HTMLButtonElement>('dock-view').disabled=!ch.showCanal;
     el('landmark-list').querySelectorAll<HTMLButtonElement>('button').forEach(b=>{b.disabled=!entityAt(chronologyData,b.dataset.landmark!,sceneYear).visible;b.setAttribute('aria-pressed',String(b.dataset.landmark===landmarkFocus));});
     if(littoral.research){littoral.research.root.visible&&=el<HTMLInputElement>('research-landscape-toggle').checked;for(const id of ['pilar-cave','pilar-rocks']){const g=littoral.research.groups.get(id);if(g)g.visible=!activeHarbour;}}
     littoral.roquer.visible=el<HTMLInputElement>('littoral-toggle').checked&&showInherited;
@@ -502,14 +539,15 @@ async function start() {
     for(const id of['wall-height','cutaway-toggle','interior-toggle'])el<HTMLInputElement>(id).disabled=!studyVolume;
     environment.root.visible=interpreted&&ch.showTown&&el<HTMLInputElement>('environment-toggle').checked;
     environment.docks.visible=littoral.port.visible;environment.courtyards.visible=housing.visible;
-    groundEffects.forEach(set=>set(interpreted&&el<HTMLInputElement>('environment-toggle').checked));
+    vegetation.setContext(interpreted,!!activeHarbour);
+    groundEffects.forEach(set=>set(interpreted&&el<HTMLInputElement>('environment-toggle').checked,interpreted&&!!visual?.realistic));
     for(const root of[housing,earlyTown.root,center.root,building.root,landmarks.root,littoral.roquer,urban.root])root.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=true;o.receiveShadow=true;}});
     renderer.shadowMap.needsUpdate=true;
     life.root.visible=interpreted;
     life.setState({year:sceneYear,playing:el<HTMLInputElement>('motion-toggle').checked,people:el<HTMLInputElement>('people-toggle').checked,animals:el<HTMLInputElement>('animals-toggle').checked});
     el('life-pause').textContent=el<HTMLInputElement>('motion-toggle').checked?'Pausa ambient':'Anima ambient';
     el('life-pause').setAttribute('aria-pressed',String(!el<HTMLInputElement>('motion-toggle').checked));
-    refreshRevertePlan();refreshPort1945Plan();walking.revalidate();picker?.hide();
+    refreshRevertePlan();refreshPort1945Plan();void refreshIcgcPlan();walking.revalidate();picker?.hide();
   };
   el('support-note').textContent=`Suport tècnic provisional a ${format.format(studyConfig.terrain.provisionalBaseElevation)} m. No representa una plataforma històrica; el MDT conserva les cotes.`;
   const anchorGroup=new THREE.Group(); scene.add(anchorGroup);
@@ -654,7 +692,7 @@ async function start() {
     if(site){el('card-number').textContent='ROQUER / LITORAL';el('card-category').textContent='MODEL D’ESTUDI · C';el('card-title').textContent=site.name;el('card-description').textContent=site.state;el('certainty').textContent='Planta i alçat · C';el('altitude').textContent='Fase documental '+chronologyAt(chronologyData,sceneYear).milestone.year;el('card-body').hidden=true;el('card-collapse').textContent='+';el('card-collapse').setAttribute('aria-expanded','false');el('card-collapse').setAttribute('aria-label','Desplega la fitxa');}
     el('littoral-list').querySelectorAll<HTMLButtonElement>('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.site===site?.id)));
     for(const id of['roquer','canal','amposta'])el(id==='amposta'?'amposta-view':`${id}-overview`).setAttribute('aria-pressed',String(kind===id&&site?.kind!=='water-connection'));
-    el('mouth-view').setAttribute('aria-pressed',String(site?.kind==='water-connection'));
+    el('mouth-view').setAttribute('aria-pressed',String(site?.id==='canal-mouth'));el('dock-view').setAttribute('aria-pressed',String(site?.id==='darsena-petita'));
     move(littoralTarget().add(littoralOffset()),littoralTarget());setView('oblique');
   };
   for(const [index,site]of littoralData.sites.entries()){
@@ -679,7 +717,8 @@ async function start() {
   for(const id of['littoral-toggle','landscape-toggle','research-landscape-toggle','project-toggle','project1748-toggle','boats-toggle'])el<HTMLInputElement>(id).onchange=updateVisibility;
   el('roquer-plan-view').onclick=()=>{openLittoral('roquer');el<HTMLInputElement>('urban-toggle').checked=true;el<HTMLInputElement>('project1748-toggle').checked=true;updateVisibility();const t=new THREE.Vector3(...toWorld(296414,4499199,5,meta.origin));move(t.clone().add(new THREE.Vector3(0,190,.01)),t);setView('top');};
   for(const s of landmarkData.sites){const button=document.createElement('button');button.className='place-button';button.dataset.landmark=s.id;button.innerHTML=`<span class="place-number">↗</span><span class="place-text"><strong>${escape(s.name)}</strong><small>${escape(s.state)}</small></span>`;button.onclick=()=>select(places.findIndex(p=>p.properties.id===s.id),true);el('landmark-list').append(button);}
-  el('mouth-view').onclick=()=>openLittoral('roquer',{id:'canal-mouth',name:'Desembocadura del canal',kind:'water-connection',anchor:[296610,4499420],radius:45,technicalBaseElevation:.45,state:'Canal, dàrsena i mar units · geometria d’assaig C',evidence:'H02, art. 18–20. La connexió oberta es representa com a hipòtesi C, sense atribuir-li amplada històrica mesurada.'});
+  el('mouth-view').onclick=()=>openLittoral('roquer',{id:'canal-mouth',name:'Desembocadura del braç 19',kind:'water-connection',anchor:[296556,4499262],radius:55,technicalBaseElevation:.45,state:'El braç 19 corre en terra pel costat oriental de la població i entra a la dàrsena gran per la cantonada NW · geometria d’assaig C',evidence:'N112 il·l.4: línia punteada «costa estimada» i braç 19; H02, art. 18–20. Revisió de costa del 08/11/2026 (docs/CANAL). Amplada de la boca no mesurada.'});
+  el('dock-view').onclick=()=>{const w=littoralData.canalWorks;if(!w)return;const p=w.darsenaPetita.polygonUTM,a=w.enclusa.axisUTM,e=(p[0][0]+p[2][0]+a[1][0])/3,n=(p[0][1]+p[2][1]+a[1][1])/3;openLittoral('roquer',{id:'darsena-petita',name:'Dàrsena petita i enclusa gran',kind:'water-connection',anchor:[e,n],radius:60,technicalBaseElevation:.45,state:w.darsenaPetita.state+' '+w.enclusa.state,evidence:'N112 art.20–21 p.233 (relació del 20/5/1794); N112 il·l.3, zona C, georeferenciada (docs/CANAL). Posició ±50 m, mides i forma C.'});};
   openUrban=(id='$overview')=>{urbanFocus=id;mountainFocus=false;landmarkFocus=null;littoralFocus=null;selectedLittoral=null;laboratory=false;housingFocus=false;centerFocus=false;selectedCenter=null;el<HTMLInputElement>('urban-toggle').checked=true;el<HTMLInputElement>('landscape-toggle').checked=true;activateTab('urban');const f=urbanFeature();el('urban-selection').textContent=f?f.evidence:'Testimonis de 1780, 1782 i 1794. Plantes i traçats C; inventaris sense duplicacions.';updateVisibility();move(urbanTarget().add(urbanOffset()),urbanTarget());setView('oblique');};
   for(const f of[...fabricData.routes,...fabricData.sites,fabricData.ravine]){const b=document.createElement('button');b.className='place-button';b.dataset.urban=f.id;b.innerHTML=`<span class="place-number">↗</span><span class="place-text"><strong>${escape(f.name)}</strong><small>Testimoni ${f.fromYear} · geometria C</small></span>`;b.onclick=()=>openUrban(f.id);el('urban-list').append(b);}
   for(const f of fabricData.unplacedSites??[]){const b=document.createElement('button');b.className='text-button';b.dataset.unplaced=f.id;b.textContent=f.name+' · ubicació pendent →';b.onclick=()=>panel.open([dossierData.items[f.id]]);el('urban-list').append(b);}
@@ -729,6 +768,9 @@ async function start() {
   el<HTMLInputElement>('anchors-toggle').onchange=e=>{showAnchors=(e.target as HTMLInputElement).checked;updateVisibility();};
   el<HTMLInputElement>('axis-toggle').onchange=updateVisibility;
   window.addEventListener('keydown',e=>{if(walking.active||dialog.open || (e.target instanceof HTMLElement && ['INPUT','BUTTON','SELECT'].includes(e.target.tagName)))return;if(e.key.toLowerCase()==='r')reset();if(/^[1-6]$/.test(e.key))select(Number(e.key)-1,true);});
+  visual=makeVisualStyle({renderer,scene,camera,sun,hemisphere,year:()=>sceneYear,waterMaterials:[littoral.openHarbour.material as THREE.MeshStandardMaterial],waterMeshes:[littoral.openHarbour,littoral.earlierCoast],waterLevel:littoralData.studyWaterElevation,surfaceRoots:[housing,earlyTown.root,center.root,building.root,landmarks.root,littoral.root,urban.root,environment.root,portCache.root],skipMaterials:detailedMaterials,scenery:[vegetation],groundMeshes:()=>[...historic.children,...historicCoast.children,...modernOutside.children] as THREE.Mesh[],onChange:()=>{updateVisibility();resize();}});
+  if(import.meta.env.DEV)Object.assign((window as any).__rapita,{renderer,visual});
+  updateVisibility();
   const resize=()=>{const {width,height}=host.getBoundingClientRect();renderer.setSize(width,height);picker.resize();camera.aspect=width/height;camera.updateProjectionMatrix();};
   new ResizeObserver(resize).observe(host);resize();select(initialHash==='#esglesia'?esglesiaIndex:0,initialHash==='#esglesia');
   if(['#habitatges','#viviendas'].includes(initialHash))openHousing();
@@ -746,7 +788,7 @@ async function start() {
   let frame=0,lastRenderTime=performance.now();
   const render=()=>{
     requestAnimationFrame(render);
-    const currentTime=performance.now(),dt=Math.min((currentTime-lastRenderTime)/1000,.25);lastRenderTime=currentTime;
+    const currentTime=performance.now(),frameMs=currentTime-lastRenderTime,dt=Math.min(frameMs/1000,.25);lastRenderTime=currentTime;
     if(document.hidden)return;
     if(tween) {
       const t=Math.min((performance.now()-tween.time)/850,1),s=t*t*(3-2*t);
@@ -758,7 +800,9 @@ async function start() {
     // Keep metre-high quay decks distinct from the water even in a kilometre-wide view.
     const near=walking.active?.08:Math.max(.15,Math.min(100,camera.position.distanceTo(controls.target)/200));
     if(Math.abs(camera.near-near)>near*.005){camera.near=near;camera.updateProjectionMatrix();}
+    visual?.update(dt,controls.target,walking.active,el<HTMLInputElement>('motion-toggle').checked&&!matchMedia('(prefers-reduced-motion: reduce)').matches);
     renderer.render(scene,camera);
+    visual?.frame(frameMs,currentTime);
     if(!walking.active)picker.renderHighlights();
     comments.update();
     const rect=host.getBoundingClientRect();

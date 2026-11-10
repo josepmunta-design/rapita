@@ -72,6 +72,10 @@ export function makeCasaLaureano(s:{width:number;depth:number},ground:(x:number,
   }else{
     // Open upper body and first-floor beams retain the unfinished study of 1794.
     for(let z=-d/2+.4;z<back;z+=.75)box(wood,0,4.25,z,w-.6,.22,.18);
+    // «Plaça coberta»: entarimat sobre les bigues que cobreix el mercat de la planta baixa (N112 art.9); el cos superior queda sense coberta.
+    const deckFront=back-1.2;for(let z=-d/2+.55;z<deckFront;z+=1.05)box(wood,0,4.4,z,w-.7,.07,1.0);
+    // Bigues de coberta apilades al pis: obra del cos superior «molt avançada», no acabada.
+    for(let k=0;k<5;k++)box(wood,-w/4+(k%2)*.3,4.55+k*.2,-d/2+3,w*.45,.18,.2);
   }
   const root=b.finish(photo?'Casa Laureano · comparació fotogràfica':'Plaça coberta · restitució C de 1794');
   root.userData={photographicComparison:photo,sourceFiles:['N030','128379.jpeg','128380.jpeg','128381.jpeg','128382.jpeg','128383.jpeg'],historicalDimensions:null,photoDate:null};return root;

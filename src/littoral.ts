@@ -28,7 +28,7 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
   const openHarbour=makeSea(data.basins),earlierCoast=makeSea([]);openHarbour.name='Mar i dàrsenes connectats · estudi C';earlierCoast.name='Costa anterior · estudi C';water.add(openHarbour,earlierCoast);
   const lineMat=new THREE.LineBasicMaterial({color:'#b2cec0',transparent:true,opacity:.35});
   // Small stationary ripples cannot change water elevation or flood adjacent ground.
-  for(let j=0;j<50;j++){const e=296620+(j%10)*32,n=4499090+Math.floor(j/10)*65;const p=[toWorld(e,n,data.studyWaterElevation+.025,meta.origin),toWorld(e+12,n+3,data.studyWaterElevation+.025,meta.origin)];water.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(p.map(p=>new THREE.Vector3(...p))),lineMat));}
+  for(let j=0;j<50;j++){const e=296620+(j%10)*32,n=4499090+Math.floor(j/10)*65;if(e<shoreEasting(n,data.shorelineStudy)+6)continue;const p=[toWorld(e,n,data.studyWaterElevation+.025,meta.origin),toWorld(e+12,n+3,data.studyWaterElevation+.025,meta.origin)];water.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(p.map(p=>new THREE.Vector3(...p))),lineMat));}
   const ribbon=(route:number[][],width:number,sloping:boolean)=>{
     const stations=routeStations(route,4),p:number[]=[],ids:number[]=[];
     for(const s of stations){const level=sloping?canalWaterLevel(s.along,s.length,data.studyWaterElevation):data.studyWaterElevation;for(const sign of[-1,1])p.push(...toWorld(s.e-sign*s.dy*width/2,s.n+sign*s.dx*width/2,level,meta.origin));}
@@ -53,6 +53,42 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     const flush=()=>{for(const[m,gs]of batches){const g=mergeGeometries(gs,false);if(!g)throw Error('Invalid littoral batch');const mesh=new THREE.Mesh(g,m);group.add(mesh);for(const old of gs)old.dispose();}batches.clear();};
     return {emit,box,wall,shell,roof,flush};
   };
+  // Dàrsena petita i enclusa gran a la zona C (N112 il·l.3; art.20–21). Geometria C, estat de 1794.
+  const canalWorks=new THREE.Group();canalWorks.name='Dàrsena petita i enclusa gran · estudi C';canal.add(canalWorks);
+  const dockGroup=new THREE.Group(),lockGroup=new THREE.Group();canalWorks.add(dockGroup,lockGroup);
+  const works=data.canalWorks;
+  if(works?.darsenaPetita&&works?.enclusa){
+    const ground=(e:number,n:number)=>{const raw=sampleHeight(meta,h,v,e,n);return raw===null?.6:landscapeSample(e,n,raw,data).height;};
+    const W=(e:number,n:number,y:number)=>toWorld(e,n,y,meta.origin);
+    const dir=(a:number[],b:number[])=>{const L=Math.hypot(b[0]-a[0],b[1]-a[1]);return{L,ue:(b[0]-a[0])/L,un:(b[1]-a[1])/L};};
+    const angleOf=(ue:number,un:number)=>Math.atan2(un,ue);
+    const dock=works.darsenaPetita,poly=dock.polygonUTM as number[][];
+    const mid=[(poly[0][0]+poly[2][0])/2,(poly[0][1]+poly[2][1])/2];
+    let along=0;{let best=Infinity,acc=0;const r=data.canal.routeStudy;for(let i=0;i<r.length-1;i++){const L=Math.hypot(r[i+1][0]-r[i][0],r[i+1][1]-r[i][1]);const t=Math.max(0,Math.min(1,((mid[0]-r[i][0])*(r[i+1][0]-r[i][0])+(mid[1]-r[i][1])*(r[i+1][1]-r[i][1]))/(L*L)));const d=Math.hypot(r[i][0]+t*(r[i+1][0]-r[i][0])-mid[0],r[i][1]+t*(r[i+1][1]-r[i][1])-mid[1]);if(d<best){best=d;along=acc+t*L;}acc+=L;}}
+    const total=routeStations(data.canal.routeStudy,50).at(-1)!.along,level=canalWaterLevel(along,total,data.studyWaterElevation),bed=level-1.1;
+    const shape=new THREE.Shape();poly.forEach(([e,n],i)=>{const[x,,z]=W(e,n,0);i?shape.lineTo(x,-z):shape.moveTo(x,-z);});shape.closePath();
+    const wg=new THREE.ShapeGeometry(shape);wg.rotateX(-Math.PI/2);const dockWater=new THREE.Mesh(wg,canalMat);dockWater.position.y=level+.01;dockWater.name='Dàrsena petita · aigua del canal C';dockGroup.add(dockWater);
+    const db=createBuilder(dockGroup),coping=dock.copingHeight??.55;
+    // Moll de maçoneria a tres costats; el costat del canal queda obert.
+    for(const[i,j]of[[1,2],[2,3],[3,0]]){const a=poly[i],b=poly[j],d=dir(a,b),c=W((a[0]+b[0])/2,(a[1]+b[1])/2,0),top=level+coping,hgt=top-bed;
+      db.box(c[0],bed+hgt/2,c[2],d.L+1.6,hgt,1.6,mat.stone,angleOf(d.ue,d.un));db.box(c[0],top+.11,c[2],d.L+1.8,.22,1.9,mat.lime,angleOf(d.ue,d.un));
+      const steps=Math.floor(d.L/6);for(let k=1;k<steps;k++){const t=k/steps,p=W(a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t,0);db.box(p[0],top+.45,p[2],.35,.5,.35,mat.stone);}}
+    // Pilotatge visible a la boca del canal.
+    for(let k=0;k<7;k++){const t=k/6,a=poly[0],b=poly[1],p=W(a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t,0);db.box(p[0],level-.2,p[2],.28,1.6,.28,mat.wood);}
+    db.flush();
+    const lock=works.enclusa,[A,B]=lock.axisUTM as number[][],ld=dir(A,B),la=angleOf(ld.ue,ld.un),ne=ld.un,nn=-ld.ue,lb=createBuilder(lockGroup),floor=lock.floorElevation,t=lock.wallThickness,heights=lock.wallHeights as number[];
+    const P=(s:number,off:number,y:number)=>W(A[0]+ld.ue*s+ne*off,A[1]+ld.un*s+nn*off,y);
+    {const c=P(ld.L/2,0,0);lb.box(c[0],floor-.12,c[2],ld.L,.24,lock.width,mat.earth,la);}
+    for(const side of[-1,1]){const seg=ld.L/heights.length;heights.forEach((H,k)=>{const hh=side>0?H:Math.max(.4,H-.35*(k%2));const c=P(seg*(k+.5),side*(lock.width/2+t/2),0);lb.box(c[0],floor+hh/2,c[2],seg+.02,hh,t,mat.stone,la);if(k<2){lb.box(c[0],floor+hh+.09,c[2],seg+.05,.18,t+.12,mat.lime,la);}});}
+    // Capçal de pedra només començat al costat de la dàrsena.
+    {const c=P(.8,0,0);lb.box(c[0],floor+.6,c[2],1.6,1.2,lock.width+2*t,mat.stone,la);}
+    // Aplecs de carreus tallats i bigues per a l'obra pendent.
+    const piles=works.stonePiles as number[][];
+    piles.forEach(([e,n],i)=>{const g=ground(e,n);const c=W(e,n,0);for(let r=0;r<3;r++)for(let k=0;k<4-r;k++)for(let m=0;m<2;m++){const x=(k-(3-r)/2)*.95,z=(m-.5)*.7;lb.box(c[0]+Math.cos(la)*x+Math.sin(la)*z,g+.25+r*.5,c[2]-Math.sin(la)*x+Math.cos(la)*z,.9,.48,.62,mat.lime,la+(i%2)*.04);}});
+    for(let k=0;k<6;k++){const p=P(6+k*5,lock.width/2+t+4.5,0),g=ground(...[A[0]+ld.ue*(6+k*5)+ne*(lock.width/2+t+4.5),A[1]+ld.un*(6+k*5)+nn*(lock.width/2+t+4.5)] as [number,number]);lb.box(p[0],g+.12+(k%2)*.24,p[2],5.5,.22,.24,mat.wood,la+.05*(k%3));}
+    lb.flush();
+    canalWorks.userData={dockFrom:dock.fromYear??1790,lockFrom:lock.fromYear??1792};
+  }
   const siteGroups=new Map<string,THREE.Group>();let lowBattery:THREE.Group,finishedBattery:THREE.Group,oldTower:THREE.Group,repairedTower:THREE.Group;
   for(const s of data.sites){
     const group=new THREE.Group();group.name=s.name;group.userData.littoralId=s.id;siteGroups.set(s.id,group);(s.kind==='health'?port:roquer).add(group);
@@ -112,7 +148,10 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     }else if(s.kind==='kiln'){
       b.shell(w,d,H,[{x:0,width:1.8,height:1.6,bottom:0}],mat.brick);b.box(0,H-.15,0,w,.3,d,mat.brick); // Simple kiln, no invented industrial chimney.
     }else if(s.kind==='well'){
-      const shape=new THREE.Shape(),hole=new THREE.Path();shape.absarc(0,0,1,0,Math.PI*2,false);hole.absarc(0,0,.6,0,Math.PI*2,true);shape.holes.push(hole);const g=new THREE.ExtrudeGeometry(shape,{depth:1,bevelEnabled:false});g.rotateX(-Math.PI/2);b.emit(g,mat.stone);
+      // Pou de les Figueretes al mig de la rampa: base circular de dos graons i brocal massís de pedra (PR01-06/07, brocal traslladat el 1971; mides C).
+      for(const[r,y,hgt]of[[1.75,-.25,.45],[1.35,.2,.2]] as number[][]){const g=new THREE.CylinderGeometry(r,r+.04,hgt,28);b.emit(g,mat.lime,0,y+hgt/2-.0,0);}
+      const shape=new THREE.Shape(),hole=new THREE.Path();shape.absarc(0,0,.98,0,Math.PI*2,false);hole.absarc(0,0,.58,0,Math.PI*2,true);shape.holes.push(hole);const g=new THREE.ExtrudeGeometry(shape,{depth:.9,bevelEnabled:false,curveSegments:24});g.rotateX(-Math.PI/2);b.emit(g,mat.stone,0,.4,0);
+      const water=new THREE.CircleGeometry(.57,20);water.rotateX(-Math.PI/2);b.emit(water,mat.iron,0,.6,0);
     }else{
       group.add(makeServiceHouse({...s,width:w,depth:d,height:H}));group.userData.detailConfidence='C';
     }
@@ -159,6 +198,18 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     dummy.position.fromArray(toWorld(e,n,ground+.1,meta.origin));dummy.rotation.set(i*.7,i*1.7,i*.3);dummy.scale.set(.7+(i%4)*.3,.4+(i%3)*.2,.65+(i%5)*.22);if(caveSites(data.researchLandscape).some((c:any)=>Math.abs(n-c.anchor[1])<c.width*.6))dummy.scale.setScalar(.02);dummy.updateMatrix();rocks.setMatrixAt(i,dummy.matrix);
   }
   root.add(rocks);
+  // Costa rocosa al sud del Roquer (revisió 08/11/2026): blocs i lloses a banda i banda de la línia d'aigua, fins al final de la costa modelada.
+  const south=data.shorelineStudy.filter((p:number[])=>p[1]<4499122),southStations=south.length>1?routeStations(south,2):[];
+  if(southStations.length){
+    const shelf=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1,0),mat.rock,Math.min(900,southStations.length));shelf.name='Costa rocosa del sud · distribució C';
+    for(let i=0;i<shelf.count;i++){
+      const st=southStations[Math.floor(i/shelf.count*southStations.length)],j=Math.sin(i*12.9898)*43758.5453,f=j-Math.floor(j),side=-3.5+f*9,e=st.e-st.dy*side,n=st.n+st.dx*side,level=sampleHeight(meta,h,v,e,n);
+      const ground=level===null?-.6:landscapeSample(e,n,level,data).height;
+      dummy.position.fromArray(toWorld(e,n,Math.max(ground,-.9)+.05,meta.origin));dummy.rotation.set(i*.9,i*2.3,i*.4);
+      const k=.6+((i*7)%5)*.28;dummy.scale.set(k*(1.2+(i%3)*.4),k*(.35+(i%4)*.12),k*(1+(i%5)*.25));dummy.updateMatrix();shelf.setMatrixAt(i,dummy.matrix);
+    }
+    root.add(shelf);
+  }
   const boats=makeBoats(data,meta);root.add(boats);
   const research=data.researchLandscape?makeResearchLandscape(data.researchLandscape,meta,(e,n)=>{const raw=sampleHeight(meta,h,v,e,n);return raw===null?null:landscapeSample(e,n,raw,data).height;}):null;
   if(research)roquer.add(research.root);
@@ -176,7 +227,7 @@ export function makeLittoral(data:Littoral,meta:Terrain,h:Float32Array,v:Uint8Ar
     oldTower!.visible=tower.variant==='unrepaired';repairedTower!.visible=!oldTower!.visible;guns.visible=entityAt(chronology,'guns',year).visible;
     for(const id of['quarters','cistern','kiln'])siteGroups.get(id)!.visible=works.visible;
     for(const id of['old-inn','old-customs'])siteGroups.get(id)!.visible=entityAt(chronology,id,year).visible;siteGroups.get('health')!.visible=services.visible;
-    port.visible=services.visible;canal.visible=entityAt(chronology,'canal',year).visible;openHarbour.visible=!!harbourPhase||canal.visible;earlierCoast.visible=!openHarbour.visible;boats.visible=services.visible;
+    port.visible=services.visible;canal.visible=entityAt(chronology,'canal',year).visible;dockGroup.visible=year>=(canalWorks.userData.dockFrom??9999);lockGroup.visible=year>=(canalWorks.userData.lockFrom??9999);openHarbour.visible=!!harbourPhase||canal.visible;earlierCoast.visible=!openHarbour.visible;boats.visible=services.visible;
   };
-  setYear(1800);return {root,roquer,port,canal,water,boats,research,project,planProject,guns,siteGroups,setYear,setHarbourPhase,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
+  setYear(1800);return {root,roquer,port,canal,canalWorks,water,boats,research,project,planProject,guns,siteGroups,setYear,setHarbourPhase,routeAnnotation,openHarbour,earlierCoast,mainWater,branchWater};
 }

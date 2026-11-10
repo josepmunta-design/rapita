@@ -42,32 +42,16 @@
         ]
       ],
       "alongAzimuthDegrees": 12,
+      "planLetter": null,
+      "projectOnly": false,
       "positionSource": {
         "text": "Punt marcat per Josep (01/11/2026), contrastat amb la coberta a la ortofoto ICGC 1945-1946 EPSG:25831: pixel 804,267 del retall [295500,4498000,297700,4500000], 1320x1200. Posicio fixa a tota la cronologia; planta i alcat C.",
         "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms",
         "precisionMeters": 5
       },
       "source": "public/data/urban-fabric.json",
-      "confidence": "Posició de treball marcada per Josep; dimensions C estimades"
+      "confidence": "C posició del prototip, no punt històric mesurat"
     }
   ],
-  "hypotheticalGuards": {
-    "georeferenced": false,
-    "localCenters": [
-      [
-        -11,
-        45
-      ],
-      [
-        11,
-        45
-      ]
-    ],
-    "footprintMeters": [
-      6,
-      6.1
-    ],
-    "warning": "Distribució convencional del paquet aportat, no posició històrica."
-  },
-  "warning": "Es conserva el gir d’assaig de 12° i el punt marcat per Josep. +Z del paquet és convencional; no estableix una nova orientació geogràfica."
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
 }

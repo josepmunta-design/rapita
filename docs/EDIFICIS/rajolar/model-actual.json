@@ -3,5 +3,55 @@
   "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
-  "snapshots": []
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "rajolar-rabosa",
+        "name": "Rajolar de la Rabosa",
+        "kind": "brickworks",
+        "fromYear": 1786,
+        "utmAnchor": [
+          297700,
+          4500300
+        ],
+        "width": 26,
+        "depth": 18,
+        "height": 3.6,
+        "alongAzimuthDegrees": 5,
+        "positionSource": {
+          "text": "Partida de «la Rabosa» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL). Punt indicatiu dins la partida, sobre terra baixa d’argila; no és un solar documentat.",
+          "precisionMeters": 350
+        },
+        "evidence": "N112 p.223 nota 94: reclamació de 1796 d’una teuleria anomenada «lo Rajolà», amb dos forns i una casa, feta uns deu anys abans (cap al 1786), a la partida de la Rabosa en terres de les Santjoanistes. Dos forns de tipus mediterrani, casa i era d’assecat són C.",
+        "flag": true,
+        "anchor": [
+          297700,
+          4500300
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 0.6095887470059116,
+        "footprintUTM": [
+          [
+            297686.2650672401,
+            4500292.167272372
+          ],
+          [
+            297712.1661293905,
+            4500289.901223062
+          ],
+          [
+            297713.7349327599,
+            4500307.832727628
+          ],
+          [
+            297687.8338706095,
+            4500310.098776938
+          ]
+        ]
+      }
+    }
+  ]
 }

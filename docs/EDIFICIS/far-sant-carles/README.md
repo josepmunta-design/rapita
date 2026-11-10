@@ -1,6 +1,6 @@
 # Far de Sant Carles
 
-Revisió: **02/11/2026** · far. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **31/10/2026** · far. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
@@ -12,7 +12,15 @@ Certesa: B relacional / C mètrica.
 
 [N108](../fonts-20261031/originals/N108.jpg) · fitxer o imatge completa; [N111](../fonts-20261031/originals/N111.jpg) · fitxer o imatge completa
 
-**Coordenades històriques i planta georeferenciada:** desconegudes (`null`). Posició d’assaig EPSG:25831: E 295687.2 / N 4497963 m. Precisió de treball ±150 m; coordenades de la platja, no de l’edifici. Façana +Z convencional al paquet; es conserva el gir d’assaig del mapa, sense rumb històric acreditat.
+**Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
+
+### Posicions actuals del visor · EPSG:25831
+
+| Model | Lletra | E (m) | N (m) | Estat |
+|---|---|---:|---:|---|
+| far-sant-carles | — | 295687.200 | 4497963.000 | Model d’assaig |
+
+Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
 ## Descripció documentada
 
@@ -25,11 +33,15 @@ Certesa: B relacional / C mètrica.
 
 Obra rebuda el maig i muntatge de la llanterna acabat el 21/12/1862. Edifici visible, encara sense servei.
 
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Obra acabada i llanterna
 
 ### 1864-11-01 · Primera llum
 
-Roja fixa de 6è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.
+Roja fixa de 6 è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.
+
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
 
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Primera llum; [FAR-S3](https://archivodigital.dipucadiz.es/boletin-oficial-de-la-provincia-de-cadiz/pdf_BOP/1864/1864_10_01.pdf) · avís nàutic
 
@@ -37,11 +49,15 @@ Roja fixa de 6è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza
 
 Nova llanterna cilíndrica de 1,80 m amb muntants helicoidals i senyal blanca. Acetilè el 2/9/1920. El model conserva el groc original com a hipòtesi; data del repintat desconeguda.
 
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Llanterna cilíndrica
 
 ### 1929 · Electrificació
 
 Làmpada elèctrica de 100 bugies. La fitxa RABASF associa amb 1929 el mecanisme que el Port posa en servei el 1920; divergència conservada.
+
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
 
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Electrificació
 
@@ -49,11 +65,15 @@ Làmpada elèctrica de 100 bugies. La fitxa RABASF associa amb 1929 el mecanisme
 
 Apagat del 17/3/1937 a finals de 1938. El selector anual representa 1937 i 1938 sense emissió; la represa es veu a partir de 1939.
 
+Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Apagada durant la guerra
 
 ### 1975-05-23 · Nova òptica roja
 
 Òptica de tambor de 500 mm i làmpada de 250 W; 4 i 1 ocultacions roges. No data els acabats blancs del model actual.
+
+Tipus: testimoni · comparació fora de 1778–1950. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
 
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Nova òptica roja
 
@@ -61,25 +81,28 @@ Apagat del 17/3/1937 a finals de 1938. El selector anual representa 1937 i 1938 
 
 Dues làmpades halògenes de 1.000 W amb canviador. Fora del selector, que acaba el 1993.
 
+Tipus: testimoni · comparació fora de 1778–1950. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
+
 [FAR-S1](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita) · Equip Balizamar
 
-### Sense data · Aspecte actual · comparació
+### Sense data fixada · Aspecte actual · comparació
 
 Model fotogràfic aportat: façanes blanques, terrat vermellós i llanterna metàl·lica amb òptica roja. Data de cada acabat desconeguda; activació manual independent de l’any.
+
+Tipus: comparació. Data de construcció o canvi exacte: pendent si no està expressament acreditada. Activació automàtica al selector: **no**.
 
 [FAR-S2](https://www.faros-historicos-de-espana.com/faro/faro-de-sant-carles-de-la-rapita) · Aspecte actual · comparació
 
 ## Fotografies i plànols de comparació
 
-Les fotografies recents es referencien a FAR-S2 i al paquet aportat. N085 mostra una torre alta de tipologia diferent; la correspondència amb Punta Senieta no està verificada i s’exclou com a referència visual.
+No s’ha assignat una fotografia individual sense correspondència suficient. Els plànols i els textos citats són la base de treball.
+
 
 ## Aplicació al model i treball pendent
 
-Models aportats a `Faro/faro_rapita`: codi procedural i dos GLB originals conservats. S’integra el codi amb geometria agrupada per material; els GLB són aproximacions independents i no són la font del model del visor. Obra de 1862 i primera llum de 1864 separades. Llanterna de 1920 amb acabats grocs com a hipòtesi i òptica blanca fins al 1975. El selector anual mostra 1937–1938 sense emissió i represa des del 1939. L’aspecte actual és una comparació manual que es cancel·la en canviar d’any.
-
-- [x] Substituir la torre lateral i la coberta inclinada per planta quadrada, terrat pla i torre central.
-- [ ] Validar posició i orientació de la façana.
-- [ ] Datar els acabats blancs i el terrat vermellós.
+- [ ] Models de 1864 i actual integrats a partir del codi aportat; llanterna de 1920 adaptada amb òptica blanca fins al 1975.
+- [ ] Validar la posició exacta de l’edifici i el rumb de la façana; el paquet no els fixa.
+- [ ] Datar el repintat blanc i els acabats del terrat abans d’activar-los en una fase històrica.
 
 ### Dades encara desconegudes
 
@@ -91,13 +114,13 @@ Models aportats a `Faro/faro_rapita`: codi procedural i dos GLB originals conser
 
 ### Correspondència amb el prototip
 
-`far-sant-carles` · [Integració i límits](../../FARO_RAPITA.md).
+`far-sant-carles`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 
-- **N108** · [Full topogràfic delterme](../fonts-20261031/originals/N108.jpg). Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800.
-- **N111** · [Planimetria delterme amb afegits](../fonts-20261031/originals/N111.jpg). Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.
 - **FAR-S1** · [Autoritat Portuària de Tarragona · Cardenal (1875) i història del far](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita). Memòria de 19/1/1875: dimensions, acabats i primera llum; reformes de 1920, 1929, 1975 i 1995. La capçalera web diu setembre; el relat de Cardenal fixa novembre.
-- **FAR-S5** · [Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita](https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52). Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.
 - **FAR-S2** · [RABASF · Far de Punta Senieta](https://www.faros-historicos-de-espana.com/faro/faro-de-sant-carles-de-la-rapita). Fitxa i fotografies dels acabats recents; no és un aixecament mètric contemporani. Divergència 1920/1929 en la datació de la llanterna.
 - **FAR-S3** · [BOP de Cadis · avís nàutic de 20/9/1864, publicat l’1/10/1864](https://archivodigital.dipucadiz.es/boletin-oficial-de-la-provincia-de-cadiz/pdf_BOP/1864/1864_10_01.pdf). El paquet aportat transcriu l’avís de primera llum de l’1/11/1864. La data concorda amb el relat de Cardenal.
+- **FAR-S5** · [Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita](https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52). Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.
+- **N108** · [Full topogràfic delterme](../fonts-20261031/originals/N108.jpg). Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són del seu treball topogràfic, no MDT del 1800.
+- **N111** · [Planimetria delterme amb afegits](../fonts-20261031/originals/N111.jpg). Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre el mateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.

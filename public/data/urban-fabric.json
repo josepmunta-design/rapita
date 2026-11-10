@@ -33,31 +33,39 @@
       "width": 10,
       "townPoints": [
         [
-          0,
+          -8,
           -116
         ],
         [
-          0,
-          80
+          -6.9,
+          -100
         ],
         [
-          0,
+          -5,
+          10
+        ],
+        [
+          -2.5,
           165
         ]
       ],
       "evidence": "H02, art. 11, 25–26. Eix principal, passeig i entrada nord; amplada i traça C.",
       "points": [
         [
-          296351.588594083,
-          4499255.04844523
+          296344.02444547816,
+          4499257.652990466
         ],
         [
-          296415.3999523566,
-          4499440.370086048
+          296350.27360638266,
+          4499272.423162706
         ],
         [
-          296443.07324548543,
-          4499520.739164974
+          296387.88258866663,
+          4499375.811626528
+        ],
+        [
+          296440.7094490464,
+          4499521.55308536
         ]
       ],
       "historicalWidth": null,
@@ -327,45 +335,170 @@
     },
     {
       "id": "rampa-roquer",
-      "name": "Baixada del Pou de les Figueretes",
+      "name": "Rampa llarga del Pou de les Figueretes",
       "kind": "ramp",
-      "fromYear": 1794,
-      "width": 4,
-      "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+      "fromYear": 1778,
+      "width": 3.6,
+      "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
       "utmPoints": [
         [
-          296404.0215530871,
-          4499229.504624519
+          296423.934,
+          4499247.626
         ],
         [
-          296416.48432533804,
-          4499204.3432869585
+          296420.169,
+          4499240.638
         ],
         [
-          296435.751004384,
-          4499174.762531754
+          296417.4,
+          4499233.882
         ],
         [
-          296465.26106629637,
-          4499140.702322624
+          296415.975,
+          4499227.213
+        ],
+        [
+          296415.693,
+          4499221.124
+        ],
+        [
+          296417.383,
+          4499215.837
+        ],
+        [
+          296421.804,
+          4499210.051
+        ],
+        [
+          296426.19154989166,
+          4499204.768389186
+        ],
+        [
+          296432.058,
+          4499200.087
+        ],
+        [
+          296438.6,
+          4499196.715
+        ],
+        [
+          296444.139,
+          4499195.807
+        ],
+        [
+          296448.785,
+          4499195.685
+        ],
+        [
+          296452.016,
+          4499193.954
+        ],
+        [
+          296456,
+          4499182
+        ],
+        [
+          296465,
+          4499173
+        ],
+        [
+          296472,
+          4499164
+        ],
+        [
+          296474,
+          4499156
+        ],
+        [
+          296470,
+          4499143
+        ],
+        [
+          296464.50086275785,
+          4499136.308361412
         ]
       ],
+      "positionSource": {
+        "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+        "precisionMeters": 15
+      },
+      "wellOnAxis": "well",
       "points": [
         [
-          296404.0215530871,
-          4499229.504624519
+          296423.934,
+          4499247.626
         ],
         [
-          296416.48432533804,
-          4499204.3432869585
+          296420.169,
+          4499240.638
         ],
         [
-          296435.751004384,
-          4499174.762531754
+          296417.4,
+          4499233.882
         ],
         [
-          296465.26106629637,
-          4499140.702322624
+          296415.975,
+          4499227.213
+        ],
+        [
+          296415.693,
+          4499221.124
+        ],
+        [
+          296417.383,
+          4499215.837
+        ],
+        [
+          296421.804,
+          4499210.051
+        ],
+        [
+          296426.19154989166,
+          4499204.768389186
+        ],
+        [
+          296432.058,
+          4499200.087
+        ],
+        [
+          296438.6,
+          4499196.715
+        ],
+        [
+          296444.139,
+          4499195.807
+        ],
+        [
+          296448.785,
+          4499195.685
+        ],
+        [
+          296452.016,
+          4499193.954
+        ],
+        [
+          296456,
+          4499182
+        ],
+        [
+          296465,
+          4499173
+        ],
+        [
+          296472,
+          4499164
+        ],
+        [
+          296474,
+          4499156
+        ],
+        [
+          296470,
+          4499143
+        ],
+        [
+          296464.50086275785,
+          4499136.308361412
         ]
       ],
       "historicalWidth": null,
@@ -874,33 +1007,34 @@
       "height": 4,
       "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
       "townAnchor": [
-        99,
-        84
+        100,
+        78
       ],
+      "actualMap20261108": "Abans [99, 84], damunt del carrer del Pilar.",
       "anchor": [
-        296510.30856395874,
-        4499411.920913059
+        296509.3006736076,
+        4499405.922233451
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 3.7453284717255624,
+      "technicalBaseElevation": 3.861968122464811,
       "footprintUTM": [
         [
-          296505.549785193,
-          4499410.38662995
+          296504.5418948419,
+          4499404.387950342
         ],
         [
-          296513.11393379775,
-          4499407.782084715
+          296512.10604344663,
+          4499401.7834051065
         ],
         [
-          296515.0673427245,
-          4499413.455196168
+          296514.05945237336,
+          4499407.45651656
         ],
         [
-          296507.5031941197,
-          4499416.059741404
+          296506.4953037686,
+          4499410.061061796
         ]
       ]
     },
@@ -910,36 +1044,36 @@
       "kind": "workyard",
       "fromYear": 1794,
       "townAnchor": [
-        -60,
-        105
+        -63.5,
+        105.5
       ],
       "width": 42,
       "depth": 15,
       "evidence": "H02 art. 7: eines, fustes, maons i teules al pati tancat. Són usos del conjunt existent, sense afegir cases ni habitacions.",
       "anchor": [
-        296366.80804168206,
-        4499483.542139705
+        296363.66151074466,
+        4499485.154387534
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 7.891351267312442,
+      "technicalBaseElevation": 7.917273829421509,
       "footprintUTM": [
         [
-          296344.51039043604,
-          4499483.287681632
+          296341.36385949864,
+          4499484.89992946
         ],
         [
-          296384.22217061126,
-          4499469.613819145
+          296381.07563967386,
+          4499471.226066973
         ],
         [
-          296389.1056929281,
-          4499483.796597779
+          296385.9591619907,
+          4499485.408845607
         ],
         [
-          296349.39391275286,
-          4499497.470460266
+          296346.24738181545,
+          4499499.082708094
         ]
       ]
     },
@@ -1070,37 +1204,47 @@
       "kind": "shed",
       "fromYear": 1786,
       "utmAnchor": [
-        296360.6,
-        4499211.3
+        296380.971,
+        4499268.199
       ],
       "width": 22,
       "depth": 10,
       "height": 4.2,
-      "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona.",
-      "anchor": [
+      "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. Revisió 08/11/2026: es pren la hipòtesi de N112 p.215 n.79 (entre Casa Laureano i les cases rodones); l’anterior posició darrere del semicercle es conserva a previousUtmAnchor.",
+      "previousUtmAnchor": [
         296360.6,
         4499211.3
+      ],
+      "alongAzimuthDegrees": 109,
+      "positionSource": {
+        "text": "Hipòtesi de N112 p.215 nota 79: una part del cobert entre l’actual Casa Laureano i les cases rodones, amb arcs que després formarien part dels porxos de la plaça. Façana de cinc arcs a la línia oriental de la plaça (+23 m), simètrica a les quatre cases porxades de ponent; entre la plaça coberta i la font oriental. Posició C.",
+        "precisionMeters": 20
+      },
+      "actualMap20261108": "Entre la plaça coberta i la font de llevant, amb la façana a la línia actual (18,5 m).",
+      "anchor": [
+        296380.971,
+        4499268.199
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.69930665936503,
+      "technicalBaseElevation": 9.629647058336715,
       "footprintUTM": [
         [
-          296348.5714548961,
-          4499210.153656821
+          296379.8246568211,
+          4499280.227545104
         ],
         [
-          296369.3728635593,
-          4499202.991157423
+          296372.662157423,
+          4499259.426136441
         ],
         [
-          296372.6285451038,
-          4499212.446343179
+          296382.11734317895,
+          4499256.170454896
         ],
         [
-          296351.82713644067,
-          4499219.608842577
+          296389.27984257706,
+          4499276.971863559
         ]
       ]
     },
@@ -1111,8 +1255,8 @@
       "chimney": true,
       "fromYear": 1782,
       "utmAnchor": [
-        296496.5276864458,
-        4499268.913076241
+        296470.2320904713,
+        4499292.46029721
       ],
       "width": 8,
       "depth": 6,
@@ -1134,30 +1278,31 @@
         "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
         "precisionMeters": 15
       },
+      "actualMap20261108": "Segueix la Fonda Vella; abans al mig del carrer de la Mare de Déu de Montserrat.",
       "anchor": [
-        296496.5276864458,
-        4499268.913076241
+        296470.2320904713,
+        4499292.46029721
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 2.2410146446546655,
+      "technicalBaseElevation": 4.2858295177440695,
       "footprintUTM": [
         [
-          296491.76890768006,
-          4499267.378793132
+          296465.4733117056,
+          4499290.926014101
         ],
         [
-          296499.3330562848,
-          4499264.774247896
+          296473.0374603103,
+          4499288.3214688655
         ],
         [
-          296501.28646521154,
-          4499270.44735935
+          296474.99086923705,
+          4499293.994580319
         ],
         [
-          296493.7223166068,
-          4499273.051904585
+          296467.4267206323,
+          4499296.599125555
         ]
       ]
     },
@@ -1439,18 +1584,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296385.8758960818,
-        4499200.283175075
+        296401.9114187451,
+        4499214.1856791
       ],
       "alongAzimuthDegrees": 0,
-      "width": 2.5721296063275076,
-      "depth": 3.2626596614718437,
+      "width": 2.120831032341812,
+      "depth": 3.770535606890917,
       "height": 5.2,
       "evidence": "Plànol de 1748, B: Hostal del recinte del convent. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "B",
       "planPixels": [
@@ -1473,46 +1618,46 @@
       ],
       "polygonUTM": [
         [
-          296386.1071112447,
-          4499198.6279709
+          296401.42308781197,
+          4499212.278064959
         ],
         [
-          296384.59805187455,
-          4499201.07033611
+          296400.8706425691,
+          4499215.615263223
         ],
         [
-          296385.6282397271,
-          4499201.890630562
+          296402.3604709979,
+          4499216.048600566
         ],
         [
-          296387.1701814809,
-          4499199.543762729
+          296402.99147360143,
+          4499212.800787654
         ]
       ],
       "anchor": [
-        296385.8758960818,
-        4499200.283175075
+        296401.9114187451,
+        4499214.1856791
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 8.70367709609697,
+      "technicalBaseElevation": 8.238512809199344,
       "footprintUTM": [
         [
-          296386.1071112447,
-          4499198.6279709
+          296401.42308781197,
+          4499212.278064959
         ],
         [
-          296384.59805187455,
-          4499201.07033611
+          296400.8706425691,
+          4499215.615263223
         ],
         [
-          296385.6282397271,
-          4499201.890630562
+          296402.3604709979,
+          4499216.048600566
         ],
         [
-          296387.1701814809,
-          4499199.543762729
+          296402.99147360143,
+          4499212.800787654
         ]
       ]
     },
@@ -1522,18 +1667,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296375.7488379496,
-        4499230.047844276
+        296404.18627365655,
+        4499251.159292147
       ],
       "alongAzimuthDegrees": 0,
-      "width": 3.641499391756952,
-      "depth": 4.7906176801770926,
+      "width": 6.008148527587764,
+      "depth": 6.799027276225388,
       "height": 5.5,
       "evidence": "Plànol de 1748, C: Capella de les monges Santjoanistes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "C",
       "planPixels": [
@@ -1556,46 +1701,101 @@
       ],
       "polygonUTM": [
         [
-          296377.51386939554,
-          4499227.6508654235
+          296405.0380326414,
+          4499247.757071511
         ],
         [
-          296374.0007497635,
-          4499227.685512945
+          296401.22418507084,
+          4499249.366225544
         ],
         [
-          296373.9196166238,
-          4499232.413515632
+          296403.2505433156,
+          4499254.556098787
         ],
         [
-          296377.56111601554,
-          4499232.441483104
+          296407.2323335984,
+          4499252.957772743
         ]
       ],
+      "toYear": 1777,
+      "replacedBy": "esglesia-convent",
+      "replacementNote": "La capella C del plànol de 1748 és la mateixa capella del convent; des del 09/11/2026 es dibuixa a la posició de les restes conservades (9 m de diferència, dins la tolerància del redibuix).",
       "anchor": [
-        296375.7488379496,
-        4499230.047844276
+        296404.18627365655,
+        4499251.159292147
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.438320281832082,
+      "technicalBaseElevation": 8.471569855208376,
       "footprintUTM": [
         [
-          296377.51386939554,
-          4499227.6508654235
+          296405.0380326414,
+          4499247.757071511
         ],
         [
-          296374.0007497635,
-          4499227.685512945
+          296401.22418507084,
+          4499249.366225544
         ],
         [
-          296373.9196166238,
-          4499232.413515632
+          296403.2505433156,
+          4499254.556098787
         ],
         [
-          296377.56111601554,
-          4499232.441483104
+          296407.2323335984,
+          4499252.957772743
+        ]
+      ]
+    },
+    {
+      "id": "esglesia-convent",
+      "name": "Capella del convent de les monges",
+      "kind": "convent-chapel",
+      "fromYear": 1778,
+      "townAnchor": [
+        46.5,
+        -93.6
+      ],
+      "alongAzimuthDegrees": 109,
+      "width": 5.5,
+      "depth": 11,
+      "height": 5.2,
+      "remainsUTM": [
+        296398.9,
+        4499262.4
+      ],
+      "remains": "Mur del carrer amb porta d’arc escarser, brancal de carreus i petita espadanya (BCIL, Passatge del Convent).",
+      "evidence": "Restes conservades al Passatge / Carreró del Convent (BCIL; Pobles de Catalunya 18369; foto de castillosricsol): porta d’arc escarser i espadanya al mur del carrer. Capella C del plànol de 1748. N112 p.215: el tinglado era davant de la capella del convent. Informe de 1785: capella estreta, baixa, humida i amb enterraments a dins.",
+      "limits": "La façana segueix la línia del carrer al punt de les restes; mida de la nau, alçària, coberta i finestres C. No es reconstrueix el claustre ni la resta del monestir medieval.",
+      "positionSource": {
+        "text": "Coordenades de l’inventari (40,619122 N, 0,593016 E) i línia de façana actual del topogràfic ICGC 1:1.000. A 9 m de la capella C del plànol de 1748 registrat.",
+        "precisionMeters": 3
+      },
+      "geometryConfidence": "C",
+      "anchor": [
+        296402.8479345082,
+        4499261.089142142
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 8.88836434136221,
+      "footprintUTM": [
+        [
+          296398.54289476713,
+          4499265.479943074
+        ],
+        [
+          296396.75226991763,
+          4499260.279590908
+        ],
+        [
+          296407.1529742492,
+          4499256.698341209
+        ],
+        [
+          296408.9435990987,
+          4499261.898693375
         ]
       ]
     },
@@ -1605,18 +1805,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296384.99771919835,
-        4499222.163132763
+        296410.7409091658,
+        4499238.427912278
       ],
       "alongAzimuthDegrees": 0,
-      "width": 8.370886716293171,
-      "depth": 2.98914713319391,
+      "width": 10.252572016557679,
+      "depth": 7.002433092333376,
       "height": 3.8,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "partitions": 2,
       "planLetter": "D",
@@ -1640,46 +1840,46 @@
       ],
       "polygonUTM": [
         [
-          296389.1988163046,
-          4499220.636464257
+          296414.6372929538,
+          4499234.884710054
         ],
         [
-          296380.832464,
-          4499220.846738158
+          296405.6119161598,
+          4499238.856107758
         ],
         [
-          296380.8279295883,
-          4499223.62561139
+          296406.8499393733,
+          4499241.887143146
         ],
         [
-          296389.1316669005,
-          4499223.543717247
+          296415.86448817636,
+          4499238.083688154
         ]
       ],
       "anchor": [
-        296384.99771919835,
-        4499222.163132763
+        296410.7409091658,
+        4499238.427912278
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.506984127917471,
+      "technicalBaseElevation": 7.797904135119593,
       "footprintUTM": [
         [
-          296389.1988163046,
-          4499220.636464257
+          296414.6372929538,
+          4499234.884710054
         ],
         [
-          296380.832464,
-          4499220.846738158
+          296405.6119161598,
+          4499238.856107758
         ],
         [
-          296380.8279295883,
-          4499223.62561139
+          296406.8499393733,
+          4499241.887143146
         ],
         [
-          296389.1316669005,
-          4499223.543717247
+          296415.86448817636,
+          4499238.083688154
         ]
       ]
     },
@@ -1689,18 +1889,18 @@
       "kind": "stonehouse",
       "fromYear": 1778,
       "utmAnchor": [
-        296386.4556634133,
-        4499229.111795604
+        296415.4381632474,
+        4499245.349917458
       ],
       "alongAzimuthDegrees": 0,
-      "width": 4.535623298375867,
-      "depth": 3.5900988606736064,
+      "width": 6.39541248237947,
+      "depth": 5.940419157966971,
       "height": 3.8,
       "evidence": "Plànol de 1748, E: Quarter d'infanteria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "partitions": 2,
       "planLetter": "E",
@@ -1724,46 +1924,46 @@
       ],
       "polygonUTM": [
         [
-          296388.72170992475,
-          4499227.316746174
+          296417.10527281417,
+          4499242.379707879
         ],
         [
-          296384.1878517641,
-          4499227.489222779
+          296412.24045700626,
+          4499244.595664819
         ],
         [
-          296384.18961690186,
-          4499230.906845035
+          296413.7710536807,
+          4499248.320127037
         ],
         [
-          296388.72347506246,
-          4499230.73436843
+          296418.63586948864,
+          4499246.104170099
         ]
       ],
       "anchor": [
-        296386.4556634133,
-        4499229.111795604
+        296415.4381632474,
+        4499245.349917458
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.655983561344318,
+      "technicalBaseElevation": 7.447481494921227,
       "footprintUTM": [
         [
-          296388.72170992475,
-          4499227.316746174
+          296417.10527281417,
+          4499242.379707879
         ],
         [
-          296384.1878517641,
-          4499227.489222779
+          296412.24045700626,
+          4499244.595664819
         ],
         [
-          296384.18961690186,
-          4499230.906845035
+          296413.7710536807,
+          4499248.320127037
         ],
         [
-          296388.72347506246,
-          4499230.73436843
+          296418.63586948864,
+          4499246.104170099
         ]
       ]
     },
@@ -1773,51 +1973,51 @@
       "kind": "enclosure",
       "fromYear": 1778,
       "utmAnchor": [
-        296388.0509531866,
-        4499208.694031168
+        296408.044361301,
+        4499222.380735184
       ],
       "polygonUTM": [
         [
-          296386.91972151067,
-          4499200.057281767
+          296402.9481616378,
+          4499213.472558502
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296385.08083416836,
-          4499211.158790959
+          296405.9093593505,
+          4499226.395863077
         ],
         [
-          296385.61993190536,
-          4499220.480117026
+          296410.66633066186,
+          4499236.315093386
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296395.51171608904,
-          4499203.294362731
+          296413.7614631701,
+          4499213.157893647
         ],
         [
-          296393.4103933133,
-          4499197.50190517
+          296408.8800788164,
+          4499207.783944559
         ]
       ],
-      "width": 17.771961285208818,
-      "depth": 23.137708860449493,
+      "width": 17.593651957809925,
+      "depth": 28.53114882670343,
       "height": 2.3,
       "evidence": "Plànol de 1748, F: Corral del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1856,45 +2056,45 @@
       ],
       "alongAzimuthDegrees": 0,
       "anchor": [
-        296388.0509531866,
-        4499208.694031168
+        296408.044361301,
+        4499222.380735184
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 8.81468584340232,
+      "technicalBaseElevation": 7.400250188306773,
       "footprintUTM": [
         [
-          296386.91972151067,
-          4499200.057281767
+          296402.9481616378,
+          4499213.472558502
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296385.08083416836,
-          4499211.158790959
+          296405.9093593505,
+          4499226.395863077
         ],
         [
-          296385.61993190536,
-          4499220.480117026
+          296410.66633066186,
+          4499236.315093386
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296395.51171608904,
-          4499203.294362731
+          296413.7614631701,
+          4499213.157893647
         ],
         [
-          296393.4103933133,
-          4499197.50190517
+          296408.8800788164,
+          4499207.783944559
         ]
       ]
     },
@@ -1904,43 +2104,43 @@
       "kind": "enclosure",
       "fromYear": 1778,
       "utmAnchor": [
-        296381.17363326746,
-        4499218.735296634
+        296405.03936560964,
+        4499236.402007588
       ],
       "polygonUTM": [
         [
-          296385.01821917586,
-          4499211.287170719
+          296405.89853135956,
+          4499226.563805788
         ],
         [
-          296376.6847492547,
-          4499211.592941997
+          296396.9517119263,
+          4499230.624588844
         ],
         [
-          296377.28507734736,
-          4499223.884136046
+          296403.1038211726,
+          4499243.753625246
         ],
         [
-          296381.469828387,
-          4499223.938686352
+          296407.6896529348,
+          4499241.9412831
         ],
         [
-          296381.2802182717,
-          4499220.906203375
+          296406.1265722876,
+          4499238.720649019
         ],
         [
-          296385.30370716803,
-          4499220.802641313
+          296410.4659039769,
+          4499236.808093532
         ]
       ],
-      "width": 8.618957913306076,
-      "depth": 12.651515632867813,
+      "width": 13.514192050555721,
+      "depth": 17.189819457940757,
       "height": 2.3,
       "evidence": "Plànol de 1748, F: Corral petit del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -1971,37 +2171,37 @@
       ],
       "alongAzimuthDegrees": 0,
       "anchor": [
-        296381.17363326746,
-        4499218.735296634
+        296405.03936560964,
+        4499236.402007588
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.288187492255148,
+      "technicalBaseElevation": 7.978444975615254,
       "footprintUTM": [
         [
-          296385.01821917586,
-          4499211.287170719
+          296405.89853135956,
+          4499226.563805788
         ],
         [
-          296376.6847492547,
-          4499211.592941997
+          296396.9517119263,
+          4499230.624588844
         ],
         [
-          296377.28507734736,
-          4499223.884136046
+          296403.1038211726,
+          4499243.753625246
         ],
         [
-          296381.469828387,
-          4499223.938686352
+          296407.6896529348,
+          4499241.9412831
         ],
         [
-          296381.2802182717,
-          4499220.906203375
+          296406.1265722876,
+          4499238.720649019
         ],
         [
-          296385.30370716803,
-          4499220.802641313
+          296410.4659039769,
+          4499236.808093532
         ]
       ]
     },
@@ -2011,31 +2211,31 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296391.85707500804,
-        4499210.570265708
+        296413.0323058799,
+        4499222.723409587
       ],
       "lineUTM": [
         [
-          296395.4459513218,
-          4499203.103367979
+          296413.60434844875,
+          4499212.979122944
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ]
       ],
-      "width": 6.566509529133327,
-      "depth": 17.536246052011847,
+      "width": 3.0885898856213316,
+      "depth": 22.051873840391636,
       "height": 2.6,
       "evidence": "Plànol de 1748, F: Mur del recinte sobre el cantell. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -2054,29 +2254,29 @@
       ],
       "alongAzimuthDegrees": 0,
       "anchor": [
-        296391.85707500804,
-        4499210.570265708
+        296413.0323058799,
+        4499222.723409587
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 8.737923196560075,
+      "technicalBaseElevation": 6.407832319730444,
       "footprintUTM": [
         [
-          296388.5738202435,
-          4499201.802142682
+          296411.4880109371,
+          4499211.697472666
         ],
         [
-          296395.1403297726,
-          4499201.802142682
+          296414.57660082274,
+          4499211.697472666
         ],
         [
-          296395.1403297726,
-          4499219.338388734
+          296414.57660082274,
+          4499233.749346507
         ],
         [
-          296388.5738202435,
-          4499219.338388734
+          296411.4880109371,
+          4499233.749346507
         ]
       ]
     },
@@ -2086,39 +2286,39 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296383.09813742776,
-        4499199.258128856
+        296398.42513222294,
+        4499214.310832916
       ],
       "lineUTM": [
         [
-          296388.935239369,
-          4499184.194887504
+          296398.049991032,
+          4499195.280823327
         ],
         [
-          296387.07883801556,
-          4499190.28190188
+          296398.74915841786,
+          4499202.746098604
         ],
         [
-          296386.8868391271,
-          4499199.961784391
+          296402.86960427713,
+          4499213.383173151
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296374.85001582315,
-          4499213.399707956
+          296395.759979807,
+          4499233.414647008
         ]
       ],
-      "width": 14.085223545844201,
-      "depth": 29.20482045225799,
+      "width": 7.109624470118433,
+      "depth": 38.133823681622744,
       "height": 2.6,
       "evidence": "Plànol de 1748, F: Mur diagonal del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "planLetter": "F",
       "planPixels": [
@@ -2145,29 +2345,29 @@
       ],
       "alongAzimuthDegrees": 0,
       "anchor": [
-        296383.09813742776,
-        4499199.258128856
+        296398.42513222294,
+        4499214.310832916
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 8.797446609022035,
+      "technicalBaseElevation": 8.475113290816363,
       "footprintUTM": [
         [
-          296376.0555256548,
-          4499184.65571863
+          296394.8703199879,
+          4499195.243921075
         ],
         [
-          296390.1407492007,
-          4499184.65571863
+          296401.979944458,
+          4499195.243921075
         ],
         [
-          296390.1407492007,
-          4499213.860539082
+          296401.979944458,
+          4499233.377744757
         ],
         [
-          296376.0555256548,
-          4499213.860539082
+          296394.8703199879,
+          4499233.377744757
         ]
       ]
     },
@@ -2177,79 +2377,79 @@
       "kind": "wallline",
       "fromYear": 1778,
       "utmAnchor": [
-        296431.11004454753,
-        4499163.085723354
+        296434.57912020176,
+        4499153.407142959
       ],
       "lineUTM": [
         [
-          296454.6892151818,
-          4499163.5835520355
+          296460.5033906789,
+          4499143.403025016
         ],
         [
-          296453.81990897184,
-          4499156.405499952
+          296456.34515570465,
+          4499135.967689993
         ],
         [
-          296440.66470412473,
-          4499160.080642728
+          296443.6496743526,
+          4499145.857850873
         ],
         [
-          296440.0399388363,
-          4499158.2661925815
+          296442.1570844995,
+          4499144.159529192
         ],
         [
-          296437.84349918517,
-          4499159.022487405
+          296440.1012214126,
+          4499145.966348489
         ],
         [
-          296438.4024997064,
-          4499160.6459428
+          296441.43669654435,
+          4499147.485899466
         ],
         [
-          296430.34783772746,
-          4499163.312565645
+          296433.84976964886,
+          4499153.995332412
         ],
         [
-          296429.85460197343,
-          4499161.880105003
+          296432.67140923854,
+          4499152.654552138
         ],
         [
-          296427.6581623223,
-          4499162.636399826
+          296430.6155461517,
+          4499154.461371435
         ],
         [
-          296428.1513980763,
-          4499164.068860468
+          296431.79390656203,
+          4499155.802151709
         ],
         [
-          296420.2877308496,
-          4499166.669718548
+          296424.3857503698,
+          4499162.154469933
         ],
         [
-          296419.8273774792,
-          4499165.332755282
+          296423.28594732017,
+          4499160.903075011
         ],
         [
-          296417.4399430758,
-          4499166.154814871
+          296421.0513135301,
+          4499162.867009029
         ],
         [
-          296417.96606121346,
-          4499167.68277289
+          296422.30823130114,
+          4499164.297174654
         ],
         [
-          296409.65778948966,
-          4499170.543540264
+          296414.5317057116,
+          4499171.131665034
         ]
       ],
-      "width": 45.031425692141056,
-      "depth": 14.13804031163454,
+      "width": 45.97168496728409,
+      "depth": 35.16397504135966,
       "height": 3,
       "evidence": "Plànol de 1748, A–G: Muralla de la meseta amb tres baluards. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "towersUTM": [
         [
@@ -2329,30 +2529,33 @@
         ]
       ],
       "alongAzimuthDegrees": 0,
+      "toYear": 1779,
+      "replacedBy": "battery",
+      "replacementNote": "Amb el registre de 09/11/2026 la muralla de 1748 coincideix amb el flanc SW de la bateria; a partir del 1780 la representa la bateria.",
       "anchor": [
-        296431.11004454753,
-        4499163.085723354
+        296434.57912020176,
+        4499153.407142959
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 7.799722635387439,
+      "technicalBaseElevation": 6.5946035865736,
       "footprintUTM": [
         [
-          296408.59433170146,
-          4499156.016703198
+          296411.5932777181,
+          4499135.825155438
         ],
         [
-          296453.6257573936,
-          4499156.016703198
+          296457.5649626854,
+          4499135.825155438
         ],
         [
-          296453.6257573936,
-          4499170.154743509
+          296457.5649626854,
+          4499170.989130479
         ],
         [
-          296408.59433170146,
-          4499170.154743509
+          296411.5932777181,
+          4499170.989130479
         ]
       ]
     },
@@ -2382,60 +2585,60 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296379.3716897274,
-        4499225.756035239
+        296406.21553941595,
+        4499244.860695653
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296381.6013579214,
-          4499224.320675856
+          296408.0038823776,
+          4499242.298824507
         ],
         [
-          296377.13011475326,
-          4499224.364772702
+          296403.1498945605,
+          4499244.346838734
         ],
         [
-          296377.12558034173,
-          4499227.143645934
+          296404.38791777403,
+          4499247.377874122
         ],
         [
-          296381.6297058934,
-          4499227.195046465
+          296409.3204629518,
+          4499245.419245247
         ]
       ],
-      "width": 4.504125551669858,
-      "depth": 2.8743706084787846,
+      "width": 6.170568391273264,
+      "depth": 5.079049615189433,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "anchor": [
-        296379.3716897274,
-        4499225.756035239
+        296406.21553941595,
+        4499244.860695653
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.482475551008196,
+      "technicalBaseElevation": 8.073084048226503,
       "footprintUTM": [
         [
-          296381.6013579214,
-          4499224.320675856
+          296408.0038823776,
+          4499242.298824507
         ],
         [
-          296377.13011475326,
-          4499224.364772702
+          296403.1498945605,
+          4499244.346838734
         ],
         [
-          296377.12558034173,
-          4499227.143645934
+          296404.38791777403,
+          4499247.377874122
         ],
         [
-          296381.6297058934,
-          4499227.195046465
+          296409.3204629518,
+          4499245.419245247
         ]
       ]
     },
@@ -2465,60 +2668,60 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296386.46876458003,
-        4499225.58223478
+        296413.87370188814,
+        4499241.496791208
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296388.65732979454,
-          4499224.027503678
+          296415.56384814886,
+          4499238.823188374
         ],
         [
-          296384.21896901,
-          4499224.167097899
+          296410.78841769247,
+          4499240.960587951
         ],
         [
-          296384.2801993656,
-          4499227.136965883
+          296412.18355562736,
+          4499244.1703940425
         ],
         [
-          296388.71856015007,
-          4499226.9973716615
+          296416.95898608374,
+          4499242.032994465
         ]
       ],
-      "width": 4.499591140076518,
-      "depth": 3.1094622053205967,
+      "width": 6.170568391273264,
+      "depth": 5.34720566868782,
       "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra occidental. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "anchor": [
-        296386.46876458003,
-        4499225.58223478
+        296413.87370188814,
+        4499241.496791208
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.57574289119969,
+      "technicalBaseElevation": 7.605597240523192,
       "footprintUTM": [
         [
-          296388.65732979454,
-          4499224.027503678
+          296415.56384814886,
+          4499238.823188374
         ],
         [
-          296384.21896901,
-          4499224.167097899
+          296410.78841769247,
+          4499240.960587951
         ],
         [
-          296384.2801993656,
-          4499227.136965883
+          296412.18355562736,
+          4499244.1703940425
         ],
         [
-          296388.71856015007,
-          4499226.9973716615
+          296416.95898608374,
+          4499242.032994465
         ]
       ]
     },
@@ -2548,60 +2751,60 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296381.10377800616,
-        4499228.925023447
+        296409.5209984899,
+        4499247.540185133
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296383.4175732057,
-          4499227.113532824
+          296411.2328007325,
+          4499244.530696873
         ],
         [
-          296378.7553352853,
-          4499227.223394436
+          296406.20004221227,
+          4499246.735825822
         ],
         [
-          296378.78998280666,
-          4499230.736514068
+          296407.80919624737,
+          4499250.5496733915
         ],
         [
-          296383.452220727,
-          4499230.626652457
+          296412.84195476765,
+          4499248.344544444
         ]
       ],
-      "width": 4.696885441662744,
-      "depth": 3.6229812437668443,
+      "width": 6.641912555380259,
+      "depth": 6.018976518884301,
       "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "anchor": [
-        296381.10377800616,
-        4499228.925023447
+        296409.5209984899,
+        4499247.540185133
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.60754541269215,
+      "technicalBaseElevation": 7.994339464651901,
       "footprintUTM": [
         [
-          296383.4175732057,
-          4499227.113532824
+          296411.2328007325,
+          4499244.530696873
         ],
         [
-          296378.7553352853,
-          4499227.223394436
+          296406.20004221227,
+          4499246.735825822
         ],
         [
-          296378.78998280666,
-          4499230.736514068
+          296407.80919624737,
+          4499250.5496733915
         ],
         [
-          296383.452220727,
-          4499230.626652457
+          296412.84195476765,
+          4499248.344544444
         ]
       ]
     },
@@ -2631,60 +2834,60 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296382.41671101924,
-        4499232.505387608
+        296412.5535778697,
+        4499250.855564135
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296386.14189613215,
-          4499231.302818275
+          296416.07617826486,
+          4499247.878505422
         ],
         [
-          296378.60528760374,
-          4499231.44102786
+          296407.9229990051,
+          4499251.400214944
         ],
         [
-          296378.7228334025,
-          4499233.643767061
+          296409.03639147,
+          4499253.748651492
         ],
         [
-          296386.1968269384,
-          4499233.633937236
+          296417.17874273885,
+          4499250.394884682
         ]
       ],
-      "width": 7.591539334680419,
-      "depth": 2.3409487856552005,
+      "width": 9.255743733723648,
+      "depth": 5.8701460706070065,
       "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra meridional. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "anchor": [
-        296382.41671101924,
-        4499232.505387608
+        296412.5535778697,
+        4499250.855564135
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.73159454888169,
+      "technicalBaseElevation": 8.053727274260874,
       "footprintUTM": [
         [
-          296386.14189613215,
-          4499231.302818275
+          296416.07617826486,
+          4499247.878505422
         ],
         [
-          296378.60528760374,
-          4499231.44102786
+          296407.9229990051,
+          4499251.400214944
         ],
         [
-          296378.7228334025,
-          4499233.643767061
+          296409.03639147,
+          4499253.748651492
         ],
         [
-          296386.1968269384,
-          4499233.633937236
+          296417.17874273885,
+          4499250.394884682
         ]
       ]
     },
@@ -2714,60 +2917,60 @@
         ]
       ],
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "utmAnchor": [
-        296375.0581784273,
-        4499219.122999941
+        296398.54685832304,
+        4499239.559998784
       ],
       "alongAzimuthDegrees": 0,
       "polygonUTM": [
         [
-          296377.7275362059,
-          4499213.690734496
+          296399.026687277,
+          4499232.44477985
         ],
         [
-          296372.9995335184,
-          4499213.609601357
+          296393.83681403537,
+          4499234.471138094
         ],
         [
-          296372.21426708816,
-          4499224.66877884
+          296397.9275373462,
+          4499246.877025115
         ],
         [
-          296377.29137689667,
-          4499224.52288507
+          296403.3963946335,
+          4499244.447052076
         ]
       ],
-      "width": 5.513269117742311,
-      "depth": 11.059177483431995,
+      "width": 9.55958059814293,
+      "depth": 14.432245265692472,
       "evidence": "Plànol de 1748, F: Corral oriental del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
       "anchor": [
-        296375.0581784273,
-        4499219.122999941
+        296398.54685832304,
+        4499239.559998784
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 9.255433390590422,
+      "technicalBaseElevation": 8.727808679033302,
       "footprintUTM": [
         [
-          296377.7275362059,
-          4499213.690734496
+          296399.026687277,
+          4499232.44477985
         ],
         [
-          296372.9995335184,
-          4499213.609601357
+          296393.83681403537,
+          4499234.471138094
         ],
         [
-          296372.21426708816,
-          4499224.66877884
+          296397.9275373462,
+          4499246.877025115
         ],
         [
-          296377.29137689667,
-          4499224.52288507
+          296403.3963946335,
+          4499244.447052076
         ]
       ]
     },
@@ -2775,16 +2978,92 @@
       "id": "hort-monges",
       "name": "Horts de les Monges",
       "kind": "garden",
-      "fromYear": 1794,
+      "fromYear": 1781,
       "height": 1,
-      "evidence": "N112 il·l.4 i referència aportada per Josep. Recinte relacional C, sense parcel·lari històric mesurat.",
-      "townAnchor": [
-        113.78382610051722,
-        -130.84671912898796
+      "evidence": "N112: hort de les monges reduït després de les obres de la bateria i de la rampa llarga (1780–1781); la queixa de 1796 recorda els tres jornals originals. Recinte C entre els carrers actuals de la Mare de Déu de la Ràpita, de l’Arsenal i del Pou de les Figueretes.",
+      "width": 92.49,
+      "depth": 61.32,
+      "layoutSource": "Mapa topogràfic ICGC 1:1.000 (vores conservades al parcel·lari) i N112; revisió 08/11/2026",
+      "utmAnchor": [
+        296450.922,
+        4499206.283
       ],
-      "width": 74.32383192694475,
-      "depth": 46.76004924711047,
-      "townPolygon": [
+      "polygonUTM": [
+        [
+          296425,
+          4499240
+        ],
+        [
+          296457,
+          4499237.5
+        ],
+        [
+          296463,
+          4499228
+        ],
+        [
+          296466,
+          4499208
+        ],
+        [
+          296505,
+          4499204
+        ],
+        [
+          296498,
+          4499170
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
+        ]
+      ],
+      "areaM2": 2942,
+      "previousTownPolygon": [
         [
           80.56956709311035,
           -109.38365659578608
@@ -2810,65 +3089,267 @@
           -127.84722083883587
         ]
       ],
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
-      "polygonUTM": [
-        [
-          296429.9226871089,
-          4499235.073435558
-        ],
-        [
-          296496.6472619006,
-          4499214.125740724
-        ],
-        [
-          296482.12389506894,
-          4499170.512565928
-        ],
-        [
-          296445.344645206,
-          4499182.3362531485
-        ],
-        [
-          296423.34826841124,
-          4499203.363345385
-        ],
-        [
-          296420.1789555915,
-          4499218.901023984
-        ]
+      "previousTownAnchor": [
+        113.78382610051722,
+        -130.84671912898796
       ],
+      "revisedPolygon20261108": true,
+      "geometryConfidence": "C",
       "anchor": [
-        296454.3396963172,
-        4499203.966206237
+        296450.922,
+        4499206.283
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 2.2647886990610346,
+      "technicalBaseElevation": 2.3883124981148818,
       "footprintUTM": [
         [
-          296429.9226871089,
-          4499235.073435558
+          296425,
+          4499240
         ],
         [
-          296496.6472619006,
-          4499214.125740724
+          296457,
+          4499237.5
         ],
         [
-          296482.12389506894,
-          4499170.512565928
+          296463,
+          4499228
         ],
         [
-          296445.344645206,
-          4499182.3362531485
+          296466,
+          4499208
         ],
         [
-          296423.34826841124,
-          4499203.363345385
+          296505,
+          4499204
         ],
         [
-          296420.1789555915,
-          4499218.901023984
+          296498,
+          4499170
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
+        ]
+      ]
+    },
+    {
+      "id": "hort-monges-1778",
+      "name": "Horts de les Monges · tres jornals (abans de 1781)",
+      "kind": "garden",
+      "fromYear": 1778,
+      "toYear": 1780,
+      "height": 1,
+      "utmAnchor": [
+        296455.7,
+        4499210.144
+      ],
+      "width": 106.21,
+      "depth": 87.98,
+      "polygonUTM": [
+        [
+          296424,
+          4499244
+        ],
+        [
+          296456,
+          4499243
+        ],
+        [
+          296468,
+          4499244
+        ],
+        [
+          296520,
+          4499244
+        ],
+        [
+          296526,
+          4499214
+        ],
+        [
+          296506,
+          4499168
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
+        ]
+      ],
+      "areaM2": 5936,
+      "revisedPolygon20261108": true,
+      "evidence": "Queixa de 1796 (N112): l’hort tenia tres jornals abans de les obres. 3 jornals de Tortosa = 6.570 m²; el polígon C en fa uns 5.900 i arriba fins al roquer de la costa («raconada del roquer… on batia la mar»).",
+      "layoutSource": "Mapa topogràfic ICGC 1:1.000 i N112; revisió 08/11/2026",
+      "geometryConfidence": "C",
+      "anchor": [
+        296455.7,
+        4499210.144
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.8928478493055305,
+      "footprintUTM": [
+        [
+          296424,
+          4499244
+        ],
+        [
+          296456,
+          4499243
+        ],
+        [
+          296468,
+          4499244
+        ],
+        [
+          296520,
+          4499244
+        ],
+        [
+          296526,
+          4499214
+        ],
+        [
+          296506,
+          4499168
+        ],
+        [
+          296476,
+          4499166.1
+        ],
+        [
+          296468.4,
+          4499176
+        ],
+        [
+          296459.8,
+          4499184.4
+        ],
+        [
+          296456,
+          4499196.1
+        ],
+        [
+          296449.8,
+          4499200.1
+        ],
+        [
+          296440.1,
+          4499201
+        ],
+        [
+          296434.5,
+          4499203.9
+        ],
+        [
+          296429.3,
+          4499208
+        ],
+        [
+          296425.3,
+          4499212.9
+        ],
+        [
+          296421.3,
+          4499218
+        ],
+        [
+          296420.4,
+          4499226.6
+        ],
+        [
+          296421.7,
+          4499232.5
         ]
       ]
     },
@@ -2878,11 +3359,11 @@
       "kind": "retaining-wall",
       "fromYear": 1794,
       "utmAnchor": [
-        296473.1647641013,
-        4499315.79073124
+        296484.5122900319,
+        4499410.611139806
       ],
-      "width": 104.73216920904815,
-      "depth": 333.3696726830676,
+      "width": 82.03711734793615,
+      "depth": 143.72885554935783,
       "height": 3,
       "thickness": 1.3,
       "baseWidth": 1.8,
@@ -2928,36 +3409,6 @@
             296502.26305305475,
             4499338.746712032
           ]
-        ],
-        [
-          [
-            296429.9226871089,
-            4499235.073435558
-          ],
-          [
-            296421.03882460936,
-            4499218.886014914
-          ],
-          [
-            296420.7986794968,
-            4499205.128110629
-          ],
-          [
-            296426.5926265786,
-            4499192.125011874
-          ],
-          [
-            296442.68999280484,
-            4499178.081935269
-          ],
-          [
-            296459.6622371185,
-            4499164.88371861
-          ],
-          [
-            296476.5894542236,
-            4499149.105894898
-          ]
         ]
       ],
       "referencePixels": [
@@ -3002,7 +3453,44 @@
             333,
             285
           ]
-        ],
+        ]
+      ],
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "evidence": "N112 il·l.4, núm.24; art.24 p.233 i p.222: mur de maçoneria i terraplens per sostenir la població. Dos trams traçats sobre el croquis; secció i cotes d’assaig C.",
+      "limits": "No és una muralla defensiva. Traça relacional C; gruix, perfil i cotes històriques desconeguts. El coronament segueix la cota del terreny interior.",
+      "retiredLinesUTM": [
+        [
+          [
+            296429.9226871089,
+            4499235.073435558
+          ],
+          [
+            296421.03882460936,
+            4499218.886014914
+          ],
+          [
+            296420.7986794968,
+            4499205.128110629
+          ],
+          [
+            296426.5926265786,
+            4499192.125011874
+          ],
+          [
+            296442.68999280484,
+            4499178.081935269
+          ],
+          [
+            296459.6622371185,
+            4499164.88371861
+          ],
+          [
+            296476.5894542236,
+            4499149.105894898
+          ]
+        ]
+      ],
+      "retiredReferencePixels": [
         [
           [
             251,
@@ -3034,17 +3522,15 @@
           ]
         ]
       ],
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
-      "evidence": "N112 il·l.4, núm.24; art.24 p.233 i p.222: mur de maçoneria i terraplens per sostenir la població. Dos trams traçats sobre el croquis; secció i cotes d’assaig C.",
-      "limits": "No és una muralla defensiva. Traça relacional C; gruix, perfil i cotes històriques desconeguts. El coronament segueix la cota del terreny interior.",
+      "retiredNote": "Tram dels Horts de les Monges retirat el 09/11/2026: travessava la rampa i els horts, a 50–70 m de l’escarpament del MDT. El sosteniment d’aquest tram és el mur de la rampa llarga (mur-rampa-figueretes).",
       "anchor": [
-        296473.1647641013,
-        4499315.79073124
+        296484.5122900319,
+        4499410.611139806
       ],
       "historicalFootprint": null,
       "historicalHeight": null,
       "inventoryIncrement": 0,
-      "technicalBaseElevation": 5.639651928091247,
+      "technicalBaseElevation": 5.741209936790305,
       "footprintUTM": [],
       "accessRoutes": [
         {
@@ -3157,45 +3643,170 @@
         },
         {
           "id": "rampa-roquer",
-          "name": "Baixada del Pou de les Figueretes",
+          "name": "Rampa llarga del Pou de les Figueretes",
           "kind": "ramp",
-          "fromYear": 1794,
-          "width": 4,
-          "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+          "fromYear": 1778,
+          "width": 3.6,
+          "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
           "utmPoints": [
             [
-              296404.0215530871,
-              4499229.504624519
+              296423.934,
+              4499247.626
             ],
             [
-              296416.48432533804,
-              4499204.3432869585
+              296420.169,
+              4499240.638
             ],
             [
-              296435.751004384,
-              4499174.762531754
+              296417.4,
+              4499233.882
             ],
             [
-              296465.26106629637,
-              4499140.702322624
+              296415.975,
+              4499227.213
+            ],
+            [
+              296415.693,
+              4499221.124
+            ],
+            [
+              296417.383,
+              4499215.837
+            ],
+            [
+              296421.804,
+              4499210.051
+            ],
+            [
+              296426.19154989166,
+              4499204.768389186
+            ],
+            [
+              296432.058,
+              4499200.087
+            ],
+            [
+              296438.6,
+              4499196.715
+            ],
+            [
+              296444.139,
+              4499195.807
+            ],
+            [
+              296448.785,
+              4499195.685
+            ],
+            [
+              296452.016,
+              4499193.954
+            ],
+            [
+              296456,
+              4499182
+            ],
+            [
+              296465,
+              4499173
+            ],
+            [
+              296472,
+              4499164
+            ],
+            [
+              296474,
+              4499156
+            ],
+            [
+              296470,
+              4499143
+            ],
+            [
+              296464.50086275785,
+              4499136.308361412
             ]
           ],
+          "positionSource": {
+            "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+            "precisionMeters": 15
+          },
+          "wellOnAxis": "well",
           "points": [
             [
-              296404.0215530871,
-              4499229.504624519
+              296423.934,
+              4499247.626
             ],
             [
-              296416.48432533804,
-              4499204.3432869585
+              296420.169,
+              4499240.638
             ],
             [
-              296435.751004384,
-              4499174.762531754
+              296417.4,
+              4499233.882
             ],
             [
-              296465.26106629637,
-              4499140.702322624
+              296415.975,
+              4499227.213
+            ],
+            [
+              296415.693,
+              4499221.124
+            ],
+            [
+              296417.383,
+              4499215.837
+            ],
+            [
+              296421.804,
+              4499210.051
+            ],
+            [
+              296426.19154989166,
+              4499204.768389186
+            ],
+            [
+              296432.058,
+              4499200.087
+            ],
+            [
+              296438.6,
+              4499196.715
+            ],
+            [
+              296444.139,
+              4499195.807
+            ],
+            [
+              296448.785,
+              4499195.685
+            ],
+            [
+              296452.016,
+              4499193.954
+            ],
+            [
+              296456,
+              4499182
+            ],
+            [
+              296465,
+              4499173
+            ],
+            [
+              296472,
+              4499164
+            ],
+            [
+              296474,
+              4499156
+            ],
+            [
+              296470,
+              4499143
+            ],
+            [
+              296464.50086275785,
+              4499136.308361412
             ]
           ],
           "historicalWidth": null,
@@ -6946,1736 +7557,531 @@
             296501.6735013706,
             4499339.939988535
           ]
-        ],
-        [
-          [
-            296430.711676653,
-            4499234.640428053
-          ],
-          [
-            296430.2441049425,
-            4499233.788458546
-          ],
-          [
-            296428.6661258543,
-            4499234.654473555
-          ],
-          [
-            296429.13369756483,
-            4499235.506443063
-          ]
-        ],
-        [
-          [
-            296430.2441049425,
-            4499233.788458546
-          ],
-          [
-            296429.776533232,
-            4499232.936489038
-          ],
-          [
-            296428.19855414383,
-            4499233.802504048
-          ],
-          [
-            296428.6661258543,
-            4499234.654473555
-          ]
-        ],
-        [
-          [
-            296429.776533232,
-            4499232.936489038
-          ],
-          [
-            296429.3089615215,
-            4499232.084519531
-          ],
-          [
-            296427.7309824333,
-            4499232.95053454
-          ],
-          [
-            296428.19855414383,
-            4499233.802504048
-          ]
-        ],
-        [
-          [
-            296429.3089615215,
-            4499232.084519531
-          ],
-          [
-            296428.841389811,
-            4499231.232550023
-          ],
-          [
-            296427.26341072284,
-            4499232.098565033
-          ],
-          [
-            296427.7309824333,
-            4499232.95053454
-          ]
-        ],
-        [
-          [
-            296428.841389811,
-            4499231.232550023
-          ],
-          [
-            296428.3738181005,
-            4499230.380580516
-          ],
-          [
-            296426.7958390123,
-            4499231.246595525
-          ],
-          [
-            296427.26341072284,
-            4499232.098565033
-          ]
-        ],
-        [
-          [
-            296428.3738181005,
-            4499230.380580516
-          ],
-          [
-            296427.90624639,
-            4499229.528611008
-          ],
-          [
-            296426.32826730184,
-            4499230.394626018
-          ],
-          [
-            296426.7958390123,
-            4499231.246595525
-          ]
-        ],
-        [
-          [
-            296427.90624639,
-            4499229.528611008
-          ],
-          [
-            296427.4386746795,
-            4499228.676641501
-          ],
-          [
-            296425.8606955913,
-            4499229.54265651
-          ],
-          [
-            296426.32826730184,
-            4499230.394626018
-          ]
-        ],
-        [
-          [
-            296427.4386746795,
-            4499228.676641501
-          ],
-          [
-            296426.97110296896,
-            4499227.824671993
-          ],
-          [
-            296425.3931238808,
-            4499228.690687003
-          ],
-          [
-            296425.8606955913,
-            4499229.54265651
-          ]
-        ],
-        [
-          [
-            296426.97110296896,
-            4499227.824671993
-          ],
-          [
-            296426.5035312585,
-            4499226.9727024855
-          ],
-          [
-            296424.9255521703,
-            4499227.838717495
-          ],
-          [
-            296425.3931238808,
-            4499228.690687003
-          ]
-        ],
-        [
-          [
-            296426.5035312585,
-            4499226.9727024855
-          ],
-          [
-            296426.03595954797,
-            4499226.120732977
-          ],
-          [
-            296424.4579804598,
-            4499226.986747987
-          ],
-          [
-            296424.9255521703,
-            4499227.838717495
-          ]
-        ],
-        [
-          [
-            296426.03595954797,
-            4499226.120732977
-          ],
-          [
-            296425.5683878375,
-            4499225.2687634695
-          ],
-          [
-            296423.9904087493,
-            4499226.134778479
-          ],
-          [
-            296424.4579804598,
-            4499226.986747987
-          ]
-        ],
-        [
-          [
-            296425.5683878375,
-            4499225.2687634695
-          ],
-          [
-            296425.100816127,
-            4499224.416793962
-          ],
-          [
-            296423.5228370388,
-            4499225.282808972
-          ],
-          [
-            296423.9904087493,
-            4499226.134778479
-          ]
-        ],
-        [
-          [
-            296425.100816127,
-            4499224.416793962
-          ],
-          [
-            296424.63324441644,
-            4499223.5648244545
-          ],
-          [
-            296423.05526532826,
-            4499224.430839464
-          ],
-          [
-            296423.5228370388,
-            4499225.282808972
-          ]
-        ],
-        [
-          [
-            296424.63324441644,
-            4499223.5648244545
-          ],
-          [
-            296424.165672706,
-            4499222.712854947
-          ],
-          [
-            296422.5876936178,
-            4499223.578869957
-          ],
-          [
-            296423.05526532826,
-            4499224.430839464
-          ]
-        ],
-        [
-          [
-            296424.165672706,
-            4499222.712854947
-          ],
-          [
-            296423.69810099545,
-            4499221.860885439
-          ],
-          [
-            296422.12012190727,
-            4499222.726900449
-          ],
-          [
-            296422.5876936178,
-            4499223.578869957
-          ]
-        ],
-        [
-          [
-            296423.69810099545,
-            4499221.860885439
-          ],
-          [
-            296423.230529285,
-            4499221.008915932
-          ],
-          [
-            296421.6525501968,
-            4499221.8749309415
-          ],
-          [
-            296422.12012190727,
-            4499222.726900449
-          ]
-        ],
-        [
-          [
-            296423.230529285,
-            4499221.008915932
-          ],
-          [
-            296422.76295757445,
-            4499220.156946424
-          ],
-          [
-            296421.1849784863,
-            4499221.022961434
-          ],
-          [
-            296421.6525501968,
-            4499221.8749309415
-          ]
-        ],
-        [
-          [
-            296422.76295757445,
-            4499220.156946424
-          ],
-          [
-            296422.295385864,
-            4499219.304976917
-          ],
-          [
-            296420.7174067758,
-            4499220.170991926
-          ],
-          [
-            296421.1849784863,
-            4499221.022961434
-          ]
-        ],
-        [
-          [
-            296422.295385864,
-            4499219.304976917
-          ],
-          [
-            296421.82781415345,
-            4499218.453007409
-          ],
-          [
-            296420.2498350653,
-            4499219.319022419
-          ],
-          [
-            296420.7174067758,
-            4499220.170991926
-          ]
-        ],
-        [
-          [
-            296421.938687535,
-            4499218.870307748
-          ],
-          [
-            296421.92153431266,
-            4499217.887600299
-          ],
-          [
-            296420.1218084614,
-            4499217.919014631
-          ],
-          [
-            296420.1389616837,
-            4499218.90172208
-          ]
-        ],
-        [
-          [
-            296421.92153431266,
-            4499217.887600299
-          ],
-          [
-            296421.90438109037,
-            4499216.904892851
-          ],
-          [
-            296420.1046552391,
-            4499216.936307183
-          ],
-          [
-            296420.1218084614,
-            4499217.919014631
-          ]
-        ],
-        [
-          [
-            296421.90438109037,
-            4499216.904892851
-          ],
-          [
-            296421.887227868,
-            4499215.922185401
-          ],
-          [
-            296420.08750201674,
-            4499215.953599733
-          ],
-          [
-            296420.1046552391,
-            4499216.936307183
-          ]
-        ],
-        [
-          [
-            296421.887227868,
-            4499215.922185401
-          ],
-          [
-            296421.8700746457,
-            4499214.939477952
-          ],
-          [
-            296420.0703487944,
-            4499214.970892284
-          ],
-          [
-            296420.08750201674,
-            4499215.953599733
-          ]
-        ],
-        [
-          [
-            296421.8700746457,
-            4499214.939477952
-          ],
-          [
-            296421.8529214234,
-            4499213.956770503
-          ],
-          [
-            296420.0531955721,
-            4499213.988184835
-          ],
-          [
-            296420.0703487944,
-            4499214.970892284
-          ]
-        ],
-        [
-          [
-            296421.8529214234,
-            4499213.956770503
-          ],
-          [
-            296421.83576820104,
-            4499212.974063055
-          ],
-          [
-            296420.03604234976,
-            4499213.0054773865
-          ],
-          [
-            296420.0531955721,
-            4499213.988184835
-          ]
-        ],
-        [
-          [
-            296421.83576820104,
-            4499212.974063055
-          ],
-          [
-            296421.8186149787,
-            4499211.991355605
-          ],
-          [
-            296420.0188891274,
-            4499212.022769937
-          ],
-          [
-            296420.03604234976,
-            4499213.0054773865
-          ]
-        ],
-        [
-          [
-            296421.8186149787,
-            4499211.991355605
-          ],
-          [
-            296421.8014617564,
-            4499211.008648156
-          ],
-          [
-            296420.0017359051,
-            4499211.040062488
-          ],
-          [
-            296420.0188891274,
-            4499212.022769937
-          ]
-        ],
-        [
-          [
-            296421.8014617564,
-            4499211.008648156
-          ],
-          [
-            296421.78430853406,
-            4499210.025940708
-          ],
-          [
-            296419.9845826828,
-            4499210.05735504
-          ],
-          [
-            296420.0017359051,
-            4499211.040062488
-          ]
-        ],
-        [
-          [
-            296421.78430853406,
-            4499210.025940708
-          ],
-          [
-            296421.76715531177,
-            4499209.043233259
-          ],
-          [
-            296419.9674294605,
-            4499209.0746475905
-          ],
-          [
-            296419.9845826828,
-            4499210.05735504
-          ]
-        ],
-        [
-          [
-            296421.76715531177,
-            4499209.043233259
-          ],
-          [
-            296421.7500020894,
-            4499208.060525809
-          ],
-          [
-            296419.95027623815,
-            4499208.091940141
-          ],
-          [
-            296419.9674294605,
-            4499209.0746475905
-          ]
-        ],
-        [
-          [
-            296421.7500020894,
-            4499208.060525809
-          ],
-          [
-            296421.7328488671,
-            4499207.07781836
-          ],
-          [
-            296419.9331230158,
-            4499207.109232692
-          ],
-          [
-            296419.95027623815,
-            4499208.091940141
-          ]
-        ],
-        [
-          [
-            296421.7328488671,
-            4499207.07781836
-          ],
-          [
-            296421.7156956448,
-            4499206.095110912
-          ],
-          [
-            296419.9159697935,
-            4499206.126525244
-          ],
-          [
-            296419.9331230158,
-            4499207.109232692
-          ]
-        ],
-        [
-          [
-            296421.7156956448,
-            4499206.095110912
-          ],
-          [
-            296421.69854242244,
-            4499205.112403463
-          ],
-          [
-            296419.89881657116,
-            4499205.1438177945
-          ],
-          [
-            296419.9159697935,
-            4499206.126525244
-          ]
-        ],
-        [
-          [
-            296421.62076244043,
-            4499205.4944160115
-          ],
-          [
-            296422.0070255792,
-            4499204.627542761
-          ],
-          [
-            296420.36285969196,
-            4499203.894931995
-          ],
-          [
-            296419.97659655317,
-            4499204.761805246
-          ]
-        ],
-        [
-          [
-            296422.0070255792,
-            4499204.627542761
-          ],
-          [
-            296422.393288718,
-            4499203.760669511
-          ],
-          [
-            296420.74912283075,
-            4499203.028058745
-          ],
-          [
-            296420.36285969196,
-            4499203.894931995
-          ]
-        ],
-        [
-          [
-            296432.30616429605,
-            4499188.334957909
-          ],
-          [
-            296433.0378627609,
-            4499187.696636246
-          ],
-          [
-            296431.8545658335,
-            4499186.340240882
-          ],
-          [
-            296431.1228673687,
-            4499186.978562545
-          ]
-        ],
-        [
-          [
-            296433.0378627609,
-            4499187.696636246
-          ],
-          [
-            296433.7695612257,
-            4499187.058314581
-          ],
-          [
-            296432.58626429836,
-            4499185.701919218
-          ],
-          [
-            296431.8545658335,
-            4499186.340240882
-          ]
-        ],
-        [
-          [
-            296433.7695612257,
-            4499187.058314581
-          ],
-          [
-            296434.50125969056,
-            4499186.419992917
-          ],
-          [
-            296433.3179627632,
-            4499185.063597553
-          ],
-          [
-            296432.58626429836,
-            4499185.701919218
-          ]
-        ],
-        [
-          [
-            296434.50125969056,
-            4499186.419992917
-          ],
-          [
-            296435.2329581554,
-            4499185.781671254
-          ],
-          [
-            296434.049661228,
-            4499184.42527589
-          ],
-          [
-            296433.3179627632,
-            4499185.063597553
-          ]
-        ],
-        [
-          [
-            296435.2329581554,
-            4499185.781671254
-          ],
-          [
-            296435.9646566202,
-            4499185.14334959
-          ],
-          [
-            296434.78135969286,
-            4499183.786954226
-          ],
-          [
-            296434.049661228,
-            4499184.42527589
-          ]
-        ],
-        [
-          [
-            296435.9646566202,
-            4499185.14334959
-          ],
-          [
-            296436.69635508506,
-            4499184.505027926
-          ],
-          [
-            296435.5130581577,
-            4499183.148632562
-          ],
-          [
-            296434.78135969286,
-            4499183.786954226
-          ]
-        ],
-        [
-          [
-            296436.69635508506,
-            4499184.505027926
-          ],
-          [
-            296437.4280535499,
-            4499183.866706261
-          ],
-          [
-            296436.24475662253,
-            4499182.510310898
-          ],
-          [
-            296435.5130581577,
-            4499183.148632562
-          ]
-        ],
-        [
-          [
-            296437.4280535499,
-            4499183.866706261
-          ],
-          [
-            296438.15975201473,
-            4499183.228384598
-          ],
-          [
-            296436.97645508737,
-            4499181.871989234
-          ],
-          [
-            296436.24475662253,
-            4499182.510310898
-          ]
-        ],
-        [
-          [
-            296438.15975201473,
-            4499183.228384598
-          ],
-          [
-            296438.89145047957,
-            4499182.590062934
-          ],
-          [
-            296437.7081535522,
-            4499181.23366757
-          ],
-          [
-            296436.97645508737,
-            4499181.871989234
-          ]
-        ],
-        [
-          [
-            296438.89145047957,
-            4499182.590062934
-          ],
-          [
-            296439.62314894435,
-            4499181.95174127
-          ],
-          [
-            296438.439852017,
-            4499180.595345906
-          ],
-          [
-            296437.7081535522,
-            4499181.23366757
-          ]
-        ],
-        [
-          [
-            296439.62314894435,
-            4499181.95174127
-          ],
-          [
-            296440.3548474092,
-            4499181.313419607
-          ],
-          [
-            296439.1715504818,
-            4499179.957024243
-          ],
-          [
-            296438.439852017,
-            4499180.595345906
-          ]
-        ],
-        [
-          [
-            296440.3548474092,
-            4499181.313419607
-          ],
-          [
-            296441.086545874,
-            4499180.675097942
-          ],
-          [
-            296439.90324894665,
-            4499179.318702579
-          ],
-          [
-            296439.1715504818,
-            4499179.957024243
-          ]
-        ],
-        [
-          [
-            296441.086545874,
-            4499180.675097942
-          ],
-          [
-            296441.81824433885,
-            4499180.036776278
-          ],
-          [
-            296440.6349474115,
-            4499178.680380914
-          ],
-          [
-            296439.90324894665,
-            4499179.318702579
-          ]
-        ],
-        [
-          [
-            296441.81824433885,
-            4499180.036776278
-          ],
-          [
-            296442.5499428037,
-            4499179.398454615
-          ],
-          [
-            296441.3666458763,
-            4499178.042059251
-          ],
-          [
-            296440.6349474115,
-            4499178.680380914
-          ]
-        ],
-        [
-          [
-            296442.5499428037,
-            4499179.398454615
-          ],
-          [
-            296443.2816412685,
-            4499178.760132951
-          ],
-          [
-            296442.09834434115,
-            4499177.403737587
-          ],
-          [
-            296441.3666458763,
-            4499178.042059251
-          ]
-        ],
-        [
-          [
-            296443.2424762929,
-            4499178.79240131
-          ],
-          [
-            296444.0139419435,
-            4499178.192482371
-          ],
-          [
-            296442.90897496743,
-            4499176.771550288
-          ],
-          [
-            296442.1375093168,
-            4499177.371469228
-          ]
-        ],
-        [
-          [
-            296444.0139419435,
-            4499178.192482371
-          ],
-          [
-            296444.7854075941,
-            4499177.592563432
-          ],
-          [
-            296443.680440618,
-            4499176.171631349
-          ],
-          [
-            296442.90897496743,
-            4499176.771550288
-          ]
-        ],
-        [
-          [
-            296444.7854075941,
-            4499177.592563432
-          ],
-          [
-            296445.55687324476,
-            4499176.992644493
-          ],
-          [
-            296444.45190626866,
-            4499175.57171241
-          ],
-          [
-            296443.680440618,
-            4499176.171631349
-          ]
-        ],
-        [
-          [
-            296445.55687324476,
-            4499176.992644493
-          ],
-          [
-            296446.3283388954,
-            4499176.392725554
-          ],
-          [
-            296445.2233719193,
-            4499174.971793472
-          ],
-          [
-            296444.45190626866,
-            4499175.57171241
-          ]
-        ],
-        [
-          [
-            296446.3283388954,
-            4499176.392725554
-          ],
-          [
-            296447.099804546,
-            4499175.792806615
-          ],
-          [
-            296445.9948375699,
-            4499174.371874533
-          ],
-          [
-            296445.2233719193,
-            4499174.971793472
-          ]
-        ],
-        [
-          [
-            296447.099804546,
-            4499175.792806615
-          ],
-          [
-            296447.8712701966,
-            4499175.192887676
-          ],
-          [
-            296446.76630322053,
-            4499173.7719555935
-          ],
-          [
-            296445.9948375699,
-            4499174.371874533
-          ]
-        ],
-        [
-          [
-            296447.8712701966,
-            4499175.192887676
-          ],
-          [
-            296448.6427358472,
-            4499174.592968737
-          ],
-          [
-            296447.5377688711,
-            4499173.172036654
-          ],
-          [
-            296446.76630322053,
-            4499173.7719555935
-          ]
-        ],
-        [
-          [
-            296448.6427358472,
-            4499174.592968737
-          ],
-          [
-            296449.41420149786,
-            4499173.993049798
-          ],
-          [
-            296448.30923452176,
-            4499172.572117715
-          ],
-          [
-            296447.5377688711,
-            4499173.172036654
-          ]
-        ],
-        [
-          [
-            296449.41420149786,
-            4499173.993049798
-          ],
-          [
-            296450.1856671485,
-            4499173.393130858
-          ],
-          [
-            296449.0807001724,
-            4499171.972198776
-          ],
-          [
-            296448.30923452176,
-            4499172.572117715
-          ]
-        ],
-        [
-          [
-            296450.1856671485,
-            4499173.393130858
-          ],
-          [
-            296450.9571327991,
-            4499172.793211919
-          ],
-          [
-            296449.852165823,
-            4499171.372279837
-          ],
-          [
-            296449.0807001724,
-            4499171.972198776
-          ]
-        ],
-        [
-          [
-            296450.9571327991,
-            4499172.793211919
-          ],
-          [
-            296451.7285984497,
-            4499172.19329298
-          ],
-          [
-            296450.62363147363,
-            4499170.772360898
-          ],
-          [
-            296449.852165823,
-            4499171.372279837
-          ]
-        ],
-        [
-          [
-            296451.7285984497,
-            4499172.19329298
-          ],
-          [
-            296452.5000641004,
-            4499171.593374042
-          ],
-          [
-            296451.3950971243,
-            4499170.172441959
-          ],
-          [
-            296450.62363147363,
-            4499170.772360898
-          ]
-        ],
-        [
-          [
-            296452.5000641004,
-            4499171.593374042
-          ],
-          [
-            296453.27152975096,
-            4499170.993455103
-          ],
-          [
-            296452.16656277486,
-            4499169.57252302
-          ],
-          [
-            296451.3950971243,
-            4499170.172441959
-          ]
-        ],
-        [
-          [
-            296453.27152975096,
-            4499170.993455103
-          ],
-          [
-            296454.0429954016,
-            4499170.3935361635
-          ],
-          [
-            296452.9380284255,
-            4499168.972604081
-          ],
-          [
-            296452.16656277486,
-            4499169.57252302
-          ]
-        ],
-        [
-          [
-            296454.0429954016,
-            4499170.3935361635
-          ],
-          [
-            296454.81446105224,
-            4499169.793617224
-          ],
-          [
-            296453.70949407615,
-            4499168.372685142
-          ],
-          [
-            296452.9380284255,
-            4499168.972604081
-          ]
-        ],
-        [
-          [
-            296454.81446105224,
-            4499169.793617224
-          ],
-          [
-            296455.5859267028,
-            4499169.193698285
-          ],
-          [
-            296454.48095972673,
-            4499167.772766203
-          ],
-          [
-            296453.70949407615,
-            4499168.372685142
-          ]
-        ],
-        [
-          [
-            296455.5859267028,
-            4499169.193698285
-          ],
-          [
-            296456.3573923535,
-            4499168.593779346
-          ],
-          [
-            296455.2524253774,
-            4499167.1728472635
-          ],
-          [
-            296454.48095972673,
-            4499167.772766203
-          ]
-        ],
-        [
-          [
-            296456.3573923535,
-            4499168.593779346
-          ],
-          [
-            296457.12885800406,
-            4499167.993860407
-          ],
-          [
-            296456.02389102796,
-            4499166.572928324
-          ],
-          [
-            296455.2524253774,
-            4499167.1728472635
-          ]
-        ],
-        [
-          [
-            296457.12885800406,
-            4499167.993860407
-          ],
-          [
-            296457.9003236547,
-            4499167.393941469
-          ],
-          [
-            296456.7953566786,
-            4499165.973009386
-          ],
-          [
-            296456.02389102796,
-            4499166.572928324
-          ]
-        ],
-        [
-          [
-            296457.9003236547,
-            4499167.393941469
-          ],
-          [
-            296458.67178930534,
-            4499166.794022529
-          ],
-          [
-            296457.56682232925,
-            4499165.373090447
-          ],
-          [
-            296456.7953566786,
-            4499165.973009386
-          ]
-        ],
-        [
-          [
-            296458.67178930534,
-            4499166.794022529
-          ],
-          [
-            296459.4432549559,
-            4499166.19410359
-          ],
-          [
-            296458.33828797983,
-            4499164.773171508
-          ],
-          [
-            296457.56682232925,
-            4499165.373090447
-          ]
-        ],
-        [
-          [
-            296459.4432549559,
-            4499166.19410359
-          ],
-          [
-            296460.2147206066,
-            4499165.594184651
-          ],
-          [
-            296459.1097536305,
-            4499164.173252569
-          ],
-          [
-            296458.33828797983,
-            4499164.773171508
-          ]
-        ],
-        [
-          [
-            296460.27588872344,
-            4499165.542073915
-          ],
-          [
-            296460.98118943616,
-            4499164.884664593
-          ],
-          [
-            296459.75388622633,
-            4499163.567953983
-          ],
-          [
-            296459.0485855136,
-            4499164.225363305
-          ]
-        ],
-        [
-          [
-            296460.98118943616,
-            4499164.884664593
-          ],
-          [
-            296461.68649014883,
-            4499164.227255272
-          ],
-          [
-            296460.459186939,
-            4499162.910544662
-          ],
-          [
-            296459.75388622633,
-            4499163.567953983
-          ]
-        ],
-        [
-          [
-            296461.68649014883,
-            4499164.227255272
-          ],
-          [
-            296462.39179086155,
-            4499163.569845951
-          ],
-          [
-            296461.1644876517,
-            4499162.253135341
-          ],
-          [
-            296460.459186939,
-            4499162.910544662
-          ]
-        ],
-        [
-          [
-            296462.39179086155,
-            4499163.569845951
-          ],
-          [
-            296463.0970915743,
-            4499162.91243663
-          ],
-          [
-            296461.86978836445,
-            4499161.59572602
-          ],
-          [
-            296461.1644876517,
-            4499162.253135341
-          ]
-        ],
-        [
-          [
-            296463.0970915743,
-            4499162.91243663
-          ],
-          [
-            296463.802392287,
-            4499162.255027308
-          ],
-          [
-            296462.5750890772,
-            4499160.938316698
-          ],
-          [
-            296461.86978836445,
-            4499161.59572602
-          ]
-        ],
-        [
-          [
-            296463.802392287,
-            4499162.255027308
-          ],
-          [
-            296464.50769299973,
-            4499161.597617987
-          ],
-          [
-            296463.2803897899,
-            4499160.280907377
-          ],
-          [
-            296462.5750890772,
-            4499160.938316698
-          ]
-        ],
-        [
-          [
-            296464.50769299973,
-            4499161.597617987
-          ],
-          [
-            296465.2129937124,
-            4499160.940208665
-          ],
-          [
-            296463.98569050257,
-            4499159.623498055
-          ],
-          [
-            296463.2803897899,
-            4499160.280907377
-          ]
-        ],
-        [
-          [
-            296465.2129937124,
-            4499160.940208665
-          ],
-          [
-            296465.9182944251,
-            4499160.2827993445
-          ],
-          [
-            296464.6909912153,
-            4499158.966088735
-          ],
-          [
-            296463.98569050257,
-            4499159.623498055
-          ]
-        ],
-        [
-          [
-            296465.9182944251,
-            4499160.2827993445
-          ],
-          [
-            296466.62359513785,
-            4499159.625390023
-          ],
-          [
-            296465.396291928,
-            4499158.308679413
-          ],
-          [
-            296464.6909912153,
-            4499158.966088735
-          ]
-        ],
-        [
-          [
-            296466.62359513785,
-            4499159.625390023
-          ],
-          [
-            296467.3288958505,
-            4499158.9679807015
-          ],
-          [
-            296466.1015926407,
-            4499157.6512700915
-          ],
-          [
-            296465.396291928,
-            4499158.308679413
-          ]
-        ],
-        [
-          [
-            296467.3288958505,
-            4499158.9679807015
-          ],
-          [
-            296468.03419656324,
-            4499158.31057138
-          ],
-          [
-            296466.8068933534,
-            4499156.99386077
-          ],
-          [
-            296466.1015926407,
-            4499157.6512700915
-          ]
-        ],
-        [
-          [
-            296468.03419656324,
-            4499158.31057138
-          ],
-          [
-            296468.73949727596,
-            4499157.653162058
-          ],
-          [
-            296467.51219406613,
-            4499156.3364514485
-          ],
-          [
-            296466.8068933534,
-            4499156.99386077
-          ]
-        ],
-        [
-          [
-            296468.73949727596,
-            4499157.653162058
-          ],
-          [
-            296469.4447979887,
-            4499156.995752738
-          ],
-          [
-            296468.21749477886,
-            4499155.679042128
-          ],
-          [
-            296467.51219406613,
-            4499156.3364514485
-          ]
-        ],
-        [
-          [
-            296469.4447979887,
-            4499156.995752738
-          ],
-          [
-            296470.1500987014,
-            4499156.338343416
-          ],
-          [
-            296468.9227954916,
-            4499155.021632806
-          ],
-          [
-            296468.21749477886,
-            4499155.679042128
-          ]
-        ],
-        [
-          [
-            296470.1500987014,
-            4499156.338343416
-          ],
-          [
-            296470.8553994141,
-            4499155.680934095
-          ],
-          [
-            296469.62809620425,
-            4499154.364223485
-          ],
-          [
-            296468.9227954916,
-            4499155.021632806
-          ]
-        ],
-        [
-          [
-            296470.8553994141,
-            4499155.680934095
-          ],
-          [
-            296471.5607001268,
-            4499155.023524773
-          ],
-          [
-            296470.333396917,
-            4499153.706814163
-          ],
-          [
-            296469.62809620425,
-            4499154.364223485
-          ]
-        ],
-        [
-          [
-            296471.5607001268,
-            4499155.023524773
-          ],
-          [
-            296472.26600083953,
-            4499154.366115453
-          ],
-          [
-            296471.0386976297,
-            4499153.049404843
-          ],
-          [
-            296470.333396917,
-            4499153.706814163
-          ]
-        ],
-        [
-          [
-            296472.26600083953,
-            4499154.366115453
-          ],
-          [
-            296472.9713015522,
-            4499153.708706131
-          ],
-          [
-            296471.74399834237,
-            4499152.391995521
-          ],
-          [
-            296471.0386976297,
-            4499153.049404843
-          ]
-        ],
-        [
-          [
-            296472.9713015522,
-            4499153.708706131
-          ],
-          [
-            296473.6766022649,
-            4499153.05129681
-          ],
-          [
-            296472.4492990551,
-            4499151.7345862
-          ],
-          [
-            296471.74399834237,
-            4499152.391995521
-          ]
-        ],
-        [
-          [
-            296473.6766022649,
-            4499153.05129681
-          ],
-          [
-            296474.38190297765,
-            4499152.393887488
-          ],
-          [
-            296473.1545997678,
-            4499151.077176878
-          ],
-          [
-            296472.4492990551,
-            4499151.7345862
-          ]
-        ],
-        [
-          [
-            296474.38190297765,
-            4499152.393887488
-          ],
-          [
-            296475.0872036904,
-            4499151.736478167
-          ],
-          [
-            296473.85990048054,
-            4499150.419767557
-          ],
-          [
-            296473.1545997678,
-            4499151.077176878
-          ]
-        ],
-        [
-          [
-            296475.0872036904,
-            4499151.736478167
-          ],
-          [
-            296475.7925044031,
-            4499151.079068846
-          ],
-          [
-            296474.56520119327,
-            4499149.762358236
-          ],
-          [
-            296473.85990048054,
-            4499150.419767557
-          ]
-        ],
-        [
-          [
-            296475.7925044031,
-            4499151.079068846
-          ],
-          [
-            296476.49780511577,
-            4499150.421659525
-          ],
-          [
-            296475.27050190594,
-            4499149.104948915
-          ],
-          [
-            296474.56520119327,
-            4499149.762358236
-          ]
-        ],
-        [
-          [
-            296476.49780511577,
-            4499150.421659525
-          ],
-          [
-            296477.2031058285,
-            4499149.764250203
-          ],
-          [
-            296475.97580261866,
-            4499148.447539593
-          ],
-          [
-            296475.27050190594,
-            4499149.104948915
-          ]
         ]
       ]
+    },
+    {
+      "id": "casa-bous",
+      "name": "Casa dels Bous de l’Horta Vella",
+      "kind": "farmhouse",
+      "fromYear": 1778,
+      "utmAnchor": [
+        297160,
+        4500330
+      ],
+      "width": 12,
+      "depth": 7.5,
+      "height": 5.6,
+      "alongAzimuthDegrees": 10,
+      "positionSource": {
+        "text": "Topònim «Horta Vella» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL), entre la població i el camí del Pas, a l’est del canal. Posició indicativa de partida: no s’han recuperat les afrontacions del procés de 1796.",
+        "precisionMeters": 300
+      },
+      "evidence": "N112 p.203 i nota 45: masia amb corrals annexos, arrendada per les monges, anterior a les obres, a l’Horta Vella dins de l’heretat de les Santjoanistes, entre el poble i el camí del Pas. Planta, alçat i corral són C; emplaçament per topònim de partida.",
+      "flag": true,
+      "anchor": [
+        297160,
+        4500330
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 1.0037693580985083,
+      "footprintUTM": [
+        [
+          297153.4399728157,
+          4500327.348859992
+        ],
+        [
+          297165.25766585185,
+          4500325.26508186
+        ],
+        [
+          297166.5600271843,
+          4500332.651140008
+        ],
+        [
+          297154.74233414815,
+          4500334.73491814
+        ]
+      ]
+    },
+    {
+      "id": "rajolar-rabosa",
+      "name": "Rajolar de la Rabosa",
+      "kind": "brickworks",
+      "fromYear": 1786,
+      "utmAnchor": [
+        297700,
+        4500300
+      ],
+      "width": 26,
+      "depth": 18,
+      "height": 3.6,
+      "alongAzimuthDegrees": 5,
+      "positionSource": {
+        "text": "Partida de «la Rabosa» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL). Punt indicatiu dins la partida, sobre terra baixa d’argila; no és un solar documentat.",
+        "precisionMeters": 350
+      },
+      "evidence": "N112 p.223 nota 94: reclamació de 1796 d’una teuleria anomenada «lo Rajolà», amb dos forns i una casa, feta uns deu anys abans (cap al 1786), a la partida de la Rabosa en terres de les Santjoanistes. Dos forns de tipus mediterrani, casa i era d’assecat són C.",
+      "flag": true,
+      "anchor": [
+        297700,
+        4500300
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 0.6095887470059116,
+      "footprintUTM": [
+        [
+          297686.2650672401,
+          4500292.167272372
+        ],
+        [
+          297712.1661293905,
+          4500289.901223062
+        ],
+        [
+          297713.7349327599,
+          4500307.832727628
+        ],
+        [
+          297687.8338706095,
+          4500310.098776938
+        ]
+      ]
+    },
+    {
+      "id": "pedrera-guardiola",
+      "name": "Pedrera de la Guardiola i caseta",
+      "kind": "quarry",
+      "fromYear": 1780,
+      "utmAnchor": [
+        295880,
+        4499662
+      ],
+      "width": 30,
+      "depth": 18,
+      "height": 2.6,
+      "alongAzimuthDegrees": -75,
+      "positionSource": {
+        "text": "Peu del front oriental de la Guardiola, on el MDT actual mostra un tall i una plataforma a uns 40 m. Aquest front pot incloure extraccions posteriors; el punt de la caseta és indicatiu.",
+        "precisionMeters": 80
+      },
+      "evidence": "N112 p.223–224: pedrera de la Guardiola i camí per transportar la pedra travessant la devesa (actual Constància) fins al Cóc i les rampes; caseta al peu de la pedrera esmentada entre obres no incloses a l’inventari. Fronts, caseta i aplecs de pedra són C.",
+      "flag": true,
+      "anchor": [
+        295880,
+        4499662
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 39.026414084434506,
+      "footprintUTM": [
+        [
+          295884.81104676006,
+          4499645.181741199
+        ],
+        [
+          295892.57561811316,
+          4499674.159515989
+        ],
+        [
+          295875.18895323994,
+          4499678.818258801
+        ],
+        [
+          295867.42438188684,
+          4499649.840484011
+        ]
+      ]
+    },
+    {
+      "id": "mur-rampa-figueretes",
+      "name": "Mur de contenció de la rampa llarga",
+      "kind": "retaining-wall",
+      "fromYear": 1786,
+      "utmAnchor": [
+        296442.461,
+        4499196.4035
+      ],
+      "width": 58.29999999998836,
+      "depth": 104.72100000083447,
+      "height": 2.6,
+      "thickness": 1,
+      "baseWidth": 1.4,
+      "retainingLinesUTM": [
+        [
+          [
+            296421.821,
+            4499248.764
+          ],
+          [
+            296418.001,
+            4499241.668
+          ],
+          [
+            296415.109,
+            4499234.598
+          ],
+          [
+            296413.596,
+            4499227.531
+          ],
+          [
+            296413.311,
+            4499220.829
+          ],
+          [
+            296415.282,
+            4499214.677
+          ],
+          [
+            296419.926,
+            4499208.557
+          ],
+          [
+            296424.519,
+            4499203.047
+          ],
+          [
+            296430.751,
+            4499198.074
+          ],
+          [
+            296437.799,
+            4499194.453
+          ],
+          [
+            296443.898,
+            4499193.419
+          ],
+          [
+            296448.235,
+            4499193.349
+          ],
+          [
+            296449.893,
+            4499192.835
+          ],
+          [
+            296453.96,
+            4499180.736
+          ],
+          [
+            296463.206,
+            4499171.406
+          ],
+          [
+            296469.879,
+            4499162.877
+          ],
+          [
+            296471.611,
+            4499156.228
+          ],
+          [
+            296467.838,
+            4499144.043
+          ]
+        ]
+      ],
+      "evidence": "N112 art.23 p.221 i p.233: la rampa es reforçà amb un mur de contenció en tota la llargada, que també protegia els vianants (uns 6 m de desnivell al punt més alt). Traça paral·lela a l’eix C; alçària adaptada al terreny actual.",
+      "layoutSource": "Plànol de 1748 (redibuix) i N112 art.23",
+      "geometryConfidence": "C",
+      "anchor": [
+        296442.461,
+        4499196.4035
+      ],
+      "historicalFootprint": null,
+      "historicalHeight": null,
+      "inventoryIncrement": 0,
+      "technicalBaseElevation": 3.431594336891513,
+      "footprintUTM": [],
+      "accessRoutes": [
+        {
+          "id": "rampa-nord",
+          "name": "Baixada del Cóc a la dàrsena petita",
+          "kind": "ramp",
+          "fromYear": 1794,
+          "width": 5,
+          "utmPoints": [
+            [
+              296496.803657557,
+              4499321.639386091
+            ],
+            [
+              296514.0460651223,
+              4499323.918811755
+            ],
+            [
+              296516.9602237598,
+              4499293.763359852
+            ],
+            [
+              296530.432955724,
+              4499277.1857034005
+            ],
+            [
+              296543.0608277399,
+              4499261.482925037
+            ]
+          ],
+          "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric. Ajust relacional N112 il·l.4 (01/11/2026).",
+          "points": [
+            [
+              296496.803657557,
+              4499321.639386091
+            ],
+            [
+              296514.0460651223,
+              4499323.918811755
+            ],
+            [
+              296516.9602237598,
+              4499293.763359852
+            ],
+            [
+              296530.432955724,
+              4499277.1857034005
+            ],
+            [
+              296543.0608277399,
+              4499261.482925037
+            ]
+          ],
+          "historicalWidth": null,
+          "positionConfidence": "C"
+        },
+        {
+          "id": "rampa-sud",
+          "name": "Baixada del Cóc al port",
+          "kind": "ramp",
+          "fromYear": 1794,
+          "width": 5,
+          "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C. Ajust relacional N112 il·l.4 (01/11/2026).",
+          "utmPoints": [
+            [
+              296485.9899300483,
+              4499293.443817338
+            ],
+            [
+              296504.8019849539,
+              4499287.094534683
+            ],
+            [
+              296513.085484672,
+              4499268.887194614
+            ],
+            [
+              296511.02053803694,
+              4499249.1402253425
+            ],
+            [
+              296499.60209569253,
+              4499235.577438961
+            ]
+          ],
+          "points": [
+            [
+              296485.9899300483,
+              4499293.443817338
+            ],
+            [
+              296504.8019849539,
+              4499287.094534683
+            ],
+            [
+              296513.085484672,
+              4499268.887194614
+            ],
+            [
+              296511.02053803694,
+              4499249.1402253425
+            ],
+            [
+              296499.60209569253,
+              4499235.577438961
+            ]
+          ],
+          "historicalWidth": null,
+          "positionConfidence": "C"
+        },
+        {
+          "id": "rampa-roquer",
+          "name": "Rampa llarga del Pou de les Figueretes",
+          "kind": "ramp",
+          "fromYear": 1778,
+          "width": 3.6,
+          "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
+          "utmPoints": [
+            [
+              296423.934,
+              4499247.626
+            ],
+            [
+              296420.169,
+              4499240.638
+            ],
+            [
+              296417.4,
+              4499233.882
+            ],
+            [
+              296415.975,
+              4499227.213
+            ],
+            [
+              296415.693,
+              4499221.124
+            ],
+            [
+              296417.383,
+              4499215.837
+            ],
+            [
+              296421.804,
+              4499210.051
+            ],
+            [
+              296426.19154989166,
+              4499204.768389186
+            ],
+            [
+              296432.058,
+              4499200.087
+            ],
+            [
+              296438.6,
+              4499196.715
+            ],
+            [
+              296444.139,
+              4499195.807
+            ],
+            [
+              296448.785,
+              4499195.685
+            ],
+            [
+              296452.016,
+              4499193.954
+            ],
+            [
+              296456,
+              4499182
+            ],
+            [
+              296465,
+              4499173
+            ],
+            [
+              296472,
+              4499164
+            ],
+            [
+              296474,
+              4499156
+            ],
+            [
+              296470,
+              4499143
+            ],
+            [
+              296464.50086275785,
+              4499136.308361412
+            ]
+          ],
+          "positionSource": {
+            "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+            "precisionMeters": 15
+          },
+          "wellOnAxis": "well",
+          "points": [
+            [
+              296423.934,
+              4499247.626
+            ],
+            [
+              296420.169,
+              4499240.638
+            ],
+            [
+              296417.4,
+              4499233.882
+            ],
+            [
+              296415.975,
+              4499227.213
+            ],
+            [
+              296415.693,
+              4499221.124
+            ],
+            [
+              296417.383,
+              4499215.837
+            ],
+            [
+              296421.804,
+              4499210.051
+            ],
+            [
+              296426.19154989166,
+              4499204.768389186
+            ],
+            [
+              296432.058,
+              4499200.087
+            ],
+            [
+              296438.6,
+              4499196.715
+            ],
+            [
+              296444.139,
+              4499195.807
+            ],
+            [
+              296448.785,
+              4499195.685
+            ],
+            [
+              296452.016,
+              4499193.954
+            ],
+            [
+              296456,
+              4499182
+            ],
+            [
+              296465,
+              4499173
+            ],
+            [
+              296472,
+              4499164
+            ],
+            [
+              296474,
+              4499156
+            ],
+            [
+              296470,
+              4499143
+            ],
+            [
+              296464.50086275785,
+              4499136.308361412
+            ]
+          ],
+          "historicalWidth": null,
+          "positionConfidence": "C"
+        }
+      ],
+      "collisionFootprintsUTM": []
     }
   ],
   "privateLedger": {
@@ -8755,7 +8161,17 @@
       "evidence": "N112 il·l.3, zona D; p.223 i art.30 p.234: molí de dues moles al final del canal vell, a la platja del Molinet. El 1794 manca el cos d’edifici per circuir-lo i cobrir-lo. Solar individual no georeferenciat; model d’estudi conservat sense emplaçament al mapa.",
       "placementStatus": "unlocated",
       "historicalCoordinates": null,
-      "reason": "N112 il·l.3, zona D, i p.223; art.30 p.234: el molí és a l’extrem del canal vell, a la platja del Molinet. La posició anterior al costat del braç nou era invàlida. No s’assigna un nou solar sense georeferenciar el testimoni."
+      "reason": "N112 il·l.3, zona D, i p.223; art.30 p.234: el molí és a l’extrem del canal vell, a la platja del Molinet. La posició anterior al costat del braç nou era invàlida. No s’assigna un nou solar sense georeferenciar el testimoni.",
+      "estimatedPosition": {
+        "utm": [
+          298788,
+          4499661
+        ],
+        "precisionMeters": 80,
+        "source": "N112 il·l.3 zona D (extrem sud, vora la Bassa de Rabassa), georeferenciada a docs/CANAL/data/georef-N112-il3.json",
+        "outsideModelledTerrain": true,
+        "note": "El terreny del visor acaba a E 298.350; el molí queda uns 440 m més a llevant i no es pot emplaçar en 3D."
+      }
     }
   ],
   "frame": {

@@ -61,14 +61,6 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 - [N102 · Porxos i estructura descoberta](../fonts-20261031/originals/N102.jpg) · data original no fixada. Variants color/B/N del mateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800.
 - [N081 · Font pública atribuïda a Salvany](../fonts-20261031/originals/N081.jpg) · 1916. Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peu N050. Referència de forma, no estat immòbil des de 1794.
 
-<!-- imatges-afegides-20261102 -->
-
-### Imatges aportades el 2/11/2026
-
-- **CP01** · [Porxos · vista en blanc i negre](porxos_BN.jpg). Vista de les arcades i els cossos sense coberta. Imatge aportada per Josep el 2/11/2026; autoria i data original no fixades.
-- **CP02** · [Plaça de Carles III · vista amb grades](130267878_3381205301992488_7654617715339037590_o.jpg). Vista general de la plaça, els porxos i les grades de fusta. Imatge aportada per Josep el 2/11/2026; autoria i data original no fixades.
-- **CP03** · [Porxos i plaça de bous · reproducció impresa](20210810_190100.jpg). Fotografia d’una pàgina impresa amb una plaça de bous de carros davant del temple. El fitxer porta data digital de 10/8/2021, que no data la fotografia històrica reproduïda; publicació, autoria i data original no fixades.
-
 ## Aplicació al model i treball pendent
 
 - [ ] Revisar la col·locació de les quatre cases rectes: prioritat després d’ajustar el plànol, ja que el model actual pot no seguir la hipòtesi de les quatre a l’oest.

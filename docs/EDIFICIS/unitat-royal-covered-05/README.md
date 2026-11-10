@@ -20,7 +20,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| royal-covered-05 | — | 296352.640 | 4499345.642 | Model d’assaig |
+| royal-covered-05 | — | 296343.709 | 4499344.275 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

@@ -1,53 +1,11 @@
 [
   {
-    "id": "N108",
-    "file": "IGN_planimetria Rapita_1912.jpg",
-    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\IGN_planimetria Rapita_1912.jpg",
-    "bytes": 4367373,
-    "sha256": "5b4c957774ede6fb8c20251a4a681db49e9ca7212d8e7b282e55427b7a6e84fa",
-    "review": "inventariat",
-    "width": 6496,
-    "height": 4725,
-    "exif": {},
-    "title": "Full topogràfic delterme",
-    "witnessDate": "1912-12-30",
-    "kind": "plànol topogràfic",
-    "reviewMethod": "full complet i detall de dates",
-    "reading": "Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N108.jpg"
-  },
-  {
-    "id": "N111",
-    "file": "planimetria ràpita detallat_1913.jpg",
-    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
-    "bytes": 4410878,
-    "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
-    "review": "inventariat",
-    "width": 6259,
-    "height": 4394,
-    "exif": {},
-    "title": "Planimetria delterme amb afegits",
-    "witnessDate": "1913-01-05",
-    "kind": "plànol amb capes",
-    "reviewMethod": "full complet i detalls de notes",
-    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
-  },
-  {
     "id": "FAR-S1",
     "title": "Autoritat Portuària de Tarragona · Cardenal (1875) i història del far",
     "url": "https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita",
     "reading": "Memòria de 19/1/1875: dimensions, acabats i primera llum; reformes de 1920, 1929, 1975 i 1995. La capçalera web diu setembre; el relat de Cardenal fixa novembre.",
     "kind": "text històric i cronologia institucional",
     "witnessDate": "1875-01-19"
-  },
-  {
-    "id": "FAR-S5",
-    "title": "Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita",
-    "url": "https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52",
-    "reading": "Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.",
-    "kind": "plànol històric",
-    "witnessDate": null
   },
   {
     "id": "FAR-S2",
@@ -64,5 +22,47 @@
     "reading": "El paquet aportat transcriu l’avís de primera llum de l’1/11/1864. La data concorda amb el relat de Cardenal.",
     "kind": "avís nàutic contemporani",
     "witnessDate": "1864-10-01"
+  },
+  {
+    "id": "FAR-S5",
+    "title": "Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita",
+    "url": "https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52",
+    "reading": "Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.",
+    "kind": "plànol històric",
+    "witnessDate": null
+  },
+  {
+    "id": "N108",
+    "file": "IGN_planimetria Rapita_1912.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\IGN_planimetria Rapita_1912.jpg",
+    "bytes": 4367373,
+    "sha256": "5b4c957774ede6fb8c20251a4a681db49e9ca7212d8e7b282e55427b7a6e84fa",
+    "review": "inventariat",
+    "width": 6496,
+    "height": 4725,
+    "exif": {},
+    "title": "Full topogràfic delterme",
+    "witnessDate": "1912-12-30",
+    "kind": "plànol topogràfic",
+    "reviewMethod": "full complet i detall de dates",
+    "reading": "Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800.",
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N108.jpg"
+  },
+  {
+    "id": "N111",
+    "file": "planimetria ràpita detallat_1913.jpg",
+    "absolutePath": "A:\\APP MAMA\\JOSEP_descripcions Ràpita-20261031T095755Z-1-001\\JOSEP_descripcions Ràpita\\planimetria ràpita detallat_1913.jpg",
+    "bytes": 4410878,
+    "sha256": "5fccb9778ef052dc6e8e3ef624b5239d25c7b305e196fc829a3fb65af4ad7c67",
+    "review": "inventariat",
+    "width": 6259,
+    "height": 4394,
+    "exif": {},
+    "title": "Planimetria delterme amb afegits",
+    "witnessDate": "1913-01-05",
+    "kind": "plànol amb capes",
+    "reviewMethod": "full complet i detalls de notes",
+    "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N111.jpg"
   }
 ]

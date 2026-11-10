@@ -1,5 +1,7 @@
 /** Three-centred basket arch; dimensions remain study parameters, never a survey. */
-export const PORXO_STUDY={confidence:'C',galleryDepth:3,springHeight:2.45,maximumRise:1.40,riseHalfSpanFactor:.48,voussoirBand:.28,sharedHalfPierWidth:.39,arcadeThickness:.64,rearBodyHeight:5.8,brickPitch:.155,joistSpacing:.48,frontFloorsAdded:false,historicalDimensions:null};
+// Revisió 08/11/2026 amb CP01, N031 i Salvany 1916: pilastres altes i esveltes sobre un sòcol, arcs de carpanell estrets
+// (llum ≈ 2,6 m, ritme ≈ 3,3 m, dos per cos), imposta alta i galeria més fonda amb arcs transversals i bigues.
+export const PORXO_STUDY={confidence:'C',galleryDepth:3.6,springHeight:3.35,maximumRise:1.0,riseHalfSpanFactor:.72,voussoirBand:.28,sharedHalfPierWidth:.36,arcadeThickness:.64,rearBodyHeight:7.0,brickPitch:.155,joistSpacing:.48,arcPitch:3.3,plinthHeight:.85,frontFloorsAdded:false,historicalDimensions:null,revision:'2026-11-08'};
 export function carpanell(a,b,t){
  const r=b*.48,cx=a-r,cy=((b-r)**2-cx**2)/(2*(b-r)),R=b-cy,D=R-r;
  const tx=R*cx/D,ty=cy+R*(-cy)/D,alpha=Math.atan2(ty,tx-cx),beta=Math.atan2(ty-cy,tx);

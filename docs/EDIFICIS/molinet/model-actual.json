@@ -1,7 +1,7 @@
 {
   "entityId": "molinet",
-  "captureDate": "2026-11-08",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
-  "warning": "Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa.",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": []
 }

@@ -8,7 +8,7 @@ Revisió: **31/10/2026** · cos residencial d’assaig. Expedient per a reconstr
 
 ## Col·locació
 
-Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari.
+Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari. Ajust del visor (31/10/2026): Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.
 
 Certesa: B relacional / C mètrica.
 
@@ -20,7 +20,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| royal-small-coast-12 | — | 296452.292 | 4499317.146 | Model d’assaig |
+| royal-small-coast-12 | — | 296491.315 | 4499308.997 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

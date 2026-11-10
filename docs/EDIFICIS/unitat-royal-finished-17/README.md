@@ -20,7 +20,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| royal-finished-17 | — | 296432.255 | 4499401.780 | Model d’assaig |
+| royal-finished-17 | — | 296398.403 | 4499317.290 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

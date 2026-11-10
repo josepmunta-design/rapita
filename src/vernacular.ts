@@ -15,7 +15,7 @@ const texture=(kind:string,relief=false)=>{
 };
 export const roofTexture=()=>texture('tile');
 export function surfaceMaterial(name:string,color:string,kind:string,bumpScale=.015){
- const m=new THREE.MeshStandardMaterial({color,map:texture(kind),bumpMap:texture(kind,true),bumpScale,roughness:1});m.name=name;return m;
+ const m=new THREE.MeshStandardMaterial({color,map:texture(kind),bumpMap:texture(kind,true),bumpScale,roughness:1});m.name=name;m.userData.surfaceKind=kind;return m;
 }
 export function groundQuad(corners:number[][],sample:(x:number,z:number)=>number){
  const width=Math.max(Math.hypot(corners[1][0]-corners[0][0],corners[1][1]-corners[0][1]),Math.hypot(corners[2][0]-corners[3][0],corners[2][1]-corners[3][1]));

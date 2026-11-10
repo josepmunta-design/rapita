@@ -18,8 +18,8 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| cistern | — | 296417.865 | 4499180.109 | Model d’assaig |
-| project-1748-cistern | I | 296418.477 | 4499180.592 | Projecte de 1748 |
+| cistern | — | 296427.756 | 4499177.887 | Model d’assaig |
+| project-1748-cistern | I | 296428.639 | 4499178.140 | Projecte de 1748 |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

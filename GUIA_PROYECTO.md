@@ -544,3 +544,28 @@ Accés: [índex dels expedients](docs/EDIFICIS/INDEX.md) · [lector local](docs/
 - [ ] Individualitzar les cases amb correspondència parcel·lària; les 38 propietats privades mixtes encara no són 38 habitatges identificats.
 - [ ] Acreditar intervals de reforma, ús, ruïna o desaparició, i després vincular les variants al selector fins al 1950. Els testimonis sense data no activen geometria.
 - [ ] Aplicar les descripcions contrastades al model, distingint mesures acreditades i hipòtesis C. La documentació nova no equival a una reconstrucció ja validada.
+
+
+## Catorzena sessió — costa, canal i obres pendents (08/11/2026 · 0.15.0)
+
+- [x] Diagnosticar el tram final: el braç 19 anava per dins del mar perquè la «costa» s’havia traçat sobre el mur 24 i el límit dels Horts de les Monges de N112 il·l.4. La llegenda reserva la línia punteada per a la costa estimada.
+- [x] Aplicar la costa estimada (set punts del croquis amb el mateix registre) i deixar el mur 24 com a peu de l’escarpament (`roquerCoast`). Dàrsena gran i molls segons el croquis; boca del braç 19 a la cantonada NW.
+- [x] Georeferenciar N112 il·l.3 amb quatre topònims ICGC (residus 18–51 m; control Església Nova a 15 m). Zona C = dàrsena del canal i enclusa; zona D = Molinet, fora del terreny.
+- [x] Retirar la badia C del NE: la costa gira a llevant (carta de 1813, Bassa de Rabassa) i passa 8 m al nord dels NoData del MDT perquè no quedin forats. Empalmament horitzontal a les fases del XX.
+- [x] Modelar dàrsena petita (acabada) i enclusa gran (començada, seca, sense portes ni sortida al mar) amb aplecs de carreus. Afegir Casa dels Bous, Rajolar de la Rabosa i Pedrera de la Guardiola amb posicions indicatives per topònim o MDT.
+- [x] Proves noves a `tests/canal-coast-20261108.test.mjs`; proves antigues ajustades només on codificaven la costa superada. Auditoria: 90 grups / 105 petjades amb suport.
+- [ ] Plànol del port de 1782 i original del croquis per a punts de control; N111 (1913) georeferenciat per a la costa nord; mides de la dàrsena petita i l’enclusa; ampliar el terreny a llevant per al Molinet i el canal vell.
+
+Expedient complet, imatges abans/després i georeferència: [docs/CANAL/README.md](docs/CANAL/README.md).
+
+
+## Quinzena sessió — plaça, Cóc i rampa llarga (08/11/2026 · 0.16.0)
+
+- [x] Superposar el model al croquis N112 il·l.4 i identificar els buits: illa 1-3 oriental central absent, porxades separades, església i plaça coberta enrere de la línia de façanes.
+- [x] Reordenar les files conservant 22/7/14 (W-N 11, E central 9 de 8 m de fons, 2 reservades a la Fonda; 7 cobertes tocant l’església; porxades contigües a la font). Fonda i Talavera −10 m cap a la plaça.
+- [x] Recol·locar la duana nova al solar núm. 6 (afrontacions de 1868) i remodelar duana i White amb `src/encoixinat.ts`.
+- [x] Traslladar el tinglado a la hipòtesi de N112 p.215 n.79; entarimat a la plaça coberta.
+- [x] Rampa llarga sobre el camí de 1748 amb el pou G a l’eix, mur de contenció i figueres a banda i banda (`scripts/apply-figueretes-1748.mjs`).
+- [ ] Afrontacions de White; plànol de la plaça de 1782; individualitzar cases privades si apareixen documents.
+
+Detall, fonts i imatges: [docs/1800-1900/PLAZA-20261108.md](docs/1800-1900/PLAZA-20261108.md).

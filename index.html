@@ -31,6 +31,21 @@
         <div class="tabs" role="tablist" aria-label="Tauler d’exploració"><button id="places-tab" role="tab" aria-selected="true" aria-controls="places-panel">Llocs</button><button id="layers-tab" role="tab" aria-selected="false" aria-controls="layers-panel" tabindex="-1">Capes</button><button id="housing-tab" role="tab" aria-selected="false" aria-controls="housing-panel" tabindex="-1">Habitatges</button><button id="building-tab" role="tab" aria-selected="false" aria-controls="building-panel" tabindex="-1">Edificis</button><button id="urban-tab" role="tab" aria-selected="false" aria-controls="urban-panel" tabindex="-1">Trama</button><button id="littoral-tab" role="tab" aria-selected="false" aria-controls="littoral-panel" tabindex="-1">Litoral</button></div>
         <section id="places-panel" role="tabpanel" aria-labelledby="places-tab"><div class="section-label">REFERÈNCIES DE L’ASSENTAMENT</div><nav id="places" aria-label="Punts d’interès"></nav></section>
         <section id="layers-panel" role="tabpanel" aria-labelledby="layers-tab" hidden>
+          <div class="building-tools" id="planicgc-tools">
+            <div class="section-label">MAPA ACTUAL · ICGC</div>
+            <label class="cutaway-label"><input id="planicgc-toggle" type="checkbox" aria-controls="planicgc-controls"> Superposa el mapa actual per comparar els edificis</label>
+            <div id="planicgc-controls" hidden>
+              <label class="height-label" for="planicgc-variant">Mapa</label>
+              <select id="planicgc-variant"></select>
+              <button id="planicgc-focus" class="text-button">Mostra el nucli en planta <span>↗</span></button>
+              <label class="height-label" for="planicgc-opacity">Opacitat <output id="planicgc-opacity-value" for="planicgc-opacity">55 %</output></label>
+              <input id="planicgc-opacity" type="range" min="5" max="100" value="55" step="5">
+              <label class="cutaway-label"><input id="planicgc-paper" type="checkbox" checked> Mostra el fons blanc dels carrers</label>
+              <label class="cutaway-label"><input id="planicgc-above" type="checkbox"> Dibuixa el mapa per sobre dels edificis</label>
+              <a id="planicgc-original" class="text-button" href="data/reference/icgc/topografic-nucli.jpg" target="_blank" rel="noopener">Obre la imatge original ↗</a>
+            </div>
+            <p id="planicgc-status" class="tool-note" role="status"></p>
+          </div>
           <div class="building-tools" id="planport1945-tools">
             <div class="section-label">ORTOFOTO HISTÒRICA · 1945–1946</div>
             <label class="cutaway-label"><input id="planport1945-toggle" type="checkbox" aria-controls="planport1945-controls"> Superposa el mapa del port de 1945–1946</label>
@@ -97,7 +112,7 @@
         <section id="urban-panel" role="tabpanel" aria-labelledby="urban-tab" hidden><div class="building-tools"><p class="building-summary">Carrers, accessos i serveis documentats. <strong>Planta relacional C</strong>; les parcel·les individuals continuen pendents de comprovació.</p><button id="urban-overview" class="text-button">Mostra la trama del poble ↗</button><p id="urban-selection" class="tool-note"></p><div id="casotes-controls" hidden><button id="casotes-historical" class="text-button" aria-pressed="true">Les Casotes · reconstrucció cap al 1858</button><button id="casotes-actual" class="text-button" aria-pressed="false">Les Casotes · compara amb el museu actual ↗</button><button id="casotes-guards" class="text-button" aria-pressed="false">Cases de guarda · distribució hipotètica</button></div><div id="faro-controls" hidden><button id="faro-historical" class="text-button" aria-pressed="true">Far · fase de l’any seleccionat</button><button id="faro-actual" class="text-button" aria-pressed="false">Far · compara amb l’aspecte actual ↗</button></div><a class="text-button" href="/litoral-revisio.html" target="_blank" rel="noreferrer">Edificis i aigua · correccions i fonts ↗</a><button id="urban-evidence" class="text-button">Fonts i registre de propietats →</button><button id="future-evidence" class="text-button">Documents per a les fases fins al 1993 →</button></div><nav id="urban-list" aria-label="Carrers i serveis"></nav></section>
         <section id="littoral-panel" role="tabpanel" aria-labelledby="littoral-tab" hidden>
           <div class="building-tools litoral-intro"><p class="building-summary"><strong>El Roquer i el camí de l’aigua.</strong> Fàbriques parcials i una costa d’estudi, dins del mateix mapa.</p>
-            <div class="littoral-shortcuts"><button id="port-overview">Port ↗</button><button id="roquer-overview">Roquer ↗</button><button id="canal-overview">Canal ↗</button><button id="amposta-view">Amposta ↗</button><button id="mouth-view">Desembocadura ↗</button></div>
+            <div class="littoral-shortcuts"><button id="port-overview">Port ↗</button><button id="roquer-overview">Roquer ↗</button><button id="canal-overview">Canal ↗</button><button id="amposta-view">Amposta ↗</button><button id="mouth-view">Desembocadura ↗</button><button id="dock-view">Dàrsena petita ↗</button></div>
             <div class="model-modes" role="group" aria-label="Base del paisatge"><button id="landscape-study" aria-pressed="true">Litoral · C</button><button id="landscape-measured" aria-pressed="false">MDT actual</button></div>
             <p class="tool-note" id="landscape-note">Costa interpretada; nivell d’aigua tècnic, sense validar la cota històrica.</p>
           </div>
@@ -177,6 +192,23 @@
         <aside id="casotes-comparison-banner" class="placa-photo-banner" hidden><strong id="casotes-comparison-title">Les Casotes · comparació</strong><span id="casotes-comparison-note"></span><button id="casotes-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="faro-comparison-banner" class="placa-photo-banner" hidden><strong>Far de la Ràpita · aspecte actual</strong><span>Comparació fotogràfica · acabats sense data de reforma fixada</span><button id="faro-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="placa-photo-banner" class="placa-photo-banner" hidden><strong>Semicercle i plaça · comparació fotogràfica</strong><span>N030 i fotografies del Palau · data sense confirmar · geometria C</span><button id="placa-photo-exit">Torna a l’any seleccionat</button></aside>
         <div class="map-caption"><span id="map-eyebrow" class="eyebrow">EL TERRITORI COM A DOCUMENT</span><h2 id="map-title">La Ràpita i el seu relleu</h2><span id="map-subtitle">MDT ICGC 2021–2023 / escala vertical real</span></div>
         <div class="view-controls" role="group" aria-label="Vistes de càmera"><button id="view-oblique" aria-pressed="true" title="Vista obliqua">Perspectiva</button><button id="view-village" title="Enquadra el poble i els seus edificis">Poble</button><button id="view-top" aria-pressed="false" title="Vista des de dalt">Planta</button><button id="montsia-view" title="Enquadra la serra del Montsià">Montsià</button><button id="view-walk" aria-pressed="false" title="Recorregut a peu, primera persona">Camina</button><button id="view-full" title="Mostra tota la cobertura">↔ <span>Extensió</span></button><button id="view-territory" hidden>Vista general ↗</button></div>
+        <details id="visual-tools" class="visual-tools">
+          <summary><small>Aspecte</small><span id="visual-summary">Realista · acabats C</span></summary>
+          <div class="visual-options">
+            <div class="visual-modes" role="group" aria-label="Estil de representació">
+              <button id="visual-documental" type="button" aria-pressed="false">Documental</button>
+              <button id="visual-realista" type="button" aria-pressed="true">Realista</button>
+            </div>
+            <label for="visual-light">Llum</label>
+            <select id="visual-light"><option value="mati">Matí clar</option><option value="tarda" selected>Tarda càlida</option><option value="cobert">Cel cobert</option></select>
+            <label for="visual-quality">Qualitat gràfica</label>
+            <select id="visual-quality"><option value="baix">Baixa</option><option value="mitja" selected>Mitjana</option><option value="alta">Alta</option></select>
+            <label class="visual-check"><input id="visual-atmosphere" type="checkbox" checked> Atmosfera a la distància</label>
+            <label class="visual-check"><input id="visual-vegetation" type="checkbox" checked> Vegetació ambiental · C</label>
+            <p id="visual-note">Acabats i llum interpretatius. Mateix any, geometria i fonts documentals.</p>
+            <p id="visual-metrics" class="visual-metrics">Mesurant el rendiment…</p>
+          </div>
+        </details>
         <div class="compass" aria-label="Orientació nord"><span>N</span><div id="north-arrow">↑</div></div>
         <div class="zoom-controls" role="group" aria-label="Zoom"><button id="zoom-in" aria-label="Apropa">+</button><button id="zoom-out" aria-label="Allunya">−</button><button id="reset" aria-label="Restableix la vista" title="Restableix · R">⌂</button></div>
         <article class="feature-card" id="feature-card" aria-live="polite"><div class="card-kicker"><span id="card-number">01 / 06</span><span id="card-category"></span><button id="card-collapse" aria-label="Replega la fitxa" aria-expanded="true">−</button></div><h3 id="card-title"></h3><div id="card-body"><p id="card-description"></p><div class="certainty-row"><span class="certainty" id="certainty"></span><span id="altitude"></span></div><button id="laureano-photo-toggle" class="text-button" aria-pressed="false" hidden>Mostra l’aspecte de les fotografies ↗</button><button id="details-open" class="text-button">Consulta l’evidència i els pendents <span>→</span></button></div></article>

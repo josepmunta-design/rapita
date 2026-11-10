@@ -18,12 +18,12 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| hostal-1748 | B | 296385.876 | 4499200.283 | Model d’assaig |
-| corral-1748-1 | F | 296388.051 | 4499208.694 | Model d’assaig |
-| corral-1748-2 | F | 296381.174 | 4499218.735 | Model d’assaig |
-| corral-1748-3 | F | 296375.058 | 4499219.123 | Model d’assaig |
-| mur-roquer-1748 | F | 296391.857 | 4499210.570 | Model d’assaig |
-| mur-nord-1748 | F | 296383.098 | 4499199.258 | Model d’assaig |
+| hostal-1748 | B | 296401.911 | 4499214.186 | Model d’assaig |
+| corral-1748-1 | F | 296408.044 | 4499222.381 | Model d’assaig |
+| corral-1748-2 | F | 296405.039 | 4499236.402 | Model d’assaig |
+| corral-1748-3 | F | 296398.547 | 4499239.560 | Model d’assaig |
+| mur-roquer-1748 | F | 296413.032 | 4499222.723 | Model d’assaig |
+| mur-nord-1748 | F | 296398.425 | 4499214.311 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

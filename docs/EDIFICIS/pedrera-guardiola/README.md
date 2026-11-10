@@ -14,6 +14,14 @@ Certesa: D posició individual / B relació territorial quan està documentada.
 
 **Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
 
+### Posicions actuals del visor · EPSG:25831
+
+| Model | Lletra | E (m) | N (m) | Estat |
+|---|---|---:|---:|---|
+| pedrera-guardiola | — | 295880.000 | 4499662.000 | Model d’assaig |
+
+Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
+
 ## Descripció documentada
 
 - Pedrera i camí documentats a les reclamacions de les monges; caseta al peu de la pedrera esmentada entre obres no incloses a l’inventari. [N112](../fonts-20261031/originals/N112.pdf) · p.223–224
@@ -43,6 +51,10 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 - Planta històrica georeferenciada amb error d’ajust independent.
 - Alçàries i gruixos mesurats i datació de cada fàbrica.
 - Correspondència parcel·lària i persistència entre testimonis.
+
+### Correspondència amb el prototip
+
+`pedrera-guardiola`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 

@@ -11,12 +11,12 @@
         "group": "royal-portico",
         "kind": "large",
         "anchor": {
-          "easting": 296323.0683626555,
-          "northing": 4499243.361511113
+          "easting": 296319.0557718377,
+          "northing": 4499253.135523075
         },
-        "across": -23.16151502323421,
-        "along": -136.3354924101163,
-        "frontAzimuthDegrees": 68.09255567950584,
+        "across": -30.137601213908404,
+        "along": -128.40035432902584,
+        "frontAzimuthDegrees": 68.8531786923088,
         "width": 5,
         "depth": 11,
         "wallHeight": 7.8,
@@ -27,35 +27,35 @@
         "individualPositionConfidence": "C",
         "geometryConfidence": "C",
         "state1794": "unroofed-with-portico",
-        "frontWidth": 6.546220858394196,
-        "backWidth": 9.392403840304716,
-        "frontZ": 5.234088023576099,
-        "backZ": -4.664134574869074,
+        "frontWidth": 7.095774381556307,
+        "backWidth": 9.889386342798948,
+        "frontZ": 5.249006053805502,
+        "backZ": -4.6529600667435105,
         "arcSector": true,
         "layoutBasis": "hypothetical-10-cases-rodones",
         "terrace": true,
         "footprintUTM": [
           [
-            296329.1457103573,
-            4499242.277641088
+            296325.231237314,
+            4499251.720180635
           ],
           [
-            296326.7032608168,
-            4499248.351144835
+            296322.6713722451,
+            4499258.3381187515
           ],
           [
-            296316.98884350987,
-            4499245.97836242
+            296312.9323035923,
+            4499256.068638244
           ],
           [
-            296320.4932276331,
-            4499237.26420487
+            296316.49998955434,
+            4499246.84521268
           ]
         ],
         "terrain": {
-          "minimum": 10.779362772810504,
-          "maximum": 11.318837634866899,
-          "technicalBaseElevation": 11.398837634866899,
+          "minimum": 10.784406673162215,
+          "maximum": 11.626439954146068,
+          "technicalBaseElevation": 11.706439954146068,
           "historicalElevation": null
         }
       }

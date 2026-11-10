@@ -78,7 +78,7 @@ for(const it of index.items){
   }
   const snapshot=JSON.parse(await text(it.id+'/model-actual.json')).snapshots;
   const traced=snapshot.filter(s=>s.data.planPixels||s.data.projectOnly||s.data.positionSource?.text?.includes('1748'));
-  const tracedPosition=traced.length?{text:traced.map(({data:s})=>`${s.planLetter??s.letter??s.id}: ${s.id}, E ${s.anchor[0].toFixed(3)} / N ${s.anchor[1].toFixed(3)} m${s.projectOnly?' (projecte)':''}`).join('; ')+'. EPSG:25831, ajust C compartit amb la costa; no són coordenades històriques mesurades.',url:null}:null;
+  const tracedPosition=traced.length?{text:traced.map(({data:s})=>{const a=s.anchor??s.utmAnchor??s.points?.[0]??s.utmPoints?.[0];return `${s.planLetter??s.letter??s.id}: ${s.id}, E ${a[0].toFixed(3)} / N ${a[1].toFixed(3)} m${s.points?' (inici del traç)':''}${s.projectOnly?' (projecte)':''}`;}).join('; ')+'. EPSG:25831, ajust C compartit amb la costa; no són coordenades històriques mesurades.',url:null}:null;
   items[it.id]={
     id:it.id,name:it.name,parent:it.parentDossier,kind,modelIds:links.overrides[it.id]??it.modelIds,withoutModel:links.withoutModel[it.id]??null,modelNote:links.modelNotes?.[it.id]??null,phaseRule:links.phaseRules?.[it.id]??null,studyPosition:tracedPosition??links.positions?.[it.id]??null,
     placement:place.filter(p=>!/^Certesa:/.test(p)).map(clean).join(' '),certainty:certainty?clean(certainty).replace(/^Certesa: /,''):'',placementRefs:clean(refs),

@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| font-oest | — | 296329.547 | 4499264.753 | Model d’assaig |
+| font-oest | — | 296325.752 | 4499274.309 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

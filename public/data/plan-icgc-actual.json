@@ -1,0 +1,92 @@
+{
+  "id": "plan-icgc-actual",
+  "variants": [
+    {
+      "id": "icgc-topografic-nucli",
+      "title": "Mapa topogràfic ICGC · nucli",
+      "image": "reference/icgc/topografic-nucli.jpg",
+      "imageSize": [
+        1350,
+        1650
+      ],
+      "source": "ICGC · mapa-base topografic, docs/sources/nucleo-topografico-request.txt",
+      "georeference": {
+        "anchorPixel": [
+          0,
+          0
+        ],
+        "anchorUTM": [
+          296200,
+          4499600
+        ],
+        "metersPerPixel": 0.3333333333333333,
+        "rotationDegrees": 0,
+        "offsetMeters": [
+          0,
+          0
+        ],
+        "crs": "EPSG:25831",
+        "method": "Bbox exacta de la petició WMS"
+      },
+      "limits": "Mapa contemporani: serveix per comparar emplaçaments i alineacions, no és un testimoni de 1800."
+    },
+    {
+      "id": "icgc-ortofoto-nucli",
+      "title": "Ortofoto ICGC 2024 · nucli",
+      "image": "reference/icgc/ortofoto-2024-nucli.jpg",
+      "imageSize": [
+        1350,
+        1650
+      ],
+      "source": "ICGC · orto-territorial ortofoto_color_2024, docs/sources/nucleo-ortofoto-request.txt",
+      "georeference": {
+        "anchorPixel": [
+          0,
+          0
+        ],
+        "anchorUTM": [
+          296200,
+          4499600
+        ],
+        "metersPerPixel": 0.3333333333333333,
+        "rotationDegrees": 0,
+        "offsetMeters": [
+          0,
+          0
+        ],
+        "crs": "EPSG:25831",
+        "method": "Bbox exacta de la petició WMS"
+      },
+      "limits": "Mapa contemporani: serveix per comparar emplaçaments i alineacions, no és un testimoni de 1800."
+    },
+    {
+      "id": "icgc-topografic-territori",
+      "title": "Mapa topogràfic ICGC · nucli, canal i Amposta",
+      "image": "reference/icgc/topografic-territori.jpg",
+      "imageSize": [
+        1200,
+        3450
+      ],
+      "source": "ICGC · mapa-base topografic, docs/sources/canal-topographic-request.txt",
+      "georeference": {
+        "anchorPixel": [
+          0,
+          0
+        ],
+        "anchorUTM": [
+          294500,
+          4510500
+        ],
+        "metersPerPixel": 3.3333333333333335,
+        "rotationDegrees": 0,
+        "offsetMeters": [
+          0,
+          0
+        ],
+        "crs": "EPSG:25831",
+        "method": "Bbox exacta de la petició WMS"
+      },
+      "limits": "Mapa contemporani: serveix per comparar emplaçaments i alineacions, no és un testimoni de 1800."
+    }
+  ]
+}

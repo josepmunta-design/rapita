@@ -1,6 +1,6 @@
 {
   "entityId": "placa-coberta",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,8 +10,8 @@
         "id": "placa-coberta",
         "name": "Plaça coberta · Casa Laureano",
         "kind": "covered-market",
-        "across": 37,
-        "along": -76,
+        "across": 27,
+        "along": -72.25,
         "front": "west",
         "width": 15,
         "depth": 17,
@@ -41,9 +41,11 @@
           "dimensionsConfidence": "C",
           "modernExtraStoreyIncluded": false
         },
+        "placementRevision20261108": "Simètricament enfrontada a l’església (N112 p.214): mateixa cota d’eix i façana a la línia de la plaça (+23 m).",
+        "actualMap20261108": "Simètrica a l’església, a la cantonada sud del carrer de l’Arsenal.",
         "anchor": {
-          "easting": 296399.59550755844,
-          "northing": 4499280.82316654
+          "easting": 296391.36120238167,
+          "northing": 4499287.624542743
         },
         "frontAzimuthDegrees": 289,
         "geometryConfidence": "C",
@@ -52,26 +54,26 @@
         "historicalBaseElevation": null,
         "footprintUTM": [
           [
-            296394.0003608242,
-            4499290.68188517
+            296385.76605564746,
+            4499297.483261373
           ],
           [
-            296389.1168385074,
-            4499276.499106536
+            296380.88253333064,
+            4499283.300482739
           ],
           [
-            296405.19065429264,
-            4499270.96444791
+            296396.9563491159,
+            4499277.765824113
           ],
           [
-            296410.07417660946,
-            4499285.147226544
+            296401.8398714327,
+            4499291.948602747
           ]
         ],
         "terrain": {
-          "minimum": 7.724620956185981,
-          "maximum": 8.987170517016573,
-          "technicalBaseElevation": 9.067170517016573
+          "minimum": 7.988478586285088,
+          "maximum": 9.317478386644595,
+          "technicalBaseElevation": 9.397478386644595
         }
       }
     }

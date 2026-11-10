@@ -1,6 +1,6 @@
 # Ajust espacial del Roquer al redibuix de 1748
 
-Revisió: **31/10/2026**. Taula generada dels mateixos JSON que consumeix el visor. Coordenades EPSG:25831 del model; no són punts històrics mesurats.
+Revisió: **09/11/2026** (registre amb punts de control conservats). Taula generada dels mateixos JSON que consumeix el visor. Coordenades EPSG:25831 del model; no són punts històrics mesurats.
 
 [Comparació gràfica del calc i la planta nord](ROQUER_ALINEACIO.png) · [Expedients](EDIFICIS/INDEX.md)
 
@@ -12,29 +12,29 @@ Imatge de 1448 × 1086 px; ancoratge (879, 443) → E 296389 / N 4499194 m; esca
 
 | Lletra | Model | E (m) | N (m) | Lectura |
 |---|---|---:|---:|---|
-| A | `tower` | 296388.987 | 4499194.272 | Preexistència traçada; alçat C |
-| G | `well` | 296407.975 | 4499200.712 | Preexistència traçada; alçat C |
-| B | `hostal-1748` | 296385.876 | 4499200.283 | Preexistència traçada; alçat C |
-| C | `capella-1748` | 296375.749 | 4499230.048 | Preexistència traçada; alçat C |
-| D | `cuartel-caballeria-1748` | 296384.998 | 4499222.163 | Preexistència traçada; alçat C |
-| E | `cuartel-infanteria-1748` | 296386.456 | 4499229.112 | Preexistència traçada; alçat C |
-| F | `corral-1748-1` | 296388.051 | 4499208.694 | Preexistència traçada; alçat C |
-| F | `corral-1748-2` | 296381.174 | 4499218.735 | Preexistència traçada; alçat C |
-| F | `mur-roquer-1748` | 296391.857 | 4499210.570 | Preexistència traçada; alçat C |
-| F | `mur-nord-1748` | 296383.098 | 4499199.258 | Preexistència traçada; alçat C |
-| A–G | `muralla-meseta-1748` | 296431.110 | 4499163.086 | Preexistència traçada; alçat C |
-| D | `cuartel-caballeria-1748-2` | 296379.372 | 4499225.756 | Preexistència traçada; alçat C |
-| D | `cuartel-caballeria-1748-3` | 296386.469 | 4499225.582 | Preexistència traçada; alçat C |
-| E | `cuartel-infanteria-1748-2` | 296381.104 | 4499228.925 | Preexistència traçada; alçat C |
-| E | `cuartel-infanteria-1748-3` | 296382.417 | 4499232.505 | Preexistència traçada; alçat C |
-| F | `corral-1748-3` | 296375.058 | 4499219.123 | Preexistència traçada; alçat C |
-| H | `project-1748-battery` | 296430.713 | 4499177.020 | Projecte de 1748 |
-| I | `project-1748-cistern` | 296418.477 | 4499180.592 | Projecte de 1748 |
-| K | `project-1748-powder` | 296407.639 | 4499179.571 | Projecte de 1748 |
-| L | `project-1748-guard` | 296401.048 | 4499181.680 | Projecte de 1748 |
-| M | `project-1748-officer` | 296398.429 | 4499184.932 | Projecte de 1748 |
-| N | `project-1748-governor` | 296392.899 | 4499184.539 | Projecte de 1748 |
-| O | `project-1748-tower` | 296390.735 | 4499193.456 | Projecte de 1748 |
+| A | `tower` | 296402.613 | 4499206.242 | Preexistència traçada; alçat C |
+| G | `well` | 296426.192 | 4499204.768 | Preexistència traçada; alçat C |
+| B | `hostal-1748` | 296401.911 | 4499214.186 | Preexistència traçada; alçat C |
+| C | `capella-1748` | 296404.186 | 4499251.159 | Preexistència traçada; alçat C |
+| D | `cuartel-caballeria-1748` | 296410.741 | 4499238.428 | Preexistència traçada; alçat C |
+| E | `cuartel-infanteria-1748` | 296415.438 | 4499245.350 | Preexistència traçada; alçat C |
+| F | `corral-1748-1` | 296408.044 | 4499222.381 | Preexistència traçada; alçat C |
+| F | `corral-1748-2` | 296405.039 | 4499236.402 | Preexistència traçada; alçat C |
+| F | `mur-roquer-1748` | 296413.032 | 4499222.723 | Preexistència traçada; alçat C |
+| F | `mur-nord-1748` | 296398.425 | 4499214.311 | Preexistència traçada; alçat C |
+| A–G | `muralla-meseta-1748` | 296434.579 | 4499153.407 | Preexistència traçada; alçat C |
+| D | `cuartel-caballeria-1748-2` | 296406.216 | 4499244.861 | Preexistència traçada; alçat C |
+| D | `cuartel-caballeria-1748-3` | 296413.874 | 4499241.497 | Preexistència traçada; alçat C |
+| E | `cuartel-infanteria-1748-2` | 296409.521 | 4499247.540 | Preexistència traçada; alçat C |
+| E | `cuartel-infanteria-1748-3` | 296412.554 | 4499250.856 | Preexistència traçada; alçat C |
+| F | `corral-1748-3` | 296398.547 | 4499239.560 | Preexistència traçada; alçat C |
+| H | `project-1748-battery` | 296440.379 | 4499168.773 | Projecte de 1748 |
+| I | `project-1748-cistern` | 296428.639 | 4499178.140 | Projecte de 1748 |
+| K | `project-1748-powder` | 296416.369 | 4499181.874 | Projecte de 1748 |
+| L | `project-1748-guard` | 296410.128 | 4499187.122 | Projecte de 1748 |
+| M | `project-1748-officer` | 296408.728 | 4499191.838 | Projecte de 1748 |
+| N | `project-1748-governor` | 296402.525 | 4499193.883 | Projecte de 1748 |
+| O | `project-1748-tower` | 296404.155 | 4499204.570 | Projecte de 1748 |
 
 Les tres peces D i les tres E substitueixen els dos rectangles agregats; els tres corrals F queden diferenciats. Els murs segueixen els seus vèrtexs, inclosos els tres ressalts de la meseta. Alçàries i cobertes C.
 

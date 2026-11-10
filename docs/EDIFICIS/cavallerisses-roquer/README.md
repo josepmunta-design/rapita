@@ -18,13 +18,13 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| quarters | — | 296398.656 | 4499182.023 | Model d’assaig |
-| cuartel-caballeria-1748 | D | 296384.998 | 4499222.163 | Model d’assaig |
-| cuartel-caballeria-1748-2 | D | 296379.372 | 4499225.756 | Model d’assaig |
-| cuartel-caballeria-1748-3 | D | 296386.469 | 4499225.582 | Model d’assaig |
-| cuartel-infanteria-1748 | E | 296386.456 | 4499229.112 | Model d’assaig |
-| cuartel-infanteria-1748-2 | E | 296381.104 | 4499228.925 | Model d’assaig |
-| cuartel-infanteria-1748-3 | E | 296382.417 | 4499232.505 | Model d’assaig |
+| quarters | — | 296407.674 | 4499188.565 | Model d’assaig |
+| cuartel-caballeria-1748 | D | 296410.741 | 4499238.428 | Model d’assaig |
+| cuartel-caballeria-1748-2 | D | 296406.216 | 4499244.861 | Model d’assaig |
+| cuartel-caballeria-1748-3 | D | 296413.874 | 4499241.497 | Model d’assaig |
+| cuartel-infanteria-1748 | E | 296415.438 | 4499245.350 | Model d’assaig |
+| cuartel-infanteria-1748-2 | E | 296409.521 | 4499247.540 | Model d’assaig |
+| cuartel-infanteria-1748-3 | E | 296412.554 | 4499250.856 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

@@ -1,8 +1,8 @@
 {
   "entityId": "forn-moli-guix",
-  "captureDate": "2026-11-08",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
-  "warning": "Paràmetres del prototip 0.14.1. Posicions d’assaig C; no són mesures històriques.",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
     {
       "file": "public/data/urban-fabric.json",
@@ -13,8 +13,8 @@
         "chimney": true,
         "fromYear": 1782,
         "utmAnchor": [
-          296496.5276864458,
-          4499268.913076241
+          296470.2320904713,
+          4499292.46029721
         ],
         "width": 8,
         "depth": 6,
@@ -36,30 +36,31 @@
           "text": "N112 p.211: el forn i molí de guix afronta al nord de la Fonda Vella. Emplaçament relacional C solidari amb la fonda; separació de 3 m i volums són d’assaig, no una distància ni parcel·la documentades.",
           "precisionMeters": 15
         },
+        "actualMap20261108": "Segueix la Fonda Vella; abans al mig del carrer de la Mare de Déu de Montserrat.",
         "anchor": [
-          296496.5276864458,
-          4499268.913076241
+          296470.2320904713,
+          4499292.46029721
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 2.2410146446546655,
+        "technicalBaseElevation": 4.2858295177440695,
         "footprintUTM": [
           [
-            296491.76890768006,
-            4499267.378793132
+            296465.4733117056,
+            4499290.926014101
           ],
           [
-            296499.3330562848,
-            4499264.774247896
+            296473.0374603103,
+            4499288.3214688655
           ],
           [
-            296501.28646521154,
-            4499270.44735935
+            296474.99086923705,
+            4499293.994580319
           ],
           [
-            296493.7223166068,
-            4499273.051904585
+            296467.4267206323,
+            4499296.599125555
           ]
         ]
       }

@@ -17,7 +17,7 @@
       "kind": "plànol imprès",
       "reviewMethod": "inspecció visual",
       "reading": "P.761; títol Plan y carrers de Sant Carles de la Ràpita, revisat per l’Ajuntament, facilitat per Romà Massot i Pamies. El nom de fitxer proposa 1908, però la pàgina no mostra data editorial. 67 referències de carrers/llocs. Costa i nucli útils per a comparació posterior, no parcel·lari de 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N001.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N001.jpg"
     },
     {
       "id": "N002",
@@ -36,7 +36,7 @@
       "kind": "mapa territorial",
       "reviewMethod": "inspecció visual",
       "reading": "Dues reproduccions del mateix tipus de mapa: N002 fotografia d’una làmina i N113 còpia en blanc i negre, amb firma Santiesteban i numeració. Representació pictòrica de Montsià, llogaret, horts, llacunes, canal i salines. Falta llegenda completa i data independent; no és planta mètrica dels edificis.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N002.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N002.jpg"
     },
     {
       "id": "N003",
@@ -56,7 +56,7 @@
       "kind": "projecte urbà",
       "reviewMethod": "inspecció visual",
       "reading": "Data de signatura 30/1/1852 i conformitat 31/1/1852 llegides a la part inferior. Fosc: edificis existents; rosa: nova delineació; groc: edificis a demolir quan convingui. Església, magatzems, duana, quarter, mercat, administració i canal amb parts projectades. No és ciutat acabada de 1800. La correspondència ambACA MPD223 ve de la tesi anterior, no del nom 31757111.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N003.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N003.jpg"
     },
     {
       "id": "N004",
@@ -79,7 +79,7 @@
       "kind": "text imprès",
       "reviewMethod": "lectura visual completa",
       "reading": "Canal i molls interromputs, grans edificis i pavelló al peu de la muntanya. Valoració crítica amb resum retrospectiu; no fixa la data de construcció de cada peça.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N004.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N004.pdf"
     },
     {
       "id": "N005",
@@ -102,7 +102,7 @@
       "kind": "text imprès",
       "reviewMethod": "lectura visual completa",
       "reading": "Final de la crítica i inici del capítolXI sobre canal d’Urgell. Només el primer paràgraf continua San Carlos.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N005.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N005.pdf"
     },
     {
       "id": "N006",
@@ -125,7 +125,7 @@
       "kind": "text imprès",
       "reviewMethod": "lectura visual completa",
       "reading": "Primer canal, desviament atribuït a Guzmán cap a San Carlos, dipòsit, enclusa, desguàs i espoló; darreres obres encara pendents. Cap relat no autoritza a dibuixar acabades totes les parts.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N006.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N006.pdf"
     },
     {
       "id": "N007",
@@ -148,7 +148,7 @@
       "kind": "text imprès",
       "reviewMethod": "lectura visual completa",
       "reading": "CapítolIX de reg del’Ebre i Tortosa, paisatge; no és descripció d’un edifici individual rapitenc.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N007.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N007.pdf"
     },
     {
       "id": "N008",
@@ -171,7 +171,7 @@
       "kind": "text imprès",
       "reviewMethod": "lectura visual completa",
       "reading": "Paisatge entre Ràpita, Amposta i Tortosa, vegetació i sínies. Context agrícola regional.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N008.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N008.pdf"
     },
     {
       "id": "N009",
@@ -196,7 +196,7 @@
       "kind": "exclusió",
       "reviewMethod": "text complet i contrast visual",
       "reading": "Llista de tahulles i parades de reg a Catral. No és la pàgina 64 sobre San Carlos deN006. S’exclou com a font d’arquitectura rapitenca.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N009.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N009.pdf"
     },
     {
       "id": "N010",
@@ -213,7 +213,7 @@
       "kind": "carta",
       "reviewMethod": "lectura visual de les dues cares",
       "reading": "Data manuscrita 30/3/1835, resposta enviada 2/4 segons nota final. Signa Ventura; cognom no fixat. Poble descrit amb plaça quadrilonga i extrem oval, edificis arruïnats, església abandonada i barracons litorals de pescadors; l’autor s’allotja a la fonda. Opinions despectives sobre veïns no són un cens ni prova d’absència de població.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N010.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N010.jpg"
     },
     {
       "id": "N011",
@@ -230,7 +230,7 @@
       "kind": "carta",
       "reviewMethod": "lectura visual de les dues cares",
       "reading": "Data manuscrita 30/3/1835, resposta enviada 2/4 segons nota final. Signa Ventura; cognom no fixat. Poble descrit amb plaça quadrilonga i extrem oval, edificis arruïnats, església abandonada i barracons litorals de pescadors; l’autor s’allotja a la fonda. Opinions despectives sobre veïns no són un cens ni prova d’absència de població.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N011.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N011.jpg"
     },
     {
       "id": "N012",
@@ -260,7 +260,7 @@
       "kind": "recull",
       "reviewMethod": "text XML i imatges incrustades",
       "reading": "DOCX amb 13 imatges: pp 58–66 i fragments; bibliografia i enllaç a Bivaldi. Imatges extretes i llegides; duplicats de les pàginesPDF. Data editorial 1844 confirmada alcatàleg, data de visita no llegida en aquests retalls.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N012.docx"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N012.docx"
     },
     {
       "id": "N013",
@@ -283,7 +283,7 @@
       "kind": "text imprès",
       "reviewMethod": "extracció completa i inspecció visual",
       "reading": "Mateix text del viatge amb gravats de Coll de Balaguer i Amposta. N013 iN019 tenen extracció textual igual, còpies binàries diferents. La bomba de foc i ampliació del canal són propostes.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N013.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N013.pdf"
     },
     {
       "id": "N014",
@@ -305,7 +305,7 @@
       "kind": "mapa itinerari",
       "reviewMethod": "inspecció visual",
       "reading": "Itinerari regional i distàncies, no plànol de Ràpita ni alçat de cap edifici.1826 indicat alnom/recull, pendent portada concreta.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N014.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N014.pdf"
     },
     {
       "id": "N015",
@@ -322,7 +322,7 @@
       "kind": "mapa itinerari",
       "reviewMethod": "inspecció visual",
       "reading": "Itinerari regional i distàncies, no plànol de Ràpita ni alçat de cap edifici.1826 indicat alnom/recull, pendent portada concreta.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N015.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N015.jpg"
     },
     {
       "id": "N016",
@@ -343,7 +343,7 @@
       "kind": "recull",
       "reviewMethod": "text complet i revisió d’imatges",
       "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N016.docx"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N016.docx"
     },
     {
       "id": "N017",
@@ -366,7 +366,7 @@
       "kind": "gravats",
       "reviewMethod": "inspecció visual completa",
       "reading": "Les dues imatges porten topònims: no són vistes de Ràpita. No construir la torre delgravat com a Torre de la Ràpita.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N017.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N017.pdf"
     },
     {
       "id": "N018",
@@ -389,7 +389,7 @@
       "kind": "text imprès",
       "reviewMethod": "text complet i inspecció visual",
       "reading": "Descripció del Coll i d’Amposta; atribucions antigues de cronologia romana són opinions d’època, no validació arqueològica.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N018.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N018.pdf"
     },
     {
       "id": "N019",
@@ -412,7 +412,7 @@
       "kind": "text imprès",
       "reviewMethod": "extracció completa i inspecció visual",
       "reading": "Mateix text del viatge amb gravats de Coll de Balaguer i Amposta. N013 iN019 tenen extracció textual igual, còpies binàries diferents. La bomba de foc i ampliació del canal són propostes.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N019.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N019.pdf"
     },
     {
       "id": "N020",
@@ -430,7 +430,7 @@
       "kind": "recull",
       "reviewMethod": "lectura completa",
       "reading": "Recull amb portada textual de 1816 i fragment de ruta p 27. Eltext diu carrer per 10 carruatges i cases uniformes i baixes; no és amplada en metres.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N020.docx"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N020.docx"
     },
     {
       "id": "N021",
@@ -452,7 +452,7 @@
       "kind": "recull",
       "reviewMethod": "text complet i revisió d’imatges",
       "reading": "Text i imatges amb edicions 1816 i 1826. Detectada errada de recull que diu 1899 per una edició inicial, i 1808/1809 sense portada contrastada. S’utilitza 1816 per al testimoni castellà quan s’identifica alretall; no es data el viatge el 2021 o 1826 per una captura.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N021.docx"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N021.docx"
     },
     {
       "id": "N022",
@@ -474,7 +474,7 @@
       "kind": "recull",
       "reviewMethod": "text XML i5 imatges",
       "reading": "5 imatges aODT media/ recuperades: p 156 tracta monges a Tortosa; p 159 població i canal, p 160 entorn i p 162 vista llunyana. Primera edició 1785 i segona 1788: manca portada del’exemplar concret. Elpassatge que situa SanCarlos a Amposta no s’ha de llegir com coordenada exacta.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N022.odt"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N022.odt"
     },
     {
       "id": "N023",
@@ -493,7 +493,7 @@
       "kind": "manuscrit",
       "reviewMethod": "inspecció visual",
       "reading": "Llegenda: sèquia d’una vara; ullals de la Carrova i altres, salines, rotura marina i desaigüe delprat a Laguna Grande. La relació exacta amb elfull datat 21/5/1780 és probable pelconjunt, no data autògrafa visible en aquesta cara.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N023.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N023.jpg"
     },
     {
       "id": "N024",
@@ -512,7 +512,7 @@
       "kind": "manuscrit",
       "reviewMethod": "lectura visual completa",
       "reading": "Amposta 21/5/1780. Lectura:6 peus i mig de desnivell cap alriu i 12 cap a mar. Enclusa intermèdia a més de les dels extrems proposada, no acabada. Sense convertir elpeu a una unitat moderna no contrastada.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N024.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N024.jpg"
     },
     {
       "id": "N025",
@@ -531,7 +531,7 @@
       "kind": "carta",
       "reviewMethod": "lectura visual de les dues cares",
       "reading": "Casa vella, magatzem, duana, castell restaurat amb obra suspesa, ferreria, caseta, tendes, barraques i coves. Portes, panys i frontisses per allotjar-se alcastell. Proposta decompra i millora dela ferreria/casa; serveis religiosos demanats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N025.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N025.jpg"
     },
     {
       "id": "N026",
@@ -550,7 +550,7 @@
       "kind": "carta",
       "reviewMethod": "lectura visual de les dues cares",
       "reading": "Casa vella, magatzem, duana, castell restaurat amb obra suspesa, ferreria, caseta, tendes, barraques i coves. Portes, panys i frontisses per allotjar-se alcastell. Proposta decompra i millora dela ferreria/casa; serveis religiosos demanats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N026.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N026.jpg"
     },
     {
       "id": "N027",
@@ -569,7 +569,7 @@
       "kind": "carta",
       "reviewMethod": "lectura visual completa",
       "reading": "Madrid 6/12/1780; resposta a carta 13/11. Aprovació de dos plànols, canal/territori i nova població. Els plànols no apareixen en aquestes fotografies de text; no tractar la llegenda com a planta recuperada.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N027.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N027.jpg"
     },
     {
       "id": "N028",
@@ -588,7 +588,7 @@
       "kind": "llegenda",
       "reviewMethod": "lectura visual completa",
       "reading": "19 punts amb territori, Amposta, salines, ullals, moll i fort projectats, torres, pont i basses. Referència de 27 peus alport, no profunditat uniforme del canal.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N028.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N028.jpg"
     },
     {
       "id": "N029",
@@ -607,7 +607,7 @@
       "kind": "llegenda",
       "reviewMethod": "lectura visual completa",
       "reading": "7 entrades: fort començat, torre reparada, recinte de casa vella de monges i 2 cases reials, duana/administrador/guardes, ferreria, caseta, Guardiola. Nota final: 12 barraques a la valenciana construïdes a les vores del canal i ampliació prevista fins a 50 en total. Famílies residents a barraques i cases; els operaris transeünts s’exclouen dels veïns. La previsió no prova execució de les 50, ni se suma al recompte de 1794.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N029.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N029.jpg"
     },
     {
       "id": "N030",
@@ -624,7 +624,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Façanes amb pisos superiors i espai enjardinat d’una fase posterior. Autor/data original no confirmats; no fotografia del 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N030.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N030.jpg"
     },
     {
       "id": "N031",
@@ -641,7 +641,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Arcs, bigues de fusta, escala del pas i persones. Acolorit no prova colors originals. Mateix tema que recreacióN074 però no prova que siguin imatges independents.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N031.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N031.jpg"
     },
     {
       "id": "N032",
@@ -658,7 +658,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Coincideix visualment amb detall de Salvany arxivat prèviament. La data es recolza enN081 i expedient 0.12, no en elnom numèric.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N032.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N032.jpg"
     },
     {
       "id": "N033",
@@ -677,7 +677,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N033.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N033.jpg"
     },
     {
       "id": "N034",
@@ -696,7 +696,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N034.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N034.jpg"
     },
     {
       "id": "N035",
@@ -715,7 +715,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N035.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N035.jpg"
     },
     {
       "id": "N036",
@@ -734,7 +734,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N036.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N036.jpg"
     },
     {
       "id": "N037",
@@ -753,7 +753,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N037.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N037.jpg"
     },
     {
       "id": "N038",
@@ -772,7 +772,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N038.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N038.jpg"
     },
     {
       "id": "N039",
@@ -791,7 +791,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N039.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N039.jpg"
     },
     {
       "id": "N040",
@@ -810,7 +810,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peu diuFoto año 1890; atribució editorial pendent decontrast amb original.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N040.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N040.jpg"
     },
     {
       "id": "N041",
@@ -829,7 +829,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peus diferencien una foto 1890 i una altra anterior a 1918; no assignar una sola data a tot elfitxer.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N041.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N041.jpg"
     },
     {
       "id": "N042",
@@ -848,7 +848,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Continua la imatge amb peu anterior a 1918 deN041; identificar elnegatiu abans de data exacta.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N042.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N042.jpg"
     },
     {
       "id": "N043",
@@ -867,7 +867,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N043.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N043.jpg"
     },
     {
       "id": "N044",
@@ -886,7 +886,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N044.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N044.jpg"
     },
     {
       "id": "N045",
@@ -905,7 +905,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N045.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N045.jpg"
     },
     {
       "id": "N046",
@@ -924,7 +924,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N046.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N046.jpg"
     },
     {
       "id": "N047",
@@ -943,7 +943,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peu 1914, dues taules de carnisseria i quatre pilanets; activitat temporal.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N047.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N047.jpg"
     },
     {
       "id": "N048",
@@ -962,7 +962,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N048.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N048.jpg"
     },
     {
       "id": "N049",
@@ -981,7 +981,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N049.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N049.jpg"
     },
     {
       "id": "N050",
@@ -1000,7 +1000,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peu atribueix 1916 i Biblioteca de Catalunya; eltext equipara a l’estat després dela suspensió però aquesta és una interpretació retrospectiva, no prova que no canviés.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N050.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N050.jpg"
     },
     {
       "id": "N051",
@@ -1019,7 +1019,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N051.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N051.jpg"
     },
     {
       "id": "N052",
@@ -1038,7 +1038,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N052.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N052.jpg"
     },
     {
       "id": "N053",
@@ -1055,7 +1055,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peu situa 1943, horts i antic recorregut dela pedrera; ús posterior al XVIII.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N053.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N053.jpg"
     },
     {
       "id": "N054",
@@ -1074,7 +1074,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Capelleta i estaques per lligar cavalls segons peu. Datació original no visible.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N054.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N054.jpg"
     },
     {
       "id": "N055",
@@ -1093,7 +1093,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Pati i crugies. No assignar 1958 perquè altres imatges aèries tinguin aquesta data.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N055.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N055.jpg"
     },
     {
       "id": "N056",
@@ -1112,7 +1112,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N056.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N056.jpg"
     },
     {
       "id": "N057",
@@ -1131,7 +1131,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "NomsBarCataluña, CaféPuerto-Rico/Cafèd’Àngel, Camilo i Llanes alpeu; ubicació exacta i dates acontrast.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N057.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N057.jpg"
     },
     {
       "id": "N058",
@@ -1150,7 +1150,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Campanar i carrerRosari al fons segons peu.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N058.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N058.jpg"
     },
     {
       "id": "N059",
@@ -1169,7 +1169,7 @@
       "kind": "fotografia reproduïda",
       "reviewMethod": "contacte visual i lectura delpeu",
       "reading": "Peu identifica alcalde i setembre 1936; no data edificis del fons.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N059.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N059.jpg"
     },
     {
       "id": "N060",
@@ -1186,7 +1186,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Fotografia moderna, ús per contrast amb ruïna anterior; no copiar estructures de consolidació al 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N060.jpeg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N060.jpeg"
     },
     {
       "id": "N061",
@@ -1206,7 +1206,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Origen de xarxa social segons fitxer; costa i molls d’una fase posterior, datació sense confirmar.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N061.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N061.jpg"
     },
     {
       "id": "N062",
@@ -1225,7 +1225,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Vista d’un gran edifici de façana amb arcades, referència arxivística alnom; autor/data i correspondència exacta amb elcomplex a confirmar.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N062.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N062.jpg"
     },
     {
       "id": "N063",
@@ -1244,7 +1244,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "L’articleN112 p 209 atribueix 1958 a Trabajos Aéreos y Fotogramétricos. Fora del’hortizó 1950, útil per comparació.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N063.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N063.jpg"
     },
     {
       "id": "N064",
@@ -1263,7 +1263,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N064.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N064.jpg"
     },
     {
       "id": "N065",
@@ -1282,7 +1282,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N065.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N065.jpg"
     },
     {
       "id": "N066",
@@ -1301,7 +1301,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N066.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N066.jpg"
     },
     {
       "id": "N067",
@@ -1320,7 +1320,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N067.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N067.jpg"
     },
     {
       "id": "N068",
@@ -1339,7 +1339,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Cinc retalls d’un conjunt amb elmateix codi. No són cinc vols independents; data exacta no confirmada, no adoptar 1958 del’altre registre.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N068.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N068.jpg"
     },
     {
       "id": "N069",
@@ -1358,7 +1358,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N069.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N069.jpg"
     },
     {
       "id": "N070",
@@ -1377,7 +1377,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N070.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N070.jpg"
     },
     {
       "id": "N071",
@@ -1396,7 +1396,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Arcs i fàbrica visibles però lloc de presa no establert. No suposar que són els porxos rapitencs per la carpeta; identificació en reserva.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N071.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N071.jpg"
     },
     {
       "id": "N072",
@@ -1413,7 +1413,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Data 1921 alnom de fitxer; conserva numeració de placa, pendent fitxa de Biblioteca de Catalunya.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N072.png"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N072.png"
     },
     {
       "id": "N073",
@@ -1430,7 +1430,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Fotografia acolorida/moderna de casetes; s’ha deconciliar amb edificis del XIX, no activar el 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N073.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N073.jpg"
     },
     {
       "id": "N074",
@@ -1447,7 +1447,7 @@
       "kind": "imatge generada",
       "reviewMethod": "inspecció visual i nom de fitxer",
       "reading": "NomChatGPT Image i aspecte il·lustratiu; exclosa com a evidència històrica o mètrica.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N074.jpeg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N074.jpeg"
     },
     {
       "id": "N075",
@@ -1464,7 +1464,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N075.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N075.jpg"
     },
     {
       "id": "N076",
@@ -1481,7 +1481,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N076.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N076.jpg"
     },
     {
       "id": "N077",
@@ -1498,7 +1498,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N077.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N077.jpg"
     },
     {
       "id": "N078",
@@ -1515,7 +1515,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N078.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N078.jpg"
     },
     {
       "id": "N079",
@@ -1532,7 +1532,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions en color iB/N; N078 iN079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N079.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N079.jpg"
     },
     {
       "id": "N080",
@@ -1549,7 +1549,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Parella estereoscòpica; data i autor alnom, pendent coteig delregistre original.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N080.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N080.jpg"
     },
     {
       "id": "N081",
@@ -1566,7 +1566,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peuN050. Referència de forma, no estat immòbil des de 1794.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N081.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N081.jpg"
     },
     {
       "id": "N082",
@@ -1583,7 +1583,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peuN050. Referència de forma, no estat immòbil des de 1794.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N082.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N082.jpg"
     },
     {
       "id": "N083",
@@ -1600,7 +1600,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Frontó, dues campanes, façanes adjacents i acte religiós. Peu n’explica elcor; no porta data original segura.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N083.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N083.jpg"
     },
     {
       "id": "N084",
@@ -1617,7 +1617,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Data delnom de captura, no obra del canal. Vegetació i perfil actual només comparatius.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N084.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N084.jpg"
     },
     {
       "id": "N085",
@@ -1634,7 +1634,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Dues torres i grua, fotografia moderna sense data; no utilitzar-la com a estat del 1864.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N085.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N085.jpg"
     },
     {
       "id": "N086",
@@ -1651,7 +1651,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Imatge acolorida de carrer sense identificació i data concloents; reserva de comparació.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N086.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N086.jpg"
     },
     {
       "id": "N087",
@@ -1668,7 +1668,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versió deltema deN058; color no documentat.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N087.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N087.jpg"
     },
     {
       "id": "N088",
@@ -1685,7 +1685,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N088.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N088.jpg"
     },
     {
       "id": "N089",
@@ -1702,7 +1702,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Sala de venda, instal·lacions i persones, sense localització/any verificats. No modelar com a interior del 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N089.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N089.jpg"
     },
     {
       "id": "N090",
@@ -1719,7 +1719,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Fotografia amb paisatge urbà i port posteriors; datació original pendent.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N090.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N090.jpg"
     },
     {
       "id": "N091",
@@ -1736,7 +1736,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Vianants i decorat temporal; sense data verificada, color no original comprovat.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N091.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N091.jpg"
     },
     {
       "id": "N092",
@@ -1753,7 +1753,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Vista litoral posterior sense data confirmada; no converteix aquesta costa en la de 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N092.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N092.jpg"
     },
     {
       "id": "N093",
@@ -1770,7 +1770,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Barques, cases i molls d’una fase posterior; colors no validats.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N093.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N093.jpg"
     },
     {
       "id": "N094",
@@ -1787,7 +1787,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Comerç fotografiat en fase posterior; parcel·la, autor i data a confirmar.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N094.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N094.jpg"
     },
     {
       "id": "N095",
@@ -1804,7 +1804,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Possible costa abans d’ampliacions portuàries; identificació i data no verificades.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N095.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N095.jpg"
     },
     {
       "id": "N096",
@@ -1821,7 +1821,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Embarcacions, esplanades i molls; fases portuàries tardanes, datació pendent.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N096.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N096.jpg"
     },
     {
       "id": "N097",
@@ -1838,7 +1838,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Versions acolorides iB/N d’una mateixa vista; campanar i façanes posteriors. No tres testimonis independents.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N097.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N097.jpg"
     },
     {
       "id": "N098",
@@ -1855,7 +1855,7 @@
       "kind": "fora de l’abast",
       "reviewMethod": "inspecció visual",
       "reading": "Sense edifici identificable que aporti evidència almapa; no es reprodueix als expedients temàtics.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N098.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N098.jpg"
     },
     {
       "id": "N099",
@@ -1872,7 +1872,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N099.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N099.jpg"
     },
     {
       "id": "N100",
@@ -1889,7 +1889,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Nom aportaAC P J350-120; mas i bancals visibles, autoria/data i signatura formal de l’arxiu a confirmar.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N100.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N100.jpg"
     },
     {
       "id": "N101",
@@ -1906,7 +1906,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Coincideix amb vista del peu 1890 reproduïda aN040; no és una segona data independent.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N101.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N101.jpg"
     },
     {
       "id": "N102",
@@ -1923,7 +1923,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N102.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N102.jpg"
     },
     {
       "id": "N103",
@@ -1940,7 +1940,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N103.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N103.jpg"
     },
     {
       "id": "N104",
@@ -1957,7 +1957,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Nom atribueix publicació a Vicent Moya/Facebook; no és autoria original confirmada. Relació amb pendent i cases, data pendent.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N104.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N104.jpg"
     },
     {
       "id": "N105",
@@ -1974,7 +1974,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Tema i editor alrètol; posterior al XVIII, any original per verificar. No identificar-la sense prova amb els sequers de Constància 1943.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N105.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N105.jpg"
     },
     {
       "id": "N106",
@@ -1991,7 +1991,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N106.jpeg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N106.jpeg"
     },
     {
       "id": "N107",
@@ -2008,7 +2008,7 @@
       "kind": "fotografia",
       "reviewMethod": "inspecció visual",
       "reading": "Fotografia en color atribuïda per nom a Vicent Moya; arquitectura delcomplex posterior, no obres de CarlesIII.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N107.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N107.jpg"
     },
     {
       "id": "N108",
@@ -2025,7 +2025,7 @@
       "kind": "plànol topogràfic",
       "reviewMethod": "full complet i detall de dates",
       "reading": "Instituto Geográfico y Estadístico,1:25.000, full 141,130453; signatura 30/12/1912 i comprovació 8/1/1913; anotació de revisió amb lectura d’any dubtosa i segell 10/1/1913. Corbes i punts són delseu treball topogràfic, no MDT del 1800.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N108.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N108.jpg"
     },
     {
       "id": "N109",
@@ -2042,7 +2042,7 @@
       "kind": "mapa territorial",
       "reviewMethod": "inspecció visual",
       "reading": "AGS MPD07,063; data 1585 segons catàleg del Ministeri de Cultura. Pictòric, sense escala mètrica parcel·lària; no representa urbanisme neoclàssic de 1780.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N109.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N109.jpg"
     },
     {
       "id": "N110",
@@ -2062,7 +2062,7 @@
       "kind": "exclusió",
       "reviewMethod": "llegenda i perfils complets",
       "reading": "Diu explícitament canal delriuTer i Gerona 6/5/1743; perfils signatsMiguel Marín i JoséFabré. Exclòs com a font delparedó de Ràpita. Pot servir només com comparació de tècnica hidràulica general.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N110.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N110.jpg"
     },
     {
       "id": "N111",
@@ -2079,7 +2079,7 @@
       "kind": "plànol amb capes",
       "reviewMethod": "full complet i detalls de notes",
       "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N111.jpg"
     },
     {
       "id": "N112",
@@ -2146,7 +2146,7 @@
       "kind": "article",
       "reviewMethod": "text complet44p i revisió de figures",
       "reading": "Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre baseICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N112.pdf"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
     },
     {
       "id": "N113",
@@ -2163,36 +2163,36 @@
       "kind": "mapa territorial",
       "reviewMethod": "inspecció visual",
       "reading": "Dues reproduccions del mateix tipus de mapa: N002 fotografia d’una làmina i N113 còpia en blanc i negre, amb firma Santiesteban i numeració. Representació pictòrica de Montsià, llogaret, horts, llacunes, canal i salines. Falta llegenda completa i data independent; no és planta mètrica dels edificis.",
-      "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N113.jpg"
+      "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N113.jpg"
     },
     {
       "id": "ANT-TESI",
       "title": "Noèlia Borràs Matamoros La nova i reial població de Sant Carles de la Ràpita",
-      "absolutePath": "A:\\Mapa Ràpita\\tesi doctoral.pdf",
+      "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/tesi doctoral.pdf",
       "reading": "Tesi anterior revisada focalment al projecte. Fonts i pàgines indicades a cada citació; no és un nou testimoni de la carpeta."
     },
     {
       "id": "ANT-HIST",
       "title": "Catàleg de recerca anterior fins al1950",
-      "absolutePath": "A:\\Mapa Ràpita\\data\\history-catalog.json",
+      "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/data/history-catalog.json",
       "reading": "Dades prèviament revisades i conflictes conservats. Aquesta revisió no converteix pistes en dades validades."
     },
     {
       "id": "ANT-PORXOS",
       "title": "Expedient documental dels porxos versió0.12",
-      "absolutePath": "A:\\Mapa Ràpita\\docs\\PORXOS.md",
+      "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/PORXOS.md",
       "reading": "IPAC6415, Salvany1916 i mesures d’assaig separades."
     },
     {
       "id": "ANT-LIT",
       "title": "Expedient anterior de Roquer i canal",
-      "absolutePath": "A:\\Mapa Ràpita\\docs\\ROQUER_CANAL.md",
+      "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/ROQUER_CANAL.md",
       "reading": "Inclou projecteT-6/8 i límits d’execució."
     },
     {
       "id": "ANT-LAND",
       "title": "Expedient anterior de Glorieta i Guardiola",
-      "absolutePath": "A:\\Mapa Ràpita\\docs\\GLORIETA_GUARDIOLA.md",
+      "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/GLORIETA_GUARDIOLA.md",
       "reading": "Hipòtesis i cronologia prèviament explicitades."
     },
     {
@@ -2207,6 +2207,62 @@
       "url": "https://www.poblesdecatalunya.cat/element.php?e=18383",
       "kind": "fitxa patrimonial i fotografies actuals",
       "reading": "Consulta 01/11/2026. Identificacio, planta rectangular, base atalussada, matacans, espitlleres i merlets. Dimensions i estat de 1800 desconeguts."
+    },
+    {
+      "id": "FAR-S1",
+      "title": "Autoritat Portuària de Tarragona · Cardenal (1875) i història del far",
+      "url": "https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita",
+      "reading": "Memòria de 19/1/1875: dimensions, acabats i primera llum; reformes de 1920, 1929, 1975 i 1995. La capçalera web diu setembre; el relat de Cardenal fixa novembre.",
+      "kind": "text històric i cronologia institucional",
+      "witnessDate": "1875-01-19"
+    },
+    {
+      "id": "FAR-S2",
+      "title": "RABASF · Far de Punta Senieta",
+      "url": "https://www.faros-historicos-de-espana.com/faro/faro-de-sant-carles-de-la-rapita",
+      "reading": "Fitxa i fotografies dels acabats recents; no és un aixecament mètric contemporani. Divergència 1920/1929 en la datació de la llanterna.",
+      "kind": "fitxa patrimonial",
+      "witnessDate": null
+    },
+    {
+      "id": "FAR-S3",
+      "title": "BOP de Cadis · avís nàutic de 20/9/1864, publicat l’1/10/1864",
+      "url": "https://archivodigital.dipucadiz.es/boletin-oficial-de-la-provincia-de-cadiz/pdf_BOP/1864/1864_10_01.pdf",
+      "reading": "El paquet aportat transcriu l’avís de primera llum de l’1/11/1864. La data concorda amb el relat de Cardenal.",
+      "kind": "avís nàutic contemporani",
+      "witnessDate": "1864-10-01"
+    },
+    {
+      "id": "FAR-S5",
+      "title": "Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita",
+      "url": "https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52",
+      "reading": "Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.",
+      "kind": "plànol històric",
+      "witnessDate": null
+    },
+    {
+      "id": "CAS-S1",
+      "title": "Museu de la Mar de l’Ebre · història de l’edifici i la Companyia",
+      "url": "https://museumarebre.com/museu/",
+      "kind": "història institucional",
+      "witnessDate": null,
+      "reading": "Identifica les antigues oficines i tallers i els diferencia del magatzem amb semisoterrani; obres de 1852–1859, projecte de Jean Lenté, supervisió de Carvallo i execució de Canício Sala. Museu obert l’1/12/2013. Consulta 2/11/2026."
+    },
+    {
+      "id": "CAS-S2",
+      "title": "Pobles de Catalunya · Oficines de la Companyia de Canalització de l’Ebre",
+      "url": "https://www.poblesdecatalunya.cat/element.php?e=18378",
+      "kind": "fitxa patrimonial i fotografies",
+      "witnessDate": "2023",
+      "reading": "Fotografies recents i fotografia antiga sense data; dues plantes, maó vist, teulada a quatre aigües i cases dels vigilants. Les imatges externes s’enllacen, sense incorporar-ne noves còpies a la galeria pública."
+    },
+    {
+      "id": "CAS-PACK",
+      "title": "Paquet aportat: casotes_rapita_modelos_y_fuentes",
+      "absolutePath": "A:\\Mapa Ràpita\\Edificios Codigo\\casotes_rapita_modelos_y_fuentes\\cronologia-fuentes-y-medidas.md",
+      "kind": "model procedural i dossier de treball",
+      "witnessDate": "2026-11-02",
+      "reading": "Model cap al 1858 i actual, amb guardes opcionals. Planta de 33 × 15,3 m i carena a 8,65 m estimades. Onze arcades llargues i tres laterals; cases de guarda a 45 m i separació de 22 m per conveniència visual, sense georeferenciació."
     }
   ]
 }

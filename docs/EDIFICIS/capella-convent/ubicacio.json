@@ -1,7 +1,7 @@
 {
   "entityId": "capella-convent",
   "historicalEvidence": {
-    "description": "Al recinte del convent, sobre el Roquer, prop de la torre i de la bateria; el projecte de 1748 la marca amb C. No és Sant Elm ni l’Església Nova. Ajust del visor (31/10/2026): La capella C segueix la planta del redibuix de 1748 sense desplaçament individual. El semicercle de porxos d’assaig s’ha mogut 1 m cap a ponent per evitar el creuament. Alçària i coberta C; el testimoni de 1782 descriu humitats i usos de corral.",
+    "description": "Al recinte del convent, sobre el Roquer, prop de la torre i de la bateria; el projecte de 1748 la marca amb C. No és Sant Elm ni l’Església Nova. Ajust del visor (31/10/2026): Revisió 09/11/2026: la capella es col·loca al punt de les restes conservades del Passatge / Carreró del Convent (BCIL; mur amb porta d’arc escarser i espadanya), a la línia de façana actual i davant del tinglado (N112 p.215). La capella C del plànol de 1748 registrat queda a 9 m. Nau de 5,5 × 11 m, baixa i humida segons l’informe de 1785; mides C.",
     "historicalCoordinates": null,
     "georeferencedHistoricalFootprint": null,
     "confidence": "B relacional / C mètrica",
@@ -14,36 +14,70 @@
   },
   "studyPositions": [
     {
-      "modelId": "capella-1748",
+      "modelId": "esglesia-convent",
       "anchor": [
-        296375.7488379496,
-        4499230.047844276
+        296402.8479345082,
+        4499261.089142142
       ],
       "footprintUTM": [
         [
-          296377.51386939554,
-          4499227.6508654235
+          296398.54289476713,
+          4499265.479943074
         ],
         [
-          296374.0007497635,
-          4499227.685512945
+          296396.75226991763,
+          4499260.279590908
         ],
         [
-          296373.9196166238,
-          4499232.413515632
+          296407.1529742492,
+          4499256.698341209
         ],
         [
-          296377.56111601554,
-          4499232.441483104
+          296408.9435990987,
+          4499261.898693375
+        ]
+      ],
+      "alongAzimuthDegrees": 109,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Coordenades de l’inventari (40,619122 N, 0,593016 E) i línia de façana actual del topogràfic ICGC 1:1.000. A 9 m de la capella C del plànol de 1748 registrat.",
+        "precisionMeters": 3
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "capella-1748",
+      "anchor": [
+        296404.18627365655,
+        4499251.159292147
+      ],
+      "footprintUTM": [
+        [
+          296405.0380326414,
+          4499247.757071511
+        ],
+        [
+          296401.22418507084,
+          4499249.366225544
+        ],
+        [
+          296403.2505433156,
+          4499254.556098787
+        ],
+        [
+          296407.2323335984,
+          4499252.957772743
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "C",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"

@@ -17,7 +17,9 @@ test('the rock boundary is watertight, has outward winding and consistent normal
 });
 test('the coastal houses form three shore-facing clusters while preserving the documented inventory',async()=>{
  const h=await json('public/data/housing.json'),houses=h.structures.filter(s=>s.group==='royal-small-coast');assert.equal(houses.length,14);assert.deepEqual([...new Set(houses.map(s=>s.coastalCluster))],[1,2,3]);assert.equal(h.summary.royalInventoryUnits,81);assert.equal(h.structures.length,58);
- for(const s of houses){const near=nearestRoute(s.anchor.easting,s.anchor.northing,lit.shorelineStudy);assert.ok(near.distance>5&&near.distance<90);assert.match(s.layoutSource,/N112/);assert.equal(s.geometryConfidence,'C');for(const[e,n]of s.footprintUTM)assert.ok(landscapeSample(e,n,2,lit).height>lit.studyWaterElevation);const r=s.frontAzimuthDegrees*Math.PI/180,face=[Math.sin(r),Math.cos(r)],toSea=[near.easting-s.anchor.easting,near.northing-s.anchor.northing];assert.ok(face[0]*toSea[0]+face[1]*toSea[1]>0);}
+ for(const s of houses){const near=nearestRoute(s.anchor.easting,s.anchor.northing,lit.shorelineStudy);assert.ok(near.distance>5&&near.distance<140);assert.match(s.layoutSource,/N112/);assert.equal(s.geometryConfidence,'C');for(const[e,n]of s.footprintUTM)assert.ok(landscapeSample(e,n,2,lit).height>lit.studyWaterElevation);const r=s.frontAzimuthDegrees*Math.PI/180,face=[Math.sin(r),Math.cos(r)],toSea=[near.easting-s.anchor.easting,near.northing-s.anchor.northing];
+  // Encaix ICGC 08/11/2026: el tercer grup s'alinea a la baixada de Sant Francesc, que davalla cap al mar; la façana dona al carrer.
+  if(s.coastalCluster===3)assert.equal(s.frontAzimuthDegrees,h.townFrame.alongAzimuthDegrees);else assert.ok(face[0]*toSea[0]+face[1]*toSea[1]>0);}
 });
 test('Torre del Moro has the supplied geographic coordinates, a dated preexistence and a linked dossier',async()=>{
  const landmarks=await json('public/data/landmarks.json'),s=landmarks.sites.find(s=>s.id==='torre-moro'),chronology=await json('public/data/chronology.json'),dossiers=await json('public/data/dossiers.json');

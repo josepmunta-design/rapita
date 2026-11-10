@@ -62,9 +62,6 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** Port de l’escenari de 1800, amb dos braços oblics i boca lateral oberta. Làmina d’aigua, fons, molls i recorregut a peu comparteixen la planta de N112 il·l.4. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
 - [ ] Construir fases de moll per testimonis; no fer desaparèixer tota la dàrsena el 1795 sense abast de danys.
 
 ### Dades encara desconegudes

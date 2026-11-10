@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| cases-talavera | — | 296478.907 | 4499428.505 | Model d’assaig |
+| cases-talavera | — | 296465.066 | 4499435.915 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -52,9 +52,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 
 ## Aplicació al model i treball pendent
-
-**Ajust al croquis de referència · 01/11/2026:** Conjunt continu en U oberta a ponent, al nord de la Fonda Nova. Perímetre únic, pati buit i coberta contínua a les cantonades; no tres edificis independents. Forma relacional C segons N112 il·l.4. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
 
 - [ ] Resoldre el quadrilàter amb orientacions i controls; substituir el rectangle tècnic actual només després d’ajustar-lo.
 - [ ] Distingir les dues cases quan s’identifiquin les mitgeres.

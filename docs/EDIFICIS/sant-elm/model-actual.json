@@ -10,8 +10,8 @@
         "id": "sant-elm",
         "name": "Oratori de Sant Elm",
         "kind": "church",
-        "across": -50,
-        "along": -76,
+        "across": -44,
+        "along": -71.5,
         "front": "east",
         "width": 17,
         "depth": 25,
@@ -27,9 +27,11 @@
           "footprint": null,
           "height": null
         },
+        "placementRevision20261108": "Façana a la línia de les cases (−23 m). Les quatre porxades toquen el temple pel sud (foto N083) i un carrer de 7 m el separa de les cases cobertes pel nord, a la dreta mirant-lo de cara (N076, N112 il·l.6).",
+        "actualMap20261108": "Al solar de l’actual Santíssima Trinitat: façana a la plaça, carrer del Rosari a la dreta (mirant-la) i carrer de l’Aurora a l’esquerra.",
         "anchor": {
-          "easting": 296317.3353914813,
-          "northing": 4499309.147595977
+          "easting": 296324.4735596299,
+          "northing": 4499311.449020641
         },
         "frontAzimuthDegrees": 109,
         "geometryConfidence": "C",
@@ -38,26 +40,26 @@
         "historicalBaseElevation": null,
         "footprintUTM": [
           [
-            296326.3870443634,
-            4499297.041086154
+            296333.52521251206,
+            4499299.342510818
           ],
           [
-            296331.92170298914,
-            4499313.114901939
+            296339.0598711378,
+            4499315.416326603
           ],
           [
-            296308.28373859916,
-            4499321.254105801
+            296315.4219067478,
+            4499323.555530464
           ],
           [
-            296302.74907997344,
-            4499305.180290015
+            296309.8872481221,
+            4499307.481714679
           ]
         ],
         "terrain": {
-          "minimum": 10.739794941241149,
-          "maximum": 12.077459248825749,
-          "technicalBaseElevation": 12.157459248825749
+          "minimum": 10.322997440529772,
+          "maximum": 11.66585996575437,
+          "technicalBaseElevation": 11.74585996575437
         }
       }
     }

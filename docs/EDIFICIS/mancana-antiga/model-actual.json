@@ -11,13 +11,13 @@
         "group": "manzana-units",
         "kind": "shared-courtyard",
         "anchor": {
-          "easting": 296366.80804168206,
-          "northing": 4499483.542139705
+          "easting": 296363.66151074466,
+          "northing": 4499485.154387534
         },
-        "across": -60,
-        "along": 105,
-        "width": 80,
-        "depth": 40,
+        "across": -63.5,
+        "along": 105.5,
+        "width": 73,
+        "depth": 42,
         "wingDepth": 7,
         "countedUnits": 24,
         "wallHeight": 5.8,
@@ -31,26 +31,26 @@
         "originalHouseNumber": null,
         "footprintUTM": [
           [
-            296411.1401477952,
-            4499489.429785039
+            296405.0098699976,
+            4499493.127039984
           ],
           [
-            296335.4986617472,
-            4499515.475237396
+            296335.9870139789,
+            4499516.893515259
           ],
           [
-            296322.4759355689,
-            4499477.654494371
+            296322.3131514917,
+            4499477.181735083
           ],
           [
-            296398.1174216169,
-            4499451.609042015
+            296391.3360075104,
+            4499453.415259808
           ]
         ],
         "terrain": {
-          "minimum": 6.588020652482214,
-          "maximum": 9.304427478570226,
-          "technicalBaseElevation": 9.384427478570226,
+          "minimum": 6.6349357751094225,
+          "maximum": 9.300375414967032,
+          "technicalBaseElevation": 9.380375414967032,
           "historicalElevation": null
         }
       }
@@ -63,36 +63,36 @@
         "kind": "workyard",
         "fromYear": 1794,
         "townAnchor": [
-          -60,
-          105
+          -63.5,
+          105.5
         ],
         "width": 42,
         "depth": 15,
         "evidence": "H02 art. 7: eines, fustes, maons i teules al pati tancat. Són usos del conjunt existent, sense afegir cases ni habitacions.",
         "anchor": [
-          296366.80804168206,
-          4499483.542139705
+          296363.66151074466,
+          4499485.154387534
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 7.891351267312442,
+        "technicalBaseElevation": 7.917273829421509,
         "footprintUTM": [
           [
-            296344.51039043604,
-            4499483.287681632
+            296341.36385949864,
+            4499484.89992946
           ],
           [
-            296384.22217061126,
-            4499469.613819145
+            296381.07563967386,
+            4499471.226066973
           ],
           [
-            296389.1056929281,
-            4499483.796597779
+            296385.9591619907,
+            4499485.408845607
           ],
           [
-            296349.39391275286,
-            4499497.470460266
+            296346.24738181545,
+            4499499.082708094
           ]
         ]
       }

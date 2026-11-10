@@ -1,6 +1,6 @@
 {
   "entityId": "unitat-royal-small-coast-05",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -11,11 +11,11 @@
         "group": "royal-small-coast",
         "kind": "small",
         "anchor": {
-          "easting": 296464.7677199083,
-          "northing": 4499260.269143311
+          "easting": 296455.521,
+          "northing": 4499258.182
         },
-        "across": 105.31327279880917,
-        "along": -74.2162138689809,
+        "across": 97.24983475807008,
+        "along": -79.20008417506472,
         "frontAzimuthDegrees": 109,
         "width": 4.4,
         "depth": 7,
@@ -33,26 +33,26 @@
         "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
         "footprintUTM": [
           [
-            296467.3607849831,
-            4499257.049513904
+            296458.11406507477,
+            4499254.962370593
           ],
           [
-            296468.7932848627,
-            4499261.209795637
+            296459.5465649544,
+            4499259.122652326
           ],
           [
-            296462.17465483357,
-            4499263.488772718
+            296452.92793492525,
+            4499261.401629407
           ],
           [
-            296460.74215495394,
-            4499259.328490986
+            296451.4954350456,
+            4499257.241347674
           ]
         ],
         "terrain": {
-          "minimum": 2.7082742517216567,
-          "maximum": 3.5758267097396423,
-          "technicalBaseElevation": 3.6558267097396424,
+          "minimum": 3.5555656288616913,
+          "maximum": 4.197463402603555,
+          "technicalBaseElevation": 4.277463402603555,
           "historicalElevation": null
         }
       }

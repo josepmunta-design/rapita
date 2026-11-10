@@ -11,12 +11,12 @@ export function generateHousingLayout(config){
       across,along,frontAzimuthDegrees:frame.alongAzimuthDegrees+side,
       width:type.frontWidth,depth:type.depth,wallHeight:type.wallHeight,roofRise:type.roofRise,wallThickness:type.wallThickness,
       originalHouseNumber:null,state1800:null,individualPositionConfidence:'C',geometryConfidence:'C',...extra};
-    if(kind==='large'&&group!=='royal-portico'){
+    if(kind==='large'&&group!=='royal-portico'&&extra.depth===undefined){
       structure.depth=[10.4,11,11.6][(index-1)%3];structure.wallHeight+=[0,.15,-.1][(index-1)%3];
     }
     structures.push(structure);return structure;
   };
-  const row=(def,group,kind,state)=>{for(let i=0;i<def.count;i++)add(group,kind,def.across,def.startAlong+i*def.spacing,def.front,{state1794:state,layoutBasis:'group-location-inference',terrace:kind==='large'});};
+  const row=(def,group,kind,state)=>{for(let i=0;i<def.count;i++)add(group,kind,def.across,def.startAlong+i*def.spacing,def.front,{state1794:state,layoutBasis:'group-location-inference',terrace:kind==='large',...(def.depth?{depth:def.depth}:{}),...(def.width?{width:def.width,frontWidth:def.width}:{}),...(def.block?{block:def.block}:{})});};
   for(const r of config.layout.finishedRows)row(r,'royal-finished','large','finished');
   row(config.layout.coveredRow,'royal-covered','large','roofed-unfinished');
   const arc=config.layout.exedra,R=arc.innerRadius+arc.depth/2,gap=(arc.gap??0)/R,delta=(Math.PI-gap)/arc.count;

@@ -1,6 +1,6 @@
 {
   "entityId": "cavallerisses-roquer",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,8 +10,8 @@
         "id": "quarters",
         "name": "Dependències de la guarnició",
         "anchor": [
-          296398.6556884499,
-          4499182.022885049
+          296407.67388645676,
+          4499188.565440846
         ],
         "kind": "quarters",
         "width": 7,
@@ -20,31 +20,31 @@
         "radius": 22,
         "state": "Allotjament de tropa i oficials; volum d'assaig",
         "evidence": "H02 art. 16 i H01. Els usos són documentats; la separació en aquest cos i les obertures són C. Reajust espacial al sector de servei del redibuix, sense atribuir execució al projecte de 1748.",
-        "alongAzimuthDegrees": 19,
+        "alongAzimuthDegrees": 41.31100000000001,
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m. Emplaçament d’assaig de les obres posteriors dins del sector funcional corresponent; no prova identitat amb la peça projectada el 1748.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "footprintUTM": [
           [
-            296396.48586197593,
-            4499186.471688604
+            296407.3554161358,
+            4499193.504932384
           ],
           [
-            296394.20688489475,
-            4499179.853058575
+            296402.7343949187,
+            4499188.246970524
           ],
           [
-            296400.8255149239,
-            4499177.574081494
+            296407.9923567777,
+            4499183.625949307
           ],
           [
-            296403.1044920051,
-            4499184.192711523
+            296412.6133779948,
+            4499188.883911167
           ]
         ],
-        "technicalBaseElevation": 8.298636504935201,
+        "technicalBaseElevation": 8.312636004473234,
         "geometryConfidence": "C",
         "historicalFootprint": null,
         "historicalHeight": null,
@@ -59,18 +59,18 @@
         "kind": "stonehouse",
         "fromYear": 1778,
         "utmAnchor": [
-          296384.99771919835,
-          4499222.163132763
+          296410.7409091658,
+          4499238.427912278
         ],
         "alongAzimuthDegrees": 0,
-        "width": 8.370886716293171,
-        "depth": 2.98914713319391,
+        "width": 10.252572016557679,
+        "depth": 7.002433092333376,
         "height": 3.8,
         "evidence": "Plànol de 1748, D: Quarter de cavalleria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "partitions": 2,
         "planLetter": "D",
@@ -94,46 +94,46 @@
         ],
         "polygonUTM": [
           [
-            296389.1988163046,
-            4499220.636464257
+            296414.6372929538,
+            4499234.884710054
           ],
           [
-            296380.832464,
-            4499220.846738158
+            296405.6119161598,
+            4499238.856107758
           ],
           [
-            296380.8279295883,
-            4499223.62561139
+            296406.8499393733,
+            4499241.887143146
           ],
           [
-            296389.1316669005,
-            4499223.543717247
+            296415.86448817636,
+            4499238.083688154
           ]
         ],
         "anchor": [
-          296384.99771919835,
-          4499222.163132763
+          296410.7409091658,
+          4499238.427912278
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.506984127917471,
+        "technicalBaseElevation": 7.797904135119593,
         "footprintUTM": [
           [
-            296389.1988163046,
-            4499220.636464257
+            296414.6372929538,
+            4499234.884710054
           ],
           [
-            296380.832464,
-            4499220.846738158
+            296405.6119161598,
+            4499238.856107758
           ],
           [
-            296380.8279295883,
-            4499223.62561139
+            296406.8499393733,
+            4499241.887143146
           ],
           [
-            296389.1316669005,
-            4499223.543717247
+            296415.86448817636,
+            4499238.083688154
           ]
         ]
       }
@@ -166,60 +166,60 @@
           ]
         ],
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "utmAnchor": [
-          296379.3716897274,
-          4499225.756035239
+          296406.21553941595,
+          4499244.860695653
         ],
         "alongAzimuthDegrees": 0,
         "polygonUTM": [
           [
-            296381.6013579214,
-            4499224.320675856
+            296408.0038823776,
+            4499242.298824507
           ],
           [
-            296377.13011475326,
-            4499224.364772702
+            296403.1498945605,
+            4499244.346838734
           ],
           [
-            296377.12558034173,
-            4499227.143645934
+            296404.38791777403,
+            4499247.377874122
           ],
           [
-            296381.6297058934,
-            4499227.195046465
+            296409.3204629518,
+            4499245.419245247
           ]
         ],
-        "width": 4.504125551669858,
-        "depth": 2.8743706084787846,
+        "width": 6.170568391273264,
+        "depth": 5.079049615189433,
         "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "anchor": [
-          296379.3716897274,
-          4499225.756035239
+          296406.21553941595,
+          4499244.860695653
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.482475551008196,
+        "technicalBaseElevation": 8.073084048226503,
         "footprintUTM": [
           [
-            296381.6013579214,
-            4499224.320675856
+            296408.0038823776,
+            4499242.298824507
           ],
           [
-            296377.13011475326,
-            4499224.364772702
+            296403.1498945605,
+            4499244.346838734
           ],
           [
-            296377.12558034173,
-            4499227.143645934
+            296404.38791777403,
+            4499247.377874122
           ],
           [
-            296381.6297058934,
-            4499227.195046465
+            296409.3204629518,
+            4499245.419245247
           ]
         ]
       }
@@ -252,60 +252,60 @@
           ]
         ],
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "utmAnchor": [
-          296386.46876458003,
-          4499225.58223478
+          296413.87370188814,
+          4499241.496791208
         ],
         "alongAzimuthDegrees": 0,
         "polygonUTM": [
           [
-            296388.65732979454,
-            4499224.027503678
+            296415.56384814886,
+            4499238.823188374
           ],
           [
-            296384.21896901,
-            4499224.167097899
+            296410.78841769247,
+            4499240.960587951
           ],
           [
-            296384.2801993656,
-            4499227.136965883
+            296412.18355562736,
+            4499244.1703940425
           ],
           [
-            296388.71856015007,
-            4499226.9973716615
+            296416.95898608374,
+            4499242.032994465
           ]
         ],
-        "width": 4.499591140076518,
-        "depth": 3.1094622053205967,
+        "width": 6.170568391273264,
+        "depth": 5.34720566868782,
         "evidence": "Plànol de 1748, D: Quarter de cavalleria · cambra occidental. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "anchor": [
-          296386.46876458003,
-          4499225.58223478
+          296413.87370188814,
+          4499241.496791208
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.57574289119969,
+        "technicalBaseElevation": 7.605597240523192,
         "footprintUTM": [
           [
-            296388.65732979454,
-            4499224.027503678
+            296415.56384814886,
+            4499238.823188374
           ],
           [
-            296384.21896901,
-            4499224.167097899
+            296410.78841769247,
+            4499240.960587951
           ],
           [
-            296384.2801993656,
-            4499227.136965883
+            296412.18355562736,
+            4499244.1703940425
           ],
           [
-            296388.71856015007,
-            4499226.9973716615
+            296416.95898608374,
+            4499242.032994465
           ]
         ]
       }
@@ -318,18 +318,18 @@
         "kind": "stonehouse",
         "fromYear": 1778,
         "utmAnchor": [
-          296386.4556634133,
-          4499229.111795604
+          296415.4381632474,
+          4499245.349917458
         ],
         "alongAzimuthDegrees": 0,
-        "width": 4.535623298375867,
-        "depth": 3.5900988606736064,
+        "width": 6.39541248237947,
+        "depth": 5.940419157966971,
         "height": 3.8,
         "evidence": "Plànol de 1748, E: Quarter d'infanteria del recinte. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "partitions": 2,
         "planLetter": "E",
@@ -353,46 +353,46 @@
         ],
         "polygonUTM": [
           [
-            296388.72170992475,
-            4499227.316746174
+            296417.10527281417,
+            4499242.379707879
           ],
           [
-            296384.1878517641,
-            4499227.489222779
+            296412.24045700626,
+            4499244.595664819
           ],
           [
-            296384.18961690186,
-            4499230.906845035
+            296413.7710536807,
+            4499248.320127037
           ],
           [
-            296388.72347506246,
-            4499230.73436843
+            296418.63586948864,
+            4499246.104170099
           ]
         ],
         "anchor": [
-          296386.4556634133,
-          4499229.111795604
+          296415.4381632474,
+          4499245.349917458
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.655983561344318,
+        "technicalBaseElevation": 7.447481494921227,
         "footprintUTM": [
           [
-            296388.72170992475,
-            4499227.316746174
+            296417.10527281417,
+            4499242.379707879
           ],
           [
-            296384.1878517641,
-            4499227.489222779
+            296412.24045700626,
+            4499244.595664819
           ],
           [
-            296384.18961690186,
-            4499230.906845035
+            296413.7710536807,
+            4499248.320127037
           ],
           [
-            296388.72347506246,
-            4499230.73436843
+            296418.63586948864,
+            4499246.104170099
           ]
         ]
       }
@@ -425,60 +425,60 @@
           ]
         ],
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "utmAnchor": [
-          296381.10377800616,
-          4499228.925023447
+          296409.5209984899,
+          4499247.540185133
         ],
         "alongAzimuthDegrees": 0,
         "polygonUTM": [
           [
-            296383.4175732057,
-            4499227.113532824
+            296411.2328007325,
+            4499244.530696873
           ],
           [
-            296378.7553352853,
-            4499227.223394436
+            296406.20004221227,
+            4499246.735825822
           ],
           [
-            296378.78998280666,
-            4499230.736514068
+            296407.80919624737,
+            4499250.5496733915
           ],
           [
-            296383.452220727,
-            4499230.626652457
+            296412.84195476765,
+            4499248.344544444
           ]
         ],
-        "width": 4.696885441662744,
-        "depth": 3.6229812437668443,
+        "width": 6.641912555380259,
+        "depth": 6.018976518884301,
         "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra central. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "anchor": [
-          296381.10377800616,
-          4499228.925023447
+          296409.5209984899,
+          4499247.540185133
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.60754541269215,
+        "technicalBaseElevation": 7.994339464651901,
         "footprintUTM": [
           [
-            296383.4175732057,
-            4499227.113532824
+            296411.2328007325,
+            4499244.530696873
           ],
           [
-            296378.7553352853,
-            4499227.223394436
+            296406.20004221227,
+            4499246.735825822
           ],
           [
-            296378.78998280666,
-            4499230.736514068
+            296407.80919624737,
+            4499250.5496733915
           ],
           [
-            296383.452220727,
-            4499230.626652457
+            296412.84195476765,
+            4499248.344544444
           ]
         ]
       }
@@ -511,60 +511,60 @@
           ]
         ],
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "utmAnchor": [
-          296382.41671101924,
-          4499232.505387608
+          296412.5535778697,
+          4499250.855564135
         ],
         "alongAzimuthDegrees": 0,
         "polygonUTM": [
           [
-            296386.14189613215,
-            4499231.302818275
+            296416.07617826486,
+            4499247.878505422
           ],
           [
-            296378.60528760374,
-            4499231.44102786
+            296407.9229990051,
+            4499251.400214944
           ],
           [
-            296378.7228334025,
-            4499233.643767061
+            296409.03639147,
+            4499253.748651492
           ],
           [
-            296386.1968269384,
-            4499233.633937236
+            296417.17874273885,
+            4499250.394884682
           ]
         ],
-        "width": 7.591539334680419,
-        "depth": 2.3409487856552005,
+        "width": 9.255743733723648,
+        "depth": 5.8701460706070065,
         "evidence": "Plànol de 1748, E: Quarter d’infanteria · cambra meridional. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "anchor": [
-          296382.41671101924,
-          4499232.505387608
+          296412.5535778697,
+          4499250.855564135
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.73159454888169,
+        "technicalBaseElevation": 8.053727274260874,
         "footprintUTM": [
           [
-            296386.14189613215,
-            4499231.302818275
+            296416.07617826486,
+            4499247.878505422
           ],
           [
-            296378.60528760374,
-            4499231.44102786
+            296407.9229990051,
+            4499251.400214944
           ],
           [
-            296378.7228334025,
-            4499233.643767061
+            296409.03639147,
+            4499253.748651492
           ],
           [
-            296386.1968269384,
-            4499233.633937236
+            296417.17874273885,
+            4499250.394884682
           ]
         ]
       }

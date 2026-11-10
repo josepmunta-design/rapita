@@ -11,11 +11,11 @@
         "group": "royal-finished",
         "kind": "large",
         "anchor": {
-          "easting": 296381.290173554,
-          "northing": 4499428.847369786
+          "easting": 296370.8807309168,
+          "northing": 4499415.509697427
         },
-        "across": -28.5,
-        "along": 58,
+        "across": -34,
+        "along": 42,
         "frontAzimuthDegrees": 109,
         "width": 5,
         "depth": 10.4,
@@ -29,28 +29,29 @@
         "state1794": "finished",
         "layoutBasis": "group-location-inference",
         "terrace": true,
+        "block": "W-N",
         "footprintUTM": [
           [
-            296385.39294976095,
-            4499424.790618944
+            296374.9835071238,
+            4499411.452946585
           ],
           [
-            296387.0207905332,
-            4499429.518211822
+            296376.61134789605,
+            4499416.180539463
           ],
           [
-            296377.187397347,
-            4499432.904120629
+            296366.77795470983,
+            4499419.566448269
           ],
           [
-            296375.55955657474,
-            4499428.176527751
+            296365.15011393756,
+            4499414.838855391
           ]
         ],
         "terrain": {
-          "minimum": 8.235832102180403,
-          "maximum": 8.700946985861295,
-          "technicalBaseElevation": 8.780946985861295,
+          "minimum": 8.8913377836966,
+          "maximum": 9.298420192858401,
+          "technicalBaseElevation": 9.378420192858401,
           "historicalElevation": null
         }
       }

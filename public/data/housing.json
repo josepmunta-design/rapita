@@ -66,199 +66,240 @@
   "layout": {
     "finishedRows": [
       {
-        "across": -28.5,
-        "startAlong": 28,
+        "across": -34,
+        "startAlong": 12,
         "spacing": 5,
         "count": 11,
-        "front": "east"
+        "front": "east",
+        "block": "W-N",
+        "source": "N112 il·l.4: illa 1-3 occidental nord (along 8–74 al croquis).",
+        "actualMap20261108": "Façana a la línia actual del costat oest (−28,5 m), des de la cantonada del carrer de la Constància."
       },
       {
-        "across": 28.5,
-        "startAlong": 24,
+        "across": 24,
+        "startAlong": -18.628,
+        "spacing": -4.656,
+        "count": 9,
+        "front": "west",
+        "depth": 8,
+        "block": "E-mid",
+        "source": "N112 il·l.4: illa 1-3 oriental central, davant de l’illa occidental sud (along −29 a −74). Fondària de 8 m per deixar el carreró de la duana (subhasta de 1868: «al oeste con callejón»).",
+        "width": 4.656,
+        "actualMap20261108": "Les nou cases omplen l’illa actual entre el Cóc i el carrer de l’Arsenal (41,9 m): front de 4,66 m, dins del «frente aproximado 5 m» de H02."
+      },
+      {
+        "across": 28,
+        "startAlong": 30,
         "spacing": 5,
-        "count": 11,
-        "front": "west"
+        "count": 2,
+        "front": "west",
+        "block": "E-N",
+        "source": "Dues unitats reservades: cos de la Fonda Nova a la Rambla (cases 5 i 6, N112 p.210)."
       }
     ],
     "coveredRow": {
-      "across": -28.5,
-      "startAlong": -10,
-      "spacing": -5,
+      "across": -36.5,
+      "startAlong": -54.2,
+      "spacing": 5,
       "count": 7,
-      "front": "east"
+      "front": "east",
+      "block": "W-S",
+      "source": "N112 il·l.4: illa 1-3 occidental sud, fins a l’església.",
+      "actualMap20261108": "Set cases des del carrer del Rosari (cantonada de l’església) cap al nord; els 14 m de la cantonada de la Constància queden sense casa reial (propietats privades no individualitzades)."
     },
     "exedra": {
-      "across": -2,
-      "along": -118,
-      "innerRadius": 23,
+      "across": -6.9,
+      "along": -108.8,
+      "innerRadius": 25.4,
       "depth": 10,
       "count": 10,
       "confidence": "C",
       "source": "H02 propone relacionar diez casas rodones con la cabecera semicircular; colocación y radio de ensayo, no planta histórica validada.",
-      "gap": 8,
+      "gap": 10.3,
       "gapSource": "N030, N031 i N102 mostren que la cabecera semicircular no es tanca: s'hi obre un pas de carrer al mig. H02 (p.210, nota 60) reparteix els deu arcs en cinc a cada costat. L'amplada del pas és C.",
-      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C."
+      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+      "actualMap20261108": "Centre, radi i pas del carrer de la Pau ajustats al semicercle actual de la plaça (14 punts de façana, residu < 0,55 m). Substitueix el reajust relacional anterior (−2, −118; R 23 m; pas 8 m)."
     },
     "porticoRow": {
-      "across": -28.5,
-      "startAlong": -107,
-      "spacing": 6,
+      "across": -37.8,
+      "startAlong": -105,
+      "spacing": 6.5,
       "count": 4,
       "front": "east",
-      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
+      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido.",
+      "arrangement": "Quatre cases porxades seguides, de la mateixa amplada que les rodones (dos arcs cadascuna), tocant la font occidental i l’església (N112 p.210; foto N083: porxos a l’esquerra del temple).",
+      "width": 6.5,
+      "actualMap20261108": "Les quatre porxades omplen l’illa actual entre el carrer de l’Aurora i el semicercle (26 m = 4 × 6,5 m)."
     },
     "manzana": {
-      "across": -60,
-      "along": 105,
-      "acrossLength": 80,
-      "alongLength": 40,
+      "across": -63.5,
+      "along": 105.5,
+      "acrossLength": 73,
+      "alongLength": 42,
       "wingDepth": 7,
       "countedUnits": 24,
-      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
+      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C.",
+      "actualMap20261108": "Illa actual entre els carrers de Sant Antoni, Sant Tomàs, Sant Joaquim i la plaça (73 × 42 m; H02: «aproximadament 80 × 40»)."
     },
     "smallCoastAdjustment": "Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
     "coastalHouses": [
       {
         "anchor": [
-          296483.7697247865,
-          4499277.5570266675
+          296487.288,
+          4499281.638
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296482.81980135146,
-          4499272.412821629
+          296486.339,
+          4499276.486
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296481.8698779164,
-          4499267.268616592
+          296485.384,
+          4499271.347
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296480.91995448136,
-          4499262.124411554
+          296484.439,
+          4499266.205
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296464.7677199083,
-          4499260.269143311
+          296455.521,
+          4499258.182
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296462.9579274554,
-          4499255.139947344
+          296453.75,
+          4499253.038
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296461.1481350026,
-          4499250.010751376
+          296451.979,
+          4499247.895
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296459.3383425497,
-          4499244.881555407
+          296450.208,
+          4499242.751
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296457.66384793434,
-          4499332.746839811
+          296478.692,
+          4499313.343
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296455.8732230848,
-          4499327.546487645
+          296482.9,
+          4499311.895
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296454.0825982353,
-          4499322.346135479
+          296487.108,
+          4499310.446
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296452.2919733858,
-          4499317.145783314
+          296491.315,
+          4499308.997
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296450.5013485362,
-          4499311.945431148
+          296495.523,
+          4499307.548
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296448.71072368673,
-          4499306.745078982
+          296499.73,
+          4499306.1
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       }
-    ]
+    ],
+    "plazaRevision20261108": "Files reordenades segons les illes 1-3 de N112 il·l.4: W-N 11 acabades, E-central 9 acabades, W-S 7 cobertes; dues acabades reservades dins la Fonda Nova. Totals de 1794 conservats (22/7/14). Posicions individuals C.",
+    "churchStreet20261108": "Carrer de 7 m a la dreta de l’església mirant-la de cara (costat nord), com a les fotografies N076 i N112 il·l.6; les porxades toquen el temple pel costat sud (N083)."
   },
   "typologies": {
     "large": {
@@ -335,17 +376,23 @@
       "use": "Agrupacions de petits cossos a tocar del front litoral i relacio amb el promontori. Els simbols no permeten identificar ni comptar les 14 parcelles de 1794. No sutilitzen com a aixecament metric."
     }
   ],
+  "actualMapRevision": {
+    "date": "2026-11-08",
+    "source": "ICGC, mapa topogràfic 1:1.000 (docs/sources/nucleo-topografico.jpg) i ortofoto 2024",
+    "method": "Línies de façana mesurades sobre el ràster girat al marc de la població",
+    "doc": "docs/1800-1900/ENCAIX-ICGC-20261108.md"
+  },
   "structures": [
     {
       "id": "royal-finished-01",
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296371.52312892023,
-        "northing": 4499400.481812519
+        "easting": 296361.1136862831,
+        "northing": 4499387.144140159
       },
-      "across": -28.5,
-      "along": 28,
+      "across": -34,
+      "along": 12,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -359,28 +406,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296375.6259051272,
-          4499396.425061677
+          296365.2164624901,
+          4499383.087389316
         ],
         [
-          296377.2537458995,
-          4499401.152654555
+          296366.84430326236,
+          4499387.814982194
         ],
         [
-          296367.42035271326,
-          4499404.538563361
+          296357.01091007615,
+          4499391.200891001
         ],
         [
-          296365.792511941,
-          4499399.810970483
+          296355.3830693039,
+          4499386.473298123
         ]
       ],
       "terrain": {
-        "minimum": 9.179667539932986,
-        "maximum": 9.720128110292269,
-        "technicalBaseElevation": 9.800128110292269,
+        "minimum": 9.8549878468057,
+        "maximum": 10.725763116452697,
+        "technicalBaseElevation": 10.805763116452697,
         "historicalElevation": null
       }
     },
@@ -389,11 +437,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296373.15096969256,
-        "northing": 4499405.209405397
+        "easting": 296362.7415270554,
+        "northing": 4499391.871733037
       },
-      "across": -28.5,
-      "along": 33,
+      "across": -34,
+      "along": 17,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -407,28 +455,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296377.5374014722,
-          4499401.054984109
+          296367.12795883504,
+          4499387.717311748
         ],
         [
-          296379.1652422445,
-          4499405.782576987
+          296368.7557996073,
+          4499392.444904626
         ],
         [
-          296368.7645379129,
-          4499409.363826686
+          296358.35509527574,
+          4499396.026154325
         ],
         [
-          296367.13669714064,
-          4499404.636233808
+          296356.72725450346,
+          4499391.298561447
         ]
       ],
       "terrain": {
-        "minimum": 9.022497488528561,
-        "maximum": 9.606988458112834,
-        "technicalBaseElevation": 9.686988458112834,
+        "minimum": 9.680254443745799,
+        "maximum": 10.559687584121576,
+        "technicalBaseElevation": 10.639687584121576,
         "historicalElevation": null
       }
     },
@@ -437,11 +486,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296374.77881046484,
-        "northing": 4499409.936998275
+        "easting": 296364.36936782766,
+        "northing": 4499396.599325915
       },
-      "across": -28.5,
-      "along": 38,
+      "across": -34,
+      "along": 22,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11.6,
@@ -455,28 +504,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296379.4488978172,
-          4499405.68490654
+          296369.03945518,
+          4499392.34723418
         ],
         [
-          296381.07673858944,
-          4499410.4124994185
+          296370.66729595227,
+          4499397.074827058
         ],
         [
-          296370.1087231125,
-          4499414.18909001
+          296359.6992804753,
+          4499400.85141765
         ],
         [
-          296368.4808823402,
-          4499409.461497132
+          296358.07143970305,
+          4499396.1238247715
         ]
       ],
       "terrain": {
-        "minimum": 8.867881772893819,
-        "maximum": 9.36173940815318,
-        "technicalBaseElevation": 9.44173940815318,
+        "minimum": 9.528141301391988,
+        "maximum": 10.183919936768328,
+        "technicalBaseElevation": 10.263919936768328,
         "historicalElevation": null
       }
     },
@@ -485,11 +535,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296376.4066512371,
-        "northing": 4499414.664591153
+        "easting": 296365.99720859993,
+        "northing": 4499401.326918793
       },
-      "across": -28.5,
-      "along": 43,
+      "across": -34,
+      "along": 27,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -503,28 +553,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296380.5094274441,
-          4499410.607840311
+          296370.0999848069,
+          4499397.270167951
         ],
         [
-          296382.13726821635,
-          4499415.335433189
+          296371.7278255792,
+          4499401.997760829
         ],
         [
-          296372.30387503013,
-          4499418.7213419955
+          296361.89443239296,
+          4499405.383669635
         ],
         [
-          296370.67603425786,
-          4499413.9937491175
+          296360.2665916207,
+          4499400.656076757
         ]
       ],
       "terrain": {
-        "minimum": 8.700599165422668,
-        "maximum": 9.155734826079518,
-        "technicalBaseElevation": 9.235734826079518,
+        "minimum": 9.478744905624604,
+        "maximum": 9.826988360184192,
+        "technicalBaseElevation": 9.906988360184192,
         "historicalElevation": null
       }
     },
@@ -533,11 +584,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296378.0344920094,
-        "northing": 4499419.392184031
+        "easting": 296367.62504937226,
+        "northing": 4499406.054511671
       },
-      "across": -28.5,
-      "along": 48,
+      "across": -34,
+      "along": 32,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -551,28 +602,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296382.42092378903,
-          4499415.237762743
+          296372.0114811519,
+          4499401.900090382
         ],
         [
-          296384.0487645613,
-          4499419.965355621
+          296373.6393219242,
+          4499406.6276832605
         ],
         [
-          296373.6480602297,
-          4499423.54660532
+          296363.2386175926,
+          4499410.2089329595
         ],
         [
-          296372.02021945745,
-          4499418.819012442
+          296361.61077682034,
+          4499405.481340081
         ]
       ],
       "terrain": {
-        "minimum": 8.525764007751102,
-        "maximum": 8.9947943189331,
-        "technicalBaseElevation": 9.0747943189331,
+        "minimum": 9.234483681819853,
+        "maximum": 9.697475040453288,
+        "technicalBaseElevation": 9.777475040453288,
         "historicalElevation": null
       }
     },
@@ -581,11 +633,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296379.6623327817,
-        "northing": 4499424.119776908
+        "easting": 296369.25289014453,
+        "northing": 4499410.782104549
       },
-      "across": -28.5,
-      "along": 53,
+      "across": -34,
+      "along": 37,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11.6,
@@ -599,28 +651,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296384.33242013404,
-          4499419.867685174
+          296373.92297749687,
+          4499406.530012814
         ],
         [
-          296385.9602609063,
-          4499424.595278052
+          296375.55081826914,
+          4499411.257605692
         ],
         [
-          296374.99224542937,
-          4499428.371868643
+          296364.5828027922,
+          4499415.034196284
         ],
         [
-          296373.3644046571,
-          4499423.644275765
+          296362.9549620199,
+          4499410.306603406
         ]
       ],
       "terrain": {
-        "minimum": 8.364229370253032,
-        "maximum": 8.907924330681467,
-        "technicalBaseElevation": 8.987924330681468,
+        "minimum": 9.086313342772351,
+        "maximum": 9.42813647012881,
+        "technicalBaseElevation": 9.508136470128811,
         "historicalElevation": null
       }
     },
@@ -629,11 +682,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296381.290173554,
-        "northing": 4499428.847369786
+        "easting": 296370.8807309168,
+        "northing": 4499415.509697427
       },
-      "across": -28.5,
-      "along": 58,
+      "across": -34,
+      "along": 42,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -647,28 +700,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296385.39294976095,
-          4499424.790618944
+          296374.9835071238,
+          4499411.452946585
         ],
         [
-          296387.0207905332,
-          4499429.518211822
+          296376.61134789605,
+          4499416.180539463
         ],
         [
-          296377.187397347,
-          4499432.904120629
+          296366.77795470983,
+          4499419.566448269
         ],
         [
-          296375.55955657474,
-          4499428.176527751
+          296365.15011393756,
+          4499414.838855391
         ]
       ],
       "terrain": {
-        "minimum": 8.235832102180403,
-        "maximum": 8.700946985861295,
-        "technicalBaseElevation": 8.780946985861295,
+        "minimum": 8.8913377836966,
+        "maximum": 9.298420192858401,
+        "technicalBaseElevation": 9.378420192858401,
         "historicalElevation": null
       }
     },
@@ -677,11 +731,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296382.91801432625,
-        "northing": 4499433.574962664
+        "easting": 296372.5085716891,
+        "northing": 4499420.237290305
       },
-      "across": -28.5,
-      "along": 63,
+      "across": -34,
+      "along": 47,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -695,28 +749,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296387.3044461059,
-          4499429.420541376
+          296376.89500346873,
+          4499416.082869017
         ],
         [
-          296388.9322868782,
-          4499434.148134254
+          296378.522844241,
+          4499420.810461895
         ],
         [
-          296378.5315825466,
-          4499437.729383953
+          296368.1221399094,
+          4499424.391711594
         ],
         [
-          296376.9037417743,
-          4499433.001791075
+          296366.49429913715,
+          4499419.664118716
         ]
       ],
       "terrain": {
-        "minimum": 8.08616182634465,
-        "maximum": 8.742444608500872,
-        "technicalBaseElevation": 8.822444608500872,
+        "minimum": 8.728681886092883,
+        "maximum": 9.070522207143007,
+        "technicalBaseElevation": 9.150522207143007,
         "historicalElevation": null
       }
     },
@@ -725,11 +780,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296384.5458550985,
-        "northing": 4499438.302555542
+        "easting": 296374.1364124614,
+        "northing": 4499424.964883182
       },
-      "across": -28.5,
-      "along": 68,
+      "across": -34,
+      "along": 52,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11.6,
@@ -743,28 +798,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296389.21594245086,
-          4499434.050463808
+          296378.80649981374,
+          4499420.7127914475
         ],
         [
-          296390.8437832231,
-          4499438.778056686
+          296380.434340586,
+          4499425.440384326
         ],
         [
-          296379.8757677462,
-          4499442.554647277
+          296369.46632510907,
+          4499429.216974917
         ],
         [
-          296378.2479269739,
-          4499437.827054399
+          296367.8384843368,
+          4499424.489382039
         ]
       ],
       "terrain": {
-        "minimum": 7.909590650083022,
-        "maximum": 8.732566269689288,
-        "technicalBaseElevation": 8.812566269689288,
+        "minimum": 8.559864093106306,
+        "maximum": 8.937842049334659,
+        "technicalBaseElevation": 9.017842049334659,
         "historicalElevation": null
       }
     },
@@ -773,11 +829,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296386.17369587085,
-        "northing": 4499443.0301484205
+        "easting": 296375.7642532337,
+        "northing": 4499429.69247606
       },
-      "across": -28.5,
-      "along": 73,
+      "across": -34,
+      "along": 57,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -791,28 +847,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296390.2764720778,
-          4499438.973397578
+          296379.86702944065,
+          4499425.635725218
         ],
         [
-          296391.9043128501,
-          4499443.700990456
+          296381.4948702129,
+          4499430.363318096
         ],
         [
-          296382.0709196639,
-          4499447.086899263
+          296371.6614770267,
+          4499433.749226903
         ],
         [
-          296380.4430788916,
-          4499442.359306385
+          296370.03363625443,
+          4499429.021634025
         ]
       ],
       "terrain": {
-        "minimum": 7.698759288337847,
-        "maximum": 8.3610788988456,
-        "technicalBaseElevation": 8.4410788988456,
+        "minimum": 8.583842750640006,
+        "maximum": 8.79155617151666,
+        "technicalBaseElevation": 8.87155617151666,
         "historicalElevation": null
       }
     },
@@ -821,11 +878,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296387.8015366431,
-        "northing": 4499447.7577412985
+        "easting": 296377.39209400595,
+        "northing": 4499434.420068938
       },
-      "across": -28.5,
-      "along": 78,
+      "across": -34,
+      "along": 62,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -839,28 +896,29 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-N",
       "footprintUTM": [
         [
-          296392.1879684228,
-          4499443.60332001
+          296381.7785257856,
+          4499430.26564765
         ],
         [
-          296393.81580919505,
-          4499448.330912888
+          296383.4063665579,
+          4499434.993240528
         ],
         [
-          296383.41510486347,
-          4499451.912162587
+          296373.0056622263,
+          4499438.574490227
         ],
         [
-          296381.7872640912,
-          4499447.184569709
+          296371.377821454,
+          4499433.846897349
         ]
       ],
       "terrain": {
-        "minimum": 7.533788493800187,
-        "maximum": 8.001985279473775,
-        "technicalBaseElevation": 8.081985279473775,
+        "minimum": 8.511902670291757,
+        "maximum": 8.730141444077864,
+        "technicalBaseElevation": 8.810141444077864,
         "historicalElevation": null
       }
     },
@@ -869,15 +927,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296424.11541511153,
-        "northing": 4499378.142353413
+        "easting": 296405.98226223316,
+        "northing": 4499339.301844267
       },
-      "across": 28.5,
-      "along": 24,
+      "across": 24,
+      "along": -18.628,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11.6,
-      "wallHeight": 7.7,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -887,28 +945,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296419.4453277592,
-          4499382.394445147
+          296402.95811059437,
+          4499342.8052841285
         ],
         [
-          296417.8174869869,
-          4499377.666852269
+          296401.4422652672,
+          4499338.402949641
         ],
         [
-          296428.78550246387,
-          4499373.890261678
+          296409.00641387195,
+          4499335.798404406
         ],
         [
-          296430.41334323614,
-          4499378.617854556
+          296410.5222591991,
+          4499340.200738893
         ]
       ],
       "terrain": {
-        "minimum": 7.4755730453755795,
-        "maximum": 8.257848912128251,
-        "technicalBaseElevation": 8.337848912128251,
+        "minimum": 8.17994400832214,
+        "maximum": 8.659300279229624,
+        "technicalBaseElevation": 8.739300279229624,
         "historicalElevation": null
       }
     },
@@ -917,14 +977,14 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296425.7432558838,
-        "northing": 4499382.869946291
+        "easting": 296404.466416906,
+        "northing": 4499334.899509779
       },
-      "across": 28.5,
-      "along": 29,
+      "across": 24,
+      "along": -23.284,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 10.4,
+      "width": 4.656,
+      "depth": 8,
       "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
@@ -935,28 +995,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296421.64047967683,
-          4499386.926697133
+          296401.4422652672,
+          4499338.4029496405
         ],
         [
-          296420.01263890456,
-          4499382.199104255
+          296399.92641994,
+          4499334.000615153
         ],
         [
-          296429.8460320908,
-          4499378.813195448
+          296407.4905685448,
+          4499331.396069918
         ],
         [
-          296431.47387286305,
-          4499383.540788326
+          296409.00641387195,
+          4499335.798404405
         ]
       ],
       "terrain": {
-        "minimum": 7.317847458244151,
-        "maximum": 8.235094134704651,
-        "technicalBaseElevation": 8.315094134704651,
+        "minimum": 8.37831022266451,
+        "maximum": 8.793863907613217,
+        "technicalBaseElevation": 8.873863907613217,
         "historicalElevation": null
       }
     },
@@ -965,15 +1027,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296427.37109665613,
-        "northing": 4499387.597539169
+        "easting": 296402.95057157887,
+        "northing": 4499330.497175291
       },
-      "across": 28.5,
-      "along": 34,
+      "across": 24,
+      "along": -27.939999999999998,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11,
-      "wallHeight": 7.95,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -983,28 +1045,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296422.9846648765,
-          4499391.751960457
+          296399.9264199401,
+          4499334.0006151525
         ],
         [
-          296421.3568241042,
-          4499387.024367579
+          296398.4105746129,
+          4499329.598280665
         ],
         [
-          296431.7575284358,
-          4499383.44311788
+          296405.97472321766,
+          4499326.99373543
         ],
         [
-          296433.38536920806,
-          4499388.170710758
+          296407.49056854483,
+          4499331.396069917
         ]
       ],
       "terrain": {
-        "minimum": 7.178434982398074,
-        "maximum": 8.212026388587331,
-        "technicalBaseElevation": 8.292026388587331,
+        "minimum": 8.528830319268515,
+        "maximum": 8.775219113913847,
+        "technicalBaseElevation": 8.855219113913847,
         "historicalElevation": null
       }
     },
@@ -1013,15 +1077,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296428.9989374284,
-        "northing": 4499392.325132047
+        "easting": 296401.4347262517,
+        "northing": 4499326.094840803
       },
-      "across": 28.5,
-      "along": 39,
+      "across": 24,
+      "along": -32.596000000000004,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11.6,
-      "wallHeight": 7.7,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -1031,28 +1095,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296424.32885007607,
-          4499396.5772237815
+          296398.4105746129,
+          4499329.5982806645
         ],
         [
-          296422.7010093038,
-          4499391.849630903
+          296396.89472928573,
+          4499325.1959461775
         ],
         [
-          296433.66902478074,
-          4499388.073040312
+          296404.4588778905,
+          4499322.591400942
         ],
         [
-          296435.296865553,
-          4499392.80063319
+          296405.97472321766,
+          4499326.993735429
         ]
       ],
       "terrain": {
-        "minimum": 7.016852271065089,
-        "maximum": 8.018901650417979,
-        "technicalBaseElevation": 8.098901650417979,
+        "minimum": 8.56078662555322,
+        "maximum": 8.846767366017271,
+        "technicalBaseElevation": 8.926767366017271,
         "historicalElevation": null
       }
     },
@@ -1061,14 +1127,14 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296430.6267782007,
-        "northing": 4499397.052724925
+        "easting": 296399.9188809246,
+        "northing": 4499321.692506315
       },
-      "across": 28.5,
-      "along": 44,
+      "across": 24,
+      "along": -37.251999999999995,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 10.4,
+      "width": 4.656,
+      "depth": 8,
       "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
@@ -1079,28 +1145,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296426.5240019937,
-          4499401.109475767
+          296396.8947292858,
+          4499325.195946177
         ],
         [
-          296424.89616122143,
-          4499396.381882889
+          296395.3788839586,
+          4499320.7936116895
         ],
         [
-          296434.72955440765,
-          4499392.9959740825
+          296402.9430325634,
+          4499318.189066454
         ],
         [
-          296436.3573951799,
-          4499397.723566961
+          296404.45887789055,
+          4499322.591400941
         ]
       ],
       "terrain": {
-        "minimum": 7.1109905976517185,
-        "maximum": 7.916238455574131,
-        "technicalBaseElevation": 7.996238455574131,
+        "minimum": 8.545927810148424,
+        "maximum": 8.846767366082048,
+        "technicalBaseElevation": 8.926767366082048,
         "historicalElevation": null
       }
     },
@@ -1109,15 +1177,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296432.25461897295,
-        "northing": 4499401.780317803
+        "easting": 296398.4030355974,
+        "northing": 4499317.290171827
       },
-      "across": 28.5,
-      "along": 49,
+      "across": 24,
+      "along": -41.908,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11,
-      "wallHeight": 7.95,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -1127,28 +1195,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296427.8681871933,
-          4499405.934739091
+          296395.3788839586,
+          4499320.793611689
         ],
         [
-          296426.240346421,
-          4499401.207146213
+          296393.86303863145,
+          4499316.3912772015
         ],
         [
-          296436.6410507526,
-          4499397.625896514
+          296401.4271872362,
+          4499313.786731966
         ],
         [
-          296438.2688915249,
-          4499402.353489392
+          296402.9430325634,
+          4499318.189066453
         ]
       ],
       "terrain": {
-        "minimum": 7.58186390932876,
-        "maximum": 7.961977682660163,
-        "technicalBaseElevation": 8.041977682660162,
+        "minimum": 8.553701880822162,
+        "maximum": 8.85393691310025,
+        "technicalBaseElevation": 8.93393691310025,
         "historicalElevation": null
       }
     },
@@ -1157,15 +1227,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296433.8824597453,
-        "northing": 4499406.50791068
+        "easting": 296396.88719027024,
+        "northing": 4499312.887837339
       },
-      "across": 28.5,
-      "along": 54,
+      "across": 24,
+      "along": -46.564,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11.6,
-      "wallHeight": 7.7,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -1175,28 +1245,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296429.21237239294,
-          4499410.760002415
+          296393.86303863145,
+          4499316.391277201
         ],
         [
-          296427.58453162067,
-          4499406.032409537
+          296392.3471933043,
+          4499311.9889427135
         ],
         [
-          296438.5525470976,
-          4499402.255818945
+          296399.911341909,
+          4499309.384397478
         ],
         [
-          296440.1803878699,
-          4499406.983411823
+          296401.4271872362,
+          4499313.786731965
         ]
       ],
       "terrain": {
-        "minimum": 7.567131133804529,
-        "maximum": 7.9118771491948,
-        "technicalBaseElevation": 7.9918771491948,
+        "minimum": 8.548772167189485,
+        "maximum": 8.817285985234584,
+        "technicalBaseElevation": 8.897285985234584,
         "historicalElevation": null
       }
     },
@@ -1205,14 +1277,14 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296435.51030051755,
-        "northing": 4499411.235503558
+        "easting": 296395.3713449431,
+        "northing": 4499308.485502851
       },
-      "across": 28.5,
-      "along": 59,
+      "across": 24,
+      "along": -51.22,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 10.4,
+      "width": 4.656,
+      "depth": 8,
       "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
@@ -1223,28 +1295,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296431.4075243106,
-          4499415.2922544
+          296392.34719330433,
+          4499311.988942713
         ],
         [
-          296429.7796835383,
-          4499410.564661522
+          296390.83134797716,
+          4499307.5866082255
         ],
         [
-          296439.6130767245,
-          4499407.178752716
+          296398.3954965819,
+          4499304.98206299
         ],
         [
-          296441.2409174968,
-          4499411.906345594
+          296399.9113419091,
+          4499309.384397477
         ]
       ],
       "terrain": {
-        "minimum": 7.488921479214948,
-        "maximum": 8.019140639019854,
-        "technicalBaseElevation": 8.099140639019854,
+        "minimum": 8.545672417383571,
+        "maximum": 8.944780569497365,
+        "technicalBaseElevation": 9.024780569497365,
         "historicalElevation": null
       }
     },
@@ -1253,15 +1327,15 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296437.1381412898,
-        "northing": 4499415.963096436
+        "easting": 296393.85549961595,
+        "northing": 4499304.083168363
       },
-      "across": 28.5,
-      "along": 64,
+      "across": 24,
+      "along": -55.876,
       "frontAzimuthDegrees": -71,
-      "width": 5,
-      "depth": 11,
-      "wallHeight": 7.95,
+      "width": 4.656,
+      "depth": 8,
+      "wallHeight": 7.8,
       "roofRise": 1.8,
       "wallThickness": 0.42,
       "originalHouseNumber": null,
@@ -1271,28 +1345,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 4.656,
+      "block": "E-mid",
       "footprintUTM": [
         [
-          296432.75170951016,
-          4499420.117517725
+          296390.83134797716,
+          4499307.586608225
         ],
         [
-          296431.1238687379,
-          4499415.389924847
+          296389.31550265,
+          4499303.1842737375
         ],
         [
-          296441.5245730695,
-          4499411.808675148
+          296396.87965125474,
+          4499300.579728502
         ],
         [
-          296443.15241384174,
-          4499416.536268026
+          296398.3954965819,
+          4499304.982062989
         ]
       ],
       "terrain": {
-        "minimum": 7.384608245348526,
-        "maximum": 8.165080579678056,
-        "technicalBaseElevation": 8.245080579678056,
+        "minimum": 8.4221858723192,
+        "maximum": 8.857445620098927,
+        "technicalBaseElevation": 8.937445620098927,
         "historicalElevation": null
       }
     },
@@ -1301,11 +1377,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296438.7659820621,
-        "northing": 4499420.690689314
+        "easting": 296425.5960647505,
+        "northing": 4499383.978248944
       },
-      "across": 28.5,
-      "along": 69,
+      "across": 28,
+      "along": 30,
       "frontAzimuthDegrees": -71,
       "width": 5,
       "depth": 11.6,
@@ -1319,29 +1395,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "E-N",
       "reservation": "possible-inn-bodies-do-not-duplicate",
       "footprintUTM": [
         [
-          296434.09589470975,
-          4499424.942781049
+          296420.9259773982,
+          4499388.230340678
         ],
         [
-          296432.4680539375,
-          4499420.215188171
+          296419.2981366259,
+          4499383.5027478
         ],
         [
-          296443.4360694144,
-          4499416.4385975795
+          296430.26615210285,
+          4499379.726157209
         ],
         [
-          296445.0639101867,
-          4499421.1661904575
+          296431.8939928751,
+          4499384.453750087
         ]
       ],
       "terrain": {
-        "minimum": 7.2821475802083375,
-        "maximum": 8.031388856639776,
-        "technicalBaseElevation": 8.111388856639776,
+        "minimum": 7.268972000773155,
+        "maximum": 8.217862172965692,
+        "technicalBaseElevation": 8.297862172965692,
         "historicalElevation": null
       }
     },
@@ -1350,11 +1427,11 @@
       "group": "royal-finished",
       "kind": "large",
       "anchor": {
-        "easting": 296440.3938228344,
-        "northing": 4499425.418282192
+        "easting": 296427.2239055228,
+        "northing": 4499388.705841822
       },
-      "across": 28.5,
-      "along": 74,
+      "across": 28,
+      "along": 35,
       "frontAzimuthDegrees": -71,
       "width": 5,
       "depth": 10.4,
@@ -1368,29 +1445,30 @@
       "state1794": "finished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "E-N",
       "reservation": "possible-inn-bodies-do-not-duplicate",
       "footprintUTM": [
         [
-          296436.29104662745,
-          4499429.475033035
+          296423.1211293158,
+          4499392.762592664
         ],
         [
-          296434.6632058552,
-          4499424.7474401565
+          296421.49328854354,
+          4499388.034999786
         ],
         [
-          296444.4965990414,
-          4499421.36153135
+          296431.32668172976,
+          4499384.649090979
         ],
         [
-          296446.12443981366,
-          4499426.089124228
+          296432.954522502,
+          4499389.376683857
         ]
       ],
       "terrain": {
-        "minimum": 7.134667362868029,
-        "maximum": 7.578036111007983,
-        "technicalBaseElevation": 7.658036111007983,
+        "minimum": 7.216491452546019,
+        "maximum": 8.1619743502041,
+        "technicalBaseElevation": 8.2419743502041,
         "historicalElevation": null
       }
     },
@@ -1399,11 +1477,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296359.15153905086,
-        "northing": 4499364.552106646
+        "easting": 296337.19727801904,
+        "northing": 4499325.364730841
       },
-      "across": -28.5,
-      "along": -10,
+      "across": -36.5,
+      "along": -54.2,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -1417,28 +1495,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296363.25431525783,
-          4499360.4953558035
+          296341.300054226,
+          4499321.307979998
         ],
         [
-          296364.8821560301,
-          4499365.222948682
+          296342.9278949983,
+          4499326.035572876
         ],
         [
-          296355.0487628439,
-          4499368.608857488
+          296333.09450181207,
+          4499329.421481683
         ],
         [
-          296353.4209220716,
-          4499363.88126461
+          296331.4666610398,
+          4499324.693888805
         ]
       ],
       "terrain": {
-        "minimum": 9.903045884804627,
-        "maximum": 10.479132517041885,
-        "technicalBaseElevation": 10.559132517041885,
+        "minimum": 10.314548201490972,
+        "maximum": 10.94062022915802,
+        "technicalBaseElevation": 11.02062022915802,
         "historicalElevation": null
       }
     },
@@ -1447,11 +1526,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296357.5236982786,
-        "northing": 4499359.824513768
+        "easting": 296338.82511879137,
+        "northing": 4499330.092323718
       },
-      "across": -28.5,
-      "along": -15,
+      "across": -36.5,
+      "along": -49.2,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -1465,28 +1544,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296361.91013005824,
-          4499355.670092479
+          296343.211550571,
+          4499325.937902429
         ],
         [
-          296363.5379708305,
-          4499360.397685357
+          296344.8393913433,
+          4499330.665495307
         ],
         [
-          296353.13726649893,
-          4499363.978935056
+          296334.4386870117,
+          4499334.246745006
         ],
         [
-          296351.50942572666,
-          4499359.251342178
+          296332.81084623944,
+          4499329.519152128
         ]
       ],
       "terrain": {
-        "minimum": 9.898066865027095,
-        "maximum": 10.487908783098744,
-        "technicalBaseElevation": 10.567908783098744,
+        "minimum": 10.262808702234823,
+        "maximum": 10.867872218985939,
+        "technicalBaseElevation": 10.947872218985939,
         "historicalElevation": null
       }
     },
@@ -1495,11 +1575,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296355.8958575063,
-        "northing": 4499355.09692089
+        "easting": 296340.45295956364,
+        "northing": 4499334.819916596
       },
-      "across": -28.5,
-      "along": -20,
+      "across": -36.5,
+      "along": -44.2,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11.6,
@@ -1513,28 +1593,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296360.56594485865,
-          4499350.844829155
+          296345.123046916,
+          4499330.567824861
         ],
         [
-          296362.1937856309,
-          4499355.572422033
+          296346.75088768825,
+          4499335.295417739
         ],
         [
-          296351.225770154,
-          4499359.3490126245
+          296335.7828722113,
+          4499339.07200833
         ],
         [
-          296349.5979293817,
-          4499354.621419746
+          296334.15503143903,
+          4499334.344415452
         ]
       ],
       "terrain": {
-        "minimum": 9.863553262893673,
-        "maximum": 10.462011236844248,
-        "technicalBaseElevation": 10.542011236844248,
+        "minimum": 10.22970098010635,
+        "maximum": 10.809890638470186,
+        "technicalBaseElevation": 10.889890638470186,
         "historicalElevation": null
       }
     },
@@ -1543,11 +1624,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296354.26801673404,
-        "northing": 4499350.369328012
+        "easting": 296342.0808003359,
+        "northing": 4499339.547509474
       },
-      "across": -28.5,
-      "along": -25,
+      "across": -36.5,
+      "along": -39.2,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -1561,28 +1642,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296358.370792941,
-          4499346.312577169
+          296346.1835765429,
+          4499335.490758631
         ],
         [
-          296359.9986337133,
-          4499351.040170047
+          296347.81141731516,
+          4499340.218351509
         ],
         [
-          296350.1652405271,
-          4499354.426078854
+          296337.97802412894,
+          4499343.604260316
         ],
         [
-          296348.5373997548,
-          4499349.698485976
+          296336.35018335667,
+          4499338.876667438
         ]
       ],
       "terrain": {
-        "minimum": 9.926029830513535,
-        "maximum": 10.554826668152549,
-        "technicalBaseElevation": 10.634826668152549,
+        "minimum": 10.37169708408757,
+        "maximum": 10.851594854454888,
+        "technicalBaseElevation": 10.931594854454888,
         "historicalElevation": null
       }
     },
@@ -1591,11 +1673,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296352.6401759617,
-        "northing": 4499345.641735134
+        "easting": 296343.7086411082,
+        "northing": 4499344.275102352
       },
-      "across": -28.5,
-      "along": -30,
+      "across": -36.5,
+      "along": -34.2,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11,
@@ -1609,28 +1691,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296357.02660774137,
-          4499341.487313845
+          296348.09507288784,
+          4499340.120681063
         ],
         [
-          296358.65444851364,
-          4499346.214906723
+          296349.7229136601,
+          4499344.848273941
         ],
         [
-          296348.25374418206,
-          4499349.796156422
+          296339.32220932853,
+          4499348.42952364
         ],
         [
-          296346.6259034098,
-          4499345.068563544
+          296337.69436855626,
+          4499343.701930762
         ]
       ],
       "terrain": {
-        "minimum": 9.937299375833868,
-        "maximum": 10.56912760534518,
-        "technicalBaseElevation": 10.64912760534518,
+        "minimum": 10.361385773564093,
+        "maximum": 10.8580329162857,
+        "technicalBaseElevation": 10.9380329162857,
         "historicalElevation": null
       }
     },
@@ -1639,11 +1722,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296351.01233518944,
-        "northing": 4499340.914142256
+        "easting": 296345.3364818805,
+        "northing": 4499349.00269523
       },
-      "across": -28.5,
-      "along": -35,
+      "across": -36.5,
+      "along": -29.200000000000003,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 11.6,
@@ -1657,28 +1740,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296355.6824225418,
-          4499336.662050521
+          296350.00656923285,
+          4499344.750603495
         ],
         [
-          296357.31026331405,
-          4499341.389643399
+          296351.6344100051,
+          4499349.478196373
         ],
         [
-          296346.3422478371,
-          4499345.16623399
+          296340.6663945282,
+          4499353.2547869645
         ],
         [
-          296344.71440706484,
-          4499340.438641112
+          296339.0385537559,
+          4499348.527194086
         ]
       ],
       "terrain": {
-        "minimum": 9.932781678144982,
-        "maximum": 10.521959939837876,
-        "technicalBaseElevation": 10.601959939837876,
+        "minimum": 10.325550577638507,
+        "maximum": 10.822672017661915,
+        "technicalBaseElevation": 10.902672017661915,
         "historicalElevation": null
       }
     },
@@ -1687,11 +1771,11 @@
       "group": "royal-covered",
       "kind": "large",
       "anchor": {
-        "easting": 296349.3844944172,
-        "northing": 4499336.186549378
+        "easting": 296346.9643226528,
+        "northing": 4499353.730288108
       },
-      "across": -28.5,
-      "along": -40,
+      "across": -36.5,
+      "along": -24.200000000000003,
       "frontAzimuthDegrees": 109,
       "width": 5,
       "depth": 10.4,
@@ -1705,28 +1789,29 @@
       "state1794": "roofed-unfinished",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "block": "W-S",
       "footprintUTM": [
         [
-          296353.48727062414,
-          4499332.129798535
+          296351.06709885976,
+          4499349.6735372655
         ],
         [
-          296355.1151113964,
-          4499336.857391413
+          296352.694939632,
+          4499354.401130144
         ],
         [
-          296345.2817182102,
-          4499340.24330022
+          296342.8615464458,
+          4499357.78703895
         ],
         [
-          296343.65387743793,
-          4499335.515707342
+          296341.23370567354,
+          4499353.059446072
         ]
       ],
       "terrain": {
-        "minimum": 9.9523561083548,
-        "maximum": 10.516398301324422,
-        "technicalBaseElevation": 10.596398301324422,
+        "minimum": 10.34450036689228,
+        "maximum": 10.744108301726035,
+        "technicalBaseElevation": 10.824108301726035,
         "historicalElevation": null
       }
     },
@@ -1735,12 +1820,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296373.95421279623,
-        "northing": 4499241.017848979
+        "easting": 296374.4881281878,
+        "northing": 4499250.287407897
       },
-      "across": 25.715023275646487,
-      "along": -121.98465617467473,
-      "frontAzimuthDegrees": 297.1814888640988,
+      "across": 23.201977006469,
+      "along": -113.0462901810888,
+      "frontAzimuthDegrees": 297.02936426153826,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -1751,35 +1836,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296370.7933478617,
-          4499246.320476836
+          296371.42477844364,
+          4499255.833168117
         ],
         [
-          296367.8029651088,
-          4499240.497194383
+          296368.2001244697,
+          4499249.512438664
         ],
         [
-          296375.95798445045,
-          4499234.709650903
+          296376.38576141704,
+          4499243.768280957
         ],
         [
-          296380.24853361765,
-          4499243.06479529
+          296380.8799641997,
+          4499252.577486573
         ]
       ],
       "terrain": {
-        "minimum": 9.45042573223472,
-        "maximum": 9.948140051901383,
-        "technicalBaseElevation": 10.028140051901383,
+        "minimum": 9.590082707575283,
+        "maximum": 10.228163694073,
+        "technicalBaseElevation": 10.308163694073,
         "historicalElevation": null
       }
     },
@@ -1788,12 +1873,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296369.3419386232,
-        "northing": 4499234.518859345
+        "easting": 296369.60985609354,
+        "northing": 4499243.335689938
       },
-      "across": 23.46989643058259,
-      "along": -129.63118118745453,
-      "frontAzimuthDegrees": 313.5444665922965,
+      "across": 20.85273811080055,
+      "along": -121.20747868639387,
+      "frontAzimuthDegrees": 313.08809278461473,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -1804,35 +1889,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296367.80296510877,
-          4499240.497194384
+          296368.2001244697,
+          4499249.512438663
         ],
         [
-          296363.29316015926,
-          4499235.752232124
+          296363.3528447654,
+          4499244.330364413
         ],
         [
-          296369.4873947403,
-          4499227.901661575
+          296369.6301038764,
+          4499236.546019993
         ],
         [
-          296375.95798445045,
-          4499234.709650904
+          296376.38576141704,
+          4499243.768280956
         ]
       ],
       "terrain": {
-        "minimum": 9.472694055587372,
-        "maximum": 10.05542687275743,
-        "technicalBaseElevation": 10.13542687275743,
+        "minimum": 9.653810076444314,
+        "maximum": 10.051410347400864,
+        "technicalBaseElevation": 10.131410347400864,
         "historicalElevation": null
       }
     },
@@ -1841,12 +1926,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296363.0855737401,
-        "northing": 4499229.58248033
+        "easting": 296362.9989390379,
+        "northing": 4499238.004677192
       },
-      "across": 19.161515023234212,
-      "along": -136.3354924101163,
-      "frontAzimuthDegrees": 329.9074443204941,
+      "across": 16.337601213908407,
+      "along": -128.40035432902584,
+      "frontAzimuthDegrees": 329.1468213076912,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -1857,35 +1942,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296363.2931601592,
-          4499235.752232123
+          296363.35284476535,
+          4499244.330364413
         ],
         [
-          296357.6292613787,
-          4499232.469967946
+          296357.26123401936,
+          4499240.691368316
         ],
         [
-          296361.36093127256,
-          4499223.192326016
+          296361.1402211832,
+          4499231.474348267
         ],
         [
-          296369.4873947403,
-          4499227.901661574
+          296369.63010387635,
+          4499236.546019993
         ]
       ],
       "terrain": {
-        "minimum": 9.745987858953612,
-        "maximum": 10.173531962869932,
-        "technicalBaseElevation": 10.253531962869932,
+        "minimum": 9.937762844567706,
+        "maximum": 10.243274381080596,
+        "technicalBaseElevation": 10.323274381080596,
         "historicalElevation": null
       }
     },
@@ -1894,12 +1979,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296355.69193109864,
-        "northing": 4499226.6085960325
+        "easting": 296355.1713106914,
+        "northing": 4499234.710416173
       },
-      "across": 13.138890586451552,
-      "along": -141.5544898440074,
-      "frontAzimuthDegrees": 346.2704220486918,
+      "across": 10.008939690311037,
+      "along": -134.06356583203217,
+      "frontAzimuthDegrees": 345.20554983076767,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -1910,35 +1995,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296357.6292613787,
-          4499232.469967946
+          296357.2612340194,
+          4499240.691368317
         ],
         [
-          296351.2700874763,
-          4499230.916290114
+          296350.40069784713,
+          4499238.8794473745
         ],
         [
-          296352.23689915164,
-          4499220.9631360825
+          296351.5786865179,
+          4499228.949072624
         ],
         [
-          296361.36093127256,
-          4499223.192326015
+          296361.1402211832,
+          4499231.474348268
         ]
       ],
       "terrain": {
-        "minimum": 9.874138305523022,
-        "maximum": 10.281871849108335,
-        "technicalBaseElevation": 10.361871849108335,
+        "minimum": 10.078176912063011,
+        "maximum": 10.314519949930286,
+        "technicalBaseElevation": 10.394519949930286,
         "historicalElevation": null
       }
     },
@@ -1947,12 +2032,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296347.7599517644,
-        "northing": 4499225.838113611
+        "easting": 296346.7378601316,
+        "northing": 4499233.709999827
       },
-      "across": 5.889901325000171,
-      "along": -144.8653951596056,
-      "frontAzimuthDegrees": 2.633399776889405,
+      "across": 2.360659232832539,
+      "along": -137.7551410042043,
+      "frontAzimuthDegrees": 1.2642783538441904,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -1963,35 +2048,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296351.27008747624,
-          4499230.916290114
+          296350.4006978471,
+          4499238.879447374
         ],
         [
-          296344.7307797129,
-          4499231.217058303
+          296343.3066508632,
+          4499239.036008748
         ],
         [
-          296342.8544140999,
-          4499221.3946730485
+          296341.6917076505,
+          4499229.167272334
         ],
         [
-          296352.23689915164,
-          4499220.963136083
+          296351.57868651784,
+          4499228.949072623
         ]
       ],
       "terrain": {
-        "minimum": 10.082758894871482,
-        "maximum": 10.53578218360125,
-        "technicalBaseElevation": 10.615782183601251,
+        "minimum": 10.277648425572297,
+        "maximum": 10.717364650909033,
+        "technicalBaseElevation": 10.797364650909033,
         "historicalElevation": null
       }
     },
@@ -2000,12 +2085,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296332.83985523955,
-        "northing": 4499230.975514838
+        "easting": 296329.2256094777,
+        "northing": 4499239.739951298
       },
-      "across": -9.889901325000167,
-      "along": -144.8653951596056,
-      "frontAzimuthDegrees": 35.366600223110595,
+      "across": -16.160659232832536,
+      "along": -137.7551410042043,
+      "frontAzimuthDegrees": 36.73572164615581,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -2016,35 +2101,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296338.5384844156,
-          4499233.349236564
+          296335.20845778903,
+          4499241.824440241
         ],
         [
-          296333.20026819035,
-          4499237.138227862
+          296329.52188367257,
+          4499246.068599626
         ],
         [
-          296326.310636698,
-          4499229.890264155
+          296322.47986676276,
+          4499238.968599779
         ],
         [
-          296333.96981649945,
-          4499224.4538853355
+          296330.40524958656,
+          4499233.053511501
         ]
       ],
       "terrain": {
-        "minimum": 10.499772734736974,
-        "maximum": 10.920382616647975,
-        "technicalBaseElevation": 11.000382616647975,
+        "minimum": 10.48608023890216,
+        "maximum": 11.06790795316849,
+        "technicalBaseElevation": 11.14790795316849,
         "historicalElevation": null
       }
     },
@@ -2053,12 +2138,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296327.06372657174,
-        "northing": 4499236.466077371
+        "easting": 296323.19587754965,
+        "northing": 4499245.72044075
       },
-      "across": -17.13889058645155,
-      "along": -141.55448984400743,
-      "frontAzimuthDegrees": 51.729577951308215,
+      "across": -23.808939690311036,
+      "along": -134.06356583203217,
+      "frontAzimuthDegrees": 52.79445016923228,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -2069,35 +2154,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296333.2002681904,
-          4499237.138227861
+          296329.52188367257,
+          4499246.068599627
         ],
         [
-          296329.1457103573,
-          4499242.277641088
+          296325.23123731406,
+          4499251.720180635
         ],
         [
-          296320.4932276331,
-          4499237.26420487
+          296316.49998955446,
+          4499246.845212681
         ],
         [
-          296326.310636698,
-          4499229.890264154
+          296322.4798667628,
+          4499238.9685997795
         ]
       ],
       "terrain": {
-        "minimum": 10.52081747638752,
-        "maximum": 11.05939933677704,
-        "technicalBaseElevation": 11.13939933677704,
+        "minimum": 10.707999645348197,
+        "maximum": 11.377470438532978,
+        "technicalBaseElevation": 11.457470438532978,
         "historicalElevation": null
       }
     },
@@ -2106,12 +2191,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296323.0683626555,
-        "northing": 4499243.361511113
+        "easting": 296319.0557718377,
+        "northing": 4499253.135523075
       },
-      "across": -23.16151502323421,
-      "along": -136.3354924101163,
-      "frontAzimuthDegrees": 68.09255567950584,
+      "across": -30.137601213908404,
+      "along": -128.40035432902584,
+      "frontAzimuthDegrees": 68.8531786923088,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -2122,35 +2207,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296329.1457103573,
-          4499242.277641088
+          296325.231237314,
+          4499251.720180635
         ],
         [
-          296326.7032608168,
-          4499248.351144835
+          296322.6713722451,
+          4499258.3381187515
         ],
         [
-          296316.98884350987,
-          4499245.97836242
+          296312.9323035923,
+          4499256.068638244
         ],
         [
-          296320.4932276331,
-          4499237.26420487
+          296316.49998955434,
+          4499246.84521268
         ]
       ],
       "terrain": {
-        "minimum": 10.779362772810504,
-        "maximum": 11.318837634866899,
-        "technicalBaseElevation": 11.398837634866899,
+        "minimum": 10.784406673162215,
+        "maximum": 11.626439954146068,
+        "technicalBaseElevation": 11.706439954146068,
         "historicalElevation": null
       }
     },
@@ -2159,12 +2244,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296321.1774182358,
-        "northing": 4499251.103233694
+        "easting": 296317.1283972785,
+        "northing": 4499261.406505394
       },
-      "across": -27.469896430582587,
-      "along": -129.63118118745453,
-      "frontAzimuthDegrees": 84.45553340770351,
+      "across": -34.65273811080055,
+      "along": -121.20747868639388,
+      "frontAzimuthDegrees": 84.91190721538521,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -2175,35 +2260,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296326.70326081687,
-          4499248.351144834
+          296322.6713722451,
+          4499258.338118751
         ],
         [
-          296326.070776485,
-          4499254.866739289
+          296322.0420671909,
+          4499265.405932361
         ],
         [
-          296316.0813659903,
-          4499255.326824029
+          296312.05524064275,
+          4499265.919055636
         ],
         [
-          296316.98884350987,
-          4499245.97836242
+          296312.9323035922,
+          4499256.068638244
         ]
       ],
       "terrain": {
-        "minimum": 10.670840067762526,
-        "maximum": 11.473922311217349,
-        "technicalBaseElevation": 11.553922311217349,
+        "minimum": 10.876643368729074,
+        "maximum": 11.926563150860634,
+        "technicalBaseElevation": 12.006563150860634,
         "historicalElevation": null
       }
     },
@@ -2212,12 +2297,12 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296321.54407413566,
-        "northing": 4499259.064106937
+        "easting": 296317.564171344,
+        "northing": 4499269.887898096
       },
-      "across": -29.715023275646487,
-      "along": -121.98465617467474,
-      "frontAzimuthDegrees": 100.81851113590119,
+      "across": -37.001977006469005,
+      "along": -113.04629018108882,
+      "frontAzimuthDegrees": 100.97063573846174,
       "width": 5,
       "depth": 11,
       "wallHeight": 7.8,
@@ -2228,35 +2313,35 @@
       "individualPositionConfidence": "C",
       "geometryConfidence": "C",
       "state1794": "unroofed-with-portico",
-      "frontWidth": 6.546220858394196,
-      "backWidth": 9.392403840304716,
-      "frontZ": 5.234088023576099,
-      "backZ": -4.664134574869074,
+      "frontWidth": 7.095774381556307,
+      "backWidth": 9.889386342798948,
+      "frontZ": 5.249006053805502,
+      "backZ": -4.6529600667435105,
       "arcSector": true,
       "layoutBasis": "hypothetical-10-cases-rodones",
       "terrace": true,
       "footprintUTM": [
         [
-          296326.070776485,
-          4499254.86673929
+          296322.042067191,
+          4499265.40593236
         ],
         [
-          296327.2994933841,
-          4499261.2966119405
+          296323.3924348032,
+          4499272.372030363
         ],
         [
-          296317.8443076281,
-          4499264.552293485
+          296313.9372490472,
+          4499275.627711908
         ],
         [
-          296316.0813659902,
-          4499255.32682403
+          296312.05524064275,
+          4499265.919055636
         ]
       ],
       "terrain": {
-        "minimum": 10.561269503766086,
-        "maximum": 11.473922311223578,
-        "technicalBaseElevation": 11.553922311223578,
+        "minimum": 10.946085879435952,
+        "maximum": 12.073029645861242,
+        "technicalBaseElevation": 12.153029645861242,
         "historicalElevation": null
       }
     },
@@ -2265,13 +2350,13 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296327.57142806856,
-        "northing": 4499272.836804813
+        "easting": 296319.42924162437,
+        "northing": 4499277.7556258
       },
-      "across": -28.5,
-      "along": -107,
+      "across": -37.8,
+      "along": -105,
       "frontAzimuthDegrees": 109,
-      "width": 5,
+      "width": 6.5,
       "depth": 11,
       "wallHeight": 7.8,
       "roofRise": 1.8,
@@ -2283,28 +2368,29 @@
       "state1794": "unroofed-with-portico",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 6.5,
       "footprintUTM": [
         [
-          296331.9578598482,
-          4499268.682383524
+          296323.5714972882,
+          4499272.89206558
         ],
         [
-          296333.5857006205,
-          4499273.409976402
+          296325.68769029214,
+          4499279.037936321
         ],
         [
-          296323.1849962889,
-          4499276.991226101
+          296315.28698596056,
+          4499282.61918602
         ],
         [
-          296321.55715551664,
-          4499272.263633223
+          296313.1707929566,
+          4499276.473315279
         ]
       ],
       "terrain": {
-        "minimum": 10.452895620454608,
-        "maximum": 11.29494742850468,
-        "technicalBaseElevation": 11.37494742850468,
+        "minimum": 10.873760457899694,
+        "maximum": 11.811375614260077,
+        "technicalBaseElevation": 11.891375614260077,
         "historicalElevation": null
       }
     },
@@ -2313,13 +2399,13 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296329.5248369953,
-        "northing": 4499278.509916266
+        "easting": 296321.5454346283,
+        "northing": 4499283.901496542
       },
-      "across": -28.5,
-      "along": -101,
+      "across": -37.8,
+      "along": -98.5,
       "frontAzimuthDegrees": 109,
-      "width": 5,
+      "width": 6.5,
       "depth": 11,
       "wallHeight": 7.8,
       "roofRise": 1.8,
@@ -2331,28 +2417,29 @@
       "state1794": "unroofed-with-portico",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 6.5,
       "footprintUTM": [
         [
-          296333.91126877494,
-          4499274.355494978
+          296325.68769029214,
+          4499279.037936321
         ],
         [
-          296335.5391095472,
-          4499279.083087856
+          296327.8038832961,
+          4499285.183807063
         ],
         [
-          296325.13840521564,
-          4499282.664337555
+          296317.4031789645,
+          4499288.765056762
         ],
         [
-          296323.51056444336,
-          4499277.936744677
+          296315.28698596056,
+          4499282.61918602
         ]
       ],
       "terrain": {
-        "minimum": 10.419884776285349,
-        "maximum": 11.013038340078385,
-        "technicalBaseElevation": 11.093038340078385,
+        "minimum": 10.873760457899694,
+        "maximum": 11.639314948370865,
+        "technicalBaseElevation": 11.719314948370865,
         "historicalElevation": null
       }
     },
@@ -2361,13 +2448,13 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296331.478245922,
-        "northing": 4499284.18302772
+        "easting": 296323.6616276323,
+        "northing": 4499290.047367283
       },
-      "across": -28.5,
-      "along": -95,
+      "across": -37.8,
+      "along": -92,
       "frontAzimuthDegrees": 109,
-      "width": 5,
+      "width": 6.5,
       "depth": 11,
       "wallHeight": 7.8,
       "roofRise": 1.8,
@@ -2379,28 +2466,29 @@
       "state1794": "unroofed-with-portico",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 6.5,
       "footprintUTM": [
         [
-          296335.86467770167,
-          4499280.028606432
+          296327.8038832961,
+          4499285.183807063
         ],
         [
-          296337.49251847394,
-          4499284.75619931
+          296329.92007630004,
+          4499291.329677804
         ],
         [
-          296327.09181414236,
-          4499288.337449009
+          296319.51937196846,
+          4499294.910927503
         ],
         [
-          296325.4639733701,
-          4499283.609856131
+          296317.4031789645,
+          4499288.765056762
         ]
       ],
       "terrain": {
-        "minimum": 10.36401785907286,
-        "maximum": 11.00461893865341,
-        "technicalBaseElevation": 11.08461893865341,
+        "minimum": 10.719070672882093,
+        "maximum": 11.513853665277715,
+        "technicalBaseElevation": 11.593853665277715,
         "historicalElevation": null
       }
     },
@@ -2409,13 +2497,13 @@
       "group": "royal-portico",
       "kind": "large",
       "anchor": {
-        "easting": 296333.4316548488,
-        "northing": 4499289.856139174
+        "easting": 296325.7778206363,
+        "northing": 4499296.193238025
       },
-      "across": -28.5,
-      "along": -89,
+      "across": -37.8,
+      "along": -85.5,
       "frontAzimuthDegrees": 109,
-      "width": 5,
+      "width": 6.5,
       "depth": 11,
       "wallHeight": 7.8,
       "roofRise": 1.8,
@@ -2427,28 +2515,29 @@
       "state1794": "unroofed-with-portico",
       "layoutBasis": "group-location-inference",
       "terrace": true,
+      "frontWidth": 6.5,
       "footprintUTM": [
         [
-          296337.81808662845,
-          4499285.701717885
+          296329.9200763001,
+          4499291.329677804
         ],
         [
-          296339.4459274007,
-          4499290.429310763
+          296332.03626930405,
+          4499297.475548546
         ],
         [
-          296329.04522306914,
-          4499294.010560462
+          296321.6355649725,
+          4499301.056798245
         ],
         [
-          296327.4173822969,
-          4499289.282967584
+          296319.5193719685,
+          4499294.910927503
         ]
       ],
       "terrain": {
-        "minimum": 10.290046926831067,
-        "maximum": 10.886806561059675,
-        "technicalBaseElevation": 10.966806561059675,
+        "minimum": 10.630562047102178,
+        "maximum": 11.357131895946392,
+        "technicalBaseElevation": 11.437131895946392,
         "historicalElevation": null
       }
     },
@@ -2457,11 +2546,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296483.7697247865,
-        "northing": 4499277.5570266675
+        "easting": 296487.288,
+        "northing": 4499281.638
       },
-      "across": 117.65163710601172,
-      "along": -51.68375136370915,
+      "across": 119.64959671810185,
+      "along": -46.67967690294364,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2479,26 +2568,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296486.3627898613,
-          4499274.337397261
+          296489.88106507476,
+          4499278.418370593
         ],
         [
-          296487.7952897409,
-          4499278.497678993
+          296491.3135649544,
+          4499282.578652326
         ],
         [
-          296481.17665971175,
-          4499280.776656074
+          296484.69493492524,
+          4499284.857629407
         ],
         [
-          296479.74415983213,
-          4499276.616374342
+          296483.2624350456,
+          4499280.6973476745
         ]
       ],
       "terrain": {
-        "minimum": 2.695818258860743,
-        "maximum": 2.932491379689096,
-        "technicalBaseElevation": 3.012491379689096,
+        "minimum": 2.61361276754982,
+        "maximum": 2.8306938650322575,
+        "technicalBaseElevation": 2.9106938650322576,
         "historicalElevation": null
       }
     },
@@ -2507,11 +2596,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296482.81980135146,
-        "northing": 4499272.412821629
+        "easting": 296486.339,
+        "northing": 4499276.486
       },
-      "across": 118.42825619328619,
-      "along": -56.85695760386707,
+      "across": 120.42962672182826,
+      "along": -51.859952783680626,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2529,26 +2618,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296485.4128664262,
-          4499269.193192222
+          296488.93206507474,
+          4499273.266370593
         ],
         [
-          296486.84536630585,
-          4499273.353473955
+          296490.36456495436,
+          4499277.426652325
         ],
         [
-          296480.2267362767,
-          4499275.632451036
+          296483.7459349252,
+          4499279.7056294065
         ],
         [
-          296478.7942363971,
-          4499271.472169303
+          296482.3134350456,
+          4499275.545347674
         ]
       ],
       "terrain": {
-        "minimum": 2.629809186002668,
-        "maximum": 2.93168298680354,
-        "technicalBaseElevation": 3.01168298680354,
+        "minimum": 2.6216979384634636,
+        "maximum": 2.8767790740939403,
+        "technicalBaseElevation": 2.9567790740939404,
         "historicalElevation": null
       }
     },
@@ -2557,11 +2646,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296481.8698779164,
-        "northing": 4499267.268616592
+        "easting": 296485.384,
+        "northing": 4499271.347
       },
-      "across": 119.20487528025745,
-      "along": -62.0301638431444,
+      "across": 121.19975122776334,
+      "along": -57.029890330706465,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2579,26 +2668,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296484.4629429912,
-          4499264.048987185
+          296487.9770650748,
+          4499268.127370593
         ],
         [
-          296485.8954428708,
-          4499268.209268917
+          296489.4095649544,
+          4499272.287652326
         ],
         [
-          296479.27681284165,
-          4499270.4882459985
+          296482.79093492526,
+          4499274.566629407
         ],
         [
-          296477.844312962,
-          4499266.327964266
+          296481.35843504564,
+          4499270.406347674
         ]
       ],
       "terrain": {
-        "minimum": 2.5465391968939257,
-        "maximum": 2.800566807551224,
-        "technicalBaseElevation": 2.880566807551224,
+        "minimum": 2.5459027379191355,
+        "maximum": 2.871687006885925,
+        "technicalBaseElevation": 2.951687006885925,
         "historicalElevation": null
       }
     },
@@ -2607,11 +2696,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296480.91995448136,
-        "northing": 4499262.124411554
+        "easting": 296484.439,
+        "northing": 4499266.205
       },
-      "across": 119.9814943672287,
-      "along": -67.20337008242173,
+      "across": 121.98030762403165,
+      "along": -62.199408752395385,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2629,26 +2718,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296483.5130195561,
-          4499258.904782147
+          296487.0320650748,
+          4499262.985370593
         ],
         [
-          296484.94551943574,
-          4499263.06506388
+          296488.4645649544,
+          4499267.145652326
         ],
         [
-          296478.3268894066,
-          4499265.344040961
+          296481.84593492525,
+          4499269.424629407
         ],
         [
-          296476.894389527,
-          4499261.183759228
+          296480.41343504563,
+          4499265.264347674
         ]
       ],
       "terrain": {
-        "minimum": 2.2763758572282113,
-        "maximum": 2.5725460846747636,
-        "technicalBaseElevation": 2.6525460846747637,
+        "minimum": 2.506027217601674,
+        "maximum": 2.7185239876195357,
+        "technicalBaseElevation": 2.798523987619536,
         "historicalElevation": null
       }
     },
@@ -2657,11 +2746,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296464.7677199083,
-        "northing": 4499260.269143311
+        "easting": 296455.521,
+        "northing": 4499258.182
       },
-      "across": 105.31327279880917,
-      "along": -74.2162138689809,
+      "across": 97.24983475807008,
+      "along": -79.20008417506472,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2679,26 +2768,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296467.3607849831,
-          4499257.049513904
+          296458.11406507477,
+          4499254.962370593
         ],
         [
-          296468.7932848627,
-          4499261.209795637
+          296459.5465649544,
+          4499259.122652326
         ],
         [
-          296462.17465483357,
-          4499263.488772718
+          296452.92793492525,
+          4499261.401629407
         ],
         [
-          296460.74215495394,
-          4499259.328490986
+          296451.4954350456,
+          4499257.241347674
         ]
       ],
       "terrain": {
-        "minimum": 2.7082742517216567,
-        "maximum": 3.5758267097396423,
-        "technicalBaseElevation": 3.6558267097396424,
+        "minimum": 3.5555656288616913,
+        "maximum": 4.197463402603555,
+        "technicalBaseElevation": 4.277463402603555,
         "historicalElevation": null
       }
     },
@@ -2707,11 +2796,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296462.9579274554,
-        "northing": 4499255.139947344
+        "easting": 296453.75,
+        "northing": 4499253.038
       },
-      "across": 105.2719832816631,
-      "along": -79.65517472316102,
+      "across": 97.25004394730813,
+      "along": -84.64041292979671,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2729,26 +2818,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296465.5509925302,
-          4499251.920317937
+          296456.34306507476,
+          4499249.818370593
         ],
         [
-          296466.9834924098,
-          4499256.080599669
+          296457.7755649544,
+          4499253.978652325
         ],
         [
-          296460.36486238067,
-          4499258.359576751
+          296451.15693492524,
+          4499256.257629407
         ],
         [
-          296458.93236250104,
-          4499254.199295018
+          296449.7244350456,
+          4499252.097347674
         ]
       ],
       "terrain": {
-        "minimum": 2.741035985893616,
-        "maximum": 3.572547063080547,
-        "technicalBaseElevation": 3.652547063080547,
+        "minimum": 3.60953031455493,
+        "maximum": 3.8825370556515137,
+        "technicalBaseElevation": 3.962537055651514,
         "historicalElevation": null
       }
     },
@@ -2757,11 +2846,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296461.1481350026,
-        "northing": 4499250.010751376
+        "easting": 296451.979,
+        "northing": 4499247.895
       },
-      "across": 105.23069376457207,
-      "along": -85.09413557732219,
+      "across": 97.24992756833835,
+      "along": -90.07979616579814,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2779,26 +2868,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296463.74120007735,
-          4499246.791121969
+          296454.57206507475,
+          4499244.675370593
         ],
         [
-          296465.17369995697,
-          4499250.951403702
+          296456.0045649544,
+          4499248.835652325
         ],
         [
-          296458.5550699278,
-          4499253.230380783
+          296449.38593492523,
+          4499251.1146294065
         ],
         [
-          296457.1225700482,
-          4499249.07009905
+          296447.9534350456,
+          4499246.954347674
         ]
       ],
       "terrain": {
-        "minimum": 2.7633590136375004,
-        "maximum": 3.6378844196648785,
-        "technicalBaseElevation": 3.7178844196648786,
+        "minimum": 3.4132624305306227,
+        "maximum": 3.653376709347846,
+        "technicalBaseElevation": 3.733376709347846,
         "historicalElevation": null
       }
     },
@@ -2807,11 +2896,11 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296459.3383425497,
-        "northing": 4499244.881555407
+        "easting": 296450.208,
+        "northing": 4499242.751
       },
-      "across": 105.1894042477292,
-      "along": -90.53309643238289,
+      "across": 97.25013675727318,
+      "along": -95.52012491964956,
       "frontAzimuthDegrees": 109,
       "width": 4.4,
       "depth": 7,
@@ -2829,26 +2918,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296461.93140762445,
-          4499241.661926
+          296452.80106507475,
+          4499239.531370593
         ],
         [
-          296463.36390750407,
-          4499245.822207733
+          296454.23356495437,
+          4499243.691652326
         ],
         [
-          296456.7452774749,
-          4499248.101184814
+          296447.6149349252,
+          4499245.970629407
         ],
         [
-          296455.3127775953,
-          4499243.940903082
+          296446.1824350456,
+          4499241.810347674
         ]
       ],
       "terrain": {
-        "minimum": 2.762841096589078,
-        "maximum": 3.5709654870049494,
-        "technicalBaseElevation": 3.6509654870049495,
+        "minimum": 2.6345978380579833,
+        "maximum": 3.4698760872085535,
+        "technicalBaseElevation": 3.5498760872085535,
         "historicalElevation": null
       }
     },
@@ -2857,12 +2946,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296457.66384793434,
-        "northing": 4499332.746839811
+        "easting": 296478.692,
+        "northing": 4499313.343
       },
-      "across": 74.99999999998232,
-      "along": -7.999999999853689,
-      "frontAzimuthDegrees": 109,
+      "across": 101.19978070514323,
+      "along": -19.50059431921693,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2879,26 +2968,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296460.2569130091,
-          4499329.527210404
+          296481.9116294069,
+          4499315.936065075
         ],
         [
-          296461.6894128887,
-          4499333.687492137
+          296477.75134767423,
+          4499317.368564955
         ],
         [
-          296455.0707828596,
-          4499335.966469218
+          296475.47237059305,
+          4499310.749934926
         ],
         [
-          296453.63828297995,
-          4499331.806187485
+          296479.63265232573,
+          4499309.317435046
         ]
       ],
       "terrain": {
-        "minimum": 6.843039600230441,
-        "maximum": 7.047079413543872,
-        "technicalBaseElevation": 7.127079413543872,
+        "minimum": 4.240049769027393,
+        "maximum": 5.296397810257838,
+        "technicalBaseElevation": 5.3763978102578385,
         "historicalElevation": null
       }
     },
@@ -2907,12 +2996,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296455.8732230848,
-        "northing": 4499327.546487645
+        "easting": 296482.9,
+        "northing": 4499311.895
       },
-      "across": 74.99999999995936,
-      "along": -13.499999999916351,
-      "frontAzimuthDegrees": 109,
+      "across": 105.6499455592163,
+      "along": -19.49971442346196,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2929,26 +3018,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296458.46628815954,
-          4499324.326858238
+          296486.11962940695,
+          4499314.488065074
         ],
         [
-          296459.89878803917,
-          4499328.487139971
+          296481.9593476743,
+          4499315.920564954
         ],
         [
-          296453.28015801,
-          4499330.766117052
+          296479.6803705931,
+          4499309.301934925
         ],
         [
-          296451.8476581304,
-          4499326.6058353195
+          296483.8406523258,
+          4499307.869435045
         ]
       ],
       "terrain": {
-        "minimum": 6.358314980615372,
-        "maximum": 7.099841484839191,
-        "technicalBaseElevation": 7.179841484839191,
+        "minimum": 4.0317761224570505,
+        "maximum": 4.945478721717506,
+        "technicalBaseElevation": 5.025478721717506,
         "historicalElevation": null
       }
     },
@@ -2957,12 +3046,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296454.0825982353,
-        "northing": 4499322.346135479
+        "easting": 296487.108,
+        "northing": 4499310.446
       },
-      "across": 74.99999999999143,
-      "along": -18.99999999996007,
-      "frontAzimuthDegrees": 109,
+      "across": 110.10043598083574,
+      "along": -19.49978004469536,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -2979,26 +3068,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296456.67566331004,
-          4499319.1265060725
+          296490.32762940694,
+          4499313.039065075
         ],
         [
-          296458.10816318967,
-          4499323.286787805
+          296486.16734767426,
+          4499314.471564955
         ],
         [
-          296451.4895331605,
-          4499325.565764886
+          296483.8883705931,
+          4499307.852934926
         ],
         [
-          296450.0570332809,
-          4499321.405483154
+          296488.04865232576,
+          4499306.420435046
         ]
       ],
       "terrain": {
-        "minimum": 6.261568951976887,
-        "maximum": 6.553875072991057,
-        "technicalBaseElevation": 6.633875072991057,
+        "minimum": 3.7789628448485426,
+        "maximum": 4.673546766472106,
+        "technicalBaseElevation": 4.753546766472106,
         "historicalElevation": null
       }
     },
@@ -3007,12 +3096,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296452.2919733858,
-        "northing": 4499317.145783314
+        "easting": 296491.315,
+        "northing": 4499308.997
       },
-      "across": 75.0000000000235,
-      "along": -24.50000000000378,
-      "frontAzimuthDegrees": 109,
+      "across": 114.54998088419292,
+      "along": -19.500171234960312,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -3029,26 +3118,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296454.88503846055,
-          4499313.926153907
+          296494.53462940693,
+          4499311.590065075
         ],
         [
-          296456.31753834017,
-          4499318.086435639
+          296490.37434767425,
+          4499313.022564955
         ],
         [
-          296449.698908311,
-          4499320.3654127205
+          296488.0953705931,
+          4499306.403934926
         ],
         [
-          296448.2664084314,
-          4499316.205130988
+          296492.25565232575,
+          4499304.971435046
         ]
       ],
       "terrain": {
-        "minimum": 6.340998037597829,
-        "maximum": 6.726899703007976,
-        "technicalBaseElevation": 6.806899703007976,
+        "minimum": 3.5724824273023232,
+        "maximum": 4.360635649701148,
+        "technicalBaseElevation": 4.440635649701148,
         "historicalElevation": null
       }
     },
@@ -3057,12 +3146,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296450.5013485362,
-        "northing": 4499311.945431148
+        "easting": 296495.523,
+        "northing": 4499307.548
       },
-      "across": 75.00000000000054,
-      "along": -30.00000000006645,
-      "frontAzimuthDegrees": 109,
+      "across": 119.00047130611557,
+      "along": -19.5002368570743,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -3079,26 +3168,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296453.094413611,
-          4499308.725801741
+          296498.7426294069,
+          4499310.141065075
         ],
         [
-          296454.5269134906,
-          4499312.886083473
+          296494.58234767424,
+          4499311.573564955
         ],
         [
-          296447.90828346147,
-          4499315.165060555
+          296492.30337059306,
+          4499304.954934926
         ],
         [
-          296446.47578358185,
-          4499311.004778822
+          296496.46365232574,
+          4499303.522435046
         ]
       ],
       "terrain": {
-        "minimum": 6.602824712440432,
-        "maximum": 6.923849150560636,
-        "technicalBaseElevation": 7.003849150560636,
+        "minimum": 3.375435762033592,
+        "maximum": 4.039839344833537,
+        "technicalBaseElevation": 4.119839344833537,
         "historicalElevation": null
       }
     },
@@ -3107,12 +3196,12 @@
       "group": "royal-small-coast",
       "kind": "small",
       "anchor": {
-        "easting": 296448.71072368673,
-        "northing": 4499306.745078982
+        "easting": 296499.73,
+        "northing": 4499306.1
       },
-      "across": 75.0000000000326,
-      "along": -35.50000000011017,
-      "frontAzimuthDegrees": 109,
+      "across": 123.44969064156814,
+      "along": -19.499682529489256,
+      "frontAzimuthDegrees": 19,
       "width": 4.4,
       "depth": 7,
       "wallHeight": 3.2,
@@ -3129,26 +3218,26 @@
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
       "footprintUTM": [
         [
-          296451.3037887615,
-          4499303.525449575
+          296502.9496294069,
+          4499308.693065074
         ],
         [
-          296452.7362886411,
-          4499307.685731308
+          296498.78934767423,
+          4499310.125564954
         ],
         [
-          296446.11765861197,
-          4499309.964708389
+          296496.51037059305,
+          4499303.506934925
         ],
         [
-          296444.68515873235,
-          4499305.804426656
+          296500.67065232573,
+          4499302.074435045
         ]
       ],
       "terrain": {
-        "minimum": 6.910037210367545,
-        "maximum": 7.159198536039928,
-        "technicalBaseElevation": 7.239198536039928,
+        "minimum": 3.20454745333744,
+        "maximum": 3.7941191732075925,
+        "technicalBaseElevation": 3.8741191732075926,
         "historicalElevation": null
       }
     },
@@ -3157,13 +3246,13 @@
       "group": "manzana-units",
       "kind": "shared-courtyard",
       "anchor": {
-        "easting": 296366.80804168206,
-        "northing": 4499483.542139705
+        "easting": 296363.66151074466,
+        "northing": 4499485.154387534
       },
-      "across": -60,
-      "along": 105,
-      "width": 80,
-      "depth": 40,
+      "across": -63.5,
+      "along": 105.5,
+      "width": 73,
+      "depth": 42,
       "wingDepth": 7,
       "countedUnits": 24,
       "wallHeight": 5.8,
@@ -3177,26 +3266,26 @@
       "originalHouseNumber": null,
       "footprintUTM": [
         [
-          296411.1401477952,
-          4499489.429785039
+          296405.0098699976,
+          4499493.127039984
         ],
         [
-          296335.4986617472,
-          4499515.475237396
+          296335.9870139789,
+          4499516.893515259
         ],
         [
-          296322.4759355689,
-          4499477.654494371
+          296322.3131514917,
+          4499477.181735083
         ],
         [
-          296398.1174216169,
-          4499451.609042015
+          296391.3360075104,
+          4499453.415259808
         ]
       ],
       "terrain": {
-        "minimum": 6.588020652482214,
-        "maximum": 9.304427478570226,
-        "technicalBaseElevation": 9.384427478570226,
+        "minimum": 6.6349357751094225,
+        "maximum": 9.300375414967032,
+        "technicalBaseElevation": 9.380375414967032,
         "historicalElevation": null
       }
     }

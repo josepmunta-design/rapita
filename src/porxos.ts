@@ -22,12 +22,13 @@ export function detailedPorxo(s:any,b:Builder){
    const brick=new THREE.Shape();pts.forEach(([x,y],j)=>j?brick.lineTo(x,y):brick.moveTo(x,y));brick.closePath();const g=new THREE.ExtrudeGeometry(brick,{depth:T+.024,bevelEnabled:false});g.translate(0,0,-.012);place(g,tones[(i*7+Number(s.id.slice(-2)))%tones.length]);
   }
  };
- arch(p.rx,p.rise,p.spring,p.top,p.T,emitFront,p.band);
+ for(const bay of p.bays)arch(p.rx,p.rise,p.spring,p.top,p.T,(g,m)=>{g.translate(bay.x,0,0);emitFront(g,m);},p.band);
  for(const[j,pier]of p.piers.entries()){
   const y=b.ground(pier.x,pier.z),rows=Math.ceil((p.spring-y)/.28),height=(p.spring-y)/rows;
   stoneBox(pier.x,(p.spring+y)/2,pier.z,pier.width,p.spring-y,p.T,mortar);
   for(let row=0;row<rows;row++)stoneBox(pier.x,y+(row+.5)*height,pier.z+.006,pier.width-.008,height-.008,p.T+.012,stones[(row+j)%3]);
-  stoneBox(pier.x,y+.09,pier.z,pier.baseWidth,.18,pier.depth,b.stone);
+  // Sòcol alt de carreus, com a CP01 i a la fotografia de 1916.
+  const plinth=PORXO_STUDY.plinthHeight;stoneBox(pier.x,y+plinth/2,pier.z,pier.baseWidth,plinth,pier.depth,b.stone);stoneBox(pier.x,y+plinth+.04,pier.z,pier.baseWidth+.04,.08,pier.depth+.04,b.stone);
   // Impost: three small moulding steps, not a generic classical column capital.
   for(let k=0;k<3;k++)stoneBox(pier.x,p.spring-.13+k*.055,pier.z,pier.width+.035+k*.025,.055,p.T+.03+k*.035,b.stone);
   stoneBox(pier.x,p.spring+.06,pier.z,pier.width,.12,p.T,mortar);
@@ -42,9 +43,11 @@ export function detailedPorxo(s:any,b:Builder){
   const g=new THREE.BoxGeometry(.14,.21,p.depth-p.T/2);g.translate(x,p.top-.10,p.back+(p.depth-p.T/2)/2);b.add(g,b.wood);
  }
  // Transverse basket arch at each study boundary: no wall at walking height.
+ for(const pier of p.piers.filter((q:any)=>!q.shared)){const span=p.depth-p.T-.44,z=(p.fz-p.T+p.back+.44)/2;
+  arch(span/2,.9,p.spring-.35,p.top-.32,.22,(g,m)=>{g.rotateY(Math.PI/2);g.translate(pier.x,0,z);b.add(g,m);},.18);}
  const index=Number(s.id.slice(-2));for(const sign of(index===10||index===14?[-1,1]:[-1])){
   const span=p.depth-p.T-.44,z=(p.fz-p.T+p.back+.44)/2;
-  arch(span/2,.52,2.4,3.28,.18,(g,m)=>{g.rotateY(sign<0?Math.PI/2:-Math.PI/2);g.translate(sign*(p.fw/2-.10),0,z);b.add(g,m);},.18);
+  arch(span/2,.9,p.spring-.35,p.top-.32,.22,(g,m)=>{g.rotateY(sign<0?Math.PI/2:-Math.PI/2);g.translate(sign*(p.fw/2-.10),0,z);b.add(g,m);},.18);
  }
  return p;
 }

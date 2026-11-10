@@ -16,8 +16,8 @@
       "id": "sant-elm",
       "name": "Oratori de Sant Elm",
       "kind": "church",
-      "across": -50,
-      "along": -76,
+      "across": -44,
+      "along": -71.5,
       "front": "east",
       "width": 17,
       "depth": 25,
@@ -32,14 +32,16 @@
         "towerComplete1794": false,
         "footprint": null,
         "height": null
-      }
+      },
+      "placementRevision20261108": "Façana a la línia de les cases (−23 m). Les quatre porxades toquen el temple pel sud (foto N083) i un carrer de 7 m el separa de les cases cobertes pel nord, a la dreta mirant-lo de cara (N076, N112 il·l.6).",
+      "actualMap20261108": "Al solar de l’actual Santíssima Trinitat: façana a la plaça, carrer del Rosari a la dreta (mirant-la) i carrer de l’Aurora a l’esquerra."
     },
     {
       "id": "placa-coberta",
       "name": "Plaça coberta · Casa Laureano",
       "kind": "covered-market",
-      "across": 37,
-      "along": -76,
+      "across": 27,
+      "along": -72.25,
       "front": "west",
       "width": 15,
       "depth": 17,
@@ -68,14 +70,16 @@
         "automaticTimelineActivation": false,
         "dimensionsConfidence": "C",
         "modernExtraStoreyIncluded": false
-      }
+      },
+      "placementRevision20261108": "Simètricament enfrontada a l’església (N112 p.214): mateixa cota d’eix i façana a la línia de la plaça (+23 m).",
+      "actualMap20261108": "Simètrica a l’església, a la cantonada sud del carrer de l’Arsenal."
     },
     {
       "id": "fonda-nova",
       "name": "Fonda Nova de la plaça",
       "kind": "inn",
-      "across": 62.11987022608699,
-      "along": 31.38689746228051,
+      "across": 46.61987022608699,
+      "along": 40.88689746228051,
       "front": "west",
       "width": 50.76701323307374,
       "depth": 49.95173187474153,
@@ -246,17 +250,21 @@
           -24.97586593737077
         ]
       ],
-      "continuousCompound": true
+      "continuousCompound": true,
+      "placementRevision20261108": "Desplaçat 10 m cap a la plaça: façana a la línia actual de la plaça i límit de llevant al carrer del Rampar (Pilar), segons l’escriptura de Talavera (25,30 m al Rampar).",
+      "layoutShiftAcross": -11.5,
+      "layoutShiftAlong": 9.5,
+      "actualMap20261108": "Planta del croquis desplaçada en bloc a la línia actual de la plaça (22,5 m) i del Cóc."
     },
     {
       "id": "duana-nova",
       "name": "Duana nova del Coc",
       "kind": "warehouse",
-      "across": 95.17330790556377,
-      "along": -48.574647770755206,
+      "across": 79.75,
+      "along": -30.5,
       "front": "north",
-      "width": 26,
-      "depth": 20,
+      "width": 30.5,
+      "depth": 17,
       "wallHeight": 8.2,
       "roofRise": 0,
       "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
@@ -269,14 +277,16 @@
         "footprint": null,
         "height": null
       },
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "placementRevision20261108": "Solar núm. 6 de la subhasta de 1868 (N112 p.217, nota 80): «linda al este con patio del secuestro, al sur con casa de Juan Bautista Ribera y con la plaza Vieja, al oeste con callejón y al norte con la plaza Mayor», 520,555 m². Encaixa amb l’illa entre el Cóc (nord), la plaça Vella (sud) i el carreró sense sortida (oest) del parcel·lari actual. Abans es col·locava 45 m al SE seguint el núm. 12 del croquis.",
+      "actualMap20261108": "Illa actual entre el carreró (oest), el Cóc (nord) i la Plaça Vella (sud): 30,5 × 17 m = 518 m², com els 520,555 m² de la subhasta de 1868. L’anterior posició (across 48,5) quedava a l’oest del carreró."
     },
     {
       "id": "casa-white",
       "name": "Magatzems de Josep White",
       "kind": "warehouse",
-      "across": 96.48669071421283,
-      "along": 16.95863709730206,
+      "across": 104,
+      "along": 14,
       "front": "south",
       "width": 26,
       "depth": 20,
@@ -292,14 +302,16 @@
         "footprint": null,
         "height": null
       },
-      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+      "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "placementRevision20261108": "Es manté el núm. 13 del croquis N112 il·l.4, a l’extrem de llevant del Cóc, al cap de la baixada de Sant Francesc. «Enfront» de la duana a l’altra banda de l’esplanada; la simetria exacta no es pot resoldre sense les afrontacions de White.",
+      "actualMap20261108": "«El de l’esquerra» baixant per Sant Francesc, enfront de la duana i amb la mateixa superfície (520 m², «idèntic»); el límit de llevant respecta el carrer del Rampar: illa actual al nord del carrer de Sant Francesc, que s’allarga cap a l’actual plaça de Francesc Moragas."
     },
     {
       "id": "font-oest",
       "name": "Font i torre del rellotge",
       "kind": "fountain",
-      "across": -24,
-      "along": -114,
+      "across": -30.699999999999996,
+      "along": -106.2,
       "front": "east",
       "width": 4.8,
       "depth": 3,
@@ -314,14 +326,15 @@
         "installedClocks": 1,
         "footprint": null,
         "height": null
-      }
+      },
+      "placementRevision20261108": "Font tocant la darrera casa rodona i les cases porxades (N112 p.210 i 216)."
     },
     {
       "id": "font-est",
       "name": "Font oriental",
       "kind": "fountain",
-      "across": 24,
-      "along": -114,
+      "across": 16.9,
+      "along": -106.2,
       "front": "west",
       "width": 4.8,
       "depth": 3,
@@ -334,7 +347,8 @@
       "documented": {
         "footprint": null,
         "height": null
-      }
+      },
+      "placementRevision20261108": "Font tocant la darrera casa rodona i les cases porxades (N112 p.210 i 216)."
     },
     {
       "id": "manzana-nova",
@@ -375,8 +389,8 @@
       "id": "cases-talavera",
       "name": "Dues cases de Ramon Talavera",
       "kind": "private-courtyard",
-      "across": 63.910523123063165,
-      "along": 89.45709472442176,
+      "across": 48.410523123063165,
+      "along": 91.95709472442176,
       "front": "west",
       "width": 49.94910462905992,
       "depth": 52.67121230194549,
@@ -539,20 +553,27 @@
           25.884048709072083
         ]
       ],
-      "continuousCompound": true
+      "continuousCompound": true,
+      "placementRevision20261108": "Desplaçat 10 m cap a la plaça: façana a la línia actual de la plaça i límit de llevant al carrer del Rampar (Pilar), segons l’escriptura de Talavera (25,30 m al Rampar).",
+      "layoutShiftAcross": -11.5,
+      "layoutShiftAlong": 2.5,
+      "actualMap20261108": "Planta del croquis desplaçada en bloc a la línia actual de la plaça (22,5 m) i del Cóc."
     }
   ],
   "publicSpace": {
     "surface": "Terra d’assaig sobre el MDT intacte; sense paviment modern ni explanació històrica atribuïda.",
     "plaza": {
-      "halfWidth": 22,
-      "north": 84,
-      "south": -118,
-      "exedraRadius": 22,
+      "halfWidth": 25.5,
+      "north": 100,
+      "south": -108.8,
+      "exedraRadius": 25.4,
       "passage": {
-        "halfWidth": 4,
-        "south": -156
-      }
+        "across": -8,
+        "halfWidth": 5,
+        "south": -150
+      },
+      "axis": -5,
+      "exedraAcross": -6.9
     },
     "crossAxis": {
       "west": -96,
@@ -562,11 +583,11 @@
     "trees": {
       "count": 60,
       "across": [
-        -12,
-        12
+        -16,
+        6
       ],
-      "south": -108,
-      "north": 78,
+      "south": -100,
+      "north": 95,
       "species": "Ceratonia siliqua",
       "layoutConfidence": "C",
       "source": "H02, carta del 6/05/1792, pàg. 218–219: seixanta arbres a la població. Distribució en dues fileres i mides d’assaig, sense prova de supervivència individual el 1800."

@@ -1,7 +1,7 @@
 {
   "entityId": "pou-figueretes",
   "historicalEvidence": {
-    "description": "A la baixada del Roquer cap a la platja, al costat de bateria; puntG al plànol de 1748. L’emplaçament actual és un trasllat posterior. Ajust del visor (31/10/2026): Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb la mateixa escala i rotació que el recinte. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.",
+    "description": "A la baixada del Roquer cap a la platja, al costat de bateria; puntG al plànol de 1748. L’emplaçament actual és un trasllat posterior. Ajust del visor (31/10/2026): Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb el registre de 09/11/2026 (0,119 m/px, 138,7°): cau sobre l’eix de l’actual carrer del Pou de les Figueretes, que li dona nom. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.",
     "historicalCoordinates": null,
     "georeferencedHistoricalFootprint": null,
     "confidence": "B relacional / C mètrica",
@@ -16,22 +16,22 @@
     {
       "modelId": "well",
       "anchor": [
-        296407.97500624356,
-        4499200.712022799
+        296426.19154989166,
+        4499204.768389186
       ],
       "footprintUTM": [
         [
-          296407.97500624356,
-          4499200.712022799
+          296426.19154989166,
+          4499204.768389186
         ]
       ],
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": 41.31100000000001,
       "planLetter": "G",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/littoral.json",
       "confidence": "C posició del prototip, no punt històric mesurat"

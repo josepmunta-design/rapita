@@ -6,7 +6,7 @@ Revisió: **31/10/2026** · temple. Expedient per a reconstrucció i col·locaci
 
 ## Col·locació
 
-Al recinte del convent, sobre el Roquer, prop de la torre i de la bateria; el projecte de 1748 la marca amb C. No és Sant Elm ni l’Església Nova. Ajust del visor (31/10/2026): La capella C segueix la planta del redibuix de 1748 sense desplaçament individual. El semicercle de porxos d’assaig s’ha mogut 1 m cap a ponent per evitar el creuament. Alçària i coberta C; el testimoni de 1782 descriu humitats i usos de corral.
+Al recinte del convent, sobre el Roquer, prop de la torre i de la bateria; el projecte de 1748 la marca amb C. No és Sant Elm ni l’Església Nova. Ajust del visor (31/10/2026): Revisió 09/11/2026: la capella es col·loca al punt de les restes conservades del Passatge / Carreró del Convent (BCIL; mur amb porta d’arc escarser i espadanya), a la línia de façana actual i davant del tinglado (N112 p.215). La capella C del plànol de 1748 registrat queda a 9 m. Nau de 5,5 × 11 m, baixa i humida segons l’informe de 1785; mides C.
 
 Certesa: B relacional / C mètrica.
 
@@ -18,7 +18,8 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| capella-1748 | C | 296375.749 | 4499230.048 | Model d’assaig |
+| esglesia-convent | — | 296402.848 | 4499261.089 | Model d’assaig |
+| capella-1748 | C | 296404.186 | 4499251.159 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -70,7 +71,7 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 ### Correspondència amb el prototip
 
-`capella-1748`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
+`esglesia-convent`, `capella-1748`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 

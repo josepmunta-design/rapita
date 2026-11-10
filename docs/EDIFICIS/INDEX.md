@@ -67,8 +67,8 @@ La visualització activa continua a 1778–1800; l’horitzó de recerca és 177
 | [Torre del Codonyol](torre-codonyol/README.md) | fortificació | 1585 · 1780-11-13 |
 | [Torre de Sant Joan](torre-sant-joan/README.md) | fortificació | 1780-11-13 |
 | [Mas de Mataredona](mataredona/README.md) | masia | 1913 · sense data |
-| [Edificis de la Companyia de Canalització de l’Ebre](companyia-canal/README.md) | complex industrial | 1852–1859 · 1857 · 1867 · 2013 · comparació |
-| [Far de Sant Carles](far-sant-carles/README.md) | far | 1862 · 1864 · 1920 · 1929 · 1938 |
+| [Edificis de la Companyia de Canalització de l’Ebre](companyia-canal/README.md) | complex industrial | 1852/1859 · 1857 · 1867 · 1872 · 2013-12-01 · sense data |
+| [Far de Sant Carles](far-sant-carles/README.md) | far | 1862 · 1864-11-01 · 1920-08-29 · 1929 · 1937-03-17 · 1975-05-23 · 1995-07-02 · sense data |
 | [Botigues i cafès del nucli fotografiat](locals-comercials/README.md) | conjunt per identificar | 1914 · 1935 · sense data |
 | [Cisterna i fossat del Roquer](cisterna-fossat-roquer/README.md) | servei militar | 1780 |
 | [Forn de maons de les obres del Roquer](forn-roquer/README.md) | forn | 1780 |

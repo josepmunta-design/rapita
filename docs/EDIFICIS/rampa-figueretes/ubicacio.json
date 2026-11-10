@@ -20,6 +20,23 @@
       "alongAzimuthDegrees": null,
       "planLetter": null,
       "projectOnly": false,
+      "positionSource": {
+        "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+        "precisionMeters": 15
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    },
+    {
+      "modelId": "mur-rampa-figueretes",
+      "anchor": [
+        296442.461,
+        4499196.4035
+      ],
+      "footprintUTM": [],
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
       "positionSource": null,
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"

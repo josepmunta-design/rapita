@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| sant-elm | — | 296317.335 | 4499309.148 | Model d’assaig |
+| sant-elm | — | 296324.474 | 4499311.449 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

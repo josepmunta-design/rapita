@@ -1,5 +1,7 @@
 # Roquer, litoral i canal
 
+**Revisió de costa i canal (08/11/2026 · 0.15.0):** substitueix la costa del port i el tram final descrits a sota. Vegeu [docs/CANAL/README.md](CANAL/README.md).
+
 **Estat espacial vigent (31/10/2026):** [ajust al redibuix de 1748, taula de coordenades i fases](ROQUER_ALINEACIO.md). Costa, edificis A–G i projectes H–O comparteixen una única transformació. Aquesta revisió substitueix les plantes i posicions d’assaig descrites a la fase 0.5 de sota. Els snapshots i `ubicacio.json` dels expedients es generen dels mateixos fitxers que el mapa.
 
 ## Antecedent · versió 0.5.0

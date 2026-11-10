@@ -14,6 +14,14 @@ Certesa: B relacional / C mètrica.
 
 **Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
 
+### Posicions actuals del visor · EPSG:25831
+
+| Model | Lletra | E (m) | N (m) | Estat |
+|---|---|---:|---:|---|
+| paredo-poblacio | — | 296484.512 | 4499410.611 | Model d’assaig |
+
+Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
+
 ## Descripció documentada
 
 - Mur de maçoneria i grans terraplens per regularitzar terreny desigual i rocallós; funció principal de sosteniment, no muralla defensiva. [N112](../fonts-20261031/originals/N112.pdf) · art.24 p.233 i p.222
@@ -44,16 +52,17 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** Els dos trams del mur de sosteniment núm.24 segueixen el croquis N112 il·l.4: al costat oriental de Talavera/Fonda i al marge dels Horts de les Monges. Maçoneria amb base lleugerament atalussada i coronament seguint el terreny interior; passos de rampa rebaixats. No és una muralla defensiva. Secció i cotes d’assaig C. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
-- [ ] Calcar alineació segons afrontacions i relleu; excloure expressament N110.
+- [ ] Contrastar al??ria i secci? del pared? amb un aixecament; N110 continua excl?s.
 
 ### Dades encara desconegudes
 
 - Planta històrica georeferenciada amb error d’ajust independent.
 - Alçàries i gruixos mesurats i datació de cada fàbrica.
 - Correspondència parcel·lària i persistència entre testimonis.
+
+### Correspondència amb el prototip
+
+`paredo-poblacio`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 

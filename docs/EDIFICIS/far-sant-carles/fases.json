@@ -4,7 +4,7 @@
     1778,
     1950
   ],
-  "rule": "Dates documentades amb resolució anual al visor; comparació actual sense activació per any.",
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
   "phases": [
     {
       "id": "far-sant-carles-fase-01",
@@ -22,15 +22,15 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "any",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "any"
     },
     {
       "id": "far-sant-carles-fase-02",
       "witnessDate": "1864-11-01",
       "witnessYear": 1864,
       "label": "Primera llum",
-      "state": "Roja fixa de 6è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.",
+      "state": "Roja fixa de 6 è ordre, 6 milles i focus a 6,80 m sobre el terreny. Es prioritza l’avís contemporani i el relat de Cardenal sobre la capçalera web discrepant.",
       "kind": "testimoni",
       "eventDate": "1864-11-01",
       "eventDateReason": "Data documentada al paquet aportat; selector amb resolució anual.",
@@ -45,8 +45,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
     },
     {
       "id": "far-sant-carles-fase-03",
@@ -64,8 +64,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
     },
     {
       "id": "far-sant-carles-fase-04",
@@ -83,8 +83,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "any",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "any"
     },
     {
       "id": "far-sant-carles-fase-05",
@@ -102,8 +102,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "dia"
     },
     {
       "id": "far-sant-carles-fase-06",
@@ -121,8 +121,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": true
+      "outsideTargetRange": true,
+      "datePrecision": "dia"
     },
     {
       "id": "far-sant-carles-fase-07",
@@ -140,8 +140,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": true
+      "outsideTargetRange": true,
+      "datePrecision": "dia"
     },
     {
       "id": "far-sant-carles-fase-08",
@@ -159,8 +159,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "desconeguda",
-      "outsideTargetRange": null
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
     }
   ]
 }

@@ -86,12 +86,6 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 - [N077 · Església Nova en ruïna](../fonts-20261031/originals/N077.jpg) · data original no fixada. Versions en color iB/N; N078 i N079 són duplicats exactes. Colors no validats, data original i procés d’acoloriment desconeguts.
 - [N060 · Església Nova consolidada](../fonts-20261031/originals/N060.jpeg) · data original no fixada. Fotografia moderna, ús per contrast amb ruïna anterior; no copiar estructures de consolidació al 1800.
 
-<!-- imatges-afegides-20261102 -->
-
-### Imatges aportades el 2/11/2026
-
-- **EN01** · [Església Nova · façana en blanc i negre](esgl%C3%A9sia%20nova_facebook_BN.jpg). Vista frontal de la façana en ruïna amb columnes i persones. Imatge aportada per Josep el 2/11/2026; autoria i data de la fotografia original no fixades.
-
 ## Aplicació al model i treball pendent
 
 - [ ] Restituir per fases separades: fàbrica de 1794, ruïna del XIX i estat de 1916.

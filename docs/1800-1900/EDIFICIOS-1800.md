@@ -34,3 +34,15 @@ El botón Poble encuadra el núcleo. Habitatges ofrece acceso a pie al patio de 
 Las formas de las fachadas son restituciones C y no se presentan como levantamientos históricos. El dibujo de 1748 conserva la separación entre edificios existentes A–G y propuestas H–O. El Tinglado mantiene una cubierta parcial porque la fecha del desmantelamiento no está fijada; el Molinet no recibe una cubierta ni se muestra funcionando.
 
 El suelo nivelado del patio y los peldaños grises de acceso son soportes técnicos reversibles sobre el MDT actual. Se ajustan el brocal y los materiales del patio a esa cota visual. No documentan un pavimento, terraplén ni escalera históricos.
+
+
+## Revisió 08/11/2026 · obres afegides (0.15.0)
+
+| Conjunt | Model | Posició | Evidència | Límit |
+|---|---|---|---|---|
+| darsena-petita, enclusa-gran | Dàrsena de 34 × 20 m amb moll de maçoneria i coronació; enclusa de 38 × 8,4 m començada, seca, amb murs a alçàries diferents i carreus tallats. | Zona C de N112 il·l.3 georeferenciada, ±50 m. | N112 art.20–21 p.233. | Mides, forma i orientació C; sense portes ni connexió amb el mar. |
+| casa-bous | Masia de dues plantes amb corral. | Topònim Horta Vella (ICGC, N112 il·l.3), ±300 m. | N112 p.203 n.45. | Afrontacions del procés de 1796 no recuperades. |
+| rajolar-rabosa | Dos forns mediterranis, casa i era d’assecat. | Partida de la Rabosa, ±350 m. Des de 1786. | N112 p.223 n.94. | Retrospecció «uns deu anys» de 1796; forma C. |
+| pedrera-guardiola | Caseta, aplecs de pedra, front escalonat i travesses de transport. | Tall oriental de la Guardiola al MDT, ±80 m. | N112 p.223–224. | El tall actual pot ser posterior. |
+
+El Molinet continua sense model: la seva posició estimada (E 298.788 / N 4.499.661) és fora del terreny del visor. Captures a `docs/1800-1900/edificis-20261108/`.

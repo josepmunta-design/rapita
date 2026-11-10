@@ -11,13 +11,13 @@
         "group": "royal-portico",
         "kind": "large",
         "anchor": {
-          "easting": 296327.57142806856,
-          "northing": 4499272.836804813
+          "easting": 296319.42924162437,
+          "northing": 4499277.7556258
         },
-        "across": -28.5,
-        "along": -107,
+        "across": -37.8,
+        "along": -105,
         "frontAzimuthDegrees": 109,
-        "width": 5,
+        "width": 6.5,
         "depth": 11,
         "wallHeight": 7.8,
         "roofRise": 1.8,
@@ -29,28 +29,29 @@
         "state1794": "unroofed-with-portico",
         "layoutBasis": "group-location-inference",
         "terrace": true,
+        "frontWidth": 6.5,
         "footprintUTM": [
           [
-            296331.9578598482,
-            4499268.682383524
+            296323.5714972882,
+            4499272.89206558
           ],
           [
-            296333.5857006205,
-            4499273.409976402
+            296325.68769029214,
+            4499279.037936321
           ],
           [
-            296323.1849962889,
-            4499276.991226101
+            296315.28698596056,
+            4499282.61918602
           ],
           [
-            296321.55715551664,
-            4499272.263633223
+            296313.1707929566,
+            4499276.473315279
           ]
         ],
         "terrain": {
-          "minimum": 10.452895620454608,
-          "maximum": 11.29494742850468,
-          "technicalBaseElevation": 11.37494742850468,
+          "minimum": 10.873760457899694,
+          "maximum": 11.811375614260077,
+          "technicalBaseElevation": 11.891375614260077,
           "historicalElevation": null
         }
       }

@@ -18,8 +18,8 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| tower | A | 296388.987 | 4499194.272 | Model d’assaig |
-| project-1748-tower | O | 296390.735 | 4499193.456 | Projecte de 1748 |
+| tower | A | 296402.613 | 4499206.242 | Model d’assaig |
+| project-1748-tower | O | 296404.155 | 4499204.570 | Projecte de 1748 |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

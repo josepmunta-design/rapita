@@ -22,8 +22,10 @@ export function worldToTown(e,n,frame){
 }
 export function isPublicGround(across,along,space){
   const p=space.plaza,c=space.crossAxis;
-  return (Math.abs(across)<=p.halfWidth&&along>=p.south&&along<=p.north)||
-    (along<p.south&&Math.hypot(across,along-p.south)<=p.exedraRadius)||
+  // axis/exedraAcross/passage.across: eix real de la plaça actual (revisió ICGC 08/11/2026); 0 per defecte.
+  const x=across-(p.axis??0),xe=across-(p.exedraAcross??p.axis??0),xp=across-(p.passage?.across??p.axis??0);
+  return (Math.abs(x)<=p.halfWidth&&along>=p.south&&along<=p.north)||
+    (along<p.south&&Math.hypot(xe,along-p.south)<=p.exedraRadius)||
     (across>=c.west&&across<=c.east&&Math.abs(along)<=c.halfWidth)||
-    (!!p.passage&&Math.abs(across)<=p.passage.halfWidth&&along<=p.south&&along>=p.passage.south);
+    (!!p.passage&&Math.abs(xp)<=p.passage.halfWidth&&along<=p.south&&along>=p.passage.south);
 }

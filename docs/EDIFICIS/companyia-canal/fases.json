@@ -4,7 +4,7 @@
     1778,
     1950
   ],
-  "rule": "Testimoni de 1857; model cap al 1858 aproximat. Comparació actual i distribució de guardes manuals, sense retrodatació dels acabats.",
+  "rule": "Testimonis datats, no interpolació automàtica ni dates de construcció inventades. Els testimonis sense data o contradictoris no activen geometria.",
   "phases": [
     {
       "id": "companyia-canal-fase-01",
@@ -22,8 +22,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "interval",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "interval"
     },
     {
       "id": "companyia-canal-fase-02",
@@ -41,8 +41,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "any",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "any"
     },
     {
       "id": "companyia-canal-fase-03",
@@ -60,8 +60,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "any",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "any"
     },
     {
       "id": "companyia-canal-fase-04",
@@ -79,8 +79,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "any",
-      "outsideTargetRange": false
+      "outsideTargetRange": false,
+      "datePrecision": "any"
     },
     {
       "id": "companyia-canal-fase-05",
@@ -98,8 +98,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "dia",
-      "outsideTargetRange": true
+      "outsideTargetRange": true,
+      "datePrecision": "dia"
     },
     {
       "id": "companyia-canal-fase-06",
@@ -117,8 +117,8 @@
         }
       ],
       "automaticTimelineActivation": false,
-      "datePrecision": "desconeguda",
-      "outsideTargetRange": null
+      "outsideTargetRange": null,
+      "datePrecision": "desconeguda"
     }
   ]
 }

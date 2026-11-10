@@ -44,9 +44,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** El núm.8 del croquis correspon a l’illa residencial occidental, ja representada. Es retira el segon rectangle que ocupava el jardí botànic. La fitxa conserva el testimoni, sense duplicar-ne el volum. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
 - [ ] Mantenir només murs a cota d’embigat i no atribuir-hi la façana moderna de l’ajuntament.
 
 ### Dades encara desconegudes

@@ -1,6 +1,6 @@
 {
   "entityId": "administrador-rendes",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -16,33 +16,34 @@
         "height": 4,
         "evidence": "H01 pp. 161–162: casa per a l’administrador, al costat de la duana i les cases dels guardes en la relació de 1780. Emplaçament i volum C; possible relació amb el complex de duana sense identificar parcel·la ni duplicar l’inventari de 1794.",
         "townAnchor": [
-          99,
-          84
+          100,
+          78
         ],
+        "actualMap20261108": "Abans [99, 84], damunt del carrer del Pilar.",
         "anchor": [
-          296510.30856395874,
-          4499411.920913059
+          296509.3006736076,
+          4499405.922233451
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 3.7453284717255624,
+        "technicalBaseElevation": 3.861968122464811,
         "footprintUTM": [
           [
-            296505.549785193,
-            4499410.38662995
+            296504.5418948419,
+            4499404.387950342
           ],
           [
-            296513.11393379775,
-            4499407.782084715
+            296512.10604344663,
+            4499401.7834051065
           ],
           [
-            296515.0673427245,
-            4499413.455196168
+            296514.05945237336,
+            4499407.45651656
           ],
           [
-            296507.5031941197,
-            4499416.059741404
+            296506.4953037686,
+            4499410.061061796
           ]
         ]
       }

@@ -40,6 +40,7 @@
       "path": "capella-convent/README.md",
       "phasePath": "capella-convent/fases.json",
       "modelIds": [
+        "esglesia-convent",
         "capella-1748"
       ]
     },
@@ -400,7 +401,9 @@
       "parentDossier": null,
       "path": "casa-bous/README.md",
       "phasePath": "casa-bous/fases.json",
-      "modelIds": []
+      "modelIds": [
+        "casa-bous"
+      ]
     },
     {
       "id": "molinet",
@@ -416,7 +419,9 @@
       "parentDossier": null,
       "path": "rajolar/README.md",
       "phasePath": "rajolar/fases.json",
-      "modelIds": []
+      "modelIds": [
+        "rajolar-rabosa"
+      ]
     },
     {
       "id": "forn-moli-guix",
@@ -434,7 +439,9 @@
       "parentDossier": null,
       "path": "pedrera-guardiola/README.md",
       "phasePath": "pedrera-guardiola/fases.json",
-      "modelIds": []
+      "modelIds": [
+        "pedrera-guardiola"
+      ]
     },
     {
       "id": "glorieta",
@@ -468,7 +475,10 @@
       "parentDossier": null,
       "path": "darsena-petita/README.md",
       "phasePath": "darsena-petita/fases.json",
-      "modelIds": []
+      "modelIds": [
+        "darsena-petita",
+        "enclusa-gran"
+      ]
     },
     {
       "id": "amposta-capcalera",
@@ -497,7 +507,8 @@
       "phasePath": "rampa-figueretes/fases.json",
       "modelIds": [
         "rampa-roquer",
-        "pilar-trail"
+        "pilar-trail",
+        "mur-rampa-figueretes"
       ]
     },
     {

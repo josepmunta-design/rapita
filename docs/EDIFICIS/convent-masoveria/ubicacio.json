@@ -20,34 +20,34 @@
     {
       "modelId": "hostal-1748",
       "anchor": [
-        296385.8758960818,
-        4499200.283175075
+        296401.9114187451,
+        4499214.1856791
       ],
       "footprintUTM": [
         [
-          296386.1071112447,
-          4499198.6279709
+          296401.42308781197,
+          4499212.278064959
         ],
         [
-          296384.59805187455,
-          4499201.07033611
+          296400.8706425691,
+          4499215.615263223
         ],
         [
-          296385.6282397271,
-          4499201.890630562
+          296402.3604709979,
+          4499216.048600566
         ],
         [
-          296387.1701814809,
-          4499199.543762729
+          296402.99147360143,
+          4499212.800787654
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "B",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -55,50 +55,50 @@
     {
       "modelId": "corral-1748-1",
       "anchor": [
-        296388.0509531866,
-        4499208.694031168
+        296408.044361301,
+        4499222.380735184
       ],
       "footprintUTM": [
         [
-          296386.91972151067,
-          4499200.057281767
+          296402.9481616378,
+          4499213.472558502
         ],
         [
-          296377.7397548038,
-          4499208.452362545
+          296396.69692758046,
+          4499226.729422488
         ],
         [
-          296385.08083416836,
-          4499211.158790959
+          296405.9093593505,
+          4499226.395863077
         ],
         [
-          296385.61993190536,
-          4499220.480117026
+          296410.66633066186,
+          4499236.315093386
         ],
         [
-          296388.87944179267,
-          4499220.639614031
+          296414.29057953827,
+          4499235.030996785
         ],
         [
-          296391.2458319096,
-          4499207.967815113
+          296411.20198965265,
+          4499220.160109033
         ],
         [
-          296395.51171608904,
-          4499203.294362731
+          296413.7614631701,
+          4499213.157893647
         ],
         [
-          296393.4103933133,
-          4499197.50190517
+          296408.8800788164,
+          4499207.783944559
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "F",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -106,42 +106,42 @@
     {
       "modelId": "corral-1748-2",
       "anchor": [
-        296381.17363326746,
-        4499218.735296634
+        296405.03936560964,
+        4499236.402007588
       ],
       "footprintUTM": [
         [
-          296385.01821917586,
-          4499211.287170719
+          296405.89853135956,
+          4499226.563805788
         ],
         [
-          296376.6847492547,
-          4499211.592941997
+          296396.9517119263,
+          4499230.624588844
         ],
         [
-          296377.28507734736,
-          4499223.884136046
+          296403.1038211726,
+          4499243.753625246
         ],
         [
-          296381.469828387,
-          4499223.938686352
+          296407.6896529348,
+          4499241.9412831
         ],
         [
-          296381.2802182717,
-          4499220.906203375
+          296406.1265722876,
+          4499238.720649019
         ],
         [
-          296385.30370716803,
-          4499220.802641313
+          296410.4659039769,
+          4499236.808093532
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "F",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -149,34 +149,34 @@
     {
       "modelId": "corral-1748-3",
       "anchor": [
-        296375.0581784273,
-        4499219.122999941
+        296398.54685832304,
+        4499239.559998784
       ],
       "footprintUTM": [
         [
-          296377.7275362059,
-          4499213.690734496
+          296399.026687277,
+          4499232.44477985
         ],
         [
-          296372.9995335184,
-          4499213.609601357
+          296393.83681403537,
+          4499234.471138094
         ],
         [
-          296372.21426708816,
-          4499224.66877884
+          296397.9275373462,
+          4499246.877025115
         ],
         [
-          296377.29137689667,
-          4499224.52288507
+          296403.3963946335,
+          4499244.447052076
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "F",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -184,34 +184,34 @@
     {
       "modelId": "mur-roquer-1748",
       "anchor": [
-        296391.85707500804,
-        4499210.570265708
+        296413.0323058799,
+        4499222.723409587
       ],
       "footprintUTM": [
         [
-          296388.5738202435,
-          4499201.802142682
+          296411.4880109371,
+          4499211.697472666
         ],
         [
-          296395.1403297726,
-          4499201.802142682
+          296414.57660082274,
+          4499211.697472666
         ],
         [
-          296395.1403297726,
-          4499219.338388734
+          296414.57660082274,
+          4499233.749346507
         ],
         [
-          296388.5738202435,
-          4499219.338388734
+          296411.4880109371,
+          4499233.749346507
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "F",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -219,34 +219,34 @@
     {
       "modelId": "mur-nord-1748",
       "anchor": [
-        296383.09813742776,
-        4499199.258128856
+        296398.42513222294,
+        4499214.310832916
       ],
       "footprintUTM": [
         [
-          296376.0555256548,
-          4499184.65571863
+          296394.8703199879,
+          4499195.243921075
         ],
         [
-          296390.1407492007,
-          4499184.65571863
+          296401.979944458,
+          4499195.243921075
         ],
         [
-          296390.1407492007,
-          4499213.860539082
+          296401.979944458,
+          4499233.377744757
         ],
         [
-          296376.0555256548,
-          4499213.860539082
+          296394.8703199879,
+          4499233.377744757
         ]
       ],
       "alongAzimuthDegrees": 0,
       "planLetter": "F",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"

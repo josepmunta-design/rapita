@@ -52,9 +52,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** Tres galeries cegues amb la mateixa roca i color que la ladera, coberta compartida i transició de terreny als laterals i al darrere. El sòlid ja no se superposa a una segona pell de terreny. Posició del comentari de Josep preservada; forma C. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
 - [ ] Tres galeries laterals cegues, cobertes per una massa continua de roca.
 - [ ] Revisar tancament, orientacio de cares i normals amb una malla sense cares dobles. Dimensions i separacio C.
 

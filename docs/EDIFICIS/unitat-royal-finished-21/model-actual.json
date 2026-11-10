@@ -11,11 +11,11 @@
         "group": "royal-finished",
         "kind": "large",
         "anchor": {
-          "easting": 296438.7659820621,
-          "northing": 4499420.690689314
+          "easting": 296425.5960647505,
+          "northing": 4499383.978248944
         },
-        "across": 28.5,
-        "along": 69,
+        "across": 28,
+        "along": 30,
         "frontAzimuthDegrees": -71,
         "width": 5,
         "depth": 11.6,
@@ -29,29 +29,30 @@
         "state1794": "finished",
         "layoutBasis": "group-location-inference",
         "terrace": true,
+        "block": "E-N",
         "reservation": "possible-inn-bodies-do-not-duplicate",
         "footprintUTM": [
           [
-            296434.09589470975,
-            4499424.942781049
+            296420.9259773982,
+            4499388.230340678
           ],
           [
-            296432.4680539375,
-            4499420.215188171
+            296419.2981366259,
+            4499383.5027478
           ],
           [
-            296443.4360694144,
-            4499416.4385975795
+            296430.26615210285,
+            4499379.726157209
           ],
           [
-            296445.0639101867,
-            4499421.1661904575
+            296431.8939928751,
+            4499384.453750087
           ]
         ],
         "terrain": {
-          "minimum": 7.2821475802083375,
-          "maximum": 8.031388856639776,
-          "technicalBaseElevation": 8.111388856639776,
+          "minimum": 7.268972000773155,
+          "maximum": 8.217862172965692,
+          "technicalBaseElevation": 8.297862172965692,
           "historicalElevation": null
         }
       }

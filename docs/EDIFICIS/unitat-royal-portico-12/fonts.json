@@ -2,7 +2,7 @@
   {
     "id": "ANT-PORXOS",
     "title": "Expedient documental dels porxos versió0.12",
-    "absolutePath": "A:\\Mapa Ràpita\\docs\\PORXOS.md",
+    "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/PORXOS.md",
     "reading": "IPAC6415, Salvany1916 i mesures d’assaig separades."
   },
   {
@@ -20,7 +20,7 @@
     "kind": "plànol imprès",
     "reviewMethod": "inspecció visual",
     "reading": "P.761; títol Plan y carrers de Sant Carles de la Ràpita, revisat per l’Ajuntament, facilitat per Romà Massot i Pamies. El nom de fitxer proposa 1908, però la pàgina no mostra data editorial. 67 referències de carrers/llocs. Costa i nucli útils per a comparació posterior, no parcel·lari de 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N001.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N001.jpg"
   },
   {
     "id": "N003",
@@ -40,7 +40,7 @@
     "kind": "projecte urbà",
     "reviewMethod": "inspecció visual",
     "reading": "Data de signatura 30/1/1852 i conformitat 31/1/1852 llegides a la part inferior. Fosc: edificis existents; rosa: nova delineació; groc: edificis a demolir quan convingui. Església, magatzems, duana, quarter, mercat, administració i canal amb parts projectades. No és ciutat acabada de 1800. La correspondència ambACA MPD223 ve de la tesi anterior, no del nom 31757111.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N003.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N003.jpg"
   },
   {
     "id": "N031",
@@ -57,7 +57,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Arcs, bigues de fusta, escala del pas i persones. Acolorit no prova colors originals. Mateix tema que recreacióN074 però no prova que siguin imatges independents.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N031.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N031.jpg"
   },
   {
     "id": "N074",
@@ -74,7 +74,7 @@
     "kind": "imatge generada",
     "reviewMethod": "inspecció visual i nom de fitxer",
     "reading": "NomChatGPT Image i aspecte il·lustratiu; exclosa com a evidència històrica o mètrica.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N074.jpeg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N074.jpeg"
   },
   {
     "id": "N081",
@@ -91,7 +91,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Duplicats binaris exactes; data/autoria contrastades amb expedient 0.12 i peuN050. Referència de forma, no estat immòbil des de 1794.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N081.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N081.jpg"
   },
   {
     "id": "N102",
@@ -108,7 +108,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N102.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N102.jpg"
   },
   {
     "id": "N103",
@@ -125,7 +125,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Variants color/B/N delmateix tema; sense data original confirmada. No acreditar color ni atribuir estat al 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N103.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N103.jpg"
   },
   {
     "id": "N112",
@@ -192,6 +192,6 @@
     "kind": "article",
     "reviewMethod": "text complet44p i revisió de figures",
     "reading": "Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre baseICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N112.pdf"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
   }
 ]

@@ -2,26 +2,39 @@ import * as THREE from 'three';
 import {toWorld} from './geo.mjs';
 import {environmentPlan} from './environment-plan.mjs';
 import {surfaceMaterial} from './vernacular.ts';
+import {groundRealism,terraNoiseGLSL,groundColorGLSL,groundNormalGLSL} from './visual-ground.ts';
 import type {Terrain} from './terrain';
 
 /** World-space colour grain; does not displace vertices or alter measured elevations. */
 export function groundDetail(material:THREE.MeshStandardMaterial){
- const strength={value:1};
- material.onBeforeCompile=shader=>{
-  shader.uniforms.groundDetailStrength=strength;
-  shader.vertexShader='varying vec2 vGroundXZ;\n'+shader.vertexShader;
-  shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvGroundXZ=(modelMatrix*vec4(position,1.0)).xz;');
-  shader.fragmentShader=`varying vec2 vGroundXZ;uniform float groundDetailStrength;
+ const strength={value:1},realism={value:0};
+ const before=material.onBeforeCompile,key=material.customProgramCacheKey();
+ material.onBeforeCompile=(shader,renderer)=>{
+  before.call(material,shader,renderer);
+  shader.uniforms.groundDetailStrength=strength;shader.uniforms.groundRealismStrength=realism;shader.uniforms.groundTime=groundRealism.time;shader.uniforms.groundWaterLevel=groundRealism.waterLevel;
+  shader.vertexShader='attribute vec3 smoothNormal;uniform float groundRealismStrength;varying vec3 vGroundW;varying vec3 vGroundN;\n'+shader.vertexShader;
+  // Faceted interpreted terrain carries an averaged normal for the realistic style only.
+  shader.vertexShader=shader.vertexShader.replace('#include <beginnormal_vertex>','#include <beginnormal_vertex>\nif(groundRealismStrength>.5&&dot(smoothNormal,smoothNormal)>.25)objectNormal=smoothNormal;\nvGroundN=normalize(mat3(modelMatrix)*objectNormal);');
+  shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvGroundW=(modelMatrix*vec4(position,1.0)).xyz;');
+  shader.fragmentShader=`varying vec3 vGroundW;varying vec3 vGroundN;uniform float groundDetailStrength;uniform float groundRealismStrength;uniform float groundTime;uniform float groundWaterLevel;
   float groundHash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
   float groundNoise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);return mix(mix(groundHash(i),groundHash(i+vec2(1,0)),f.x),mix(groundHash(i+vec2(0,1)),groundHash(i+vec2(1,1)),f.x),f.y);}
+  ${terraNoiseGLSL}
   `+shader.fragmentShader;
   shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>',`#include <color_fragment>
+   vec2 vGroundXZ=vGroundW.xz;
    float grainFade=1.0-smoothstep(.06,.32,length(fwidth(vGroundXZ)));
-   float groundTone=.86+.20*groundNoise(vGroundXZ*.13)+.09*groundNoise(vGroundXZ*1.2)+grainFade*.05*(groundNoise(vGroundXZ*7.0)-.5);
-   diffuseColor.rgb*=mix(1.0,groundTone,groundDetailStrength);`);
+   if(groundRealismStrength<.5){
+    float groundTone=.86+.20*groundNoise(vGroundXZ*.13)+.09*groundNoise(vGroundXZ*1.2)+grainFade*.05*(groundNoise(vGroundXZ*7.0)-.5);
+    diffuseColor.rgb*=mix(1.0,groundTone,groundDetailStrength);
+   }
+   ${groundColorGLSL}`);
+  shader.fragmentShader=shader.fragmentShader.replace('#include <normal_fragment_maps>',`#include <normal_fragment_maps>
+   ${groundNormalGLSL}`);
  };
- material.customProgramCacheKey=()=> 'rapita-ground-detail-1';material.needsUpdate=true;
- return(enabled:boolean)=>{strength.value=enabled?1:0;};
+ material.customProgramCacheKey=()=>key+'-rapita-ground-detail-3';material.needsUpdate=true;
+ // `enabled` is the documentary grain of the «Detall de l’entorn» layer; `realistic` is the style.
+ return(enabled:boolean,realistic=false)=>{strength.value=enabled?1:0;realism.value=realistic?1:0;};
 }
 
 export function makeEnvironment(urban:any,littoral:any,housing:any,center:any,meta:Terrain,sample:(e:number,n:number)=>number|null){

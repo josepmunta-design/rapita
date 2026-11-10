@@ -1,6 +1,6 @@
 {
   "entityId": "duana-nova",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,11 +10,11 @@
         "id": "duana-nova",
         "name": "Duana nova del Coc",
         "kind": "warehouse",
-        "across": 95.17330790556377,
-        "along": -48.574647770755206,
+        "across": 79.75,
+        "along": -30.5,
         "front": "north",
-        "width": 26,
-        "depth": 20,
+        "width": 30.5,
+        "depth": 17,
         "wallHeight": 8.2,
         "roofRise": 0,
         "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
@@ -28,9 +28,11 @@
           "height": null
         },
         "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "placementRevision20261108": "Solar núm. 6 de la subhasta de 1868 (N112 p.217, nota 80): «linda al este con patio del secuestro, al sur con casa de Juan Bautista Ribera y con la plaza Vieja, al oeste con callejón y al norte con la plaza Mayor», 520,555 m². Encaixa amb l’illa entre el Cóc (nord), la plaça Vella (sud) i el carreró sense sortida (oest) del parcel·lari actual. Abans es col·locava 45 m al SE seguint el núm. 12 del croquis.",
+        "actualMap20261108": "Illa actual entre el carreró (oest), el Cóc (nord) i la Plaça Vella (sud): 30,5 × 17 m = 518 m², com els 520,555 m² de la subhasta de 1868. L’anterior posició (across 48,5) quedava a l’oest del carreró.",
         "anchor": {
-          "easting": 296463.5282720978,
-          "northing": 4499287.814970021
+          "easting": 296454.8297776931,
+          "northing": 4499309.926223126
         },
         "frontAzimuthDegrees": 19,
         "geometryConfidence": "C",
@@ -39,26 +41,26 @@
         "historicalBaseElevation": null,
         "footprintUTM": [
           [
-            296479.0756951252,
-            4499293.037769769
+            296472.01626528386,
+            4499312.9982166635
           ],
           [
-            296454.4922121596,
-            4499301.502541785
+            296443.17794872803,
+            4499322.928045374
           ],
           [
-            296447.9808490704,
-            4499282.592170273
+            296437.6432901023,
+            4499306.854229589
           ],
           [
-            296472.564332036,
-            4499274.127398257
+            296466.48160665814,
+            4499296.924400878
           ]
         ],
         "terrain": {
-          "minimum": 2.441174578282991,
-          "maximum": 7.2682098268269195,
-          "technicalBaseElevation": 7.34820982682692
+          "minimum": 4.793496970871763,
+          "maximum": 7.278627949345209,
+          "technicalBaseElevation": 7.358627949345209
         }
       }
     }

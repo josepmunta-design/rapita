@@ -6,7 +6,7 @@ Revisió: **31/10/2026** · fortificació. Expedient per a reconstrucció i col�
 
 ## Col·locació
 
-Al caire del Roquer dominant el port; part de l’àmbit del mercat actual. Punt 3 del plànol de 1782. Ajust del visor (31/10/2026): El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. La bateria parcial posterior conserva la planta T-6/8 de vuit canons i sis peces el 1794; centre i orientació reajustats al sector H, sense identificar els dos projectes. La muralla existent segueix la traça rosa amb tres ressalts.
+Al caire del Roquer dominant el port; part de l’àmbit del mercat actual. Punt 3 del plànol de 1782. Ajust del visor (31/10/2026): El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. Revisió 09/11/2026: la bateria es conserva parcialment sota el mercat municipal; la planta T-6/8 de vuit canons s’encaixa al front corbat conservat (ortofoto ICGC 2024, RMS 0,20 m, 28,5 m d’amplada, eix 130,9°) i el plànol de 1748 es registra amb aquest front i amb el camí del pou G. La muralla rosa de 1748 queda substituïda pel flanc SW de la bateria des del 1780.
 
 Certesa: B relacional / C mètrica.
 
@@ -18,13 +18,13 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| battery | — | 296425.030 | 4499177.962 | Model d’assaig |
-| muralla-meseta-1748 | A–G | 296431.110 | 4499163.086 | Model d’assaig |
-| project-1748-battery | H | 296430.713 | 4499177.020 | Projecte de 1748 |
-| project-1748-powder | K | 296407.639 | 4499179.571 | Projecte de 1748 |
-| project-1748-guard | L | 296401.048 | 4499181.680 | Projecte de 1748 |
-| project-1748-officer | M | 296398.429 | 4499184.932 | Projecte de 1748 |
-| project-1748-governor | N | 296392.899 | 4499184.539 | Projecte de 1748 |
+| battery | — | 296437.092 | 4499169.832 | Model d’assaig |
+| muralla-meseta-1748 | A–G | 296434.579 | 4499153.407 | Model d’assaig |
+| project-1748-battery | H | 296440.379 | 4499168.773 | Projecte de 1748 |
+| project-1748-powder | K | 296416.369 | 4499181.874 | Projecte de 1748 |
+| project-1748-guard | L | 296410.128 | 4499187.122 | Projecte de 1748 |
+| project-1748-officer | M | 296408.728 | 4499191.838 | Projecte de 1748 |
+| project-1748-governor | N | 296402.525 | 4499193.883 | Projecte de 1748 |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

@@ -2,13 +2,13 @@
   {
     "id": "ANT-LAND",
     "title": "Expedient anterior de Glorieta i Guardiola",
-    "absolutePath": "A:\\Mapa Ràpita\\docs\\GLORIETA_GUARDIOLA.md",
+    "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/GLORIETA_GUARDIOLA.md",
     "reading": "Hipòtesis i cronologia prèviament explicitades."
   },
   {
     "id": "ANT-TESI",
     "title": "Noèlia Borràs Matamoros La nova i reial població de Sant Carles de la Ràpita",
-    "absolutePath": "A:\\Mapa Ràpita\\tesi doctoral.pdf",
+    "absolutePath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/tesi doctoral.pdf",
     "reading": "Tesi anterior revisada focalment al projecte. Fonts i pàgines indicades a cada citació; no és un nou testimoni de la carpeta."
   },
   {
@@ -26,7 +26,7 @@
     "kind": "plànol imprès",
     "reviewMethod": "inspecció visual",
     "reading": "P.761; títol Plan y carrers de Sant Carles de la Ràpita, revisat per l’Ajuntament, facilitat per Romà Massot i Pamies. El nom de fitxer proposa 1908, però la pàgina no mostra data editorial. 67 referències de carrers/llocs. Costa i nucli útils per a comparació posterior, no parcel·lari de 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N001.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N001.jpg"
   },
   {
     "id": "N004",
@@ -49,7 +49,7 @@
     "kind": "text imprès",
     "reviewMethod": "lectura visual completa",
     "reading": "Canal i molls interromputs, grans edificis i pavelló al peu de la muntanya. Valoració crítica amb resum retrospectiu; no fixa la data de construcció de cada peça.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N004.pdf"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N004.pdf"
   },
   {
     "id": "N012",
@@ -79,7 +79,7 @@
     "kind": "recull",
     "reviewMethod": "text XML i imatges incrustades",
     "reading": "DOCX amb 13 imatges: pp 58–66 i fragments; bibliografia i enllaç a Bivaldi. Imatges extretes i llegides; duplicats de les pàginesPDF. Data editorial 1844 confirmada alcatàleg, data de visita no llegida en aquests retalls.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N012.docx"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N012.docx"
   },
   {
     "id": "N099",
@@ -96,7 +96,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N099.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N099.jpg"
   },
   {
     "id": "N106",
@@ -113,7 +113,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "N099 amb nom deSalvany1916, N106 reproducció baixa delmateix tema. No dos testimonis independents; data basada en atribució i contrast anterior.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N106.jpeg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N106.jpeg"
   },
   {
     "id": "N111",
@@ -130,7 +130,7 @@
     "kind": "plànol amb capes",
     "reviewMethod": "full complet i detalls de notes",
     "reading": "Instituto Geográfico y Estadístico 1:25.000, full 141.1,430182; base 5/1/1913 i comprovació 8/1. Sobre elmateix suport hi ha superfície de 1921, posada aldia 18/3/1942 i límit de 1961 amb nota 30/11/1961. No usar tot elvermell com si fos 1913.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N111.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N111.jpg"
   },
   {
     "id": "N112",
@@ -197,6 +197,6 @@
     "kind": "article",
     "reviewMethod": "text complet44p i revisió de figures",
     "reading": "Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre baseICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N112.pdf"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
   }
 ]

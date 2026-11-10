@@ -6,7 +6,7 @@ Revisió: **31/10/2026** · pou. Expedient per a reconstrucció i col·locació 
 
 ## Col·locació
 
-A la baixada del Roquer cap a la platja, al costat de bateria; puntG al plànol de 1748. L’emplaçament actual és un trasllat posterior. Ajust del visor (31/10/2026): Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb la mateixa escala i rotació que el recinte. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.
+A la baixada del Roquer cap a la platja, al costat de bateria; puntG al plànol de 1748. L’emplaçament actual és un trasllat posterior. Ajust del visor (31/10/2026): Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb el registre de 09/11/2026 (0,119 m/px, 138,7°): cau sobre l’eix de l’actual carrer del Pou de les Figueretes, que li dona nom. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.
 
 Certesa: B relacional / C mètrica.
 
@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| well | G | 296407.975 | 4499200.712 | Model d’assaig |
+| well | G | 296426.192 | 4499204.768 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| casa-white | — | 296486.106 | 4499349.350 | Model d’assaig |
+| casa-white | — | 296492.246 | 4499344.107 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -51,9 +51,6 @@ Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expre
 - [N040 · Cóc i baixada de Sant Francesc](../fonts-20261031/originals/N040.jpg) · 1890. Peu diu Foto año 1890; atribució editorial pendent decontrast amb original.
 
 ## Aplicació al model i treball pendent
-
-**Ajust al croquis de referència · 01/11/2026:** Edifici de pedra 13 al costat oriental de la Fonda Nova. Estructura preservada; emplaçament relacional C segons N112 il·l.4. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
 
 - [ ] Crear estat independent per a White; no copiar una cronologia d’acabament de la duana veïna.
 

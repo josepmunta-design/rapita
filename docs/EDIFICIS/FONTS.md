@@ -1173,3 +1173,46 @@ Catàleg oficial identifica el mapa amb l’any 1585. Consulta 31/10/2026; no é
 [Obre la font](https://www.poblesdecatalunya.cat/element.php?e=18383)
 
 Consulta 01/11/2026. Identificacio, planta rectangular, base atalussada, matacans, espitlleres i merlets. Dimensions i estat de 1800 desconeguts.
+
+## FAR-S1 Autoritat Portuària de Tarragona · Cardenal (1875) i història del far
+
+[Obre la font](https://www.porttarragona.cat/es/notes-de-premsa-rss/item/1758-faro-sant-carles-de-la-rapita)
+
+Memòria de 19/1/1875: dimensions, acabats i primera llum; reformes de 1920, 1929, 1975 i 1995. La capçalera web diu setembre; el relat de Cardenal fixa novembre.
+
+## FAR-S2 RABASF · Far de Punta Senieta
+
+[Obre la font](https://www.faros-historicos-de-espana.com/faro/faro-de-sant-carles-de-la-rapita)
+
+Fitxa i fotografies dels acabats recents; no és un aixecament mètric contemporani. Divergència 1920/1929 en la datació de la llanterna.
+
+## FAR-S3 BOP de Cadis · avís nàutic de 20/9/1864, publicat l’1/10/1864
+
+[Obre la font](https://archivodigital.dipucadiz.es/boletin-oficial-de-la-provincia-de-cadiz/pdf_BOP/1864/1864_10_01.pdf)
+
+El paquet aportat transcriu l’avís de primera llum de l’1/11/1864. La data concorda amb el relat de Cardenal.
+
+## FAR-S5 Arxiu de Puertos del Estado / RABASF · plànol del far de la Ràpita
+
+[Obre la font](https://cms.faros-historicos-de-espana.com/assets/16d412c2-71a9-474e-8f00-c123da912b52)
+
+Làmina del paquet aportat: FARO DE LA RAPITA, provincia de Tarragona, 6º orden. Orientació geogràfica no establerta.
+
+## CAS-S1 Museu de la Mar de l’Ebre · història de l’edifici i la Companyia
+
+[Obre la font](https://museumarebre.com/museu/)
+
+Identifica les antigues oficines i tallers i els diferencia del magatzem amb semisoterrani; obres de 1852–1859, projecte de Jean Lenté, supervisió de Carvallo i execució de Canício Sala. Museu obert l’1/12/2013. Consulta 2/11/2026.
+
+## CAS-S2 Pobles de Catalunya · Oficines de la Companyia de Canalització de l’Ebre
+
+[Obre la font](https://www.poblesdecatalunya.cat/element.php?e=18378)
+
+Fotografies recents i fotografia antiga sense data; dues plantes, maó vist, teulada a quatre aigües i cases dels vigilants. Les imatges externes s’enllacen, sense incorporar-ne noves còpies a la galeria pública.
+
+## CAS-PACK Paquet aportat: casotes_rapita_modelos_y_fuentes
+
+[Obre la font](../../A:/Mapa%20R%C3%A0pita/Edificios%20Codigo/casotes_rapita_modelos_y_fuentes/cronologia-fuentes-y-medidas.md)
+
+Model cap al 1858 i actual, amb guardes opcionals. Planta de 33 × 15,3 m i carena a 8,65 m estimades. Onze arcades llargues i tres laterals; cases de guarda a 45 m i separació de 22 m per conveniència visual, sense georeferenciació.
+

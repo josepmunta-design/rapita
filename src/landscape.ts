@@ -33,6 +33,8 @@ export function makeLandscape(meta:Terrain,triangles:P[][],data:LittoralData,can
   const palette:Record<string,THREE.Color>={cave:new THREE.Color('#40301d'),sand:new THREE.Color('#caba91'),rock:new THREE.Color('#a19b83'),seabed:new THREE.Color('#799484'),bed:new THREE.Color('#9c9a70')};
   const active=canal?data:{...data,basins:[],canal:{...data.canal,routeStudy:[[0,0],[0,1]],branchStudy:[[0,0],[0,1]]}};
   const caveData=!data.harbourPhase?data.researchLandscape:null,caves=caveData?caveSites(caveData):[],caveExtent=caves.length?{first:Math.min(...caves.map((c:any)=>c.along-c.width*.65))-14,last:Math.max(...caves.map((c:any)=>c.along+c.width*.65))+14,depth:caveFrame(caveData).rockDepth+10}:null;
+  const worksPoints:number[][]=canal&&data.canalWorks?[...(data.canalWorks.darsenaPetita?.polygonUTM??[]),...(data.canalWorks.enclusa?.axisUTM??[])]:[];
+  const worksCenter=worksPoints.length?[worksPoints.reduce((v,p)=>v+p[0],0)/worksPoints.length,worksPoints.reduce((v,p)=>v+p[1],0)/worksPoints.length]:null,worksRadius=worksCenter?Math.max(...worksPoints.map(p=>Math.hypot(p[0]-worksCenter[0],p[1]-worksCenter[1])))+12:0;
   const mid=(a:P,b:P):P=>[(a[0]+b[0])/2,(a[1]+b[1])/2,(a[2]+b[2])/2];
   const emit=(a:P,b:P,c:P,depth=0)=>{
     const e=(a[0]+b[0]+c[0])/3,n=(a[1]+b[1]+c[1])/3,edge=Math.max(Math.hypot(a[0]-b[0],a[1]-b[1]),Math.hypot(a[0]-c[0],a[1]-c[1]),Math.hypot(c[0]-b[0],c[1]-b[1]));
@@ -41,7 +43,8 @@ export function makeLandscape(meta:Terrain,triangles:P[][],data:LittoralData,can
     const nearBasin=canal&&data.basins.some((s:any)=>Math.abs(e-s.center[0])<s.width/2+edge+6&&Math.abs(n-s.center[1])<s.length/2+edge+6);
     const nearRavine=urban&&canal&&Math.abs(n-4499520)<edge+150&&Math.abs(e-296400)<edge+350&&nearestRoute(e,n,urban.ravine.points).distance<edge+15;
     const cavePoint=caveExtent?caveCoordinates(e,n,caveData):null,nearCave=!!(cavePoint&&caveExtent&&cavePoint.along>caveExtent.first-edge&&cavePoint.along<caveExtent.last+edge&&cavePoint.depth> -12-edge&&cavePoint.depth<caveExtent.depth+edge);
-    if(interpret&&edge>(nearCave?.6:4)&&depth<16&&(nearShore||nearCanal||nearBasin||nearRavine||nearCave)){
+    const nearWorks=!!worksCenter&&Math.hypot(e-worksCenter[0],n-worksCenter[1])<worksRadius+edge;
+    if(interpret&&edge>(nearCave?.6:nearWorks?2:4)&&depth<16&&(nearShore||nearCanal||nearBasin||nearRavine||nearCave||nearWorks)){
       // Longest-edge bisection leaves short edges intact, so the native 2 m patches
       // and the 10/50 m context share identical subdivisions where a cut crosses them.
       const ab=Math.hypot(a[0]-b[0],a[1]-b[1]),bc=Math.hypot(b[0]-c[0],b[1]-c[1]),ca=Math.hypot(c[0]-a[0],c[1]-a[1]);

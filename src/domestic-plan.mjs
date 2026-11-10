@@ -8,9 +8,13 @@ export function envelope(s){
  return{fw,bw,fz,bz,widthAt,corners:[[-fw/2,fz],[fw/2,fz],[bw/2,bz],[-bw/2,bz]]};
 }
 export function porticoPlan(s){
- const e=envelope(s),depth=study.galleryDepth,back=e.fz-depth,rearWidth=e.widthAt(back),spring=study.springHeight,band=study.voussoirBand,pier=study.sharedHalfPierWidth,rx=(e.fw-2*pier)/2,rise=Math.min(study.maximumRise,rx*study.riseHalfSpanFactor),T=study.arcadeThickness;
- const piers=[-1,1].map(sign=>({x:sign*(e.fw/2-pier/2),z:e.fz-T/2,width:pier,baseWidth:.47,depth:T+.10}));
- return{...e,depth,back,rearWidth,spring,rise,band,rx,piers,T,top:spring+rise+band+.22,floor:3.25,
+ const e=envelope(s),depth=study.galleryDepth,back=e.fz-depth,rearWidth=e.widthAt(back),spring=study.springHeight,band=study.voussoirBand,pier=study.sharedHalfPierWidth,T=study.arcadeThickness;
+ const n=Math.max(1,Math.round(e.fw/study.arcPitch)),bay=e.fw/n,rx=(bay-2*pier)/2,rise=Math.min(study.maximumRise,rx*study.riseHalfSpanFactor);
+ const bays=Array.from({length:n},(_,i)=>({x:-e.fw/2+(i+.5)*bay}));
+ const piers=[-1,1].map(sign=>({x:sign*(e.fw/2-pier/2),z:e.fz-T/2,width:pier,baseWidth:pier+.08,depth:T+.10,shared:true}));
+ for(let i=1;i<n;i++)piers.push({x:-e.fw/2+i*bay,z:e.fz-T/2,width:2*pier,baseWidth:2*pier+.16,depth:T+.10,shared:false});
+ const top=spring+rise+band+.22;
+ return{...e,depth,back,rearWidth,spring,rise,band,rx,bays,piers,T,top,floor:top-.05,
   gallery:[[-e.fw/2,e.fz],[e.fw/2,e.fz],[rearWidth/2,back],[-rearWidth/2,back]],
   body:[[-rearWidth/2,back],[rearWidth/2,back],[e.bw/2,e.bz],[-e.bw/2,e.bz]]};
 }

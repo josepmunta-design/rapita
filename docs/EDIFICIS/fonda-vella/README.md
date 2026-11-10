@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| old-inn | — | 296491.319 | 4499253.785 | Model d’assaig |
+| old-inn | — | 296465.023 | 4499277.332 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -60,9 +60,6 @@ Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expre
 - [N044 · Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N044.jpg) · data original no fixada. Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
 
 ## Aplicació al model i treball pendent
-
-**Ajust al croquis de referència · 01/11/2026:** Recol·locada davant la boca del braç del canal i al nord dels Horts de les Monges, segons N112 il·l.4. Forma del model preservada; posició C. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
 
 - [ ] Construir primer el recinte segons les afrontacions; deixar null dimensions de cada habitació.
 - [ ] No copiar les façanes portuàries fotografiades al XX com a cases del 1782.

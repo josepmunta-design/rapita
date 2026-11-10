@@ -64,7 +64,9 @@ export function landscapeSample(e,n,original,data){
   const modern=harbourGround(e,n,original,data.harbourPhase);if(modern!==null)return {height:modern,zone:modern<0?'seabed':'land'};
   let height=original,zone='land',wetBed=Infinity,bank=null,canalWet=false,basinWet=false;
   if(n>=4497800&&n<=4501500){
-    const d=coastDistance(e,n,data),rock=n>4499060&&n<4499260;
+    // North of the dàrsena the 1794 coast is a beach (N112 il·l.4). From the Roquer southwards the coast is rocky
+    // (carta dels Alfacs de 1813; PR01; revisió 08/11/2026): low rock shelf down to the end of the modelled coast.
+    const d=coastDistance(e,n,data),rock=n<4499140;
     if(d<=0){height=Math.min(height,-.8-Math.min(8,-d*.015));zone='seabed';wetBed=height;}
     else if(d<24){const edge=rock?.6:.46;height=edge+(original-edge)*smooth(d/(rock?16:24));zone=rock?'rock':'sand';}
   }
@@ -76,6 +78,17 @@ export function landscapeSample(e,n,original,data){
       if(edge<=0){wetBed=Math.min(wetBed,bed);canalWet=true;}
       else if(!bank||edge<bank.distance){const crest=zone==='seabed'?water+.55:Math.max(original,water+.35),outside=zone==='seabed'?-1:original;bank={distance:edge,height:edge<4?bed+(crest-bed)*smooth(edge/4):crest+(outside-crest)*smooth((edge-4)/4)};}
     }
+  }
+  const works=data.canalWorks;
+  if(works){
+    const dock=works.darsenaPetita;
+    if(dock?.polygonUTM){const inside=inPolygon(e,n,dock.polygonUTM),d=inside?-1:nearestRoute(e,n,[...dock.polygonUTM,dock.polygonUTM[0]]).distance;
+      if(inside){const p=nearestRoute(e,n,data.canal.routeStudy);wetBed=Math.min(wetBed,canalWaterLevel(p.along,p.length,data.studyWaterElevation)-1.1);canalWet=true;}
+      else if(d<3&&zone!=='seabed')height=Math.min(height,data.studyWaterElevation+.55+d*.3);}
+    const lock=works.enclusa;
+    if(lock?.axisUTM){const q=nearestRoute(e,n,lock.axisUTM),half=lock.width/2+lock.wallThickness;
+      if(q.distance<half+3&&q.along>-3&&q.along<q.length+3&&zone!=='seabed'){const inner=q.distance<=half&&q.along>=0&&q.along<=q.length,edge=Math.max(q.distance-half,-q.along,q.along-q.length,0);
+        height=Math.min(height,inner?lock.floorElevation:lock.floorElevation+Math.max(0,original-lock.floorElevation)*smooth(edge/3));if(inner)zone='rock';}}
   }
   // Excavation is a union: a neighbouring canal bank must never refill an existing wet bed.
   if(bank&&zone==='seabed'&&!canalWet&&!basinWet&&bank.distance>0){height=bank.height;zone=height>data.studyWaterElevation?'sand':'seabed';}

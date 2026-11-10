@@ -3,5 +3,55 @@
   "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
-  "snapshots": []
+  "snapshots": [
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "pedrera-guardiola",
+        "name": "Pedrera de la Guardiola i caseta",
+        "kind": "quarry",
+        "fromYear": 1780,
+        "utmAnchor": [
+          295880,
+          4499662
+        ],
+        "width": 30,
+        "depth": 18,
+        "height": 2.6,
+        "alongAzimuthDegrees": -75,
+        "positionSource": {
+          "text": "Peu del front oriental de la Guardiola, on el MDT actual mostra un tall i una plataforma a uns 40 m. Aquest front pot incloure extraccions posteriors; el punt de la caseta és indicatiu.",
+          "precisionMeters": 80
+        },
+        "evidence": "N112 p.223–224: pedrera de la Guardiola i camí per transportar la pedra travessant la devesa (actual Constància) fins al Cóc i les rampes; caseta al peu de la pedrera esmentada entre obres no incloses a l’inventari. Fronts, caseta i aplecs de pedra són C.",
+        "flag": true,
+        "anchor": [
+          295880,
+          4499662
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 39.026414084434506,
+        "footprintUTM": [
+          [
+            295884.81104676006,
+            4499645.181741199
+          ],
+          [
+            295892.57561811316,
+            4499674.159515989
+          ],
+          [
+            295875.18895323994,
+            4499678.818258801
+          ],
+          [
+            295867.42438188684,
+            4499649.840484011
+          ]
+        ]
+      }
+    }
+  ]
 }

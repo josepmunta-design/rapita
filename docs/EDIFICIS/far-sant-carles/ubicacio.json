@@ -41,15 +41,17 @@
           4497971.325618082
         ]
       ],
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": null,
+      "planLetter": null,
+      "projectOnly": false,
       "positionSource": {
         "text": "Coordenades de la platja del Far (40°36′26,1″ N, 0°35′6,1″ E), Diputació de Tarragona: punta de la Senieta. Són les de la platja, no les de l’edifici: precisió d’unes desenes o centenars de metres. Volum C.",
         "url": "https://terresdelebre.travel/en/node/840",
         "precisionMeters": 150
       },
       "source": "public/data/urban-fabric.json",
-      "confidence": "C posició d’assaig"
+      "confidence": "C posició del prototip, no punt històric mesurat"
     }
   ],
-  "warning": "Façana +Z convencional al paquet; es conserva el gir d’assaig del mapa, sense rumb històric acreditat."
+  "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
 }

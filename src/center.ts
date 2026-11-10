@@ -11,12 +11,13 @@ import {groundQuad,surfaceMaterial} from './vernacular.ts';
 import {crearEdificioDuana1890,DUANA_1890} from './duana-1890.ts';
 import {crearFuenteRapita,FUENTE_RAPITA} from './fuente-rapita.ts';
 import {makeCasaLaureano} from './casa-laureano.ts';
+import {makeEncoixinat} from './encoixinat.ts';
 
 type Hole={x:number;width:number;height:number;bottom:number};
 export type CenterSite={id:string;name:string;kind:string;across:number;along:number;width:number;depth:number;wallHeight:number;roofRise:number;clock?:boolean;
   anchor:{easting:number;northing:number};frontAzimuthDegrees:number;state1794:string;evidence:string;limits:string;inventoryRelation?:string;replacesHousingIds?:string[];
   terrain:{minimum:number;maximum:number;technicalBaseElevation:number};geometryConfidence:string;planBodies?:number[][][];planOutline?:number[][];layoutAlias?:string};
-export type CenterData={sites:CenterSite[];source:{title:string;url:string};townFrame:Housing['townFrame'];publicSpace:{plaza:{halfWidth:number;north:number;south:number;exedraRadius:number;passage?:{halfWidth:number;south:number}};crossAxis:{west:number;east:number;halfWidth:number};trees:{count:number;across:number[];south:number;north:number}}};
+export type CenterData={sites:CenterSite[];source:{title:string;url:string};townFrame:Housing['townFrame'];publicSpace:{plaza:{halfWidth:number;north:number;south:number;exedraRadius:number;axis?:number;exedraAcross?:number;passage?:{halfWidth:number;south:number;across?:number}};crossAxis:{west:number;east:number;halfWidth:number};trees:{count:number;across:number[];south:number;north:number}}};
 
 function bossageTexture(){
   const canvas=document.createElement('canvas');canvas.width=128;canvas.height=128;const c=canvas.getContext('2d')!;
@@ -107,7 +108,7 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
     };
     const compound=s.kind==='inn'||s.kind==='private-courtyard';
     let variants:{unfinished:Batches;complete:Batches}|null=null;
-    let duanaPlacement:{x:number;y:number;z:number}|null=null;
+    let duanaPlacement:{x:number;y:number;z:number}|null=null;let encoixinat:THREE.Group|null=null;
     const fountainZ=-.4;
     if(!compound&&s.kind!=='covered-market'&&s.id!=='duana-nova')support(0,0,s.width,s.depth);
     const w=s.width,d=s.depth,H=s.wallHeight;
@@ -144,9 +145,7 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
     }else if(s.kind==='warehouse'){
       // Duana nova i magatzems de White. Detall llegit a N040 i N101 (vista de 1890): carreus encoixinats amb cantoneres, portes d'arc amb dovelles,
       // finestres amb emmarcament de pedra i cornisa. L'inventari de 1794 només acredita murs a tota alçària, sense coberta, revoltons ni envans.
-      const bays=5,Tw=.55,bx=(i:number)=>-w/2+(i+.5)*w/bays,doorW=(i:number)=>i===2?2.8:2.1;
-      const ground=Array.from({length:bays},(_,i)=>({x:bx(i),width:doorW(i),height:3.9,bottom:0}));
-      const upper=Array.from({length:bays},(_,i)=>({x:bx(i),width:1.1,height:1.65,bottom:4.8}));
+      // Model detallat a encoixinat.ts (planta baixa encoixinada, imposta, pis de maçoneria, coronament inacabat).
       // La duana té dos estats: l'obra inacabada de 1794 (aquesta planta d'estudi de 26 × 20 m) i, des de 1890, l'edifici de la fotografia.
       variants={unfinished:new Map(),complete:new Map()};
       batches=s.id==='duana-nova'?variants.unfinished:mainBatches;
@@ -158,17 +157,7 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
         duanaPlacement.y=support(duanaPlacement.x,duanaPlacement.z,DUANA_1890.D,DUANA_1890.W,true,false);
         batches=variants.unfinished;
       }
-      shell(0,0,w,d,H,[...ground,...upper],materials.rustic,0,openings(w,4,2.4,0));
-      for(let i=0;i<bays;i++){
-        arch(bx(i),d/2,doorW(i),2.8,1.1,3.9,Tw);
-        for(const sign of[-1,1]){box(bx(i)+sign*(doorW(i)/2+.12),1.4,d/2+.05,.24,2.8,.14);}
-        box(bx(i),4.8+1.65+.13,d/2+.06,1.8,.26,.2);box(bx(i),4.73,d/2+.07,1.65,.14,.26);
-        for(const sign of[-1,1])box(bx(i)+sign*.64,4.8+.83,d/2+.04,.18,1.65,.14);
-      }
-      for(const sx of[-1,1])for(let k=0;k*.9<H-.2;k++){const wide=k%2===0;box(sx*(w/2-.02),.45+k*.9,d/2-Tw/2,wide?.9:.55,.82,Tw+.12);}
-      box(0,4.4,d/2+.04,w+.1,.22,.22);box(0,H-.05,d/2+.08,w+.5,.3,.42);box(0,H-.05,-d/2-.08,w+.5,.3,.42);
-      // Remat inacabat: peces de pedra aïllades al coronament dels murs, sense coberta ni sostre.
-      for(let x=-w/2+1.3;x<w/2;x+=2.6)for(const z of[d/2-Tw/2,-d/2+Tw/2])box(x,H+.45,z,.9,.9,Tw,materials.rustic);
+      encoixinat=makeEncoixinat({width:w,depth:d,height:H,variant:s.id==='duana-nova'?'duana':'white'});
       batches=mainBatches;
       // El 1794 no hi ha coberta, revoltons ni envans alts: l'estat inacabat és el testimoni documentat.
     }else if(s.kind==='unfinished-block'){
@@ -227,7 +216,8 @@ export function makeCenter(data:CenterData,meta:Terrain,heights:Float32Array,val
       const{group:fountain,restos}=crearFuenteRapita();fountain.position.set(0,0,fountainZ);restos.position.set(0,0,fountainZ);restos.visible=false;group.add(fountain,restos);
       group.userData.stages={unfinished:new THREE.Group(),complete:restos};
     }
-    if(variants){const unfinished=new THREE.Group(),complete=new THREE.Group();unfinished.name=s.kind==='church'?'Campanar inacabat · 1794':'Obra inacabada · 1794';complete.name=s.kind==='church'?'Campanar amb cos de campanes · foto de 1935':'Estat posterior · vista de 1890';flush(variants.unfinished,unfinished);flush(variants.complete,complete);group.add(unfinished,complete);group.userData.stages={unfinished,complete};if(s.id==='duana-nova'){// El portal mira al Montsià (≈290°, oest-nord-oest): l'eix local +X de la duana apunta a 289°. L'edifici queda enrasat amb aquest costat de la planta.
+    if(encoixinat&&s.id!=='duana-nova')group.add(encoixinat);
+    if(variants){const unfinished=new THREE.Group(),complete=new THREE.Group();if(encoixinat&&s.id==='duana-nova')unfinished.add(encoixinat);unfinished.name=s.kind==='church'?'Campanar inacabat · 1794':'Obra inacabada · 1794';complete.name=s.kind==='church'?'Campanar amb cos de campanes · foto de 1935':'Estat posterior · vista de 1890';flush(variants.unfinished,unfinished);flush(variants.complete,complete);group.add(unfinished,complete);group.userData.stages={unfinished,complete};if(s.id==='duana-nova'){// El portal mira al Montsià (≈290°, oest-nord-oest): l'eix local +X de la duana apunta a 289°. L'edifici queda enrasat amb aquest costat de la planta.
     const photo=crearEdificioDuana1890();photo.rotation.y=Math.PI/2;photo.position.set(duanaPlacement!.x,duanaPlacement!.y,duanaPlacement!.z);complete.add(photo);}if(s.kind==='church')group.userData.campanar=group.userData.stages;}
   }
   const additions=new THREE.Group();additions.name='Mançana · pou d’assaig';

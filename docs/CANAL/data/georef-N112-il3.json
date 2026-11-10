@@ -1,0 +1,64 @@
+{
+ "method": "Ajust escala+translació (sense rotació; ambdues bases ICGC orientades al nord) amb 4 rètols toponímics comuns",
+ "metersPerPixel": 5.752740579350377,
+ "origin": [
+  295695.88763233373,
+  4500725.286948517
+ ],
+ "residualsMeters": {
+  "Horta Vella": 17.9,
+  "el Saliner": 32.6,
+  "la Devesa": 19.6,
+  "la Rabosa": 50.6
+ },
+ "zones": {
+  "A": {
+   "centerUTM": [
+    296232,
+    4499337
+   ],
+   "bboxUTM": [
+    296035,
+    4499129,
+    296429,
+    4499546
+   ]
+  },
+  "B": {
+   "centerUTM": [
+    295955,
+    4498899
+   ],
+   "bboxUTM": [
+    295753,
+    4498769,
+    296156,
+    4499028
+   ]
+  },
+  "C": {
+   "centerUTM": [
+    296717,
+    4499510
+   ],
+   "bboxUTM": [
+    296611,
+    4499402,
+    296823,
+    4499618
+   ]
+  },
+  "D_sud": {
+   "centerUTM": [
+    298788,
+    4499661
+   ],
+   "bboxUTM": [
+    298687,
+    4499546,
+    298889,
+    4499776
+   ]
+  }
+ }
+}

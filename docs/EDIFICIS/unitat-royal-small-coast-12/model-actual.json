@@ -1,6 +1,6 @@
 {
   "entityId": "unitat-royal-small-coast-12",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -11,12 +11,12 @@
         "group": "royal-small-coast",
         "kind": "small",
         "anchor": {
-          "easting": 296452.2919733858,
-          "northing": 4499317.145783314
+          "easting": 296491.315,
+          "northing": 4499308.997
         },
-        "across": 75.0000000000235,
-        "along": -24.50000000000378,
-        "frontAzimuthDegrees": 109,
+        "across": 114.54998088419292,
+        "along": -19.500171234960312,
+        "frontAzimuthDegrees": 19,
         "width": 4.4,
         "depth": 7,
         "wallHeight": 3.2,
@@ -33,26 +33,26 @@
         "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
         "footprintUTM": [
           [
-            296454.88503846055,
-            4499313.926153907
+            296494.53462940693,
+            4499311.590065075
           ],
           [
-            296456.31753834017,
-            4499318.086435639
+            296490.37434767425,
+            4499313.022564955
           ],
           [
-            296449.698908311,
-            4499320.3654127205
+            296488.0953705931,
+            4499306.403934926
           ],
           [
-            296448.2664084314,
-            4499316.205130988
+            296492.25565232575,
+            4499304.971435046
           ]
         ],
         "terrain": {
-          "minimum": 6.340998037597829,
-          "maximum": 6.726899703007976,
-          "technicalBaseElevation": 6.806899703007976,
+          "minimum": 3.5724824273023232,
+          "maximum": 4.360635649701148,
+          "technicalBaseElevation": 4.440635649701148,
           "historicalElevation": null
         }
       }

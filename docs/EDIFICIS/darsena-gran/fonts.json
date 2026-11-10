@@ -14,7 +14,7 @@
     "kind": "plànol imprès",
     "reviewMethod": "inspecció visual",
     "reading": "P.761; títol Plan y carrers de Sant Carles de la Ràpita, revisat per l’Ajuntament, facilitat per Romà Massot i Pamies. El nom de fitxer proposa 1908, però la pàgina no mostra data editorial. 67 referències de carrers/llocs. Costa i nucli útils per a comparació posterior, no parcel·lari de 1800.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N001.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N001.jpg"
   },
   {
     "id": "N003",
@@ -34,7 +34,7 @@
     "kind": "projecte urbà",
     "reviewMethod": "inspecció visual",
     "reading": "Data de signatura 30/1/1852 i conformitat 31/1/1852 llegides a la part inferior. Fosc: edificis existents; rosa: nova delineació; groc: edificis a demolir quan convingui. Església, magatzems, duana, quarter, mercat, administració i canal amb parts projectades. No és ciutat acabada de 1800. La correspondència ambACA MPD223 ve de la tesi anterior, no del nom 31757111.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N003.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N003.jpg"
   },
   {
     "id": "N043",
@@ -53,7 +53,7 @@
     "kind": "fotografia reproduïda",
     "reviewMethod": "contacte visual i lectura delpeu",
     "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N043.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N043.jpg"
   },
   {
     "id": "N046",
@@ -72,7 +72,7 @@
     "kind": "fotografia reproduïda",
     "reviewMethod": "contacte visual i lectura delpeu",
     "reading": "Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N046.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N046.jpg"
   },
   {
     "id": "N072",
@@ -89,7 +89,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Data 1921 alnom de fitxer; conserva numeració de placa, pendent fitxa de Biblioteca de Catalunya.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N072.png"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N072.png"
   },
   {
     "id": "N095",
@@ -106,7 +106,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Possible costa abans d’ampliacions portuàries; identificació i data no verificades.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N095.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N095.jpg"
   },
   {
     "id": "N096",
@@ -123,7 +123,7 @@
     "kind": "fotografia",
     "reviewMethod": "inspecció visual",
     "reading": "Embarcacions, esplanades i molls; fases portuàries tardanes, datació pendent.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N096.jpg"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N096.jpg"
   },
   {
     "id": "N112",
@@ -190,6 +190,6 @@
     "kind": "article",
     "reviewMethod": "text complet44p i revisió de figures",
     "reading": "Article complet 44 pàgines,191–234; text llegit íntegrament amb revisió visual de figures i annex 230–234. Distingir comentari 2024 deldocument 20/5/1794. Croquis il·l.3–4 és interpretació sobre baseICGC2023, no plànol original. Inclou discrepàncies internes esquerra/dreta i resum 10/14 porxos.",
-    "archivedPath": "A:\\Mapa Ràpita\\docs\\EDIFICIS\\fonts-20261031\\originals\\N112.pdf"
+    "archivedPath": "/sessions/rcw-01fvilhoazci8p1kkscvrhzi/mnt/Mapa Ràpita/docs/EDIFICIS/fonts-20261031/originals/N112.pdf"
   }
 ]

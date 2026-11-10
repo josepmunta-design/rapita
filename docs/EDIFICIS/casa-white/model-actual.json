@@ -1,6 +1,6 @@
 {
   "entityId": "casa-white",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,8 +10,8 @@
         "id": "casa-white",
         "name": "Magatzems de Josep White",
         "kind": "warehouse",
-        "across": 96.48669071421283,
-        "along": 16.95863709730206,
+        "across": 104,
+        "along": 14,
         "front": "south",
         "width": 26,
         "depth": 20,
@@ -28,9 +28,11 @@
           "height": null
         },
         "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "placementRevision20261108": "Es manté el núm. 13 del croquis N112 il·l.4, a l’extrem de llevant del Cóc, al cap de la baixada de Sant Francesc. «Enfront» de la duana a l’altra banda de l’esplanada; la simetria exacta no es pot resoldre sense les afrontacions de White.",
+        "actualMap20261108": "«El de l’esquerra» baixant per Sant Francesc, enfront de la duana i amb la mateixa superfície (520 m², «idèntic»); el límit de llevant respecta el carrer del Rampar: illa actual al nord del carrer de Sant Francesc, que s’allarga cap a l’actual plaça de Francesc Moragas.",
         "anchor": {
-          "easting": 296486.1056505503,
-          "northing": 4499349.350312567
+          "easting": 296492.24638602475,
+          "northing": 4499344.106771995
         },
         "frontAzimuthDegrees": 199,
         "geometryConfidence": "C",
@@ -39,26 +41,26 @@
         "historicalBaseElevation": null,
         "footprintUTM": [
           [
-            296470.5582275229,
-            4499344.127512819
+            296476.69896299735,
+            4499338.883972247
           ],
           [
-            296495.1417104885,
-            4499335.662740803
+            296501.28244596295,
+            4499330.419200231
           ],
           [
-            296501.6530735777,
-            4499354.5731123155
+            296507.79380905215,
+            4499349.3295717435
           ],
           [
-            296477.0695906121,
-            4499363.037884331
+            296483.21032608656,
+            4499357.794343759
           ]
         ],
         "terrain": {
-          "minimum": 5.136652071705174,
-          "maximum": 6.353724380370073,
-          "technicalBaseElevation": 6.433724380370073
+          "minimum": 4.345441426861578,
+          "maximum": 6.286027651562779,
+          "technicalBaseElevation": 6.366027651562779
         }
       }
     }

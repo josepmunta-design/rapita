@@ -12,6 +12,41 @@
       }
     ]
   },
-  "studyPositions": [],
+  "studyPositions": [
+    {
+      "modelId": "casa-bous",
+      "anchor": [
+        297160,
+        4500330
+      ],
+      "footprintUTM": [
+        [
+          297153.4399728157,
+          4500327.348859992
+        ],
+        [
+          297165.25766585185,
+          4500325.26508186
+        ],
+        [
+          297166.5600271843,
+          4500332.651140008
+        ],
+        [
+          297154.74233414815,
+          4500334.73491814
+        ]
+      ],
+      "alongAzimuthDegrees": 10,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Topònim «Horta Vella» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL), entre la població i el camí del Pas, a l’est del canal. Posició indicativa de partida: no s’han recuperat les afrontacions del procés de 1796.",
+        "precisionMeters": 300
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
   "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
 }

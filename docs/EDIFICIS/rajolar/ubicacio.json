@@ -12,6 +12,41 @@
       }
     ]
   },
-  "studyPositions": [],
+  "studyPositions": [
+    {
+      "modelId": "rajolar-rabosa",
+      "anchor": [
+        297700,
+        4500300
+      ],
+      "footprintUTM": [
+        [
+          297686.2650672401,
+          4500292.167272372
+        ],
+        [
+          297712.1661293905,
+          4500289.901223062
+        ],
+        [
+          297713.7349327599,
+          4500307.832727628
+        ],
+        [
+          297687.8338706095,
+          4500310.098776938
+        ]
+      ],
+      "alongAzimuthDegrees": 5,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Partida de «la Rabosa» del mapa topogràfic ICGC i de N112 il·l.3 (georeferenciada a docs/CANAL). Punt indicatiu dins la partida, sobre terra baixa d’argila; no és un solar documentat.",
+        "precisionMeters": 350
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
   "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
 }

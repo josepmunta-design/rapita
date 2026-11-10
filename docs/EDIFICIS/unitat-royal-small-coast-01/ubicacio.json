@@ -1,7 +1,7 @@
 {
   "entityId": "unitat-royal-small-coast-01",
   "historicalEvidence": {
-    "description": "Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari.",
+    "description": "Diversos punts de la part de mar, sobretot Fonda Vella i voltants; no son catorze parcelles identificades. Revisio del visor 01/11/2026: tres agrupacions curtes de 4, 4 i 6 cossos, a uns 8-11 m del marge litoral destudi, seguint la relacio costa/cases de la carta de 1813. Coordinades individuals C, sense considerar el dibuix un aixecament parcelari. Ajust del visor (31/10/2026): Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
     "historicalCoordinates": null,
     "georeferencedHistoricalFootprint": null,
     "confidence": "B relacional / C mètrica",
@@ -16,25 +16,25 @@
     {
       "modelId": "royal-small-coast-01",
       "anchor": {
-        "easting": 296483.7697247865,
-        "northing": 4499277.5570266675
+        "easting": 296487.288,
+        "northing": 4499281.638
       },
       "footprintUTM": [
         [
-          296486.3627898613,
-          4499274.337397261
+          296489.88106507476,
+          4499278.418370593
         ],
         [
-          296487.7952897409,
-          4499278.497678993
+          296491.3135649544,
+          4499282.578652326
         ],
         [
-          296481.17665971175,
-          4499280.776656074
+          296484.69493492524,
+          4499284.857629407
         ],
         [
-          296479.74415983213,
-          4499276.616374342
+          296483.2624350456,
+          4499280.6973476745
         ]
       ],
       "alongAzimuthDegrees": null,

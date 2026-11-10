@@ -14,6 +14,14 @@ Certesa: B relacional / C mètrica.
 
 **Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
 
+### Posicions actuals del visor · EPSG:25831
+
+| Model | Lletra | E (m) | N (m) | Estat |
+|---|---|---:|---:|---|
+| mur-rampa-figueretes | — | 296442.461 | 4499196.404 | Model d’assaig |
+
+Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
+
 ## Descripció documentada
 
 - Camí preexistent millorat; el 1794 té rebliment començat i un gran paredó de sosteniment en tota la longitud. La part més alta presenta uns sis metres de desnivell segons interpretació de l’article. [N112](../fonts-20261031/originals/N112.pdf) · art.23 p.233 i p.221
@@ -60,7 +68,7 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 
 ### Correspondència amb el prototip
 
-`rampa-roquer`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
+`rampa-roquer`, `mur-rampa-figueretes`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 

@@ -12,37 +12,47 @@
         "kind": "shed",
         "fromYear": 1786,
         "utmAnchor": [
-          296360.6,
-          4499211.3
+          296380.971,
+          4499268.199
         ],
         "width": 22,
         "depth": 10,
         "height": 4.2,
-        "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. La posició entre la capella del convent i les cases rodones és una hipòtesi insegura. Posició d'assaig reajustada per no coincidir amb el recinte existent del plànol de 1748, que és l'únic punt documentat de la zona.",
-        "anchor": [
+        "evidence": "N112 p.215 i 226: primera part amb tres naus i 12 pilastres, oberta per un costat amb 5 arcs; segona part amb dues naus i 9 pilastres. Sostre de materials reutilitzats, malmès per una tempesta i desmuntat sense data fixada: es mostra amb la coberta parcial. Revisió 08/11/2026: es pren la hipòtesi de N112 p.215 n.79 (entre Casa Laureano i les cases rodones); l’anterior posició darrere del semicercle es conserva a previousUtmAnchor.",
+        "previousUtmAnchor": [
           296360.6,
           4499211.3
+        ],
+        "alongAzimuthDegrees": 109,
+        "positionSource": {
+          "text": "Hipòtesi de N112 p.215 nota 79: una part del cobert entre l’actual Casa Laureano i les cases rodones, amb arcs que després formarien part dels porxos de la plaça. Façana de cinc arcs a la línia oriental de la plaça (+23 m), simètrica a les quatre cases porxades de ponent; entre la plaça coberta i la font oriental. Posició C.",
+          "precisionMeters": 20
+        },
+        "actualMap20261108": "Entre la plaça coberta i la font de llevant, amb la façana a la línia actual (18,5 m).",
+        "anchor": [
+          296380.971,
+          4499268.199
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.69930665936503,
+        "technicalBaseElevation": 9.629647058336715,
         "footprintUTM": [
           [
-            296348.5714548961,
-            4499210.153656821
+            296379.8246568211,
+            4499280.227545104
           ],
           [
-            296369.3728635593,
-            4499202.991157423
+            296372.662157423,
+            4499259.426136441
           ],
           [
-            296372.6285451038,
-            4499212.446343179
+            296382.11734317895,
+            4499256.170454896
           ],
           [
-            296351.82713644067,
-            4499219.608842577
+            296389.27984257706,
+            4499276.971863559
           ]
         ]
       }

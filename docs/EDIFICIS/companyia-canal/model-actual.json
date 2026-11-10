@@ -1,8 +1,8 @@
 {
   "entityId": "companyia-canal",
-  "captureDate": "2026-11-02",
-  "confidence": "C: dimensions i detalls estimats, sense plànol acotat",
-  "warning": "Mides estimades, no plànol acotat; posició marcada per Josep i gir d’assaig conservats. Cases de guarda opcionals amb posicions hipotètiques.",
+  "captureDate": "2026-10-31",
+  "confidence": "C excepte observacions expressament identificades a les dades originals",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
     {
       "file": "public/data/urban-fabric.json",

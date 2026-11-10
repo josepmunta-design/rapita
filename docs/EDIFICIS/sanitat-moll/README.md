@@ -1,12 +1,10 @@
 # Oficina de sanitat del moll
 
-Revisió: **08/11/2026** · administració. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **31/10/2026** · administració. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
 ## Col·locació
-
-Revisió litoral · 08/11/2026: N112 art.18 p.232 situa l’oficina de Sanitat al cap de la dàrsena. Es conserva el sector d’assaig i s’ajusta 0,21 m a l’eix del moll, amb el mateix angle que el dic. Tota la planta recolza al moll de 4,2 m; no s’amplia la terra ni el moll. Posició i dimensions C.
 
 A la capçalera de la dàrsena, protegida pel canó de la bateria, segons l’article 18 de 1794. Emplaçament exacte sense aixecament.
 

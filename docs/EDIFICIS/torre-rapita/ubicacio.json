@@ -20,34 +20,34 @@
     {
       "modelId": "tower",
       "anchor": [
-        296388.9867085829,
-        4499194.271625824
+        296402.613330366,
+        4499206.241574595
       ],
       "footprintUTM": [
         [
-          296391.08972781326,
-          4499188.900841769
+          296402.50334318524,
+          4499199.446689455
         ],
         [
-          296384.02292197925,
-          4499191.334138156
+          296395.8888271666,
+          4499205.259934146
         ],
         [
-          296386.8836893525,
-          4499199.64240988
+          296402.72331754665,
+          4499213.036459736
         ],
         [
-          296393.9504951865,
-          4499197.209113493
+          296409.3378335653,
+          4499207.2232150445
         ]
       ],
-      "alongAzimuthDegrees": 19,
+      "alongAzimuthDegrees": 41.31100000000001,
       "planLetter": "A",
       "projectOnly": false,
       "positionSource": {
-        "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+        "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
         "url": null,
-        "precisionMeters": 15
+        "precisionMeters": 3
       },
       "source": "public/data/littoral.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
@@ -55,25 +55,25 @@
     {
       "modelId": "project-1748-tower",
       "anchor": [
-        296390.73539396224,
-        4499193.455865784
+        296404.154537325,
+        4499204.570214039
       ],
       "footprintUTM": [
         [
-          296391.15549258044,
-          4499189.0918365205
+          296402.6604579066,
+          4499199.625460158
         ],
         [
-          296387.7175870396,
-          4499190.27560233
+          296399.44258524885,
+          4499202.453525143
         ],
         [
-          296390.315295344,
-          4499197.819895046
+          296405.64861674345,
+          4499209.514967919
         ],
         [
-          296393.75320088485,
-          4499196.636129236
+          296408.8664894012,
+          4499206.686902935
         ]
       ],
       "alongAzimuthDegrees": null,

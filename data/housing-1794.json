@@ -66,199 +66,240 @@
   "layout": {
     "finishedRows": [
       {
-        "across": -28.5,
-        "startAlong": 28,
+        "across": -34,
+        "startAlong": 12,
         "spacing": 5,
         "count": 11,
-        "front": "east"
+        "front": "east",
+        "block": "W-N",
+        "source": "N112 il·l.4: illa 1-3 occidental nord (along 8–74 al croquis).",
+        "actualMap20261108": "Façana a la línia actual del costat oest (−28,5 m), des de la cantonada del carrer de la Constància."
       },
       {
-        "across": 28.5,
-        "startAlong": 24,
+        "across": 24,
+        "startAlong": -18.628,
+        "spacing": -4.656,
+        "count": 9,
+        "front": "west",
+        "depth": 8,
+        "block": "E-mid",
+        "source": "N112 il·l.4: illa 1-3 oriental central, davant de l’illa occidental sud (along −29 a −74). Fondària de 8 m per deixar el carreró de la duana (subhasta de 1868: «al oeste con callejón»).",
+        "width": 4.656,
+        "actualMap20261108": "Les nou cases omplen l’illa actual entre el Cóc i el carrer de l’Arsenal (41,9 m): front de 4,66 m, dins del «frente aproximado 5 m» de H02."
+      },
+      {
+        "across": 28,
+        "startAlong": 30,
         "spacing": 5,
-        "count": 11,
-        "front": "west"
+        "count": 2,
+        "front": "west",
+        "block": "E-N",
+        "source": "Dues unitats reservades: cos de la Fonda Nova a la Rambla (cases 5 i 6, N112 p.210)."
       }
     ],
     "coveredRow": {
-      "across": -28.5,
-      "startAlong": -10,
-      "spacing": -5,
+      "across": -36.5,
+      "startAlong": -54.2,
+      "spacing": 5,
       "count": 7,
-      "front": "east"
+      "front": "east",
+      "block": "W-S",
+      "source": "N112 il·l.4: illa 1-3 occidental sud, fins a l’església.",
+      "actualMap20261108": "Set cases des del carrer del Rosari (cantonada de l’església) cap al nord; els 14 m de la cantonada de la Constància queden sense casa reial (propietats privades no individualitzades)."
     },
     "exedra": {
-      "across": -2,
-      "along": -118,
-      "innerRadius": 23,
+      "across": -6.9,
+      "along": -108.8,
+      "innerRadius": 25.4,
       "depth": 10,
       "count": 10,
       "confidence": "C",
       "source": "H02 propone relacionar diez casas rodones con la cabecera semicircular; colocación y radio de ensayo, no planta histórica validada.",
-      "gap": 8,
+      "gap": 10.3,
       "gapSource": "N030, N031 i N102 mostren que la cabecera semicircular no es tanca: s'hi obre un pas de carrer al mig. H02 (p.210, nota 60) reparteix els deu arcs en cinc a cada costat. L'amplada del pas és C.",
-      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C."
+      "roquerAdjustment": "Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+      "actualMap20261108": "Centre, radi i pas del carrer de la Pau ajustats al semicercle actual de la plaça (14 punts de façana, residu < 0,55 m). Substitueix el reajust relacional anterior (−2, −118; R 23 m; pas 8 m)."
     },
     "porticoRow": {
-      "across": -28.5,
-      "startAlong": -107,
-      "spacing": 6,
+      "across": -37.8,
+      "startAlong": -105,
+      "spacing": 6.5,
       "count": 4,
       "front": "east",
-      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido."
+      "source": "H02 considera probable situarlas al oeste de la plaza; reparto exacto desconocido.",
+      "arrangement": "Quatre cases porxades seguides, de la mateixa amplada que les rodones (dos arcs cadascuna), tocant la font occidental i l’església (N112 p.210; foto N083: porxos a l’esquerra del temple).",
+      "width": 6.5,
+      "actualMap20261108": "Les quatre porxades omplen l’illa actual entre el carrer de l’Aurora i el semicercle (26 m = 4 × 6,5 m)."
     },
     "manzana": {
-      "across": -60,
-      "along": 105,
-      "acrossLength": 80,
-      "alongLength": 40,
+      "across": -63.5,
+      "along": 105.5,
+      "acrossLength": 73,
+      "alongLength": 42,
       "wingDepth": 7,
       "countedUnits": 24,
-      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C."
+      "source": "H02, p. 213: edificio de aproximadamente 80 × 40 m con patio, entre las actuales calles Sant Antoni, Sant Tomàs, Sant Joaquim y plaza. Colocación y distribución de alas C.",
+      "actualMap20261108": "Illa actual entre els carrers de Sant Antoni, Sant Tomàs, Sant Joaquim i la plaça (73 × 42 m; H02: «aproximadament 80 × 40»)."
     },
     "smallCoastAdjustment": "Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
     "coastalHouses": [
       {
         "anchor": [
-          296483.7697247865,
-          4499277.5570266675
+          296487.288,
+          4499281.638
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296482.81980135146,
-          4499272.412821629
+          296486.339,
+          4499276.486
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296481.8698779164,
-          4499267.268616592
+          296485.384,
+          4499271.347
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296480.91995448136,
-          4499262.124411554
+          296484.439,
+          4499266.205
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 1,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa del carrer de l’Om, +5 m cap al nord perquè la quarta casa no ocupi el carrer."
       },
       {
         "anchor": [
-          296464.7677199083,
-          4499260.269143311
+          296455.521,
+          4499258.182
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296462.9579274554,
-          4499255.139947344
+          296453.75,
+          4499253.038
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296461.1481350026,
-          4499250.010751376
+          296451.979,
+          4499247.895
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296459.3383425497,
-          4499244.881555407
+          296450.208,
+          4499242.751
         ],
         "frontAzimuthDegrees": 109,
         "cluster": 2,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Illa al sud del carrer de l’Arsenal (abans damunt del carrer)."
       },
       {
         "anchor": [
-          296457.66384793434,
-          4499332.746839811
+          296478.692,
+          4499313.343
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296455.8732230848,
-          4499327.546487645
+          296482.9,
+          4499311.895
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296454.0825982353,
-          4499322.346135479
+          296487.108,
+          4499310.446
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296452.2919733858,
-          4499317.145783314
+          296491.315,
+          4499308.997
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296450.5013485362,
-          4499311.945431148
+          296495.523,
+          4499307.548
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       },
       {
         "anchor": [
-          296448.71072368673,
-          4499306.745078982
+          296499.73,
+          4499306.1
         ],
-        "frontAzimuthDegrees": 109,
+        "frontAzimuthDegrees": 19,
         "cluster": 3,
         "shoreSetbackMeters": null,
-        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026"
+        "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+        "actualMap20261108": "Baixada de Sant Francesc, costat sud."
       }
-    ]
+    ],
+    "plazaRevision20261108": "Files reordenades segons les illes 1-3 de N112 il·l.4: W-N 11 acabades, E-central 9 acabades, W-S 7 cobertes; dues acabades reservades dins la Fonda Nova. Totals de 1794 conservats (22/7/14). Posicions individuals C.",
+    "churchStreet20261108": "Carrer de 7 m a la dreta de l’església mirant-la de cara (costat nord), com a les fotografies N076 i N112 il·l.6; les porxades toquen el temple pel costat sud (N083)."
   },
   "typologies": {
     "large": {
@@ -334,5 +375,11 @@
       "local": "PORT/planol 1813 port alfacs.jpg; PORT/T0025916.jpg",
       "use": "Agrupacions de petits cossos a tocar del front litoral i relacio amb el promontori. Els simbols no permeten identificar ni comptar les 14 parcelles de 1794. No sutilitzen com a aixecament metric."
     }
-  ]
+  ],
+  "actualMapRevision": {
+    "date": "2026-11-08",
+    "source": "ICGC, mapa topogràfic 1:1.000 (docs/sources/nucleo-topografico.jpg) i ortofoto 2024",
+    "method": "Línies de façana mesurades sobre el ràster girat al marc de la població",
+    "doc": "docs/1800-1900/ENCAIX-ICGC-20261108.md"
+  }
 }

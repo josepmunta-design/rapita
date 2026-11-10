@@ -11,10 +11,11 @@ test('every occupied footprint, including each of the twelve huts, has land or a
  const camp=urban.sites.find(s=>s.id==='barraques-obrers');assert.equal(workerHutsPlan(camp).length,12);assert.equal(workerHutFootprints(camp,urban.frame).length,12);
  for(const poly of workerHutFootprints(camp,urban.frame))for(const p of footprintSamples(poly,.5)){assert.ok(coastalSupport(...p,littoral));assert.ok(nearestRoute(...p,littoral.canal.routeStudy).distance>littoral.canal.studyWidth/2+2.9);}
 });
-test('the rejected workshop and mill positions really fail the water check; no shoreline or basin is expanded to cover them',()=>{
- for(const id of['forn-moli-guix','molinet']){const s=before.before.urban.find(s=>s.id===id),a=(s.alongAzimuthDegrees??urban.frame.alongAzimuthDegrees)*Math.PI/180,poly=[[-1,-1],[1,-1],[1,1],[-1,1]].map(([x,y])=>[s.utmAnchor[0]+x*s.width/2*Math.cos(a)+y*s.depth/2*Math.sin(a),s.utmAnchor[1]-x*s.width/2*Math.sin(a)+y*s.depth/2*Math.cos(a)]);assert.ok(footprintSamples(poly).some(p=>!coastalSupport(...p,littoral)),id);}
- const oldMill=before.before.urban.find(s=>s.id==='molinet');assert.equal(coastalSupport(...oldMill.utmAnchor,littoral)?.kind,'land','checking only the centre would miss this regression');
- assert.deepEqual(littoral.shorelineStudy,before.waterGeometry.shorelineStudy);assert.deepEqual(littoral.basins,before.waterGeometry.basins);const {studyLengthMeters,...canal}=littoral.canal;assert.deepEqual(canal,before.waterGeometry.canal);assert.deepEqual(littoral.portWorks.breakwaters,before.waterGeometry.breakwaters);
+test('the rejected workshop and mill positions failed the water check of the superseded coast; the 08/11 coast revision is documented, not a cover-up',()=>{
+ const old={...littoral,shorelineStudy:before.waterGeometry.shorelineStudy,basins:before.waterGeometry.basins,roquerCoast:littoral.roquerCoast,portWorks:{...littoral.portWorks,breakwaters:before.waterGeometry.breakwaters},canal:{...littoral.canal,...before.waterGeometry.canal},canalWorks:undefined};
+ for(const id of['forn-moli-guix','molinet']){const s=before.before.urban.find(s=>s.id===id),a=(s.alongAzimuthDegrees??urban.frame.alongAzimuthDegrees)*Math.PI/180,poly=[[-1,-1],[1,-1],[1,1],[-1,1]].map(([x,y])=>[s.utmAnchor[0]+x*s.width/2*Math.cos(a)+y*s.depth/2*Math.sin(a),s.utmAnchor[1]-x*s.width/2*Math.sin(a)+y*s.depth/2*Math.cos(a)]);assert.ok(footprintSamples(poly).some(p=>!coastalSupport(...p,old)),id);}
+ const oldMill=before.before.urban.find(s=>s.id==='molinet');assert.equal(coastalSupport(...oldMill.utmAnchor,old)?.kind,'land','checking only the centre would miss this regression');
+ assert.equal(littoral.coastRevision.date,'2026-11-08');assert.match(littoral.coastRevision.source,/il·l\.4/);assert.equal(littoral.coastRevision.geometryConfidence,'C');assert.deepEqual(littoral.canal.routeStudy,before.waterGeometry.canal.routeStudy,'the canal route itself is unchanged');
  const mill=urban.unplacedSites.find(s=>s.id==='molinet');assert.equal(mill.placementStatus,'unlocated');assert.equal(mill.historicalCoordinates,null);assert.equal(mill.anchor,undefined);assert.equal(mill.utmAnchor,undefined);assert.equal(urban.sites.some(s=>s.id==='molinet'),false);
 });
 test('Sanitat is a documented quay building, fully on the rendered deck, with no new island beneath it',()=>{
@@ -30,5 +31,5 @@ test('relational placement remains reproducible and inventories and historical c
  const a=l.sites.find(s=>s.id==='health').anchor,b=orig.l.sites.find(s=>s.id==='health').anchor;assert.ok(Math.hypot(a[0]-b[0],a[1]-b[1])<1e-8);
  const workshop=urban.sites.find(s=>s.id==='forn-moli-guix'),inn=littoral.sites.find(s=>s.id==='old-inn');assert.ok(workshop.anchor[1]>inn.anchor[1]);assert.equal(workshop.historicalFootprint,null);assert.equal(workshop.relationalPlacement.geometryConfidence,'C');
  assert.equal(housing.summary.royalInventoryUnits,81);assert.equal(urban.privateLedger.documentedMixedUnits,38);
- const dossiers=await json('public/data/dossiers.json');assert.deepEqual(dossiers.items.molinet.modelIds,[]);assert.ok(dossiers.items.molinet.withoutModel);assert.equal(dossiers.items.molinet.studyPosition,null);
+ const dossiers=await json('public/data/dossiers.json');assert.deepEqual(dossiers.items.molinet.modelIds,[]);assert.ok(dossiers.items.molinet.withoutModel);assert.match(dossiers.items.molinet.withoutModel,/fora del terreny modelat/);
 });

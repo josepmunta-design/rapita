@@ -61,9 +61,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** Recinte al costat occidental de la filera de cases grans, entre la Mançana i el camí de la Pedrera. Polígon traçat sobre N112 il·l.4; no parcel·la georeferenciada històricament. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
 - [ ] Revisar el contorn amb les dues cases i el conservador; no inventar catàleg d’espècies.
 
 ### Dades encara desconegudes

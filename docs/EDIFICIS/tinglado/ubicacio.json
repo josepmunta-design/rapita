@@ -16,31 +16,34 @@
     {
       "modelId": "tinglado",
       "anchor": [
-        296360.6,
-        4499211.3
+        296380.971,
+        4499268.199
       ],
       "footprintUTM": [
         [
-          296348.5714548961,
-          4499210.153656821
+          296379.8246568211,
+          4499280.227545104
         ],
         [
-          296369.3728635593,
-          4499202.991157423
+          296372.662157423,
+          4499259.426136441
         ],
         [
-          296372.6285451038,
-          4499212.446343179
+          296382.11734317895,
+          4499256.170454896
         ],
         [
-          296351.82713644067,
-          4499219.608842577
+          296389.27984257706,
+          4499276.971863559
         ]
       ],
-      "alongAzimuthDegrees": null,
+      "alongAzimuthDegrees": 109,
       "planLetter": null,
       "projectOnly": false,
-      "positionSource": null,
+      "positionSource": {
+        "text": "Hipòtesi de N112 p.215 nota 79: una part del cobert entre l’actual Casa Laureano i les cases rodones, amb arcs que després formarien part dels porxos de la plaça. Façana de cinc arcs a la línia oriental de la plaça (+23 m), simètrica a les quatre cases porxades de ponent; entre la plaça coberta i la font oriental. Posició C.",
+        "precisionMeters": 20
+      },
       "source": "public/data/urban-fabric.json",
       "confidence": "C posició del prototip, no punt històric mesurat"
     }

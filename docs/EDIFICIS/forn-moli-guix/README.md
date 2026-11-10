@@ -1,12 +1,10 @@
 # Forn i molí de guix
 
-Revisió: **08/11/2026** · fàbrica. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **31/10/2026** · fàbrica. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
 ## Col·locació
-
-Revisió litoral · 08/11/2026: la posició anterior no seguia la Fonda Vella del croquis i quedava dins de l’aigua. Es recol·loca al nord de la fonda, com indiquen les afrontacions de 1782 (N112 p.211). La separació de 3 m i les coordenades són d’assaig C, no una parcel·la ni distància documentades. La costa no es modifica.
 
 Al nord de la Fonda Vella segons les afrontacions de la concessió de 1782; forma i solar propis desconeguts.
 
@@ -20,7 +18,7 @@ Certesa: D posició individual / B relació territorial quan està documentada.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| forn-moli-guix | — | 296496.528 | 4499268.913 | Model d’assaig |
+| forn-moli-guix | — | 296470.232 | 4499292.460 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 

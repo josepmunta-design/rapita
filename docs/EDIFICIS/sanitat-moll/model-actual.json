@@ -1,8 +1,8 @@
 {
   "entityId": "sanitat-moll",
-  "captureDate": "2026-11-08",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
-  "warning": "Paràmetres del prototip 0.14.1. Posicions d’assaig C; no són mesures històriques.",
+  "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
     {
       "file": "public/data/littoral.json",

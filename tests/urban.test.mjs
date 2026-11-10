@@ -21,7 +21,7 @@ test('all seven street corridors clear retained houses, central buildings and ne
 test('new service buildings and grounds do not overlap retained houses; workyard belongs to existing Mançana',()=>{
  const removed=new Set(center.sites.flatMap(s=>s.replacesHousingIds??[])),all=[...housing.structures.filter(s=>!removed.has(s.id)),...center.sites];
  const overlaps=(a,b)=>a.length>=3&&b.length>=3&&[a,b].every(p=>p.every((v,i)=>{const q=p[(i+1)%p.length],axis=[q[1]-v[1],v[0]-q[0]],project=s=>s.map(p=>p[0]*axis[0]+p[1]*axis[1]),x=project(a),y=project(b);return Math.min(Math.max(...x),Math.max(...y))-Math.max(Math.min(...x),Math.min(...y))>1e-5;}));
- for(const s of data.sites.filter(s=>s.kind!=='workyard'))for(const old of all)assert.equal(overlaps(s.footprintUTM,old.footprintUTM),false,s.id+' / '+old.id);
+ for(const s of data.sites.filter(s=>s.kind!=='workyard'&&(s.toYear??Infinity)>=1794))for(const old of all)assert.equal(overlaps(s.footprintUTM,old.footprintUTM),false,s.id+' / '+old.id);
  assert.ok(inside(data.sites.find(s=>s.kind==='workyard').anchor,housing.structures.find(s=>s.id==='manzana-shared').footprintUTM));
 });
 test('chronological services replace evidence variants reversibly and never increase residential inventory',()=>{

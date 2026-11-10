@@ -1,6 +1,6 @@
 {
   "entityId": "pou-figueretes",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,8 +10,8 @@
         "id": "well",
         "name": "Pou de les Figueretes",
         "anchor": [
-          296407.97500624356,
-          4499200.712022799
+          296426.19154989166,
+          4499204.768389186
         ],
         "kind": "well",
         "width": 2,
@@ -28,18 +28,18 @@
           ]
         ],
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "footprintUTM": [
           [
-            296407.97500624356,
-            4499200.712022799
+            296426.19154989166,
+            4499204.768389186
           ]
         ],
-        "alongAzimuthDegrees": 19,
-        "technicalBaseElevation": 7.701909352256295,
+        "alongAzimuthDegrees": 41.31100000000001,
+        "technicalBaseElevation": 3.9691241412015685,
         "geometryConfidence": "C",
         "historicalFootprint": null,
         "historicalHeight": null,

@@ -51,9 +51,6 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 
 ## Aplicació al model i treball pendent
 
-**Ajust al croquis de referència · 01/11/2026:** Recinte a ponent del jardí botànic, al nord del camí de la Pedrera, seguint N112 il·l.4. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
-
 - [ ] Separar sínia i sistema de reg sense inventar una sínia a cada hort.
 - [ ] Reservar els sequers per a fases posteriors contrastades.
 

@@ -1,12 +1,10 @@
 # Molí fariner del Molinet
 
-Revisió: **08/11/2026** · molí. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **31/10/2026** · molí. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
 ## Col·locació
-
-Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa.
 
 Al final del canal vell, immediat a la platja del port, zona anomenada Molinet; no al centre de plaça ni al tram modern de resclosa.
 
@@ -15,12 +13,6 @@ Certesa: B relacional / C mètrica.
 [N112](../fonts-20261031/originals/N112.pdf) · il·l.3 art.30
 
 **Coordenades històriques i planta georeferenciada:** desconegudes (`null`). La ubicació actual de treball, si n’hi ha, es consulta a `ubicacio.json` i `model-actual.json`.
-
-### Posicions actuals del visor · EPSG:25831
-
-Sense model emplaçat al visor. La posició anterior rebutjada es conserva a [registre de revisió](posicio-rebutjada-20261108.json).
-
-Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
 ## Descripció documentada
 
@@ -60,10 +52,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 - Planta històrica georeferenciada amb error d’ajust independent.
 - Alçàries i gruixos mesurats i datació de cada fàbrica.
 - Correspondència parcel·lària i persistència entre testimonis.
-
-### Correspondència amb el prototip
-
-`molinet`. Identificadors tècnics, sense equivalència automàtica amb números històrics. Vegeu `model-actual.json` per a tots els camps i valors actuals.
 
 ## Fonts utilitzades
 

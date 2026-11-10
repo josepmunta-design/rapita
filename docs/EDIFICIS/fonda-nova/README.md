@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| fonda-nova | — | 296458.309 | 4499374.181 | Model d’assaig |
+| fonda-nova | — | 296446.746 | 4499388.210 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -60,9 +60,6 @@ No s’ha assignat una fotografia individual sense correspondència suficient. E
 
 
 ## Aplicació al model i treball pendent
-
-**Ajust al croquis de referència · 01/11/2026:** Un edifici continu en U oberta a llevant, amb murs únicament al perímetre, una sola cota de cornisa i coberta unida a les dues cantonades. Substitueix les dues peces reservades, sense sumar unitats a l’inventari. Forma relacional C segons N112 il·l.4. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
 
 - [ ] Crear variants de 1782 i 1794 amb el segon cos independent.
 - [ ] Els IDs d’assaig 21–22 substituïts no són els números històrics 5–6.

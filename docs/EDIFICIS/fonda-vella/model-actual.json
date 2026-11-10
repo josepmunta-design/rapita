@@ -1,6 +1,6 @@
 {
   "entityId": "fonda-vella",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -10,8 +10,8 @@
         "id": "old-inn",
         "name": "Fonda Vella",
         "anchor": [
-          296491.3185959745,
-          4499253.784779031
+          296465.023,
+          4499277.332
         ],
         "kind": "inn",
         "width": 12,
@@ -25,25 +25,26 @@
           "text": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026 · ajust relacional a la plaça i torre, conservant la forma del model.",
           "precisionMeters": 15
         },
+        "actualMap20261108": "Abans damunt del carrer de la Mare de Déu de Montserrat (across 132,5; along −71,7). Nova posició: illa actual més propera que deixa lliures la baixada del Cóc al port (rampa-sud), les cases petites i la duana antiga; 35 m cap a ponent, C.",
         "footprintUTM": [
           [
-            296488.9011660655,
-            4499265.193373714
+            296462.605570091,
+            4499288.740594683
           ],
           [
-            296482.3898029763,
-            4499246.2830022015
+            296456.0942070018,
+            4499269.830223171
           ],
           [
-            296493.73602588347,
-            4499242.376184348
+            296467.440429909,
+            4499265.923405318
           ],
           [
-            296500.24738897267,
-            4499261.28655586
+            296473.9517929982,
+            4499284.83377683
           ]
         ],
-        "technicalBaseElevation": 2.5183477923154998,
+        "technicalBaseElevation": 5.4499766619706085,
         "geometryConfidence": "C",
         "historicalFootprint": null,
         "historicalHeight": null,

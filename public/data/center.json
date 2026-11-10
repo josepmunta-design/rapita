@@ -16,8 +16,8 @@
       "id": "sant-elm",
       "name": "Oratori de Sant Elm",
       "kind": "church",
-      "across": -50,
-      "along": -76,
+      "across": -44,
+      "along": -71.5,
       "front": "east",
       "width": 17,
       "depth": 25,
@@ -33,9 +33,11 @@
         "footprint": null,
         "height": null
       },
+      "placementRevision20261108": "Façana a la línia de les cases (−23 m). Les quatre porxades toquen el temple pel sud (foto N083) i un carrer de 7 m el separa de les cases cobertes pel nord, a la dreta mirant-lo de cara (N076, N112 il·l.6).",
+      "actualMap20261108": "Al solar de l’actual Santíssima Trinitat: façana a la plaça, carrer del Rosari a la dreta (mirant-la) i carrer de l’Aurora a l’esquerra.",
       "anchor": {
-        "easting": 296317.3353914813,
-        "northing": 4499309.147595977
+        "easting": 296324.4735596299,
+        "northing": 4499311.449020641
       },
       "frontAzimuthDegrees": 109,
       "geometryConfidence": "C",
@@ -44,34 +46,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296326.3870443634,
-          4499297.041086154
+          296333.52521251206,
+          4499299.342510818
         ],
         [
-          296331.92170298914,
-          4499313.114901939
+          296339.0598711378,
+          4499315.416326603
         ],
         [
-          296308.28373859916,
-          4499321.254105801
+          296315.4219067478,
+          4499323.555530464
         ],
         [
-          296302.74907997344,
-          4499305.180290015
+          296309.8872481221,
+          4499307.481714679
         ]
       ],
       "terrain": {
-        "minimum": 10.739794941241149,
-        "maximum": 12.077459248825749,
-        "technicalBaseElevation": 12.157459248825749
+        "minimum": 10.322997440529772,
+        "maximum": 11.66585996575437,
+        "technicalBaseElevation": 11.74585996575437
       }
     },
     {
       "id": "placa-coberta",
       "name": "Plaça coberta · Casa Laureano",
       "kind": "covered-market",
-      "across": 37,
-      "along": -76,
+      "across": 27,
+      "along": -72.25,
       "front": "west",
       "width": 15,
       "depth": 17,
@@ -101,9 +103,11 @@
         "dimensionsConfidence": "C",
         "modernExtraStoreyIncluded": false
       },
+      "placementRevision20261108": "Simètricament enfrontada a l’església (N112 p.214): mateixa cota d’eix i façana a la línia de la plaça (+23 m).",
+      "actualMap20261108": "Simètrica a l’església, a la cantonada sud del carrer de l’Arsenal.",
       "anchor": {
-        "easting": 296399.59550755844,
-        "northing": 4499280.82316654
+        "easting": 296391.36120238167,
+        "northing": 4499287.624542743
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -112,34 +116,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296394.0003608242,
-          4499290.68188517
+          296385.76605564746,
+          4499297.483261373
         ],
         [
-          296389.1168385074,
-          4499276.499106536
+          296380.88253333064,
+          4499283.300482739
         ],
         [
-          296405.19065429264,
-          4499270.96444791
+          296396.9563491159,
+          4499277.765824113
         ],
         [
-          296410.07417660946,
-          4499285.147226544
+          296401.8398714327,
+          4499291.948602747
         ]
       ],
       "terrain": {
-        "minimum": 7.724620956185981,
-        "maximum": 8.987170517016573,
-        "technicalBaseElevation": 9.067170517016573
+        "minimum": 7.988478586285088,
+        "maximum": 9.317478386644595,
+        "technicalBaseElevation": 9.397478386644595
       }
     },
     {
       "id": "fonda-nova",
       "name": "Fonda Nova de la plaça",
       "kind": "inn",
-      "across": 62.11987022608699,
-      "along": 31.38689746228051,
+      "across": 46.61987022608699,
+      "along": 40.88689746228051,
       "front": "west",
       "width": 50.76701323307374,
       "depth": 49.95173187474153,
@@ -311,9 +315,13 @@
         ]
       ],
       "continuousCompound": true,
+      "placementRevision20261108": "Desplaçat 10 m cap a la plaça: façana a la línia actual de la plaça i límit de llevant al carrer del Rampar (Pilar), segons l’escriptura de Talavera (25,30 m al Rampar).",
+      "layoutShiftAcross": -11.5,
+      "layoutShiftAlong": 9.5,
+      "actualMap20261108": "Planta del croquis desplaçada en bloc a la línia actual de la plaça (22,5 m) i del Cóc.",
       "anchor": {
-        "easting": 296458.3085654935,
-        "northing": 4499374.181243076
+        "easting": 296446.7459250391,
+        "northing": 4499388.209975938
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -322,127 +330,127 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296442.9574817109,
-          4499406.313166675
+          296431.3948412565,
+          4499420.3418995375
         ],
         [
-          296426.42935890524,
-          4499358.312012636
+          296414.86671845085,
+          4499372.340745498
         ],
         [
-          296473.6596492761,
-          4499342.049319477
+          296462.09700882173,
+          4499356.078052339
         ],
         [
-          296490.18777208176,
-          4499390.050473516
+          296478.62513162737,
+          4499404.079206378
         ]
       ],
       "bodyFootprintsUTM": [
         [
           [
-            296489.76330024214,
-            4499390.196630891
+            296478.20065978775,
+            4499404.225363754
           ],
           [
-            296442.72565844335,
-            4499405.63990302
+            296431.16301798896,
+            4499419.668635882
           ],
           [
-            296454.4786523718,
-            4499389.092264708
+            296442.9160119174,
+            4499403.12099757
           ],
           [
-            296486.11369719723,
-            4499378.21850092
+            296474.55105674284,
+            4499392.247233782
           ]
         ],
         [
           [
-            296442.72565844335,
-            4499405.63990302
+            296431.16301798896,
+            4499419.668635882
           ],
           [
-            296428.1272462639,
-            4499357.727383134
+            296416.5646058095,
+            4499371.756115996
           ],
           [
-            296443.7699883499,
-            4499366.915779078
+            296432.2073478955,
+            4499380.944511941
           ],
           [
-            296454.4786523718,
-            4499389.092264708
+            296442.9160119174,
+            4499403.12099757
           ]
         ],
         [
           [
-            296428.1272462639,
-            4499357.727383134
+            296416.5646058095,
+            4499371.756115996
           ],
           [
-            296464.90649612685,
-            4499345.903695911
+            296453.34385567246,
+            4499359.9324287735
           ],
           [
-            296468.5560991717,
-            4499357.881825883
+            296456.9934587173,
+            4499371.910558745
           ],
           [
-            296443.7699883499,
-            4499366.915779078
+            296432.2073478955,
+            4499380.944511941
           ]
         ]
       ],
       "planOutlineUTM": [
         [
-          296489.76330024214,
-          4499390.196630891
+          296478.20065978775,
+          4499404.225363754
         ],
         [
-          296442.72565844335,
-          4499405.63990302
+          296431.16301798896,
+          4499419.668635882
         ],
         [
-          296428.1272462639,
-          4499357.727383134
+          296416.5646058095,
+          4499371.756115996
         ],
         [
-          296464.90649612685,
-          4499345.903695911
+          296453.34385567246,
+          4499359.9324287735
         ],
         [
-          296468.5560991717,
-          4499357.881825883
+          296456.9934587173,
+          4499371.910558745
         ],
         [
-          296443.7699883499,
-          4499366.915779078
+          296432.2073478955,
+          4499380.944511941
         ],
         [
-          296454.4786523718,
-          4499389.092264708
+          296442.9160119174,
+          4499403.12099757
         ],
         [
-          296486.11369719723,
-          4499378.21850092
+          296474.55105674284,
+          4499392.247233782
         ]
       ],
       "terrain": {
-        "minimum": 5.424221178386346,
-        "maximum": 8.040490385840899,
-        "technicalBaseElevation": 8.120490385840899
+        "minimum": 5.953125424291871,
+        "maximum": 9.160519836302942,
+        "technicalBaseElevation": 9.240519836302942
       }
     },
     {
       "id": "duana-nova",
       "name": "Duana nova del Coc",
       "kind": "warehouse",
-      "across": 95.17330790556377,
-      "along": -48.574647770755206,
+      "across": 79.75,
+      "along": -30.5,
       "front": "north",
-      "width": 26,
-      "depth": 20,
+      "width": 30.5,
+      "depth": 17,
       "wallHeight": 8.2,
       "roofRise": 0,
       "state1794": "murs a tota alçària, sense coberta, revoltons ni envans superiors",
@@ -456,9 +464,11 @@
         "height": null
       },
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "placementRevision20261108": "Solar núm. 6 de la subhasta de 1868 (N112 p.217, nota 80): «linda al este con patio del secuestro, al sur con casa de Juan Bautista Ribera y con la plaza Vieja, al oeste con callejón y al norte con la plaza Mayor», 520,555 m². Encaixa amb l’illa entre el Cóc (nord), la plaça Vella (sud) i el carreró sense sortida (oest) del parcel·lari actual. Abans es col·locava 45 m al SE seguint el núm. 12 del croquis.",
+      "actualMap20261108": "Illa actual entre el carreró (oest), el Cóc (nord) i la Plaça Vella (sud): 30,5 × 17 m = 518 m², com els 520,555 m² de la subhasta de 1868. L’anterior posició (across 48,5) quedava a l’oest del carreró.",
       "anchor": {
-        "easting": 296463.5282720978,
-        "northing": 4499287.814970021
+        "easting": 296454.8297776931,
+        "northing": 4499309.926223126
       },
       "frontAzimuthDegrees": 19,
       "geometryConfidence": "C",
@@ -467,34 +477,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296479.0756951252,
-          4499293.037769769
+          296472.01626528386,
+          4499312.9982166635
         ],
         [
-          296454.4922121596,
-          4499301.502541785
+          296443.17794872803,
+          4499322.928045374
         ],
         [
-          296447.9808490704,
-          4499282.592170273
+          296437.6432901023,
+          4499306.854229589
         ],
         [
-          296472.564332036,
-          4499274.127398257
+          296466.48160665814,
+          4499296.924400878
         ]
       ],
       "terrain": {
-        "minimum": 2.441174578282991,
-        "maximum": 7.2682098268269195,
-        "technicalBaseElevation": 7.34820982682692
+        "minimum": 4.793496970871763,
+        "maximum": 7.278627949345209,
+        "technicalBaseElevation": 7.358627949345209
       }
     },
     {
       "id": "casa-white",
       "name": "Magatzems de Josep White",
       "kind": "warehouse",
-      "across": 96.48669071421283,
-      "along": 16.95863709730206,
+      "across": 104,
+      "along": 14,
       "front": "south",
       "width": 26,
       "depth": 20,
@@ -511,9 +521,11 @@
         "height": null
       },
       "layoutSource": "N112 il·l.4 · imatge aportada per Josep el 01/11/2026",
+      "placementRevision20261108": "Es manté el núm. 13 del croquis N112 il·l.4, a l’extrem de llevant del Cóc, al cap de la baixada de Sant Francesc. «Enfront» de la duana a l’altra banda de l’esplanada; la simetria exacta no es pot resoldre sense les afrontacions de White.",
+      "actualMap20261108": "«El de l’esquerra» baixant per Sant Francesc, enfront de la duana i amb la mateixa superfície (520 m², «idèntic»); el límit de llevant respecta el carrer del Rampar: illa actual al nord del carrer de Sant Francesc, que s’allarga cap a l’actual plaça de Francesc Moragas.",
       "anchor": {
-        "easting": 296486.1056505503,
-        "northing": 4499349.350312567
+        "easting": 296492.24638602475,
+        "northing": 4499344.106771995
       },
       "frontAzimuthDegrees": 199,
       "geometryConfidence": "C",
@@ -522,34 +534,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296470.5582275229,
-          4499344.127512819
+          296476.69896299735,
+          4499338.883972247
         ],
         [
-          296495.1417104885,
-          4499335.662740803
+          296501.28244596295,
+          4499330.419200231
         ],
         [
-          296501.6530735777,
-          4499354.5731123155
+          296507.79380905215,
+          4499349.3295717435
         ],
         [
-          296477.0695906121,
-          4499363.037884331
+          296483.21032608656,
+          4499357.794343759
         ]
       ],
       "terrain": {
-        "minimum": 5.136652071705174,
-        "maximum": 6.353724380370073,
-        "technicalBaseElevation": 6.433724380370073
+        "minimum": 4.345441426861578,
+        "maximum": 6.286027651562779,
+        "technicalBaseElevation": 6.366027651562779
       }
     },
     {
       "id": "font-oest",
       "name": "Font i torre del rellotge",
       "kind": "fountain",
-      "across": -24,
-      "along": -114,
+      "across": -30.699999999999996,
+      "along": -106.2,
       "front": "east",
       "width": 4.8,
       "depth": 3,
@@ -565,9 +577,10 @@
         "footprint": null,
         "height": null
       },
+      "placementRevision20261108": "Font tocant la darrera casa rodona i les cases porxades (N112 p.210 i 216).",
       "anchor": {
-        "easting": 296329.5472845775,
-        "northing": 4499264.7531180885
+        "easting": 296325.7517417258,
+        "northing": 4499274.309469613
       },
       "frontAzimuthDegrees": 109,
       "geometryConfidence": "C",
@@ -576,34 +589,34 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296330.1841988702,
-          4499261.995521275
+          296326.3886560185,
+          4499271.5518728
         ],
         [
-          296331.74692601163,
-          4499266.534010438
+          296327.9513831599,
+          4499276.090361963
         ],
         [
-          296328.9103702848,
-          4499267.510714902
+          296325.1148274331,
+          4499277.067066426
         ],
         [
-          296327.3476431434,
-          4499262.972225739
+          296323.55210029165,
+          4499272.5285772635
         ]
       ],
       "terrain": {
-        "minimum": 10.46975858497632,
-        "maximum": 10.57593464286632,
-        "technicalBaseElevation": 10.65593464286632
+        "minimum": 10.788274811030423,
+        "maximum": 11.194126253347996,
+        "technicalBaseElevation": 11.274126253347996
       }
     },
     {
       "id": "font-est",
       "name": "Font oriental",
       "kind": "fountain",
-      "across": 24,
-      "along": -114,
+      "across": 16.9,
+      "along": -106.2,
       "front": "west",
       "width": 4.8,
       "depth": 3,
@@ -617,9 +630,10 @@
         "footprint": null,
         "height": null
       },
+      "placementRevision20261108": "Font tocant la darrera casa rodona i les cases porxades (N112 p.210 i 216).",
       "anchor": {
-        "easting": 296374.93217620626,
-        "northing": 4499249.125846675
+        "easting": 296370.7584259243,
+        "northing": 4499258.812425461
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -628,26 +642,26 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296374.29526191356,
-          4499251.883443488
+          296370.1215116316,
+          4499261.570022274
         ],
         [
-          296372.73253477213,
-          4499247.344954325
+          296368.55878449016,
+          4499257.031533111
         ],
         [
-          296375.56909049896,
-          4499246.3682498615
+          296371.395340217,
+          4499256.0548286475
         ],
         [
-          296377.1318176404,
-          4499250.906739024
+          296372.9580673584,
+          4499260.59331781
         ]
       ],
       "terrain": {
-        "minimum": 9.774109445337805,
-        "maximum": 9.897525601645485,
-        "technicalBaseElevation": 9.977525601645485
+        "minimum": 9.909197387856938,
+        "maximum": 10.274473308255454,
+        "technicalBaseElevation": 10.354473308255454
       }
     },
     {
@@ -704,8 +718,8 @@
       "id": "cases-talavera",
       "name": "Dues cases de Ramon Talavera",
       "kind": "private-courtyard",
-      "across": 63.910523123063165,
-      "along": 89.45709472442176,
+      "across": 48.410523123063165,
+      "along": 91.95709472442176,
       "front": "west",
       "width": 49.94910462905992,
       "depth": 52.67121230194549,
@@ -869,9 +883,13 @@
         ]
       ],
       "continuousCompound": true,
+      "placementRevision20261108": "Desplaçat 10 m cap a la plaça: façana a la línia actual de la plaça i límit de llevant al carrer del Rampar (Pilar), segons l’escriptura de Talavera (25,30 m al Rampar).",
+      "layoutShiftAcross": -11.5,
+      "layoutShiftAlong": 2.5,
+      "actualMap20261108": "Planta del croquis desplaçada en bloc a la línia actual de la plaça (22,5 m) i del Cóc.",
       "anchor": {
-        "easting": 296478.9074680217,
-        "northing": 4499428.504713717
+        "easting": 296465.06585048605,
+        "northing": 4499435.91481655
       },
       "frontAzimuthDegrees": 289,
       "geometryConfidence": "C",
@@ -880,130 +898,133 @@
       "historicalBaseElevation": null,
       "footprintUTM": [
         [
-          296462.1375821117,
-          4499460.692651538
+          296448.2959645761,
+          4499468.102754371
         ],
         [
-          296445.87574430084,
-          4499413.464845277
+          296432.0341267652,
+          4499420.87494811
         ],
         [
-          296495.67735393165,
-          4499396.316775896
+          296481.835736396,
+          4499403.726878729
         ],
         [
-          296511.9391917425,
-          4499443.544582156
+          296498.0975742069,
+          4499450.9546849895
         ]
       ],
       "bodyFootprintsUTM": [
         [
           [
-            296461.72847919865,
-            4499459.496460683
+            296447.886861663,
+            4499466.906563516
           ],
           [
-            296507.9212610491,
-            4499444.928066642
+            296494.0796435135,
+            4499452.338169475
           ],
           [
-            296492.2785189632,
-            4499435.739670698
+            296478.4369014276,
+            4499443.149773531
           ],
           [
-            296458.0788761538,
-            4499447.518330711
+            296444.2372586182,
+            4499454.928433544
           ]
         ],
         [
           [
-            296507.9212610491,
-            4499444.928066642
+            296494.0796435135,
+            4499452.338169475
           ],
           [
-            296495.90245592326,
-            4499396.970519548
+            296482.06083838764,
+            4499404.380622381
           ],
           [
-            296484.1644710643,
-            4499414.3780268775
+            296470.32285352866,
+            4499421.788129711
           ],
           [
-            296492.2785189632,
-            4499435.739670698
+            296478.4369014276,
+            4499443.149773531
           ]
         ],
         [
           [
-            296495.90245592326,
-            4499396.970519548
+            296482.06083838764,
+            4499404.380622381
           ],
           [
-            296446.3002161405,
-            4499413.318687902
+            296432.4585986049,
+            4499420.728790735
           ],
           [
-            296449.94981918536,
-            4499425.296817874
+            296436.10820164974,
+            4499432.706920707
           ],
           [
-            296484.1644710643,
-            4499414.3780268775
+            296470.32285352866,
+            4499421.788129711
           ]
         ]
       ],
       "planOutlineUTM": [
         [
-          296461.72847919865,
-          4499459.496460683
+          296447.886861663,
+          4499466.906563516
         ],
         [
-          296507.9212610491,
-          4499444.928066642
+          296494.0796435135,
+          4499452.338169475
         ],
         [
-          296495.90245592326,
-          4499396.970519548
+          296482.06083838764,
+          4499404.380622381
         ],
         [
-          296446.3002161405,
-          4499413.318687902
+          296432.4585986049,
+          4499420.728790735
         ],
         [
-          296449.94981918536,
-          4499425.296817874
+          296436.10820164974,
+          4499432.706920707
         ],
         [
-          296484.1644710643,
-          4499414.3780268775
+          296470.32285352866,
+          4499421.788129711
         ],
         [
-          296492.2785189632,
-          4499435.739670698
+          296478.4369014276,
+          4499443.149773531
         ],
         [
-          296458.0788761538,
-          4499447.518330711
+          296444.2372586182,
+          4499454.928433544
         ]
       ],
       "terrain": {
-        "minimum": 4.398047363151567,
-        "maximum": 9.130334382135027,
-        "technicalBaseElevation": 9.210334382135027
+        "minimum": 4.728718035121171,
+        "maximum": 8.734593366301878,
+        "technicalBaseElevation": 8.814593366301878
       }
     }
   ],
   "publicSpace": {
     "surface": "Terra d’assaig sobre el MDT intacte; sense paviment modern ni explanació històrica atribuïda.",
     "plaza": {
-      "halfWidth": 22,
-      "north": 84,
-      "south": -118,
-      "exedraRadius": 22,
+      "halfWidth": 25.5,
+      "north": 100,
+      "south": -108.8,
+      "exedraRadius": 25.4,
       "passage": {
-        "halfWidth": 4,
-        "south": -156
-      }
+        "across": -8,
+        "halfWidth": 5,
+        "south": -150
+      },
+      "axis": -5,
+      "exedraAcross": -6.9
     },
     "crossAxis": {
       "west": -96,
@@ -1013,11 +1034,11 @@
     "trees": {
       "count": 60,
       "across": [
-        -12,
-        12
+        -16,
+        6
       ],
-      "south": -108,
-      "north": 78,
+      "south": -100,
+      "north": 95,
       "species": "Ceratonia siliqua",
       "layoutConfidence": "C",
       "source": "H02, carta del 6/05/1792, pàg. 218–219: seixanta arbres a la població. Distribució en dues fileres i mides d’assaig, sense prova de supervivència individual el 1800."

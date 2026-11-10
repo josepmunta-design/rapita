@@ -22,7 +22,7 @@ test('detailed porticos have masonry and stone courses, an empty pedestrian open
   const study=g.userData.photoComparison.study;assert.equal(g.userData.photoComparison.photo.visible,false);
   assert.equal(g.userData.porxoStudy.frontFloorsAdded,false);assert.ok(study.children.some(o=>o.material.name==='porxo-masonry'));assert.ok(study.children.some(o=>o.material.name==='porxo-stone'));assert.equal(study.children.some(o=>o.material.name==='roof'),false);
   const cross=(x,y)=>new THREE.Raycaster(new THREE.Vector3(x,y,p.fz+1),new THREE.Vector3(0,0,-1),0,2).intersectObject(study,true);
-  assert.equal(cross(0,1.65).length,0,'pedestrian opening');assert.ok(cross(p.piers[0].x,1).length>0,'physical pier');assert.equal(cross(0,p.top+1).length,0,'no speculative upper facade over the arcade');
+  for(const bay of p.bays)assert.equal(cross(bay.x,1.65).length,0,'pedestrian opening');assert.ok(p.bays.length>=1&&p.rx<1.6,'narrow arches as in CP01');assert.ok(cross(p.piers[0].x,1).length>0,'physical pier');assert.equal(cross(0,p.top+1).length,0,'no speculative upper facade over the arcade');
  }
  assert.equal(PORXO_STUDY.historicalDimensions,null);
 });

@@ -174,6 +174,46 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
     for(let x=-length/2-2;x<length/2-2;x+=3.8)box(x+1.9,ground(x+1.9,z)+.5,z,3.9,1.1+k*.15,.7,mat.stone);
    }
    for(const[x,z]of[[-17,10],[-9,14.5]]){const y=ground(x,z);box(x,y+1,z,.32,2,.32,mat.wood);emit(new THREE.DodecahedronGeometry(1.7,0),mat.leaf,x,y+3.1,z);}
+  }else if(s.kind==='brickworks'){
+   // Rajolar de la Rabosa (N112 p.223 n.94): dos forns i una casa, cap al 1786. Forns mediterranis de planta quadrada, casa i era d'assecat C.
+   const level0=(x:number,z:number)=>ground(x,z)+.04;
+   const house=(cx:number,cz:number,w:number,d:number,H:number)=>{const b=Math.max(level0(cx-w/2,cz-d/2),level0(cx+w/2,cz+d/2),level0(cx,cz));box(cx,b-.2,cz,w+.4,.4,d+.4,mat.stone);
+    const T=.5,q=wallSurfaceMesh(w,H,T,[{x:-w/4,width:1.2,height:2.1,bottom:0},{x:w/4,width:.8,height:.9,bottom:1.2}],.1),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.lime,cx,b,cz+d/2-T/2);
+    box(cx,b+H/2,cz-d/2+T/2,w,H,T,mat.lime);for(const sign of[-1,1])box(cx+sign*(w/2-T/2),b+H/2,cz,T,H,d-2*T,mat.lime);
+    const rise=1.4,v=[[-w/2-.3,H,-d/2-.3],[-w/2-.3,H,d/2+.3],[-w/2-.3,H+rise,0],[w/2+.3,H,-d/2-.3],[w/2+.3,H,d/2+.3],[w/2+.3,H+rise,0]],rg=new THREE.BufferGeometry();rg.setAttribute('position',new THREE.Float32BufferAttribute([0,2,5,0,5,3,1,4,5,1,5,2].flatMap(i=>v[i]),3));rg.computeVertexNormals();emit(rg,mat.tile,cx,b,cz);
+    for(const x of[-w/2,w/2]){const e=new THREE.BufferGeometry(),vv=[[x,H,-d/2],[x,H,d/2],[x,H+rise,0]];e.setAttribute('position',new THREE.Float32BufferAttribute((x<0?[0,1,2]:[0,2,1]).flatMap(i=>vv[i]),3));e.computeVertexNormals();emit(e,mat.lime,cx,b,cz);}};
+   const kiln=(cx:number,cz:number)=>{const w=5.2,d=5.8,H=s.height,T=.9,b=Math.max(level0(cx-w/2,cz-d/2),level0(cx+w/2,cz+d/2))-.6;
+    box(cx,b-.2,cz,w+.6,.4,d+.6,mat.stone);
+    box(cx,b+H/2,cz-d/2+T/2,w,H,T,mat.stone);for(const sign of[-1,1])box(cx+sign*(w/2-T/2),b+H/2,cz,T,H,d-2*T,mat.stone);
+    // Façana de la boca de foc: dos muntants, llinda i boca fosca.
+    for(const sign of[-1,1])box(cx+sign*(w/4+.45),b+H/2,cz+d/2-T/2,w/2-.9,H,T,mat.stone);box(cx,b+H-.6,cz+d/2-T/2,1.8,1.2,T,mat.stone);box(cx,b+.75,cz+d/2-T/2,1.0,1.5,T*.9,mat.dark);
+    box(cx,b+1.6,cz,w-2*T,.25,d-2*T,mat.dark);for(let i=0;i<3;i++)box(cx,b+1.9+i*.32,cz-d/4+i*.4,w-2*T-.2,.3,1.1,mat.tile);
+    // Rampa de terra posterior per carregar per dalt.
+    const rw=w,rl=4.5,g=new THREE.BufferGeometry(),y0=level0(cx,cz-d/2-rl)-b,v=[[-rw/2,H-.2,0],[rw/2,H-.2,0],[-rw/2,y0,-rl],[rw/2,y0,-rl],[-rw/2,y0,0],[rw/2,y0,0]];
+    g.setAttribute('position',new THREE.Float32BufferAttribute([0,2,1,1,2,3,0,4,2,1,3,5,4,5,2,2,5,3].flatMap(i=>v[i]),3));g.computeVertexNormals();emit(g,mat.soil,cx,b,cz-d/2);};
+   kiln(2,-4);kiln(9,-4);house(-8,-3,8.5,6,3.3);
+   // Era d'assecat amb fileres de maons i teules crues; pou d'argila al costat.
+   patch(2,5.5,20,6,mat.soil);for(let r=0;r<2;r++)for(let c=0;c<8;c++){const x=-6.5+c*2.2,z=4.2+r*2.6,y=ground(x,z);box(x,y+.35,z,1.4,.7,.9,mat.tile);}
+   patch(-9,6,6,5,mat.bed);for(const[x,z]of[[-12,3.5],[-6,8.5]]){const y=ground(x,z);box(x,y+.3,z,1.6,.6,1.1,mat.soil);}
+   for(const[x,z]of[[13,4],[13.6,5.2],[12.6,6.1]]){const y=ground(x,z);box(x,y+.45,z,1.2,.9,.4,mat.wood);}
+  }else if(s.kind==='quarry'){
+   // Pedrera de la Guardiola (N112 p.223–224): caseta al peu del front, aplecs de pedra i rastre de transport cap al camí del Cóc. Tot C.
+   const level0=(x:number,z:number)=>ground(x,z)+.04;
+   {const w=4.2,d=3.4,H=s.height,b=Math.max(level0(-w/2,-d/2),level0(w/2,d/2),level0(0,0));box(0,b-.2,0,w+.4,.4,d+.4,mat.stone);
+    const T=.45,q=wallSurfaceMesh(w,H,T,[{x:.6,width:1,height:1.9,bottom:0}],.1),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.stone,0,b,d/2-T/2);
+    box(0,b+H/2+.25,-d/2+T/2,w,H+.5,T,mat.stone);for(const sign of[-1,1])box(sign*(w/2-T/2),b+H/2+.12,0,T,H+.25,d-2*T,mat.stone);
+    const v=[[-w/2-.25,H+.55,-d/2-.3],[w/2+.25,H+.55,-d/2-.3],[-w/2-.25,H-.05,d/2+.35],[w/2+.25,H-.05,d/2+.35]],rg=new THREE.BufferGeometry();rg.setAttribute('position',new THREE.Float32BufferAttribute([0,2,1,1,2,3].flatMap(i=>v[i]),3));rg.computeVertexNormals();emit(rg,mat.tile,0,b,0);}
+   const blocks=(cx:number,cz:number,n:number,seed:number)=>{for(let i=0;i<n;i++){const r=Math.sin(seed*13.1+i*7.7)*.5+.5,x=cx+(i%3-1)*1.15+r*.3,z=cz+Math.floor(i/3)*.95,layer=i>=6?1:0,y=ground(x,z);box(x,y+.32+layer*.62,z,.9+r*.5,.62,.75+r*.25,mat.stone);}};
+   blocks(-7,-4,8,1);blocks(-11,2,6,2);blocks(6,-5,5,3);blocks(-3,5,7,4);
+   // Front d'extracció escalonat al costat de pujada (calculat sobre el MDT; posició i mida C).
+   {const gx=ground(12,0)-ground(-12,0),gz=ground(0,12)-ground(0,-12),L=Math.hypot(gx,gz)||1,ux=gx/L,uz=gz/L,r=Math.atan2(-ux,-uz);
+    const y0=ground(0,0);let reach=10;for(let d=5;d<=40;d++){if(ground(ux*d,uz*d)-y0>4){reach=d;break;}}
+    for(let k=0;k<4;k++){const dist=reach-3+k*2.4,cx=ux*dist,cz=uz*dist,yb=ground(ux*(dist-1.5),uz*(dist-1.5)),top=Math.min(yb+9,Math.max(yb+1.5,ground(cx+ux*2.4,cz+uz*2.4)+.2)),H=top-yb+.6;
+     emit(new THREE.BoxGeometry(18-k*3,H,2.6),mat.stone,cx,yb-.3+H/2,cz,r);}
+    for(let i=0;i<5;i++){const t=(i-2)*2.6,x=ux*(reach-5)-uz*t,z=uz*(reach-5)+ux*t,y=ground(x,z);box(x,y+.25,z,.8+.2*(i%2),.5,.7,mat.stone);}}
+   // Rastre de transport: travesses de fusta del carregador.
+   for(let i=0;i<7;i++){const x=4+i*1.9,z=3+i*.6,y=ground(x,z);box(x,y+.06,z,.25,.12,2.4,mat.wood);}
+   {const x=9,z=1.5,y=ground(x,z);box(x,y+.35,z,3.2,.18,1.5,mat.wood);for(const sx of[-1.1,1.1])box(x+sx,y+.17,z,.2,.34,1.6,mat.wood);}
   }else if(s.kind==='spring'){
    // Font de Burga: pica de pedra amb mur de fons, situada amb el full de 1913 respecte del mas.
    const y0=ground(0,0)+.05;
@@ -208,6 +248,43 @@ export function makeUrban(data:UrbanData,meta:Terrain,sample:(e:number,n:number)
    for(const x of[-w/2,w/2]){const end=new THREE.BufferGeometry(),vv=[[x,H,-d/2],[x,H,d/2],[x,H+rise,0]];end.setAttribute('position',new THREE.Float32BufferAttribute((x<0?[0,1,2]:[0,2,1]).flatMap(i=>vv[i]),3));end.computeVertexNormals();emit(end,mat.stone,0,base,0,0);}
    // Cambres interiors (D i E del plànol): envans que divideixen el cos en parts iguals.
    for(let k=1;k<=(s.partitions??0);k++){const x=-w/2+k*w/((s.partitions??0)+1);box(x,base+H/2,0,.4,H,d-2*Tm,mat.stone);}
+  }else if(s.kind==='convent-chapel'){
+   // Capella de les monges santjoanistes (Passatge / Carreró del Convent). Es conserva el mur del carrer amb una porta
+   // d'arc escarser i una petita espadanya (BCIL «Restes del Reial Monestir de Nostra Senyora»). Informe de 1785:
+   // «estrecha, baja de techo, mojarse cuando llueve, denegrida y húmeda»; s'hi havien enterrat difunts. Mides C.
+   const w=s.width,d=s.depth,H=s.height,Tm=.7,rise=Math.min(2,w*.34),base=Math.max(...[-w/2,0,w/2].flatMap(x=>[-d/2,0,d/2].map(z=>ground(x,z))))+.05;
+   group.userData.detailConfidence='C';
+   box(0,base-.6,0,w+.4,1.2,d+.4,mat.stone);
+   const wallPiece=(length:number,height:number,holes:any[],x:number,z:number,r:number)=>{const q=wallSurfaceMesh(length,height,Tm,holes,.1),g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(q.positions,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(q.normals,3));g.setIndex(q.indices);emit(g,mat.stone,x,base,z,r);};
+   // Façana al carrer: porta d'arc escarser amb brancals i dovelles de carreu.
+   const doorW=1.5,spring=2.15,archRise=.38;
+   wallPiece(w,H,[{x:0,width:doorW,height:spring+archRise,bottom:0}],0,d/2-Tm/2,0);
+   const zf=d/2+.03;
+   for(const sx of[-1,1]){for(let k=0;k<5;k++){const hh=spring/5;box(sx*(doorW/2+.22),base+hh*(k+.5),zf,(k%2?.36:.46),hh-.02,.12,mat.lime);}}
+   // Timpà sota l'arc i dovelles
+   const R=(doorW*doorW/4+archRise*archRise)/(2*archRise),cy=spring+archRise-R;
+   for(let i=0;i<9;i++){const t=-1+2*(i+.5)/9,x=t*doorW/2,y=cy+Math.sqrt(R*R-x*x),ang=Math.atan2(x,y-cy);
+     const v=new THREE.BoxGeometry(.24,.44,.14);v.rotateZ(-ang);emit(v,mat.lime,x+.22*Math.sin(ang),base+y+.22*Math.cos(ang),zf,0);
+     const fill=spring+archRise-y;if(fill>.02)box(x,base+y+fill/2,d/2-Tm/2,doorW/9+.01,fill,Tm-.02,mat.stone);}
+   box(0,base+1.1,d/2-Tm*.6,doorW-.06,2.2,.08,mat.wood);
+   // Mur de ponent: frontó i espadanya d'un ull amb campana.
+   const gable=new THREE.BufferGeometry(),gv=[[-w/2,H,d/2],[w/2,H,d/2],[0,H+rise,d/2],[-w/2,H,d/2-Tm],[w/2,H,d/2-Tm],[0,H+rise,d/2-Tm]];
+   gable.setAttribute('position',new THREE.Float32BufferAttribute([0,1,2,3,5,4,0,2,5,0,5,3,1,4,5,1,5,2].flatMap(i=>gv[i]),3));gable.computeVertexNormals();emit(gable,mat.stone,0,base,0,0);
+   const bw=1.5,bh=1.9,by=base+H+rise-.2,bz=d/2-Tm/2;
+   for(const sx of[-1,1])box(sx*(bw/2-.22),by+bh/2,bz,.44,bh,Tm,mat.stone);
+   box(0,by+.25,bz,bw,.5,Tm,mat.stone);box(0,by+bh-.2,bz,bw,.4,Tm,mat.stone);box(0,by+bh+.12,bz,bw+.2,.12,Tm+.12,mat.lime);
+   const bell=new THREE.CylinderGeometry(.16,.3,.5,10);emit(bell,mat.dark,0,by+1.05,bz,0);box(0,by+1.38,bz,.7,.06,.06,mat.wood);
+   // Murs laterals amb finestres altes i estretes; mur del capçal cec.
+   const slits=[-d/4,d/6].map(x=>({x,width:.35,height:.9,bottom:H-1.7}));
+   for(const sign of[-1,1])wallPiece(d-2*Tm,H,slits,sign*(w/2-Tm/2),0,sign*Math.PI/2);
+   wallPiece(w,H,[],0,-d/2+Tm/2,Math.PI);
+   const back=new THREE.BufferGeometry(),bv=[[-w/2,H,-d/2+Tm],[w/2,H,-d/2+Tm],[0,H+rise,-d/2+Tm],[-w/2,H,-d/2],[w/2,H,-d/2],[0,H+rise,-d/2]];
+   back.setAttribute('position',new THREE.Float32BufferAttribute([0,2,1,3,4,5,0,5,2,0,3,5,1,2,5,1,5,4].flatMap(i=>bv[i]),3));back.computeVertexNormals();emit(back,mat.stone,0,base,0,0);
+   // Cantoneres de carreu
+   for(const sx of[-1,1])for(const sz of[-1,1])for(let k=0;k<7;k++){const hh=H/7;box(sx*(w/2-.15),base+hh*(k+.5),sz*(d/2-.15)+(k%2?0:sz*.04),k%2?.42:.32,hh-.03,k%2?.32:.42,mat.lime);}
+   // Coberta de teula a dues aigües (vessants cap als laterals), amb ràfec.
+   const roof=new THREE.BufferGeometry(),ov=.35,rv=[[-w/2-ov,H-.1,d/2+.1],[-w/2-ov,H-.1,-d/2-.1],[0,H+rise,-d/2-.1],[0,H+rise,d/2+.1],[w/2+ov,H-.1,d/2+.1],[w/2+ov,H-.1,-d/2-.1]];
+   roof.setAttribute('position',new THREE.Float32BufferAttribute([0,2,1,0,3,2,4,2,3,4,5,2].flatMap(i=>rv[i]),3));roof.computeVertexNormals();emit(roof,mat.tile,0,base,0,0);
   }else if(s.kind==='enclosure'){
    // Corrals del recinte (plànol de 1748, F): parets baixes de pedra al llarg del polígon.
    const a=alongDegrees*Math.PI/180,toLocal=(e:number,n:number)=>{const dE=e-s.anchor[0],dN=n-s.anchor[1];return[dE*Math.cos(a)-dN*Math.sin(a),-dE*Math.sin(a)-dN*Math.cos(a)];};

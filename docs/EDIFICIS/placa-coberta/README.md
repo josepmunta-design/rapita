@@ -1,6 +1,6 @@
 # Plaça coberta i edifici superior
 
-Revisió: **01/11/2026** · mercat. Expedient per a reconstrucció i col·locació per èpoques.
+Revisió: **31/10/2026** · mercat. Expedient per a reconstrucció i col·locació per èpoques.
 
 [Índex dels expedients](../INDEX.md) · [Lectura en navegador](index.html) · [Fases estructurades](fases.json) · [Fonts completes](fonts.json) · [Paràmetres actuals](model-actual.json)
 
@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| placa-coberta | — | 296399.596 | 4499280.823 | Model d’assaig |
+| placa-coberta | — | 296391.361 | 4499287.625 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -60,9 +60,6 @@ Tipus: comparació. Data de construcció o canvi exacte: pendent si no està exp
 - [N033 · Reproducció fotogràfica de llibre sense portada](../fonts-20261031/originals/N033.jpg) · data original no fixada. Inspecció deltema i del peu visible. Data 20210810 és captura del llibre, no data històrica; autor i llibre no identificats.
 
 ## Aplicació al model i treball pendent
-
-Revisió visual del Palau: quatre columnes llises de doble alçària, bases motllurades i capitells, galeria profunda i cos de dues plantes. La comparació fotogràfica afegeix tres balcons de ferro, portals arquejats, sostre policrom, balustrada i remat corb. Vegeu [lectura de les cinc fotografies](../../PALAU_I_PLACA.md). Mètrica C i data de les reformes desconeguda; el pis modern addicional queda fora de la comparació.
-
 
 - [ ] Revisar la relació amb el tinglado de 12 i 9 pilastres abans d’unificar-ne la planta.
 - [ ] Preservar com aC les quatre columnes de l’assaig actual i la seva secció.

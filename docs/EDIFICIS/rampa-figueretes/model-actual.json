@@ -1,6 +1,6 @@
 {
   "entityId": "rampa-figueretes",
-  "captureDate": "2026-11-01",
+  "captureDate": "2026-10-31",
   "confidence": "C excepte observacions expressament identificades a les dades originals",
   "warning": "Paràmetres del prototip0.12.0. No són mesures històriques noves. La cota delMDT és contemporània; el suport és tècnic.",
   "snapshots": [
@@ -8,49 +8,562 @@
       "file": "public/data/urban-fabric.json",
       "data": {
         "id": "rampa-roquer",
-        "name": "Baixada del Pou de les Figueretes",
+        "name": "Rampa llarga del Pou de les Figueretes",
         "kind": "ramp",
-        "fromYear": 1794,
-        "width": 4,
-        "evidence": "H02, art. 23. Baixada llarga i mur de sosteniment; posició i secció C. Ajust relacional N112 il·l.4 (01/11/2026).",
+        "fromYear": 1778,
+        "width": 3.6,
+        "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
         "utmPoints": [
           [
-            296404.0215530871,
-            4499229.504624519
+            296423.934,
+            4499247.626
           ],
           [
-            296416.48432533804,
-            4499204.3432869585
+            296420.169,
+            4499240.638
           ],
           [
-            296435.751004384,
-            4499174.762531754
+            296417.4,
+            4499233.882
           ],
           [
-            296465.26106629637,
-            4499140.702322624
+            296415.975,
+            4499227.213
+          ],
+          [
+            296415.693,
+            4499221.124
+          ],
+          [
+            296417.383,
+            4499215.837
+          ],
+          [
+            296421.804,
+            4499210.051
+          ],
+          [
+            296426.19154989166,
+            4499204.768389186
+          ],
+          [
+            296432.058,
+            4499200.087
+          ],
+          [
+            296438.6,
+            4499196.715
+          ],
+          [
+            296444.139,
+            4499195.807
+          ],
+          [
+            296448.785,
+            4499195.685
+          ],
+          [
+            296452.016,
+            4499193.954
+          ],
+          [
+            296456,
+            4499182
+          ],
+          [
+            296465,
+            4499173
+          ],
+          [
+            296472,
+            4499164
+          ],
+          [
+            296474,
+            4499156
+          ],
+          [
+            296470,
+            4499143
+          ],
+          [
+            296464.50086275785,
+            4499136.308361412
           ]
         ],
+        "positionSource": {
+          "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+          "precisionMeters": 15
+        },
+        "wellOnAxis": "well",
         "points": [
           [
-            296404.0215530871,
-            4499229.504624519
+            296423.934,
+            4499247.626
           ],
           [
-            296416.48432533804,
-            4499204.3432869585
+            296420.169,
+            4499240.638
           ],
           [
-            296435.751004384,
-            4499174.762531754
+            296417.4,
+            4499233.882
           ],
           [
-            296465.26106629637,
-            4499140.702322624
+            296415.975,
+            4499227.213
+          ],
+          [
+            296415.693,
+            4499221.124
+          ],
+          [
+            296417.383,
+            4499215.837
+          ],
+          [
+            296421.804,
+            4499210.051
+          ],
+          [
+            296426.19154989166,
+            4499204.768389186
+          ],
+          [
+            296432.058,
+            4499200.087
+          ],
+          [
+            296438.6,
+            4499196.715
+          ],
+          [
+            296444.139,
+            4499195.807
+          ],
+          [
+            296448.785,
+            4499195.685
+          ],
+          [
+            296452.016,
+            4499193.954
+          ],
+          [
+            296456,
+            4499182
+          ],
+          [
+            296465,
+            4499173
+          ],
+          [
+            296472,
+            4499164
+          ],
+          [
+            296474,
+            4499156
+          ],
+          [
+            296470,
+            4499143
+          ],
+          [
+            296464.50086275785,
+            4499136.308361412
           ]
         ],
         "historicalWidth": null,
         "positionConfidence": "C"
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
+        "id": "mur-rampa-figueretes",
+        "name": "Mur de contenció de la rampa llarga",
+        "kind": "retaining-wall",
+        "fromYear": 1786,
+        "utmAnchor": [
+          296442.461,
+          4499196.4035
+        ],
+        "width": 58.29999999998836,
+        "depth": 104.72100000083447,
+        "height": 2.6,
+        "thickness": 1,
+        "baseWidth": 1.4,
+        "retainingLinesUTM": [
+          [
+            [
+              296421.821,
+              4499248.764
+            ],
+            [
+              296418.001,
+              4499241.668
+            ],
+            [
+              296415.109,
+              4499234.598
+            ],
+            [
+              296413.596,
+              4499227.531
+            ],
+            [
+              296413.311,
+              4499220.829
+            ],
+            [
+              296415.282,
+              4499214.677
+            ],
+            [
+              296419.926,
+              4499208.557
+            ],
+            [
+              296424.519,
+              4499203.047
+            ],
+            [
+              296430.751,
+              4499198.074
+            ],
+            [
+              296437.799,
+              4499194.453
+            ],
+            [
+              296443.898,
+              4499193.419
+            ],
+            [
+              296448.235,
+              4499193.349
+            ],
+            [
+              296449.893,
+              4499192.835
+            ],
+            [
+              296453.96,
+              4499180.736
+            ],
+            [
+              296463.206,
+              4499171.406
+            ],
+            [
+              296469.879,
+              4499162.877
+            ],
+            [
+              296471.611,
+              4499156.228
+            ],
+            [
+              296467.838,
+              4499144.043
+            ]
+          ]
+        ],
+        "evidence": "N112 art.23 p.221 i p.233: la rampa es reforçà amb un mur de contenció en tota la llargada, que també protegia els vianants (uns 6 m de desnivell al punt més alt). Traça paral·lela a l’eix C; alçària adaptada al terreny actual.",
+        "layoutSource": "Plànol de 1748 (redibuix) i N112 art.23",
+        "geometryConfidence": "C",
+        "anchor": [
+          296442.461,
+          4499196.4035
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 3.431594336891513,
+        "footprintUTM": [],
+        "accessRoutes": [
+          {
+            "id": "rampa-nord",
+            "name": "Baixada del Cóc a la dàrsena petita",
+            "kind": "ramp",
+            "fromYear": 1794,
+            "width": 5,
+            "utmPoints": [
+              [
+                296496.803657557,
+                4499321.639386091
+              ],
+              [
+                296514.0460651223,
+                4499323.918811755
+              ],
+              [
+                296516.9602237598,
+                4499293.763359852
+              ],
+              [
+                296530.432955724,
+                4499277.1857034005
+              ],
+              [
+                296543.0608277399,
+                4499261.482925037
+              ]
+            ],
+            "evidence": "H02, art. 22. Corredor d'assaig, amb recorregut adaptat per no travessar els models; no mesura el terraplè històric. Ajust relacional N112 il·l.4 (01/11/2026).",
+            "points": [
+              [
+                296496.803657557,
+                4499321.639386091
+              ],
+              [
+                296514.0460651223,
+                4499323.918811755
+              ],
+              [
+                296516.9602237598,
+                4499293.763359852
+              ],
+              [
+                296530.432955724,
+                4499277.1857034005
+              ],
+              [
+                296543.0608277399,
+                4499261.482925037
+              ]
+            ],
+            "historicalWidth": null,
+            "positionConfidence": "C"
+          },
+          {
+            "id": "rampa-sud",
+            "name": "Baixada del Cóc al port",
+            "kind": "ramp",
+            "fromYear": 1794,
+            "width": 5,
+            "evidence": "H02, art. 22. Rampa de connexió al port; geometria i acabats C. Ajust relacional N112 il·l.4 (01/11/2026).",
+            "utmPoints": [
+              [
+                296485.9899300483,
+                4499293.443817338
+              ],
+              [
+                296504.8019849539,
+                4499287.094534683
+              ],
+              [
+                296513.085484672,
+                4499268.887194614
+              ],
+              [
+                296511.02053803694,
+                4499249.1402253425
+              ],
+              [
+                296499.60209569253,
+                4499235.577438961
+              ]
+            ],
+            "points": [
+              [
+                296485.9899300483,
+                4499293.443817338
+              ],
+              [
+                296504.8019849539,
+                4499287.094534683
+              ],
+              [
+                296513.085484672,
+                4499268.887194614
+              ],
+              [
+                296511.02053803694,
+                4499249.1402253425
+              ],
+              [
+                296499.60209569253,
+                4499235.577438961
+              ]
+            ],
+            "historicalWidth": null,
+            "positionConfidence": "C"
+          },
+          {
+            "id": "rampa-roquer",
+            "name": "Rampa llarga del Pou de les Figueretes",
+            "kind": "ramp",
+            "fromYear": 1778,
+            "width": 3.6,
+            "evidence": "Plànol de 1748 (redibuix): camí al peu del cantell amb una filera d’arbres a cada costat i el pou G al mig. N112 art.23 p.221: rampa llarga que baixava al moll gran vorejant la bateria, anterior a les obres i millorada amb mur de contenció en tota la llargada (fins a uns 6 m de desnivell). Revisió 08/11/2026: el traç anterior travessava la bateria i deixava el pou fora del camí.",
+            "utmPoints": [
+              [
+                296423.934,
+                4499247.626
+              ],
+              [
+                296420.169,
+                4499240.638
+              ],
+              [
+                296417.4,
+                4499233.882
+              ],
+              [
+                296415.975,
+                4499227.213
+              ],
+              [
+                296415.693,
+                4499221.124
+              ],
+              [
+                296417.383,
+                4499215.837
+              ],
+              [
+                296421.804,
+                4499210.051
+              ],
+              [
+                296426.19154989166,
+                4499204.768389186
+              ],
+              [
+                296432.058,
+                4499200.087
+              ],
+              [
+                296438.6,
+                4499196.715
+              ],
+              [
+                296444.139,
+                4499195.807
+              ],
+              [
+                296448.785,
+                4499195.685
+              ],
+              [
+                296452.016,
+                4499193.954
+              ],
+              [
+                296456,
+                4499182
+              ],
+              [
+                296465,
+                4499173
+              ],
+              [
+                296472,
+                4499164
+              ],
+              [
+                296474,
+                4499156
+              ],
+              [
+                296470,
+                4499143
+              ],
+              [
+                296464.50086275785,
+                4499136.308361412
+              ]
+            ],
+            "positionSource": {
+              "text": "Píxels del camí arbrat al redibuix de 1748 amb la mateixa transformació que el pou G, la torre i la bateria (±15 m). Tram final fins al moll gran C.",
+              "precisionMeters": 15
+            },
+            "wellOnAxis": "well",
+            "points": [
+              [
+                296423.934,
+                4499247.626
+              ],
+              [
+                296420.169,
+                4499240.638
+              ],
+              [
+                296417.4,
+                4499233.882
+              ],
+              [
+                296415.975,
+                4499227.213
+              ],
+              [
+                296415.693,
+                4499221.124
+              ],
+              [
+                296417.383,
+                4499215.837
+              ],
+              [
+                296421.804,
+                4499210.051
+              ],
+              [
+                296426.19154989166,
+                4499204.768389186
+              ],
+              [
+                296432.058,
+                4499200.087
+              ],
+              [
+                296438.6,
+                4499196.715
+              ],
+              [
+                296444.139,
+                4499195.807
+              ],
+              [
+                296448.785,
+                4499195.685
+              ],
+              [
+                296452.016,
+                4499193.954
+              ],
+              [
+                296456,
+                4499182
+              ],
+              [
+                296465,
+                4499173
+              ],
+              [
+                296472,
+                4499164
+              ],
+              [
+                296474,
+                4499156
+              ],
+              [
+                296470,
+                4499143
+              ],
+              [
+                296464.50086275785,
+                4499136.308361412
+              ]
+            ],
+            "historicalWidth": null,
+            "positionConfidence": "C"
+          }
+        ],
+        "collisionFootprintsUTM": []
       }
     }
   ]

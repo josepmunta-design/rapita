@@ -16,6 +16,41 @@
       }
     ]
   },
-  "studyPositions": [],
+  "studyPositions": [
+    {
+      "modelId": "pedrera-guardiola",
+      "anchor": [
+        295880,
+        4499662
+      ],
+      "footprintUTM": [
+        [
+          295884.81104676006,
+          4499645.181741199
+        ],
+        [
+          295892.57561811316,
+          4499674.159515989
+        ],
+        [
+          295875.18895323994,
+          4499678.818258801
+        ],
+        [
+          295867.42438188684,
+          4499649.840484011
+        ]
+      ],
+      "alongAzimuthDegrees": -75,
+      "planLetter": null,
+      "projectOnly": false,
+      "positionSource": {
+        "text": "Peu del front oriental de la Guardiola, on el MDT actual mostra un tall i una plataforma a uns 40 m. Aquest front pot incloure extraccions posteriors; el punt de la caseta és indicatiu.",
+        "precisionMeters": 80
+      },
+      "source": "public/data/urban-fabric.json",
+      "confidence": "C posició del prototip, no punt històric mesurat"
+    }
+  ],
   "warning": "EPSG:25831 correspon al model; no s’atribueix als plànols antics. La planta històrica i l’error d’ajust continuen desconeguts."
 }

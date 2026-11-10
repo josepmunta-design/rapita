@@ -42,6 +42,7 @@
       "font-burga"
     ],
     "capella-convent": [
+      "esglesia-convent",
       "capella-1748"
     ],
     "convent-masoveria": [
@@ -87,29 +88,39 @@
     ],
     "rampa-figueretes": [
       "rampa-roquer",
-      "pilar-trail"
+      "pilar-trail",
+      "mur-rampa-figueretes"
     ],
     "paredo-poblacio": [
       "paredo-poblacio"
+    ],
+    "casa-bous": [
+      "casa-bous"
+    ],
+    "rajolar": [
+      "rajolar-rabosa"
+    ],
+    "pedrera-guardiola": [
+      "pedrera-guardiola"
+    ],
+    "darsena-petita": [
+      "darsena-petita",
+      "enclusa-gran"
     ]
   },
   "prefixes": {
     "rental-cohort-1788-": "cases-lloguer-1788"
   },
   "withoutModel": {
-    "casa-bous": "Masia sense afrontacions localitzades (procés 1796,7F); no es col·loca a l'atzar.",
-    "rajolar": "Coordenades no fixades: «partida de la Rabosa, en terres de les Santjoanistes».",
-    "pedrera-guardiola": "Pedrera i caseta sense data ni posició; només el camí és documentat.",
     "torre-codonyol": "«Al sud del nucli», sense control cartogràfic: l'expedient no n'autoritza una posició individual.",
     "torre-sant-joan": "«A la plana litoral del delta»; cap relació amb un punt del nucli que permeti col·locar-la.",
     "locals-comercials": "Fotografies de 1914–1935 sense identificació d'immobles ni solars: no hi ha una posició que permeti dibuixar-los.",
     "canal-antic": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
     "darsena-gran": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
-    "darsena-petita": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
     "amposta-capcalera": "Infraestructura del paisatge interpretat; es consulta des del tauler Litoral.",
     "propietats-privades": "38 registres mixtos sense identificació individual: no es dibuixen.",
     "cases-lloguer-1788": "Es representen amb els dotze cossos del testimoni de 1788–1789.",
-    "molinet": "Solar del canal vell encara no georeferenciat. Posició anterior del braç nou rebutjada; l’expedient es conserva."
+    "molinet": "Posició estimada per N112 il·l.3 zona D (E 298.788 / N 4.499.661, ±80 m), fora del terreny modelat (límit E 298.350): no es pot emplaçar en 3D. La posició antiga del braç nou continua rebutjada."
   },
   "activeSceneRange": [
     1778,
@@ -119,11 +130,11 @@
     "companyia-canal": "Revisió 2/11/2026: models aportats de Les Casotes cap al 1858 i actual. Oficines i tallers, amb onze arcades llargues, tres laterals i teulada a quatre aigües. Dimensions C estimades de 33 × 15,3 m i carena a 8,65 m. Es manté la posició marcada per Josep (E 296840 / N 4499555) i el gir de 12°. Les dues cases de guarda només es mostren a petició amb avís de distribució hipotètica; la distància de 45 m i separació de 22 m no estan verificades. El magatzem semisoterrat i les obres hidràuliques són peces diferents, sense posició confirmada. La plataforma és un suport tècnic, no una delimitació històrica del recinte.",
     "far-sant-carles": "Revisió 2/11/2026: substitució del volum anterior pels models del paquet Faro. Planta documentada de 13,10 × 13,10 m, terrat pla i torre central. Fases 1862/1864, llanterna de 1920 i òptica de 1975; façanes blanques i terrat vermellós només en comparació actual. Posició de treball de la platja del Far (±150 m), orientació d’assaig; alçada total i detalls aproximats.",
     "mataredona": "Conjunt del Mas de Mataredona a partir de la fotografia N100 (sense data original: mas amb volums de pedra, parets sense coberta i bancals) i del full topogràfic de 1913 (N111), que hi marca la «Masia de Matarredona» i, més a l'est, la casilla de Don Juan Manuel Bosch i el Mas d'en Balaguer, que no es representen. La Font de Burga té el seu propi expedient. Es mostra a partir del testimoni de 1913: no es retroprojecta al 1800 ni es data la ruïna. Plantes i volums C; el conjunt mira cap avall de la vall.",
-    "sant-elm": "Campanar a l'extrem dret de la façana vista de front, llegit a N076, N083 i N058 (vistes sense data original; N083 [1935]). Fins al testimoni de 1935 es mostra inacabat, com diu l'inventari de 1794 («falta un tram»); des de 1935 apareix amb cos de campanes de maó, dos arcs i rellotge. La data d'acabament és desconeguda i les proporcions són C.",
+    "sant-elm": "Revisió 08/11/2026: façana a la línia de les cases (−23 m), tocant l’illa sud de cases cobertes; carrer de l’església de 6 m fins a les quatre porxades.",
     "esglesia-nova": "El portal amb arc i muntants, el sòcol i les cornises de les finestres vénen de N075, N077 i N080 (ruïna posterior): es mostren com a detall C de la façana, no com a estat mesurat de 1794.",
-    "duana-nova": "Edifici de pedra 12 recol·locat respecte de les rampes i Fonda Vella segons N112 il·l.4. Estructura i variants arquitectòniques preservades; ajust C.",
-    "casa-white": "Edifici de pedra 13 al costat oriental de la Fonda Nova. Estructura preservada; emplaçament relacional C segons N112 il·l.4.",
-    "cases-porxos": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
+    "duana-nova": "Revisió 08/11/2026: recol·locada al solar núm. 6 de la subhasta de 1868 (N112 p.217 n.80: nord plaça Major, sud plaça Vella, oest carreró, 520,555 m²), entre el Cóc i la plaça Vella de l’Alcalde Ballada. Model nou src/encoixinat.ts: planta baixa de carreus encoixinats amb portals d’arc i dovelles, imposta, pis de maçoneria, coronament inacabat, sense coberta. Vegeu docs/1800-1900/PLAZA-20261108.md.",
+    "casa-white": "Revisió 08/11/2026: es manté el núm. 13 del croquis a l’extrem de llevant del Cóc. Mateix model encoixinat que la duana («idèntic», N112 p.217), amb bastida i cabria de l’obra privada en curs.",
+    "cases-porxos": "Revisió 08/11/2026: les quatre porxades són contigües i toquen la font occidental, a continuació de les rodones (N112 p.210). Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
     "unitat-royal-portico-01": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
     "unitat-royal-portico-02": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
     "unitat-royal-portico-03": "Els deu cossos rodons formen un semicercle obert: al mig hi ha un pas de carrer, amb cinc cossos a cada banda (N030, N031 i N102; H02 p.210 nota 60: «cinc arcs centrals per cada costat»). L'amplada del pas (uns 8 m al radi mitjà) i la seva alineació són C. Les quatre cases rectes continuen sense col·locació confirmada a l'oest. Reajust del Roquer: Reajust del semicercle complet per deixar lliure la capella C de 1748 i conservar les fonts i els camins: centre local (-2, -118) m. Radis, pas i deu cossos conservats; posició C.",
@@ -142,15 +153,15 @@
     "font-est": "Parella simètrica de la font occidental, amb la mateixa forma (fotografia de 1916, N081 i N032); només la font occidental porta l'esfera del rellotge, perquè només un rellotge consta instal·lat. aportada per l'usuari (uns 4,2 × 0,72 m i 6,7 m d'alçària, estimats). Les degradacions de 1916 només es mostren des d'aquest any.",
     "font-burga": "Pica de pedra amb mur de fons d'assaig: cap font en descriu l'aspecte. Es mostra a partir del testimoni de 1913 i no es retroprojecta al 1800.",
     "torre-rapita": "Planta A i porció O traçades al redibuix de 1748 amb la mateixa transformació que la costa i el recinte. A és la part existent; O es consulta com a projecte daurat. El visor manté la reparació de 1780 com a fase posterior. Alçàries, obertures i persistència C.",
-    "bateria-roquer": "El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. La bateria parcial posterior conserva la planta T-6/8 de vuit canons i sis peces el 1794; centre i orientació reajustats al sector H, sense identificar els dos projectes. La muralla existent segueix la traça rosa amb tres ressalts.",
-    "capella-convent": "La capella C segueix la planta del redibuix de 1748 sense desplaçament individual. El semicercle de porxos d’assaig s’ha mogut 1 m cap a ponent per evitar el creuament. Alçària i coberta C; el testimoni de 1782 descriu humitats i usos de corral.",
+    "bateria-roquer": "El projecte de 1748 (H, I, K, L, M, N, O) té plantes traçades i es consulta amb línies daurades a Litoral → Obres projectades el 1748. Aquest mode oculta la bateria posterior per evitar superposar dos projectes. Revisió 09/11/2026: la bateria es conserva parcialment sota el mercat municipal; la planta T-6/8 de vuit canons s’encaixa al front corbat conservat (ortofoto ICGC 2024, RMS 0,20 m, 28,5 m d’amplada, eix 130,9°) i el plànol de 1748 es registra amb aquest front i amb el camí del pou G. La muralla rosa de 1748 queda substituïda pel flanc SW de la bateria des del 1780.",
+    "capella-convent": "Revisió 09/11/2026: la capella es col·loca al punt de les restes conservades del Passatge / Carreró del Convent (BCIL; mur amb porta d’arc escarser i espadanya), a la línia de façana actual i davant del tinglado (N112 p.215). La capella C del plànol de 1748 registrat queda a 9 m. Nau de 5,5 × 11 m, baixa i humida segons l’informe de 1785; mides C.",
     "convent-masoveria": "Hostal B i tres corrals F, amb els murs del recinte, traçats com a peces diferenciades al redibuix. Els quarters D i E i la capella C tenen expedients vinculats. No es reconstrueix un claustre complet ni s’identifica l’hostal B amb la Fonda Vella dels Lantí, que és una altra hipòtesi documental.",
     "cavallerisses-roquer": "Tres peces D de cavalleria i tres peces E d’infanteria segueixen les plantes individuals traçades al redibuix de 1748. S’eliminen els rectangles agregats anteriors. Les dependències de 1781 continuen com a cos d’assaig diferenciat, sense identificar-les documentalment amb D o E.",
-    "pou-figueretes": "Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb la mateixa escala i rotació que el recinte. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.",
+    "pou-figueretes": "Pou G traçat al punt (723, 567) del redibuix de 1748 i transformat amb el registre de 09/11/2026 (0,119 m/px, 138,7°): cau sobre l’eix de l’actual carrer del Pou de les Figueretes, que li dona nom. No s’utilitza el trasllat de 1971. Brocal, alçària i cota d’assaig.",
     "cisterna-fossat-roquer": "I és la cisterna projectada el 1748 i apareix en daurat. La cisterna posterior excavada el 1780 es representa de manera parcial al mateix sector funcional com a ajust d’assaig, sense afirmar identitat ni execució del dibuix de 1748.",
-    "cases-petites": "Reajust de les tres fileres a terra ferma, fora de la costa traçada i de les rampes: es mantenen les 14 unitats i els seus estats, sense validar parcel·les individuals.",
+    "cases-petites": "Catorze unitats en tres agrupacions curtes al front de mar, seguint la inflexio de la costa i deixant pas entre els conjunts. Lectura relacional de la carta de 1813: sense georeferenciacio de parcelles individuals; posicions C.",
     "cova-roquer": "Tres galeries cegues amb la mateixa roca i color que la ladera, coberta compartida i transició de terreny als laterals i al darrere. El sòlid ja no se superposa a una segona pell de terreny. Posició del comentari de Josep preservada; forma C.",
-    "placa-coberta": "Revisió 1/11/2026: quatre columnes de doble alçària amb bases i capitells, cos de dues plantes i galeria oberta. La comparació amb N030 i les cinc fotos de docs/Palau de la plaça carles III afegeix balcons, sostre policrom, balustrada i remat corb. Data original no confirmada; no s’activa per any ni inclou el pis modern addicional. Mètrica i emplaçament C.",
+    "placa-coberta": "Revisió 08/11/2026: simètrica a l’església (façana a +23 m, mateix eix). Entarimat sobre les bigues de la planta baixa coberta; cos superior sense coberta.",
     "fonda-nova": "Un edifici continu en U oberta a llevant, amb murs únicament al perímetre, una sola cota de cornisa i coberta unida a les dues cantonades. Substitueix les dues peces reservades, sense sumar unitats a l’inventari. Forma relacional C segons N112 il·l.4.",
     "cases-talavera": "Conjunt continu en U oberta a ponent, al nord de la Fonda Nova. Perímetre únic, pati buit i coberta contínua a les cantonades; no tres edificis independents. Forma relacional C segons N112 il·l.4.",
     "mancana-nova": "El núm.8 del croquis correspon a l’illa residencial occidental, ja representada. Es retira el segon rectangle que ocupava el jardí botànic. La fitxa conserva el testimoni, sense duplicar-ne el volum.",
@@ -159,12 +170,20 @@
     "hort-rei-nord": "Recinte a ponent del jardí botànic, al nord del camí de la Pedrera, seguint N112 il·l.4.",
     "hort-rei-sud": "Recinte amb sínia al sud del camí de la Pedrera i a ponent dels habitatges, seguint N112 il·l.4.",
     "canal-amposta": "Braç terminal 19 redibuixat amb dues vores, fins a la boca septentrional de la dàrsena gran. Corredor llarg cap a Amposta preservat; traçat local d’assaig C.",
-    "darsena-gran": "Port de l’escenari de 1800, amb dos braços oblics i boca lateral oberta. Làmina d’aigua, fons, molls i recorregut a peu comparteixen la planta de N112 il·l.4.",
+    "darsena-gran": "Revisió 08/11/2026: el costat de terra segueix la línia punteada «costa estimada» de N112 il·l.4; el braç 19 hi entra per la cantonada NW sense travessar el mar. Expedient del canal a docs/CANAL.",
     "paredo-poblacio": "Els dos trams del mur de sosteniment núm.24 segueixen el croquis N112 il·l.4: al costat oriental de Talavera/Fonda i al marge dels Horts de les Monges. Maçoneria amb base lleugerament atalussada i coronament seguint el terreny interior; passos de rampa rebaixats. No és una muralla defensiva. Secció i cotes d’assaig C.",
     "forn-moli-guix": "Revisió litoral · 08/11/2026: la posició anterior no seguia la Fonda Vella del croquis i quedava dins de l’aigua. Es recol·loca al nord de la fonda, com indiquen les afrontacions de 1782 (N112 p.211). La separació de 3 m i les coordenades són d’assaig C, no una parcel·la ni distància documentades. La costa no es modifica.",
     "barraques-obrers": "Revisió litoral · 08/11/2026: la distribució anterior tallava el llit del canal. Les dotze barraques de N029 (13/11/1780) s’assagen en dues fileres paral·leles a la riba occidental, amb 3 m de separació del marge. Costat, separació i emplaçaments individuals C; nombre de dotze conservat. El canal no es modifica.",
     "sanitat-moll": "Revisió litoral · 08/11/2026: N112 art.18 p.232 situa l’oficina de Sanitat al cap de la dàrsena. Es conserva el sector d’assaig i s’ajusta 0,21 m a l’eix del moll, amb el mateix angle que el dic. Tota la planta recolza al moll de 4,2 m; no s’amplia la terra ni el moll. Posició i dimensions C.",
-    "molinet": "Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa."
+    "molinet": "Revisió litoral · 08/11/2026: retirada la posició anterior al costat del braç nou, que envaïa l’aigua. N112 il·l.3 (zona D) i p.223, i art.30 p.234 situen el molí al final del canal vell, a la zona de la platja del Molinet. Es manté l’expedient i el model d’estudi sense emplaçament actiu fins a disposar d’un solar georeferenciat. No es trasllada a la riba del canal nou ni s’amplia la costa.",
+    "casa-bous": "Revisió 08/11/2026: masia i corral C emplaçats per topònim de partida (Horta Vella, ICGC i N112 il·l.3) a l’est del canal, ±300 m. No és el solar documentat; cal recuperar les afrontacions del procés de 1796.",
+    "rajolar": "Revisió 08/11/2026: dos forns mediterranis, casa i era d’assecat C a la partida de la Rabosa (topònim ICGC i N112 il·l.3), ±350 m. Visible des de 1786 per la retrospecció de la reclamació de 1796.",
+    "pedrera-guardiola": "Revisió 08/11/2026: caseta, aplecs i front escalonat C al peu del tall oriental de la Guardiola que mostra el MDT actual (±80 m). El tall actual pot incloure extraccions posteriors.",
+    "darsena-petita": "Revisió 08/11/2026: dàrsena petita acabada i enclusa gran començada a la zona C de N112 il·l.3 (georeferenciada, ±50 m). Cambra seca sense portes, aplecs de carreus tallats; el braç 19 continua fins a la dàrsena gran. Botó Litoral → Dàrsena petita.",
+    "canal-antic": "Revisió 08/11/2026: el tram final ja no passa pel mar. Canal → dàrsena petita (zona C) → braç 19 en terra → dàrsena gran. Costa NE corregida: la plana de l’Horta Vella i la Rabosa és terra. Vegeu docs/CANAL/README.md.",
+    "tinglado": "Revisió 08/11/2026: traslladat a la hipòtesi de N112 p.215 n.79, entre la plaça coberta (Casa Laureano) i les cases rodones, amb els cinc arcs a la línia oriental de la plaça.",
+    "cases-acabades": "Revisió 08/11/2026: 11 a l’illa occidental nord, 9 a la nova illa oriental central del croquis i 2 reservades dins la Fonda Nova. Totals de 1794 conservats.",
+    "rampa-figueretes": "Revisió 08/11/2026: eix del camí arbrat del plànol de 1748 passant pel pou G, tram final vorejant la bateria fins al moll gran (N112 art.23) i mur de contenció al costat alt."
   },
   "positions": {
     "companyia-canal": {
@@ -182,6 +201,21 @@
     "font-burga": {
       "text": "Llegida al full topogràfic de 1913 uns 640 m a l'est i 120 m al nord del mas (±60 m); cota del MDT de 50 m de 412 m, al barranc que baixa cap a l'est.",
       "url": null
+    },
+    "casa-bous": {
+      "text": "E 297160 / N 4500330 m, EPSG:25831, ±300 m · topònim de partida. Revisió 08/11/2026 (docs/CANAL)."
+    },
+    "rajolar": {
+      "text": "E 297700 / N 4500300 m, EPSG:25831, ±350 m · topònim de partida. Revisió 08/11/2026 (docs/CANAL)."
+    },
+    "pedrera-guardiola": {
+      "text": "E 295880 / N 4499662 m, EPSG:25831, ±80 m · tall del MDT actual al peu de la Guardiola. Revisió 08/11/2026 (docs/CANAL)."
+    },
+    "darsena-petita": {
+      "text": "E 296665 / N 4499554 m, EPSG:25831, ±50 m · N112 il·l.3 zona C georeferenciada. Revisió 08/11/2026 (docs/CANAL)."
+    },
+    "molinet": {
+      "text": "E 298788 / N 4499661 m, EPSG:25831, ±80 m · N112 il·l.3 zona D georeferenciada; fora del terreny modelat. Revisió 08/11/2026 (docs/CANAL)."
     }
   },
   "phaseRules": {

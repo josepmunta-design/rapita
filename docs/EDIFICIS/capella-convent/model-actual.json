@@ -7,23 +7,78 @@
     {
       "file": "public/data/urban-fabric.json",
       "data": {
+        "id": "esglesia-convent",
+        "name": "Capella del convent de les monges",
+        "kind": "convent-chapel",
+        "fromYear": 1778,
+        "townAnchor": [
+          46.5,
+          -93.6
+        ],
+        "alongAzimuthDegrees": 109,
+        "width": 5.5,
+        "depth": 11,
+        "height": 5.2,
+        "remainsUTM": [
+          296398.9,
+          4499262.4
+        ],
+        "remains": "Mur del carrer amb porta d’arc escarser, brancal de carreus i petita espadanya (BCIL, Passatge del Convent).",
+        "evidence": "Restes conservades al Passatge / Carreró del Convent (BCIL; Pobles de Catalunya 18369; foto de castillosricsol): porta d’arc escarser i espadanya al mur del carrer. Capella C del plànol de 1748. N112 p.215: el tinglado era davant de la capella del convent. Informe de 1785: capella estreta, baixa, humida i amb enterraments a dins.",
+        "limits": "La façana segueix la línia del carrer al punt de les restes; mida de la nau, alçària, coberta i finestres C. No es reconstrueix el claustre ni la resta del monestir medieval.",
+        "positionSource": {
+          "text": "Coordenades de l’inventari (40,619122 N, 0,593016 E) i línia de façana actual del topogràfic ICGC 1:1.000. A 9 m de la capella C del plànol de 1748 registrat.",
+          "precisionMeters": 3
+        },
+        "geometryConfidence": "C",
+        "anchor": [
+          296402.8479345082,
+          4499261.089142142
+        ],
+        "historicalFootprint": null,
+        "historicalHeight": null,
+        "inventoryIncrement": 0,
+        "technicalBaseElevation": 8.88836434136221,
+        "footprintUTM": [
+          [
+            296398.54289476713,
+            4499265.479943074
+          ],
+          [
+            296396.75226991763,
+            4499260.279590908
+          ],
+          [
+            296407.1529742492,
+            4499256.698341209
+          ],
+          [
+            296408.9435990987,
+            4499261.898693375
+          ]
+        ]
+      }
+    },
+    {
+      "file": "public/data/urban-fabric.json",
+      "data": {
         "id": "capella-1748",
         "name": "Capella de les monges Santjoanistes",
         "kind": "stonehouse",
         "fromYear": 1778,
         "utmAnchor": [
-          296375.7488379496,
-          4499230.047844276
+          296404.18627365655,
+          4499251.159292147
         ],
         "alongAzimuthDegrees": 0,
-        "width": 3.641499391756952,
-        "depth": 4.7906176801770926,
+        "width": 6.008148527587764,
+        "depth": 6.799027276225388,
         "height": 5.5,
         "evidence": "Plànol de 1748, C: Capella de les monges Santjoanistes. Planta traçada al redibuix aportat; alçària, obertures i persistència posterior C.",
         "positionSource": {
-          "text": "Traça manual del redibuix de 1748: mateixa transformació que la superposició (ancoratge a la Torre, 0,101 m/px, 161°). Sense desplaçaments individuals. Ajust relatiu al dibuix; coordenades absolutes C, ±15 m; no és una mesura històrica.",
+          "text": "Traça manual del redibuix de 1748 amb la mateixa transformació que la superposició (0,119 m/px, 138,689°; registre amb punts de control conservats: bateria sota el mercat, camí i pou G al carrer del Pou de les Figueretes). Sense desplaçaments individuals; ±3 m.",
           "url": null,
-          "precisionMeters": 15
+          "precisionMeters": 3
         },
         "planLetter": "C",
         "planPixels": [
@@ -46,46 +101,49 @@
         ],
         "polygonUTM": [
           [
-            296377.51386939554,
-            4499227.6508654235
+            296405.0380326414,
+            4499247.757071511
           ],
           [
-            296374.0007497635,
-            4499227.685512945
+            296401.22418507084,
+            4499249.366225544
           ],
           [
-            296373.9196166238,
-            4499232.413515632
+            296403.2505433156,
+            4499254.556098787
           ],
           [
-            296377.56111601554,
-            4499232.441483104
+            296407.2323335984,
+            4499252.957772743
           ]
         ],
+        "toYear": 1777,
+        "replacedBy": "esglesia-convent",
+        "replacementNote": "La capella C del plànol de 1748 és la mateixa capella del convent; des del 09/11/2026 es dibuixa a la posició de les restes conservades (9 m de diferència, dins la tolerància del redibuix).",
         "anchor": [
-          296375.7488379496,
-          4499230.047844276
+          296404.18627365655,
+          4499251.159292147
         ],
         "historicalFootprint": null,
         "historicalHeight": null,
         "inventoryIncrement": 0,
-        "technicalBaseElevation": 9.438320281832082,
+        "technicalBaseElevation": 8.471569855208376,
         "footprintUTM": [
           [
-            296377.51386939554,
-            4499227.6508654235
+            296405.0380326414,
+            4499247.757071511
           ],
           [
-            296374.0007497635,
-            4499227.685512945
+            296401.22418507084,
+            4499249.366225544
           ],
           [
-            296373.9196166238,
-            4499232.413515632
+            296403.2505433156,
+            4499254.556098787
           ],
           [
-            296377.56111601554,
-            4499232.441483104
+            296407.2323335984,
+            4499252.957772743
           ]
         ]
       }

@@ -18,7 +18,7 @@ Certesa: B relacional / C mètrica.
 
 | Model | Lletra | E (m) | N (m) | Estat |
 |---|---|---:|---:|---|
-| duana-nova | — | 296463.528 | 4499287.815 | Model d’assaig |
+| duana-nova | — | 296454.830 | 4499309.926 | Model d’assaig |
 
 Plantes i orientacions completes a `ubicacio.json`; valors generats directament dels mateixos fitxers que el mapa. No són punts històrics mesurats.
 
@@ -52,9 +52,6 @@ Tipus: testimoni. Data de construcció o canvi exacte: pendent si no està expre
 - [N040 · Cóc i baixada de Sant Francesc](../fonts-20261031/originals/N040.jpg) · 1890. Peu diu Foto año 1890; atribució editorial pendent decontrast amb original.
 
 ## Aplicació al model i treball pendent
-
-**Ajust al croquis de referència · 01/11/2026:** Edifici de pedra 12 recol·locat respecte de les rampes i Fonda Vella segons N112 il·l.4. Estructura i variants arquitectòniques preservades; ajust C. [Criteris i verificació](../../AJUST_PLANTA_1800.md).
-
 
 - [ ] Datar després de la venda els pisos o cobertes que mostren fotos posteriors.
 - [ ] No presentar 520,555 m² com a superfície mesurada de 1794.

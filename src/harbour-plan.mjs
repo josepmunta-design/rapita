@@ -2,7 +2,7 @@
 export function harbourPhaseAt(history,year){return [...history.phases].reverse().find(p=>p.fromYear<=year)??null;}
 export function harbourData(base,phase){
  if(!phase)return base;
- return {...base,shorelineStudy:[...base.shorelineStudy.filter(p=>p[1]>phase.shore[0][1]),...phase.shore,...base.shorelineStudy.filter(p=>p[1]<phase.shore.at(-1)[1])],roquerCoast:null,basins:[],harbourPhase:phase};
+ return {...base,shorelineStudy:[...((north)=>north.length?[...north,[north.at(-1)[0],phase.shore[0][1]+.001]]:[])(base.shorelineStudy.filter(p=>p[1]>phase.shore[0][1]+.001)),...phase.shore,...base.shorelineStudy.filter(p=>p[1]<phase.shore.at(-1)[1])],roquerCoast:null,basins:[],harbourPhase:phase};
 }
 export function inPolygon(e,n,poly){
  let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){
