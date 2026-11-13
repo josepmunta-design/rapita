@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import {toWorld} from './geo.mjs';
 import {environmentPlan} from './environment-plan.mjs';
 import {surfaceMaterial} from './vernacular.ts';
-import {groundRealism,terraNoiseGLSL,groundColorGLSL,groundNormalGLSL} from './visual-ground.ts';
+import {groundRealism,terraNoiseGLSL,groundColorGLSL,groundPlateGLSL,groundNormalGLSL} from './visual-ground.ts';
 import type {Terrain} from './terrain';
 
 /** World-space colour grain; does not displace vertices or alter measured elevations. */
@@ -28,13 +28,14 @@ export function groundDetail(material:THREE.MeshStandardMaterial){
     float groundTone=.86+.20*groundNoise(vGroundXZ*.13)+.09*groundNoise(vGroundXZ*1.2)+grainFade*.05*(groundNoise(vGroundXZ*7.0)-.5);
     diffuseColor.rgb*=mix(1.0,groundTone,groundDetailStrength);
    }
-   ${groundColorGLSL}`);
+   ${groundColorGLSL}
+   ${groundPlateGLSL}`);
   shader.fragmentShader=shader.fragmentShader.replace('#include <normal_fragment_maps>',`#include <normal_fragment_maps>
    ${groundNormalGLSL}`);
  };
- material.customProgramCacheKey=()=>key+'-rapita-ground-detail-3';material.needsUpdate=true;
- // `enabled` is the documentary grain of the «Detall de l’entorn» layer; `realistic` is the style.
- return(enabled:boolean,realistic=false)=>{strength.value=enabled?1:0;realism.value=realistic?1:0;};
+ material.customProgramCacheKey=()=>key+'-rapita-ground-detail-4';material.needsUpdate=true;
+ // `enabled` is the documentary grain of the «Detall de l’entorn» layer; `style` is 0 documentary, 1 realistic, 2 plate.
+ return(enabled:boolean,style:boolean|number=0)=>{strength.value=enabled?1:0;realism.value=Number(style);};
 }
 
 export function makeEnvironment(urban:any,littoral:any,housing:any,center:any,meta:Terrain,sample:(e:number,n:number)=>number|null){

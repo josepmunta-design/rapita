@@ -107,3 +107,5 @@ Los cultivos de la trama urbana y las barcas siguen con su geometría esquemáti
 5. Oclusión ambiental y espuma de orilla, solo después de medir el coste real.
 
 Archivos principales: src/visual-style.ts, src/visual-plan.mjs, src/visual-sky.ts, src/visual-ground.ts, src/visual-water.ts, src/visual-materials.ts, src/visual-vegetation.ts, src/visual-vegetation-plan.mjs y tests/visual-style.test.mjs. Los datos históricos y los cambios que ya estaban preparados antes de estas intervenciones se conservan.
+
+El tercer aspecto, Arquitectònic (0.20.0), reutiliza esta misma infraestructura y se documenta en [LAMINA_ARQUITECTONICA.md](LAMINA_ARQUITECTONICA.md).

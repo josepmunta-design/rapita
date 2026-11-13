@@ -3,8 +3,10 @@ import * as THREE from 'three';
 /**
  * Water surface for the «Realista» style: moving normals, sky reflection and a view-dependent
  * transparency that lets the modelled seabed read through in the shallows.
+ * The «Arquitectònic» plate uses a still, matt blue wash with short pen strokes instead.
  * Shading only: no vertex displacement, water level or coastline changes.
  */
+export type WaterStyle = boolean | 'plate';
 export function makeWaterStyle(materials: THREE.MeshStandardMaterial[]) {
   const time = { value: 0 }, enabled = { value: 0 };
   const originals = [...new Set(materials)].map(material => {
@@ -27,7 +29,7 @@ export function makeWaterStyle(materials: THREE.MeshStandardMaterial[]) {
         }
       ` + shader.fragmentShader;
       shader.fragmentShader = shader.fragmentShader.replace('#include <normal_fragment_begin>', `#include <normal_fragment_begin>
-        if(visualWaterEnabled>.5){
+        if(visualWaterEnabled>.5&&visualWaterEnabled<1.5){
           vec2 p=vVisualWaterWorld.xz;
           float t=visualWaterTime;
           float fw=length(fwidth(p));
@@ -40,27 +42,38 @@ export function makeWaterStyle(materials: THREE.MeshStandardMaterial[]) {
         }`);
       // Seen from above the water is clear; towards the horizon it becomes a mirror of the sky.
       shader.fragmentShader = shader.fragmentShader.replace('#include <opaque_fragment>', `
-        if(visualWaterEnabled>.5){
+        if(visualWaterEnabled>1.5){
+          // Plate: an even wash, broken by short strokes drawn along the swell; nothing moves.
+          vec2 p=vVisualWaterWorld.xz;
+          float fw=length(fwidth(p)),closeUp=1.0-smoothstep(.5,3.5,fw);
+          vec2 q=vec2(dot(p,vec2(.94,.34)),dot(p,vec2(-.34,.94)));
+          float band=abs(fract(q.y/5.5+waterNoise(q*vec2(.02,.11))*1.6)-.5)*2.0;
+          float stroke=(1.0-smoothstep(.0,.16,band))*step(.52,waterNoise(q*vec2(.045,.19)+7.0))*closeUp;
+          outgoingLight*=mix(.94,1.06,waterNoise(p*.012+3.0));
+          outgoingLight=mix(outgoingLight,outgoingLight*1.22+.03,stroke*.5);
+          diffuseColor.a=.90;
+        }else if(visualWaterEnabled>.5){
           float sparkle=dot(reflectedLight.directSpecular+reflectedLight.indirectSpecular,vec3(.3,.5,.2));
           diffuseColor.a=clamp(mix(.38,.97,visualWaterFresnel)+sparkle,0.0,1.0);
         }
         #include <opaque_fragment>`);
     };
-    material.customProgramCacheKey = () => key + '-visual-water-2'; material.needsUpdate = true;
+    material.customProgramCacheKey = () => key + '-visual-water-3'; material.needsUpdate = true;
     return { material, original };
   });
   return {
     /** `sky` is the filtered sky of the active light, so the sea mirrors it at full strength. */
-    set(realistic: boolean, sky: THREE.Texture | null = null) {
-      enabled.value = realistic ? 1 : 0;
+    set(style: WaterStyle, sky: THREE.Texture | null = null) {
+      const plate = style === 'plate', realistic = style === true, styled = plate || realistic;
+      enabled.value = plate ? 2 : realistic ? 1 : 0;
       for (const { material, original } of originals) {
-        material.color.copy(realistic ? new THREE.Color('#0d4a55') : original.color);
-        material.roughness = realistic ? .09 : original.roughness;
-        material.metalness = realistic ? 0 : original.metalness;
-        material.transparent = realistic ? true : original.transparent;
-        material.opacity = realistic ? 1 : original.opacity;
+        material.color.copy(plate ? new THREE.Color('#3a81a0') : realistic ? new THREE.Color('#0d4a55') : original.color);
+        material.roughness = plate ? 1 : realistic ? .09 : original.roughness;
+        material.metalness = styled ? 0 : original.metalness;
+        material.transparent = styled ? true : original.transparent;
+        material.opacity = styled ? 1 : original.opacity;
         material.depthWrite = realistic ? false : original.depthWrite;
-        material.envMap = realistic ? sky : original.envMap;
+        material.envMap = realistic ? sky : plate ? null : original.envMap;
         material.envMapIntensity = realistic ? .34 : original.envMapIntensity;
         material.needsUpdate = true;
       }

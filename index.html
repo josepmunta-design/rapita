@@ -187,6 +187,16 @@
       </aside>
       <section class="viewport" aria-label="Visor tridimensional del terreny">
         <div id="scene" role="img" aria-label="Terreny tridimensional ICGC amb sis referències històriques. Fes servir els botons de llocs per explorar-lo amb el teclat."></div>
+        <div id="plate" class="plate" hidden>
+          <div class="plate-frame" aria-hidden="true"></div>
+          <div id="plate-title" class="plate-title">
+            <p class="plate-name" aria-hidden="true">La Ràpita</p><p class="plate-kicker" aria-hidden="true">Atles de reconstrucció</p>
+            <h2 id="plate-subject">La Ràpita i el seu relleu</h2><p id="plate-caption">Reconstrucció del conjunt ca. 1800</p>
+            <nav class="plate-legend" aria-label="Llegenda de la làmina"><strong>Llegenda</strong><ol id="plate-legend"></ol></nav>
+          </div>
+          <div id="plate-scale" class="plate-scale" role="img" aria-label="Escala gràfica, vàlida al centre de la vista" hidden></div>
+          <div class="plate-cartouche" aria-hidden="true"><span>Conjunt de la Ràpita</span><span id="plate-view">Planta obliqua de conjunt</span><span id="plate-year">ca. 1800</span></div>
+        </div>
         <div id="labels" aria-label="Marcadors sobre el terreny"></div><div id="route-labels" aria-label="Connexions del canal"></div>
         <div id="walk-toolbar" class="walk-toolbar" hidden><strong>A peu · 1,65 m</strong><label class="sr-only" for="walk-spawn">Punt de sortida</label><select id="walk-spawn"></select><label class="walk-speed" for="walk-speed">Velocitat <input id="walk-speed" type="range" min="2" max="12" step="1" value="6"><output id="walk-speed-value" for="walk-speed">6 m/s</output></label><button id="walk-mouse">Captura ratolí</button><button id="life-pause" aria-pressed="false">Pausa ambient</button><button id="walk-exit">Surt · Esc</button><span id="walk-status" role="status">WASD o fletxes · arrossega per mirar</span><span id="walk-distance">0 m</span></div><div class="walk-crosshair" aria-hidden="true"></div><div id="walk-pad" class="walk-pad"><button data-key="w" aria-label="Camina endavant">↑</button><button data-key="a" aria-label="Camina a l’esquerra">←</button><button data-key="s" aria-label="Camina enrere">↓</button><button data-key="d" aria-label="Camina a la dreta">→</button></div>
         <aside id="casotes-comparison-banner" class="placa-photo-banner" hidden><strong id="casotes-comparison-title">Les Casotes · comparació</strong><span id="casotes-comparison-note"></span><button id="casotes-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="faro-comparison-banner" class="placa-photo-banner" hidden><strong>Far de la Ràpita · aspecte actual</strong><span>Comparació fotogràfica · acabats sense data de reforma fixada</span><button id="faro-comparison-exit">Torna a l’any seleccionat</button></aside><aside id="placa-photo-banner" class="placa-photo-banner" hidden><strong>Semicercle i plaça · comparació fotogràfica</strong><span>N030 i fotografies del Palau · data sense confirmar · geometria C</span><button id="placa-photo-exit">Torna a l’any seleccionat</button></aside>
@@ -198,6 +208,7 @@
             <div class="visual-modes" role="group" aria-label="Estil de representació">
               <button id="visual-documental" type="button" aria-pressed="false">Documental</button>
               <button id="visual-realista" type="button" aria-pressed="true">Realista</button>
+              <button id="visual-arquitectonic" type="button" aria-pressed="false">Arquitectònic</button>
             </div>
             <label for="visual-light">Llum</label>
             <select id="visual-light"><option value="mati">Matí clar</option><option value="tarda" selected>Tarda càlida</option><option value="cobert">Cel cobert</option></select>

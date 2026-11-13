@@ -330,7 +330,7 @@ async function start() {
     const ground=(sampleUrban(s.anchor[0],s.anchor[1])??s.technicalBaseElevation)+1,height=30;
     const base=new THREE.Vector3(...toWorld(s.anchor[0],s.anchor[1],ground,meta.origin)),top=base.clone().add(new THREE.Vector3(0,height,0));
     const stem=new THREE.Line(new THREE.BufferGeometry().setFromPoints([base,top]),new THREE.LineBasicMaterial({color:'#45664c',depthTest:false,transparent:true,opacity:.6}));stem.renderOrder=5;flagGroup.add(stem);
-    const button=document.createElement('button');button.className='marker built';button.innerHTML=`<span style="margin-left:0">${escape(s.name)} · C</span>`;button.setAttribute('aria-label',`${s.name}: centra el mapa`);button.onclick=()=>openUrban(s.id);button.hidden=true;el('labels').append(button);
+    const button=document.createElement('button');button.className='marker built flag';button.innerHTML=`<span style="margin-left:0">${escape(s.name)} · C</span>`;button.setAttribute('aria-label',`${s.name}: centra el mapa`);button.onclick=()=>openUrban(s.id);button.hidden=true;el('labels').append(button);
     return {id:s.id,button,stem,top};
   });
 
@@ -386,7 +386,7 @@ async function start() {
   const environment=makeEnvironment(fabricData,littoralData,housingData,centerData,meta,walkSurfaceAt);scene.add(environment.root);
   // Vegetació ambiental C: només a l’estil Realista; no forma part de cap inventari.
   const vegetation=makeVegetation({urban:fabricData,littoral:littoralData,housing:housingData,center:centerData,landmarks:landmarkData,sample:(e:number,n:number)=>sampleMeasured(e,n)??sampleHeight(regionMeta,regionHeights,regionValid,e,n),origin:meta.origin},{group:center.trees,trunks:center.trees.children[0] as THREE.InstancedMesh},littoral.research&&{groups:littoral.research.groups,data:littoralData.researchLandscape,sample:(e:number,n:number)=>sampleHeight(meta,heights,valid,e,n)});scene.add(vegetation.root);
-  const detailedMaterials=new Set<THREE.Material>(),groundEffects:((on:boolean,realistic?:boolean)=>void)[]=[];
+  const detailedMaterials=new Set<THREE.Material>(),groundEffects:((on:boolean,style?:number)=>void)[]=[];
   for(const root of[coarse.mesh,fine.mesh,town.mesh,regionMeasured,historic,historicCoast,urban.root,housing,earlyTown.root])root.traverse(o=>{if(!(o instanceof THREE.Mesh))return;o.receiveShadow=true;const m=o.material as THREE.MeshStandardMaterial;if(detailedMaterials.has(m))return;if(['road','bed','soil'].includes(m.name)||[coarse.mesh,fine.mesh,town.mesh,regionMeasured].includes(root as any)||root===historic||root===historicCoast){groundEffects.push(groundDetail(m));detailedMaterials.add(m);}});
   for(const group of portCache.groups.values()){const m=(group.children[0] as THREE.Mesh).material as THREE.MeshStandardMaterial;groundEffects.push(groundDetail(m));detailedMaterials.add(m);}
   el('housing-manzana').onclick=()=>{el<HTMLSelectElement>('walk-spawn').value='manzana';walking.start();};
@@ -504,7 +504,7 @@ async function start() {
     building.front.visible=!el<HTMLInputElement>('cutaway-toggle').checked;
     building.interior.visible=el<HTMLInputElement>('interior-toggle').checked;
     anchorGroup.visible=el<HTMLInputElement>('anchors-toggle').checked&&!littoralFocus&&!walking.active;
-    anchorGroup.children.forEach(object=>{const id=places[object.userData.placeIndex]?.properties.id;object.visible=object.userData.placeIndex!==esglesiaIndex&&!(landmarks.root.visible&&landmarks.groups.get(id)?.visible);});
+    anchorGroup.children.forEach(object=>{const id=places[object.userData.placeIndex]?.properties.id;object.visible=object.userData.placeIndex!==esglesiaIndex&&!(landmarks.root.visible&&landmarks.groups.get(id)?.visible)&&!(visual?.plate&&object instanceof THREE.Line);});
     el('labels').hidden=!el<HTMLInputElement>('anchors-toggle').checked||!!littoralFocus;
     axisGroup.visible=el<HTMLInputElement>('axis-toggle').checked&&!walking.active;
     controls.minDistance=12;controls.maxDistance=60000;
@@ -538,24 +538,28 @@ async function start() {
     el('model-documental').setAttribute('aria-pressed',String(!studyVolume));el('model-study').setAttribute('aria-pressed',String(studyVolume));
     for(const id of['wall-height','cutaway-toggle','interior-toggle'])el<HTMLInputElement>(id).disabled=!studyVolume;
     environment.root.visible=interpreted&&ch.showTown&&el<HTMLInputElement>('environment-toggle').checked;
-    environment.docks.visible=littoral.port.visible;environment.courtyards.visible=housing.visible;
+    environment.docks.visible=littoral.port.visible;environment.courtyards.visible=housing.visible;environment.plants.visible=!visual?.plate;
     vegetation.setContext(interpreted,!!activeHarbour);
-    groundEffects.forEach(set=>set(interpreted&&el<HTMLInputElement>('environment-toggle').checked,interpreted&&!!visual?.realistic));
+    groundEffects.forEach(set=>set(interpreted&&el<HTMLInputElement>('environment-toggle').checked,interpreted?visual?.groundStyle??0:0));
     for(const root of[housing,earlyTown.root,center.root,building.root,landmarks.root,littoral.roquer,urban.root])root.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=true;o.receiveShadow=true;}});
     renderer.shadowMap.needsUpdate=true;
     life.root.visible=interpreted;
     life.setState({year:sceneYear,playing:el<HTMLInputElement>('motion-toggle').checked,people:el<HTMLInputElement>('people-toggle').checked,animals:el<HTMLInputElement>('animals-toggle').checked});
     el('life-pause').textContent=el<HTMLInputElement>('motion-toggle').checked?'Pausa ambient':'Anima ambient';
     el('life-pause').setAttribute('aria-pressed',String(!el<HTMLInputElement>('motion-toggle').checked));
+    el('plate-subject').textContent=el('map-title').textContent;visual?.refresh();
     refreshRevertePlan();refreshPort1945Plan();void refreshIcgcPlan();walking.revalidate();picker?.hide();
   };
   el('support-note').textContent=`Suport tècnic provisional a ${format.format(studyConfig.terrain.provisionalBaseElevation)} m. No representa una plataforma històrica; el MDT conserva les cotes.`;
   const anchorGroup=new THREE.Group(); scene.add(anchorGroup);
-  const markerPositions:THREE.Vector3[]=[], labelButtons:HTMLButtonElement[]=[], placeButtons:HTMLButtonElement[]=[], rings:{index:number;mesh:THREE.Mesh}[]=[];
+  const markerPositions:THREE.Vector3[]=[], groundPositions:THREE.Vector3[]=[], labelButtons:HTMLButtonElement[]=[], placeButtons:HTMLButtonElement[]=[], plateEntries:HTMLButtonElement[]=[], rings:{index:number;mesh:THREE.Mesh}[]=[];
+  // Llegenda de la làmina arquitectònica: mateixa numeració que els marcadors del mapa.
+  const plateEntry=(number:number,name:string,open:()=>void)=>{const item=document.createElement('li'),button=document.createElement('button');button.type='button';button.innerHTML=`<i>${number}</i><span>${escape(name)}</span>`;button.onclick=open;item.append(button);el('plate-legend').append(item);return button;};
   places.forEach((place,index)=>{
     const p=place.properties;
     const position=new THREE.Vector3(...toWorld(p.utm_x,p.utm_y,p.terrainHeight??0,meta.origin));
-    markerPositions.push(position.clone().add(new THREE.Vector3(0,30,0)));
+    markerPositions.push(position.clone().add(new THREE.Vector3(0,30,0)));groundPositions.push(position.clone().add(new THREE.Vector3(0,3,0)));
+    plateEntries.push(plateEntry(index+1,p.shortName,()=>select(index,true)));
     if(p.terrainHeight!==null) {
       const ring=new THREE.Mesh(new THREE.RingGeometry(12,15,40),new THREE.MeshBasicMaterial({color:index===0?'#a35d32':'#476b4d',side:THREE.DoubleSide,depthTest:false}));
       ring.rotation.x=-Math.PI/2;ring.position.copy(position).add(new THREE.Vector3(0,.6,0));ring.renderOrder=3;ring.userData.placeIndex=index;anchorGroup.add(ring);rings.push({index,mesh:ring});
@@ -565,6 +569,18 @@ async function start() {
     const label=document.createElement('button');label.className='marker';label.setAttribute('aria-label',p.shortName);label.onclick=()=>select(index,true);el('labels').append(label);labelButtons.push(label);
     const button=document.createElement('button');button.className='place-button';button.innerHTML=`<span class="place-number">${String(index+1).padStart(2,'0')}</span><span class="place-text"><strong>${escape(p.shortName)}</strong><small>${escape(p.category)}</small></span><span class="go" aria-hidden="true">↗</span>`;
     button.onclick=()=>select(index,true);el('places').append(button);placeButtons.push(button);
+  });
+  // La làmina numera també tres elements del paisatge d’estudi que no són fites: horts, canal i molls.
+  const canalMark=(()=>{const route=littoralData.canal.routeStudy as number[][];let left=170;for(let i=0;i<route.length-1;i++){const length=Math.hypot(route[i+1][0]-route[i][0],route[i+1][1]-route[i][1]);if(left<=length)return[route[i][0]+(route[i+1][0]-route[i][0])*left/length,route[i][1]+(route[i+1][1]-route[i][1])*left/length];left-=length;}return route[0];})();
+  const jetty=(littoralData.portWorks?.breakwaters?.[0] as number[][]|undefined)??[[296516,4499184],[296516,4499184]],healthSite=littoralData.sites.find(s=>s.kind==='health')??null;
+  const plateMarks=[
+    {name:fabricData.sites.find((s:any)=>s.id==='hort-nord')?.name??'Horts del Rei',point:(fabricData.sites.find((s:any)=>s.id==='hort-nord')?.anchor??[296308,4499428]) as number[],shown:()=>urban.root.visible&&!!urban.groups.get('hort-nord')?.visible,open:()=>openUrban('hort-nord')},
+    {name:littoralData.canal.name??'Canal de Carles III',point:canalMark,shown:()=>littoral.root.visible&&littoral.canal.visible,open:()=>el('mouth-view').click()},
+    {name:'Molls del port',point:[(jetty[0][0]+jetty[1][0])/2,(jetty[0][1]+jetty[1][1])/2],shown:()=>littoral.root.visible&&littoral.port.visible,open:()=>openLittoral('roquer',healthSite)}
+  ].map((mark,i)=>{
+    const number=places.length+i+1,button=document.createElement('button');button.className='marker plate-mark';button.textContent=String(number);button.setAttribute('aria-label',mark.name);button.onclick=mark.open;button.hidden=true;el('labels').append(button);
+    const entry=plateEntry(number,mark.name.replace(/ · .*$/,''),mark.open);
+    return{...mark,button,item:entry.parentElement as HTMLLIElement,position:new THREE.Vector3(...toWorld(mark.point[0],mark.point[1],(sampleUrban(mark.point[0],mark.point[1])??1)+3,meta.origin))};
   });
   const axisGroup=new THREE.Group();scene.add(axisGroup);axisGroup.visible=false;
   const a=places[0].properties,b=places[2].properties,axisPoints:THREE.Vector3[]=[];
@@ -597,8 +613,8 @@ async function start() {
       const built=i===esglesiaIndex||!!(landmarks.root.visible&&landmarks.groups.get(places[i].properties.id)?.visible);
       labelButtons[i].classList.toggle('built',built);
       labelButtons[i].setAttribute('aria-pressed',String(active));
-      labelButtons[i].innerHTML=`${String(i+1).padStart(2,'0')}${active||built?`<span>${escape(places[i].properties.shortName)}${built?' · C':''}</span>`:''}`;
-      placeButtons[i].setAttribute('aria-pressed',String(active));
+      labelButtons[i].innerHTML=`${i<9?'<i>0</i>':''}${i+1}${active||built?`<span>${escape(places[i].properties.shortName)}${built?' · C':''}</span>`:''}`;
+      placeButtons[i].setAttribute('aria-pressed',String(active));plateEntries[i].setAttribute('aria-pressed',String(active));
       // All current anchors have valid samples; missing samples remain list-only.
     }
     rings.forEach(({index:i,mesh})=>(mesh.material as THREE.MeshBasicMaterial).color.set(i===index?'#a35d32':'#476b4d'));
@@ -801,27 +817,35 @@ async function start() {
     const near=walking.active?.08:Math.max(.15,Math.min(100,camera.position.distanceTo(controls.target)/200));
     if(Math.abs(camera.near-near)>near*.005){camera.near=near;camera.updateProjectionMatrix();}
     visual?.update(dt,controls.target,walking.active,el<HTMLInputElement>('motion-toggle').checked&&!matchMedia('(prefers-reduced-motion: reduce)').matches);
-    renderer.render(scene,camera);
+    if(visual)visual.render(walking.active);else renderer.render(scene,camera);
     visual?.frame(frameMs,currentTime);
     if(!walking.active)picker.renderHighlights();
     comments.update();
     const rect=host.getBoundingClientRect();
     for(const label of routeLabels){const p=label.position.clone().project(camera),x=(p.x*.5+.5)*rect.width,y=(-p.y*.5+.5)*rect.height;label.button.hidden=littoralFocus!=='canal'||!el<HTMLInputElement>('landscape-toggle').checked||!chronologyAt(chronologyData,sceneYear).showCanal||p.z>=1||x<15||x>rect.width-15||y<15||y>rect.height-55;label.button.style.left=`${Math.min(rect.width-130,x+15)}px`;label.button.style.top=`${y}px`;}
-    const occupied:{x:number;y:number}[]=[];
+    const occupied:{x:number;y:number}[]=[],plate=!!visual?.plate;
+    // A la làmina, cap rètol trepitja el bloc del títol i la llegenda.
+    const titleBox=plate?el('plate-title').getBoundingClientRect():null,underTitle=(x:number,y:number)=>!!titleBox&&x<titleBox.right-rect.left+16&&y<titleBox.bottom-rect.top+16;
     const priority=[selected,...places.map((_,i)=>i).filter(i=>i!==selected)];
     for(const i of priority) {
-      const position=markerPositions[i].clone().project(camera),button=labelButtons[i];
-      const x=(position.x*.5+.5)*rect.width,y=(-position.y*.5+.5)*rect.height-(i===esglesiaIndex?28:0);
-      const visible=(!laboratory||i!==esglesiaIndex)&&showAnchors&&places[i].properties.terrainHeight!==null&&position.z<1&&position.z>-1&&x>12&&x<rect.width-12&&y>12&&y<rect.height-12&&!occupied.some(p=>Math.abs(p.x-x)<(i===selected?120:38)&&Math.abs(p.y-y)<32);
+      const position=(plate?groundPositions:markerPositions)[i].clone().project(camera),button=labelButtons[i];
+      const x=(position.x*.5+.5)*rect.width,y=(-position.y*.5+.5)*rect.height-(i===esglesiaIndex&&!plate?28:0);
+      const visible=(!laboratory||i!==esglesiaIndex)&&showAnchors&&places[i].properties.terrainHeight!==null&&position.z<1&&position.z>-1&&x>12&&x<rect.width-12&&y>12&&y<rect.height-12&&!underTitle(x,y)&&!occupied.some(p=>Math.abs(p.x-x)<(i===selected&&!plate?120:38)&&Math.abs(p.y-y)<32);
       button.hidden=!visible;
       if(visible){button.style.left=`${x}px`;button.style.top=`${y}px`;occupied.push({x,y});}
+    }
+    for(const mark of plateMarks){
+      const shown=plate&&mark.shown(),p=mark.position.clone().project(camera),x=(p.x*.5+.5)*rect.width,y=(-p.y*.5+.5)*rect.height;
+      if(mark.item.hidden===shown)mark.item.hidden=!shown;
+      mark.button.hidden=!shown||!showAnchors||walking.active||p.z>=1||p.z<=-1||x<12||x>rect.width-12||y<12||y>rect.height-12||underTitle(x,y)||occupied.some(o=>Math.abs(o.x-x)<30&&Math.abs(o.y-y)<28);
+      if(!mark.button.hidden){mark.button.style.left=`${x}px`;mark.button.style.top=`${y}px`;occupied.push({x,y});}
     }
     const placedFlags:{x:number;y:number}[]=[];
     for(const flag of flags){
       const group=urban.groups.get(flag.id),shown=!!group?.visible&&urban.root.visible&&!walking.active&&!el('labels').hidden;
-      flag.stem.visible=shown;
+      flag.stem.visible=shown&&!plate;
       const p=flag.top.clone().project(camera),x=(p.x*.5+.5)*rect.width,y=(-p.y*.5+.5)*rect.height;
-      flag.button.hidden=!shown||p.z>=1||x<10||x>rect.width-10||y<40||y>rect.height-60;
+      flag.button.hidden=!shown||p.z>=1||x<10||x>rect.width-10||y<40||y>rect.height-60||underTitle(x-70,y);
       if(!flag.button.hidden){
         // Si dos cartells coincideixen a la pantalla, el segon puja perquè es llegeixin tots dos.
         let top=y;for(const other of placedFlags)if(Math.abs(other.x-x)<150&&Math.abs(other.y-top)<28)top=other.y-30;

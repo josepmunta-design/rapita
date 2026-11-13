@@ -15,3 +15,51 @@
 .viewport[data-visual=realista] .map-caption{top:20px;left:22px;padding:11px 16px 12px;background:#f7f6efe6;border:1px solid #bfcbbd;box-shadow:0 3px 14px #173f3118;}
 .viewport[data-visual=realista] .map-legend{padding:7px 11px;background:#f7f6efe6;border:1px solid #bfcbbd;}
 .viewport[data-visual=realista] .compass{padding:5px 3px 7px;background:#f7f6efd9;border:1px solid #bfcbbd;}
+.visual-modes button{white-space:nowrap;}.marker i{font-style:normal;}
+/* Làmina arquitectònica: el visor es llegeix com una planxa d’atles a tinta i aiguada sobre paper. */
+.plate{position:absolute;inset:0;z-index:1;pointer-events:none;color:#2c2b21;font-family:Georgia,'Times New Roman',serif;}
+.plate[hidden],.walking .plate{display:none;}
+.plate-frame{position:absolute;inset:9px;border:1px solid #8d7b56;}.plate-frame::after{content:'';position:absolute;inset:3px;border:1px solid #b7a57c;}
+.plate-title{position:absolute;top:34px;left:46px;width:306px;max-width:calc(100% - 92px);}
+.plate-title p,.plate-title h2{margin:0;}
+.plate-name{font:700 45px/1 Georgia,serif;letter-spacing:-.4px;color:#1e3a2b;}
+.plate-kicker{margin-top:11px!important;padding-bottom:13px;border-bottom:1px solid #7b7256;font-size:14px;letter-spacing:3.7px;text-transform:uppercase;color:#2c3a2e;}
+#plate-subject{margin-top:19px;font:italic 400 25px/1.15 Georgia,serif;letter-spacing:0;color:#21362a;}
+#plate-caption{margin-top:7px;font-size:15px;color:#37372b;}
+.plate-legend{display:block;margin-top:34px;width:max-content;max-width:100%;pointer-events:auto;}
+.plate-legend strong{display:block;width:172px;padding-bottom:9px;margin-bottom:9px;border-bottom:1px solid #7b7256;font-size:12px;letter-spacing:2.6px;text-transform:uppercase;color:#2a3528;}
+.plate-legend ol{list-style:none;margin:0;padding:0;}.plate-legend li[hidden]{display:none;}
+.plate-legend button{display:flex;align-items:center;gap:11px;width:100%;border:0;background:none;padding:2.5px 0;font:14px/1.3 Georgia,serif;color:#2f3327;text-align:left;cursor:pointer;}
+.plate-legend button i{flex:none;display:grid;place-items:center;width:19px;height:19px;border:1px solid #3a2f25;border-radius:50%;background:#f6eed6;font:normal 10.5px/1 Georgia,serif;}
+.plate-legend button:hover span,.plate-legend button[aria-pressed=true] span{text-decoration:underline;text-decoration-color:#8d7b56;text-underline-offset:3px;}
+.plate-legend button[aria-pressed=true] i{background:#2f4a39;border-color:#2f4a39;color:#f6eed6;}
+.plate-scale{position:absolute;top:156px;right:92px;height:30px;border-top:1.5px solid #26382c;font-size:12px;color:#26382c;}
+.plate-scale[hidden]{display:none;}
+.plate-scale span{position:absolute;top:0;padding-top:7px;transform:translateX(-50%);white-space:nowrap;}
+.plate-scale span::before{content:'';position:absolute;left:50%;top:-6px;height:6px;border-left:1.5px solid #26382c;}
+.plate-scale span:last-child{transform:translateX(-11px);}.plate-scale span:last-child::before{left:10px;}
+.plate-cartouche{position:absolute;right:42px;bottom:30px;width:236px;padding:12px 0 11px;border-top:1px solid #7b7256;border-bottom:1px solid #7b7256;text-align:center;text-transform:uppercase;color:#26382c;}
+.plate-cartouche span{display:block;font-size:10.5px;letter-spacing:2.3px;line-height:1.75;}.plate-cartouche span:first-child{font-size:13px;letter-spacing:3px;margin-bottom:2px;}
+/* Els controls continuen operatius, amb paper i tinta en lloc dels plafons del visor. */
+.viewport[data-visual=arquitectonic]{background:#f1e6c9;}
+.viewport[data-visual=arquitectonic] .map-caption,.viewport[data-visual=arquitectonic] .map-legend{display:none;}
+body:not(.laboratory) .viewport[data-visual=arquitectonic] .feature-card{display:none;}
+.viewport[data-visual=arquitectonic] .feature-card{bottom:58px;background:#f6eed8f2;border-color:#a8966c;box-shadow:none;}
+.viewport[data-visual=arquitectonic] .notice{left:44px;right:auto;bottom:24px;max-width:min(52%,620px);padding:0;background:none;border:0;font:italic 11px/1.5 Georgia,serif;color:#5c543f;}
+.viewport[data-visual=arquitectonic] .notice>span:first-child{display:none;}.viewport[data-visual=arquitectonic] .notice>span:last-child{font:inherit;color:inherit;}
+.viewport[data-visual=arquitectonic] .view-controls,.viewport[data-visual=arquitectonic] .zoom-controls,.viewport[data-visual=arquitectonic] .visual-tools summary,.viewport[data-visual=arquitectonic] .visual-options{background:#f6eed8e6;border-color:#a8966c;box-shadow:none;}
+.viewport[data-visual=arquitectonic] .zoom-controls button{border-color:#cdbd94;}
+.viewport[data-visual=arquitectonic] .compass{top:80px;right:44px;color:#1e3a2b;font:700 17px/1 Georgia,serif;}
+.viewport[data-visual=arquitectonic] .compass div{position:relative;width:26px;height:36px;margin:3px auto 0;font-size:0;line-height:0;}
+.viewport[data-visual=arquitectonic] .compass div::before{content:'';position:absolute;inset:0;background:#1e3a2b;clip-path:polygon(50% 0,100% 100%,50% 74%,0 100%);}
+.viewport[data-visual=arquitectonic] .marker{width:27px;height:27px;padding:0;border:1.3px solid #33291f;border-radius:50%;background:#f6eed6;color:#2a261d;box-shadow:0 0 0 2px #f1e6c955;font:600 14px/1 Georgia,serif;min-width:0;}
+.viewport[data-visual=arquitectonic] .marker i,.viewport[data-visual=arquitectonic] .marker:not(.flag) span,.viewport[data-visual=arquitectonic] .marker.selected::after{display:none;}
+.viewport[data-visual=arquitectonic] .marker.selected{background:#2f4a39;border-color:#2f4a39;color:#f6eed6;}
+.viewport[data-visual=arquitectonic] .marker.flag{width:auto;height:auto;border:0;border-radius:0;background:none;box-shadow:none;font:italic 400 12px/1.2 Georgia,serif;color:#33291f;text-shadow:0 0 3px #f1e6c9,0 0 3px #f1e6c9,0 0 6px #f1e6c9;}
+.viewport[data-visual=arquitectonic] .marker.flag span{font:inherit;}
+.viewport[data-visual=arquitectonic] .route-marker{background:#f6eed8e6;border-color:#a8966c;box-shadow:none;font-family:Georgia,serif;}
+.dossier-open .plate-scale,.dossier-open .plate-cartouche{transform:translateX(-440px);}
+@media(max-width:1100px){.plate-title{top:74px;left:30px;width:260px;}.plate-name{font-size:30px;}.plate-kicker{margin-top:7px!important;padding-bottom:9px;font-size:10px;letter-spacing:2.6px;}#plate-subject{margin-top:12px;font-size:19px;}#plate-caption{font-size:12px;margin-top:4px;}.plate-legend,.plate-scale,.plate-cartouche{display:none;}.viewport[data-visual=arquitectonic] .compass{top:150px;right:22px;}.viewport[data-visual=arquitectonic] .notice{left:30px;max-width:calc(100% - 60px);}}
+@media(max-width:700px){.plate-frame{inset:5px;}.plate-title{top:14px;left:16px;width:200px;}.plate-name{font-size:22px;}.plate-kicker{margin-top:4px!important;padding-bottom:5px;font-size:7.5px;letter-spacing:1.6px;}#plate-subject{margin-top:7px;font-size:14px;}#plate-caption{font-size:10px;margin-top:2px;}.viewport[data-visual=arquitectonic] .compass{top:22px;right:20px;}.viewport[data-visual=arquitectonic] .notice{left:16px;max-width:calc(100% - 32px);bottom:12px;font-size:9px;}}
+.plate-title,.plate-cartouche,.plate-scale,.viewport[data-visual=arquitectonic] .notice{text-shadow:0 0 2px #f1e6c9,0 0 5px #f1e6c9,0 0 9px #f1e6c9cc;}
+.plate-legend button i{text-shadow:none;}

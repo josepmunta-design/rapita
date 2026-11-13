@@ -18,9 +18,30 @@ export const qualityProfiles = {
   mitja: { label: 'Mitjana', pixelRatio: 1.5, shadowSize: 2048, anisotropy: 4, vegetation: .75 },
   alta: { label: 'Alta', pixelRatio: 2, shadowSize: 4096, anisotropy: 8, vegetation: 1 }
 };
+/** Representation styles. «Arquitectònic» is an ink-and-wash plate drawn over the same scene. */
+export const visualModes = ['documental', 'realista', 'arquitectonic'];
+// Studio light of the plate. It is a drawing convention, not a time of day: like the light of an
+// architectural drawing it comes from the upper left of the sheet, so it turns with the view.
+export const plateLight = { label: 'Làmina', elevation: 40, turn: 242, step: 10, sun: '#fff4e2', sky: '#fffaf0', ground: '#e6dcc4', intensity: 3.6, ambient: 2.5, fog: .00021 };
+/** Sun bearing for a view bearing, snapped so the shadow map is only redrawn every `step` degrees. */
+export function plateSunAzimuth(viewAzimuthDegrees) {
+  const snapped = Math.round((viewAzimuthDegrees + plateLight.turn) / plateLight.step) * plateLight.step;
+  return ((snapped % 360) + 360) % 360;
+}
+/**
+ * Graphic scale for the plate: the longest 1-2-5 length that fits in `maxPixels`.
+ * `pixelsPerMeter` is measured at the point the camera looks at, so it is only exact there.
+ */
+export function plateScale(pixelsPerMeter, maxPixels = 210) {
+  if (!(pixelsPerMeter > 0) || !Number.isFinite(pixelsPerMeter) || !(maxPixels > 0)) return null;
+  const limit = maxPixels / pixelsPerMeter, power = 10 ** Math.floor(Math.log10(limit));
+  const lead = [5, 2, 1].find(step => step * power <= limit * (1 + 1e-9)) ?? 1, meters = lead * power;
+  const ticks = (lead === 5 ? [0, .5, 1] : [0, .25, .5, 1]).map(t => ({ meters: t * meters, pixels: t * meters * pixelsPerMeter }));
+  return { meters, pixels: meters * pixelsPerMeter, ticks };
+}
 export function visualSettings(value = {}) {
   return {
-    mode: value.mode === 'documental' ? 'documental' : 'realista',
+    mode: visualModes.includes(value.mode) ? value.mode : 'realista',
     light: Object.hasOwn(lightProfiles, value.light) ? value.light : 'tarda',
     quality: Object.hasOwn(qualityProfiles, value.quality) ? value.quality : 'mitja',
     atmosphere: value.atmosphere !== false,

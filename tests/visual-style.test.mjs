@@ -6,7 +6,9 @@ import * as THREE from 'three';
 import { makeHousing } from '../src/housing.ts';
 import { makeSurfaceStyles, visualSurface, SURFACE_SIZE } from '../src/visual-materials.ts';
 import { makeWaterStyle } from '../src/visual-water.ts';
-import { frameStatistics, visualSettings, lightProfiles, qualityProfiles, sunDirection } from '../src/visual-plan.mjs';
+import { frameStatistics, visualSettings, lightProfiles, qualityProfiles, sunDirection, visualModes, plateLight, plateScale, plateSunAzimuth } from '../src/visual-plan.mjs';
+import { plateFragment } from '../src/visual-ink.ts';
+import { groundPlateGLSL } from '../src/visual-ground.ts';
 import { addSmoothNormals } from '../src/visual-ground.ts';
 import { makeVegetation, treeGeometry, shrubGeometry } from '../src/visual-vegetation.ts';
 import { vegetationPlan, scrubCover } from '../src/visual-vegetation-plan.mjs';
@@ -187,4 +189,48 @@ test('generated plants have human-scale sizes, finite geometry and marked foliag
   }
   assert.ok(treeGeometry('carob', 0, 0).attributes.position.count < treeGeometry('carob', 0, 1).attributes.position.count / 2);
   const shrub = shrubGeometry(1); assert.ok(shrub.boundingBox.max.y < 1.4 && shrub.attributes.position.count <= 150);
+});
+
+test('the architectural plate is a third style that keeps geometry, restores every material and only changes shading', async () => {
+  assert.deepEqual(visualModes, ['documental', 'realista', 'arquitectonic']);
+  for (const mode of visualModes) assert.equal(visualSettings({ mode }).mode, mode);
+  assert.equal(visualSettings({ mode: 'arquitectònic' }).mode, 'realista');
+  // Water: a still, matt wash that writes depth so the ink pass outlines the water plane, then a full restore.
+  const material = new THREE.MeshStandardMaterial({ color: '#4c8e91', roughness: .33, metalness: .14 }), mesh = new THREE.Mesh(new THREE.PlaneGeometry(40, 50), material), geometry = JSON.stringify(mesh.geometry.toJSON());
+  const original = { color: material.color.toArray(), roughness: material.roughness, metalness: material.metalness, transparent: material.transparent, depthWrite: material.depthWrite, envMap: material.envMap };
+  const water = makeWaterStyle([material]), shader = { vertexShader: THREE.ShaderLib.standard.vertexShader, fragmentShader: THREE.ShaderLib.standard.fragmentShader, uniforms: {} };
+  material.onBeforeCompile(shader, null); water.set('plate');
+  assert.equal(shader.uniforms.visualWaterEnabled.value, 2); assert.equal(material.roughness, 1); assert.equal(material.metalness, 0); assert.equal(material.envMap, null); assert.equal(material.depthWrite, true); assert.equal(material.transparent, true);
+  water.update(.05, true); water.set(true); assert.equal(shader.uniforms.visualWaterEnabled.value, 1); assert.equal(material.depthWrite, false);
+  water.set(false); assert.equal(shader.uniforms.visualWaterEnabled.value, 0);
+  assert.deepEqual(material.color.toArray(), original.color); for (const key of ['roughness', 'metalness', 'transparent', 'depthWrite', 'envMap']) assert.equal(material[key], original[key]);
+  assert.equal(JSON.stringify(mesh.geometry.toJSON()), geometry);
+  // Built surfaces: the plate keeps the documentary maps (no PBR swap) and never touches meshes.
+  const data = await json('housing.json'), meta = await json('town-terrain.json'), [h, v] = await arrays(meta), root = makeHousing(data, meta, h, v);
+  const maps = new Map(); root.traverse(o => { if (o.isMesh) for (const m of Array.isArray(o.material) ? o.material : [o.material]) if (m.userData.surfaceKind) maps.set(m, [m.map, m.bumpMap, m.roughnessMap, m.roughness]); });
+  const count = () => { let n = 0; root.traverse(o => { if (o.geometry) n += o.geometry.attributes.position.count; }); return n; }, before = count(), styles = makeSurfaceStyles(root);
+  styles.set(false, 4, true); for (const [m, kept] of maps) assert.deepEqual([m.map, m.bumpMap, m.roughnessMap, m.roughness], kept);
+  styles.set(true, 4); styles.set(false, 4, true); styles.set(false); for (const [m, kept] of maps) assert.deepEqual([m.map, m.bumpMap, m.roughnessMap, m.roughness], kept);
+  assert.equal(count(), before);
+  // The pass and the ground branch are fragment-only: nothing in them can displace a vertex.
+  for (const glsl of [plateFragment, groundPlateGLSL]) assert.equal(/gl_Position|transformed|position\s*[+*-]?=/.test(glsl), false);
+  assert.ok(plateFragment.includes('tDepth') && plateFragment.includes('#include <colorspace_fragment>')); assert.ok(groundPlateGLSL.includes('groundRealismStrength>1.5'));
+});
+
+test('plate lettering: the graphic scale uses round lengths that fit and the light follows the view in steps', () => {
+  assert.equal(plateScale(0), null); assert.equal(plateScale(NaN), null); assert.equal(plateScale(-1), null); assert.equal(plateScale(1, 0), null);
+  for (const pixelsPerMeter of [.0031, .02, .11, .7, 1.03, 3.8, 17, 240]) {
+    const scale = plateScale(pixelsPerMeter, 210); assert.ok(scale.pixels <= 210 + 1e-6 && scale.pixels >= 210 / 2.5 - 1e-6, pixelsPerMeter + ' → ' + scale.pixels);
+    const lead = scale.meters / 10 ** Math.floor(Math.log10(scale.meters) + 1e-9); assert.ok([1, 2, 5].some(n => Math.abs(lead - n) < 1e-6), String(scale.meters));
+    assert.equal(scale.ticks[0].meters, 0); assert.equal(scale.ticks.at(-1).meters, scale.meters);
+    for (const [i, tick] of scale.ticks.entries()) { assert.ok(Math.abs(tick.pixels - tick.meters * pixelsPerMeter) < 1e-9); if (i) assert.ok(tick.pixels - scale.ticks[i - 1].pixels >= 20); }
+  }
+  assert.equal(plateScale(1, 210).meters, 200); assert.deepEqual(plateScale(1, 210).ticks.map(t => t.meters), [0, 50, 100, 200]); assert.deepEqual(plateScale(4, 210).ticks.map(t => t.meters), [0, 25, 50]);
+  // Light from the upper left of the sheet: about 120° to the left of the view, in whole steps, always a valid bearing.
+  for (let view = -720; view <= 720; view += 7) {
+    const azimuth = plateSunAzimuth(view); assert.ok(azimuth >= 0 && azimuth < 360); assert.equal(azimuth % plateLight.step, 0);
+    const turn = ((((azimuth - view - plateLight.turn + 180) % 360) + 360) % 360) - 180; assert.ok(Math.abs(turn) <= plateLight.step / 2 + 1e-9);
+  }
+  assert.equal(plateSunAzimuth(0), plateSunAzimuth(360)); assert.ok(plateLight.elevation > 20 && plateLight.elevation < 70); assert.ok(sunDirection(plateSunAzimuth(328), plateLight.elevation)[1] > 0);
+  for (const key of ['intensity', 'ambient', 'fog']) assert.ok(Number.isFinite(plateLight[key]) && plateLight[key] > 0);
 });

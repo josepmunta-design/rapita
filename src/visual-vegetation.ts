@@ -133,8 +133,8 @@ export function makeVegetation(input: PlanInput, carobs?: { group: THREE.Group; 
   const material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .92 }); material.name = 'Vegetació · recurs visual'; foliageMaterial(material, true);
   const shrubMaterial = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .95 }); shrubMaterial.name = 'Garriga · recurs visual'; foliageMaterial(shrubMaterial, true);
   const trees = { carob: [0, 1].map(v => treeGeometry('carob', v)), olive: [0, 1].map(v => treeGeometry('olive', v)), pine: [0, 1].map(v => treeGeometry('pine', v)) };
-  const layers: { mesh: THREE.InstancedMesh; total: number; coastal: boolean }[] = [];
-  let context = true, harbour = false, realistic = false, enabled = true, density = 1, built = false;
+  const layers: { mesh: THREE.InstancedMesh; total: number; coastal: boolean; scrub: boolean }[] = [];
+  let context = true, harbour = false, realistic = false, enabled = true, density = 1, built = false, plate = false;
   const instanced = (geometry: THREE.BufferGeometry, m: THREE.Material, count: number, shadow: boolean) => {
     const mesh = new THREE.InstancedMesh(geometry, m, count); mesh.castShadow = shadow; mesh.receiveShadow = true; mesh.raycast = () => {}; mesh.frustumCulled = false; return mesh;
   };
@@ -184,7 +184,7 @@ export function makeVegetation(input: PlanInput, carobs?: { group: THREE.Group; 
       const list = plan.trees.filter((t, i) => t.kind === species && i % 2 === v && (t.coast < plan.coastalStrip) === coastal); if (!list.length) continue;
       const mesh = instanced(trees[species][v], material, list.length, true); mesh.name = `Arbres ambientals · ${species} · C`;
       list.forEach((t, i) => mesh.setMatrixAt(i, m.compose(new THREE.Vector3(...toWorld(t.e, t.n, t.height - .12, input.origin)), q.setFromAxisAngle(up, t.angle), s.set(t.scale, t.scale * (.9 + .2 * hash(t.e + t.n)), t.scale))));
-      root.add(mesh); layers.push({ mesh, total: list.length, coastal });
+      root.add(mesh); layers.push({ mesh, total: list.length, coastal, scrub: false });
     }
     const green = new THREE.Color('#5f7636'), grey = new THREE.Color('#8f966a'), straw = new THREE.Color('#b0a36a');
     for (const coastal of strip) for (const v of [0, 1, 2]) {
@@ -195,7 +195,7 @@ export function makeVegetation(input: PlanInput, carobs?: { group: THREE.Group; 
         const dry = THREE.MathUtils.clamp(b.dry, 0, 1);
         mesh.setColorAt(i, color.copy(green).lerp(grey, THREE.MathUtils.smoothstep(dry, .25, .7)).lerp(straw, THREE.MathUtils.smoothstep(dry, .78, 1.05) * .7));
       });
-      root.add(mesh); layers.push({ mesh, total: list.length, coastal });
+      root.add(mesh); layers.push({ mesh, total: list.length, coastal, scrub: true });
     }
     apply();
   };
@@ -203,12 +203,13 @@ export function makeVegetation(input: PlanInput, carobs?: { group: THREE.Group; 
     for (const mesh of alignment) mesh.visible = realistic; for (const o of documentary) o.visible = !realistic;
     root.visible = realistic && enabled && context;
     if (root.visible && !built) build();
-    for (const { mesh, total, coastal } of layers) { mesh.count = Math.max(1, Math.round(total * density)); mesh.visible = !(coastal && harbour); }
+    // The plate draws trees only: scattered scrub would read as ink noise at the scale of a sheet.
+    for (const { mesh, total, coastal, scrub } of layers) { mesh.count = Math.max(1, Math.round(total * density)); mesh.visible = !(coastal && harbour) && !(scrub && plate); }
   };
   return {
     root,
     /** Called by the visual style: quality only thins the ambient layer, never the plaza alignment. */
-    set(isRealistic: boolean, quality: number, on: boolean) { realistic = isRealistic; density = THREE.MathUtils.clamp(quality, .05, 1); enabled = on; apply(); },
+    set(isRealistic: boolean, quality: number, on: boolean, isPlate = false) { realistic = isRealistic; density = THREE.MathUtils.clamp(quality, .05, 1); enabled = on; plate = isPlate; apply(); },
     /**
      * The ambient layer belongs to the interpreted landscape; the measured terrain shows none.
      * Once a georeferenced harbour phase replaces the 1800 shore, the plants of that strip are hidden.

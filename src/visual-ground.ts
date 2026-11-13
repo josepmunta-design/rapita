@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 
 /**
- * Realistic ground shading for the «Realista» style. Colour only: it never displaces
+ * Ground shading for the «Realista» and «Arquitectònic» styles. Colour only: it never displaces
  * vertices, never changes the water level and never moves the shoreline. The palette is
  * a generic dry Mediterranean interpretation (C), not a land-use map of 1800.
  */
@@ -18,9 +18,56 @@ export const terraNoiseGLSL = /* glsl */`
   float terraRelief(vec2 p){return terraNoise(p*1.1)+.5*terraNoise(p*2.9+7.0)+.25*terraNoise(p*6.7+3.0);}
 `;
 
+/**
+ * Ground of the «Arquitectònic» plate: flat washes, sparse contour lines, stippled sand and a
+ * pale strand. Same rule as above: colour only, and a drawing convention rather than a land-use map.
+ * Contours are read from the displayed surface, so they inherit its confidence (C where interpreted).
+ */
+export const groundPlateGLSL = /* glsl */`
+  if(groundRealismStrength>1.5){
+    vec2 pxz=vGroundW.xz;
+    float pfw=length(fwidth(pxz));
+    vec3 pbase=diffuseColor.rgb;
+    // A wide blend: the zone colours are per vertex, and a hard threshold would draw the mesh as a saw edge.
+    float pland=smoothstep(-.07,.06,pbase.g-pbase.r);
+    float pslope=1.0-clamp(normalize(vGroundN).y,0.0,1.0);
+    float palt=vGroundW.y;
+    float pmacro=terraFbm(pxz*.0042),pmeso=terraFbm(pxz*.019+17.0),pfine=mix(.5,terraNoise(pxz*.55),1.0-smoothstep(.4,2.2,pfw));
+    // Albedo is authored for the plate light (about 1.65 on open ground), so these read as pale washes.
+    vec3 meadow=mix(vec3(.445,.390,.232),vec3(.490,.428,.268),smoothstep(.25,.75,pmacro));
+    meadow=mix(meadow,vec3(.350,.345,.168),smoothstep(.44,.66,pmeso*.62+pmacro*.38)*mix(.8,.45,smoothstep(2.0,14.0,pfw)));
+    meadow*=.96+.08*pfine;
+    // Dry-brush streaks: the wash is laid in one direction and breaks up on the tooth of the paper.
+    vec2 pbrush=vec2(dot(pxz,vec2(.83,.56)),dot(pxz,vec2(-.56,.83)));
+    float streak=smoothstep(.56,.84,terraNoise(pbrush*vec2(.09,.9)))*(1.0-smoothstep(.25,1.6,pfw));
+    meadow*=1.0-.075*streak;
+    float pcrag=smoothstep(.24,.55,pslope+(pmeso-.5)*.2)*smoothstep(4.0,30.0,palt+pslope*60.0);
+    meadow=mix(meadow,vec3(.46,.43,.36),pcrag*.85);
+    // Streets, yards, plots and sand keep the hue of their documentary colour, lifted towards bare paper.
+    float pvalue=max(pbase.r,max(pbase.g,pbase.b));
+    vec3 trodden=mix(pbase/max(pvalue,.05),vec3(1.0),.35)*mix(.40,.52,smoothstep(.12,.5,pvalue))*(.97+.06*pfine);
+    float psand=1.0-smoothstep(.03,.12,distance(pbase,vec3(.591,.491,.283)));
+    float stipple=step(.83,terraHash(floor(pxz*2.6)))*(1.0-smoothstep(.10,.45,pfw));
+    trodden=mix(trodden,vec3(.535,.475,.33)*(1.0-.22*stipple),psand);
+    vec3 plate=mix(trodden,meadow,pland);
+    // Contour lines of the displayed surface: every metre close to, 5 m from a distance and 25 m on the range.
+    float pc1=palt,pc5=palt/5.0,pc25=palt/25.0;
+    float fine1=(1.0-smoothstep(0.0,1.2,abs(fract(pc1-.5)-.5)/max(fwidth(pc1),1e-5)))*(1.0-smoothstep(.7,2.0,pfw));
+    float fine5=(1.0-smoothstep(0.0,1.25,abs(fract(pc5-.5)-.5)/max(fwidth(pc5),1e-5)))*(1.0-smoothstep(2.5,8.0,pfw));
+    float fine25=(1.0-smoothstep(0.0,1.5,abs(fract(pc25-.5)-.5)/max(fwidth(pc25),1e-5)))*(1.0-smoothstep(9.0,30.0,pfw));
+    float contour=max(max(fine1*.5,fine5*.75),fine25)*pland*smoothstep(.8,2.2,palt-groundWaterLevel)*smoothstep(.002,.012,pslope);
+    plate=mix(plate,vec3(.24,.19,.12),contour*.36);
+    float pdepth=groundWaterLevel-palt;
+    // Strand: bare paper along the waterline, then the bed darkens under the blue wash.
+    plate=mix(plate,vec3(.60,.59,.55),(1.0-smoothstep(.0,.22,abs(pdepth+.06)))*(1.0-pland*.5)*.8);
+    if(pdepth>0.0)plate=mix(vec3(.50,.54,.50),vec3(.07,.21,.31),1.0-exp(-pdepth*1.4));
+    diffuseColor.rgb=plate;
+  }
+`;
+
 /** Replaces the vertex colour with soil, dry grass, scrub, rock, wet sand and seabed tones. */
 export const groundColorGLSL = /* glsl */`
-  if(groundRealismStrength>.5){
+  if(groundRealismStrength>.5&&groundRealismStrength<1.5){
     vec2 gxz=vGroundW.xz;
     float gfw=length(fwidth(gxz));
     float fadeFine=1.0-smoothstep(.25,1.4,gfw),fadeClump=1.0-smoothstep(2.5,14.0,gfw);
@@ -69,7 +116,7 @@ export const groundColorGLSL = /* glsl */`
 
 /** Small relief on dry land so raking light reads as rough earth instead of a painted plane. */
 export const groundNormalGLSL = /* glsl */`
-  if(groundRealismStrength>.5&&vGroundW.y>groundWaterLevel+.02){
+  if(groundRealismStrength>.5&&groundRealismStrength<1.5&&vGroundW.y>groundWaterLevel+.02){
     vec2 gp=vGroundW.xz;
     float gf=1.0-smoothstep(.12,.9,length(fwidth(gp)));
     if(gf>.01){

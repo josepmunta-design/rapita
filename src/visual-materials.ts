@@ -123,7 +123,7 @@ export function weatherMaterial(material: THREE.MeshStandardMaterial) {
       float weatherFbm(vec2 p){return weatherNoise(p)*.55+weatherNoise(p*2.1+9.0)*.30+weatherNoise(p*4.3+3.0)*.15;}
     ` + shader.fragmentShader;
     shader.fragmentShader = shader.fragmentShader.replace('#include <color_fragment>', `#include <color_fragment>
-      if(visualWeathering>.5){
+      if(visualWeathering>.5&&visualWeathering<1.5){
         vec3 wn=normalize(vWeatherN);
         float wall=smoothstep(.55,.9,1.0-abs(wn.y));
         // Unwrap walls along their own direction; flat faces use the plan position.
@@ -136,9 +136,23 @@ export function weatherMaterial(material: THREE.MeshStandardMaterial) {
         float tone=mix(.76,1.10,stain)*mix(1.0,.90+.16*streak,wall)*(.94+.12*speck);
         vec3 tint=mix(vec3(1.04,1.0,.93),vec3(.93,.96,.98),weatherNoise(uvw*.07+21.0));
         diffuseColor.rgb*=tone*tint;
+      }else if(visualWeathering>1.5){
+        // Plate: tile courses are ruled down the slope at a constant spacing on the sheet, like pen hatching.
+        vec3 pn=normalize(vWeatherN);
+        float pitch=abs(pn.y);
+        if(pitch>.3&&pitch<.97&&diffuseColor.r>diffuseColor.g*1.9){
+          vec2 fall=normalize(pn.xz);
+          float across=dot(vWeatherW.xz,vec2(-fall.y,fall.x)),aw=max(fwidth(across),1e-4);
+          float level=max(0.0,log2(5.5*aw/.62)),whole=floor(level),part=level-whole,gap=.62*exp2(whole);
+          float fa=fract(across/gap),fb=fract(across/(gap*2.0));
+          float ruleA=1.0-smoothstep(.45,1.15,min(fa,1.0-fa)*gap/aw),ruleB=1.0-smoothstep(.45,1.15,min(fb,1.0-fb)*gap*2.0/aw);
+          float rule=max(ruleB,ruleA*(1.0-part));
+          float course=weatherHash(vec2(floor(across/(gap*2.0)),7.0));
+          diffuseColor.rgb*=(1.0-.36*rule)*(.94+.12*course);
+        }
       }`);
   };
-  material.customProgramCacheKey = () => key + '-visual-weather-1'; material.needsUpdate = true;
+  material.customProgramCacheKey = () => key + '-visual-weather-3'; material.needsUpdate = true;
 }
 
 /** Swap only material properties, keeping mesh identity, phases and transforms intact. */
@@ -158,8 +172,9 @@ export function makeSurfaceStyles(root: THREE.Object3D | THREE.Object3D[], skip:
   });
   return {
     count: originals.size, weathered: aged,
-    set(realistic: boolean, anisotropy = 4) {
-      weathering.value = realistic ? 1 : 0;
+    /** `plate` keeps the documentary finishes and only rules the tile courses of the roofs. */
+    set(realistic: boolean, anisotropy = 4, plate = false) {
+      weathering.value = realistic ? 1 : plate ? 2 : 0;
       for (const set of leaves) set(realistic);
       for (const [m, original] of originals) {
         if (realistic) {
